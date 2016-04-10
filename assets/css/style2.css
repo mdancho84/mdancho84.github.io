@@ -1,0 +1,27 @@
+
+body {
+    padding-top: 100px;
+}
+
+
+.jumbotron {
+    position: relative;
+    background: #84c68c url("/images/chess-1215079_1280.jpg") top center; /* url("/images/Background.jpg") */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.jumbotron h1 {
+	font-size: 56px !important;
+}
+
+.homepage_jtron {
+	color: #fff  !important;
+
+}
+
+
+nav.navbar {
+  margin-top: 0px;

@@ -2,17 +2,15 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+	<div class="jumbotron">
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+	  		<h1 class="homepage_jtron">Welcome</h1>
+	  		<h1 class="homepage_jtron">to my</h1>
+	  		<h1 class="homepage_jtron">website</h1>
+		  	<p class="homepage_jtron">...a blog focusing on analytics and data science in real world applications</p>
+		  	<p><a class="btn btn-primary btn-lg" href="{{ site.baseurl }}blog/" role="button">See what's new</a></p>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+
+	</div>
+
