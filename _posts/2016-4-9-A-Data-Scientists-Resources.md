@@ -2,18 +2,17 @@
 layout: post
 title: A Data Scientist's Resources
 ---
-
+---------
 Getting up and running in data science is tough. It's easy to get overwhelmed, and your biggest asset is time (don't waste it). Here's some resources to help speed you along. I'll continually update these as I get time. Feel free to __comment__ or __[email](mailto:mdancho@gmail.com)__ me if I'm missing something.
 
 ### Data Science
+---------
 
 These are the best resources I've found to get you up and running quickly with analysis. The resources cover both programming and statistics.
 
-*	##### Pro's:
+*	##### Free Books from Profs and Pros that Know Their Stuff:
 
 	*	[Hadley Wickham's website](http://hadley.nz/) - Hadley has developed many of the most commonly used R packages and has several books (some free) and technical papers written on various topics.
-
-*	##### Free Books from Professors that Know Their Stuff:
 
 	*	[Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - Five stars. This is by no means an easy read, but is probably the best book I've read bridging the gap between statistical analysis and R. PDF is available on the website.
 
@@ -31,14 +30,15 @@ These are the best resources I've found to get you up and running quickly with a
 
 
 ### Tools of the Trade
+--------
 
-You need to be part programmer if you want to process data. These are the tools that I have found most useful.
+You need to be part programmer if you want to process and analyze data. These are the tools that I have found most useful.
 
 * 	##### R:
-	A language dedicated to statistics. Comes out of the box with everything you need to begin analyzing data. The real power is in the libraries R and in the free IDE RStudio. Has a huge community supporting it - Check out [R-Bloggers](http://www.r-bloggers.com/) if you don't believe me.
+	A language dedicated to statistics. Comes out of the box with everything you need to begin analyzing data. The real power is in the libraries R and in the open source IDE [RStudio](https://www.rstudio.com/products/rstudio/). Has a huge community supporting it - Check out [R-Bloggers](http://www.r-bloggers.com/) if you don't believe me. [RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/) help instead of remembering all the commands. The website I use for searching main packages is [rdocumentation.org](http://www.rdocumentation.org/), which has package categorization and searching (a necessity given the number of R packages out there). In writing this post, I yet found another good reference website for books and tutorials to get one up and running: [r-dir.com](https://r-dir.com/).
 
 * 	##### Python:
-	Fast, and ideal for big data applications. Also has a huge community of support and great libraries such as matplotlib, scikit-learn, numpy, and pandas. Probably one of the best IDE's (I think it's an IDE???) for learning is [jupyter notebooks](http://jupyter.org/). Before you get started, I recommend checking out [Anaconda's distribution](https://www.continuum.io/downloads) which comes with many of the most widely used packages pre-installed.
+	Fast, and ideal for big data applications. Also has a huge community of support and great libraries such as matplotlib, scikit-learn, numpy, and pandas. Probably one of the best IDE's (I think it's an IDE???) for learning is [Jupyter Notebooks](http://jupyter.org/). Before you get started, I recommend checking out [Anaconda's distribution](https://www.continuum.io/downloads), which comes with many of the most widely used packages pre-installed.
 
 *	##### Excel:
 	It may not be sexy, but it's great for visualizing and pivoting data. It has issues will larger datasets, some of which can be managed with powerpivots and powerqueries. Excel integrates nicely with relational databases.
@@ -48,4 +48,8 @@ You need to be part programmer if you want to process data. These are the tools 
 
 *	##### Git & Github:
 	Version control is key, which is where Git comes in. GitHub helps with the communication/collaboration aspects. And, this website is built on GitHub! You can [download it here](https://github.com/mdancho84/mdancho84.github.io).
+
+##### Now go forth and learn. Onward and upward.
+
+
 

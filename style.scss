@@ -287,3 +287,59 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
+
+// Nav bar help
+
+body {
+    padding-top: 100px;
+}
+
+
+// Home Page
+
+#home_jumbotron {
+    position: relative;
+    background: #000 url("/images/Portrait.jpg") top center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.jumbotron h1 {
+  font-size: 46px !important;
+}
+
+.homepage_jtron {
+  color: #fff  !important;
+
+}
+
+nav.navbar {
+  margin-top: 0px;
+}
+
+#backdrop {
+  background: rgba(51, 51, 51, .65);
+  border-radius: 5px;
+  padding: 5px 20px 5px 20px;
+}
+
+// About Page
+
+#about_jumbotron {
+    position: relative;
+    background: #000 url("/images/Portrait.jpg") top center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+
+
+
