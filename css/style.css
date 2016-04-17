@@ -176,6 +176,12 @@ aside .intro-text .skills {
   }
 }
 
+/*Lists*/
+
+li {
+  font-size: 20px;
+}
+
 /* Tables */
 
 /*table{
