@@ -1,0 +1,193 @@
+/*These are overrides to the Bootstrap Freelance less/css theme*/
+
+/* nav */
+
+body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+.wrapper {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  .wrapper {
+    padding-top: 0px;
+  }
+}
+
+/* Blog */
+
+h1 {
+  	font-size: 46px;
+  	margin-top: 80px;
+}
+
+h2 {
+	font-size: 36px;
+	margin-top: 60px;
+}
+
+h3 {
+  	font-size: 28px;
+  	margin-top: 60px;
+}
+
+h4 {
+  	font-size: 22px;
+  	margin-top: 40px;
+}
+
+h5 {
+	font-size: 18px;
+  	margin-top: 30px;
+}
+
+p {
+  margin: 15px 0;
+}
+
+#blog hr {
+  border-color: #2C3E50;
+}
+
+.date {
+  font-style: italic;
+  color: gray;
+}
+
+/* Defaul Layout - Footer h3 margin overide */
+
+.footer {
+	margin-top: 20px !important;
+}
+
+/* Homepage */
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+
+header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    /*color: rgba(255,255,255,.7);*/
+}
+
+@media(min-width:768px) {
+    header {
+        min-height: 1000px;
+    }
+
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+    header .header-content .header-content-inner p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;
+    }
+}
+
+aside {
+    padding: 50px 0;
+}
+
+aside {
+  text-align: center;
+  background: #18BC9C;
+  color: white;
+}
+aside .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+aside img {
+  display: block;
+  margin: 0 auto 20px;
+}
+aside .intro-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+aside .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+@media (min-width: 768px) {
+  aside container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  aside .intro-text .name {
+    font-size: 4.75em;
+  }
+  aside .intro-text .skills {
+    font-size: 1.75em;
+  }
+}
+
+/* Tables */
+
+/*table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    border:2px solid #ff0000;
+}
+
+th{
+    border:2px solid #000000;
+}
+
+td{
+    border:1px solid #000000;
+}*/

@@ -1,21 +1,45 @@
 ---
 layout: default
+title: Blog
 ---
+<section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Blog</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+            <ul style="list-style-position: inside">
+               {% for post in paginator.posts %}
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+                 <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                <div class="date">
+                  Written on {{ post.date | date: "%B %e, %Y" }}
+                </div>
+                <div class="entry">
+                  {{ post.excerpt }}
+                </div>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <div class="date">
-	    Written on {{ post.date | date: "%B %e, %Y" }}
-	  </div>
-
-      <div class="entry">
-        {{ post.excerpt }}
+               {% endfor %}
+            </ul>
+          </div>
+        </div>
       </div>
+</section>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
-    </article>
-  {% endfor %}
-</div>
+<nav>
+  <ul class="pager">
+    {% if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path }}">Previous</a></li>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path }}">Next</a></li>
+    {% endif %}
+  </ul>
+</nav>

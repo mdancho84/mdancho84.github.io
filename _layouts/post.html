@@ -1,17 +1,27 @@
 ---
 layout: default
 ---
+<article>
+	<section class="success" id="blog">
+	  <div class="text-center">
+	    <h1>{{ page.title }}</h1>
+	    <p>Written on {{ page.date | date: "%B %e, %Y" }}</p>
+	  </div>
+	</section>
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
+	<section id="blog">
+	  <div class="container">
+	    <div class="col-md-8 col-md-offset-2">
+	      {{ content }}
+	    </div>
+	  </div>
+	</section>
 
-  <div class="entry">
-    {{ content }}
-  </div>
 
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
+  	<div class="container">
+	  	<div class="col-md-8 col-md-offset-2">
+			{% include disqus.html disqus_identifier=page.disqus_identifier %}
+		</div>
+  	</div>
 
-  {% include disqus.html disqus_identifier=page.disqus_identifier %}
 </article>

@@ -2,8 +2,9 @@
 layout: post
 title: A Data Scientist's Resources
 ---
----------
+
 Getting up and running in data science is tough. It's easy to get overwhelmed, and your biggest asset is time (don't waste it). Here's some resources to help speed you along. I'll continually update these as I get time. Feel free to __comment__ or __[email](mailto:mdancho@gmail.com)__ me if I'm missing something.
+
 
 ### Data Science
 ---------
@@ -29,6 +30,7 @@ These are the best resources I've found to get you up and running quickly with a
 	*	[Data Science Specialization (John Hopkin's University)](https://www.coursera.org/specializations/jhu-data-science) - This course costs $423 as of April 9, 2016. It will set you back a bit, but the price is on the order of one credit-hour at a major institution... well worth it in my opinion. I've just finished the first two courses and so far it's good. The R Programming assignments help big time.
 
 
+
 ### Tools of the Trade
 --------
 
@@ -48,6 +50,9 @@ You need to be part programmer if you want to process and analyze data. These ar
 
 *	##### Git & Github:
 	Version control is key, which is where Git comes in. GitHub helps with the communication/collaboration aspects. And, this website is built on GitHub! You can [download it here](https://github.com/mdancho84/mdancho84.github.io).
+
+
+-----
 
 ##### Now go forth and learn. Onward and upward.
 
