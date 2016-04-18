@@ -16,36 +16,27 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                
+                <!-- Nav Links: Maintained in data/nav.csv -->
                 <ul class="nav navbar-nav navbar-right">
-				  {% for nav_item in site.data.nav %}
-				    <li {% if page.url == nav_item.link %} class="active" {% endif %}>
-				      <a href="{{ nav_item.link }}">{{ nav_item.name }}</a>
-				    </li>
-				  {% endfor %}
+    				{% for nav_item in site.data.nav %}
+    				<li {% if page.url == nav_item.link %} class="active" {% endif %}>
+    				    <a href="{{ nav_item.link }}">{{ nav_item.name }}</a>
+    				</li>
+    				{% endfor %}
+                  
+                    <!-- Search site using Google's index -->
+                    <li>
+                        <form class="navbar-form" role="search" method="get" action="http://google.com/search">
+                          <div class="form-group">
+                            <input type="hidden" name="q" value="site:mattdancho.com" />
+                            <input type="text" class="form-control search-query" name="q" placeholder="Search"/>
+                          </div>
+                          <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </li>
 				</ul>
-
-                <!--<ul class="nav navbar-nav navbar-right">
-
-					<li class="hidden">
-                        <a href="/"></a>
-                    </li>
-
-					{% if page.url == '/about.html' %} <li class="active"> {% else %} <li> {% endif %}
-                        <a href="/about.html">About</a>
-                    </li>
-
-					<li {% if page.url == "/blog/index.html" %} class="active" {% endif %}>
-					  <a href="/blog/">Blog</a>
-					</li>
-
-                    {% if page.url == '/portfolio.html' %} <li class="active"> {% else %} <li> {% endif %}
-                        <a href="/portfolio.html">Portfolio</a>
-                    </li>
-
-                    {% if page.url == '/contact.html' %} <li class="active"> {% else %} <li> {% endif %}
-                        <a href="/contact.html">Contact</a>
-                    </li>
-                </ul -->
+                
             </div>
             <!-- /.navbar-collapse -->
         </div>

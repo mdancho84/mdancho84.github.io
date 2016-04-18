@@ -3,8 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Matt Dancho
-
+name: mattdancho.com
+author:
+  name: Matt Dancho
+  email: mdancho@gmail.com
 
 # Short bio or description (displayed in the header)
 description: This is a personal website for Matt Dancho that includes a blog related to data science and analytics in business, investing and technology.
@@ -32,6 +34,7 @@ url: http://www.mattdancho.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# Pagination
 paginate: 5
 paginate_path: "/blog/page:num"
 
