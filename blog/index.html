@@ -16,15 +16,17 @@ title: Blog
           <div class="col-md-6 col-md-offset-3">
             <ul style="list-style-position: inside">
                {% for post in paginator.posts %}
+                <article>
 
-                 <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-                <div class="date">
-                  Written on {{ post.date | date: "%B %e, %Y" }}
-                </div>
-                <div class="entry">
-                  {{ post.excerpt }}
-                </div>
-
+                   <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                  <div class="date">
+                    Written on {{ post.date | date: "%B %e, %Y" }}
+                  </div>
+                  <div class="entry">
+                    {{ post.excerpt }}
+                  </div>
+                  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
+                </article>
                {% endfor %}
             </ul>
           </div>
