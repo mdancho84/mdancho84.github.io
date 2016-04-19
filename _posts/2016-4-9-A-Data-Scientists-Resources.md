@@ -1,7 +1,9 @@
 ---
 layout: post
 title: A Data Scientist's Resources
+author: Matt Dancho
 category: Technology
+tags: Code, R, Python, Excel, SQL
 ---
 
 Getting up and running in data science is tough. It's easy to get overwhelmed, and your biggest asset is time (don't waste it). Here's some resources to help speed you along. I'll continually update these as I get time. Feel free to __comment__ or __[email](mailto:mdancho@gmail.com)__ me if I'm missing something.
@@ -44,7 +46,7 @@ You need to be part programmer if you want to process and analyze data. These ar
 	Fast, and ideal for big data applications. Also has a huge community of support and great libraries such as matplotlib, scikit-learn, numpy, and pandas. Probably one of the best IDE's (I think it's an IDE???) for learning is [Jupyter Notebooks](http://jupyter.org/). Before you get started, I recommend checking out [Anaconda's distribution](https://www.continuum.io/downloads), which comes with many of the most widely used packages pre-installed.
 
 *	##### Excel:
-	It may not be sexy, but it's great for visualizing and pivoting data. It has issues will larger datasets, some of which can be managed with powerpivots and powerqueries. Excel integrates nicely with relational databases.
+	It may not be sexy, but it's great for visualizing and pivoting data. It has issues will larger datasets, some of which can be managed with powerpivots and powerqueries. Excel integrates nicely with relational databases. A great reference for Excel with lots of good tutorials is [Chandoo.org](http://chandoo.org/wp/welcome/). Chandoo is amazing, and his website is a will help you "become awesome in excel". I use it a ton.
 
 *	##### Databases (SQL / MS Access / MySQL):
 	You need a way to collect data. Databases are the key.
