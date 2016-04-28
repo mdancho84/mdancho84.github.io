@@ -11,12 +11,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/">Matt Dancho</a>
+                <a class="navbar-brand" href="/">Analytics</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                
+
                 <!-- Nav Links: Maintained in data/nav.csv -->
                 <ul class="nav navbar-nav navbar-right">
     				{% for nav_item in site.data.nav %}
@@ -24,7 +24,7 @@
     				    <a href="{{ nav_item.link }}">{{ nav_item.name }}</a>
     				</li>
     				{% endfor %}
-                  
+
                     <!-- Search site using Google's index -->
                     <li>
                         <form class="navbar-form" role="search" method="get" action="http://google.com/search">
@@ -36,7 +36,7 @@
                         </form>
                     </li>
 				</ul>
-                
+
             </div>
             <!-- /.navbar-collapse -->
         </div>

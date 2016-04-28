@@ -2,8 +2,8 @@
 layout: post
 title: A Data Scientist's Resources
 author: Matt Dancho
-category: Technology
-tags: Code, R, Python, Excel, SQL
+category: [Technology]
+tags: [Code, R, Python, Excel, SQL]
 ---
 
 Getting up and running in data science is tough. It's easy to get overwhelmed, and your biggest asset is time (don't waste it). Here's some resources to help speed you along. I'll continually update these as I get time. Feel free to __comment__ or __[email](mailto:mdancho@gmail.com)__ me if I'm missing something.
@@ -58,8 +58,6 @@ You need to be part programmer if you want to process and analyze data. These ar
 *	#### Git & Github:
 	Version control is key, which is where Git comes in. GitHub helps with the communication/collaboration aspects. And, this website is built on GitHub! You can [download it here](https://github.com/mdancho84/mdancho84.github.io).
 
-
------
 
 ## Now go forth and learn. Onward and upward.
 

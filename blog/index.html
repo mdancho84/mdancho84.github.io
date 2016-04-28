@@ -2,33 +2,22 @@
 layout: default
 title: Blog
 ---
-<section id="blog">
+<section  id="blog">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Blog</h2>
+                <h1>Blog</h1>
                 <hr>
             </div>
         </div>
     </div>
 
-    <!-- List Posts by Tag
-    {% for tag in site.tags %}
-      {% assign t = tag | first %}
-      {% assign posts = tag | last %}
-
-    {{ t | downcase }}
-    <ul>
-    {% for post in posts %}
-      {% if post.tags contains t %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <span class="date">{{ post.date | date: "%B %-d, %Y"  }}</span>
-      </li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-    {% endfor %} -->
+    <nav>
+      <ul class=pager>
+        <li><a href="{{ site.baseurl }}/categories/"><i class="fa fa-list" aria-hidden="true"></i> By Category</a></li>
+        <li><a href="{{ site.baseurl }}/tags/"><i class="fa fa-tags" aria-hidden="true"></i> By Tag</a></li>
+      </ul>
+    </nav>
 
     <div class="container">
         <div class="row">
@@ -36,7 +25,7 @@ title: Blog
               <ul style="list-style-position: inside">
                  {% for post in paginator.posts %}
                   <article>
-                      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
                       <div class="date">
                         Written on {{ post.date | date: "%B %e, %Y" }}
                       </div>
@@ -55,11 +44,11 @@ title: Blog
 <nav>
   <ul class="pager">
     {% if paginator.previous_page %}
-      <li><a href="{{ paginator.previous_page_path }}">Previous</a></li>
+      <li><a href="{{ paginator.previous_page_path }}"><i class="fa fa-arrow-circle-left"></i> Previous</a></li>
     {% endif %}
 
     {% if paginator.next_page %}
-      <li><a href="{{ paginator.next_page_path }}">Next</a></li>
+      <li><a href="{{ paginator.next_page_path }}">Next <i class="fa fa-arrow-circle-right"></i></a></li>
     {% endif %}
   </ul>
 </nav>

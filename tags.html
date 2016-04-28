@@ -1,0 +1,62 @@
+---
+layout: default
+title: Tags
+permalink: /tags/
+---
+<section id="blog">
+  <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>Tags</h1>
+                <!-- Tags listed horizontally -->
+                <ul class="tag-cloud">
+                {% for tag in site.tags %}
+                  <li>
+                    <a href="#{{ tag | first | slugize }}">
+                      {{ tag | first }}
+                    </a>
+                  </li>
+                {% endfor %}
+                </ul>
+                <hr>
+            </div>
+        </div>
+  </div>
+
+  <!-- Navigation for blog, tag, categories -->
+  <nav>
+      <ul class=pager>
+        <li><a href="{{ site.baseurl }}/blog/"><i class="fa fa-book" aria-hidden="true"></i> Blog</a></li>
+        <li><a href="{{ site.baseurl }}/categories/"><i class="fa fa-list" aria-hidden="true"></i> By Category</a></li>
+      </ul>
+    </nav>
+
+  <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+
+          <!-- articles by tag listed in body of the page -->
+          <div id="archives">
+          {% for tag in site.tags %}
+              <div class="archive-group">
+                {% capture tag_name %}{{ tag | first }}{% endcapture %}
+                <div id="#{{ tag_name | slugize }}">
+                  <div class = "container">
+                      <h3 >{{ tag_name }}</h3>
+                      <a class="anchor" name="{{ tag_name | slugize }}"></a>
+                      {% for post in site.tags[tag_name] %}
+                      <article class="archive-item">
+                        <h5><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h5>
+                      </article>
+                      {% endfor %}
+                  </div>
+                </div>
+              </div>
+          {% endfor %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+</section>

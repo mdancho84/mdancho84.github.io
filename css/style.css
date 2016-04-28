@@ -41,7 +41,7 @@ h4 {
 }
 
 h5 {
-	font-size: 18px !important;
+	  font-size: 18px !important;
   	margin-top: 30px !important;
 }
 
@@ -63,6 +63,10 @@ p {
     font-size: 20px !important;
 
   }
+
+.pager li a {
+  width: 180px;
+}
 
 /* Defaul Layout - Footer h3 margin overide */
 
@@ -186,3 +190,81 @@ li {
   font-size: 20px;
 }
 
+/*images*/
+
+#blog p > img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*Page Navigation*/
+
+.PageNavigation {
+  margin-top: 40px;
+  font-size: 18px;
+  display: block;
+  width: auto;
+  text-align: left;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+  width: 50%;
+}
+
+/*Blogs by Tag Page*/
+
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+  vertical-align: middle;
+
+}
+.tag-cloud li {
+    display: inline-block;
+    margin: 0 12px 12px 0;
+    font-size: 15px;
+}
+
+#archives {
+  padding: 5px;
+}
+.archive-group {
+  margin: 5px;
+  border-top: 1px solid #ddd;
+}
+.archive-item {
+  margin-left: 5px;
+}
+.post-tags {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-tags li {
+  display: inline;
+  font-size: 15px;
+}
+
+.post-tags a {
+  color: #FFF !important;
+}
+
+/*Fix anchor position for id's used in smooth scroll*/
+.anchor {
+    display: block;
+    position: relative;
+    top: -175px;
+    visibility: hidden;
+}
