@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Data Scientist's Resources
+title: "A Data Scientist's Resources"
 author: Matt Dancho
 category: [Technology]
 tags: [Code, R, Python, Excel, SQL]
@@ -47,16 +47,16 @@ You need to be part programmer if you want to process and analyze data. These ar
 	A language dedicated to statistics. Comes out of the box with everything you need to begin analyzing data. The real power is in the libraries R and in the open source IDE [RStudio](https://www.rstudio.com/products/rstudio/). Has a huge community supporting it - Check out [R-Bloggers](http://www.r-bloggers.com/) if you don't believe me. [RStudio's cheatsheets](https://www.rstudio.com/resources/cheatsheets/) help instead of remembering all the commands. The website I use for searching main packages is [rdocumentation.org](http://www.rdocumentation.org/), which has package categorization and searching (a necessity given the number of R packages out there). In writing this post, I yet found another good reference website for books and tutorials to get one up and running: [r-dir.com](https://r-dir.com/).
 
 * 	#### Python:
-	Fast, and ideal for big data applications. Also has a huge community of support and great libraries such as matplotlib, scikit-learn, numpy, and pandas. Probably one of the best IDE's (I think it's an IDE???) for learning is [Jupyter Notebooks](http://jupyter.org/). Before you get started, I recommend checking out [Anaconda's distribution](https://www.continuum.io/downloads), which comes with many of the most widely used packages pre-installed.
+	Fast, and ideal for big data applications. Also has a huge community of support and great libraries such as `matplotlib`, `scikit-learn`, `numpy`, and `pandas`. Probably one of the best IDE's (I think it's an IDE???) for learning is [Jupyter Notebooks](http://jupyter.org/). Before you get started, I recommend checking out [Anaconda's distribution](https://www.continuum.io/downloads), which comes with many of the most widely used packages pre-installed.
 
 *	#### Excel:
 	It may not be sexy, but it's great for visualizing and pivoting data. It has issues will larger datasets, some of which can be managed with powerpivots and powerqueries. `Excel` integrates nicely with relational databases. A great reference for Excel with lots of good tutorials is [Chandoo.org](http://chandoo.org/wp/welcome/). Chandoo is amazing, and his website is a will help you "become awesome in excel". I use it a ton.
 
 *	#### Databases (SQL / MS Access / MySQL):
-	You need a way to collect data. Databases are the key. For those interested in SQL, a free tutorial/book is [Learn SQL the Hard Way](http://sql.learncodethehardway.org/book/).
+	You need a way to collect data. Databases are the key. For those interested in `SQL`, a free tutorial/book is [Learn SQL the Hard Way](http://sql.learncodethehardway.org/book/).
 
 *	#### Git & Github:
-	Version control is key, which is where Git comes in. GitHub helps with the communication/collaboration aspects. And, this website is built on GitHub! You can [download it here](https://github.com/mdancho84/mdancho84.github.io).
+	Version control is key, which is where `Git` comes in. GitHub helps with the communication/collaboration aspects. And, this website is built on GitHub! You can [download it here](https://github.com/mdancho84/mdancho84.github.io).
 
 
 ## Now go forth and learn. Onward and upward.

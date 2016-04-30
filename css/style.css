@@ -66,6 +66,7 @@ p {
 
 .pager li a {
   width: 180px;
+  margin: 5px;
 }
 
 /* Defaul Layout - Footer h3 margin overide */
