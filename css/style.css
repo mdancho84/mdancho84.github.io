@@ -53,6 +53,10 @@ p {
   border-color: #2C3E50;
 }
 
+.post {
+  max-width: 100%;
+}
+
 .date {
   font-style: italic;
   color: gray;
