@@ -6,6 +6,8 @@ category: [Technology]
 tags: [Code, R, Python, Excel, SQL]
 ---
 
+![Navigating Data Science]({{ site.baseurl }}/assets/sextant.jpg)
+
 Getting up and running in data science is tough. It's easy to get overwhelmed, and your biggest asset is time (don't waste it). Here's some resources to help speed you along. I'll continually update these as I get time. Feel free to __comment__ or __[email](mailto:mdancho@gmail.com)__ me if I'm missing something.
 
 

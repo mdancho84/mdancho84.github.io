@@ -250,6 +250,19 @@ li {
   width: 50%;
 }
 
+.shadow {
+  -moz-box-shadow:    10px 10px 10px 0px #ccc;
+  -webkit-box-shadow: 10px 10px 10px 0px #ccc;
+  box-shadow:         10px 10px 10px 0px #ccc;
+}
+@media (max-width: 768px) {
+  .shadow {
+    -moz-box-shadow:    5px 5px 5px 0px #ccc;
+    -webkit-box-shadow: 5px 5px 5px 0px #ccc;
+    box-shadow:         5px 5px 5px 0px #ccc;
+  }
+}
+
 /*Blogs by Tag/Categories Page*/
 
 #tag_cat li {
