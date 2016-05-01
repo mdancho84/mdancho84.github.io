@@ -1,6 +1,17 @@
 body {
   overflow-x: hidden;
+  width: 100%;
 }
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+}
+
 p {
   font-size: 20px;
 }

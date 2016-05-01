@@ -87,6 +87,11 @@ p {
   margin: 5px;
 }
 
+header #blog .container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 /* Defaul Layout - Footer h3 margin overide */
 
 .footer {
@@ -101,6 +106,10 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
+
+}
+
+#homepage {
     background-image: url(../img/header.jpg);
     background-position: center;
     -webkit-background-size: cover;
@@ -114,6 +123,8 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
+
+
 }
 
 header .header-content .header-content-inner h1 {
@@ -135,7 +146,7 @@ header .header-content .header-content-inner p {
 }
 
 @media(min-width:768px) {
-    header {
+    #homepage {
         min-height: 1000px;
     }
 

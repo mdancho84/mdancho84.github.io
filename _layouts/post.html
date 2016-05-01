@@ -1,19 +1,24 @@
 ---
 layout: default
 ---
-
+<header id="header" class="">
 	<section class="success" id="blog">
-	  <div class="row">
-	  	<div class="col-lg-12 text-center">
-	  		<div class="text-center">
-			    <h1>{{ page.title }}</h1>
-			    <p>Written on {{ page.date | date: "%B %e, %Y" }}</p>
-			    <p>{% include post-categories.html %}</p>
-			    <p>{% include post-tags.html %}</p>
+		<div class= "container">
+			<div class="row">
+			  	<div class="col-lg-12 text-center">
+			  		<div class="text-center">
+					    <h1>{{ page.title }}</h1>
+					    <p>Written on {{ page.date | date: "%B %e, %Y" }}</p>
+					    <p>{% include post-categories.html %}</p>
+					    <p>{% include post-tags.html %}</p>
+					</div>
+			  	</div>
 			</div>
-	  	</div>
-	  </div>
+
+		</div>
 	</section>
+</header><!-- /header -->
+
 
 	<section id="blog">
 	  <div class="container">
