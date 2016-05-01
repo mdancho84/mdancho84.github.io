@@ -56,6 +56,20 @@ p {
 .date {
   font-style: italic;
   color: gray;
+  font-size: 18px;
+}
+
+.add-margin-25 {
+  margin-top: 25px;
+}
+
+@media (max-width: 768px) {
+  .add-margin-25 {
+    margin-top: 0px;
+    float: left !important;
+    font-size: 16px !important;
+
+  }
 }
 
 .read-more {
@@ -221,7 +235,11 @@ li {
   width: 50%;
 }
 
-/*Blogs by Tag Page*/
+/*Blogs by Tag/Categories Page*/
+
+#tag_cat li {
+  display: inline;
+}
 
 .tag-cloud {
   list-style: none;
@@ -268,4 +286,11 @@ li {
     position: relative;
     top: -175px;
     visibility: hidden;
+}
+
+
+/*Success Page*/
+
+.icon-green {
+  color: #18BC9C;
 }

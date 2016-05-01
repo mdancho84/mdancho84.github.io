@@ -8,16 +8,18 @@ permalink: /categories/
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>categories</h1>
-                <!-- categories listed horizontally -->
-                <ul class="tag-cloud">
-                {% for category in site.categories %}
-                  <li>
-                    <a href="#{{ category | first | slugize }}">
-                      {{ category | first }}
-                    </a>
-                  </li>
-                {% endfor %}
-                </ul>
+
+                  <!-- categories listed horizontally -->
+                  <ul class="tag-cloud">
+                  {% for category in site.categories %}
+                    <li>
+                      <a href="#{{ category | first | slugize }}">
+                        {{ category | first }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                  </ul>
+
                 <hr>
             </div>
         </div>
@@ -33,7 +35,7 @@ permalink: /categories/
 
   <div class="container">
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">
+        <div class="col-md-10 col-md-offset-1">
 
           <!-- articles by category listed in body of the page -->
           <div id="archives">
@@ -45,10 +47,23 @@ permalink: /categories/
                       <h3 >{{ category_name }}</h3>
                       <a class="anchor" name="{{ category_name | slugize }}"></a>
                       {% for post in site.categories[category_name] %}
+
                       <article class="archive-item">
-                        <h5><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h5>
+                        <div class="row">
+                          <div class="col-md-9">
+                            <ul id="tag_cat">
+                              <li><h5 class="pull-left"><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h5></li>
+                              <li>
+                                <div class="date pull-right add-margin-25">
+                                Written on {{ post.date | date: "%B %e, %Y" }}
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
                       </article>
                       {% endfor %}
+
                   </div>
                 </div>
               </div>
