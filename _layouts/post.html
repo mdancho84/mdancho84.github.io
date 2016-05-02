@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Post
 ---
 <header id="header" class="">
 	<section class="success" id="blog">
@@ -23,7 +24,9 @@ layout: default
 	<section id="blog">
 	  <div class="container" id="blog_content">
 	    <div class="col-md-8 col-md-offset-2">
-	      {{ content }}
+      		<p><img class= "shadow" src="/assets/{{page.image}}"></p>
+      		<hr class="margin-bottom-40">
+	    	{{ content }}
 	    </div>
 	  </div>
 

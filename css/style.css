@@ -53,6 +53,10 @@ p {
   border-color: #2C3E50;
 }
 
+blockquote {
+  color:  #B0B0B0;
+}
+
 .post {
   max-width: 100%;
 }
@@ -65,6 +69,10 @@ p {
 
 .add-margin-25 {
   margin-top: 25px;
+}
+
+.margin-bottom-40 {
+ margin-bottom: 40px;
 }
 
 @media (max-width: 768px) {

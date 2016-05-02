@@ -4,11 +4,18 @@ title: "A Data Scientist's Resources"
 author: Matt Dancho
 category: [Technology]
 tags: [Code, R, Python, Excel, SQL]
+image: sextant.jpg
 ---
 
-![Navigating Data Science]({{ site.baseurl }}/assets/sextant.jpg)
 
 Getting up and running in data science is tough. It's easy to get overwhelmed, and your biggest asset is time (don't waste it). Here's some resources to help speed you along. I'll continually update these as I get time. Feel free to __comment__ or __[email](mailto:mdancho@gmail.com)__ me if I'm missing something.
+
+> __About the photo:__
+> A sextant is a device used in navigation. By measuring the angle between
+> the horizon and the stars, one can determine a ships course. *Data science* can be used in much the same way.
+> By applying data science concepts, one can develop strategies that set the direction of an organization.
+>
+> -Matt
 
 
 ## Data Science
