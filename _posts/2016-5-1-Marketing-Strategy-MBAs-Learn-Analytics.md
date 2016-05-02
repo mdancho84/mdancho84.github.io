@@ -93,7 +93,7 @@ What promotional channels have the biggest impact? Are there interaction effects
 ## Additional Resources:
 -----
 
-I hope now you understand the implication of analytics in a business, and how the MBA can use this to add value to the organization. To keep it the knowledge transfer going, here are a few resources:
+I hope you now understand the implication of analytics in a business and how the MBA can use this to add value by leveling up in data science. To keep the knowledge transfer going, here are a few resources:
 
 * [Comparing Analytics and Data Science](https://onlinebusiness.american.edu/blog/comparing-analytics-data-science/)
 
