@@ -20,7 +20,9 @@ My background is primarily in manufacturing, which is where I will have seen the
 
 Companies have massive datasets of sales information stored in ERP and other relational databases.  ERP systems (e.g. Oracle, SAP) are great at keeping operational data tracked and managed, but fail at presenting the information in useful ways. This is where the market for CRM developed, which has become a [$24B market as of 2014 according to crmsearch.com](http://www.crmsearch.com/crm-market-share.php). Further, the market for CRM continues to surge at a 15% annual growth rate. This all adds up to one thing: a massive need to analyze data.
 
-CRM tools exist to help analyze these datasets. Customer trends can be subset, filtered, aggregated, and more as fast as you can click your mouse. However, tools like [Salesforce]( https://www.salesforce.com/) while amazingly powerful have limitations. These tools are primarily useful for dashboards. While great for visualizations to see what is happening historically and to summarize mass information, dashboards are typically not useful for true, in-depth analysis. ___Organizations need to think beyond CRM___. This is where the data analyst comes in.
+CRM tools exist to help analyze these datasets. Customer trends can be subset, filtered, aggregated, and more as fast as you can click your mouse. However, tools like [Salesforce]( https://www.salesforce.com/) while amazingly powerful have limitations. These tools are primarily useful for dashboards. While great for visualizations to see what is happening historically and to summarize mass information, dashboards are typically not useful for true, in-depth analysis. ___Organizations need to think beyond CRM___.
+
+This is where the data analyst comes in.
 
 ## The Solution:
 -----
@@ -34,7 +36,7 @@ MBA professionals can and should learn analytics because the tools get results a
 Companies want individuals with analytical skills. According to [indeed.com](http://www.indeed.com/), on a relative basis the job postings for Data Scientists have grown over ___1700%___ from 2012 to 2016.
 
 ![Data Scientist Job Trends]({{ site.baseurl }}/assets/data_science_trends.jpg)
-<p class="text-center date">Source: indeed.com</p>
+<p class="text-center date">Source: <a href="http://www.indeed.com/">indeed.com</a></p>
 
 While this constitutes all "Data Scientists" including those involved in machine learning, big data, and other computational disciplines, it shows the increasing trends for businesses to ___invest___ in individuals with backgrounds in analytics.
 
@@ -67,7 +69,7 @@ Ok, so what can you do with analytics?
 ## Application Examples:
 -----
 
-Alex Jones in his post entitled, _"Data Science: Bridging the Business & IT Gap"_ developed a basic framework for business problems:
+Alex Jones in his post entitled, _["Data Science: Bridging the Business & IT Gap"](https://www.linkedin.com/pulse/20140625043146-111366377-data-science-bridging-the-business-it-gap)_ developed a basic framework for business problems:
 
 ![Business Problem Framework](https://media.licdn.com/mpr/mpr/shrinknp_800_800/p/5/005/06d/039/10c2a43.jpg)
 <p class="text-center date">Source: <a href="https://www.linkedin.com/pulse/20140625043146-111366377-data-science-bridging-the-business-it-gap">Data Science: Bridging the Business & IT Gap</a></p>
@@ -91,7 +93,7 @@ What promotional channels have the biggest impact? Are there interaction effects
 ## Additional Resources:
 -----
 
-I hope now you have understand the implication of analytics on a business, and how the MBA can use this to add value to the organization. To keep it the knowledge transfer going, here are a few resources:
+I hope now you understand the implication of analytics in a business, and how the MBA can use this to add value to the organization. To keep it the knowledge transfer going, here are a few resources:
 
 * [Comparing Analytics and Data Science](https://onlinebusiness.american.edu/blog/comparing-analytics-data-science/)
 
