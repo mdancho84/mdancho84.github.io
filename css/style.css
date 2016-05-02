@@ -259,12 +259,14 @@ li {
 }
 
 .shadow {
+  border: 2px solid #ccc;
   -moz-box-shadow:    10px 10px 10px 0px #ccc;
   -webkit-box-shadow: 10px 10px 10px 0px #ccc;
   box-shadow:         10px 10px 10px 0px #ccc;
 }
 @media (max-width: 768px) {
   .shadow {
+    border: 1px solid #ccc;
     -moz-box-shadow:    5px 5px 5px 0px #ccc;
     -webkit-box-shadow: 5px 5px 5px 0px #ccc;
     box-shadow:         5px 5px 5px 0px #ccc;

@@ -7,6 +7,7 @@ $( document ).ready(function() {
 	// Centers blog images
 	$('#blog p > img').addClass('img-responsive center-block');
 
+	$('#blog_content').find('img').addClass('shadow');
 });
 
 
