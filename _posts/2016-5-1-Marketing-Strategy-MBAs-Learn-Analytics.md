@@ -33,7 +33,7 @@ MBA professionals can and should learn analytics because the tools get results a
 
 Companies want individuals with analytical skills. According to [indeed.com](http://www.indeed.com/), on a relative basis the job postings for Data Scientists have grown over ___1700%___ from 2012 to 2016.
 
-![Data Scientist Job Trends](/assets/data_science_job_trends.jpg)
+![Data Scientist Job Trends]({{ site.url }}/assets/data_science_job_trends.jpg)
 <p class="text-center date">Source: indeed.com</p>
 
 While this constitutes all "Data Scientists" including those involved in machine learning, big data, and other computational disciplines, it shows the increasing trends for businesses to ___invest___ in individuals with backgrounds in analytics.
