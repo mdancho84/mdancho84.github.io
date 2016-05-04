@@ -9,6 +9,7 @@ body {
   }
 }
 
+/*fix padding to shift start of screen down*/
 .wrapper {
   padding-top: 60px;
 }
@@ -16,6 +17,16 @@ body {
   .wrapper {
     padding-top: 0px;
   }
+}
+
+/*fix navbar float on collapse*/
+.navbar-nav {
+    margin: 0;
+    padding: 7.5px 15px;
+}
+
+#inline {
+  display: inline-block;
 }
 
 /* Blog */
