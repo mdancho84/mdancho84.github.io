@@ -3,7 +3,7 @@ layout: post
 title: "Marketing Strategy: Why MBAs Can Benefit from Learning Analytics"
 author: Matt Dancho
 category: [Business]
-tags: [MBA, CRM, Salesforce, BI, Marketing, Strategy]
+tags: [MBA, CRM, Salesforce, Sales Data Scientist, BI, Marketing, Strategy]
 image: digital_woman.jpg
 ---
 
@@ -62,7 +62,7 @@ How do you get your boss to make a strategic decision? ___Data!___ Of course I'm
 
 A huge challenge is speaking stats to non-quantitative business professionals (NQBP). NQBPs know competitive dynamics, live for SWOT analyses, and love to present on _[insert business matrix of the day]_. While these are very important skills to have, the current business environment requires businesses to not only view strategy from traditional competitive frameworks (e.g. Porter's Five Forces), but also to leverage the massive datasets these companies have built over years of tracking sales, operations, and customers.
 
-___MBAs are great at analyzing and communicating___. The life of a business professional revolves around meetings, presentations, and reports. By adding data science to your toolbox, you can bring an extra ability to communicate complex subjects in understandable ways to others in the organization that may not be as quantitative. Also, you can help team up with the quants to lend on each other's natural abilities.
+MBAs are great at analyzing and communicating. The life of a business professional revolves around meetings, presentations, and reports. By adding data science to your toolbox, you can bring an extra ability to communicate complex subjects in understandable ways to others in the organization that may not be as quantitative. Also, you can help team up with the quants to lend on each other's natural abilities.
 
 Ok, so what can you do with analytics?
 
