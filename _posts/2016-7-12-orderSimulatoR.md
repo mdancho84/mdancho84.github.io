@@ -28,9 +28,9 @@ I'll briefly go through each using the bikes data set. The code below loads the 
 {% highlight r %}
 library(xlsx)   # Used to read bikes data set
 customers <- read.xlsx("./data/bikeshops.xlsx", sheetIndex = 1)
-products <- read.xlsx("./data/bikes.xlsx", sheetIndex = 1) 
-customerProductProbs <- read.xlsx("./data/customer_product_interactions.xlsx", 
-                                  sheetIndex = 1, 
+products <- read.xlsx("./data/bikes.xlsx", sheetIndex = 1)
+customerProductProbs <- read.xlsx("./data/customer_product_interactions.xlsx",
+                                  sheetIndex = 1,
                                   startRow = 15)
 customerProductProbs <- customerProductProbs[,-(2:12)]  # Remove unnecessary columns
 {% endhighlight %}
@@ -78,7 +78,7 @@ kable(head(products))
 
 ### Customer-Product Interactions
 
-The customer-products interactions is a matrix that links the probability of a customer purchasing a product. The scripts use this matrix to assign products to orders. Development of the probabilities are critical as these will be what create the customer trends in the data. It's a good idea to check out the excel spreadsheet, `customer_product_interactions.xlsx`, which goes into detail on how to add trends into the customer-product interaction probabilities. For the bikes data set, the customers each had a preference for bike style (Road, Mountain, or Any) and a price range (high, medium, and low). The excel functions assign various probabilities based on how the customer preferences match the product features. A few important points: 
+The customer-products interactions is a matrix that links the probability of a customer purchasing a product. The scripts use this matrix to assign products to orders. Development of the probabilities are critical as these will be what create the customer trends in the data. It's a good idea to check out the excel spreadsheet, `customer_product_interactions.xlsx`, which goes into detail on how to add trends into the customer-product interaction probabilities. For the bikes data set, the customers each had a preference for bike style (Road, Mountain, or Any) and a price range (high, medium, and low). The excel functions assign various probabilities based on how the customer preferences match the product features. A few important points:
 
 1. Product id must be the first column
 2. All subsequent columns should be the customers in order of customer id from 1 to the last customer id.
@@ -103,7 +103,7 @@ kable(head(round(customerProductProbs[,1:6], 3), 5))
 
 ## Creating Customer Orders
 
-Once the customer, product and customer-product interaction data frames are finished, you are ready to create orders. The first thing you'll need is to load the scripts. 
+Once the customer, product and customer-product interaction data frames are finished, you are ready to create orders. The first thing you'll need is to load the scripts.
 
 
 
@@ -123,7 +123,7 @@ First, we'll create the orders and lines using the `createOrdersAndLines` functi
 {% highlight r %}
 orders <- orders <- createOrdersAndLines(n = 2000, maxLines = 30, rate = 1)
 
-# Various order attributes 
+# Various order attributes
 length(unique(orders$order.id)) # Number of orders
 {% endhighlight %}
 
@@ -171,8 +171,8 @@ Orders typically have a date recorded so the orders can be tracked by time perio
 
 
 {% highlight r %}
-orders <- createDatesFromOrders(orders, 
-                                startYear = 2011, 
+orders <- createDatesFromOrders(orders,
+                                startYear = 2011,
                                 yearlyOrderDist = c(.16, .18, .22, .20, .24))
 kable(head(orders))
 {% endhighlight %}
@@ -207,7 +207,7 @@ kable(tail(orders))
 
 ### Step 3: Assign Customers to Orders
 
-Next, we'll assign customers to orders using the `assignCustomersToOrders` function. The parameters needed are the `orders` and `customers` data frames, and the `rate`, which is a parameter that controlls the distribution of orders to customers. The below orders now have dates.  
+Next, we'll assign customers to orders using the `assignCustomersToOrders` function. The parameters needed are the `orders` and `customers` data frames, and the `rate`, which is a parameter that controlls the distribution of orders to customers. The below orders now have dates.
 
 
 {% highlight r %}
@@ -249,7 +249,7 @@ kable(head(orders))
 
 ### Step 5: Assign Quantities to Order Lines
 
-In the last step, we assign quantities to the order lines. The `maxQty` parameter limits the number of products on a order line. The `rate` parameter controls the probability for line quantites. A value of 3 places an 83.5% probability on a line quantity of 1, whereas a line quantity of 10 has a 0.08% probability. 
+In the last step, we assign quantities to the order lines. The `maxQty` parameter limits the number of products on a order line. The `rate` parameter controls the probability for line quantites. A value of 3 places an 83.5% probability on a line quantity of 1, whereas a line quantity of 10 has a 0.08% probability.
 
 
 {% highlight r %}
@@ -280,7 +280,7 @@ orders.extended <- merge(orders.extended, products, by.x = "product.id", by.y = 
 library(dplyr)
 orders.extended <- orders.extended %>%
         mutate(price.extended = price * quantity) %>%
-        select(order.date, order.id, order.line, bikeshop.name, model, 
+        select(order.date, order.id, order.line, bikeshop.name, model,
                quantity, price, price.extended, category1, category2, frame) %>%
         arrange(order.id, order.line)
 
@@ -317,7 +317,7 @@ g <- ggplot(salesByYear, aes(x=year, y=total.sales)) +
 g
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-15](figure/source/2016-7-12-orderSimulatoR/unnamed-chunk-15-1.png)
+![plot of chunk unnamed-chunk-15]({{ baseurl }}/figure/source/2016-7-12-orderSimulatoR/unnamed-chunk-15-1.png)
 
 {% highlight r %}
 # set.seed(100)
