@@ -182,7 +182,7 @@ salesByYear <- orders.extended %>%
 
 g <- ggplot(salesByYear, aes(x=year, y=total.sales)) +
   geom_bar(stat="identity")
-ggplotly(g)
+g
 
 # set.seed(100)
 # d <- diamonds[sample(nrow(diamonds), 1000), ]
