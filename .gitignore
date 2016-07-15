@@ -12,3 +12,6 @@ package.json
 .Rhistory
 .RData
 .httr-oauth
+.Rproj
+_source
+_cache

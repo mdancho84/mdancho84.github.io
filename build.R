@@ -1,7 +1,7 @@
 local({
   # fall back on '/' if baseurl is not specified
   baseurl = servr:::jekyll_config('.', 'baseurl', '/')
-  knitr::opts_knit$set(base.url = baseurl)
+  knitr::opts_knit$set(base.url = "/")
   # fall back on 'kramdown' if markdown engine is not specified
   markdown = servr:::jekyll_config('.', 'markdown', 'kramdown')
   # see if we need to use the Jekyll render in knitr
@@ -12,6 +12,8 @@ local({
   # input/output filenames are passed as two additional arguments to Rscript
   a = commandArgs(TRUE)
   d = gsub('^_|[.][a-zA-Z]+$', '', a[1])
+
+
   knitr::opts_chunk$set(
     fig.path   = sprintf('figure/%s/', d),
     cache.path = sprintf('cache/%s/', d)

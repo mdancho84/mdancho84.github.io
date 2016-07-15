@@ -173,21 +173,21 @@ Great. Now this finally looks like orders data that could be retrieved from an E
 
 If you've followed along to this point, we have just created the orders from the `bikes data set`. Now, we can have some fun! Let's examine the data set.
 
-``` {r, plotly = TRUE}
+``` {r}
 library(plotly)
 library(lubridate)
-salesByYear <- orders.extended %>%
-  group_by(year = year(order.date)) %>%
-  summarize(total.sales = sum(price.extended))
+# salesByYear <- orders.extended %>%
+#   group_by(year = year(order.date)) %>%
+#   summarize(total.sales = sum(price.extended))
+# 
+# g <- ggplot(salesByYear, aes(x=year, y=total.sales)) +
+#   geom_bar(stat="identity")
+# g
 
-g <- ggplot(salesByYear, aes(x=year, y=total.sales)) +
-  geom_bar(stat="identity")
-g
-
-# set.seed(100)
-# d <- diamonds[sample(nrow(diamonds), 1000), ]
-# plot_ly(d, x = carat, y = price, text = paste("Clarity: ", clarity),
-#         mode = "markers", color = carat, size = carat)
+set.seed(100)
+d <- diamonds[sample(nrow(diamonds), 1000), ]
+plot_ly(d, x = carat, y = price, text = paste("Clarity: ", clarity),
+        mode = "markers", color = carat, size = carat)
 ```
 
 
