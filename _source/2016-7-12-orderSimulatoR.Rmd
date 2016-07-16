@@ -245,7 +245,7 @@ top_10_ordered <- top_10
 top_10_ordered$bike.model <- factor(top_10_ordered$bike.model, levels = arrange(top_10_ordered, total.sales)$bike.model)
 
 # Use ggplot to plot the top products
-g <- ggplot(top_10_ordered, aes(x=bike.model, y=total.sales)) +
+ggplot(top_10_ordered, aes(x=bike.model, y=total.sales)) +
   geom_bar(stat="identity") + 
   geom_text(aes(ymax=pct.total, label=scales::percent(pct.total)), 
       hjust= -0.25,

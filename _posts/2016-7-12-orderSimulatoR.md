@@ -362,7 +362,7 @@ top_10_ordered <- top_10
 top_10_ordered$bike.model <- factor(top_10_ordered$bike.model, levels = arrange(top_10_ordered, total.sales)$bike.model)
 
 # Use ggplot to plot the top products
-g <- ggplot(top_10_ordered, aes(x=bike.model, y=total.sales)) +
+ggplot(top_10_ordered, aes(x=bike.model, y=total.sales)) +
   geom_bar(stat="identity") + 
   geom_text(aes(ymax=pct.total, label=scales::percent(pct.total)), 
       hjust= -0.25,
@@ -380,6 +380,8 @@ g <- ggplot(top_10_ordered, aes(x=bike.model, y=total.sales)) +
        y="Sales")+
   scale_y_continuous(labels = scales::dollar, limits = c(0,2500000))
 {% endhighlight %}
+
+![Top 10 Products](/figure/source/2016-7-12-orderSimulatoR/top10Products-1.png)
 
 Finally, we'll take a look at a map of our customer-base using maps created with the `leaflet` package. The map below charts the customer locations and exposes the sales trends using the circle radius. Larger circles relate to higher sales, and smaller circles relate to lower sales. You can click on the markers to see the bike shop name and sales.
 
