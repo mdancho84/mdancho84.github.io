@@ -55,3 +55,10 @@ title: Post
 			{% include disqus.html disqus_identifier=page.disqus_identifier %}
 		</div>
   	</div>
+
+
+    <!-- htmlwidgets dependencies -->
+    <!-- {% if page.htmlwidgets %}
+	    {% assign dep_file = page.url | split: '/' | last | prepend : 'htmlwidgets/' %}
+	    {% include {{dep_file}} %}
+	  {% endif %} -->
