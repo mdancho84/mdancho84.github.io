@@ -10,8 +10,7 @@ In this post, we will be discussing `orderSimulatoR`, a new project that I've be
 
 
 > __About the Photo:__
-> No, this is not my bike (I wish!) I own a Cannonadale, but mine is in a much lower price range. The `orderSimulatoR` scripts were used to create the `bikes data set`. The orders (output) are simulated orders for the bicycle manufacturer, Cannondale. The bicycle in the photo is one of Cannondale's top-of-the-line cross-country mountain bikes, the Scalpel. 
-
+> No, this is not my bike (I wish!) I own a Cannonadale, but mine is in a much lower price range. The `orderSimulatoR` scripts were used to create the `bikes data set`. The orders (output) are simulated orders for the bicycle manufacturer, Cannondale. The bicycle in the photo is one of Cannondale's top-of-the-line cross-country mountain bikes, the Scalpel.
 
 
 ## Table of Contents
@@ -51,9 +50,9 @@ I'll briefly go through each using the `bikes data set`. The code below loads th
 {% highlight r %}
 library(xlsx)   # Used to read bikes data set
 customers <- read.xlsx("./data/bikeshops.xlsx", sheetIndex = 1)
-products <- read.xlsx("./data/bikes.xlsx", sheetIndex = 1) 
-customerProductProbs <- read.xlsx("./data/customer_product_interactions.xlsx", 
-                                  sheetIndex = 1, 
+products <- read.xlsx("./data/bikes.xlsx", sheetIndex = 1)
+customerProductProbs <- read.xlsx("./data/customer_product_interactions.xlsx",
+                                  sheetIndex = 1,
                                   startRow = 15)
 customerProductProbs <- customerProductProbs[,-(2:12)]  # Remove unnecessary columns
 {% endhighlight %}
@@ -101,7 +100,7 @@ kable(head(products))
 
 ### Customer-Product Interactions <a class="anchor" id="customer-product-interactions"></a>
 
-The customer-products interactions is a matrix that links the probability of a customer purchasing each product. The scripts use this matrix to assign products to orders. The probabilities are critical as these will be what create the customer trends in the data. It's a good idea to check out the excel spreadsheet, `customer_product_interactions.xlsx`, which has detailed notes on how to add trends into the customer-product interactions. For the bikes data set, the customers each had a preference for bike style (Road, Mountain, or Any) and a price range (high, medium, and low). The excel functions assign various probabilities based on how the customer preferences match the product features. A few important points: 
+The customer-products interactions is a matrix that links the probability of a customer purchasing each product. The scripts use this matrix to assign products to orders. The probabilities are critical as these will be what create the customer trends in the data. It's a good idea to check out the excel spreadsheet, `customer_product_interactions.xlsx`, which has detailed notes on how to add trends into the customer-product interactions. For the bikes data set, the customers each had a preference for bike style (Road, Mountain, or Any) and a price range (high, medium, and low). The excel functions assign various probabilities based on how the customer preferences match the product features. A few important points:
 
 1. Product id must be the first column
 2. All subsequent columns should be the customers in order of customer id from 1 to the last customer id.
@@ -170,8 +169,8 @@ Orders typically have a date recorded so the orders can be tracked by time perio
 
 
 {% highlight r %}
-orders <- createDatesFromOrders(orders, 
-                                startYear = 2011, 
+orders <- createDatesFromOrders(orders,
+                                startYear = 2011,
                                 yearlyOrderDist = c(.16, .18, .22, .20, .24))
 kable(head(orders))
 {% endhighlight %}
@@ -206,7 +205,7 @@ kable(tail(orders))
 
 ### Step 3: Assign Customers to Orders <a class="anchor" id="step3"></a>
 
-Next, we'll assign customers to orders using the `assignCustomersToOrders` function. The parameters needed are the `orders` and `customers` data frames, and the `rate`, which is a parameter that controls the distribution of orders assigned to customers. A larger rate increases the number of orders assigned to the largest customers. The below orders now have customers.  
+Next, we'll assign customers to orders using the `assignCustomersToOrders` function. The parameters needed are the `orders` and `customers` data frames, and the `rate`, which is a parameter that controls the distribution of orders assigned to customers. A larger rate increases the number of orders assigned to the largest customers. The below orders now have customers.
 
 
 {% highlight r %}
@@ -235,12 +234,12 @@ table(orders$customer.id)
 
 
 {% highlight text %}
-## 
-##    1    2    3    4    5    6    7    8    9   10   11   12   13   14 
-##  278  975  296  373  298  326  285 1801  504 2731  328  182  882  207 
-##   15   16   17   18   19   20   21   22   23   24   25   26   27   28 
-##  192 1086  470  247  295  495  108  461  191  434  721  567  145  383 
-##   29   30 
+##
+##    1    2    3    4    5    6    7    8    9   10   11   12   13   14
+##  278  975  296  373  298  326  285 1801  504 2731  328  182  882  207
+##   15   16   17   18   19   20   21   22   23   24   25   26   27   28
+##  192 1086  470  247  295  495  108  461  191  434  721  567  145  383
+##   29   30
 ##  231  152
 {% endhighlight %}
 
@@ -267,7 +266,7 @@ kable(head(orders))
 
 ### Step 5: Assign Quantities to Order Lines <a class="anchor" id="step5"></a>
 
-In the last step, we assign quantities to the order lines. The `maxQty` parameter limits the number of products on a order line. The `rate` parameter controls the probability for line quantities. A value of 3 places an 83.5% probability on a line quantity of 1, whereas a line quantity of 10 has a 0.08% probability. 
+In the last step, we assign quantities to the order lines. The `maxQty` parameter limits the number of products on a order line. The `rate` parameter controls the probability for line quantities. A value of 3 places an 83.5% probability on a line quantity of 1, whereas a line quantity of 10 has a 0.08% probability.
 
 
 {% highlight r %}
@@ -298,7 +297,7 @@ orders.extended <- merge(orders.extended, products, by.x = "product.id", by.y = 
 library(dplyr)
 orders.extended <- orders.extended %>%
         mutate(price.extended = price * quantity) %>%
-        select(order.date, order.id, order.line, bikeshop.name, model, 
+        select(order.date, order.id, order.line, bikeshop.name, model,
                quantity, price, price.extended, category1, category2, frame) %>%
         arrange(order.id, order.line)
 
@@ -334,12 +333,12 @@ salesByYear <- orders.extended %>%
 
 # Use ggplot to plot sales by year
 ggplot(salesByYear, aes(x=year, y=total.sales)) +
-  geom_bar(stat = "identity") + 
+  geom_bar(stat = "identity") +
   geom_smooth(method = "lm", se = FALSE) +
   labs(title="Sales Over Time", x="Year", y="Sales") +
   scale_y_continuous(labels = scales::dollar) +
-  geom_text(aes(ymax=total.sales, label=scales::dollar(total.sales)), 
-                        vjust=1.5, 
+  geom_text(aes(ymax=total.sales, label=scales::dollar(total.sales)),
+                        vjust=1.5,
                         color="white",
                         size=4)
 {% endhighlight %}
@@ -358,25 +357,25 @@ productSales <- orders.extended %>%
   mutate(pct.total = total.sales / sum(total.sales)) %>%
   arrange(desc(total.sales))
 top_10 <- head(productSales, 10)
-top_10_ordered <- top_10 
+top_10_ordered <- top_10
 top_10_ordered$bike.model <- factor(top_10_ordered$bike.model, levels = arrange(top_10_ordered, total.sales)$bike.model)
 
 # Use ggplot to plot the top products
 ggplot(top_10_ordered, aes(x=bike.model, y=total.sales)) +
-  geom_bar(stat="identity") + 
-  geom_text(aes(ymax=pct.total, label=scales::percent(pct.total)), 
+  geom_bar(stat="identity") +
+  geom_text(aes(ymax=pct.total, label=scales::percent(pct.total)),
       hjust= -0.25,
       vjust= 0.5,
       color="black",
       size=4) +
-  geom_text(aes(ymax=qty.total, label=paste("Qty:", qty.total)), 
+  geom_text(aes(ymax=qty.total, label=paste("Qty:", qty.total)),
       hjust= 1.25,
       vjust= 0.5,
       color="white",
       size=4) +
   coord_flip() +
-  labs(title="Top 10 Bike Models", 
-       x="", 
+  labs(title="Top 10 Bike Models",
+       x="",
        y="Sales")+
   scale_y_continuous(labels = scales::dollar, limits = c(0,2500000))
 {% endhighlight %}
@@ -394,13 +393,13 @@ salesByLocation <- orders.extended %>%
   mutate(popup = paste0(bikeshop.name, ": ", scales::dollar(total.sales)))
 
 library(leaflet)
-leaflet(salesByLocation) %>% 
+leaflet(salesByLocation) %>%
   addProviderTiles("CartoDB.Positron") %>%
-  addMarkers(lng = ~longitude, 
+  addMarkers(lng = ~longitude,
              lat = ~latitude,
              popup = ~popup) %>%
-  addCircles(lng = ~longitude, 
-             lat = ~latitude, 
+  addCircles(lng = ~longitude,
+             lat = ~latitude,
              weight = 2,
              radius = ~(total.sales)^0.775)
 {% endhighlight %}
