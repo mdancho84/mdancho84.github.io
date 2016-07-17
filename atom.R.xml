@@ -13,7 +13,7 @@ layout: null
     <name>{{ site.author.name }}</name>
     <email>{{ site.author.email }}</email>
   </author>
-  {% for post in site.tags.R %}
+  {% for post in site.posts %}
     <entry>
       <title>{{ post.title }}</title>
       <link href="{{ site.url }}{{ post.url }}" />
