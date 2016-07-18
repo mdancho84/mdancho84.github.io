@@ -2,7 +2,7 @@
 layout: post
 title:  "orderSimulatoR: Simulate Orders for Business Analytics"
 categories: [Business]
-tags: [R, Simulation, Data Mining, orderSimulatoR, bikes data set]
+tags: [R-Project, R, Simulation, Data Mining, orderSimulatoR, bikes data set]
 image: cannondale_bike.jpg
 ---
 
@@ -333,3 +333,6 @@ This is elightening. Not only is it easy to see who are largest customers are an
 
 Ok, you've made it through a long post, but one that hopefully helps you show off your analytic talents. We discussed how to simulate orders using the `orderSimulatoR` scripts, which can be used to simulate orders in any situation that has customers and products. All you need is a customer table, products table, and a well-thought-out matrix of probabilities that create the customer-product interaction trends. The simulated orders can then be used for data mining and visualizations. We went through a few high level data visualizations on the `bikes data set`. We used the `ggplot2` and `leaflet` packages to help understand the overall sales trends, best products, and best customers. With that said, we just scratched the surface of the data mining and visualization process. In future posts, we'll take a look at more advanced techniques for uncover trends. Until then, onward and upward.
 
+## Further Resources
+
+For more `R` resources, visit [R-Bloggers](http://www.r-bloggers.com/), a site dedicated to `R`. There's a wealth of `R` information, and you may even see this post. Happy analyzing.
