@@ -6,7 +6,7 @@ tags: [R-Project, R, Simulation, Data Mining, orderSimulatoR, bikes data set]
 image: cannondale_bike.jpg
 ---
 
-In this post, we will be discussing `orderSimulatoR`, which enables __fast and easy `R` order simulation for customer and product learning__. The basic premise is to simulate data that you'd retrieve from a `SQL` query of an ERP system. The data can then be merged with products and customers tables to data mine. I'll go through the basic steps to create an order data set that combines customers and products, and I'll wrap up with some visualizations to show how you can use order data to expose trends in `R`.
+In this post, we will be discussing `orderSimulatoR`, which enables __fast and easy `R` order simulation for customer and product learning__. The basic premise is to simulate data that you'd retrieve from a `SQL` query of an ERP system. The data can then be merged with products and customers tables to data mine. I'll go through the basic steps to create an order data set that combines customers and products, and I'll wrap up with some visualizations to show how you can use order data to expose trends in `R`. [Click here to scroll to the end result.](#joining-orders)
 
 
 > __About the Photo:__
@@ -58,7 +58,7 @@ products <- read.xlsx("./data/bikes.xlsx", sheetIndex = 1)
 customerProductProbs <- read.xlsx("./data/customer_product_interactions.xlsx", 
                                   sheetIndex = 1, 
                                   startRow = 15)
-customerProductProbs <- customerProductProbs[,-(2:12)]  # Remove unnecessary columns
+customerProductProbs <- customerProductProbs[,-(2:11)]  # Remove unnecessary columns
 {% endhighlight %}
 
 ### Customers <a class="anchor" id="customers"></a>
@@ -104,29 +104,29 @@ kable(head(products))
 
 ### Customer-Product Interactions <a class="anchor" id="customer-product-interactions"></a>
 
-The customer-products interactions is a matrix that links the probability of each customer to purchasing each product (i.e. it is a model for each customer's purchasing preference). The scripts use this matrix to assign products to orders. The probabilities are critical as these will be what create the customer trends in the data. It's a good idea to check out the excel spreadsheet, `customer_product_interactions.xlsx`, which has detailed notes on how to add trends into the customer-product interactions. For the bikes data set, the customers each had a preference for bike style (Road, Mountain, or Any) and a price range (high, medium, and low). The excel functions assign various probabilities based on how the customer preferences match the product features. A few important points: 
+The customer-products interactions is a matrix that links the probability of each customer to purchasing each product (i.e. it is a model for each customer's purchasing preference). The scripts use this matrix to assign products to orders. The probabilities are critical as these will be what create the customer trends in the data. It's a good idea to check out the excel spreadsheet, `customer_product_interactions.xlsx`, which has detailed notes on how to add trends into the customer-product interactions. For the bikes data set, the customers each had a preference for bike style (Road, Mountain, or AnyStyle) and a price range (High and Low). The excel functions assign various probabilities based on how the customer preferences match the product features. A few important points: 
 
 1. Product id must be the first column
 2. All subsequent columns should be the customers in order of customer id from 1 to the last customer id.
 3. Each customer column should sum to 1.0, as this is the product probability density for each customer.
 
-The customer product interactions are shown for the first six customers and products. The way to interpret the matrix is that customer.id.1 has a 0.44% probability of seleting product.id.1 (bike.id = 1).
+The customer product interactions are shown for the first six customers and products. The way to interpret the matrix is that customer.id.1 has a 0.986% probability of seleting product.id.1 (bike.id = 1).
 
 
 {% highlight r %}
-kable(round(customerProductProbs[1:6, 1:6], 3))
+kable(round(customerProductProbs[1:6, 1:6], 4))
 {% endhighlight %}
 
 
 
 | bike.id| customer.id.1| customer.id.2| customer.id.3| customer.id.4| customer.id.5|
 |-------:|-------------:|-------------:|-------------:|-------------:|-------------:|
-|       1|         0.004|          0.01|         0.017|         0.013|         0.017|
-|       2|         0.004|          0.01|         0.017|         0.013|         0.017|
-|       3|         0.004|          0.01|         0.017|         0.013|         0.017|
-|       4|         0.010|          0.01|         0.017|         0.013|         0.017|
-|       5|         0.010|          0.01|         0.017|         0.013|         0.017|
-|       6|         0.010|          0.01|         0.017|         0.013|         0.017|
+|       1|        0.0099|        0.0099|        0.0196|        0.0057|        0.0196|
+|       2|        0.0099|        0.0099|        0.0196|        0.0057|        0.0196|
+|       3|        0.0099|        0.0099|        0.0196|        0.0057|        0.0196|
+|       4|        0.0099|        0.0099|        0.0196|        0.0057|        0.0196|
+|       5|        0.0099|        0.0099|        0.0196|        0.0057|        0.0196|
+|       6|        0.0099|        0.0099|        0.0196|        0.0057|        0.0196|
 
 
 ## Creating Customer Orders <a class="anchor" id="creating-customer-orders"></a>
@@ -282,15 +282,15 @@ kable(orders[orders$order.id %in% c(1:3),]) # First 3 orders shown
 
 | order.id| order.line|order.date | customer.id| product.id|
 |--------:|----------:|:----------|-----------:|----------:|
-|        1|          1|2011-01-07 |           2|         63|
-|        1|          2|2011-01-07 |           2|         55|
-|        2|          1|2011-01-10 |          10|         71|
-|        2|          2|2011-01-10 |          10|          7|
-|        3|          1|2011-01-10 |           6|          6|
-|        3|          2|2011-01-10 |           6|         82|
-|        3|          3|2011-01-10 |           6|         29|
-|        3|          4|2011-01-10 |           6|          1|
-|        3|          5|2011-01-10 |           6|         35|
+|        1|          1|2011-01-07 |           2|         48|
+|        1|          2|2011-01-07 |           2|         52|
+|        2|          1|2011-01-10 |          10|         76|
+|        2|          2|2011-01-10 |          10|         52|
+|        3|          1|2011-01-10 |           6|          2|
+|        3|          2|2011-01-10 |           6|         50|
+|        3|          3|2011-01-10 |           6|          1|
+|        3|          4|2011-01-10 |           6|          4|
+|        3|          5|2011-01-10 |           6|         34|
 
 ### Step 5: Assign Quantities to Order Lines <a class="anchor" id="step5"></a>
 
@@ -306,15 +306,15 @@ kable(orders[orders$order.id %in% c(1:3),]) # First 3 orders shown
 
 | order.id| order.line|order.date | customer.id| product.id| quantity|
 |--------:|----------:|:----------|-----------:|----------:|--------:|
-|        1|          1|2011-01-07 |           2|         63|        1|
-|        1|          2|2011-01-07 |           2|         55|        1|
-|        2|          1|2011-01-10 |          10|         71|        1|
-|        2|          2|2011-01-10 |          10|          7|        1|
-|        3|          1|2011-01-10 |           6|          6|        1|
-|        3|          2|2011-01-10 |           6|         82|        1|
-|        3|          3|2011-01-10 |           6|         29|        1|
-|        3|          4|2011-01-10 |           6|          1|        1|
-|        3|          5|2011-01-10 |           6|         35|        1|
+|        1|          1|2011-01-07 |           2|         48|        1|
+|        1|          2|2011-01-07 |           2|         52|        1|
+|        2|          1|2011-01-10 |          10|         76|        1|
+|        2|          2|2011-01-10 |          10|         52|        1|
+|        3|          1|2011-01-10 |           6|          2|        1|
+|        3|          2|2011-01-10 |           6|         50|        1|
+|        3|          3|2011-01-10 |           6|          1|        1|
+|        3|          4|2011-01-10 |           6|          4|        1|
+|        3|          5|2011-01-10 |           6|         34|        1|
 
 ## Joining Orders with Customers and Products <a class="anchor" id="joining-orders"></a>
 
@@ -337,17 +337,17 @@ kable(orders.extended[orders.extended$order.id %in% c(1:3),]) # First 3 orders s
 
 
 
-|order.date | order.id| order.line|bikeshop.name             |model                    | quantity| price| price.extended|category1 |category2          |frame    |
-|:----------|--------:|----------:|:-------------------------|:------------------------|--------:|-----:|--------------:|:---------|:------------------|:--------|
-|2011-01-07 |        1|          1|Ithaca Mountain Climbers  |Scalpel 29 Carbon 2      |        1|  5330|           5330|Mountain  |Cross Country Race |Carbon   |
-|2011-01-07 |        1|          2|Ithaca Mountain Climbers  |Scalpel-Si Black Inc.    |        1| 12790|          12790|Mountain  |Cross Country Race |Carbon   |
-|2011-01-10 |        2|          1|Kansas City 29ers         |F-Si 1                   |        1|  2340|           2340|Mountain  |Cross Country Race |Aluminum |
-|2011-01-10 |        2|          2|Kansas City 29ers         |Supersix Evo Ultegra 3   |        1|  3200|           3200|Road      |Elite Road         |Carbon   |
-|2011-01-10 |        3|          1|Louisville Race Equipment |Supersix Evo Red         |        1|  3940|           3940|Road      |Elite Road         |Carbon   |
-|2011-01-10 |        3|          2|Louisville Race Equipment |Habit Carbon 1           |        1|  7460|           7460|Mountain  |Trail              |Carbon   |
-|2011-01-10 |        3|          3|Louisville Race Equipment |Synapse Carbon Ultegra 4 |        1|  2660|           2660|Road      |Endurance Road     |Carbon   |
-|2011-01-10 |        3|          4|Louisville Race Equipment |Supersix Evo Black Inc.  |        1| 12790|          12790|Road      |Elite Road         |Carbon   |
-|2011-01-10 |        3|          5|Louisville Race Equipment |Synapse Disc Tiagra      |        1|  1250|           1250|Road      |Endurance Road     |Aluminum |
+|order.date | order.id| order.line|bikeshop.name             |model                          | quantity| price| price.extended|category1 |category2      |frame    |
+|:----------|--------:|----------:|:-------------------------|:------------------------------|--------:|-----:|--------------:|:---------|:--------------|:--------|
+|2011-01-07 |        1|          1|Ithaca Mountain Climbers  |Jekyll Carbon 2                |        1|  6070|           6070|Mountain  |Over Mountain  |Carbon   |
+|2011-01-07 |        1|          2|Ithaca Mountain Climbers  |Trigger Carbon 2               |        1|  5970|           5970|Mountain  |Over Mountain  |Carbon   |
+|2011-01-10 |        2|          1|Kansas City 29ers         |Beast of the East 1            |        1|  2770|           2770|Mountain  |Trail          |Aluminum |
+|2011-01-10 |        2|          2|Kansas City 29ers         |Trigger Carbon 2               |        1|  5970|           5970|Mountain  |Over Mountain  |Carbon   |
+|2011-01-10 |        3|          1|Louisville Race Equipment |Supersix Evo Hi-Mod Team       |        1| 10660|          10660|Road      |Elite Road     |Carbon   |
+|2011-01-10 |        3|          2|Louisville Race Equipment |Jekyll Carbon 4                |        1|  3200|           3200|Mountain  |Over Mountain  |Carbon   |
+|2011-01-10 |        3|          3|Louisville Race Equipment |Supersix Evo Black Inc.        |        1| 12790|          12790|Road      |Elite Road     |Carbon   |
+|2011-01-10 |        3|          4|Louisville Race Equipment |Supersix Evo Hi-Mod Dura Ace 2 |        1|  5330|           5330|Road      |Elite Road     |Carbon   |
+|2011-01-10 |        3|          5|Louisville Race Equipment |Synapse Disc 105               |        1|  1570|           1570|Road      |Endurance Road |Aluminum |
 
 Great. Now this finally looks like orders data that could be retrieved from an ERP system. We are ready to start visualizing and data mining. The last part of this post will go into some high level visualizations for data exploration. Future blog posts will dig much deeper.
 
@@ -383,7 +383,7 @@ ggplot(salesByYear, aes(x=year, y=total.sales)) +
 
 ![Sales Over Time](/figure/source/2016-7-12-orderSimulatoR/salesOverTime-1.png)
 
-Nice. Cannondale has a general growth trend. It looks like 2013 was Cannondale's best year with $17,529,430 in total sales, and 2015 almost matched it! 
+Nice. Cannondale has a general growth trend. It looks like 2015 was Cannondale's best year with $17,171,510 in total sales! 
 
 ### Top 10 Products <a class="anchor" id="top-10-products"></a>
 
@@ -423,7 +423,7 @@ ggplot(top10.ordered, aes(x=bike.model, y=total.sales)) +
 
 ![Top 10 Products](/figure/source/2016-7-12-orderSimulatoR/top10Products-1.png)
 
-It looks like the best model is the Cannondale Supersix Evo Hi-Mod Team with 208 units sold representing sales of $2,217,280 or 3.01% of total sales. 
+It looks like the best model is the Cannondale Scalpel-Si Black Inc. with 168 units sold representing sales of $2,148,720 or 3.02% of total sales. 
 
 ### Geographic Customer Trends <a class="anchor" id="geographic-trends"></a>
 
@@ -452,7 +452,7 @@ leaflet(salesByLocation) %>%
              radius = ~(total.sales)^0.775)
 {% endhighlight %}
 
-<iframe src="http://rpubs.com/mdancho84/196291"
+<iframe src="http://rpubs.com/mdancho84/BikeSaleByLocation"
 style="border: none; width: 750px; height: 600px"></iframe>
 
 This is elightening. Not only is it easy to see who are largest customers are and their locations, but we can see geographic trends. It looks like the southeast US and the midwest are realatively unsaturated geographies. This could be an opportunity to partner with bikeshops in those areas!

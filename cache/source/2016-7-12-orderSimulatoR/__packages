@@ -1,11 +1,5 @@
 base
-datasets
-utils
-grDevices
-graphics
-stats
 stringr
-methods
 rJava
 xlsxjars
 xlsx
