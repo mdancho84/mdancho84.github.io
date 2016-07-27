@@ -6,7 +6,7 @@ tags: [R-Project, R, Simulation, Data Mining, orderSimulatoR, bikes data set]
 image: cannondale_bike.jpg
 ---
 
-In this post, we will be discussing `orderSimulatoR`, which enables __fast and easy `R` order simulation for customer and product learning__. The basic premise is to simulate data that you'd retrieve from a `SQL` query of an ERP system. The data can then be merged with products and customers tables to data mine. I'll go through the basic steps to create an order data set that combines customers and products, and I'll wrap up with some visualizations to show how you can use order data to expose trends in `R`. [Click here to scroll to the end result.](#joining-orders)
+In this post, we will be discussing `orderSimulatoR`, which enables __fast and easy `R` order simulation for customer and product learning__. The basic premise is to simulate data that you'd retrieve from a `SQL` query of an ERP system. The data can then be merged with products and customers tables to data mine. I'll go through the basic steps to create an order data set that combines customers and products, and I'll wrap up with some visualizations to show how you can use order data to expose trends. You can get the scripts and the `bikes data set` data at the `orderSimulatoR` [GitHub repository](https://github.com/mdancho84/orderSimulatoR). In case you are wondering what simulated orders look like, click [here](#joining-orders) to scroll to the end result.
 
 
 > __About the Photo:__
@@ -36,7 +36,7 @@ In this post, we will be discussing `orderSimulatoR`, which enables __fast and e
 
 ## Why orderSimulatoR? <a class="anchor" id="why"></a>
 
-It's very difficult to create custom order data for data mining, visualization, trending, etc. I've searched for good data sets, and I've come to the conclusion that I'm better off creating my own orders data for analyzing on my blog. In the process, I made a collection of `R` scripts to simulate the orders. The scripts are publicly available so others can simulate orders for customers and products in any sales/marketing situation. The scripts and the data sets can be accessed at the [`orderSimulatoR` GitHub repository](https://github.com/mdancho84/orderSimulatoR).
+It's very difficult to create custom order data for data mining, visualization, trending, etc. I've searched for good data sets, and I've come to the conclusion that I'm better off creating my own orders data for analyzing on my blog. In the process, I made a collection of `R` scripts to simulate the orders. The scripts are publicly available so others can simulate orders for customers and products in any sales/marketing situation. 
 
 ## Getting Started <a class="anchor" id="getting-started"></a>
 
