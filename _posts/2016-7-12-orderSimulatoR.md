@@ -149,7 +149,35 @@ source("./scripts/createProductQuantities.R")
 
 First, we'll create the orders and lines using the `createOrdersAndLines()` function. For those unfamiliar with lines, each order typically has several products purchased which are denoted "lines". The function parameters are number of orders `n`, max number of lines `maxLines`, and `rate`, which affects the distribution of lines on an order.
 
-__Quick Digression on the `rate` Parameter:__ Several other `orderSimulatoR` functions use a similar `rate` parameter, and I recommend playing around with the rates to see how the distribution is affected. A larger rate increases the number of orders assigned to the largest customers, and as the rate decreases to zero the distribution approaches a uniform distribution. See the [GitHub `README.md`](https://github.com/mdancho84/orderSimulatoR) for a further discussion on the `rate` parameter.
+__Quick Digression on the `rate` Parameter:__ 
+
+_This section gets a little technical, so feel free to skip and you won't miss much._
+
+Several other `orderSimulatoR` functions use a similar `rate` parameter, and I recommend playing around with the rates to see how the distribution is affected. The following code generates the probabilities of lines to an order:
+
+
+{% highlight r %}
+maxLines = 10
+rate = 1
+for (i in 1:maxLines) {
+        lineProb[i] <- 1/i^rate         
+}
+lineProb <- lineProb/sum(lineProb)
+{% endhighlight %}
+
+The equation iterates through the number of lines to an order, $$i$$, from `1` to `maxLines` in the equation:
+
+$$
+lineProb_i = \frac{1}{i^{rate}}  
+$$
+
+Where $$i$$ is the number of lines to an order, and $$rate$$ is the adjustment parameter. As the number of lines to an order, $$i$$, increases, the probability naturally decreases. Because $$i$$ is raised to the $$rate$$ parameter, the $$rate$$ determines how fast or slow the distribution decreases. Larger values cause the distribution to decrease faster, and values close to zero cause the distribution to become more uniform. 
+
+The effect of `rate` adjustment can be conveyed by plotting the probability distribution of orders with `maxLines` = 10 while adjusting the `rate` parameter from 0 to 1.5. At `rate` = 0, the probability of a one-line order is 10%, while at a `rate` of 1.5 the probability is 50%.
+
+![plot of chunk rateAdjustment](/figure/source/2016-7-12-orderSimulatoR/rateAdjustment-1.png)
+
+__Back to Creating Orders and Lines:__
 
 The output is a data frame with __2000 orders with 15,644 total rows for each product purchase__. Some orders have more lines (more product purchases) and others have less (as dictated by the `rate` parameter). One note worth mentioning is that the `maxLines` cannot exceed the number of products (otherwise an order would have more lines than products available which does not make sense).
 
