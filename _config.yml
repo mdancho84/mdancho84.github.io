@@ -34,9 +34,8 @@ baseurl: ""
 paginate: 5
 paginate_path: "/blog/page:num"
 
-#
-# !! You don't need to change any of the configuration flags below !!
-#
+# Handle future posts
+future: false
 
 # Jekyll 3 now only supports Kramdown for Markdown
 markdown: kramdown
