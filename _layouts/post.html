@@ -2,6 +2,8 @@
 layout: default
 title: Post
 ---
+
+<!-- Blog Head -->
 <header id="header" class="">
 	<section class="success" id="blog">
 		<div class= "container">
@@ -12,56 +14,73 @@ title: Post
 					    <p>Written on {{ page.date | date: "%B %e, %Y" }}</p>
 					    <p>{% include post-categories.html %}</p>
 					    <p>{% include post-tags.html %}</p>
+					    
+					    <ul class="list-inline">
+					    	<!-- Facebook -->
+                            <li>
+                                <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+                            </li>
+                            <!-- LinkedIn -->
+                            <li>
+                                <script type="text/javascript" src="//platform.linkedin.com/in.js"></script><script type="in/share" data-counter="top"></script>
+                            </li>
+                            <!-- Google+ -->
+                            <li>
+                                <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
+                            </li>
+                    		<!-- Twitter -->
+                            <li>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </li>
+                        </ul>
+
+					    
 					</div>
 			  	</div>
 			</div>
-
 		</div>
 	</section>
-</header><!-- /header -->
+</header>
 
-
-	<section id="blog">
-	  <div class="container" id="blog_content">
-	    <div class="col-md-8 col-md-offset-2">
-      		<p><img class= "shadow" src="/assets/{{page.image}}"></p>
-      		<hr class="margin-bottom-40">
-	    	{{ content }}
-	    </div>
-	  </div>
-
-	  <div class="container">
-	  	<div class="col-md-8 col-md-offset-2">
-			<div class="PageNavigation">
-			  {% if page.previous.url %}
-			    <a class="prev" href="{{page.previous.url}}">
-			    	<i class="fa fa-arrow-circle-left"></i>
-			    	{{page.previous.title}}
-			    </a>
-			  {% endif %}
-			  {% if page.next.url %}
-			    <a class="next pull-right" href="{{page.next.url}}">
-			    	{{page.next.title}}
-					<i class="fa fa-arrow-circle-right"></i>
-			    </a>
-			  {% endif %}
-			</div>
+<!-- Blog Body -->
+<section id="blog">
+  <div class="container" id="blog_content">
+    <div class="col-md-8 col-md-offset-2">
+  		<p><img class= "shadow" src="/assets/{{page.image}}"></p>
+  		<hr class="margin-bottom-40">
+    	{{ content }}
+    </div>
+  </div>
+  <div class="container">
+  	<div class="col-md-8 col-md-offset-2">
+		<div class="PageNavigation">
+		  {% if page.previous.url %}
+		    <a class="prev" href="{{page.previous.url}}">
+		    	<i class="fa fa-arrow-circle-left"></i>
+		    	{{page.previous.title}}
+		    </a>
+		  {% endif %}
+		  {% if page.next.url %}
+		    <a class="next pull-right" href="{{page.next.url}}">
+		    	{{page.next.title}}
+				<i class="fa fa-arrow-circle-right"></i>
+		    </a>
+		  {% endif %}
 		</div>
-  	 </div>
-	</section>
+	</div>
+	 </div>
+</section>
 		
-	
-	
-  	
-  	<div class="container">
-	  	<div class="col-md-8 col-md-offset-2">
-			{% include disqus.html disqus_identifier=page.disqus_identifier %}
-		</div>
-  	</div>
+<!-- Disqus -->
+<div class="container">
+	<div class="col-md-8 col-md-offset-2">
+	{% include disqus.html disqus_identifier=page.disqus_identifier %}
+	</div>
+</div>
 
 
-    <!-- htmlwidgets dependencies -->
-    <!-- {% if page.htmlwidgets %}
-	    {% assign dep_file = page.url | split: '/' | last | prepend : 'htmlwidgets/' %}
-	    {% include {{dep_file}} %}
-	  {% endif %} -->
+<!-- htmlwidgets dependencies -->
+<!-- {% if page.htmlwidgets %}
+    {% assign dep_file = page.url | split: '/' | last | prepend : 'htmlwidgets/' %}
+    {% include {{dep_file}} %}
+  {% endif %} -->
