@@ -2,26 +2,41 @@
 layout: post
 title:  "Customer Segmentation Part 1: K-Means Clustering"
 categories: [Business]
-tags: [R-Project, R, Simulation, Data Mining, orderSimulatoR, bikes data set]
-image: cannondale_bike.jpg
+tags: [R-Project, R, Data Mining, kmeans, silhouette, bikes data set]
+image: custSegments.jpg
 ---
 
 
 
-Customer segmentation intro... K-Means is a useful tool for clustering. Unsupervised learning, which means we don't need to have a predictor. Great for exploratory analysis. Can be used to pool customers into marketing groups based on customer preferences.
+In this post, we'll be using [k-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) in `R` to segment customers into distinct groups based on purchasing habits. K-means clustering is an unsupervised learning technique, which means we don't need to have a target for clustering. All we need is to format the data in a way the algorithm can process, and we'll let it determine the customer segments or clusters. This makes k-means clustering great for exploratory analysis as well as a jumping-off point for more detailed analysis. We'll walk through a relevant example using the Cannondale `bikes data set` from the `orderSimulatoR` project [GitHub repository](https://github.com/mdancho84/orderSimulatoR).
 
-> __About the Photo:__
-> Talk about photo...
+## Table of Contents
 
-## Retrieving Customer Orders
+  * [How K-Means Works](#how-works)
+  * [Getting Started](#getting-started)
+  * [Developing a Hypothesis for Customer Trends](#hypothesis)
+  * [Manipulating the Data Frame](#manipulating-data)
+  * [K-Means Clustering](#kmeans)
+    * [Running the K-Means Algorithm](#running-algorithm)
+    * [Which Customers are in Each Segment?](#customer-segments)
+    * [Determining the Preferences of the Customer Segments](#determine-prefs)
+    * [Reviewing Results](#review)
+  * [Recap](#recap)
 
-If you'd like to follow along, we will be using the `bikes data set`, which can be retrieved [here](https://github.com/mdancho84/orderSimulatoR/tree/master/data). We'll load the data first using the  `xlsx` package for reading MS Excel files.
+## How K-Means Works <a class="anchor" id="how-works"></a>
+
+The k-means clustering algorithm works by finding like groups based on Euclidean distance, a measure of distance or similarity. The practitioner selects $$k$$ groups to cluster, and the algorithm finds the best centroids for the $$k$$ groups. The practitioner can then use those groups to determine which factors group members relate. For customers, these would be their buying preferences. 
+
+## Getting Started <a class="anchor" id="getting-started"></a>
+
+To start, we'll get need some orders to evaluate. If you'd like to follow along, we will be using the `bikes data set`, which can be retrieved [here](https://github.com/mdancho84/orderSimulatoR/tree/master/data). We'll load the data first using the  `xlsx` package for reading Excel files.
 
 
 
 
 {% highlight r %}
-library(xlsx)   # Used to read bikes data set
+# Read Cannondale orders data --------------------------------------------------
+library(xlsx) 
 customers <- read.xlsx("./data/bikeshops.xlsx", sheetIndex = 1)
 products <- read.xlsx("./data/bikes.xlsx", sheetIndex = 1) 
 orders <- read.xlsx("./data/orders.xlsx", sheetIndex = 1) 
@@ -31,10 +46,11 @@ Next, we'll get the data into a usable format, typical of an `SQL` query from an
 
 
 {% highlight r %}
-# Merge into usable order information ------------------------------------------
+# Combine orders, customers, and products data frames --------------------------
 library(dplyr)
 orders.extended <- merge(orders, customers, by.x = "customer.id", by.y="bikeshop.id")
 orders.extended <- merge(orders.extended, products, by.x = "product.id", by.y = "bike.id")
+
 orders.extended <- orders.extended %>%
   mutate(price.extended = price * quantity) %>%
   select(order.date, order.id, order.line, bikeshop.name, model,
@@ -55,22 +71,21 @@ knitr::kable(head(orders.extended)) # Preview the data
 |2011-01-10 |        3|          1|Louisville Race Equipment |Supersix Evo Hi-Mod Team |        1| 10660|          10660|Road      |Elite Road    |Carbon   |
 |2011-01-10 |        3|          2|Louisville Race Equipment |Jekyll Carbon 4          |        1|  3200|           3200|Mountain  |Over Mountain |Carbon   |
 
-## Hypothesis for Customer Trends
+## Developing a Hypothesis for Customer Trends <a class="anchor" id="hypothesis"></a>
 
-A key to customer segmentation is to formulate a hypothesis for what you are looking to cluster. Our hypothesis is that bikeshops purchase bike models based on the bicycle features such as Mountain or Road Bikes, more specific categories (e.g. Elite Road, Endurance Road, Over Mountain, Cross Country Race, etc), frame material (Aluminum or Carbon), and price tier (high/premium or low/affordable). Although we will use bike model as our clustering target, the features will be used for assessing the clusters (more on this later). 
+Developing a hypothesis is necessary as the hypothesis will guide our decisions on how to formulate the data in such a way to cluster customers. For the Cannondale orders, our hypothesis is that bike shops purchase Cannondale bike models based on features such as Mountain or Road Bikes and price tier (high/premium or low/affordable). Although we will use bike model to cluster on, the bike model features (e.g. price, category, etc) will be used for assessing the preferences of the customer clusters (more on this later). 
 
-We'll need a unit of measure to cluster on. Logically we can decide to measure quantity purchased or total value of purchases. We'll select quantity purchased because total value can be skewed by the bike unit price. For example, a premium bike can be sold for 10X more than an affordable bike, which can mask buying habits.  
+To start, we'll need a unit of measure to cluster on. We can select quantity purchased or total value of purchases. We'll select quantity purchased because total value can be skewed by the bike unit price. For example, a premium bike can be sold for 10X more than an affordable bike, which can mask the quantity buying habits.
 
-## Manipulating the Data Frame
+## Manipulating the Data Frame <a class="anchor" id="manipulating-data"></a>
 
-From our hypothesis, we can formulate a data manipulation plan of attack. We have orders that relate bikeshops to bike models purchased via quantity purchased, but first we'll need to get the data frame into a format conducive to clustering. We have the bike features, but second we'll need to manipulate price into a categorical variables representing high/premium and low/affordable. Last, we'll need to scale the bike model quantities purchased by customer because some customers are much larger than others, which will throw off the clustering algorithm. 
+Next, we need a data manipulation plan of attack to implement clustering on our data. We'll user our hypothesis to guide us. First, we'll need to get the data frame into a format conducive to clustering bike models to customer id's. Second, we'll need to manipulate price into a categorical variables representing high/premium and low/affordable. Last, we'll need to scale the bike model quantities purchased by customer so the k-means algorithm weights the purchases of each customer evenly. 
 
 We'll tackle formatting the data frame for clustering first. We need to spread the customers by quantity of bike models purchased. 
 
 
 {% highlight r %}
-# Group by model and various model features, summarize by bike shops by 
-# quantity of models purchased
+# Group by model & model features, summarize by quantity purchased -------------
 library(tidyr)  # Needed for spread function
 customerTrends <- orders.extended %>%
         group_by(bikeshop.name, model, category1, category2, frame, price) %>%
@@ -79,20 +94,20 @@ customerTrends <- orders.extended %>%
 customerTrends[is.na(customerTrends)] <- 0  # Remove NA's
 {% endhighlight %}
 
-Next, we need to convert the unit price to categorical high/low variables. One way to do this is with the `cut2()` function from the `Hmisc` package. We'll segment the price into high/low by median price.
+Next, we need to convert the unit price to categorical high/low variables. One way to do this is with the `cut2()` function from the `Hmisc` package. We'll segment the price into high/low by median price. Selecting `g` = 2 divides the unit prices into two halves using the median as the split point. 
 
 
 {% highlight r %}
-# Convert price to binary high/low category
+# Convert price to binary high/low category ------------------------------------
 library(Hmisc)  # Needed for cut2 function
 customerTrends$price <- cut2(customerTrends$price, g=2)   
 {% endhighlight %}
 
-Some customers are larger than others meaning they purchase higher volumes. This presents a problem with clustering as the measurements need to be on the same scale. Fortunately, we can resolve this issue by converting the customer order quantities to proportion of the total bikes purchased by a customer. The `prop.table()` matrix function provides a convenient way to do this.
+Last, we need to scale the quantity data. Unadjusted quantities presents a problem to the k-means algorithm. Some customers are larger than others meaning they purchase higher volumes. Fortunately, we can resolve this issue by converting the customer order quantities to proportion of the total bikes purchased by a customer. The `prop.table()` matrix function provides a convenient way to do this. An alternative is to use the `scale()` function, which normalizes the data. However, this is less interpretable than the proportion format.
 
 
 {% highlight r %}
-# Convert customer purchase quantity to percentage of total quantity
+# Convert customer purchase quantity to percentage of total quantity -----------
 customerTrends.mat <- as.matrix(customerTrends[,-(1:5)])  # Drop first five columns
 customerTrends.mat <- prop.table(customerTrends.mat, margin = 2)  # column-wise pct
 customerTrends <- cbind(customerTrends[,1:5], as.data.frame(customerTrends.mat))
@@ -102,6 +117,7 @@ The final data frame (first five rows shown below) is now ready for clustering.
 
 
 {% highlight r %}
+# View data post manipulation --------------------------------------------------
 knitr::kable(head(customerTrends))
 {% endhighlight %}
 
@@ -116,50 +132,53 @@ knitr::kable(head(customerTrends))
 |Beast of the East 3 |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0034965|       0.0033223|       0.0000000|        0.0000000|               0.0025381|     0.0042735|        0.0169492|      0.0119048|                0.0000000|                0.0102848|         0.0181504|        0.0032051|          0.0000000|                 0.0050633|            0.0042135|             0.0152207|          0.0202312|               0.0043478|       0.0049383|                    0.0051948|              0.0204082|       0.0162086|                    0.0026525|        0.0201863|          0.0073801|             0.0322581|              0.0000000|              0.0078125|   0.0097087|     0.0000000|
 |CAAD Disc Ultegra   |Road      |Elite Road |Aluminum |[ 415, 3500) |          0.0139860|       0.0265781|       0.0203252|        0.0153453|               0.0101523|     0.0000000|        0.0108648|      0.0079365|                0.0094044|                0.0000000|         0.0106598|        0.0112179|          0.0157233|                 0.0278481|            0.0210674|             0.0182648|          0.0375723|               0.0152174|       0.0172840|                    0.0103896|              0.0163265|       0.0126850|                    0.0026525|        0.0139752|          0.0073801|             0.0053763|              0.0026738|              0.0078125|   0.0000000|     0.0098619|
 
-## K-Means Clustering
+## K-Means Clustering <a class="anchor" id="kmeans"></a>
 
-Now we are finally ready to do some k-means clustering to segment our customer-base. Think of clusters as groups in the customer-base. Because this is unsupervised, prior to starting we will need to choose the number of customer groups that are to be detected. The best way to do this is to think about the customer-base and our hypothesis. We believe that there are most likely to be at least four customer groups because of mountain bike vs road bike and premium vs affordable preferences. We also believe there could be more as some customers may not care about price but may still prefer a specific bike category. With this in mind, we will begin clustering.
+Now we are ready to perform k-means clustering to segment our customer-base. Think of clusters as groups in the customer-base. Prior to starting we will need to choose the number of customer groups, $$k$$, that are to be detected. The best way to do this is to think about the customer-base and our hypothesis. We believe that there are most likely to be at least four customer groups because of mountain bike vs road bike and premium vs affordable preferences. We also believe there could be more as some customers may not care about price but may still prefer a specific bike category. However, we'll limit the clusters to eight as more is likely to overfit the segments.
+
+### Running the K-Means Algorithm <a class="anchor" id="running-algorithm"></a>
 
 The code below does the following:
 
-1. __Loads the `cluster` library, which contains the `silhouette()` function.__ [Silhouette](https://en.wikipedia.org/wiki/Silhouette_(clustering)) is a technique in clustering that helps with validating the best cluster groups. The `silhouette()` function allows us to get the average width of silhouettes, which will be used to determine the optimal cluster size.
+1. __Converts the `customerTrends` data frame into `kmeansDat.t`.__ The model and features are dropped so the customer columns are all that are left. The data frame is transposed to have the customers as rows and models as columns. The `kmeans()` function requires this format.
 
-2. __Converts the `customerTrends` data frame into `kmeansDat.t`.__ The model and features are dropped so the customer columns are all that are left. The data frame is transposed to have the customers as rows and models as columns. The `kmeans()` function requires this format.
+2. __Performs the `kmeans()` function to cluster the customer segments.__ We set `minClust` = 4 and `maxClust` = 8. From our hypothesis, we expect there to be at least four and at most six groups of customers. This is because customer preference is expected to vary by price (high/low) and category1 (mountain vs bike). There may be other groupings as well. Beyond eight segments may be overfitting the segments.
 
-3. __Performs `kmeans()` and `silhouette()` on expected clusters.__ From our hypothesis, we expect there to be at least four and at most six groups of customers. This is because customer prefence is expected to vary by price (high/low) and category1 (mountain vs bike). There may be other groupings as well. We set `minClust` = 4 and `maxClust` = 8. Beyond eight segments may be difficult to manage.
+3. __Uses the `silhouette()` function to obtain silhouette widths.__ [Silhouette](https://en.wikipedia.org/wiki/Silhouette_(clustering)) is a technique in clustering that validates the best cluster groups. The `silhouette()` function from the `cluster` package allows us to get the average width of silhouettes, which will be used to programmatically determine the optimal cluster size.
 
 
 {% highlight r %}
+# Running the k-means algorithm -------------------------------------------------
 library(cluster) # Needed for silhouette function
 
-kmeansDat <- customerTrends[,-(1:5)]  # Extract only quantity columns
-kmeansDat.t <- t(kmeansDat)  #Transpose to evaluate products as features in kmeans
+kmeansDat <- customerTrends[,-(1:5)]  # Extract only customer columns
+kmeansDat.t <- t(kmeansDat)  # Get customers in rows and products in columns
 
-# Compute k-means for 4 to 6 cluster centers. 
-# Silhouette used to evaluate best k-means selection.
+# Setup for k-means loop 
 km.out <- list()
 sil.out <- list()
 x <- vector()
 y <- vector()
-minClust <- 4      # Select based on minimum number of groups/clusters
-maxClust <- 8        # Select based on maximum number of groups/clusters
-# Loop to compute kmeans clustering over various clusters, k
+minClust <- 4      # Hypothesized minimum number of segments
+maxClust <- 8      # Hypothesized maximum number of segments
+
+# Compute k-means clustering over various clusters, k, from minClust to maxClust
 set.seed(11)
 for (centr in minClust:maxClust) {
         i <- centr-(minClust-1) # relevels start as 1, and increases with centr
         km.out[i] <- list(kmeans(kmeansDat.t, centers = centr, nstart = 50))
         sil.out[i] <- list(silhouette(km.out[[i]][[1]], dist(kmeansDat.t)))
         # Used for plotting silhouette average widths
-        x[i] = centr  # Number of centers used for plotting
-        y[i] = summary(sil.out[[i]])[[4]]  # Silhouette average width used for plotting
+        x[i] = centr  # value of k
+        y[i] = summary(sil.out[[i]])[[4]]  # Silhouette average width
 }
 {% endhighlight %}
 
-Next, we plot the silhouette average widths for the choice of clusters. The best cluster is the one with the largest silhouette average width, which turns out to be cluster number 5.
+Next, we plot the silhouette average widths for the choice of clusters. The best cluster is the one with the largest silhouette average width, which turns out to be 5 clusters.
 
 
 {% highlight r %}
-# Plot silhouette results to find best number of clusters, closer to 1 is better
+# Plot silhouette results to find best number of clusters; closer to 1 is better
 library(ggplot2)
 ggplot(data = data.frame(x, y), aes(x, y)) + 
   geom_point(size=3) + 
@@ -171,102 +190,145 @@ ggplot(data = data.frame(x, y), aes(x, y)) +
 
 ![plot of chunk silhouettePlot](/figure/source/2016-8-7-CustomerSegmentationPt1/silhouettePlot-1.png)
 
-Now that we have the customers segmented using the `kmeans()` function and the optimal number of customer segments using the `silhouette()` function, we can inspect the groups to see if there are any ways to categorize the segments. The code below attaches the kmeans centroids to the bike models and categories for trend inspection. 
+### Which Customers are in Each Segment? <a class="anchor" id="customer-segments"></a>
+
+Now that we have clustered the data, we can inspect the groups find out which customers are grouped together. The code below groups the customer names by cluster X1 through X5.
 
 
 {% highlight r %}
-# Attach clusters to bike models for trend inspection---------------------------
-y.best <- which.max(y)          # Row number of max silhouette value
-km.out.best <- km.out[[y.best]] # Get kmeans output of best cluster
+# Get customer names that are in each segment ----------------------------------
+
+# Get attributes of optimal k-means output
+maxSilRow <- which.max(y)          # Row number of max silhouette value
+optimalClusters <- x[maxSilRow]    # Number of clusters
+km.out.best <- km.out[[maxSilRow]] # k-means output of best cluster
+
+# Create list of customer names for each cluster
+clusterNames <- list()
+clusterList <- list()
+for (clustr in 1:optimalClusters) {
+  clusterNames[clustr] <- paste0("X", clustr)
+  clusterList[clustr] <- list(
+    names(
+        km.out.best$cluster[km.out.best$cluster == clustr]
+        )
+    )
+}
+names(clusterList) <- clusterNames
+
+print(clusterList)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## $X1
+## [1] "Philadelphia Bike Shop" "San Antonio Bike Shop" 
+## 
+## $X2
+## [1] "Cincinnati Speed"          "Columbus Race Equipment"  
+## [3] "Las Vegas Cycles"          "Louisville Race Equipment"
+## [5] "San Francisco Cruisers"    "Wichita Speed"            
+## 
+## $X3
+## [1] "Ithaca Mountain Climbers"     "Pittsburgh Mountain Machines"
+## [3] "Tampa 29ers"                 
+## 
+## $X4
+##  [1] "Albuquerque Cycles"    "Dallas Cycles"        
+##  [3] "Denver Bike Shop"      "Detroit Cycles"       
+##  [5] "Kansas City 29ers"     "Los Angeles Cycles"   
+##  [7] "Minneapolis Bike Shop" "New York Cycles"      
+##  [9] "Phoenix Bi-peds"       "Portland Bi-peds"     
+## [11] "Providence Bi-peds"   
+## 
+## $X5
+## [1] "Ann Arbor Speed"              "Austin Cruisers"             
+## [3] "Indianapolis Velocipedes"     "Miami Race Equipment"        
+## [5] "Nashville Cruisers"           "New Orleans Velocipedes"     
+## [7] "Oklahoma City Race Equipment" "Seattle Race Equipment"
+{% endhighlight %}
+
+### Determining the Preferences of the Customer Segments <a class="anchor" id="determine-prefs"></a>
+
+The easiest way to determine the customer preferences is by inspection of factors related to the model (e.g. price point, category of bike, etc). Advanced algorithms to classify the groups can be used if there are many factors, but typically this is not necessary as the trends tend to jump out. The code below attaches the k-means centroids to the bike models and categories for trend inspection.
+
+
+{% highlight r %}
+# Combine cluster centroids with bike models for feature inspection ------------
 custSegmentCntrs <- t(km.out.best$centers)  # Get centroids for groups
 colnames(custSegmentCntrs) <- make.names(colnames(custSegmentCntrs))
 customerTrends.clustered <- cbind(customerTrends[,1:5], custSegmentCntrs)
+{% endhighlight %}
 
-# Collect customers from customerTrends data frame-------------------------------
-x.best <- x[y.best]             # Number of clusters
-custSegments <- list()
-custSegmentAvgs <- data.frame()
-for (i in 1:x.best) {
-  custSegments[i] <- list(customerTrends[, which(names(customerTrends) %in% 
-                         names(km.out.best$cluster[km.out.best$cluster == i]))])
-}
+Now, on to cluster inspection.
+
+#### Cluster 1
+
+We'll order by cluster 1's top ten bike models in descending order. We can quickly see that the top 10 models purchased are all in the affordable/low price segment. 
+
+
+{% highlight r %}
+# Arrange top 10 bike models by cluster in descending order --------------------
 attach(customerTrends.clustered)  # Allows ordering by column name
-{% endhighlight %}
-
-We'll see which customers are in cluster 1 and order by cluster 1's top ten bike models in descending order. We can quickly see that the top 10 models purchased are all in the affordable/low price segment. 
-
-
-{% highlight r %}
-colnames(custSegments[[1]])  # Get Customers in cluster 1
+knitr::kable(head(customerTrends.clustered[order(-X1), c(1:5, 6)], 10))
 {% endhighlight %}
 
 
 
-{% highlight text %}
-## [1] "Philadelphia Bike Shop" "San Antonio Bike Shop"
-{% endhighlight %}
+|   |model               |category1 |category2          |frame    |price        |        X1|
+|:--|:-------------------|:---------|:------------------|:--------|:------------|---------:|
+|57 |Slice Ultegra       |Road      |Triathalon         |Carbon   |[ 415, 3500) | 0.0554531|
+|97 |Trigger Carbon 4    |Mountain  |Over Mountain      |Carbon   |[ 415, 3500) | 0.0304147|
+|7  |CAAD12 105          |Road      |Elite Road         |Aluminum |[ 415, 3500) | 0.0270792|
+|5  |Beast of the East 3 |Mountain  |Trail              |Aluminum |[ 415, 3500) | 0.0263331|
+|89 |Trail 1             |Mountain  |Sport              |Aluminum |[ 415, 3500) | 0.0249397|
+|1  |Bad Habit 1         |Mountain  |Trail              |Aluminum |[ 415, 3500) | 0.0229976|
+|26 |F-Si Carbon 4       |Mountain  |Cross Country Race |Carbon   |[ 415, 3500) | 0.0224490|
+|9  |CAAD12 Disc 105     |Road      |Elite Road         |Aluminum |[ 415, 3500) | 0.0209568|
+|81 |Synapse Disc 105    |Road      |Endurance Road     |Aluminum |[ 415, 3500) | 0.0209568|
+|90 |Trail 2             |Mountain  |Sport              |Aluminum |[ 415, 3500) | 0.0203094|
 
+#### Cluster 2
 
-
-{% highlight r %}
-# Arrange top 10 bike models by cluster in descending order
-knitr::kable(head(customerTrends.clustered[order(-X1), ], 10))
-{% endhighlight %}
-
-
-
-|   |model               |category1 |category2          |frame    |price        |        X1|        X2|        X3|        X4|        X5|
-|:--|:-------------------|:---------|:------------------|:--------|:------------|---------:|---------:|---------:|---------:|---------:|
-|57 |Slice Ultegra       |Road      |Triathalon         |Carbon   |[ 415, 3500) | 0.0554531| 0.0133703| 0.0000000| 0.0121606| 0.0220771|
-|97 |Trigger Carbon 4    |Mountain  |Over Mountain      |Carbon   |[ 415, 3500) | 0.0304147| 0.0158241| 0.0232606| 0.0122949| 0.0102302|
-|7  |CAAD12 105          |Road      |Elite Road         |Aluminum |[ 415, 3500) | 0.0270792| 0.0131916| 0.0005274| 0.0127848| 0.0146150|
-|5  |Beast of the East 3 |Mountain  |Trail              |Aluminum |[ 415, 3500) | 0.0263331| 0.0018011| 0.0075487| 0.0107917| 0.0056403|
-|89 |Trail 1             |Mountain  |Sport              |Aluminum |[ 415, 3500) | 0.0249397| 0.0006901| 0.0055534| 0.0136427| 0.0130605|
-|1  |Bad Habit 1         |Mountain  |Trail              |Aluminum |[ 415, 3500) | 0.0229976| 0.0055093| 0.0178429| 0.0121309| 0.0101273|
-|26 |F-Si Carbon 4       |Mountain  |Cross Country Race |Carbon   |[ 415, 3500) | 0.0224490| 0.0004230| 0.0087324| 0.0177157| 0.0100258|
-|9  |CAAD12 Disc 105     |Road      |Elite Road         |Aluminum |[ 415, 3500) | 0.0209568| 0.0140126| 0.0002637| 0.0159866| 0.0157947|
-|81 |Synapse Disc 105    |Road      |Endurance Road     |Aluminum |[ 415, 3500) | 0.0209568| 0.0096063| 0.0007911| 0.0138045| 0.0211219|
-|90 |Trail 2             |Mountain  |Sport              |Aluminum |[ 415, 3500) | 0.0203094| 0.0011780| 0.0132727| 0.0114390| 0.0108728|
-
-Next, we'll inspect cluster 2. We can see that the top models are all road bikes primarily in the high-end price range.
-
-
-{% highlight r %}
-colnames(custSegments[[2]])  # Get Customers in cluster 2
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## [1] "Cincinnati Speed"          "Columbus Race Equipment"  
-## [3] "Las Vegas Cycles"          "Louisville Race Equipment"
-## [5] "San Francisco Cruisers"    "Wichita Speed"
-{% endhighlight %}
-
+Next, we'll inspect cluster 2. We can see that the top models are primarily road bikes in the high-end price range with carbon frames.
 
 
 {% highlight r %}
 # Arrange top 10 bike models by cluster in descending order
-knitr::kable(head(customerTrends.clustered[order(-X2), ], 10))
+knitr::kable(head(customerTrends.clustered[order(-X2), c(1:5, 7)], 10))
 {% endhighlight %}
 
 
 
-|   |model                          |category1 |category2      |frame    |price        |        X1|        X2|        X3|        X4|        X5|
-|:--|:------------------------------|:---------|:--------------|:--------|:------------|---------:|---------:|---------:|---------:|---------:|
-|85 |Synapse Hi-Mod Disc Red        |Road      |Endurance Road |Carbon   |[3500,12790] | 0.0074172| 0.0246747| 0.0074352| 0.0068986| 0.0110240|
-|55 |Slice Hi-Mod Black Inc.        |Road      |Triathalon     |Carbon   |[3500,12790] | 0.0026882| 0.0234936| 0.0164058| 0.0040345| 0.0135432|
-|61 |Supersix Evo Hi-Mod Dura Ace 1 |Road      |Elite Road     |Carbon   |[3500,12790] | 0.0127935| 0.0230529| 0.0056669| 0.0022304| 0.0067977|
-|56 |Slice Hi-Mod Dura Ace D12      |Road      |Triathalon     |Carbon   |[3500,12790] | 0.0040816| 0.0229613| 0.0076417| 0.0054133| 0.0102803|
-|87 |Synapse Hi-Mod Dura Ace        |Road      |Endurance Road |Carbon   |[3500,12790] | 0.0000000| 0.0216716| 0.0134742| 0.0049662| 0.0089909|
-|11 |CAAD12 Red                     |Road      |Elite Road     |Aluminum |[ 415, 3500) | 0.0074172| 0.0211963| 0.0112561| 0.0130376| 0.0228887|
-|76 |Synapse Carbon Disc Ultegra    |Road      |Endurance Road |Carbon   |[3500,12790] | 0.0127935| 0.0202393| 0.0079626| 0.0047473| 0.0082738|
-|67 |Supersix Evo Ultegra 3         |Road      |Elite Road     |Carbon   |[ 415, 3500) | 0.0108514| 0.0201873| 0.0087333| 0.0132747| 0.0218575|
-|64 |Supersix Evo Hi-Mod Utegra     |Road      |Elite Road     |Carbon   |[3500,12790] | 0.0094580| 0.0198191| 0.0087692| 0.0043886| 0.0122587|
-|84 |Synapse Hi-Mod Disc Black Inc. |Road      |Endurance Road |Carbon   |[3500,12790] | 0.0053763| 0.0197553| 0.0091677| 0.0031620| 0.0071965|
-
-Inspecting clusters 3, 4 and 5 produce similar results. For brevity, we won't go into the tables. Cluster 3 tends to prefer mountain bikes that are high end. Cluster 4 is very similar to cluster 1 with the majority of bikes in the low-end price range. Cluster 5 is low end road bikes.  
-
-## Recap
+|   |model                          |category1 |category2      |frame    |price        |        X2|
+|:--|:------------------------------|:---------|:--------------|:--------|:------------|---------:|
+|85 |Synapse Hi-Mod Disc Red        |Road      |Endurance Road |Carbon   |[3500,12790] | 0.0246747|
+|55 |Slice Hi-Mod Black Inc.        |Road      |Triathalon     |Carbon   |[3500,12790] | 0.0234936|
+|61 |Supersix Evo Hi-Mod Dura Ace 1 |Road      |Elite Road     |Carbon   |[3500,12790] | 0.0230529|
+|56 |Slice Hi-Mod Dura Ace D12      |Road      |Triathalon     |Carbon   |[3500,12790] | 0.0229613|
+|87 |Synapse Hi-Mod Dura Ace        |Road      |Endurance Road |Carbon   |[3500,12790] | 0.0216716|
+|11 |CAAD12 Red                     |Road      |Elite Road     |Aluminum |[ 415, 3500) | 0.0211963|
+|76 |Synapse Carbon Disc Ultegra    |Road      |Endurance Road |Carbon   |[3500,12790] | 0.0202393|
+|67 |Supersix Evo Ultegra 3         |Road      |Elite Road     |Carbon   |[ 415, 3500) | 0.0201873|
+|64 |Supersix Evo Hi-Mod Utegra     |Road      |Elite Road     |Carbon   |[3500,12790] | 0.0198191|
+|84 |Synapse Hi-Mod Disc Black Inc. |Road      |Endurance Road |Carbon   |[3500,12790] | 0.0197553|
 
 
+
+{% highlight r %}
+detach(customerTrends.clustered)
+{% endhighlight %}
+
+#### Clusters 3, 4 & 5
+
+Inspecting clusters 3, 4 and 5 produce interesting results. For brevity, we won't display the tables. Cluster 3 tends to prefer mountain bikes that are high end. Cluster 4 is very similar to cluster 1 with the majority of bikes in the low-end price range. Cluster 5 seems to prefer low end road bikes.  
+
+#### Reviewing Results <a class="anchor" id="review"></a>
+
+Once the clustering is finished, it's a good idea to take a step back and review what the algorithm is saying. For our analysis, we got clear trends for four of five groups, but two groups (clusters 1 and 4) are very similar. Because of this, it may make sense to combine these two groups or to switch to $$k$$ = 4 kmeans results. 
+    
+
+## Recap <a class="anchor" id="recap"></a>
+
+The customer segmentation process can be performed with various clustering algorithms. In this post, we focused on k-means clustering in `R`. While the algorithm is quite simple to implement, half the battle is getting the data into the correct format and interpreting the results. We went over formatting the order data, running the `kmeans()` function to cluster the data with several hypothetical $$k$$ clusters, using `silhouette()` from the `cluster` package to determine the optimal number of $$k$$ clusters, and interpreting the results by inspection of the kmeans centroids. Happy clustering!

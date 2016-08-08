@@ -6,11 +6,11 @@ tags: [R-Project, R, Simulation, Data Mining, orderSimulatoR, bikes data set]
 image: cannondale_bike.jpg
 ---
 
-In this post, we will be discussing `orderSimulatoR`, which enables __fast and easy `R` order simulation for customer and product learning__. The basic premise is to simulate data that you'd retrieve from a `SQL` query of an ERP system. The data can then be merged with products and customers tables to data mine. I'll go through the basic steps to create an order data set that combines customers and products, and I'll wrap up with some visualizations to show how you can use order data to expose trends. You can get the scripts and the `bikes data set` data at the `orderSimulatoR` [GitHub repository](https://github.com/mdancho84/orderSimulatoR). In case you are wondering what simulated orders look like, click [here](#joining-orders) to scroll to the end result.
+In this post, we will be discussing `orderSimulatoR`, which enables __fast and easy `R` order simulation for customer and product learning__. The basic premise is to simulate data that you'd retrieve from a `SQL` query of an ERP system. The data can then be merged with products and customers tables to data mine. I'll go through the basic steps to create an order data set that combines customers and products, and I'll wrap up with some visualizations to show how you can use order data to expose trends. You can get the scripts and the Cannondale `bikes data set` at the `orderSimulatoR` [GitHub repository](https://github.com/mdancho84/orderSimulatoR). In case you are wondering what simulated orders look like, click [here](#joining-orders) to scroll to the end result.
 
 
 > __About the Photo:__
-> The bicycle in the photo is one of Cannondale's top-of-the-line cross-country mountain bikes, the Scalpel. The `orderSimulatoR` scripts were used to create the `bikes data set`, which simulates orders for the bicycle manufacturer, Cannondale. The data set uses their 2016 models. For more information, visit their website at [www.cannondale.com](http://www.cannondale.com/en/USA).
+> The bicycle in the photo is one of Cannondale's top-of-the-line cross-country mountain bikes, the Scalpel. The `orderSimulatoR` scripts were used to create the Cannondale `bikes data set`, which simulates orders for the bicycle manufacturer, Cannondale. The data set uses their 2016 models. For more information, visit their website at [www.cannondale.com](http://www.cannondale.com/en/USA).
 
 
 
@@ -48,19 +48,23 @@ Prior to starting, you'll need three data frames:
 2. Products
 3. Customer-Product Interactions
 
-I'll briefly go through each using the `bikes data set`. If you're following along, you can access the [excel files here](https://github.com/mdancho84/orderSimulatoR/tree/master/data). Alternatively, you can generate your own data frames of customers, products and customer-production interactions. Note that the `orders.xlsx` file is what we will be generating in data frame form. The code below loads the three data frames. 
+I'll briefly go through each using the Cannondale `bikes data set`. If you're following along, you can access the [excel files here](https://github.com/mdancho84/orderSimulatoR/tree/master/data). Alternatively, you can generate your own data frames of customers, products and customer-production interactions. Note that the `orders.xlsx` file is what we will be generating in data frame form. The code below loads the three data frames. 
 
 
 
 
 {% highlight r %}
-library(xlsx)   # Used to read bikes data set
+library(xlsx) # For read.xlsx() function
+
+# Read inputs to orderSimulatoR process
 customers <- read.xlsx("./data/bikeshops.xlsx", sheetIndex = 1)
 products <- read.xlsx("./data/bikes.xlsx", sheetIndex = 1) 
 customerProductProbs <- read.xlsx("./data/customer_product_interactions.xlsx", 
                                   sheetIndex = 1, 
                                   startRow = 15)
-customerProductProbs <- customerProductProbs[,-(2:11)]  # Remove unnecessary columns
+
+# Format inputs; Remove unnecessary columns
+customerProductProbs <- customerProductProbs[,-(2:11)]  
 {% endhighlight %}
 
 ### Customers <a class="anchor" id="customers"></a>
@@ -69,7 +73,9 @@ The customers for the example case are bike shops scattered throughout the Unite
 
 
 {% highlight r %}
-library(knitr)
+library(knitr) # used for kable() function
+
+# Show customers dataframe
 kable(head(customers))
 {% endhighlight %}
 
@@ -90,6 +96,7 @@ The products for the example case are road and mountain bikes made by [Cannondal
 
 
 {% highlight r %}
+# Show products data frame
 kable(head(products))
 {% endhighlight %}
 
@@ -116,6 +123,7 @@ The customer product interactions are shown for the first six customers and prod
 
 
 {% highlight r %}
+# Show customer-product interactions data frame
 kable(round(customerProductProbs[1:6, 1:6], 4))
 {% endhighlight %}
 
@@ -138,6 +146,7 @@ Once the customer, product and customer-product interaction data frames are fini
 
 
 {% highlight r %}
+# Source orderSimulatoR scripts
 source("./scripts/createOrdersAndLines.R")
 source("./scripts/createDatesFromOrders.R")
 source("./scripts/assignCustomersToOrders.R")
@@ -157,6 +166,7 @@ Several other `orderSimulatoR` functions use a similar `rate` parameter, and I r
 
 
 {% highlight r %}
+# Showing effect of rate on probability of assigning number of lines to orders
 maxLines = 10
 rate = 1
 for (i in 1:maxLines) {
@@ -179,12 +189,18 @@ The effect of `rate` adjustment can be conveyed by plotting the probability dist
 
 __Back to Creating Orders and Lines:__
 
-The output is a data frame with __2000 orders with 15,644 total rows for each product purchase__. Some orders have more lines (more product purchases) and others have less (as dictated by the `rate` parameter). One note worth mentioning is that the `maxLines` cannot exceed the number of products (otherwise an order would have more lines than products available which does not make sense).
+With inputs of `n` = 2000, `maxLines` = 30, and `rate` = 1, the output is a data frame with __2000 orders with 15,644 total rows for each product purchase__. Some orders have more lines (more product purchases) and others have less (as dictated by the `rate` parameter). One note worth mentioning is that the `maxLines` cannot exceed the number of products (otherwise an order would have more lines than products available which does not make sense).
 
 
 {% highlight r %}
-orders <- orders <- createOrdersAndLines(n = 2000, maxLines = 30, rate = 1)
-kable(orders[orders$order.id %in% c(1:3),]) # First 3 orders shown
+# Step 1 - Create orders
+orders <- createOrdersAndLines(n = 2000, maxLines = 30, rate = 1)
+{% endhighlight %}
+
+
+{% highlight r %}
+# Data frame for first 3 orders shown
+kable(orders[orders$order.id %in% c(1:3),]) 
 {% endhighlight %}
 
 
@@ -207,6 +223,7 @@ Orders typically have a date recorded so the sales can be tracked by time period
 
 
 {% highlight r %}
+# Step 2 - Add dates to the orders
 orders <- createDatesFromOrders(orders, 
                                 startYear = 2011, 
                                 yearlyOrderDist = c(.16, .18, .22, .20, .24),
@@ -222,7 +239,12 @@ orders <- createDatesFromOrders(orders,
                                                      0.060, 
                                                      0.060, 
                                                      0.045))
-kable(head(orders)) # Top of orders data frame showing beginning dates
+{% endhighlight %}
+
+
+{% highlight r %}
+# Top of orders data frame showing beginning dates
+kable(head(orders)) 
 {% endhighlight %}
 
 
@@ -241,7 +263,8 @@ The script takes into account no sales on weekends, but does not account for hol
 
 
 {% highlight r %}
-kable(tail(orders)) # Bottom of orders data frame showing ending dates
+# Bottom of orders data frame showing ending dates
+kable(tail(orders)) 
 {% endhighlight %}
 
 
@@ -255,14 +278,24 @@ kable(tail(orders)) # Bottom of orders data frame showing ending dates
 |15643 |     2000|          7|2015-12-25 |
 |15644 |     2000|          8|2015-12-25 |
 
+We can use a heatmap to graphically view the order distribution by year and month to get an idea for how the order dates were assigned. As expected, the seasonality of orders follows the `monthlyOrderDist` distribution, with the majority of orders coming in March through July. The orders increase following the `yearlyOrderDist` distribution.
+
+![plot of chunk orderDistMonthYear](/figure/source/2016-7-12-orderSimulatoR/orderDistMonthYear-1.png)
+
 ### Step 3: Assign Customers to Orders <a class="anchor" id="step3"></a>
 
 Next, we'll assign customers to orders using the `assignCustomersToOrders()` function. The parameters needed are the `orders` data frame from Step 2, the `customers` data frame, and the `rate` parameter, which controls the distribution of orders assigned to customers. Similar to the `rate` parameter in Step 1, a larger rate increases the number of orders assigned to the largest customers, and as the rate decreases to zero the distribution approaches a uniform distribution. As shown below, orders now have customer id's.  
 
 
 {% highlight r %}
+# Step 3 - Assign customers to the orders
 orders <- assignCustomersToOrders(orders, customers, rate = 0.8)
-kable(orders[orders$order.id %in% c(1:3),]) # First 3 orders shown
+{% endhighlight %}
+
+
+{% highlight r %}
+# Data frame for first 3 orders shown
+kable(orders[orders$order.id %in% c(1:3),]) 
 {% endhighlight %}
 
 
@@ -279,24 +312,9 @@ kable(orders[orders$order.id %in% c(1:3),]) # First 3 orders shown
 |        3|          4|2011-01-10 |           6|
 |        3|          5|2011-01-10 |           6|
 
-Using a `rate` = 0.8 still assigns a wide range of orders to customers, and we can quickly see the distribution of order rows by customer using the `table` function. Customer 10 has the most order rows at 2731, while Customer 21 has the least order rows at 108.
+Using a `rate` = 0.8 still assigns a wide range of orders to customers, and we can see the distribution of order rows by customer in the plot below. Customer 10 has the most order rows at 2731, while Customer 21 has the least order rows at 108.
 
-
-{% highlight r %}
-table(orders$customer.id)
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## 
-##    1    2    3    4    5    6    7    8    9   10   11   12   13   14 
-##  278  975  296  373  298  326  285 1801  504 2731  328  182  882  207 
-##   15   16   17   18   19   20   21   22   23   24   25   26   27   28 
-##  192 1086  470  247  295  495  108  461  191  434  721  567  145  383 
-##   29   30 
-##  231  152
-{% endhighlight %}
+![plot of chunk customerDistribution](/figure/source/2016-7-12-orderSimulatoR/customerDistribution-1.png)
 
 ### Step 4: Assign Products to Orders Lines <a class="anchor" id="step4"></a>
 
@@ -304,8 +322,14 @@ In step 4, we'll assign products to the orders using the customer-product intera
 
 
 {% highlight r %}
+# Step 4 - Assign products to orders
 orders <- assignProductsToCustomerOrders(orders, customerProductProbs)
-kable(orders[orders$order.id %in% c(1:3),]) # First 3 orders shown
+{% endhighlight %}
+
+
+{% highlight r %}
+# Data frame for first 3 orders shown
+kable(orders[orders$order.id %in% c(1:3),]) 
 {% endhighlight %}
 
 
@@ -328,8 +352,14 @@ In the last step, we assign quantities to the order lines using the `createProdu
 
 
 {% highlight r %}
+# Step 5 - Create product quantities
 orders <- createProductQuantities(orders, maxQty = 10, rate = 3)
-kable(orders[orders$order.id %in% c(1:3),]) # First 3 orders shown
+{% endhighlight %}
+
+
+{% highlight r %}
+# Data frame for first 3 orders shown
+kable(orders[orders$order.id %in% c(1:3),]) 
 {% endhighlight %}
 
 
@@ -354,15 +384,21 @@ The orders table alone does not give us much information. For instance, we don't
 {% highlight r %}
 # Merge customers and products data with the orders to produce and orders.extended data frame
 library(dplyr)
+
 orders.extended <- merge(orders, customers, by.x = "customer.id", by.y="bikeshop.id")
 orders.extended <- merge(orders.extended, products, by.x = "product.id", by.y = "bike.id")
+
 orders.extended <- orders.extended %>%
         mutate(price.extended = price * quantity) %>%
         select(order.date, order.id, order.line, bikeshop.name, model, 
                quantity, price, price.extended, category1, category2, frame) %>%
         arrange(order.id, order.line)
+{% endhighlight %}
 
-kable(orders.extended[orders.extended$order.id %in% c(1:3),]) # First 3 orders shown
+
+{% highlight r %}
+# Data frame for first 3 orders shown
+kable(orders.extended[orders.extended$order.id %in% c(1:3),]) 
 {% endhighlight %}
 
 
@@ -391,6 +427,7 @@ We'll first take a look at sales over time using the `ggplot2` package.
 
 
 {% highlight r %}
+# Plotting sales over time
 library(ggplot2)
 library(lubridate)
 
@@ -421,6 +458,8 @@ Next, let's explore some products to get an idea of top sellers.
 
 
 {% highlight r %}
+# Plot top 10 products
+
 # Create top 10 products data frame
 productSales <- orders.extended %>%
   group_by(bike.model = model) %>%
@@ -461,6 +500,8 @@ Finally, we'll take a look at a map of our customer-base using the `leaflet` pac
 
 
 {% highlight r %}
+# Plot sales by geographic location
+
 # Create sales by location from orders extedend, joining latitude and longitude
 # data by customer name
 salesByLocation <- orders.extended %>%
