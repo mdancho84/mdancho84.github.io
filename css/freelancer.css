@@ -332,6 +332,8 @@ footer .footer-below {
   height: 50px;
   border-radius: 100%;
   line-height: 28px;
+  padding-left: 13px;
+  padding-top: 8px;
 }
 .scroll-top .btn:focus {
   outline: none;

@@ -343,3 +343,10 @@ li {
 .icon-green {
   color: #18BC9C;
 }
+
+// Social
+
+// Fixes facebook button
+.fb-share-button iframe {
+  bottom: 5px;
+}
