@@ -37,7 +37,13 @@
       <meta content="{{ site.url }}/about/" property="article:author">
     {% endif %}
 
-    <meta content="{{ site.url }}/img/header-sm-crpd.jpg" property="og:image">
+    {% if page.image %}
+      <meta content="{{ site.url }}/img/{{ page.image }}" property="og:image">
+    {% else %}
+      <meta content="{{ site.url }}/img/header-sm-crpd.jpg" property="og:image">
+    {% endif %}
+
+    <!-- <meta content="{{ site.url }}/img/header-sm-crpd.jpg" property="og:image"> -->
 
     {% if page.categories %}
       {% for category in page.categories limit:1 %}
