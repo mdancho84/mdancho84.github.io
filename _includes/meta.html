@@ -4,6 +4,8 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+<!-- Open Graph -->
+
     <meta content="{{ site.title }}" property="og:site_name">
     <meta name="author" content="{{ site.name }}" />
 
@@ -43,8 +45,6 @@
       <meta content="{{ site.url }}/img/header-sm-crpd.jpg" property="og:image">
     {% endif %}
 
-    <!-- <meta content="{{ site.url }}/img/header-sm-crpd.jpg" property="og:image"> -->
-
     {% if page.categories %}
       {% for category in page.categories limit:1 %}
       <meta content="{{ category }}" property="article:section">
@@ -56,3 +56,27 @@
       <meta content="{{ tag }}" property="article:tag">
       {% endfor %}
     {% endif %}
+
+<!-- Twitter Card -->
+
+  <!-- <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@site_username">
+  <meta name="twitter:creator" content="@creator_username">
+  {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
+  {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
+  {% endif %}
+  {% if page.url %}
+    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+  {% endif %}
+  {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+  {% if page.image %}
+    <meta name="twitter:image:src" content="{{ site.url }}/img/{{ page.image }}">
+  {% else %}
+    <meta name="twitter:image:src" content="{{ site.url }}/img/header-sm-crpd.jpg">
+  {% endif %} -->
