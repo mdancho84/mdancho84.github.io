@@ -29,9 +29,24 @@ title: Blog
                       <div class="date">
                         Written on {{ post.date | date: "%B %e, %Y" }}
                       </div>
-                      <div class="entry">
-                        {{ post.excerpt }}
+                      
+                      <div class="row">
+                        <div class="bloglist-thumbnail">
+                          <div class="col-xs-6 col-md-6" style="padding-top:15px;">
+                            <a href="{{ site.baseurl }}{{ post.url }}" class="thumbnail" style="margin-bottom:0px">
+                              {% if post.image %}
+                                <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="...">
+                              {% else %}
+                                <img src="{{ site.baseurl }}/img/header-sm-crpd.jpg" alt="...">
+                              {% endif %}
+                            </a>
+                          </div>
+                        </div>
+                        <div class="entry">
+                          {{ post.excerpt }}
+                        </div>
                       </div>
+                      
                       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
                   </article>
                  {% endfor %}

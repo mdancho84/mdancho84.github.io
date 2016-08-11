@@ -344,3 +344,8 @@ li {
   color: #18BC9C;
 }
 
+// Blog List
+
+.entry {
+  margin-left: 15px;
+}
