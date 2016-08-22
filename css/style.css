@@ -344,8 +344,7 @@ li {
   color: #18BC9C;
 }
 
-// Blog List
-
-.entry {
-  margin-left: 15px;
+/*Overide scroll-top*/
+.scroll-top {
+  right: -50%;
 }
