@@ -1,12 +1,15 @@
 
 $( document ).ready(function() {
-    // Table scripts to achieve responsiveness
+    
+// Table scripts to achieve responsiveness
 	$('table').wrap('<div class="table-responsive"></div>');
 	$('table').addClass('table table-bordered table-striped table-hover');
 
-	// Centers blog images
+// Centers blog images
 	$('#blog p > img').addClass('img-responsive center-block');
 	$('#blog_content').find('img').addClass('shadow');
+
+// Scroll Top Button
 
 	//Show / Hide button
     var $topLinkBlock = $('#top-link-block');
