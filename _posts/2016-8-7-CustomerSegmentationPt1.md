@@ -2,8 +2,8 @@
 layout: post
 title:  "Customer Segmentation Part 1: K-Means Clustering"
 categories: [Business]
-tags: [R-Project, R, Customer Segmentation, k-means, silhouette, bikes data set]
-image: custSegments.jpg
+tags: [R-Project, R, Customer Segmentation, Community Detection, kmeans, silhouette, bikes data set]
+image: custSegments1.jpg
 ---
 
 
