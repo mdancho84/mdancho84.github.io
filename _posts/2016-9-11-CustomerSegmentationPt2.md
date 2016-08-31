@@ -56,9 +56,9 @@ Rather than run through the previous post, the sections below can be used to get
 
 You can access the data [here](https://github.com/mdancho84/orderSimulatoR/tree/master/data) if you would like to follow along. You'll need to download the following files:
 
-  * `orders.xlsx`: Contains the fictional sales orders for _Cannondale_. `customer.id` relates to `bike shop.id` in the `bikeshops.xlsx` file, and `product.id` relates to `bike.id` in the `bikes.xlsx` file.
-  * `bikes.xlsx`:  Contains information on products (e.g. bike model, primary category, secondary category, unit price, etc). `bike.id` is the primary key.
-  * `bikeshops.xlsx`: Contains information on customers (e.g. customer name and location). `bikeshop.id` is the primary key. 
+  * __orders.xlsx__: Contains the fictional sales orders for _Cannondale_. `customer.id` relates to `bike shop.id` in the __bikeshops.xlsx__ file, and `product.id` relates to `bike.id` in the __bikes.xlsx__ file.
+  * __bikes.xlsx__:  Contains information on products (e.g. bike model, primary category, secondary category, unit price, etc). `bike.id` is the primary key.
+  * __bikeshops.xlsx__: Contains information on customers (e.g. customer name and location). `bikeshop.id` is the primary key. 
 
 The script to load and configure the data into a customer trends matrix is shown below. 
 
@@ -83,7 +83,7 @@ orders <- read.xlsx2("./data/orders.xlsx", sheetIndex = 1, colIndex = 2:7,
 
 #### Manipulating the Data <a class="anchor" id="manipulate-data"></a>
 
-The script below combines the `orders`, `customers` and `products` data frames into `orders.extended`, which is a data frame that simulates output we would get from an SQL query of a sales orders database / ERP system. The data is then manipulated to form `customerTrends`, which has the data structured such that the rows contain products and the columns contain customers. The output, `customerTrends`, is then used for _k_-means clustering.
+The script below combines the `orders`, `customers` and `products` data frames into `orders.extended`, which is a data frame that simulates output we would get from an SQL query of a sales orders database / ERP system. The data is then manipulated to form `customerTrends`, which has the data structured such that the rows contain products and the columns contain purchase quantity (as percentage of total) by customer. The output, `customerTrends`, is then used for _k_-means clustering.
 
 
 {% highlight r %}
@@ -165,7 +165,7 @@ Once PCA is performed, it's a good idea to take a look at the __variance explain
 
 <iframe src="/figure/source/2016-9-11-CustomerSegmentationPt2/plotly1.html" style="border: none; width: 100%; height: 400px"></iframe>
 
-PC1 and PC2 combined explain 44% of the variance of the data, and there's a steep drop-off between PC2 and PC3. This means that plotting PCs 1 and 2 will give us a reasonably good understanding of the data, and adding more PCs beyond PC2 will result in minimal improvement. Note that it won't always happen that there is a significant drop-off after PC2, and if more PC's explain variance we would need to evaluate them as well. 
+PC1 and PC2 combined explain 44% of the variance of the data, and there's a steep drop-off between PC2 and PC3. This means that plotting PC's 1 and 2 will give us a reasonably good understanding of the data, and adding more PC's beyond PC2 will result in minimal improvement. Note that it won't always happen that there is a significant drop-off after PC2, and if more PC's explain variance we would need to evaluate them as well. 
 
 ## Visualizing the Results <a class="anchor" id="visualizing-results"></a>
 
@@ -257,7 +257,7 @@ group.avg <- apply(groupTrends[6:ncol(groupTrends)], 1, mean) # Take average of 
 groupTrends <- cbind(groupTrends, group.avg) %>%
   arrange(-group.avg) 
 
-knitr::kable(head(groupTrends, 10)) # Top ten products by average group member purchase freq
+knitr::kable(head(groupTrends, 10)) # Top ten products by group avg. pct. purchased
 {% endhighlight %}
 
 
@@ -300,13 +300,13 @@ PCA can be a valuable cross-check to _k_-means for customer segmentation. While 
 
 ## Recap <a class="anchor" id="recap"></a>
 
-This post expanded on our customer segmentation methodology by using __PCA to visually examine the clusters__. We manipulated our sales order data to obtain a format that relates products to customer purchases. We used the `prcomp()` function to perform PCA on our formatted data frame. We fortified the PCA output using the `fortify()` function from the `ggfortify` package, which enabled us to plot the PCs. We added the _k_-means cluster groups to the fortified data frame for visual inspection of the _k_-means clusters. We saw that differences can arise because _k_-means programatically determines the clusters while PCA allows us to visually inspect the clusters. The end result was an improvement to the customer segmentation by attacking the community detection problem from two different angles. 
+This post expanded on our customer segmentation methodology by using __PCA to visually examine the clusters__. We manipulated our sales order data to obtain a format that relates products to customer purchases. We used the `prcomp()` function to perform PCA on our formatted data frame. We fortified the PCA output using the `fortify()` function from the `ggfortify` package, which enabled us to plot the PC's by customer. We added the _k_-means cluster groups to the fortified data frame for visual inspection of the _k_-means clusters. We saw that differences can arise because _k_-means programatically determines the clusters while PCA allows us to visually inspect the clusters. The end result was an improvement to the customer segmentation by attacking the community detection problem from two different angles and combining the results! 
 
 ## Further Reading <a class="anchor" id="further-reading"></a>
 
-1. [Pricipal Component Analysis: Explained Visually](http://setosa.io/ev/principal-component-analysis/)
+1. [Pricipal Component Analysis: Explained Visually](http://setosa.io/ev/principal-component-analysis/): This article is an excellent place to start for those that are new to PCA or those that would like to understand the details.
 
-2. [Computing and Visualizing PCA in R](https://tgmstat.wordpress.com/2013/11/28/computing-and-visualizing-pca-in-r/)
+2. [Computing and Visualizing PCA in R](https://tgmstat.wordpress.com/2013/11/28/computing-and-visualizing-pca-in-r/): This is a great article that takes PCA to the next level in `R` with biplots, predictions, and the caret package.  
 
 
 
