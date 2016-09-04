@@ -1,6 +1,6 @@
 
 $( document ).ready(function() {
-    
+
 // Table scripts to achieve responsiveness
 	$('table').wrap('<div class="table-responsive"></div>');
 	$('table').addClass('table table-bordered table-striped table-hover');
@@ -42,4 +42,13 @@ $( document ).ready(function() {
 
 });
 
+// Add active based on path name
+// https://css-tricks.com/snippets/jquery/add-active-navigation-class-based-on-url/
+    $(function() {
+        var pathname = location.pathname.split("/")[1]
+        if (pathname != "") {
+            $('nav a[href^="/' + pathname + '"]').parent().addClass('active');
+        }
+
+    });
 
