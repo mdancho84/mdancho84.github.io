@@ -49,6 +49,9 @@ $( document ).ready(function() {
         if (pathname != "") {
             $('nav a[href^="/' + pathname + '"]').parent().addClass('active');
         }
+        if (pathname == "blog") {
+            $('nav a[href^="/' + pathname + '/index"]').parent().addClass('active');
+        }
 
     });
 
