@@ -6,7 +6,8 @@ title: Blog
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1>Blog</h1>
+                <h1>Business Science Blog</h1>
+                <p>Visit <a href="https://www.r-bloggers.com">R-Bloggers</a> for more R news and tutorials!</p>
                 <hr>
             </div>
         </div>
@@ -29,7 +30,7 @@ title: Blog
                       <div class="date">
                         Written on {{ post.date | date: "%B %e, %Y" }}
                       </div>
-                      
+
                       <div class="row">
                         <div class="bloglist-thumbnail">
                           <div class="col-xs-8 col-md-6" style="padding-top:15px;">
@@ -46,7 +47,7 @@ title: Blog
                           {{ post.excerpt }}
                         </div>
                       </div>
-                      
+
                       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
                   </article>
                  {% endfor %}
