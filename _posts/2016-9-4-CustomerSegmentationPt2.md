@@ -10,6 +10,7 @@ image: custSegments2.jpg
 
 
 
+
 This post is the second part in the customer segmentation analysis. The [first post](http://www.mattdancho.com/business/2016/08/07/CustomerSegmentationPt1.html) focused on [_k_-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) in `R` to segment customers into distinct groups based on purchasing habits. This post takes a different approach, using [Pricipal Component Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) (PCA) in `R` as a tool to view customer groups. Because PCA attacks the problem from a different angle than _k_-means, we can get different insights. We'll compare both the _k_-means results with the PCA visualization. Let's see what happens when we apply PCA.  
 
 
@@ -40,7 +41,7 @@ PCA is a dimensionality reduction algorithm: PCA takes your data and decomposes 
 
 How does this help in customer segmentation / community detection? Unlike _k_-means, PCA is not a direct solution. What PCA helps with is visualizing the essence of a data set. Because PCA selects PC's based on the maximum linear variance, we can use the first few PC's to describe a vast majority of the data set without needing to compare and contrast every single feature. By using PC1 and PC2, we can then visualize in 2D and inspect for clusters. We can also combine the results with the _k_-means groups to see what _k_-means detected as compared to the clusters in the PCA visualization.
 
-Before we jump into PCA, it's a good idea to review where we left off in the [previous customer segmentation post](http://www.mattdancho.com/business/2016/08/07/CustomerSegmentationPt1.html).
+Before we jump into PCA, it's a good idea to review where we left off in the previous customer segmentation post.
 
 ## Where We Left Off <a class="anchor" id="left-off"></a>
 
@@ -56,15 +57,17 @@ Rather than run through the previous post, the sections below can be used to get
 
 You can access the data [here](https://github.com/mdancho84/orderSimulatoR/tree/master/data) if you would like to follow along. You'll need to download the following files:
 
-  * __orders.xlsx__: Contains the fictional sales orders for _Cannondale_. `customer.id` relates to `bike shop.id` in the __bikeshops.xlsx__ file, and `product.id` relates to `bike.id` in the __bikes.xlsx__ file.
+  * __orders.xlsx__: Contains the fictional sales orders for _Cannondale_. `customer.id` in the __orders.xlsx__ file relates to `bike shop.id` in the __bikeshops.xlsx__ file, and `product.id` in the __orders.xlsx__ file relates to `bike.id` in the __bikes.xlsx__ file.
+  
   * __bikes.xlsx__:  Contains information on products (e.g. bike model, primary category, secondary category, unit price, etc). `bike.id` is the primary key.
+  
   * __bikeshops.xlsx__: Contains information on customers (e.g. customer name and location). `bikeshop.id` is the primary key. 
 
 The script to load and configure the data into a customer trends matrix is shown below. 
 
 #### Reading the Data <a class="anchor" id="read-data"></a>
 
-Make sure you have the excel files in a folder named "data" in your current working directory prior to running the script below.
+This script will read the data. Make sure you have the excel files in a folder named "data" in your current working directory prior to running the script below.
 
 
 {% highlight r %}
@@ -163,7 +166,7 @@ Once PCA is performed, it's a good idea to take a look at the __variance explain
 
 
 
-<iframe src="/figure/source/2016-9-11-CustomerSegmentationPt2/plotly1.html" style="border: none; width: 100%; height: 400px"></iframe>
+<iframe src="/figure/source/2016-9-4-CustomerSegmentationPt2/plotly1.html" style="border: none; width: 100%; height: 400px"></iframe>
 
 PC1 and PC2 combined explain 44% of the variance of the data, and there's a steep drop-off between PC2 and PC3. This means that plotting PC's 1 and 2 will give us a reasonably good understanding of the data, and adding more PC's beyond PC2 will result in minimal improvement. Note that it won't always happen that there is a significant drop-off after PC2, and if more PC's explain variance we would need to evaluate them as well. 
 
@@ -207,7 +210,7 @@ The PCA segmentation shows some interesting results. It appears that there are f
 
 
 
-<iframe src="/figure/source/2016-9-11-CustomerSegmentationPt2/plotly2.html" style="border: none; width: 100%; height: 550px"></iframe>
+<iframe src="/figure/source/2016-9-4-CustomerSegmentationPt2/plotly2.html" style="border: none; width: 100%; height: 550px"></iframe>
 
 #### PCA Viz: K=5 K-Means Grouping <a class="anchor" id="pca-k5"></a>
 
@@ -215,7 +218,7 @@ Well, that's not what we thought was going to happen! It looks like Group 2 was 
 
 
 
-<iframe src="/figure/source/2016-9-11-CustomerSegmentationPt2/plotly3.html" style="border: none; width: 100%; height: 550px"></iframe>
+<iframe src="/figure/source/2016-9-4-CustomerSegmentationPt2/plotly3.html" style="border: none; width: 100%; height: 550px"></iframe>
 
 
 #### PCA Viz: Visual Inspection Grouping <a class="anchor" id="visual-inspection"></a>
@@ -236,9 +239,10 @@ And, let's visualize the results.
 
 
 
-<iframe src="/figure/source/2016-9-11-CustomerSegmentationPt2/plotly4.html" style="border: none; width: 100%; height: 550px"></iframe>
+<iframe src="/figure/source/2016-9-4-CustomerSegmentationPt2/plotly4.html" style="border: none; width: 100%; height: 550px"></iframe>
 
 Everything looks good, but we need to inspect the newly created Group 2's preferences to make sure they should truly be a standalone customer segment. 
+
 
 #### Group 2 Inspection <a class="anchor" id="group2"></a>
 
