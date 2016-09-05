@@ -1,0 +1,110 @@
+<nav class="bs-docs-sidebar hidden-print hidden-sm hidden-xs">
+	<ul class="nav bs-docs-sidenav">
+
+		<!-- Feedburer Email Signup-->
+		<li>
+			<!-- <h5>Interested in Business Science? Subscribe!</h5> -->
+			<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=mattdancho', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p style="color: #2c3e50;">Get <em>Business Science</em> updates:</p>
+                        <p><input type="text" style="width:90%; color: #2c3e50; padding-left: 4px;" name="email" placeholder="email address" /></p>
+                        <input type="hidden" value="mattdancho" name="uri"/>
+                        <input type="hidden" name="loc" value="en_US"/>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <input type="submit" value="Subscribe" class="btn btn-primary btn-sm" style="margin-bottom: 8px;"/>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <p class="text-center"><a href="http://feeds.feedburner.com/mattdancho"><img src="http://feeds.feedburner.com/~fc/mattdancho?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a></p>
+                    </div>
+                </div>
+            </form>
+		</li>
+		<li><hr></li>
+
+		<!-- Post Navigation -->
+		<li>
+			<!-- <h5>Blog Nav</h5> -->
+			<ul class="pager">
+			  {% if page.previous.url != true %}
+			    <li class="previous">
+			    	<a href="{{page.previous.url}}"><i class="fa fa-arrow-circle-left"></i> Prev</a>
+			    </li>
+			  {% endif %}
+			  {% if page.next.url %}
+			    <li class="next">
+			    	<a class="" href="{{page.next.url}}">Next <i class="fa fa-arrow-circle-right"></i></a>
+			    </li>
+			  {% endif %}
+			</ul>
+		</li>
+		<li><hr></li>
+
+		<!-- Recent Posts -->
+		<li>
+			<h5>Recent Posts</h5>
+			<div class="list-group">
+				{% for post in site.posts limit:3 %}
+				<a href="{{ post.url }}" class="list-group-item">
+					<h6 class="list-group-item-heading">{{ post.title }}</h6>
+				    {% if post.image %}
+	                  <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
+	                {% else %}
+	                  <img src="{{ site.baseurl }}/img/header-sm-crpd.jpg" alt="..." style="width: 100%;">
+	                {% endif %}
+				</a>
+				{% endfor %}
+			</div>
+			<!-- <ul>
+				{% for post in site.posts limit:3 %}
+				<li>
+					<a href="{{ post.url }}">
+                	<h6>{{ post.title }}</h6>
+                	</a>
+				</li>
+				{% endfor %}
+			</ul> -->
+		</li>
+		<li><hr></li>
+		<!-- Categories -->
+		<li>
+			<h5>Categories</h5>
+			<div class="btn-group-vertical center-block">
+				{% for category in site.categories %}
+                  <a href="/categories/#{{ category | first | slugize }}" class="btn btn-primary">
+                    {{ category | first }}
+                  </a>
+              	{% endfor %}
+			</div>
+		</li>
+		<li><hr></li>
+
+		<!-- Tags -->
+		<li>
+			<h5>Tags</h5>
+			<div>
+				<!-- https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html -->
+				{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+				{% assign tag_words = site_tags | split:',' | sort %}
+
+				{% for item in (0..site.tags.size) %}{% unless forloop.last %}
+				{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+				<a href="/tags/#{{ this_word }}" class="btn btn-primary btn-xs">{{ this_word }} <span class="badge">{{ site.tags[this_word].size }}</span></a>
+				{% endunless %}{% endfor %}
+			</div>
+
+		</li>
+		<li><hr></li>
+
+		<!-- R-Bloggers -->
+		<li>
+			<h5>R-Bloggers</h5>
+			<p>Visit <a href="https://www.r-bloggers.com">R-Bloggers</a> for more <code>R</code> news and tutorials!</p>
+		</li>
+
+
+
+	</ul>
+</nav>

@@ -7,14 +7,13 @@ title: Blog
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Business Science Blog</h1>
-                <p>Visit <a href="https://www.r-bloggers.com">R-Bloggers</a> for more R news and tutorials!</p>
                 <hr>
             </div>
         </div>
     </div>
 
     <nav>
-      <ul class=pager>
+      <ul class="pager" id="pager-blog">
         <li><a href="{{ site.baseurl }}/categories/"><i class="fa fa-list" aria-hidden="true"></i> By Category</a></li>
         <li><a href="{{ site.baseurl }}/tags/"><i class="fa fa-tags" aria-hidden="true"></i> By Tag</a></li>
       </ul>
@@ -22,7 +21,7 @@ title: Blog
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-8 col-md-offset-2" role="main">
               <ul style="list-style-position: inside">
                  {% for post in paginator.posts %}
                   <article>
@@ -58,7 +57,7 @@ title: Blog
 </section>
 
 <nav>
-  <ul class="pager">
+  <ul class="pager" id="pager-blog">
     {% if paginator.previous_page %}
       <li><a href="{{ paginator.previous_page_path }}"><i class="fa fa-arrow-circle-left"></i> Previous</a></li>
     {% endif %}

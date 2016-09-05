@@ -27,7 +27,7 @@ permalink: /categories/
 
   <!-- Navigation for blog, tag, categories -->
   <nav>
-      <ul class=pager>
+      <ul class="pager" id="pager-blog">
         <li><a href="{{ site.baseurl }}/blog/"><i class="fa fa-book" aria-hidden="true"></i> Blog</a></li>
         <li><a href="{{ site.baseurl }}/tags/"><i class="fa fa-tags" aria-hidden="true"></i> By Tag</a></li>
       </ul>
@@ -53,11 +53,11 @@ permalink: /categories/
                           <div class="col-md-9">
                             <ul id="tag_cat">
                               <li><h5 class="pull-left"><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h5></li>
-                              <li>
+                              <!-- <li>
                                 <div class="date pull-right add-margin-25">
                                 Written on {{ post.date | date: "%B %e, %Y" }}
                                 </div>
-                              </li>
+                              </li> -->
                             </ul>
                           </div>
                         </div>

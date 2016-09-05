@@ -65,6 +65,11 @@ p {
   /*margin: 15px 0;*/
 }
 
+/*small {
+  font-size: 13px;
+  line-height: 2;
+}*/
+
 #blog hr {
   border-color: #2C3E50;
 }
@@ -106,7 +111,7 @@ blockquote {
 
   }
 
-.pager li a {
+#pager-blog li a {
   width: 180px;
   margin: 5px;
 }
@@ -121,6 +126,7 @@ header #blog .container {
 .footer {
 	margin-top: 20px !important;
 }
+
 
 /* Homepage */
 
