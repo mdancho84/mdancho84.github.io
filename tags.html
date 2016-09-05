@@ -8,17 +8,18 @@ permalink: /tags/
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h1>Tags</h1>
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2 well">
+                  <!-- https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html -->
+                  {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+                  {% assign tag_words = site_tags | split:',' | sort %}
 
-                  <!-- Tags listed horizontally -->
-                  <ul class="tag-cloud">
-                  {% for tag in site.tags %}
-                    <li>
-                      <a href="#{{ tag | first | slugize }}">
-                        {{ tag | first }}
-                      </a>
-                    </li>
-                  {% endfor %}
-                  </ul>
+                  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+                  {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+                  <a href="#{{ this_word | slugify }}" class="btn btn-primary btn-xs" style="margin-top: 3px;">{{ this_word }}:  <span class="badge">{{ site.tags[this_word].size }}</span></a>
+                  {% endunless %}{% endfor %}
+                  </div>
+                </div>
 
                 <hr>
             </div>
@@ -38,7 +39,7 @@ permalink: /tags/
         <div class="col-md-10 col-md-offset-1">
 
           <!-- articles by tag listed in body of the page -->
-          <div id="archives">
+          <!-- <div id="archives">
           {% for tag in site.tags %}
               <div class="archive-group">
                 {% capture tag_name %}{{ tag | first }}{% endcapture %}
@@ -53,11 +54,6 @@ permalink: /tags/
                           <div class="col-md-9">
                             <ul id="tag_cat">
                               <li><h5 class="pull-left"><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h5></li>
-                              <!-- <li>
-                                <div class="date pull-right add-margin-25">
-                                Written on {{ post.date | date: "%B %e, %Y" }}
-                                </div>
-                              </li> -->
                             </ul>
                           </div>
                         </div>
@@ -68,6 +64,34 @@ permalink: /tags/
                 </div>
               </div>
           {% endfor %}
+          </div> -->
+
+          <div id="archives">
+              {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+
+              <div class="archive-group">
+                {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+                <div id="#{{ this_word | slugify }}">
+                  <div class = "container">
+                      <h3 >{{ this_word }}</h3>
+                      <a class="anchor" name="{{ this_word | slugify }}"></a>
+                      {% for post in site.tags[this_word] %}
+
+                      <article class="archive-item">
+                        <div class="row">
+                          <div class="col-md-9">
+                            <ul id="tag_cat">
+                              <li><h5 class="pull-left"><a href="{{ root_url }}{{ post.url }}">{{post.title}}</a></h5></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </article>
+                      {% endfor %}
+
+                  </div>
+                </div>
+              </div>
+          {% endunless %}{% endfor %}
           </div>
 
         </div>

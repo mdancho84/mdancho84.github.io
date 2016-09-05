@@ -17,7 +17,7 @@
                         <input type="submit" value="Subscribe" class="btn btn-primary btn-sm" style="margin-bottom: 8px;"/>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <p class="text-center"><a href="http://feeds.feedburner.com/mattdancho"><img src="http://feeds.feedburner.com/~fc/mattdancho?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a></p>
+                        <p class="text-center"><a href="http://feeds.feedburner.com/mattdancho"><img src="http://feeds.feedburner.com/~fc/mattdancho?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26" width="75%" style="border:0" alt="" /></a></p>
                     </div>
                 </div>
             </form>
@@ -91,7 +91,7 @@
 
 				{% for item in (0..site.tags.size) %}{% unless forloop.last %}
 				{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-				<a href="/tags/#{{ this_word }}" class="btn btn-primary btn-xs">{{ this_word }} <span class="badge">{{ site.tags[this_word].size }}</span></a>
+				<a href="/tags/#{{ this_word | slugify}}" class="btn btn-primary btn-xs">{{ this_word }}:  <span class="badge">{{ site.tags[this_word].size }}</span></a>
 				{% endunless %}{% endfor %}
 			</div>
 
