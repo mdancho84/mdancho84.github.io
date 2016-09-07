@@ -153,8 +153,6 @@ header .header-content {
     width: 100%;
     padding: 100px 15px;
     text-align: center;
-
-
 }
 
 header .header-content .header-content-inner h1 {
@@ -359,3 +357,11 @@ li {
 .scroll-top {
   right: -50%;
 }
+
+/*List Group Mods*/
+.list-group-item-heading {
+  color: #2C3E50 !important;
+}
+
+
+
