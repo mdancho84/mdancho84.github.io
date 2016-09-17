@@ -364,4 +364,12 @@ li {
 }
 
 
+.button-margin {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
 
+.button-margin button {
+  width: 100%;
+}

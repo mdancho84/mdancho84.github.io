@@ -57,27 +57,38 @@
 				</a>
 				{% endfor %}
 			</div>
-			<!-- <ul>
-				{% for post in site.posts limit:3 %}
-				<li>
-					<a href="{{ post.url }}">
-                	<h6>{{ post.title }}</h6>
-                	</a>
-				</li>
-				{% endfor %}
-			</ul> -->
 		</li>
 		<li><hr></li>
+
 		<!-- Categories -->
 		<li>
 			<h5>Categories</h5>
-			<div class="btn-group-vertical center-block">
-				{% for category in site.categories %}
-                  <a href="/categories/#{{ category | first | slugize }}" class="btn btn-primary">
-                    {{ category | first }}
-                  </a>
-              	{% endfor %}
+			{% for category in site.categories %}
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ category | first | slugize }}" aria-expanded="false" aria-controls="R">
+				  {{ category | first }}
+				</button>
+				<div class="collapse" id="{{ category | first | slugize }}">
+				  <div class="list-group">
+				    {% for posts in category %}
+				      {% for post in posts %}
+				      	{% if post.url %}
+					        <!-- <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a> -->
+					        <a href="{{ post.url }}" class="list-group-item">
+								<h6 class="list-group-item-heading">{{ post.title }}</h6>
+							    {% if post.image %}
+				                  <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
+				                {% else %}
+				                  <img src="{{ site.baseurl }}/img/header-sm-crpd.jpg" alt="..." style="width: 100%;">
+				                {% endif %}
+							</a>
+					    {% endif %}
+				      {% endfor %}
+				    {% endfor %}
+				  </div>
+				</div>
 			</div>
+			{% endfor %}
 		</li>
 		<li><hr></li>
 
@@ -98,12 +109,53 @@
 		</li>
 		<li><hr></li>
 
-		<!-- R-Bloggers -->
+		<!-- Resources -->
 		<li>
-			<h5>R-Bloggers</h5>
-			<p>Visit <a href="https://www.r-bloggers.com">R-Bloggers</a> for more <code>R</code> news and tutorials!</p>
-		</li>
+			<h5>Resources</h5>
+			<!-- R -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#R" aria-expanded="false" aria-controls="R">
+				  R
+				</button>
+				<div class="collapse in" id="R">
+				  <div class="list-group">
+				    {% for resource_item in site.data.resources-R %}
+    				<a href="{{ resource_item.link }}" class="list-group-item">{{ resource_item.name }}</a>
+    				{% endfor %}
+				  </div>
+				</div>
+			</div>
 
+			<!-- Python -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Python" aria-expanded="false" aria-controls="Python">
+				  Python
+				</button>
+				<div class="collapse in" id="Python">
+				  <div class="list-group">
+				    {% for resource_item in site.data.resources-python %}
+    				<a href="{{ resource_item.link }}" class="list-group-item">{{ resource_item.name }}</a>
+    				{% endfor %}
+				  </div>
+				</div>
+			</div>
+
+			<!-- Excel -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" style="width: 100%;" type="button" data-toggle="collapse" data-target="#Excel" aria-expanded="false" aria-controls="Excel">
+				  Excel
+				</button>
+				<div class="collapse in" id="Excel">
+				  <div class="list-group">
+					{% for resource_item in site.data.resources-excel %}
+					<a href="{{ resource_item.link }}" class="list-group-item">{{ resource_item.name }}</a>
+					{% endfor %}
+				  </div>
+				</div>
+			</div>
+
+		</li>
+		<li><hr></li>
 
 
 	</ul>
