@@ -1,16 +1,21 @@
 name,link
-R-Bloggers, https://www.r-bloggers.com
+R-Project.org,https://www.r-project.org/
 CRAN, https://cran.r-project.org/
 Bioconductor, https://www.bioconductor.org/
+METACRAN, http://www.r-pkg.org/
 RDocumentation, http://www.rdocumentation.org/taskviews#Bayesian
+MRAN Packages, https://mran.microsoft.com/packages/
 RStudio, https://www.rstudio.com/
 Shiny, http://shiny.rstudio.com/
 RMarkdown, http://rmarkdown.rstudio.com/
 knitr, http://yihui.name/knitr/
 ggplot2, http://ggplot2.org/
-Computerworld R Packages for Data Import + Wrangling + Visualization,http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html
-Computerworld R Packages to Import Sports + Weather + Stock/Finance Data,http://www.computerworld.com/article/3109890/data-analytics/these-r-packages-import-sports-weather-stock-data-and-more.html
-R for Data Science, http://r4ds.had.co.nz/
 Intro to Statistical Learning, http://www-bcf.usc.edu/~gareth/ISL/
+Elements of Statistical Learning,http://statweb.stanford.edu/~tibs/ElemStatLearn/
+R for Data Science, http://r4ds.had.co.nz/
 Advanced R,http://adv-r.had.co.nz/
 R Packages,http://r-pkgs.had.co.nz/
+Forecasting: Principles & Practice,https://www.otexts.org/book/fpp
+Great Libraries for Working w/ Data,http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html
+60+ R Resources,http://www.computerworld.com/article/2497464/business-intelligence/business-intelligence-60-r-resources-to-improve-your-data-skills.html
+R-Bloggers, https://www.r-bloggers.com

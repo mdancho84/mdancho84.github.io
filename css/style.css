@@ -373,3 +373,14 @@ li {
 .button-margin button {
   width: 100%;
 }
+
+/*Parallax*/
+.parallaxParent {
+    height: 100vh;
+    overflow: hidden;
+  }
+.parallaxParent > * {
+  height: 200%;
+  position: relative;
+  top: -100%;
+}

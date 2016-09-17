@@ -140,6 +140,34 @@
 				</div>
 			</div>
 
+			<!-- Tableau -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Tableau" aria-expanded="false" aria-controls="Tableau">
+				  Tableau
+				</button>
+				<div class="collapse in" id="Tableau">
+				  <div class="list-group">
+				    {% for resource_item in site.data.resources-tableau %}
+    				<a href="{{ resource_item.link }}" class="list-group-item">{{ resource_item.name }}</a>
+    				{% endfor %}
+				  </div>
+				</div>
+			</div>
+
+			<!-- Power BI -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#PowerBI" aria-expanded="false" aria-controls="PowerBI">
+				  Power BI
+				</button>
+				<div class="collapse in" id="PowerBI">
+				  <div class="list-group">
+				    {% for resource_item in site.data.resources-powerbi %}
+    				<a href="{{ resource_item.link }}" class="list-group-item">{{ resource_item.name }}</a>
+    				{% endfor %}
+				  </div>
+				</div>
+			</div>
+
 			<!-- Excel -->
 			<div class = "button-margin">
 				<button class="btn btn-primary" style="width: 100%;" type="button" data-toggle="collapse" data-target="#Excel" aria-expanded="false" aria-controls="Excel">
