@@ -1,4 +1,4 @@
-name,link
-Tableau.com, https://www.tableau.com/
-Tableau + R,https://www.tableau.com/stories/topic/r
-Tableau R YouTube Playlist,https://www.youtube.com/playlist?list=PL4cBp3I51XHsjwPLpz92TIcElsyB5Xiu-
+name,tooltip,link
+Tableau,The website for Tableau software. A public version is available for free and can be used for sharing data analysis across the web.,https://www.tableau.com/
+R Integration,Tableau integrates with R to add prediction capabilities to Tableau graphs.,https://www.tableau.com/stories/topic/r
+R YouTube Playlist,ThorogoodBI's overview of integrating R scripts.,https://www.youtube.com/playlist?list=PL4cBp3I51XHsjwPLpz92TIcElsyB5Xiu-

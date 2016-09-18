@@ -374,13 +374,10 @@ li {
   width: 100%;
 }
 
-/*Parallax*/
-.parallaxParent {
-    height: 100vh;
-    overflow: hidden;
-  }
-.parallaxParent > * {
-  height: 200%;
-  position: relative;
-  top: -100%;
+/*  Tooltip Customization */
+.tooltip.bottom .tooltip-inner {
+    background-color:#2C3E50;
 }
+/*.tooltip.left > .tooltip-arrow {
+      color: red;
+}*/

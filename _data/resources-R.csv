@@ -1,22 +1,21 @@
-name,link
-R-Project.org,https://www.r-project.org/
-CRAN, https://cran.r-project.org/
-Bioconductor, https://www.bioconductor.org/
-METACRAN, http://www.r-pkg.org/
-RDocumentation, http://www.rdocumentation.org/taskviews#Bayesian
-MRAN Packages, https://mran.microsoft.com/packages/
-RStudio, https://www.rstudio.com/
-Shiny, http://shiny.rstudio.com/
-RMarkdown, http://rmarkdown.rstudio.com/
-knitr, http://yihui.name/knitr/
-ggplot2, http://ggplot2.org/
-Intro to Statistical Learning, http://www-bcf.usc.edu/~gareth/ISL/
-Elements of Statistical Learning,http://statweb.stanford.edu/~tibs/ElemStatLearn/
-R for Data Science, http://r4ds.had.co.nz/
-Advanced R,http://adv-r.had.co.nz/
-R Packages,http://r-pkgs.had.co.nz/
-Forecasting: Principles & Practice,https://www.otexts.org/book/fpp
-Little Book of R for Time Series,http://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/
-Great Libraries for Working w/ Data,http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html
-60+ R Resources,http://www.computerworld.com/article/2497464/business-intelligence/business-intelligence-60-r-resources-to-improve-your-data-skills.html
-R-Bloggers, https://www.r-bloggers.com
+name,tooltip,link
+R-Project.org,Home of the R Project. Includes documentation and resources for R.,https://www.r-project.org/
+RStudio,The IDE that most R-programmers use. Its website has documentation & tutorials on various R-packages developed by RStudio.,https://www.rstudio.com/
+CRAN,Comprehensive R Archive Network: The primary database of popular R libraries and documentation.,https://cran.r-project.org/
+Bioconductor,A very popular database for R libraries related to genomics.,https://www.bioconductor.org/
+RDocumentation,Searching R packages can be difficult. RDocumentation pools libraries from CRAN + Bioconductor + Github for search. Libraries are broken into task views (i.e. categories related to task). Users can search by measures such as download frequency.,http://www.rdocumentation.org/taskviews#Bayesian
+Shiny,A tool for building interactive R web applications. Its website includes Documentation + Webinars + Tutorials + Articles.,http://shiny.rstudio.com/
+RMarkdown,Language for combining R with Markdown for incorporating R into reproducible reports and websites. Its website includes documentation and examples.,http://rmarkdown.rstudio.com/
+knitr,Expands on RMarkdown for dynamic and reproducible report generation in RStudio. Its website includes documentation and tutorials.,http://yihui.name/knitr/
+ggplot2,The most popular graphing library in R. Its website includes documentation and examples.,http://ggplot2.org/
+caret,A wrapper for machine learning libraries that makes modeling consistent and easy. Its website includes documentation and tutorials.,http://topepo.github.io/caret/index.html
+Intro to Statistical Learning (ISL),A free book on many of the most popular statistics and machine learning tools with applications in R.,http://www-bcf.usc.edu/~gareth/ISL/
+Elements of Statistical Learning (ESL),A free book that goes much more in-depth than ISL.,http://statweb.stanford.edu/~tibs/ElemStatLearn/
+R for Data Science,A free online book that covers data wrangling and visualization with libraries such as dplyr + tidyr + ggplot2.,http://r4ds.had.co.nz/
+Advanced R,A free online book for R-programmers that want to improve their programming skills and understanding of the language.,http://adv-r.had.co.nz/
+R Packages,A free online book for R-programmers that want to develop R packages for reproducibility and so others can use.,http://r-pkgs.had.co.nz/
+Forecasting: Principles & Practice,Free online book that covers forecasting in R.,https://www.otexts.org/book/fpp
+Little Book of R for Time Series,Free online resource that walks users through the essentials of forecasting in R.,http://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/
+Great Libraries for Working w/ Data,Computerworld's best R packages for data import + wrangling + visualization.,http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html
+60+ R Resources,Computerworld's list of best R resources.,http://www.computerworld.com/article/2497464/business-intelligence/business-intelligence-60-r-resources-to-improve-your-data-skills.html
+R-Bloggers,An R blog aggregator combining blogs from many advanced R users., https://www.r-bloggers.com

@@ -1,6 +1,6 @@
-name,link
-Microsoft Power BI,https://powerbi.microsoft.com/
-Power BI Documentation,https://powerbi.microsoft.com/en-us/documentation/powerbi-landing-page/
-Power BI YouTube Playlist,https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP
-Custom Visuals Gallery,https://app.powerbi.com/visuals/
-R Script Showcase,http://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals
+name,tooltip,link
+Microsoft Power BI,The website for the Power BI software. A free version is available but you must provide a business email address.,https://powerbi.microsoft.com/
+Power BI Documentation,Microsofts documentation for the Power BI software.,https://powerbi.microsoft.com/en-us/documentation/powerbi-landing-page/
+Power BI YouTube Playlist,Microsoft's 100+ videos on Power BI.,https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP
+Custom Visuals Gallery,Enhanced visuals for extending Power BI. Note that these are user-created and not the product of Microsoft.,https://app.powerbi.com/visuals/
+R Script Showcase,Microsoft's gallery of how-to's on integrating R with Power BI.,http://community.powerbi.com/t5/R-Script-Showcase/bd-p/RVisuals

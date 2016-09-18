@@ -66,7 +66,8 @@
 			{% for category in site.categories %}
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ category | first | slugize }}" aria-expanded="false" aria-controls="R">
-				  {{ category | first }}
+				  {{ category | first }}:
+				  <span class="badge">{{ category | last | size }}</span>
 				</button>
 				<div class="collapse" id="{{ category | first | slugize }}">
 				  <div class="list-group">
@@ -102,7 +103,7 @@
 
 				{% for item in (0..site.tags.size) %}{% unless forloop.last %}
 				{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-				<a href="/tags/#{{ this_word | slugify}}" class="btn btn-primary btn-xs">{{ this_word }}:  <span class="badge">{{ site.tags[this_word].size }}</span></a>
+				<a href="/tags/#{{ this_word | slugify}}" class="btn btn-primary btn-xs">{{ this_word }}: <span class="badge">{{ site.tags[this_word].size }}</span></a>
 				{% endunless %}{% endfor %}
 			</div>
 
@@ -115,12 +116,12 @@
 			<!-- R -->
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#R" aria-expanded="false" aria-controls="R">
-				  R
+				  R: <span class="badge">{{ site.data.resources-R | size }}</span>
 				</button>
 				<div class="collapse" id="R">
 				  <div class="list-group">
 				    {% for resource_item in site.data.resources-R %}
-    				<a href="{{ resource_item.link }}" class="list-group-item">{{ resource_item.name }}</a>
+    				<a href="{{ resource_item.link }}" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="{{ resource_item.tooltip }}">{{ resource_item.name }}</a>
     				{% endfor %}
 				  </div>
 				</div>
@@ -129,26 +130,12 @@
 			<!-- Python -->
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Python" aria-expanded="false" aria-controls="Python">
-				  Python
+				  Python: <span class="badge">{{ site.data.resources-python | size }}</span>
 				</button>
 				<div class="collapse" id="Python">
 				  <div class="list-group">
 				    {% for resource_item in site.data.resources-python %}
-    				<a href="{{ resource_item.link }}" class="list-group-item">{{ resource_item.name }}</a>
-    				{% endfor %}
-				  </div>
-				</div>
-			</div>
-
-			<!-- Tableau -->
-			<div class = "button-margin">
-				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Tableau" aria-expanded="false" aria-controls="Tableau">
-				  Tableau
-				</button>
-				<div class="collapse" id="Tableau">
-				  <div class="list-group">
-				    {% for resource_item in site.data.resources-tableau %}
-    				<a href="{{ resource_item.link }}" class="list-group-item">{{ resource_item.name }}</a>
+    				<a href="{{ resource_item.link }}" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="{{ resource_item.tooltip }}">{{ resource_item.name }}</a>
     				{% endfor %}
 				  </div>
 				</div>
@@ -157,12 +144,26 @@
 			<!-- Power BI -->
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#PowerBI" aria-expanded="false" aria-controls="PowerBI">
-				  Power BI
+				  Power BI: <span class="badge">{{ site.data.resources-powerbi | size }}</span>
 				</button>
 				<div class="collapse" id="PowerBI">
 				  <div class="list-group">
 				    {% for resource_item in site.data.resources-powerbi %}
-    				<a href="{{ resource_item.link }}" class="list-group-item">{{ resource_item.name }}</a>
+    				<a href="{{ resource_item.link }}" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="{{ resource_item.tooltip }}">{{ resource_item.name }}</a>
+    				{% endfor %}
+				  </div>
+				</div>
+			</div>
+
+			<!-- Tableau -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Tableau" aria-expanded="false" aria-controls="Tableau">
+				  Tableau: <span class="badge">{{ site.data.resources-tableau | size }}</span>
+				</button>
+				<div class="collapse" id="Tableau">
+				  <div class="list-group">
+				    {% for resource_item in site.data.resources-tableau %}
+    				<a href="{{ resource_item.link }}" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="{{ resource_item.tooltip }}">{{ resource_item.name }}</a>
     				{% endfor %}
 				  </div>
 				</div>
@@ -171,12 +172,12 @@
 			<!-- Excel -->
 			<div class = "button-margin">
 				<button class="btn btn-primary" style="width: 100%;" type="button" data-toggle="collapse" data-target="#Excel" aria-expanded="false" aria-controls="Excel">
-				  Excel
+				  Excel <span class="badge">{{ site.data.resources-excel | size }}</span>
 				</button>
 				<div class="collapse" id="Excel">
 				  <div class="list-group">
 					{% for resource_item in site.data.resources-excel %}
-					<a href="{{ resource_item.link }}" class="list-group-item">{{ resource_item.name }}</a>
+					<a href="{{ resource_item.link }}" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="{{ resource_item.tooltip }}">{{ resource_item.name }}</a>
 					{% endfor %}
 				  </div>
 				</div>

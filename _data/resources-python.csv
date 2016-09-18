@@ -1,9 +1,10 @@
-name,link
-Python.org,https://www.python.org/
-Anaconda,https://www.continuum.io/
-Jupyter Notebook,http://jupyter.org/
-Numpy,http://www.numpy.org/
-Pandas,http://pandas.pydata.org/
-Scikit Learn,http://scikit-learn.org/stable/
-Matplotlib,http://matplotlib.org/
-Seaborn,https://stanford.edu/~mwaskom/software/seaborn/
+name,tooltip,link
+Python.org,Home of Python. I strongly recommend downloading the Anaconda distribution if you're interested in data science.,https://www.python.org/
+Anaconda,The Anaconda distribution contains many of the necessary packages for data analysis and data science. If working from the comand line you can use commands such as 'conda install pandas'.,https://www.continuum.io/
+Conda Package List,A list of the default packages that comes with the Conda Python distribution.,https://docs.continuum.io/anaconda/pkg-docs
+Jupyter Notebook,Jupyter Notebooks (formerly iPython) is a browser-based IDE that is the standard for creating reproducible reports in Python. It also works with R and Julia but has its roots in Python.,http://jupyter.org/
+NumPy,NumPy is the base package for working with statistics and arrays in Python. Many of the other Python data analysis packages depend on NumPy.,http://www.numpy.org/
+Pandas,Pandas makes working with data frames easy. It is very similar to dplyr in R.,http://pandas.pydata.org/
+Scikit Learn,Scikit Learn implements many of the machine learning algorithms in Python. It is very similar to caret in R.,http://scikit-learn.org/stable/
+Matplotlib,Matplotlib is the base package for computing graphs in Python.,http://matplotlib.org/
+Seaborn,Seaborn extends matplotlib to create aesthetical visualizations and for enhanced control of plot features.,https://stanford.edu/~mwaskom/software/seaborn/

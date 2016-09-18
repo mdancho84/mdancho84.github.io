@@ -9,6 +9,10 @@ $( document ).ready(function() {
 	$('#blog p > img').addClass('img-responsive center-block');
 	$('#blog_content').find('img').addClass('shadow');
 
+// Tooltip Hover Over
+    $('[data-toggle="tooltip"]').tooltip();
+
+
 // Scroll Top Button
 
 	//Show / Hide button
