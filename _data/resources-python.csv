@@ -4,7 +4,10 @@ Anaconda,The Anaconda distribution contains many of the necessary packages for d
 Conda Package List,A list of the default packages that comes with the Conda Python distribution.,https://docs.continuum.io/anaconda/pkg-docs
 Jupyter Notebook,Jupyter Notebooks (formerly iPython) is a browser-based IDE that is the standard for creating reproducible reports in Python. It also works with R and Julia but has its roots in Python.,http://jupyter.org/
 NumPy,NumPy is the base package for working with statistics and arrays in Python. Many of the other Python data analysis packages depend on NumPy.,http://www.numpy.org/
+SciPy,SciPy extends NumPy by adding a collection of algorithms and high-level commands for manipulating and visualizing data.,http://scipy.org/
 Pandas,Pandas makes working with data frames easy. It is very similar to dplyr in R.,http://pandas.pydata.org/
-Scikit Learn,Scikit Learn implements many of the machine learning algorithms in Python. It is very similar to caret in R.,http://scikit-learn.org/stable/
 Matplotlib,Matplotlib is the base package for computing graphs in Python.,http://matplotlib.org/
 Seaborn,Seaborn extends matplotlib to create aesthetical visualizations and for enhanced control of plot features.,https://stanford.edu/~mwaskom/software/seaborn/
+Scikit Learn,Scikit Learn implements many of the machine learning algorithms in Python. It is very similar to caret in R.,http://scikit-learn.org/stable/
+Theano,Theano is similar to NumPy except built for speed. Using the computer's GPU, Theano is optimized to obtain speeds approaching C.,http://deeplearning.net/software/theano/
+Natural Language Toolkit (NLTK),NLTK provides a suite of text processing libraries for classification + tokenization + stemming + tagging + parsing text. The website also has a link to a book written by NTLK's authors.,http://www.nltk.org/
