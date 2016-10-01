@@ -59,11 +59,11 @@ title: Blog
 <nav>
   <ul class="pager" id="pager-blog">
     {% if paginator.previous_page %}
-      <li><a href="{{ paginator.previous_page_path }}"><i class="fa fa-arrow-circle-left"></i> Previous</a></li>
+      <li><a href="{{ paginator.previous_page_path }}"><i class="fa fa-arrow-circle-left"></i> Newer</a></li>
     {% endif %}
 
     {% if paginator.next_page %}
-      <li><a href="{{ paginator.next_page_path }}">Next <i class="fa fa-arrow-circle-right"></i></a></li>
+      <li><a href="{{ paginator.next_page_path }}">Older <i class="fa fa-arrow-circle-right"></i></a></li>
     {% endif %}
   </ul>
 </nav>
