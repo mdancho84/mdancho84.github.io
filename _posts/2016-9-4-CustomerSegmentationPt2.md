@@ -2,8 +2,8 @@
 layout: post
 title:  "Customer Segmentation Part 2: PCA for Segment Visualization"
 categories: [Business]
-tags: [R-Project, R, Customer Segmentation, Community Detection, PCA, bikes data set]
-image: custSegments2.jpg
+tags: [R-Project, R, Customer Segmentation, Community Detection, PCA, prcomp, bikes data set]
+image: custSegments2.png
 ---
 
 
@@ -127,14 +127,9 @@ knitr::kable(head(customerTrends))
 
 
 
-|model               |category1 |category2  |frame    |price        | Albuquerque Cycles| Ann Arbor Speed| Austin Cruisers| Cincinnati Speed| Columbus Race Equipment| Dallas Cycles| Denver Bike Shop| Detroit Cycles| Indianapolis Velocipedes| Ithaca Mountain Climbers| Kansas City 29ers| Las Vegas Cycles| Los Angeles Cycles| Louisville Race Equipment| Miami Race Equipment| Minneapolis Bike Shop| Nashville Cruisers| New Orleans Velocipedes| New York Cycles| Oklahoma City Race Equipment| Philadelphia Bike Shop| Phoenix Bi-peds| Pittsburgh Mountain Machines| Portland Bi-peds| Providence Bi-peds| San Antonio Bike Shop| San Francisco Cruisers| Seattle Race Equipment| Tampa 29ers| Wichita Speed|
-|:-------------------|:---------|:----------|:--------|:------------|------------------:|---------------:|---------------:|----------------:|-----------------------:|-------------:|----------------:|--------------:|------------------------:|------------------------:|-----------------:|----------------:|------------------:|-------------------------:|--------------------:|---------------------:|------------------:|-----------------------:|---------------:|----------------------------:|----------------------:|---------------:|----------------------------:|----------------:|------------------:|---------------------:|----------------------:|----------------------:|-----------:|-------------:|
-|Bad Habit 1         |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0174825|       0.0066445|       0.0081301|        0.0051151|               0.0101523|     0.0128205|        0.0117340|      0.0099206|                0.0062696|                0.0181962|         0.0181504|        0.0016026|          0.0062893|                 0.0075949|            0.0042135|             0.0182648|          0.0086705|               0.0184783|       0.0074074|                    0.0129870|              0.0244898|       0.0112755|                    0.0159151|        0.0108696|          0.0092251|             0.0215054|              0.0026738|              0.0156250|   0.0194175|     0.0059172|
-|Bad Habit 2         |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0069930|       0.0099668|       0.0040650|        0.0000000|               0.0000000|     0.0170940|        0.0139070|      0.0158730|                0.0031348|                0.0110759|         0.0158456|        0.0000000|          0.0094340|                 0.0000000|            0.0112360|             0.0167428|          0.0173410|               0.0021739|       0.0074074|                    0.0095238|              0.0040816|       0.0190275|                    0.0026525|        0.0108696|          0.0239852|             0.0000000|              0.0026738|              0.0078125|   0.0000000|     0.0000000|
-|Beast of the East 1 |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0104895|       0.0149502|       0.0081301|        0.0000000|               0.0000000|     0.0042735|        0.0182529|      0.0119048|                0.0094044|                0.0213608|         0.0181504|        0.0016026|          0.0251572|                 0.0000000|            0.0140449|             0.0167428|          0.0086705|               0.0086957|       0.0172840|                    0.0242424|              0.0000000|       0.0126850|                    0.0053050|        0.0108696|          0.0092251|             0.0053763|              0.0000000|              0.0156250|   0.0097087|     0.0000000|
-|Beast of the East 2 |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0104895|       0.0099668|       0.0081301|        0.0000000|               0.0050761|     0.0042735|        0.0152108|      0.0059524|                0.0094044|                0.0181962|         0.0138289|        0.0000000|          0.0220126|                 0.0050633|            0.0084270|             0.0076104|          0.0086705|               0.0097826|       0.0172840|                    0.0086580|              0.0000000|       0.0232558|                    0.0106101|        0.0155280|          0.0147601|             0.0107527|              0.0026738|              0.0234375|   0.0291262|     0.0019724|
-|Beast of the East 3 |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0034965|       0.0033223|       0.0000000|        0.0000000|               0.0025381|     0.0042735|        0.0169492|      0.0119048|                0.0000000|                0.0102848|         0.0181504|        0.0032051|          0.0000000|                 0.0050633|            0.0042135|             0.0152207|          0.0202312|               0.0043478|       0.0049383|                    0.0051948|              0.0204082|       0.0162086|                    0.0026525|        0.0201863|          0.0073801|             0.0322581|              0.0000000|              0.0078125|   0.0097087|     0.0000000|
-|CAAD Disc Ultegra   |Road      |Elite Road |Aluminum |[ 415, 3500) |          0.0139860|       0.0265781|       0.0203252|        0.0153453|               0.0101523|     0.0000000|        0.0108648|      0.0079365|                0.0094044|                0.0000000|         0.0106598|        0.0112179|          0.0157233|                 0.0278481|            0.0210674|             0.0182648|          0.0375723|               0.0152174|       0.0172840|                    0.0103896|              0.0163265|       0.0126850|                    0.0026525|        0.0139752|          0.0073801|             0.0053763|              0.0026738|              0.0078125|   0.0000000|     0.0098619|
+{% highlight text %}
+## Error in kable_markdown(x = structure(c("Albuquerque Cycles", "Ann Arbor Speed", : the table must have a header (column names)
+{% endhighlight %}
  
 #### K-Means Clustering <a class="anchor" id="kmeans"></a>
 
@@ -145,9 +140,25 @@ We used the `kmeans()` function to perform _k_-means clustering. The [_k_-means 
 # K-Means Clustering (used later) ----------------------------------------------
 set.seed(11) # For reproducibility
 km4.out <- kmeans(t(customerTrends[,-(1:5)]), centers = 4, nstart = 50)
+{% endhighlight %}
 
+
+
+{% highlight text %}
+## Error in kmeans(t(customerTrends[, -(1:5)]), centers = 4, nstart = 50): more cluster centers than distinct data points.
+{% endhighlight %}
+
+
+
+{% highlight r %}
 set.seed(11) # For reproducibility
 km5.out <- kmeans(t(customerTrends[,-(1:5)]), centers = 5, nstart = 50)
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in kmeans(t(customerTrends[, -(1:5)]), centers = 5, nstart = 50): more cluster centers than distinct data points.
 {% endhighlight %}
 
 ## Applying PCA <a class="anchor" id="applying-pca"></a>
@@ -160,157 +171,30 @@ Now, back to our main focus: PCA. Applying PCA is very simple once the data is f
 pca <- prcomp(t(customerTrends[,-(1:5)]), scale. = T, center = T) # Perform PCA
 {% endhighlight %}
 
+
+
+{% highlight text %}
+## Error in colMeans(x, na.rm = TRUE): 'x' must be numeric
+{% endhighlight %}
+
 Once PCA is performed, it's a good idea to take a look at the __variance explained__. As stated before, the goal of PCA is to reduce the dimensions of the data. PCA does this by transforming the data into dimensions that are orthogonal to the variation. The greater the variance explained, the more information that is summarized by the PC. The `prcomp()` function returns this variance by PC. You can use `summary(pca)` to get the variance explained. Let's take a look at the first nine PC's visually. 
 
 
 
 
 
-<iframe src="/figure/source/2016-9-4-CustomerSegmentationPt2/plotly1.html" style="border: none; width: 100%; height: 400px"></iframe>
-
-PC1 and PC2 combined explain 44% of the variance of the data, and there's a steep drop-off between PC2 and PC3. This means that plotting PC's 1 and 2 will give us a reasonably good understanding of the data, and adding more PC's beyond PC2 will result in minimal improvement. Note that it won't always happen that there is a significant drop-off after PC2, and if more PC's explain variance we would need to evaluate them as well. 
-
-## Visualizing the Results <a class="anchor" id="visualizing-results"></a>
-
-We'll plot PC1 and PC2, and we'll color the clusters initially using the k-means groups previously created. To do this, we first need to get the `pca` data into a data frame that combines the customers with the PC's. Luckily, the `ggfortify` package has a function called `fortify()` to do just that. Once our data is fortified, we create two data frames with the k-means groups added to the end so we can group on them. We'll use the _k_-means group to color the PCA results so we can compare to _k_-means and gain insights. 
-
-
-{% highlight r %}
-# Manipulate data for PCA Analyis ----------------------------------------------
-library(ggfortify) # For fortify()
-pca.fortify <- fortify(pca) # fortify() gets pca into usable format
-
-# Add group (short for color) column using k=4 and k=5 groups
-pca4.dat <- cbind(pca.fortify, group=km4.out$cluster)
-pca5.dat <- cbind(pca.fortify, group=km5.out$cluster)
-{% endhighlight %}
-
-#### Plotting the PC's <a class="anchor" id="plotting"></a>
-
-The script below provides sample `ggplot` scripts to create a general plot for PC1 and PC2. The script uses my favorite interactive plotting library, `plotly`, to turn the `ggplot` results into interactive plots. The scripts used for the next section follow the same general procedure, so I won't show the code for brevity.
-
-
-{% highlight r %}
-# Plotting PC1 and PC2 using ggplot and plotly ---------------------------------
-library(ggplot2)
-library(plotly)
-# Script for plotting k=4
-gg2 <- ggplot(pca4.dat) +
-  geom_point(aes(x=PC1, y=PC2, col=factor(group), text=rownames(pca4.dat)), size=2) +
-  labs(title = "Visualizing K-Means Clusters Against First Two Principal Components") +
-  scale_color_brewer(name="", palette = "Set1")
-# Use plotly for inteactivity
-plotly2 <- ggplotly(gg2, tooltip = c("text", "x", "y")) %>%
-  layout(legend = list(x=.9, y=.99))
-{% endhighlight %}
-
-#### PCA Viz: K=4 K-Means Grouping <a class="anchor" id="pca-k4"></a>
-
-The PCA segmentation shows some interesting results. It appears that there are five clusters as opposed to four. The $$k = 4$$ _k_-means results would not pick this up, because we selected four clusters. Maybe your thinking that the silhouette analysis from the previous post indicated that we should pick $$k = 5$$, so this is where we went wrong. Let's see what happens with the five cluster _k_-means.
 
 
 
-<iframe src="/figure/source/2016-9-4-CustomerSegmentationPt2/plotly2.html" style="border: none; width: 100%; height: 550px"></iframe>
-
-#### PCA Viz: K=5 K-Means Grouping <a class="anchor" id="pca-k5"></a>
-
-Well, that's not what we thought was going to happen! It looks like Group 2 was incorrectly classified. From the _k_-means post, this actually makes sense: We inspected the clusters, and Group 2 and 4 were very similar in their preferences for bikes in the low-end price range. We decided to combine these clusters by switching to $$k = 4$$ clusters. Next, we'll look at clustering based on inspection of the PCA plot.
 
 
 
-<iframe src="/figure/source/2016-9-4-CustomerSegmentationPt2/plotly3.html" style="border: none; width: 100%; height: 550px"></iframe>
-
-
-#### PCA Viz: Visual Inspection Grouping <a class="anchor" id="visual-inspection"></a>
-
-From the PCA visualization, we can see there are two bike shops that do not belong to Group 4. Based on our visual inspection, we can modify the groups (column 128) by switching Group 2 (San Antonio Bike Shop & Philadelphia Bike Shop) with the incorrectly classified Group 4 shops (Denver Bike Shop & Kansas City 29ers). 
-
-
-{% highlight r %}
-# Switch Group 2 Bike Shops with misclassified Bike Shops in Group 4 -----------
-pca.final.dat <- pca5.dat
-pca.final.dat[rownames(pca.final.dat) %in% 
-                c("San Antonio Bike Shop", "Philadelphia Bike Shop"), 128] <- 4
-pca.final.dat[rownames(pca.final.dat) %in% 
-                c("Denver Bike Shop", "Kansas City 29ers"), 128] <- 2
-{% endhighlight %}
-
-And, let's visualize the results. 
 
 
 
-<iframe src="/figure/source/2016-9-4-CustomerSegmentationPt2/plotly4.html" style="border: none; width: 100%; height: 550px"></iframe>
-
-Everything looks good, but we need to inspect the newly created Group 2's preferences to make sure they should truly be a standalone customer segment. 
-
-
-#### Group 2 Inspection <a class="anchor" id="group2"></a>
-
-The script below modifies the `customerTrends` data frame to select only customer columns that are in the group we want to inspect. The script then takes the average of the customer's percent of quantity purchased vs total quantity purchased (the values in the customer columns). The data frame is sorted by most frequently purchased so we can see the group's central tendency. For Group 2, the central tendency is a preference for low-end mountain bikes.
-
-
-{% highlight r %}
-# Inspect Group 2 Preferences --------------------------------------------------
-# Select only groups in group num and perform row-wise average of bike prefs
-library(dplyr)
-group.num <- 2 # Set group number
-group.names <- rownames(pca.final.dat[pca.final.dat$group == group.num, ])
-groupTrends <- customerTrends %>%
-  select(model:price, match(group.names, names(.))) # Use match() to select column names
-group.avg <- apply(groupTrends[6:ncol(groupTrends)], 1, mean) # Take average of values
-groupTrends <- cbind(groupTrends, group.avg) %>%
-  arrange(-group.avg) 
-
-knitr::kable(head(groupTrends, 10)) # Top ten products by group avg. pct. purchased
-{% endhighlight %}
 
 
 
-|model               |category1 |category2          |frame    |price        | Denver Bike Shop| Kansas City 29ers| group.avg|
-|:-------------------|:---------|:------------------|:--------|:------------|----------------:|-----------------:|---------:|
-|Catalyst 2          |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0256410|         0.0187266| 0.0221838|
-|Trail 5             |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0204259|         0.0216076| 0.0210168|
-|F-Si Carbon 4       |Mountain  |Cross Country Race |Carbon   |[ 415, 3500) |        0.0165146|         0.0247767| 0.0206456|
-|Scalpel 29 4        |Mountain  |Cross Country Race |Aluminum |[ 415, 3500) |        0.0186875|         0.0210314| 0.0198595|
-|Catalyst 4          |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0199913|         0.0184385| 0.0192149|
-|F-Si 1              |Mountain  |Cross Country Race |Aluminum |[ 415, 3500) |        0.0204259|         0.0175742| 0.0190000|
-|Trail 4             |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0152108|         0.0218957| 0.0185532|
-|Trail 1             |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0204259|         0.0164218| 0.0184238|
-|Trail 2             |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0208605|         0.0158456| 0.0183530|
-|Beast of the East 1 |Mountain  |Trail              |Aluminum |[ 415, 3500) |        0.0182529|         0.0181504| 0.0182017|
-
-#### Group 4 Inspection <a class="anchor" id="group4"></a>
-
-Let's compare to Group 4. Rerun the previous script changing `group.num` from 2 to 4. We can see that Group 4's preference is similar to Group 2 in that both groups prefer low-end/affordable bikes. However, Group 4's top purchases contain a mixture of Mountain and Road, while Group 2's top purchases are exclusively Mountain. It appears there is a difference!
-
-
-|model                   |category1 |category2          |frame    |price        | Albuquerque Cycles| Dallas Cycles| Detroit Cycles| Los Angeles Cycles| Minneapolis Bike Shop| New York Cycles| Philadelphia Bike Shop| Phoenix Bi-peds| Portland Bi-peds| Providence Bi-peds| San Antonio Bike Shop| group.avg|
-|:-----------------------|:---------|:------------------|:--------|:------------|------------------:|-------------:|--------------:|------------------:|---------------------:|---------------:|----------------------:|---------------:|----------------:|------------------:|---------------------:|---------:|
-|F-Si 2                  |Mountain  |Cross Country Race |Aluminum |[ 415, 3500) |          0.0174825|     0.0256410|      0.0119048|          0.0471698|             0.0258752|       0.0246914|              0.0040816|       0.0183228|        0.0186335|          0.0129151|             0.0215054| 0.0207476|
-|Slice Ultegra           |Road      |Triathalon         |Carbon   |[ 415, 3500) |          0.0104895|     0.0085470|      0.0099206|          0.0251572|             0.0076104|       0.0049383|              0.0571429|       0.0133897|        0.0248447|          0.0092251|             0.0537634| 0.0204572|
-|CAAD12 Disc 105         |Road      |Elite Road         |Aluminum |[ 415, 3500) |          0.0139860|     0.0085470|      0.0297619|          0.0157233|             0.0136986|       0.0222222|              0.0204082|       0.0176180|        0.0310559|          0.0092251|             0.0215054| 0.0185229|
-|Catalyst 3              |Mountain  |Sport              |Aluminum |[ 415, 3500) |          0.0314685|     0.0427350|      0.0178571|          0.0188679|             0.0152207|       0.0024691|              0.0040816|       0.0140944|        0.0186335|          0.0202952|             0.0161290| 0.0183502|
-|F-Si Carbon 4           |Mountain  |Cross Country Race |Carbon   |[ 415, 3500) |          0.0104895|     0.0128205|      0.0238095|          0.0188679|             0.0152207|       0.0271605|              0.0448980|       0.0183228|        0.0139752|          0.0129151|             0.0000000| 0.0180436|
-|Synapse Carbon Disc 105 |Road      |Endurance Road     |Carbon   |[ 415, 3500) |          0.0139860|     0.0170940|      0.0099206|          0.0125786|             0.0304414|       0.0271605|              0.0285714|       0.0091614|        0.0170807|          0.0166052|             0.0107527| 0.0175775|
-|CAAD8 Sora              |Road      |Elite Road         |Aluminum |[ 415, 3500) |          0.0069930|     0.0213675|      0.0099206|          0.0188679|             0.0273973|       0.0098765|              0.0040816|       0.0204369|        0.0217391|          0.0202952|             0.0215054| 0.0165892|
-|Synapse Disc 105        |Road      |Endurance Road     |Aluminum |[ 415, 3500) |          0.0279720|     0.0213675|      0.0019841|          0.0094340|             0.0121766|       0.0271605|              0.0204082|       0.0155039|        0.0093168|          0.0129151|             0.0215054| 0.0163404|
-|CAAD12 105              |Road      |Elite Road         |Aluminum |[ 415, 3500) |          0.0069930|     0.0299145|      0.0277778|          0.0188679|             0.0106545|       0.0098765|              0.0326531|       0.0084567|        0.0093168|          0.0018450|             0.0215054| 0.0161692|
-|Trigger Carbon 4        |Mountain  |Over Mountain      |Carbon   |[ 415, 3500) |          0.0069930|     0.0085470|      0.0099206|          0.0125786|             0.0060883|       0.0197531|              0.0285714|       0.0119803|        0.0124224|          0.0239852|             0.0322581| 0.0157362|
-
-
-## Conclusion <a class="anchor" id="conclusions"></a>
-
-PCA can be a valuable cross-check to _k_-means for customer segmentation. While _k_-means got us close to the true customer segments, visually evaluating the groups using PCA helped identify a different customer segment, one that the $$k = 5$$ _k_-means solution did not pick up.  
-
-## Recap <a class="anchor" id="recap"></a>
-
-This post expanded on our customer segmentation methodology by using __PCA to visually examine the clusters__. We manipulated our sales order data to obtain a format that relates products to customer purchases. We used the `prcomp()` function to perform PCA on our formatted data frame. We fortified the PCA output using the `fortify()` function from the `ggfortify` package, which enabled us to plot the PC's by customer. We added the _k_-means cluster groups to the fortified data frame for visual inspection of the _k_-means clusters. We saw that differences can arise because _k_-means programatically determines the clusters while PCA allows us to visually inspect the clusters. The end result was an improvement to the customer segmentation by attacking the community detection problem from two different angles and combining the results! 
-
-## Further Reading <a class="anchor" id="further-reading"></a>
-
-1. [Pricipal Component Analysis: Explained Visually](http://setosa.io/ev/principal-component-analysis/): This article is an excellent place to start for those that are new to PCA or those that would like to understand the details.
-
-2. [Computing and Visualizing PCA in R](https://tgmstat.wordpress.com/2013/11/28/computing-and-visualizing-pca-in-r/): This is a great article that takes PCA to the next level in `R` with biplots, predictions, and the caret package.  
 
 
 
