@@ -12,16 +12,21 @@ title: Blog
         </div>
     </div>
 
-    <nav>
+    <!-- <nav>
       <ul class="pager" id="pager-blog">
         <li><a href="{{ site.baseurl }}/categories/"><i class="fa fa-list" aria-hidden="true"></i> By Category</a></li>
         <li><a href="{{ site.baseurl }}/tags/"><i class="fa fa-tags" aria-hidden="true"></i> By Tag</a></li>
       </ul>
-    </nav>
+    </nav> -->
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2" role="main">
+            <!-- Sidebar -->
+            <div class="col-md-3 well well-lg bs-component" role="complimentary">
+              {% include sidebar.html %}
+            </div>
+            <!-- Main -->
+            <div class="col-md-8 " role="main">
               <ul style="list-style-position: inside">
                  {% for post in paginator.posts %}
                   <article>

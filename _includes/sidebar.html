@@ -25,8 +25,8 @@
 		<li><hr></li>
 
 		<!-- Post Navigation -->
+		{% if (page.url contains "/blog/") %}{% else %}
 		<li>
-			<!-- <h5>Blog Nav</h5> -->
 			<ul class="pager">
 			  {% if page.previous.url != true %}
 			    <li class="previous">
@@ -41,6 +41,23 @@
 			</ul>
 		</li>
 		<li><hr></li>
+		{% endif %}
+
+		<!-- Blog Navigation -->
+		{% if page.url contains "/blog/" %}
+		<li>
+			<ul class="pager">	
+    			{% if paginator.previous_page %}
+      				<li class="previous"><a href="{{ paginator.previous_page_path }}"><i class="fa fa-arrow-circle-left"></i> Newer</a></li>
+    			{% endif %}
+
+    			{% if paginator.next_page %}
+      				<li class="next"><a href="{{ paginator.next_page_path }}">Older <i class="fa fa-arrow-circle-right"></i></a></li>
+    			{% endif %}
+			</ul>
+		</li>
+		<li><hr></li>
+		{% endif %}
 
 		<!-- Recent Posts -->
 		<li>
