@@ -2,65 +2,67 @@
 layout: default
 title: Blog
 ---
-<section  id="blog">
-    <div class="container">
+
+<!-- Header -->
+<header id="header" class="">
+    <section class="info" id="blog">
+      <div class= "container">
         <div class="row">
             <div class="col-lg-12 text-center">
+              <div class="text-center">
                 <h1>Business Science Blog</h1>
-                <hr>
+              </div>
             </div>
         </div>
-    </div>
+      </div>
+    </section>
+</header>
 
-    <!-- <nav>
-      <ul class="pager" id="pager-blog">
-        <li><a href="{{ site.baseurl }}/categories/"><i class="fa fa-list" aria-hidden="true"></i> By Category</a></li>
-        <li><a href="{{ site.baseurl }}/tags/"><i class="fa fa-tags" aria-hidden="true"></i> By Tag</a></li>
-      </ul>
-    </nav> -->
+<!-- Body -->
+<section id="blog">
+  <div class="container">
+      <div class="row">
+          <!-- Sidebar -->
+          <div class="col-md-3 well well-lg bs-component hidden-print hidden-sm hidden-xs" role="complimentary">
+            {% include sidebar.html %}
+          </div>
+          <!-- Main -->
+          <div class="col-md-9 " role="main">
+            <ul style="list-style-position: inside">
+               {% for post in paginator.posts %}
+                <article>
+                    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+                    <div class="date">
+                      Written on {{ post.date | date: "%B %e, %Y" }}
+                    </div>
 
-    <div class="container">
-        <div class="row">
-            <!-- Sidebar -->
-            <div class="col-md-3 well well-lg bs-component" role="complimentary">
-              {% include sidebar.html %}
-            </div>
-            <!-- Main -->
-            <div class="col-md-8 " role="main">
-              <ul style="list-style-position: inside">
-                 {% for post in paginator.posts %}
-                  <article>
-                      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-                      <div class="date">
-                        Written on {{ post.date | date: "%B %e, %Y" }}
-                      </div>
-
-                      <div class="row">
-                        <div class="bloglist-thumbnail">
-                          <div class="col-xs-8 col-md-6" style="padding-top:15px;">
-                            <a href="{{ site.baseurl }}{{ post.url }}" class="thumbnail" style="margin-bottom:0px">
-                              {% if post.image %}
-                                <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="...">
-                              {% else %}
-                                <img src="{{ site.baseurl }}/img/header-sm-crpd.jpg" alt="...">
-                              {% endif %}
-                            </a>
-                          </div>
-                        </div>
-                        <div class="entry" style="margin-left: 15px;">
-                          {{ post.excerpt }}
+                    <div class="row">
+                      <div class="bloglist-thumbnail">
+                        <div class="col-xs-8 col-md-6" style="padding-top:15px;">
+                          <a href="{{ site.baseurl }}{{ post.url }}" class="thumbnail" style="margin-bottom:0px">
+                            {% if post.image %}
+                              <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="...">
+                            {% else %}
+                              <img src="{{ site.baseurl }}/img/header-sm-crpd.jpg" alt="...">
+                            {% endif %}
+                          </a>
                         </div>
                       </div>
+                      <div class="entry" style="margin-left: 15px;">
+                        {{ post.excerpt }}
+                      </div>
+                    </div>
 
-                      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
-                  </article>
-                 {% endfor %}
-              </ul>
-            </div>
-        </div>
-    </div>
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
+                </article>
+               {% endfor %}
+            </ul>
+          </div>
+      </div>
+  </div>
 </section>
 
+<!-- Pager Buttons -->
 <nav>
   <ul class="pager" id="pager-blog">
     {% if paginator.previous_page %}

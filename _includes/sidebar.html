@@ -1,4 +1,4 @@
-<nav class="bs-docs-sidebar hidden-print hidden-sm hidden-xs">
+<nav class="bs-docs-sidebar ">
 	<ul class="nav bs-docs-sidenav">
 
 		<!-- Feedburer Email Signup-->
@@ -46,7 +46,7 @@
 		<!-- Blog Navigation -->
 		{% if page.url contains "/blog/" %}
 		<li>
-			<ul class="pager">	
+			<ul class="pager">
     			{% if paginator.previous_page %}
       				<li class="previous"><a href="{{ paginator.previous_page_path }}"><i class="fa fa-arrow-circle-left"></i> Newer</a></li>
     			{% endif %}
