@@ -258,60 +258,44 @@ group.names <- rownames(pca.final.dat[pca.final.dat$group == group.num, ])
 groupTrends <- customerTrends %>%
   select(model:price, match(group.names, names(.))) # Use match() to select column names
 group.avg <- apply(groupTrends[6:ncol(groupTrends)], 1, mean) # Take average of values
-groupTrends <- cbind(groupTrends, group.avg) %>%
+groupTrends <- bind_cols(groupTrends, as_data_frame(group.avg)) %>%
   arrange(-group.avg) 
-{% endhighlight %}
 
-
-
-{% highlight text %}
-## Error in eval(substitute(expr), envir, enclos): cannot convert object to a data frame
-{% endhighlight %}
-
-
-
-{% highlight r %}
 knitr::kable(head(groupTrends, 10)) # Top ten products by group avg. pct. purchased
 {% endhighlight %}
 
 
 
-|model                |category1 |category2  |frame    |price        | Denver Bike Shop| Kansas City 29ers|
-|:--------------------|:---------|:----------|:--------|:------------|----------------:|-----------------:|
-|Bad Habit 1          |Mountain  |Trail      |Aluminum |[ 415, 3500) |        0.0117340|         0.0181504|
-|Bad Habit 2          |Mountain  |Trail      |Aluminum |[ 415, 3500) |        0.0139070|         0.0158456|
-|Beast of the East 1  |Mountain  |Trail      |Aluminum |[ 415, 3500) |        0.0182529|         0.0181504|
-|Beast of the East 2  |Mountain  |Trail      |Aluminum |[ 415, 3500) |        0.0152108|         0.0138289|
-|Beast of the East 3  |Mountain  |Trail      |Aluminum |[ 415, 3500) |        0.0169492|         0.0181504|
-|CAAD Disc Ultegra    |Road      |Elite Road |Aluminum |[ 415, 3500) |        0.0108648|         0.0106598|
-|CAAD12 105           |Road      |Elite Road |Aluminum |[ 415, 3500) |        0.0134724|         0.0034572|
-|CAAD12 Black Inc     |Road      |Elite Road |Aluminum |[3500,12790] |        0.0030422|         0.0017286|
-|CAAD12 Disc 105      |Road      |Elite Road |Aluminum |[ 415, 3500) |        0.0073881|         0.0066263|
-|CAAD12 Disc Dura Ace |Road      |Elite Road |Aluminum |[3500,12790] |        0.0017384|         0.0020167|
+|model               |category1 |category2          |frame    |price        | Denver Bike Shop| Kansas City 29ers|     value|
+|:-------------------|:---------|:------------------|:--------|:------------|----------------:|-----------------:|---------:|
+|Catalyst 2          |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0256410|         0.0187266| 0.0221838|
+|Trail 5             |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0204259|         0.0216076| 0.0210168|
+|F-Si Carbon 4       |Mountain  |Cross Country Race |Carbon   |[ 415, 3500) |        0.0165146|         0.0247767| 0.0206456|
+|Scalpel 29 4        |Mountain  |Cross Country Race |Aluminum |[ 415, 3500) |        0.0186875|         0.0210314| 0.0198595|
+|Catalyst 4          |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0199913|         0.0184385| 0.0192149|
+|F-Si 1              |Mountain  |Cross Country Race |Aluminum |[ 415, 3500) |        0.0204259|         0.0175742| 0.0190000|
+|Trail 4             |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0152108|         0.0218957| 0.0185532|
+|Trail 1             |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0204259|         0.0164218| 0.0184238|
+|Trail 2             |Mountain  |Sport              |Aluminum |[ 415, 3500) |        0.0208605|         0.0158456| 0.0183530|
+|Beast of the East 1 |Mountain  |Trail              |Aluminum |[ 415, 3500) |        0.0182529|         0.0181504| 0.0182017|
 
 #### Group 4 Inspection <a class="anchor" id="group4"></a>
 
 Let's compare to Group 4. Rerun the previous script changing `group.num` from 2 to 4. We can see that Group 4's preference is similar to Group 2 in that both groups prefer low-end/affordable bikes. However, Group 4's top purchases contain a mixture of Mountain and Road, while Group 2's top purchases are exclusively Mountain. It appears there is a difference!
 
 
-{% highlight text %}
-## Error in eval(substitute(expr), envir, enclos): cannot convert object to a data frame
-{% endhighlight %}
-
-
-
-|model                |category1 |category2  |frame    |price        | Albuquerque Cycles| Dallas Cycles| Detroit Cycles| Los Angeles Cycles| Minneapolis Bike Shop| New York Cycles| Philadelphia Bike Shop| Phoenix Bi-peds| Portland Bi-peds| Providence Bi-peds| San Antonio Bike Shop|
-|:--------------------|:---------|:----------|:--------|:------------|------------------:|-------------:|--------------:|------------------:|---------------------:|---------------:|----------------------:|---------------:|----------------:|------------------:|---------------------:|
-|Bad Habit 1          |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0174825|     0.0128205|      0.0099206|          0.0062893|             0.0182648|       0.0074074|              0.0244898|       0.0112755|        0.0108696|          0.0092251|             0.0215054|
-|Bad Habit 2          |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0069930|     0.0170940|      0.0158730|          0.0094340|             0.0167428|       0.0074074|              0.0040816|       0.0190275|        0.0108696|          0.0239852|             0.0000000|
-|Beast of the East 1  |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0104895|     0.0042735|      0.0119048|          0.0251572|             0.0167428|       0.0172840|              0.0000000|       0.0126850|        0.0108696|          0.0092251|             0.0053763|
-|Beast of the East 2  |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0104895|     0.0042735|      0.0059524|          0.0220126|             0.0076104|       0.0172840|              0.0000000|       0.0232558|        0.0155280|          0.0147601|             0.0107527|
-|Beast of the East 3  |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0034965|     0.0042735|      0.0119048|          0.0000000|             0.0152207|       0.0049383|              0.0204082|       0.0162086|        0.0201863|          0.0073801|             0.0322581|
-|CAAD Disc Ultegra    |Road      |Elite Road |Aluminum |[ 415, 3500) |          0.0139860|     0.0000000|      0.0079365|          0.0157233|             0.0182648|       0.0172840|              0.0163265|       0.0126850|        0.0139752|          0.0073801|             0.0053763|
-|CAAD12 105           |Road      |Elite Road |Aluminum |[ 415, 3500) |          0.0069930|     0.0299145|      0.0277778|          0.0188679|             0.0106545|       0.0098765|              0.0326531|       0.0084567|        0.0093168|          0.0018450|             0.0215054|
-|CAAD12 Black Inc     |Road      |Elite Road |Aluminum |[3500,12790] |          0.0000000|     0.0042735|      0.0138889|          0.0125786|             0.0060883|       0.0000000|              0.0081633|       0.0028189|        0.0031056|          0.0055351|             0.0000000|
-|CAAD12 Disc 105      |Road      |Elite Road |Aluminum |[ 415, 3500) |          0.0139860|     0.0085470|      0.0297619|          0.0157233|             0.0136986|       0.0222222|              0.0204082|       0.0176180|        0.0310559|          0.0092251|             0.0215054|
-|CAAD12 Disc Dura Ace |Road      |Elite Road |Aluminum |[3500,12790] |          0.0489510|     0.0085470|      0.0059524|          0.0000000|             0.0045662|       0.0024691|              0.0000000|       0.0056378|        0.0062112|          0.0055351|             0.0053763|
+|model                   |category1 |category2          |frame    |price        | Albuquerque Cycles| Dallas Cycles| Detroit Cycles| Los Angeles Cycles| Minneapolis Bike Shop| New York Cycles| Philadelphia Bike Shop| Phoenix Bi-peds| Portland Bi-peds| Providence Bi-peds| San Antonio Bike Shop|     value|
+|:-----------------------|:---------|:------------------|:--------|:------------|------------------:|-------------:|--------------:|------------------:|---------------------:|---------------:|----------------------:|---------------:|----------------:|------------------:|---------------------:|---------:|
+|F-Si 2                  |Mountain  |Cross Country Race |Aluminum |[ 415, 3500) |          0.0174825|     0.0256410|      0.0119048|          0.0471698|             0.0258752|       0.0246914|              0.0040816|       0.0183228|        0.0186335|          0.0129151|             0.0215054| 0.0207476|
+|Slice Ultegra           |Road      |Triathalon         |Carbon   |[ 415, 3500) |          0.0104895|     0.0085470|      0.0099206|          0.0251572|             0.0076104|       0.0049383|              0.0571429|       0.0133897|        0.0248447|          0.0092251|             0.0537634| 0.0204572|
+|CAAD12 Disc 105         |Road      |Elite Road         |Aluminum |[ 415, 3500) |          0.0139860|     0.0085470|      0.0297619|          0.0157233|             0.0136986|       0.0222222|              0.0204082|       0.0176180|        0.0310559|          0.0092251|             0.0215054| 0.0185229|
+|Catalyst 3              |Mountain  |Sport              |Aluminum |[ 415, 3500) |          0.0314685|     0.0427350|      0.0178571|          0.0188679|             0.0152207|       0.0024691|              0.0040816|       0.0140944|        0.0186335|          0.0202952|             0.0161290| 0.0183502|
+|F-Si Carbon 4           |Mountain  |Cross Country Race |Carbon   |[ 415, 3500) |          0.0104895|     0.0128205|      0.0238095|          0.0188679|             0.0152207|       0.0271605|              0.0448980|       0.0183228|        0.0139752|          0.0129151|             0.0000000| 0.0180436|
+|Synapse Carbon Disc 105 |Road      |Endurance Road     |Carbon   |[ 415, 3500) |          0.0139860|     0.0170940|      0.0099206|          0.0125786|             0.0304414|       0.0271605|              0.0285714|       0.0091614|        0.0170807|          0.0166052|             0.0107527| 0.0175775|
+|CAAD8 Sora              |Road      |Elite Road         |Aluminum |[ 415, 3500) |          0.0069930|     0.0213675|      0.0099206|          0.0188679|             0.0273973|       0.0098765|              0.0040816|       0.0204369|        0.0217391|          0.0202952|             0.0215054| 0.0165892|
+|Synapse Disc 105        |Road      |Endurance Road     |Aluminum |[ 415, 3500) |          0.0279720|     0.0213675|      0.0019841|          0.0094340|             0.0121766|       0.0271605|              0.0204082|       0.0155039|        0.0093168|          0.0129151|             0.0215054| 0.0163404|
+|CAAD12 105              |Road      |Elite Road         |Aluminum |[ 415, 3500) |          0.0069930|     0.0299145|      0.0277778|          0.0188679|             0.0106545|       0.0098765|              0.0326531|       0.0084567|        0.0093168|          0.0018450|             0.0215054| 0.0161692|
+|Trigger Carbon 4        |Mountain  |Over Mountain      |Carbon   |[ 415, 3500) |          0.0069930|     0.0085470|      0.0099206|          0.0125786|             0.0060883|       0.0197531|              0.0285714|       0.0119803|        0.0124224|          0.0239852|             0.0322581| 0.0157362|
 
 
 ## Conclusion <a class="anchor" id="conclusions"></a>
