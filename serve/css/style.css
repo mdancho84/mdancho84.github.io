@@ -1,0 +1,383 @@
+/* nav */
+
+body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+/*fix padding to shift start of screen down*/
+.wrapper {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  .wrapper {
+    padding-top: 0px;
+  }
+}
+
+/*fix navbar float on collapse*/
+.navbar-nav {
+    margin: 0;
+    padding: 7.5px 15px;
+}
+
+/*#inline {
+  display: inline-block;
+}*/
+
+/* Blog */
+
+h1 {
+  	font-size: 46px !important;
+  	margin-top: 80px !important;
+    padding-bottom: 20px;
+}
+
+h2 {
+	font-size: 36px !important;
+	margin-top: 60px !important;
+  padding-bottom: 20px;
+}
+
+h3 {
+  	font-size: 28px !important;
+  	margin-top: 60px !important;
+    padding-bottom: 20px;
+}
+
+h4 {
+  	font-size: 22px !important;
+  	margin-top: 40px !important;
+    padding-bottom: 10px;
+}
+
+h5 {
+	  font-size: 18px !important;
+  	margin-top: 30px !important;
+    padding-bottom: 10px;
+}
+
+p {
+  /*margin: 15px 0;*/
+}
+
+/*small {
+  font-size: 13px;
+  line-height: 2;
+}*/
+
+#blog hr {
+  border-color: #2C3E50;
+}
+
+blockquote {
+  color:  #B0B0B0;
+}
+
+.post {
+  max-width: 100%;
+}
+
+.date {
+  font-style: italic;
+  color: gray;
+  font-size: 18px;
+}
+
+.add-margin-25 {
+  margin-top: 25px;
+}
+
+.margin-bottom-40 {
+ margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .add-margin-25 {
+    margin-top: 0px;
+    float: left !important;
+    font-size: 16px !important;
+
+  }
+}
+
+.read-more {
+    text-transform: uppercase;
+    font-size: 20px !important;
+
+  }
+
+#pager-blog li a {
+  width: 180px;
+  margin: 5px;
+}
+
+header #blog .container {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* Defaul Layout - Footer h3 margin overide */
+
+.footer {
+	margin-top: 20px !important;
+}
+
+
+/* Homepage */
+
+header {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+
+}
+
+#homepage {
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .header-content {
+    position: relative;
+    width: 100%;
+    padding: 100px 15px;
+    text-align: center;
+}
+
+header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+header .header-content .header-content-inner hr {
+    margin: 30px auto;
+}
+
+header .header-content .header-content-inner p {
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    /*color: rgba(255,255,255,.7);*/
+}
+
+@media(min-width:768px) {
+    #homepage {
+        min-height: 1000px;
+    }
+
+    header .header-content {
+        position: absolute;
+        top: 50%;
+        padding: 0 50px;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+
+    header .header-content .header-content-inner {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+    header .header-content .header-content-inner p {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 80%;
+        font-size: 18px;
+    }
+}
+
+aside {
+    padding: 50px 0;
+}
+
+aside {
+  text-align: center;
+  background: #18BC9C;
+  color: white;
+}
+aside .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+aside img {
+  display: block;
+  margin: 0 auto 20px;
+}
+aside .intro-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+}
+aside .intro-text .skills {
+  font-size: 1.25em;
+  font-weight: 300;
+}
+@media (min-width: 768px) {
+  aside container {
+    padding-top: 200px;
+    padding-bottom: 100px;
+  }
+  aside .intro-text .name {
+    font-size: 4.75em;
+  }
+  aside .intro-text .skills {
+    font-size: 1.75em;
+  }
+}
+
+/*Lists*/
+
+li {
+  font-size: 20px;
+}
+
+/*images*/
+
+#blog p > img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*Page Navigation*/
+
+.PageNavigation {
+  margin-top: 40px;
+  font-size: 18px;
+  display: block;
+  width: auto;
+  text-align: left;
+  overflow: hidden;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+  width: 50%;
+}
+
+.shadow {
+  border: 2px solid #ccc;
+  -moz-box-shadow:    10px 10px 10px 0px #ccc;
+  -webkit-box-shadow: 10px 10px 10px 0px #ccc;
+  box-shadow:         10px 10px 10px 0px #ccc;
+}
+@media (max-width: 768px) {
+  .shadow {
+    border: 1px solid #ccc;
+    -moz-box-shadow:    5px 5px 5px 0px #ccc;
+    -webkit-box-shadow: 5px 5px 5px 0px #ccc;
+    box-shadow:         5px 5px 5px 0px #ccc;
+  }
+}
+
+/*Blogs by Tag/Categories Page*/
+
+#tag_cat li {
+  display: inline;
+}
+
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  font-size: 16px;
+  vertical-align: middle;
+
+}
+.tag-cloud li {
+    display: inline-block;
+    margin: 0 12px 12px 0;
+    font-size: 15px;
+}
+
+#archives {
+  padding: 5px;
+}
+.archive-group {
+  margin: 5px;
+  border-top: 1px solid #ddd;
+}
+.archive-item {
+  margin-left: 5px;
+}
+.post-tags {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-tags li {
+  display: inline;
+  font-size: 15px;
+}
+
+.post-tags a {
+  color: #FFF !important;
+}
+
+/*Fix anchor position for id's used in smooth scroll*/
+.anchor {
+    display: block;
+    position: relative;
+    top: -175px;
+    visibility: hidden;
+}
+
+
+/*Success Page*/
+
+.icon-green {
+  color: #18BC9C;
+}
+
+/*Overide scroll-top*/
+.scroll-top {
+  right: -50%;
+}
+
+/*List Group Mods*/
+.list-group-item-heading {
+  color: #2C3E50 !important;
+}
+
+
+.button-margin {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.button-margin button {
+  width: 100%;
+}
+
+/*  Tooltip Customization */
+.tooltip.bottom .tooltip-inner {
+    background-color:#2C3E50;
+}
+/*.tooltip.left > .tooltip-arrow {
+      color: red;
+}*/

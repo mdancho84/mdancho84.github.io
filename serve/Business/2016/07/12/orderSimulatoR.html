@@ -1,0 +1,1909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>
+	  
+	    Post
+	  
+	</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!-- Open Graph -->
+
+    <meta content="Business Science" property="og:site_name">
+    <meta name="author" content="mattdancho.com" />
+
+    
+      <meta content="Post" property="og:title">
+      <meta content="Post" property="twitter:title"/>
+    
+
+    
+      <meta content="article" property="og:type">
+    
+
+    
+    <meta name="description" content="Applying data science to business and investments">
+    <meta property="og:description" content="Applying data science to business and investments" />
+    
+
+    
+      <meta content="http://www.mattdancho.com/Business/2016/07/12/orderSimulatoR.html" property="og:url">
+    
+
+    
+      <meta content="2016-07-12T00:00:00-04:00" property="article:published_time">
+      <meta content="http://www.mattdancho.com/about/" property="article:author">
+    
+
+    
+      <meta content="http://www.mattdancho.com/assets/cannondale_bike.jpg" property="og:image">
+    
+
+    
+      
+      <meta content="Business" property="article:section">
+      
+    
+
+    
+      
+      <meta content="R-Project" property="article:tag">
+      
+      <meta content="R" property="article:tag">
+      
+      <meta content="Simulation" property="article:tag">
+      
+      <meta content="Data Mining" property="article:tag">
+      
+      <meta content="orderSimulatoR" property="article:tag">
+      
+      <meta content="bikes data set" property="article:tag">
+      
+    
+
+<!-- Twitter Card -->
+
+  <!-- <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@site_username">
+  <meta name="twitter:creator" content="@creator_username">
+  
+    <meta name="twitter:title" content="Post">
+  
+  
+    <meta name="twitter:url" content="http://www.mattdancho.com/Business/2016/07/12/orderSimulatoR.html">
+  
+  
+    <meta name="twitter:description" content="Applying data science to business and investments">
+  
+  
+    <meta name="twitter:image:src" content="http://www.mattdancho.com/img/cannondale_bike.jpg">
+   -->
+
+    <link rel="alternate" type="application/atom+xml" title="mattdancho.com" href="/atom.xml" />
+
+<link rel="alternate" type="application/rss+xml" title="mattdancho.com" href="/feed.xml" />
+
+
+
+
+    <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="/css/bootstrap.min-flatly.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/freelancer.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/table.css" rel="stylesheet">
+
+    <!-- Highlightjs -->
+    <link rel="stylesheet" href="/css/github.css">
+
+    <!-- Custom Fonts -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+    <!-- Scrollmagic -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+
+
+</head>
+
+<body id="page-top" class="index">
+
+	
+
+	<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Business Science</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <!-- Nav Links: Maintained in data/nav.csv -->
+                <ul class="nav navbar-nav navbar-right">
+    				
+
+                    <!-- Search site using Google's index -->
+                    <li>
+                        <form class="navbar-form navbar-right" role="search" method="get" action="http://google.com/search">
+                          <div class="row">
+                              <div class="col-xs-8">
+                                  <div class="form-group" id="inline">
+                                    <input type="hidden" name="q" value="site:mattdancho.com" />
+                                    <input type="text" class="form-control search-query" name="q" placeholder="Search"/>
+                                  </div>
+                              </div>
+                              <div class="col-xs-2">
+                                  <button type="submit" class="btn btn-default"><i class="fa fa-search fa-lg"></i></button>
+                              </div>
+                          </div>
+                        </form>
+                    </li>
+				</ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+	<!-- Blog Head -->
+<header id="header" class="">
+	<section class="success" id="blog">
+		<div class= "container">
+			<div class="row">
+			  	<div class="col-lg-12 text-center">
+			  		<div class="text-center">
+					    <h1>Post</h1>
+					    <p>Written on July 12, 2016</p>
+					    <p>
+
+<div class="post-tags">
+  Categories:
+  
+    
+  
+  
+  <li>
+  	<a href="/categories/#Business">Business</a>
+  </li>
+
+  
+</div></p>
+					    <p>
+
+<div class="post-tags">
+  Tags:
+  
+    
+  
+  
+  <li>
+  	<a href="/tags/#R-Project">R-Project</a>,
+  </li>
+
+  
+  <li>
+  	<a href="/tags/#R">R</a>,
+  </li>
+
+  
+  <li>
+  	<a href="/tags/#Simulation">Simulation</a>,
+  </li>
+
+  
+  <li>
+  	<a href="/tags/#Data Mining">Data Mining</a>,
+  </li>
+
+  
+  <li>
+  	<a href="/tags/#orderSimulatoR">orderSimulatoR</a>,
+  </li>
+
+  
+  <li>
+  	<a href="/tags/#bikes data set">bikes data set</a>
+  </li>
+
+  
+</div></p>
+
+					    <ul class="list-inline">
+					    	<!-- Facebook -->
+                            <li>
+                                <div class="fb-share-button" data-href="http://www.mattdancho.com/Business/2016/07/12/orderSimulatoR.html" data-layout="box_count" data-size="small" data-mobile-iframe="true" style="bottom: 5px;"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+                            </li>
+                            <!-- LinkedIn -->
+                            <li>
+                                <script type="text/javascript" src="//platform.linkedin.com/in.js"></script><script type="in/share" data-counter="top"></script>
+                            </li>
+                            <!-- Google+ -->
+                            <li>
+                                <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
+                            </li>
+                    		<!-- Twitter -->
+                            <li>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </li>
+                        </ul>
+					</div>
+			  	</div>
+			</div>
+		</div>
+	</section>
+</header>
+
+<!-- Blog Body -->
+<section id="blog">
+
+  <div class="container" id="blog_content">
+    <!-- <div class="col-md-8 col-md-offset-2"> -->
+    <div class="row">
+    	<!-- Main Content -->
+    	<div class="col-md-8 col-md-offset-1" role="main">
+	  		<p><img class="shadow" src="/assets/cannondale_bike.jpg" style="margin-top: 0px;"></p>
+	  		<hr class="margin-bottom-40">
+	    	<p>In this post, we will be discussing <code>orderSimulatoR</code>, which enables <strong>fast and easy <code>R</code> order simulation for customer and product learning</strong>. The basic premise is to simulate data that you’d retrieve from a <code>SQL</code> query of an ERP system. The data can then be merged with products and customers tables to data mine. I’ll go through the basic steps to create an order data set that combines customers and products, and I’ll wrap up with some visualizations to show how you can use order data to expose trends. You can get the scripts and the Cannondale <code>bikes data set</code> at the <code>orderSimulatoR</code> <a href="https://github.com/mdancho84/orderSimulatoR">GitHub repository</a>. In case you are wondering what simulated orders look like, click <a href="#joining-orders">here</a> to scroll to the end result.</p>
+
+<blockquote>
+  <p><strong>About the Photo:</strong>
+The bicycle in the photo is one of Cannondale’s top-of-the-line cross-country mountain bikes, the Scalpel. The <code>orderSimulatoR</code> scripts were used to create the Cannondale <code>bikes data set</code>, which simulates orders for the bicycle manufacturer, Cannondale. The data set uses their 2016 models. For more information, visit their website at <a href="http://www.cannondale.com/en/USA">www.cannondale.com</a>.</p>
+</blockquote>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ul>
+  <li><a href="#why">Why orderSimulatoR?</a></li>
+  <li><a href="#getting-started">Getting Started</a>
+    <ul>
+      <li><a href="#customers">Customers</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#customer-product-interactions">Customer-Product Interactions</a></li>
+    </ul>
+  </li>
+  <li><a href="#creating-customer-orders">Creating Customer Orders</a>
+    <ul>
+      <li><a href="#step1">Step 1: Create Orders and Lines</a></li>
+      <li><a href="#step2">Step 2: Add Dates to the Orders</a></li>
+      <li><a href="#step3">Step 3: Assign Customers to Orders</a></li>
+      <li><a href="#step4">Step 4: Assign Products to Order Lines</a></li>
+      <li><a href="#step5">Step 5: Assign Quantities to Order Lines</a></li>
+    </ul>
+  </li>
+  <li><a href="#joining-orders">Joining Orders with Customers and Products</a></li>
+  <li><a href="#exploring-orders">Exploring the Orders</a>
+    <ul>
+      <li><a href="#sales-over-time">Sales Over Time</a></li>
+      <li><a href="#top-10-products">Top 10 Products</a></li>
+      <li><a href="#geographic-trends">Geographic Customer Trends</a></li>
+    </ul>
+  </li>
+  <li><a href="#recap">Recap</a></li>
+</ul>
+
+<h2 id="why-ordersimulator-a-classanchor-idwhya">Why orderSimulatoR? <a class="anchor" id="why"></a></h2>
+
+<p>It’s very difficult to create order data with trends for data mining and visualization. I’ve searched for good data sets, and I’ve come to the conclusion that I’m better off creating my own orders data for analyzing on my blog. In the process, I made a collection of <code>R</code> scripts that became known as <code>orderSimulatoR</code>. The scripts are <a href="https://github.com/mdancho84/orderSimulatoR">publicly available</a> so others can simulate orders for customers and products in any sales/marketing situation. The process to create orders (shown below) is fast and easy, and the result is orders with customized trends depending on the inputs you create and the parameters you select.</p>
+
+<p><img src="/figure/source/2016-7-12-orderSimulatoR/OrderSimProcess.jpg" alt="Order Simulation Process" /></p>
+
+<h2 id="getting-started-a-classanchor-idgetting-starteda">Getting Started <a class="anchor" id="getting-started"></a></h2>
+
+<p>Prior to starting, you’ll need three data frames:</p>
+
+<ol>
+  <li>Customers</li>
+  <li>Products</li>
+  <li>Customer-Product Interactions</li>
+</ol>
+
+<p>I’ll briefly go through each using the Cannondale <code>bikes data set</code>. If you’re following along, you can access the <a href="https://github.com/mdancho84/orderSimulatoR/tree/master/data">excel files here</a>. Alternatively, you can generate your own data frames of customers, products and customer-production interactions. Note that the <code>orders.xlsx</code> file is what we will be generating in data frame form. The code below loads the three data frames. </p>
+
+<div>
+  <pre><code class="r">library(xlsx) # For read.xlsx() function
+
+# Read inputs to orderSimulatoR process
+customers &lt;- read.xlsx(&quot;./data/bikeshops.xlsx&quot;, sheetIndex = 1)
+products &lt;- read.xlsx(&quot;./data/bikes.xlsx&quot;, sheetIndex = 1) 
+customerProductProbs &lt;- read.xlsx(&quot;./data/customer_product_interactions.xlsx&quot;, 
+                                  sheetIndex = 1, 
+                                  startRow = 15)
+
+# Format inputs; Remove unnecessary columns
+customerProductProbs &lt;- customerProductProbs[,-(2:11)]</code></pre>
+</div>
+
+<h3 id="customers-a-classanchor-idcustomersa">Customers <a class="anchor" id="customers"></a></h3>
+
+<p>The customers for the example case are bike shops scattered throughout the United States. I’ve included <code>id</code>, <code>name</code>, <code>city</code> <code>state</code>, <code>latitude</code>, and <code>longitude</code>. The <code>id</code> is important and must be in the first column for the <code>orderSimulatoR</code> scripts to work. The other features are up to you. Feel free to get creative when designing your customers data frame by adding features such as region, size, type, etc that would normally be found in a CRM / ERP system. While features beyond the <code>id</code> are not required for the scripts, it’s a good idea to add them now for data mining later. The first six customer records are shown below.</p>
+
+<div>
+  <pre><code class="r">library(knitr) # used for kable() function
+
+# Show customers dataframe
+kable(head(customers))</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">bikeshop.id</th>
+      <th style="text-align: left">bikeshop.name</th>
+      <th style="text-align: left">bikeshop.city</th>
+      <th style="text-align: left">bikeshop.state</th>
+      <th style="text-align: right">latitude</th>
+      <th style="text-align: right">longitude</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">Pittsburgh Mountain Machines</td>
+      <td style="text-align: left">Pittsburgh</td>
+      <td style="text-align: left">PA</td>
+      <td style="text-align: right">40.44062</td>
+      <td style="text-align: right">-79.99589</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">Ithaca Mountain Climbers</td>
+      <td style="text-align: left">Ithaca</td>
+      <td style="text-align: left">NY</td>
+      <td style="text-align: right">42.44396</td>
+      <td style="text-align: right">-76.50188</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: left">Columbus Race Equipment</td>
+      <td style="text-align: left">Columbus</td>
+      <td style="text-align: left">OH</td>
+      <td style="text-align: right">39.96118</td>
+      <td style="text-align: right">-82.99879</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">4</td>
+      <td style="text-align: left">Detroit Cycles</td>
+      <td style="text-align: left">Detroit</td>
+      <td style="text-align: left">MI</td>
+      <td style="text-align: right">42.33143</td>
+      <td style="text-align: right">-83.04575</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">Cincinnati Speed</td>
+      <td style="text-align: left">Cincinnati</td>
+      <td style="text-align: left">OH</td>
+      <td style="text-align: right">39.10312</td>
+      <td style="text-align: right">-84.51202</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">6</td>
+      <td style="text-align: left">Louisville Race Equipment</td>
+      <td style="text-align: left">Louisville</td>
+      <td style="text-align: left">KY</td>
+      <td style="text-align: right">38.25267</td>
+      <td style="text-align: right">-85.75846</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="products-a-classanchor-idproductsa">Products <a class="anchor" id="products"></a></h3>
+
+<p>The products for the example case are road and mountain bikes made by <a href="http://www.cannondale.com/en/USA">Cannondale</a>, a premier bicycle manufacturer. I’ve included the <code>id</code> and several other features I found on the website including <code>model</code>, <code>category1</code> (Road, Mountain), <code>category2</code> (Elite Road, Endurance Road, etc), <code>frame</code> (Carbon, Aluminum), and price. Again, <code>id</code> is the most important feature and must be in the first column for the scripts to work. As with customers, get creative with the features. We’ll use the features when developing the product-customer interactions, which creates the trends that we’ll data mine. The first six products are shown below.</p>
+
+<div>
+  <pre><code class="r"># Show products data frame
+kable(head(products))</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">bike.id</th>
+      <th style="text-align: left">model</th>
+      <th style="text-align: left">category1</th>
+      <th style="text-align: left">category2</th>
+      <th style="text-align: left">frame</th>
+      <th style="text-align: right">price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">Supersix Evo Black Inc.</td>
+      <td style="text-align: left">Road</td>
+      <td style="text-align: left">Elite Road</td>
+      <td style="text-align: left">Carbon</td>
+      <td style="text-align: right">12790</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">Supersix Evo Hi-Mod Team</td>
+      <td style="text-align: left">Road</td>
+      <td style="text-align: left">Elite Road</td>
+      <td style="text-align: left">Carbon</td>
+      <td style="text-align: right">10660</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: left">Supersix Evo Hi-Mod Dura Ace 1</td>
+      <td style="text-align: left">Road</td>
+      <td style="text-align: left">Elite Road</td>
+      <td style="text-align: left">Carbon</td>
+      <td style="text-align: right">7990</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">4</td>
+      <td style="text-align: left">Supersix Evo Hi-Mod Dura Ace 2</td>
+      <td style="text-align: left">Road</td>
+      <td style="text-align: left">Elite Road</td>
+      <td style="text-align: left">Carbon</td>
+      <td style="text-align: right">5330</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">Supersix Evo Hi-Mod Utegra</td>
+      <td style="text-align: left">Road</td>
+      <td style="text-align: left">Elite Road</td>
+      <td style="text-align: left">Carbon</td>
+      <td style="text-align: right">4260</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">6</td>
+      <td style="text-align: left">Supersix Evo Red</td>
+      <td style="text-align: left">Road</td>
+      <td style="text-align: left">Elite Road</td>
+      <td style="text-align: left">Carbon</td>
+      <td style="text-align: right">3940</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="customer-product-interactions-a-classanchor-idcustomer-product-interactionsa">Customer-Product Interactions <a class="anchor" id="customer-product-interactions"></a></h3>
+
+<p>The customer-products interactions is a matrix that links the probability of each customer to purchasing each product (i.e. it is a model for each customer’s purchasing preference). The scripts use this matrix to assign products to orders. The probabilities are critical as these will be what create the customer trends in the data. It’s a good idea to check out the excel spreadsheet, <code>customer_product_interactions.xlsx</code>, which has detailed notes on how to add trends into the customer-product interactions. For the bikes data set, the customers each had a preference for bike style (Road, Mountain, or AnyStyle) and a price range (High and Low). The excel functions assign various probabilities based on how the customer preferences match the product features. A few important points: </p>
+
+<ol>
+  <li>Product id must be the first column</li>
+  <li>All subsequent columns should be the customers in order of customer id from 1 to the last customer id.</li>
+  <li>Each customer column should sum to 1.0, as this is the product probability density for each customer.</li>
+</ol>
+
+<p>The customer product interactions are shown for the first six customers and products. The way to interpret the matrix is that customer.id.1 has a 0.986% probability of seleting product.id.1 (bike.id = 1).</p>
+
+<div>
+  <pre><code class="r"># Show customer-product interactions data frame
+kable(round(customerProductProbs[1:6, 1:6], 4))</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">bike.id</th>
+      <th style="text-align: right">customer.id.1</th>
+      <th style="text-align: right">customer.id.2</th>
+      <th style="text-align: right">customer.id.3</th>
+      <th style="text-align: right">customer.id.4</th>
+      <th style="text-align: right">customer.id.5</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0196</td>
+      <td style="text-align: right">0.0057</td>
+      <td style="text-align: right">0.0196</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0196</td>
+      <td style="text-align: right">0.0057</td>
+      <td style="text-align: right">0.0196</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0196</td>
+      <td style="text-align: right">0.0057</td>
+      <td style="text-align: right">0.0196</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0196</td>
+      <td style="text-align: right">0.0057</td>
+      <td style="text-align: right">0.0196</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">5</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0196</td>
+      <td style="text-align: right">0.0057</td>
+      <td style="text-align: right">0.0196</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0099</td>
+      <td style="text-align: right">0.0196</td>
+      <td style="text-align: right">0.0057</td>
+      <td style="text-align: right">0.0196</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="creating-customer-orders-a-classanchor-idcreating-customer-ordersa">Creating Customer Orders <a class="anchor" id="creating-customer-orders"></a></h2>
+
+<p>Once the customer, product and customer-product interaction data frames are finished, you are ready to create orders. The first thing you’ll need is to load the scripts. The scripts can be found <a href="https://github.com/mdancho84/orderSimulatoR/tree/master/scripts">here</a>.</p>
+
+<div>
+  <pre><code class="r"># Source orderSimulatoR scripts
+source(&quot;./scripts/createOrdersAndLines.R&quot;)
+source(&quot;./scripts/createDatesFromOrders.R&quot;)
+source(&quot;./scripts/assignCustomersToOrders.R&quot;)
+source(&quot;./scripts/assignProductsToCustomerOrders.R&quot;)
+source(&quot;./scripts/createProductQuantities.R&quot;)</code></pre>
+</div>
+
+<h3 id="step-1-create-orders-and-lines-a-classanchor-idstep1a">Step 1: Create Orders and Lines <a class="anchor" id="step1"></a></h3>
+
+<p>First, we’ll create the orders and lines using the <code>createOrdersAndLines()</code> function. For those unfamiliar with lines, each order typically has several products purchased which are denoted “lines”. The function parameters are number of orders <code>n</code>, max number of lines <code>maxLines</code>, and <code>rate</code>, which affects the distribution of lines on an order.</p>
+
+<p><strong>Quick Digression on the <code>rate</code> Parameter:</strong> </p>
+
+<p><em>This section gets a little technical, so feel free to skip and you won’t miss much.</em></p>
+
+<p>Several other <code>orderSimulatoR</code> functions use a similar <code>rate</code> parameter, and I recommend playing around with the rates to see how the distribution is affected. The following code generates the probabilities of lines to an order:</p>
+
+<div>
+  <pre><code class="r"># Showing effect of rate on probability of assigning number of lines to orders
+maxLines = 10
+rate = 1
+for (i in 1:maxLines) {
+        lineProb[i] &lt;- 1/i^rate         
+}
+lineProb &lt;- lineProb/sum(lineProb)</code></pre>
+</div>
+
+<p>The equation iterates through the number of lines to an order, <script type="math/tex">i</script>, from <code>1</code> to <code>maxLines</code> in the equation:</p>
+
+<script type="math/tex; mode=display">
+lineProb_i = \frac{1}{i^{rate}}  
+</script>
+
+<p>Where <script type="math/tex">i</script> is the number of lines to an order, and <script type="math/tex">rate</script> is the adjustment parameter. As the number of lines to an order, <script type="math/tex">i</script>, increases, the probability naturally decreases. Because <script type="math/tex">i</script> is raised to the <script type="math/tex">rate</script> parameter, the <script type="math/tex">rate</script> determines how fast or slow the distribution decreases. Larger values cause the distribution to decrease faster, and values close to zero cause the distribution to become more uniform. </p>
+
+<p>The effect of <code>rate</code> adjustment can be conveyed by plotting the probability distribution of orders with <code>maxLines</code> = 10 while adjusting the <code>rate</code> parameter from 0 to 1.5. At <code>rate</code> = 0, the probability of a one-line order is 10%, while at a <code>rate</code> of 1.5 the probability is 50%.</p>
+
+<p><img src="/figure/source/2016-7-12-orderSimulatoR/rateAdjustment-1.png" alt="plot of chunk rateAdjustment" /></p>
+
+<p><strong>Back to Creating Orders and Lines:</strong></p>
+
+<p>With inputs of <code>n</code> = 2000, <code>maxLines</code> = 30, and <code>rate</code> = 1, the output is a data frame with <strong>2000 orders with 15,644 total rows for each product purchase</strong>. Some orders have more lines (more product purchases) and others have less (as dictated by the <code>rate</code> parameter). One note worth mentioning is that the <code>maxLines</code> cannot exceed the number of products (otherwise an order would have more lines than products available which does not make sense).</p>
+
+<div>
+  <pre><code class="r"># Step 1 - Create orders
+orders &lt;- createOrdersAndLines(n = 2000, maxLines = 30, rate = 1)</code></pre>
+</div>
+
+<div>
+  <pre><code class="r"># Data frame for first 3 orders shown
+kable(orders[orders$order.id %in% c(1:3),])</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">order.id</th>
+      <th style="text-align: right">order.line</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">3</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">5</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="step-2-add-dates-to-the-orders-a-classanchor-idstep2a">Step 2: Add Dates to the Orders <a class="anchor" id="step2"></a></h3>
+
+<p>Orders typically have a date recorded so the sales can be tracked by time period (e.g. for assessment of time-based metrics like sales by month, quarter, year, etc). As such, we’ll add dates according the distribution of orders in a given year using the <code>createDatesFromOrders()</code> function, which takes four parameters: the <code>orders</code> data frame from Step 1, a <code>startYear</code>, a <code>yearlyOrderDist</code>, and a <code>monthlyOrderDist</code>. The <code>startYear</code> identifies the beginning of the time span, and the length of the <code>yearlyOrderDist</code> (length = 5) creates orders spanning five years. Yearly growth/contraction in sales is simulated using the <code>yearlyOrderDist</code> distribution vector, while seasonality is simulated using the <code>monthlyOrderDist</code> distribution vector. As shown below, we now have dates added according to our desired yearly and monthly distributions.</p>
+
+<div>
+  <pre><code class="r"># Step 2 - Add dates to the orders
+orders &lt;- createDatesFromOrders(orders, 
+                                startYear = 2011, 
+                                yearlyOrderDist = c(.16, .18, .22, .20, .24),
+                                monthlyOrderDist = c(0.045, 
+                                                     0.075, 
+                                                     0.100, 
+                                                     0.110, 
+                                                     0.120, 
+                                                     0.125, 
+                                                     0.100, 
+                                                     0.085, 
+                                                     0.075, 
+                                                     0.060, 
+                                                     0.060, 
+                                                     0.045))</code></pre>
+</div>
+
+<div>
+  <pre><code class="r"># Top of orders data frame showing beginning dates
+kable(head(orders))</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">order.id</th>
+      <th style="text-align: right">order.line</th>
+      <th style="text-align: left">order.date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-07</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-07</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-10</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-10</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-10</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-10</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The script takes into account no sales on weekends, but does not account for holidays (e.g. Christmas, Thanksgiving, etc). The last six rows of the <code>orders</code> data frame are shown below.</p>
+
+<div>
+  <pre><code class="r"># Bottom of orders data frame showing ending dates
+kable(tail(orders))</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: right">order.id</th>
+      <th style="text-align: right">order.line</th>
+      <th style="text-align: left">order.date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">15639</td>
+      <td style="text-align: right">2000</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: left">2015-12-25</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15640</td>
+      <td style="text-align: right">2000</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: left">2015-12-25</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15641</td>
+      <td style="text-align: right">2000</td>
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">2015-12-25</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15642</td>
+      <td style="text-align: right">2000</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: left">2015-12-25</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15643</td>
+      <td style="text-align: right">2000</td>
+      <td style="text-align: right">7</td>
+      <td style="text-align: left">2015-12-25</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">15644</td>
+      <td style="text-align: right">2000</td>
+      <td style="text-align: right">8</td>
+      <td style="text-align: left">2015-12-25</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We can use a heatmap to graphically view the order distribution by year and month to get an idea for how the order dates were assigned. As expected, the seasonality of orders follows the <code>monthlyOrderDist</code> distribution, with the majority of orders coming in March through July. The orders increase following the <code>yearlyOrderDist</code> distribution.</p>
+
+<p><img src="/figure/source/2016-7-12-orderSimulatoR/orderDistMonthYear-1.png" alt="plot of chunk orderDistMonthYear" /></p>
+
+<h3 id="step-3-assign-customers-to-orders-a-classanchor-idstep3a">Step 3: Assign Customers to Orders <a class="anchor" id="step3"></a></h3>
+
+<p>Next, we’ll assign customers to orders using the <code>assignCustomersToOrders()</code> function. The parameters needed are the <code>orders</code> data frame from Step 2, the <code>customers</code> data frame, and the <code>rate</code> parameter, which controls the distribution of orders assigned to customers. Similar to the <code>rate</code> parameter in Step 1, a larger rate increases the number of orders assigned to the largest customers, and as the rate decreases to zero the distribution approaches a uniform distribution. As shown below, orders now have customer id’s.  </p>
+
+<div>
+  <pre><code class="r"># Step 3 - Assign customers to the orders
+orders &lt;- assignCustomersToOrders(orders, customers, rate = 0.8)</code></pre>
+</div>
+
+<div>
+  <pre><code class="r"># Data frame for first 3 orders shown
+kable(orders[orders$order.id %in% c(1:3),])</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">order.id</th>
+      <th style="text-align: right">order.line</th>
+      <th style="text-align: left">order.date</th>
+      <th style="text-align: right">customer.id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-07</td>
+      <td style="text-align: right">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-07</td>
+      <td style="text-align: right">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">10</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">10</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Using a <code>rate</code> = 0.8 still assigns a wide range of orders to customers, and we can see the distribution of order rows by customer in the plot below. Customer 10 has the most order rows at 2731, while Customer 21 has the least order rows at 108.</p>
+
+<p><img src="/figure/source/2016-7-12-orderSimulatoR/customerDistribution-1.png" alt="plot of chunk customerDistribution" /></p>
+
+<h3 id="step-4-assign-products-to-orders-lines-a-classanchor-idstep4a">Step 4: Assign Products to Orders Lines <a class="anchor" id="step4"></a></h3>
+
+<p>In step 4, we’ll assign products to the orders using the customer-product interaction table. Keep in mind that this is the critical step where a well-thought-out customer-product interaction table will allow us to uncover deep trends and insights into customer behavior. The <code>assignProductsToCustomerOrders()</code> function takes two arguments: the <code>orders</code> data frame from Step 3 and the <code>customerProductProbs</code> table, which contains the matrix of probabilities linking product.id to customer.id.</p>
+
+<div>
+  <pre><code class="r"># Step 4 - Assign products to orders
+orders &lt;- assignProductsToCustomerOrders(orders, customerProductProbs)</code></pre>
+</div>
+
+<div>
+  <pre><code class="r"># Data frame for first 3 orders shown
+kable(orders[orders$order.id %in% c(1:3),])</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">order.id</th>
+      <th style="text-align: right">order.line</th>
+      <th style="text-align: left">order.date</th>
+      <th style="text-align: right">customer.id</th>
+      <th style="text-align: right">product.id</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-07</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">48</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-07</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">52</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">76</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">52</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">2</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">50</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">4</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">34</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="step-5-assign-quantities-to-order-lines-a-classanchor-idstep5a">Step 5: Assign Quantities to Order Lines <a class="anchor" id="step5"></a></h3>
+
+<p>In the last step, we assign quantities to the order lines using the <code>createProductQuantities()</code> function. The function takes three parameters: the <code>orders</code> data frame from Step 4, the <code>maxQty</code>, and the <code>rate</code>. The <code>maxQty</code> parameter limits the quantity of products on a order line while the <code>rate</code> parameter controls the distribution. A <code>maxQty</code> = 10 and a <code>rate</code> = 3 places an 83.5% probability on a line quantity of 1, whereas a line quantity of 10 (maximum quantity) has a 0.08% probability. </p>
+
+<div>
+  <pre><code class="r"># Step 5 - Create product quantities
+orders &lt;- createProductQuantities(orders, maxQty = 10, rate = 3)</code></pre>
+</div>
+
+<div>
+  <pre><code class="r"># Data frame for first 3 orders shown
+kable(orders[orders$order.id %in% c(1:3),])</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">order.id</th>
+      <th style="text-align: right">order.line</th>
+      <th style="text-align: left">order.date</th>
+      <th style="text-align: right">customer.id</th>
+      <th style="text-align: right">product.id</th>
+      <th style="text-align: right">quantity</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-07</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">48</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-07</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">52</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">76</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">10</td>
+      <td style="text-align: right">52</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">50</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: right">1</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">6</td>
+      <td style="text-align: right">34</td>
+      <td style="text-align: right">1</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="joining-orders-with-customers-and-products-a-classanchor-idjoining-ordersa">Joining Orders with Customers and Products <a class="anchor" id="joining-orders"></a></h2>
+
+<p>The orders table alone does not give us much information. For instance, we don’t know the names of the customers, the products purchased, or the sales values. Let’s combine some of the tables to make the information more useful.</p>
+
+<div>
+  <pre><code class="r"># Merge customers and products data with the orders to produce and orders.extended data frame
+library(dplyr)
+
+orders.extended &lt;- merge(orders, customers, by.x = &quot;customer.id&quot;, by.y=&quot;bikeshop.id&quot;)
+orders.extended &lt;- merge(orders.extended, products, by.x = &quot;product.id&quot;, by.y = &quot;bike.id&quot;)
+
+orders.extended &lt;- orders.extended %&gt;%
+        mutate(price.extended = price * quantity) %&gt;%
+        select(order.date, order.id, order.line, bikeshop.name, model, 
+               quantity, price, price.extended, category1, category2, frame) %&gt;%
+        arrange(order.id, order.line)</code></pre>
+</div>
+
+<div>
+  <pre><code class="r"># Data frame for first 3 orders shown
+kable(orders.extended[orders.extended$order.id %in% c(1:3),])</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">order.date</th>
+      <th style="text-align: right">order.id</th>
+      <th style="text-align: right">order.line</th>
+      <th style="text-align: left">bikeshop.name</th>
+      <th style="text-align: left">model</th>
+      <th style="text-align: right">quantity</th>
+      <th style="text-align: right">price</th>
+      <th style="text-align: right">price.extended</th>
+      <th style="text-align: left">category1</th>
+      <th style="text-align: left">category2</th>
+      <th style="text-align: left">frame</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">2011-01-07</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">Ithaca Mountain Climbers</td>
+      <td style="text-align: left">Jekyll Carbon 2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">6070</td>
+      <td style="text-align: right">6070</td>
+      <td style="text-align: left">Mountain</td>
+      <td style="text-align: left">Over Mountain</td>
+      <td style="text-align: left">Carbon</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2011-01-07</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">Ithaca Mountain Climbers</td>
+      <td style="text-align: left">Trigger Carbon 2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">5970</td>
+      <td style="text-align: right">5970</td>
+      <td style="text-align: left">Mountain</td>
+      <td style="text-align: left">Over Mountain</td>
+      <td style="text-align: left">Carbon</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">Kansas City 29ers</td>
+      <td style="text-align: left">Beast of the East 1</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">2770</td>
+      <td style="text-align: right">2770</td>
+      <td style="text-align: left">Mountain</td>
+      <td style="text-align: left">Trail</td>
+      <td style="text-align: left">Aluminum</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">Kansas City 29ers</td>
+      <td style="text-align: left">Trigger Carbon 2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">5970</td>
+      <td style="text-align: right">5970</td>
+      <td style="text-align: left">Mountain</td>
+      <td style="text-align: left">Over Mountain</td>
+      <td style="text-align: left">Carbon</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: left">Louisville Race Equipment</td>
+      <td style="text-align: left">Supersix Evo Hi-Mod Team</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">10660</td>
+      <td style="text-align: right">10660</td>
+      <td style="text-align: left">Road</td>
+      <td style="text-align: left">Elite Road</td>
+      <td style="text-align: left">Carbon</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">2</td>
+      <td style="text-align: left">Louisville Race Equipment</td>
+      <td style="text-align: left">Jekyll Carbon 4</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">3200</td>
+      <td style="text-align: right">3200</td>
+      <td style="text-align: left">Mountain</td>
+      <td style="text-align: left">Over Mountain</td>
+      <td style="text-align: left">Carbon</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: left">Louisville Race Equipment</td>
+      <td style="text-align: left">Supersix Evo Black Inc.</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">12790</td>
+      <td style="text-align: right">12790</td>
+      <td style="text-align: left">Road</td>
+      <td style="text-align: left">Elite Road</td>
+      <td style="text-align: left">Carbon</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">4</td>
+      <td style="text-align: left">Louisville Race Equipment</td>
+      <td style="text-align: left">Supersix Evo Hi-Mod Dura Ace 2</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">5330</td>
+      <td style="text-align: right">5330</td>
+      <td style="text-align: left">Road</td>
+      <td style="text-align: left">Elite Road</td>
+      <td style="text-align: left">Carbon</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">2011-01-10</td>
+      <td style="text-align: right">3</td>
+      <td style="text-align: right">5</td>
+      <td style="text-align: left">Louisville Race Equipment</td>
+      <td style="text-align: left">Synapse Disc 105</td>
+      <td style="text-align: right">1</td>
+      <td style="text-align: right">1570</td>
+      <td style="text-align: right">1570</td>
+      <td style="text-align: left">Road</td>
+      <td style="text-align: left">Endurance Road</td>
+      <td style="text-align: left">Aluminum</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Great. Now this finally looks like orders data that could be retrieved from an ERP system. We are ready to start visualizing and data mining. The last part of this post will go into some high level visualizations for data exploration. Future blog posts will dig much deeper.</p>
+
+<h2 id="exploring-the-orders-a-classanchor-idexploring-ordersa">Exploring the Orders <a class="anchor" id="exploring-orders"></a></h2>
+
+<p>If you’ve followed along to this point, we have just created the orders from the <code>bikes data set</code>. Now, we can have some fun! Let’s examine the data set. </p>
+
+<h3 id="sales-over-time-a-classanchor-idsales-over-timea">Sales Over Time <a class="anchor" id="sales-over-time"></a></h3>
+
+<p>We’ll first take a look at sales over time using the <code>ggplot2</code> package.</p>
+
+<div>
+  <pre><code class="r"># Plotting sales over time
+library(ggplot2)
+library(lubridate)
+
+# Create a sales by year data frame
+salesByYear &lt;- orders.extended %&gt;%
+  group_by(year = year(order.date)) %&gt;%
+  summarize(total.sales = sum(price.extended))
+
+# Use ggplot to plot sales by year
+ggplot(salesByYear, aes(x=year, y=total.sales)) +
+  geom_bar(stat = &quot;identity&quot;) + 
+  geom_smooth(method = &quot;lm&quot;, se = FALSE) +
+  labs(title=&quot;Sales Over Time&quot;, x=&quot;Year&quot;, y=&quot;Sales&quot;) +
+  scale_y_continuous(labels = scales::dollar) +
+  geom_text(aes(ymax=total.sales, label=scales::dollar(total.sales)), 
+                        vjust=1.5, 
+                        color=&quot;white&quot;,
+                        size=4)</code></pre>
+</div>
+
+<p><img src="/figure/source/2016-7-12-orderSimulatoR/salesOverTime-1.png" alt="Sales Over Time" /></p>
+
+<p>Nice. Cannondale has a general growth trend. It looks like 2015 was Cannondale’s best year with $17,171,510 in total sales! </p>
+
+<h3 id="top-10-products-a-classanchor-idtop-10-productsa">Top 10 Products <a class="anchor" id="top-10-products"></a></h3>
+
+<p>Next, let’s explore some products to get an idea of top sellers.</p>
+
+<div>
+  <pre><code class="r"># Plot top 10 products
+
+# Create top 10 products data frame
+productSales &lt;- orders.extended %&gt;%
+  group_by(bike.model = model) %&gt;%
+  summarize(total.sales = sum(price.extended),
+            qty.total = sum(quantity)) %&gt;%
+  mutate(pct.total = total.sales / sum(total.sales)) %&gt;%
+  arrange(desc(total.sales))
+top10.ordered &lt;- head(productSales, 10)
+top10.ordered$bike.model &lt;- factor(top10.ordered$bike.model, levels = arrange(top10.ordered, total.sales)$bike.model)
+
+# Use ggplot to plot the top products
+ggplot(top10.ordered, aes(x=bike.model, y=total.sales)) +
+  geom_bar(stat=&quot;identity&quot;) + 
+  geom_text(aes(ymax=pct.total, label=scales::percent(pct.total)), 
+      hjust= -0.25,
+      vjust= 0.5,
+      color=&quot;black&quot;,
+      size=4) +
+  geom_text(aes(ymax=qty.total, label=paste(&quot;Qty:&quot;, qty.total)), 
+      hjust= 1.25,
+      vjust= 0.5,
+      color=&quot;white&quot;,
+      size=4) +
+  coord_flip() +
+  labs(title=&quot;Top 10 Bike Models&quot;, 
+       x=&quot;&quot;, 
+       y=&quot;Sales&quot;)+
+  scale_y_continuous(labels = scales::dollar, limits = c(0,2500000))</code></pre>
+</div>
+
+<p><img src="/figure/source/2016-7-12-orderSimulatoR/top10Products-1.png" alt="Top 10 Products" /></p>
+
+<p>It looks like the best model is the Cannondale Scalpel-Si Black Inc. with 168 units sold representing sales of $2,148,720 or 3.02% of total sales. </p>
+
+<h3 id="geographic-customer-trends-a-classanchor-idgeographic-trendsa">Geographic Customer Trends <a class="anchor" id="geographic-trends"></a></h3>
+
+<p>Finally, we’ll take a look at a map of our customer-base using the <code>leaflet</code> package. The map below charts the customer locations and exposes the sales trends using the circle radius. Larger circles relate to higher sales, and smaller circles relate to lower sales. You can click on the markers to see the bike shop name and sales.</p>
+
+<div>
+  <pre><code class="r"># Plot sales by geographic location
+
+# Create sales by location from orders extedend, joining latitude and longitude
+# data by customer name
+salesByLocation &lt;- orders.extended %&gt;%
+  group_by(bikeshop.name) %&gt;%
+  summarise(total.sales = sum(price.extended)) %&gt;%
+  left_join(y=customers, by=&quot;bikeshop.name&quot;) %&gt;%
+  mutate(popup = paste0(bikeshop.name, &quot;: &quot;, scales::dollar(total.sales)))
+
+# Use Leaflet package to create map visualizing sales by customer location
+library(leaflet)
+leaflet(salesByLocation) %&gt;% 
+  addProviderTiles(&quot;CartoDB.Positron&quot;) %&gt;%
+  addMarkers(lng = ~longitude, 
+             lat = ~latitude,
+             popup = ~popup) %&gt;%
+  addCircles(lng = ~longitude, 
+             lat = ~latitude, 
+             weight = 2,
+             radius = ~(total.sales)^0.775)</code></pre>
+</div>
+
+<iframe src="http://rpubs.com/mdancho84/BikeSaleByLocation" style="border: none; width: 750px; height: 600px"></iframe>
+
+<p>This is elightening. Not only is it easy to see who are largest customers are and their locations, but we can see geographic trends. It looks like the southeast US and the midwest are realatively unsaturated geographies. This could be an opportunity to partner with bikeshops in those areas!</p>
+
+<h2 id="recap-a-classanchor-idrecapa">Recap <a class="anchor" id="recap"></a></h2>
+
+<p>Ok, you’ve made it through a long post, but one that hopefully helps you show off your analytic talents. We discussed how to simulate orders using the <code>orderSimulatoR</code> scripts, which can be used to simulate orders in any situation that has customers and products. All you need is a customer table, products table, and a well-thought-out matrix of probabilities that create the customer-product interaction trends. The simulated orders can then be used for data mining and visualizations. We went through a few high level data visualizations on the <code>bikes data set</code>. We used the <code>ggplot2</code> and <code>leaflet</code> packages to help understand the overall sales trends, best products, and best customers. With that said, we just scratched the surface of the data mining and visualization process. In future posts, we’ll take a look at more advanced techniques for uncover trends. Until then, onward and upward.</p>
+
+<h2 id="further-resources">Further Resources</h2>
+
+<p>For more <code>R</code> resources, visit <a href="http://www.r-bloggers.com/">R-Bloggers</a>, a site dedicated to <code>R</code>. There’s a wealth of <code>R</code> information, and you may even see this post. Happy analyzing.</p>
+
+	    </div>
+	    <!-- Sidebar -->
+	    <div class="col-md-3 well well-lg bs-component hidden-print hidden-sm hidden-xs" role="complimentary">
+	    	<nav class="bs-docs-sidebar ">
+	<ul class="nav bs-docs-sidenav">
+
+		<!-- Feedburer Email Signup-->
+		<li>
+			<!-- <h5>Interested in Business Science? Subscribe!</h5> -->
+			<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=mattdancho', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p style="color: #2c3e50;">Get <em>Business Science</em> updates:</p>
+                        <p><input type="text" style="width:90%; color: #2c3e50; padding-left: 4px;" name="email" placeholder="email address" /></p>
+                        <input type="hidden" value="mattdancho" name="uri"/>
+                        <input type="hidden" name="loc" value="en_US"/>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <input type="submit" value="Subscribe" class="btn btn-primary btn-sm" style="margin-bottom: 8px;"/>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <p class="text-center"><a href="http://feeds.feedburner.com/mattdancho"><img src="http://feeds.feedburner.com/~fc/mattdancho?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26" width="75%" style="border:0" alt="" /></a></p>
+                    </div>
+                </div>
+            </form>
+		</li>
+		<li><hr></li>
+
+		<!-- Post Navigation -->
+		
+		<li>
+			<ul class="pager">
+			  
+			    <li class="previous">
+			    	<a href="/Business/2016/05/01/Marketing-Strategy-MBAs-Learn-Analytics.html"><i class="fa fa-arrow-circle-left"></i> Prev</a>
+			    </li>
+			  
+			  
+			    <li class="next">
+			    	<a class="" href="/Business/2016/08/07/CustomerSegmentationPt1.html">Next <i class="fa fa-arrow-circle-right"></i></a>
+			    </li>
+			  
+			</ul>
+		</li>
+		<li><hr></li>
+		
+
+		<!-- Blog Navigation -->
+		
+
+		<!-- Recent Posts -->
+		<li>
+			<h5>Recent Posts</h5>
+			<div class="list-group">
+				
+				<a href="/Business/2016/10/01/CustomerSegmentationPt3.html" class="list-group-item">
+					<h6 class="list-group-item-heading">Customer Segmentation Part 3: Network Visualization</h6>
+				    
+	                  <img src="/assets/custSegments3.png" alt="..." style="width: 100%;">
+	                
+				</a>
+				
+				<a href="/Business/2016/09/04/CustomerSegmentationPt2.html" class="list-group-item">
+					<h6 class="list-group-item-heading">Customer Segmentation Part 2: PCA for Segment Visualization</h6>
+				    
+	                  <img src="/assets/custSegments2.png" alt="..." style="width: 100%;">
+	                
+				</a>
+				
+				<a href="/Business/2016/08/07/CustomerSegmentationPt1.html" class="list-group-item">
+					<h6 class="list-group-item-heading">Customer Segmentation Part 1: K-Means Clustering</h6>
+				    
+	                  <img src="/assets/custSegments1.png" alt="..." style="width: 100%;">
+	                
+				</a>
+				
+			</div>
+		</li>
+		<li><hr></li>
+
+		<!-- Categories -->
+		<li>
+			<h5>Categories</h5>
+			
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Technology" aria-expanded="false" aria-controls="R">
+				  Technology:
+				  <span class="badge">1</span>
+				</button>
+				<div class="collapse" id="Technology">
+				  <div class="list-group">
+				    
+				      
+				      	
+				      
+				    
+				      
+				      	
+					        <!-- <a href="/Technology/2016/04/09/A-Data-Scientists-Resources.html" class="list-group-item">A Data Scientist's Resources</a> -->
+					        <a href="/Technology/2016/04/09/A-Data-Scientists-Resources.html" class="list-group-item">
+								<h6 class="list-group-item-heading">A Data Scientist's Resources</h6>
+							    
+				                  <img src="/assets/sextant.jpg" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				    
+				  </div>
+				</div>
+			</div>
+			
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Business" aria-expanded="false" aria-controls="R">
+				  Business:
+				  <span class="badge">1</span>
+				</button>
+				<div class="collapse" id="Business">
+				  <div class="list-group">
+				    
+				      
+				      	
+				      
+				    
+				      
+				      	
+					        <!-- <a href="/Business/2016/05/01/Marketing-Strategy-MBAs-Learn-Analytics.html" class="list-group-item">Marketing Strategy: Why MBAs Can Benefit from Learning Analytics</a> -->
+					        <a href="/Business/2016/05/01/Marketing-Strategy-MBAs-Learn-Analytics.html" class="list-group-item">
+								<h6 class="list-group-item-heading">Marketing Strategy: Why MBAs Can Benefit from Learning Analytics</h6>
+							    
+				                  <img src="/assets/digital_woman.jpg" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				    
+				  </div>
+				</div>
+			</div>
+			
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Business" aria-expanded="false" aria-controls="R">
+				  Business:
+				  <span class="badge">4</span>
+				</button>
+				<div class="collapse" id="Business">
+				  <div class="list-group">
+				    
+				      
+				      	
+				      
+				    
+				      
+				      	
+					        <!-- <a href="/Business/2016/10/01/CustomerSegmentationPt3.html" class="list-group-item">Customer Segmentation Part 3: Network Visualization</a> -->
+					        <a href="/Business/2016/10/01/CustomerSegmentationPt3.html" class="list-group-item">
+								<h6 class="list-group-item-heading">Customer Segmentation Part 3: Network Visualization</h6>
+							    
+				                  <img src="/assets/custSegments3.png" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				      	
+					        <!-- <a href="/Business/2016/09/04/CustomerSegmentationPt2.html" class="list-group-item">Customer Segmentation Part 2: PCA for Segment Visualization</a> -->
+					        <a href="/Business/2016/09/04/CustomerSegmentationPt2.html" class="list-group-item">
+								<h6 class="list-group-item-heading">Customer Segmentation Part 2: PCA for Segment Visualization</h6>
+							    
+				                  <img src="/assets/custSegments2.png" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				      	
+					        <!-- <a href="/Business/2016/08/07/CustomerSegmentationPt1.html" class="list-group-item">Customer Segmentation Part 1: K-Means Clustering</a> -->
+					        <a href="/Business/2016/08/07/CustomerSegmentationPt1.html" class="list-group-item">
+								<h6 class="list-group-item-heading">Customer Segmentation Part 1: K-Means Clustering</h6>
+							    
+				                  <img src="/assets/custSegments1.png" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				      	
+					        <!-- <a href="/Business/2016/07/12/orderSimulatoR.html" class="list-group-item">orderSimulatoR: Simulate Orders for Business Analytics</a> -->
+					        <a href="/Business/2016/07/12/orderSimulatoR.html" class="list-group-item">
+								<h6 class="list-group-item-heading">orderSimulatoR: Simulate Orders for Business Analytics</h6>
+							    
+				                  <img src="/assets/cannondale_bike.jpg" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				    
+				  </div>
+				</div>
+			</div>
+			
+		</li>
+		<li><hr></li>
+
+		<!-- Tags -->
+		<li>
+			<h5>Tags</h5>
+			<div>
+				<!-- https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html -->
+				
+				
+
+				
+				
+				<a href="/tags/#BI" class="btn btn-primary btn-xs">BI: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#CRM" class="btn btn-primary btn-xs">CRM: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Code" class="btn btn-primary btn-xs">Code: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Community Detection" class="btn btn-primary btn-xs">Community Detection: <span class="badge">3</span></a>
+				
+				
+				<a href="/tags/#Customer Segmentation" class="btn btn-primary btn-xs">Customer Segmentation: <span class="badge">3</span></a>
+				
+				
+				<a href="/tags/#Data Mining" class="btn btn-primary btn-xs">Data Mining: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Excel" class="btn btn-primary btn-xs">Excel: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#MBA" class="btn btn-primary btn-xs">MBA: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Marketing" class="btn btn-primary btn-xs">Marketing: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#PCA" class="btn btn-primary btn-xs">PCA: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Python" class="btn btn-primary btn-xs">Python: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#R" class="btn btn-primary btn-xs">R: <span class="badge">5</span></a>
+				
+				
+				<a href="/tags/#R-Project" class="btn btn-primary btn-xs">R-Project: <span class="badge">4</span></a>
+				
+				
+				<a href="/tags/#SQL" class="btn btn-primary btn-xs">SQL: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Sales Data Scientist" class="btn btn-primary btn-xs">Sales Data Scientist: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Salesforce" class="btn btn-primary btn-xs">Salesforce: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Simulation" class="btn btn-primary btn-xs">Simulation: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Strategy" class="btn btn-primary btn-xs">Strategy: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#bikes data set" class="btn btn-primary btn-xs">bikes data set: <span class="badge">4</span></a>
+				
+				
+				<a href="/tags/#igraph" class="btn btn-primary btn-xs">igraph: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#kmeans" class="btn btn-primary btn-xs">kmeans: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#networkD3" class="btn btn-primary btn-xs">networkD3: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#orderSimulatoR" class="btn btn-primary btn-xs">orderSimulatoR: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#prcomp" class="btn btn-primary btn-xs">prcomp: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#silhouette" class="btn btn-primary btn-xs">silhouette: <span class="badge">1</span></a>
+				
+			</div>
+
+		</li>
+		<li><hr></li>
+
+		<!-- Resources -->
+		<li>
+			<h5>Resources</h5>
+			<!-- R -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#R" aria-expanded="false" aria-controls="R">
+				  R: <span class="badge">0</span>
+				</button>
+				<div class="collapse" id="R">
+				  <div class="list-group">
+				    
+				  </div>
+				</div>
+			</div>
+
+			<!-- Python -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Python" aria-expanded="false" aria-controls="Python">
+				  Python: <span class="badge">0</span>
+				</button>
+				<div class="collapse" id="Python">
+				  <div class="list-group">
+				    
+				  </div>
+				</div>
+			</div>
+
+			<!-- Power BI -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#PowerBI" aria-expanded="false" aria-controls="PowerBI">
+				  Power BI: <span class="badge">0</span>
+				</button>
+				<div class="collapse" id="PowerBI">
+				  <div class="list-group">
+				    
+				  </div>
+				</div>
+			</div>
+
+			<!-- Tableau -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Tableau" aria-expanded="false" aria-controls="Tableau">
+				  Tableau: <span class="badge">0</span>
+				</button>
+				<div class="collapse" id="Tableau">
+				  <div class="list-group">
+				    
+				  </div>
+				</div>
+			</div>
+
+			<!-- Excel -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" style="width: 100%;" type="button" data-toggle="collapse" data-target="#Excel" aria-expanded="false" aria-controls="Excel">
+				  Excel <span class="badge">0</span>
+				</button>
+				<div class="collapse" id="Excel">
+				  <div class="list-group">
+					
+				  </div>
+				</div>
+			</div>
+
+		</li>
+		<!-- <li><hr></li> -->
+
+
+	</ul>
+</nav>
+	    </div>
+    </div>
+
+
+  </div>
+
+  <div class="container">
+  	<div class="col-md-8 col-md-offset-1">
+		<div class="PageNavigation">
+		  
+		    <a class="prev" href="/Business/2016/05/01/Marketing-Strategy-MBAs-Learn-Analytics.html">
+		    	<i class="fa fa-arrow-circle-left"></i>
+		    	Marketing Strategy: Why MBAs Can Benefit from Learning Analytics
+		    </a>
+		  
+		  
+		    <a class="next pull-right" href="/Business/2016/08/07/CustomerSegmentationPt1.html">
+		    	Customer Segmentation Part 1: K-Means Clustering
+				<i class="fa fa-arrow-circle-right"></i>
+		    </a>
+		  
+		</div>
+	</div>
+	 </div>
+</section>
+
+<!-- Disqus -->
+<div class="container">
+	<div class="col-md-8 col-md-offset-1">
+	Include file 'disqus.html disqus_identifier=page.disqus_identifier' contains invalid characters or sequences
+	</div>
+</div>
+
+
+<!-- htmlwidgets dependencies -->
+<!--  -->
+
+
+	<!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+
+                    <div class="footer-col col-md-4">
+                        <h3 class="footer">About the Site</h3>
+                        <p>This site is dedicated to using data science and analytics in a variety of business and investment settings to gain insights beyond face-value. <a href="/about.html">Learn more</a>.</p>
+                    </div>
+
+                    <div class="footer-col col-md-4">
+                        <h3 class="footer">Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="http://www.mattdancho.com/atom.xml" class="btn-social btn-outline"><i class="fa fa-fw fa-rss"></i></a>
+                            </li>
+                            <li>
+                                <a href="mailto:mdancho@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/mdancho84" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/mattdancho" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col col-md-4">
+                        <!-- <h3 class="footer">Location</h3>
+                        <p>State College, PA</p> -->
+                        <h3 class="footer">Interested?</h3>
+                        <div class="well">
+                            <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=mattdancho', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p style="color: #2c3e50;">Get <em>Business Science</em> updates:</p>
+                                        <p><input type="text" style="width:90%; color: #2c3e50; padding-left: 4px;" name="email" placeholder="email address" /></p>
+                                        <input type="hidden" value="mattdancho" name="uri"/>
+                                        <input type="hidden" name="loc" value="en_US"/>
+                                    </div>
+
+                                    <div class="col-sm-12 col-md-6">
+                                        <input type="submit" value="Subscribe" class="btn btn-primary btn-sm" style="margin-bottom: 8px;"/>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <p class="text-center"><a href="http://feeds.feedburner.com/mattdancho"><img src="http://feeds.feedburner.com/~fc/mattdancho?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a></p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; www.mattdancho.com 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+	<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll" id="top-link-block">
+            <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <!-- <script src="/js/contact_me.js"></script> -->
+
+    <!-- MathJax processing for LaTeX -->
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+    <!-- Highlightjs -->
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/freelancer.js"></script>
+    <script src="/js/scripts.js"></script>
+
+    <!-- Google+ -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-76139189-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/Business/2016/07/12/orderSimulatoR.html',
+		  'title': 'Post'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
+
+</body>
+
+</html>

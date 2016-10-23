@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>
+	  
+	    Post
+	  
+	</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!-- Open Graph -->
+
+    <meta content="Business Science" property="og:site_name">
+    <meta name="author" content="mattdancho.com" />
+
+    
+      <meta content="Post" property="og:title">
+      <meta content="Post" property="twitter:title"/>
+    
+
+    
+      <meta content="article" property="og:type">
+    
+
+    
+    <meta name="description" content="Applying data science to business and investments">
+    <meta property="og:description" content="Applying data science to business and investments" />
+    
+
+    
+      <meta content="http://www.mattdancho.com/Business/2016/10/01/CustomerSegmentationPt3.html" property="og:url">
+    
+
+    
+      <meta content="2016-10-01T00:00:00-04:00" property="article:published_time">
+      <meta content="http://www.mattdancho.com/about/" property="article:author">
+    
+
+    
+      <meta content="http://www.mattdancho.com/assets/custSegments3.png" property="og:image">
+    
+
+    
+      
+      <meta content="Business" property="article:section">
+      
+    
+
+    
+      
+      <meta content="R-Project" property="article:tag">
+      
+      <meta content="R" property="article:tag">
+      
+      <meta content="Customer Segmentation" property="article:tag">
+      
+      <meta content="Community Detection" property="article:tag">
+      
+      <meta content="igraph" property="article:tag">
+      
+      <meta content="networkD3" property="article:tag">
+      
+      <meta content="bikes data set" property="article:tag">
+      
+    
+
+<!-- Twitter Card -->
+
+  <!-- <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@site_username">
+  <meta name="twitter:creator" content="@creator_username">
+  
+    <meta name="twitter:title" content="Post">
+  
+  
+    <meta name="twitter:url" content="http://www.mattdancho.com/Business/2016/10/01/CustomerSegmentationPt3.html">
+  
+  
+    <meta name="twitter:description" content="Applying data science to business and investments">
+  
+  
+    <meta name="twitter:image:src" content="http://www.mattdancho.com/img/custSegments3.png">
+   -->
+
+    <link rel="alternate" type="application/atom+xml" title="mattdancho.com" href="/atom.xml" />
+
+<link rel="alternate" type="application/rss+xml" title="mattdancho.com" href="/feed.xml" />
+
+
+
+
+    <!-- Begin MailChimp Signup Form -->
+<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+</style>
+
+        <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="/css/bootstrap.min-flatly.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/css/freelancer.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/css/table.css" rel="stylesheet">
+
+    <!-- Highlightjs -->
+    <link rel="stylesheet" href="/css/github.css">
+
+    <!-- Custom Fonts -->
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Greensock -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+
+    <!-- Scrollmagic -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+
+
+</head>
+
+<body id="page-top" class="index">
+
+	
+
+	<!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Business Science</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <!-- Nav Links: Maintained in data/nav.csv -->
+                <ul class="nav navbar-nav navbar-right">
+    				
+
+                    <!-- Search site using Google's index -->
+                    <li>
+                        <form class="navbar-form navbar-right" role="search" method="get" action="http://google.com/search">
+                          <div class="row">
+                              <div class="col-xs-8">
+                                  <div class="form-group" id="inline">
+                                    <input type="hidden" name="q" value="site:mattdancho.com" />
+                                    <input type="text" class="form-control search-query" name="q" placeholder="Search"/>
+                                  </div>
+                              </div>
+                              <div class="col-xs-2">
+                                  <button type="submit" class="btn btn-default"><i class="fa fa-search fa-lg"></i></button>
+                              </div>
+                          </div>
+                        </form>
+                    </li>
+				</ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+
+	<!-- Blog Head -->
+<header id="header" class="">
+	<section class="success" id="blog">
+		<div class= "container">
+			<div class="row">
+			  	<div class="col-lg-12 text-center">
+			  		<div class="text-center">
+					    <h1>Post</h1>
+					    <p>Written on October  1, 2016</p>
+					    <p>
+
+<div class="post-tags">
+  Categories:
+  
+    
+  
+  
+  <li>
+  	<a href="/categories/#Business">Business</a>
+  </li>
+
+  
+</div></p>
+					    <p>
+
+<div class="post-tags">
+  Tags:
+  
+    
+  
+  
+  <li>
+  	<a href="/tags/#R-Project">R-Project</a>,
+  </li>
+
+  
+  <li>
+  	<a href="/tags/#R">R</a>,
+  </li>
+
+  
+  <li>
+  	<a href="/tags/#Customer Segmentation">Customer Segmentation</a>,
+  </li>
+
+  
+  <li>
+  	<a href="/tags/#Community Detection">Community Detection</a>,
+  </li>
+
+  
+  <li>
+  	<a href="/tags/#igraph">igraph</a>,
+  </li>
+
+  
+  <li>
+  	<a href="/tags/#networkD3">networkD3</a>,
+  </li>
+
+  
+  <li>
+  	<a href="/tags/#bikes data set">bikes data set</a>
+  </li>
+
+  
+</div></p>
+
+					    <ul class="list-inline">
+					    	<!-- Facebook -->
+                            <li>
+                                <div class="fb-share-button" data-href="http://www.mattdancho.com/Business/2016/10/01/CustomerSegmentationPt3.html" data-layout="box_count" data-size="small" data-mobile-iframe="true" style="bottom: 5px;"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+                            </li>
+                            <!-- LinkedIn -->
+                            <li>
+                                <script type="text/javascript" src="//platform.linkedin.com/in.js"></script><script type="in/share" data-counter="top"></script>
+                            </li>
+                            <!-- Google+ -->
+                            <li>
+                                <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
+                            </li>
+                    		<!-- Twitter -->
+                            <li>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </li>
+                        </ul>
+					</div>
+			  	</div>
+			</div>
+		</div>
+	</section>
+</header>
+
+<!-- Blog Body -->
+<section id="blog">
+
+  <div class="container" id="blog_content">
+    <!-- <div class="col-md-8 col-md-offset-2"> -->
+    <div class="row">
+    	<!-- Main Content -->
+    	<div class="col-md-8 col-md-offset-1" role="main">
+	  		<p><img class="shadow" src="/assets/custSegments3.png" style="margin-top: 0px;"></p>
+	  		<hr class="margin-bottom-40">
+	    	<p>This post is the third and final part in the customer segmentation analysis. The <a href="http://www.mattdancho.com/business/2016/08/07/CustomerSegmentationPt1.html">first post</a> focused on <a href="https://en.wikipedia.org/wiki/K-means_clustering"><em>K</em>-Means Clustering</a> to segment customers into distinct groups based on purchasing habits. The second post takes a different approach, using <a href="https://en.wikipedia.org/wiki/Principal_component_analysis">Pricipal Component Analysis (PCA)</a> to visualize customer groups. The third and final post performs <a href="https://en.wikipedia.org/wiki/Graph_drawing">Network Visualization (Graph Drawing)</a> using the <code>igraph</code> and <code>networkD3</code> libraries as a method to visualize the customer connections and relationship strengths.  </p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ul>
+  <li><a href="#network-vis">Why Network Visualization?</a></li>
+  <li><a href="#left-off">Where We Left Off</a></li>
+  <li><a href="#getting-ready">Getting Ready for Network Visualization</a>
+    <ul>
+      <li><a href="#get-data">Getting the Data</a></li>
+      <li><a href="#read-data">Reading the Data</a></li>
+      <li><a href="#manipulate-data">Manipulating the Data</a></li>
+    </ul>
+  </li>
+  <li><a href="#applying">Developing the Network Visualization</a>
+    <ul>
+      <li><a href="#cosine">Step 1: Create a Cosine Similarity Matrix</a></li>
+      <li><a href="#prune">Step 2: Prune the Tree</a></li>
+      <li><a href="#igraph">Step 3: Create the igraph</a></li>
+    </ul>
+  </li>
+  <li><a href="#visualizing-results">Visualizing the Results with networkD3</a> </li>
+  <li><a href="#conclusions">Conclusions</a></li>
+  <li><a href="#recap">Recap</a></li>
+  <li><a href="#further-reading">Further Reading</a></li>
+</ul>
+
+<h2 id="why-network-visualization-a-classanchor-idnetwork-visa">Why Network Visualization? <a class="anchor" id="network-vis"></a></h2>
+
+<p>According to <a href="http://kateto.net/">Katya Ognyanova</a>, an expert in network theory, Network Visualization is a useful technique for viewing relationships in the data, with the key benefits being identification of the following:</p>
+
+<p><img src="/assets/network_visualization_goals.png" alt="Network Visualization Goals" /></p>
+
+<p class="text-center date">Source: <a href="http://kateto.net/network-visualization">Network Visualization with R</a></p>
+
+<p>For customer segmentation, we can utilize network visualization to understand both the network communities and the strength of the relationships. Before we jump into network visualization, it’s a good idea to review where we left off in the previous customer segmentation posts.</p>
+
+<h2 id="where-we-left-off-a-classanchor-idleft-offa">Where We Left Off <a class="anchor" id="left-off"></a></h2>
+
+<p>In the <a href="http://www.mattdancho.com/business/2016/08/07/CustomerSegmentationPt1.html">first post</a>, we used <em>k</em>-means clustering to analyze the <code>bikes data set</code>, a collection of excel files that contains data for bike shops (customers), bikes (products), and sales orders for the bike manufacturer, <a href="http://www.cannondale.com/"><em>Cannondale</em></a>. The bike shops and sales orders are fictional / simulated (see the <a href="http://www.mattdancho.com/business/2016/07/12/orderSimulatoR.html">orderSimulatoR post</a> for more on this), but the bikes (products) are actual models from <em>Cannondale’s</em> website. </p>
+
+<p>A hypothesis was formed that bike shops purchase bikes based on bike features such as unit price (high end vs affordable), primary category (Mountain vs Road), frame (aluminum vs carbon), etc. The sales orders were combined with the customer and product information and grouped to form a matrix of sales by model and customer. The <code>kmeans()</code> function was run on a range of potential clusters, <em>k</em>, and the <code>silhouette()</code> function from the <code>cluster</code> package was used to determine the optimal number of clusters.</p>
+
+<p>In the <a href="http://www.mattdancho.com/business/2016/09/04/CustomerSegmentationPt2.html">second post</a>, we used PCA to visually examine the customer segments using the <code>prcomp()</code> function in base <code>R</code>. PCA visualization allowed us to identify a customer segment that k-means failed to pick up. </p>
+
+<h2 id="getting-ready-for-network-visualization-a-classanchor-idgetting-readya">Getting Ready for Network Visualization <a class="anchor" id="getting-ready"></a></h2>
+
+<p>For those that would like to follow along, rather than run through the previous posts the sections below can be used to get everything ready for network visualization.</p>
+
+<h4 id="getting-the-data-a-classanchor-idget-dataa">Getting the Data <a class="anchor" id="get-data"></a></h4>
+
+<p>You can access the data <a href="https://github.com/mdancho84/orderSimulatoR/tree/master/data">here</a> if you would like to follow along. You’ll need to download the following files:</p>
+
+<ul>
+  <li>
+    <p><strong>orders.xlsx</strong>: Contains the fictional sales orders for <em>Cannondale</em>. <code>customer.id</code> in the <strong>orders.xlsx</strong> file relates to <code>bike shop.id</code> in the <strong>bikeshops.xlsx</strong> file, and <code>product.id</code> in the <strong>orders.xlsx</strong> file relates to <code>bike.id</code> in the <strong>bikes.xlsx</strong> file.</p>
+  </li>
+  <li>
+    <p><strong>bikes.xlsx</strong>:  Contains information on products (e.g. bike model, primary category, secondary category, unit price, etc). <code>bike.id</code> is the primary key.</p>
+  </li>
+  <li>
+    <p><strong>bikeshops.xlsx</strong>: Contains information on customers (e.g. customer name and location). <code>bikeshop.id</code> is the primary key. </p>
+  </li>
+</ul>
+
+<p>The script to load and configure the data into a customer trends matrix is shown below. </p>
+
+<h4 id="reading-the-data-a-classanchor-idread-dataa">Reading the Data <a class="anchor" id="read-data"></a></h4>
+
+<p>This script will read the data. Make sure you have the excel files in a folder named “data” in your current working directory prior to running the script below.</p>
+
+<div>
+  <pre><code class="r"># Read Cannondale orders data --------------------------------------------------
+library(xlsx)   # Used to read bikes data set
+customers &lt;- read.xlsx2(&quot;./data/bikeshops.xlsx&quot;, sheetIndex = 1,
+                       colClasses = c(&quot;numeric&quot;, &quot;character&quot;, &quot;character&quot;,
+                                      &quot;character&quot;, &quot;character&quot;, &quot;numeric&quot;))
+products &lt;- read.xlsx2(&quot;./data/bikes.xlsx&quot;, sheetIndex = 1,
+                        colClasses = c(&quot;numeric&quot;, &quot;character&quot;, &quot;character&quot;,
+                                       &quot;character&quot;, &quot;character&quot;, &quot;numeric&quot;))
+orders &lt;- read.xlsx2(&quot;./data/orders.xlsx&quot;, sheetIndex = 1, colIndex = 2:7,
+                     colClasses = c(&quot;numeric&quot;, &quot;numeric&quot;, &quot;Date&quot;, &quot;numeric&quot;,
+                                    &quot;numeric&quot;, &quot;numeric&quot;))</code></pre>
+</div>
+
+<h4 id="manipulating-the-data-a-classanchor-idmanipulate-dataa">Manipulating the Data <a class="anchor" id="manipulate-data"></a></h4>
+
+<p>The script below combines the <code>orders</code>, <code>customers</code> and <code>products</code> data frames into <code>orders.extended</code>, which is a data frame that simulates output we would get from an SQL query of a sales orders database / ERP system. The data is then manipulated to form <code>customerTrends</code>, which has the data structured such that the rows contain products and the columns contain purchase quantity (as percentage of total) by customer. </p>
+
+<div>
+  <pre><code class="r"># Step 1: Combine orders, customers, and products data frames ------------------
+library(dplyr)
+orders.extended &lt;- merge(orders, customers, by.x = &quot;customer.id&quot;, by.y=&quot;bikeshop.id&quot;)
+orders.extended &lt;- merge(orders.extended, products, by.x = &quot;product.id&quot;, by.y = &quot;bike.id&quot;)
+orders.extended &lt;- orders.extended %&gt;%
+  mutate(price.extended = price * quantity) %&gt;%
+  select(order.date, order.id, order.line, bikeshop.name, model,
+         quantity, price, price.extended, category1, category2, frame) %&gt;%
+  arrange(order.id, order.line)
+
+# Step 2: Group by model &amp; model features, summarize by quantity purchased -----
+library(tidyr)  # For spread function
+customerTrends &lt;- orders.extended %&gt;%
+  group_by(bikeshop.name, model, category1, category2, frame, price) %&gt;%
+  summarise(total.qty = sum(quantity)) %&gt;%
+  spread(bikeshop.name, total.qty)
+customerTrends[is.na(customerTrends)] &lt;- 0  # Remove NA's
+
+# Step 3: Convert price to binary high/low category ----------------------------
+library(Hmisc)  # Needed for cut2 function
+customerTrends$price &lt;- cut2(customerTrends$price, g=2)
+
+# Step 4: Convert customer purchase quantity to percentage of total quantity ---
+customerTrends.mat &lt;- as.matrix(customerTrends[,-(1:5)])  # Drop first five columns
+customerTrends.mat &lt;- prop.table(customerTrends.mat, margin = 2)  # column-wise pct
+customerTrends &lt;- bind_cols(customerTrends[,(1:5)], as.data.frame(customerTrends.mat))</code></pre>
+</div>
+
+<p>Note that if the code above seems confusing, I recommend stepping through each step in the code chunk separately, then stopping to view the data frame that is created. the intention is to build the orders data frame and then convert it into a data frame that relates customers to the product purchase history.</p>
+
+<p>Here’s the first 6 rows of <code>customerTrends</code>:</p>
+
+<div>
+  <pre><code class="r">customerTrends %&gt;% head() %&gt;% knitr::kable() # First 6 rows</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">model</th>
+      <th style="text-align: left">category1</th>
+      <th style="text-align: left">category2</th>
+      <th style="text-align: left">frame</th>
+      <th style="text-align: left">price</th>
+      <th style="text-align: right">Albuquerque Cycles</th>
+      <th style="text-align: right">Ann Arbor Speed</th>
+      <th style="text-align: right">Austin Cruisers</th>
+      <th style="text-align: right">Cincinnati Speed</th>
+      <th style="text-align: right">Columbus Race Equipment</th>
+      <th style="text-align: right">Dallas Cycles</th>
+      <th style="text-align: right">Denver Bike Shop</th>
+      <th style="text-align: right">Detroit Cycles</th>
+      <th style="text-align: right">Indianapolis Velocipedes</th>
+      <th style="text-align: right">Ithaca Mountain Climbers</th>
+      <th style="text-align: right">Kansas City 29ers</th>
+      <th style="text-align: right">Las Vegas Cycles</th>
+      <th style="text-align: right">Los Angeles Cycles</th>
+      <th style="text-align: right">Louisville Race Equipment</th>
+      <th style="text-align: right">Miami Race Equipment</th>
+      <th style="text-align: right">Minneapolis Bike Shop</th>
+      <th style="text-align: right">Nashville Cruisers</th>
+      <th style="text-align: right">New Orleans Velocipedes</th>
+      <th style="text-align: right">New York Cycles</th>
+      <th style="text-align: right">Oklahoma City Race Equipment</th>
+      <th style="text-align: right">Philadelphia Bike Shop</th>
+      <th style="text-align: right">Phoenix Bi-peds</th>
+      <th style="text-align: right">Pittsburgh Mountain Machines</th>
+      <th style="text-align: right">Portland Bi-peds</th>
+      <th style="text-align: right">Providence Bi-peds</th>
+      <th style="text-align: right">San Antonio Bike Shop</th>
+      <th style="text-align: right">San Francisco Cruisers</th>
+      <th style="text-align: right">Seattle Race Equipment</th>
+      <th style="text-align: right">Tampa 29ers</th>
+      <th style="text-align: right">Wichita Speed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Bad Habit 1</td>
+      <td style="text-align: left">Mountain</td>
+      <td style="text-align: left">Trail</td>
+      <td style="text-align: left">Aluminum</td>
+      <td style="text-align: left">[ 415, 3500)</td>
+      <td style="text-align: right">0.0174825</td>
+      <td style="text-align: right">0.0066445</td>
+      <td style="text-align: right">0.0081301</td>
+      <td style="text-align: right">0.0051151</td>
+      <td style="text-align: right">0.0101523</td>
+      <td style="text-align: right">0.0128205</td>
+      <td style="text-align: right">0.0117340</td>
+      <td style="text-align: right">0.0099206</td>
+      <td style="text-align: right">0.0062696</td>
+      <td style="text-align: right">0.0181962</td>
+      <td style="text-align: right">0.0181504</td>
+      <td style="text-align: right">0.0016026</td>
+      <td style="text-align: right">0.0062893</td>
+      <td style="text-align: right">0.0075949</td>
+      <td style="text-align: right">0.0042135</td>
+      <td style="text-align: right">0.0182648</td>
+      <td style="text-align: right">0.0086705</td>
+      <td style="text-align: right">0.0184783</td>
+      <td style="text-align: right">0.0074074</td>
+      <td style="text-align: right">0.0129870</td>
+      <td style="text-align: right">0.0244898</td>
+      <td style="text-align: right">0.0112755</td>
+      <td style="text-align: right">0.0159151</td>
+      <td style="text-align: right">0.0108696</td>
+      <td style="text-align: right">0.0092251</td>
+      <td style="text-align: right">0.0215054</td>
+      <td style="text-align: right">0.0026738</td>
+      <td style="text-align: right">0.0156250</td>
+      <td style="text-align: right">0.0194175</td>
+      <td style="text-align: right">0.0059172</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Bad Habit 2</td>
+      <td style="text-align: left">Mountain</td>
+      <td style="text-align: left">Trail</td>
+      <td style="text-align: left">Aluminum</td>
+      <td style="text-align: left">[ 415, 3500)</td>
+      <td style="text-align: right">0.0069930</td>
+      <td style="text-align: right">0.0099668</td>
+      <td style="text-align: right">0.0040650</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0170940</td>
+      <td style="text-align: right">0.0139070</td>
+      <td style="text-align: right">0.0158730</td>
+      <td style="text-align: right">0.0031348</td>
+      <td style="text-align: right">0.0110759</td>
+      <td style="text-align: right">0.0158456</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0094340</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0112360</td>
+      <td style="text-align: right">0.0167428</td>
+      <td style="text-align: right">0.0173410</td>
+      <td style="text-align: right">0.0021739</td>
+      <td style="text-align: right">0.0074074</td>
+      <td style="text-align: right">0.0095238</td>
+      <td style="text-align: right">0.0040816</td>
+      <td style="text-align: right">0.0190275</td>
+      <td style="text-align: right">0.0026525</td>
+      <td style="text-align: right">0.0108696</td>
+      <td style="text-align: right">0.0239852</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0026738</td>
+      <td style="text-align: right">0.0078125</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0000000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Beast of the East 1</td>
+      <td style="text-align: left">Mountain</td>
+      <td style="text-align: left">Trail</td>
+      <td style="text-align: left">Aluminum</td>
+      <td style="text-align: left">[ 415, 3500)</td>
+      <td style="text-align: right">0.0104895</td>
+      <td style="text-align: right">0.0149502</td>
+      <td style="text-align: right">0.0081301</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0042735</td>
+      <td style="text-align: right">0.0182529</td>
+      <td style="text-align: right">0.0119048</td>
+      <td style="text-align: right">0.0094044</td>
+      <td style="text-align: right">0.0213608</td>
+      <td style="text-align: right">0.0181504</td>
+      <td style="text-align: right">0.0016026</td>
+      <td style="text-align: right">0.0251572</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0140449</td>
+      <td style="text-align: right">0.0167428</td>
+      <td style="text-align: right">0.0086705</td>
+      <td style="text-align: right">0.0086957</td>
+      <td style="text-align: right">0.0172840</td>
+      <td style="text-align: right">0.0242424</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0126850</td>
+      <td style="text-align: right">0.0053050</td>
+      <td style="text-align: right">0.0108696</td>
+      <td style="text-align: right">0.0092251</td>
+      <td style="text-align: right">0.0053763</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0156250</td>
+      <td style="text-align: right">0.0097087</td>
+      <td style="text-align: right">0.0000000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Beast of the East 2</td>
+      <td style="text-align: left">Mountain</td>
+      <td style="text-align: left">Trail</td>
+      <td style="text-align: left">Aluminum</td>
+      <td style="text-align: left">[ 415, 3500)</td>
+      <td style="text-align: right">0.0104895</td>
+      <td style="text-align: right">0.0099668</td>
+      <td style="text-align: right">0.0081301</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0050761</td>
+      <td style="text-align: right">0.0042735</td>
+      <td style="text-align: right">0.0152108</td>
+      <td style="text-align: right">0.0059524</td>
+      <td style="text-align: right">0.0094044</td>
+      <td style="text-align: right">0.0181962</td>
+      <td style="text-align: right">0.0138289</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0220126</td>
+      <td style="text-align: right">0.0050633</td>
+      <td style="text-align: right">0.0084270</td>
+      <td style="text-align: right">0.0076104</td>
+      <td style="text-align: right">0.0086705</td>
+      <td style="text-align: right">0.0097826</td>
+      <td style="text-align: right">0.0172840</td>
+      <td style="text-align: right">0.0086580</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0232558</td>
+      <td style="text-align: right">0.0106101</td>
+      <td style="text-align: right">0.0155280</td>
+      <td style="text-align: right">0.0147601</td>
+      <td style="text-align: right">0.0107527</td>
+      <td style="text-align: right">0.0026738</td>
+      <td style="text-align: right">0.0234375</td>
+      <td style="text-align: right">0.0291262</td>
+      <td style="text-align: right">0.0019724</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Beast of the East 3</td>
+      <td style="text-align: left">Mountain</td>
+      <td style="text-align: left">Trail</td>
+      <td style="text-align: left">Aluminum</td>
+      <td style="text-align: left">[ 415, 3500)</td>
+      <td style="text-align: right">0.0034965</td>
+      <td style="text-align: right">0.0033223</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0025381</td>
+      <td style="text-align: right">0.0042735</td>
+      <td style="text-align: right">0.0169492</td>
+      <td style="text-align: right">0.0119048</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0102848</td>
+      <td style="text-align: right">0.0181504</td>
+      <td style="text-align: right">0.0032051</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0050633</td>
+      <td style="text-align: right">0.0042135</td>
+      <td style="text-align: right">0.0152207</td>
+      <td style="text-align: right">0.0202312</td>
+      <td style="text-align: right">0.0043478</td>
+      <td style="text-align: right">0.0049383</td>
+      <td style="text-align: right">0.0051948</td>
+      <td style="text-align: right">0.0204082</td>
+      <td style="text-align: right">0.0162086</td>
+      <td style="text-align: right">0.0026525</td>
+      <td style="text-align: right">0.0201863</td>
+      <td style="text-align: right">0.0073801</td>
+      <td style="text-align: right">0.0322581</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0078125</td>
+      <td style="text-align: right">0.0097087</td>
+      <td style="text-align: right">0.0000000</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">CAAD Disc Ultegra</td>
+      <td style="text-align: left">Road</td>
+      <td style="text-align: left">Elite Road</td>
+      <td style="text-align: left">Aluminum</td>
+      <td style="text-align: left">[ 415, 3500)</td>
+      <td style="text-align: right">0.0139860</td>
+      <td style="text-align: right">0.0265781</td>
+      <td style="text-align: right">0.0203252</td>
+      <td style="text-align: right">0.0153453</td>
+      <td style="text-align: right">0.0101523</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0108648</td>
+      <td style="text-align: right">0.0079365</td>
+      <td style="text-align: right">0.0094044</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0106598</td>
+      <td style="text-align: right">0.0112179</td>
+      <td style="text-align: right">0.0157233</td>
+      <td style="text-align: right">0.0278481</td>
+      <td style="text-align: right">0.0210674</td>
+      <td style="text-align: right">0.0182648</td>
+      <td style="text-align: right">0.0375723</td>
+      <td style="text-align: right">0.0152174</td>
+      <td style="text-align: right">0.0172840</td>
+      <td style="text-align: right">0.0103896</td>
+      <td style="text-align: right">0.0163265</td>
+      <td style="text-align: right">0.0126850</td>
+      <td style="text-align: right">0.0026525</td>
+      <td style="text-align: right">0.0139752</td>
+      <td style="text-align: right">0.0073801</td>
+      <td style="text-align: right">0.0053763</td>
+      <td style="text-align: right">0.0026738</td>
+      <td style="text-align: right">0.0078125</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.0098619</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="developing-the-network-visualization-a-classanchor-idapplyinga">Developing the Network Visualization <a class="anchor" id="applying"></a></h2>
+
+<p>Going from the <code>customerTrends</code> to a network visualization requires three main steps:</p>
+
+<ol>
+  <li><a href="#cosine">Create a Cosine Similarity Matrix</a></li>
+  <li><a href="#prune">Prune the Tree</a></li>
+  <li><a href="#igraph">Create the iGraph</a></li>
+</ol>
+
+<h3 id="step-1-create-a-cosine-similarity-matrix-a-classanchor-idcosinea">Step 1: Create a Cosine Similarity Matrix <a class="anchor" id="cosine"></a></h3>
+
+<p>The first step to network visualization is to get the data organized into a cosine similarity matrix. A similarity matrix is a way of numerically representing the similarity between multiple variables similar to a correlation matrix. We’ll use <a href="https://en.wikipedia.org/wiki/Cosine_similarity">Cosine Similarity</a> to measure the relationship, which measures how similar the direction of a vector is to another vector. If that seems complicated, just think of a <em>customer cosine similarity</em> as a number that reflects how closely the <em>direction of buying habits are related</em>. Numbers will range from zero to one with numbers closer to one indicating very similar buying habits and numbers closer to zero indicating dissimilar buying habits. </p>
+
+<p>Implementing the cosine similarity matrix is quite easy since we already have our <code>customerTrends</code> data frame organized relating customers (columns) to product purchases (rows). We’ll use the <code>cosine()</code> function from the <code>lsa</code> library, and this will calculate all of the cosine similarities for the entire matrix of <code>customerTrends.mat</code>. Make sure to use the <code>matrix</code> version of customer trends (<code>customerTrends.mat</code>) because the data frame version needs to be vectorized to work with the <code>cosine()</code> function. Also, set the diagonal of the matrix to zero since showing a customer perfectly related to itself is of no significance (and it will mess up the network visualization).</p>
+
+<div>
+  <pre><code class="r"># Create adjacency matrix using cosine similarity ------------------------------
+library(lsa) # for cosine similarity matrix
+simMatrix &lt;- cosine(customerTrends.mat)
+diag(simMatrix) &lt;- 0 # Remove relationship with self
+simMatrix %&gt;% head() %&gt;% knitr::kable() # Show first 6 rows</code></pre>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"> </th>
+      <th style="text-align: right">Albuquerque Cycles</th>
+      <th style="text-align: right">Ann Arbor Speed</th>
+      <th style="text-align: right">Austin Cruisers</th>
+      <th style="text-align: right">Cincinnati Speed</th>
+      <th style="text-align: right">Columbus Race Equipment</th>
+      <th style="text-align: right">Dallas Cycles</th>
+      <th style="text-align: right">Denver Bike Shop</th>
+      <th style="text-align: right">Detroit Cycles</th>
+      <th style="text-align: right">Indianapolis Velocipedes</th>
+      <th style="text-align: right">Ithaca Mountain Climbers</th>
+      <th style="text-align: right">Kansas City 29ers</th>
+      <th style="text-align: right">Las Vegas Cycles</th>
+      <th style="text-align: right">Los Angeles Cycles</th>
+      <th style="text-align: right">Louisville Race Equipment</th>
+      <th style="text-align: right">Miami Race Equipment</th>
+      <th style="text-align: right">Minneapolis Bike Shop</th>
+      <th style="text-align: right">Nashville Cruisers</th>
+      <th style="text-align: right">New Orleans Velocipedes</th>
+      <th style="text-align: right">New York Cycles</th>
+      <th style="text-align: right">Oklahoma City Race Equipment</th>
+      <th style="text-align: right">Philadelphia Bike Shop</th>
+      <th style="text-align: right">Phoenix Bi-peds</th>
+      <th style="text-align: right">Pittsburgh Mountain Machines</th>
+      <th style="text-align: right">Portland Bi-peds</th>
+      <th style="text-align: right">Providence Bi-peds</th>
+      <th style="text-align: right">San Antonio Bike Shop</th>
+      <th style="text-align: right">San Francisco Cruisers</th>
+      <th style="text-align: right">Seattle Race Equipment</th>
+      <th style="text-align: right">Tampa 29ers</th>
+      <th style="text-align: right">Wichita Speed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Albuquerque Cycles</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.6196043</td>
+      <td style="text-align: right">0.5949773</td>
+      <td style="text-align: right">0.5441725</td>
+      <td style="text-align: right">0.5820150</td>
+      <td style="text-align: right">0.6530917</td>
+      <td style="text-align: right">0.6884538</td>
+      <td style="text-align: right">0.7002334</td>
+      <td style="text-align: right">0.5978768</td>
+      <td style="text-align: right">0.5078464</td>
+      <td style="text-align: right">0.7093675</td>
+      <td style="text-align: right">0.5446492</td>
+      <td style="text-align: right">0.6380272</td>
+      <td style="text-align: right">0.5594956</td>
+      <td style="text-align: right">0.6547042</td>
+      <td style="text-align: right">0.7004260</td>
+      <td style="text-align: right">0.6518819</td>
+      <td style="text-align: right">0.6777294</td>
+      <td style="text-align: right">0.6960022</td>
+      <td style="text-align: right">0.6363207</td>
+      <td style="text-align: right">0.5707993</td>
+      <td style="text-align: right">0.7305334</td>
+      <td style="text-align: right">0.5140454</td>
+      <td style="text-align: right">0.7071841</td>
+      <td style="text-align: right">0.7215378</td>
+      <td style="text-align: right">0.5516854</td>
+      <td style="text-align: right">0.5133781</td>
+      <td style="text-align: right">0.5742002</td>
+      <td style="text-align: right">0.4473463</td>
+      <td style="text-align: right">0.5262326</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Ann Arbor Speed</td>
+      <td style="text-align: right">0.6196043</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.7431950</td>
+      <td style="text-align: right">0.7192722</td>
+      <td style="text-align: right">0.6592156</td>
+      <td style="text-align: right">0.6620349</td>
+      <td style="text-align: right">0.6040483</td>
+      <td style="text-align: right">0.7386500</td>
+      <td style="text-align: right">0.7564289</td>
+      <td style="text-align: right">0.4220565</td>
+      <td style="text-align: right">0.6025264</td>
+      <td style="text-align: right">0.6672118</td>
+      <td style="text-align: right">0.6457366</td>
+      <td style="text-align: right">0.6989536</td>
+      <td style="text-align: right">0.8870122</td>
+      <td style="text-align: right">0.7440162</td>
+      <td style="text-align: right">0.8124362</td>
+      <td style="text-align: right">0.8508068</td>
+      <td style="text-align: right">0.7319914</td>
+      <td style="text-align: right">0.8752170</td>
+      <td style="text-align: right">0.6297372</td>
+      <td style="text-align: right">0.7734097</td>
+      <td style="text-align: right">0.3701049</td>
+      <td style="text-align: right">0.7219594</td>
+      <td style="text-align: right">0.7822326</td>
+      <td style="text-align: right">0.6049646</td>
+      <td style="text-align: right">0.6840396</td>
+      <td style="text-align: right">0.7040305</td>
+      <td style="text-align: right">0.2977984</td>
+      <td style="text-align: right">0.6616981</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Austin Cruisers</td>
+      <td style="text-align: right">0.5949773</td>
+      <td style="text-align: right">0.7431950</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.5940164</td>
+      <td style="text-align: right">0.5669442</td>
+      <td style="text-align: right">0.6149962</td>
+      <td style="text-align: right">0.6321736</td>
+      <td style="text-align: right">0.6400633</td>
+      <td style="text-align: right">0.7529293</td>
+      <td style="text-align: right">0.3600130</td>
+      <td style="text-align: right">0.5998858</td>
+      <td style="text-align: right">0.5346083</td>
+      <td style="text-align: right">0.6918423</td>
+      <td style="text-align: right">0.5288644</td>
+      <td style="text-align: right">0.7774333</td>
+      <td style="text-align: right">0.7369872</td>
+      <td style="text-align: right">0.7537841</td>
+      <td style="text-align: right">0.8092385</td>
+      <td style="text-align: right">0.7083957</td>
+      <td style="text-align: right">0.8238060</td>
+      <td style="text-align: right">0.7173744</td>
+      <td style="text-align: right">0.7717719</td>
+      <td style="text-align: right">0.3508169</td>
+      <td style="text-align: right">0.7462988</td>
+      <td style="text-align: right">0.6738986</td>
+      <td style="text-align: right">0.6677525</td>
+      <td style="text-align: right">0.6277214</td>
+      <td style="text-align: right">0.6765133</td>
+      <td style="text-align: right">0.2963872</td>
+      <td style="text-align: right">0.5753771</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Cincinnati Speed</td>
+      <td style="text-align: right">0.5441725</td>
+      <td style="text-align: right">0.7192722</td>
+      <td style="text-align: right">0.5940164</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.7958886</td>
+      <td style="text-align: right">0.5358366</td>
+      <td style="text-align: right">0.4906622</td>
+      <td style="text-align: right">0.5881155</td>
+      <td style="text-align: right">0.5840801</td>
+      <td style="text-align: right">0.6148244</td>
+      <td style="text-align: right">0.4859399</td>
+      <td style="text-align: right">0.8190995</td>
+      <td style="text-align: right">0.5220178</td>
+      <td style="text-align: right">0.8582985</td>
+      <td style="text-align: right">0.6653056</td>
+      <td style="text-align: right">0.6326827</td>
+      <td style="text-align: right">0.6734630</td>
+      <td style="text-align: right">0.7217393</td>
+      <td style="text-align: right">0.6057358</td>
+      <td style="text-align: right">0.7144663</td>
+      <td style="text-align: right">0.5328109</td>
+      <td style="text-align: right">0.6150989</td>
+      <td style="text-align: right">0.5884739</td>
+      <td style="text-align: right">0.5836405</td>
+      <td style="text-align: right">0.5920849</td>
+      <td style="text-align: right">0.5422443</td>
+      <td style="text-align: right">0.8296494</td>
+      <td style="text-align: right">0.6401309</td>
+      <td style="text-align: right">0.4714808</td>
+      <td style="text-align: right">0.8075219</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Columbus Race Equipment</td>
+      <td style="text-align: right">0.5820150</td>
+      <td style="text-align: right">0.6592156</td>
+      <td style="text-align: right">0.5669442</td>
+      <td style="text-align: right">0.7958886</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.5185814</td>
+      <td style="text-align: right">0.5309790</td>
+      <td style="text-align: right">0.7042962</td>
+      <td style="text-align: right">0.5234586</td>
+      <td style="text-align: right">0.6141313</td>
+      <td style="text-align: right">0.5104736</td>
+      <td style="text-align: right">0.7938090</td>
+      <td style="text-align: right">0.5372245</td>
+      <td style="text-align: right">0.7807134</td>
+      <td style="text-align: right">0.6335681</td>
+      <td style="text-align: right">0.6013218</td>
+      <td style="text-align: right">0.6266589</td>
+      <td style="text-align: right">0.6613703</td>
+      <td style="text-align: right">0.5650758</td>
+      <td style="text-align: right">0.6378461</td>
+      <td style="text-align: right">0.5721180</td>
+      <td style="text-align: right">0.6128332</td>
+      <td style="text-align: right">0.5935363</td>
+      <td style="text-align: right">0.5948224</td>
+      <td style="text-align: right">0.5692300</td>
+      <td style="text-align: right">0.5193049</td>
+      <td style="text-align: right">0.7784591</td>
+      <td style="text-align: right">0.6046323</td>
+      <td style="text-align: right">0.4425796</td>
+      <td style="text-align: right">0.7480177</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Dallas Cycles</td>
+      <td style="text-align: right">0.6530917</td>
+      <td style="text-align: right">0.6620349</td>
+      <td style="text-align: right">0.6149962</td>
+      <td style="text-align: right">0.5358366</td>
+      <td style="text-align: right">0.5185814</td>
+      <td style="text-align: right">0.0000000</td>
+      <td style="text-align: right">0.7431264</td>
+      <td style="text-align: right">0.7496033</td>
+      <td style="text-align: right">0.6082637</td>
+      <td style="text-align: right">0.4708646</td>
+      <td style="text-align: right">0.7468975</td>
+      <td style="text-align: right">0.4700985</td>
+      <td style="text-align: right">0.6821557</td>
+      <td style="text-align: right">0.4854827</td>
+      <td style="text-align: right">0.6675449</td>
+      <td style="text-align: right">0.7803219</td>
+      <td style="text-align: right">0.6766304</td>
+      <td style="text-align: right">0.7056240</td>
+      <td style="text-align: right">0.6769829</td>
+      <td style="text-align: right">0.6776227</td>
+      <td style="text-align: right">0.6251085</td>
+      <td style="text-align: right">0.7680813</td>
+      <td style="text-align: right">0.4075283</td>
+      <td style="text-align: right">0.7546924</td>
+      <td style="text-align: right">0.7567971</td>
+      <td style="text-align: right">0.6388616</td>
+      <td style="text-align: right">0.4739439</td>
+      <td style="text-align: right">0.5715158</td>
+      <td style="text-align: right">0.4358491</td>
+      <td style="text-align: right">0.4436880</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="step-2-prune-the-tree-a-classanchor-idprunea">Step 2: Prune the Tree <a class="anchor" id="prune"></a></h3>
+
+<p>It’s a good idea to prune the tree before we move to graphing. The network graphs can become quite messy if we do not limit the number of edges. We do this by reviewing the cosine similarity matrix and selecting an <code>edgeLimit</code>, a number below which the cosine similarities will be replaced with zero. This keeps the highest ranking relationships while reducing the noise. We select 0.70 as the limit, but typically this is a trial and error process. If the limit is too high, the network graph will not show enough detail. Try testing different edge limits to see what looks best in Step 3.</p>
+
+<div>
+  <pre><code class="r"># Prune edges of the tree
+edgeLimit &lt;- .70
+simMatrix[(simMatrix &lt; edgeLimit)] &lt;- 0</code></pre>
+</div>
+
+<h3 id="step-3-create-the-igraph-a-classanchor-idigrapha">Step 3: Create the iGraph <a class="anchor" id="igraph"></a></h3>
+
+<p>Creating the <code>igraph</code> is easy with the <code>graph_from_adjacency_matrix()</code> function. Just pass the pruned <code>simMatrix</code>. We can also get the communities by passing the <code>simMatrix</code> to the <code>cluster_edge_betweenness()</code> function. </p>
+
+<div>
+  <pre><code class="r">library(igraph)
+simIgraph &lt;- graph_from_adjacency_matrix(simMatrix, 
+                                         mode = 'undirected', 
+                                         weighted = T)
+ceb &lt;- cluster_edge_betweenness(simIgraph) # For community detection</code></pre>
+</div>
+
+<p>Let’s pause to take a look as the cluster edge betweenness (<code>ceb</code>). We can view a plot of the clusters by passing <code>ceb</code> to the <code>dendPlot()</code> function. Set the <code>mode</code> to “hclust” to view as a hierarchical clustered dendrogram (it uses <code>hclust</code> from the <code>stats</code> library). We can see that the cluster edge betweenness has detected three distinct clusters.</p>
+
+<div>
+  <pre><code class="r">dendPlot(ceb, mode=&quot;hclust&quot;)</code></pre>
+</div>
+
+<p><img src="/figure/source/2016-10-1-CustomerSegmentationPt3/unnamed-chunk-7-1.png" alt="plot of chunk unnamed-chunk-7" /></p>
+
+<p>Now we can plot the network graph by passing <code>ceb</code> and <code>simIgraph</code> to the <code>plot()</code> function. See <code>plot.igraph</code> for additional documentation.</p>
+
+<div>
+  <pre><code class="r">plot(x=ceb, y=simIgraph)</code></pre>
+</div>
+
+<p><img src="/figure/source/2016-10-1-CustomerSegmentationPt3/unnamed-chunk-8-1.png" alt="plot of chunk unnamed-chunk-8" /></p>
+
+<p>Yikes. This is a little difficult to read. With that said, the graph did a nice job of showing the major customer segments. Also notice how the color of the node clusters match the dendrogram groupings. For readability sake, we’ll take a look at what the <code>networkD3</code> package has to offer.</p>
+
+<h2 id="visualizing-the-results-with-networkd3-a-classanchor-idvisualizing-resultsa">Visualizing the Results with NetworkD3 <a class="anchor" id="visualizing-results"></a></h2>
+
+<p>The <code>networkD3</code> library enables D3 JavaScript network graphs from <code>R</code>. It has an <code>igraph_to_networkD3()</code> function that can be used to seamlessly convert an <code>igraph</code> object to <code>network3D</code>. The benefits to D3 are interactivity:</p>
+
+<ul>
+  <li>The names are hidden until the user hovers over the node, improving readability.</li>
+  <li>Nodes can be dragged to manipulate the network graph for easier viewing.</li>
+  <li>Zoom is enabled, allowing the user to zero-in on specific nodes to more easily see the edges and thus better understand relationships.</li>
+</ul>
+
+<div>
+  <pre><code class="r"># Use igraph ceb to find membership
+members &lt;- membership(ceb)
+
+# Convert to object suitable for networkD3
+simIgraph_d3 &lt;- igraph_to_networkD3(simIgraph, group = members)
+
+# Create force directed network plot
+forceNetwork(Links = simIgraph_d3$links, Nodes = simIgraph_d3$nodes, 
+             Source = 'source', Target = 'target', 
+             NodeID = 'name', Group = 'group', 
+             fontSize = 16, fontFamily = 'Arial', linkDistance = 100,
+             zoom = TRUE)</code></pre>
+</div>
+
+<iframe src="/figure/source/2016-10-1-CustomerSegmentationPt3/fN_d3.html" style="border: none; width: 100%; height: 550px"></iframe>
+
+<h2 id="conclusion-a-classanchor-idconclusionsa">Conclusion <a class="anchor" id="conclusions"></a></h2>
+
+<p>Network visualization is an excellent way to view and understand interrelationships between customers. Network graphs are particularly useful as the data scales, as they can be pruned and viewed interactively to zero-in on complex relationships. We’ve all heard the saying a picture is worth a thousand words. A network graph could be worth many more as customers go from 30 in our example to hundreds, thousands or even millions. </p>
+
+<h2 id="recap-a-classanchor-idrecapa">Recap <a class="anchor" id="recap"></a></h2>
+
+<p>This post expanded on our customer segmentation methodology by adding network graphing to our tool set. We manipulated our sales order data to obtain a format that relates products to customer purchases. We created a cosine similarity matrix using the <code>cosine()</code> function from the <code>lsa</code> library, and we used this as the foundation for our network graph. We “pruned the tree” to remove edges with low significance. We used the <code>igraph</code> library to create an igraph with communities shown. Finally, we converted the igraph to an interactive graph using the <code>networkD3</code> package. Pretty impressive, and hopefully you see that it’s not that difficult with a basic knowledge of <code>R</code> programming.</p>
+
+<h2 id="further-reading-a-classanchor-idfurther-readinga">Further Reading <a class="anchor" id="further-reading"></a></h2>
+
+<ol>
+  <li>
+    <p><a href="http://kateto.net/network-visualization">Network Visualization with R</a>: This article is an excellent place to start for those that want to understand the details behind Network Visualization in R.</p>
+  </li>
+  <li>
+    <p><a href="https://cran.r-project.org/web/views/Cluster.html">CRAN Task View: Cluster Analysis &amp; Finite Mixture Models</a>: While we did not specifically focus on clustering in this post, the CRAN task view covers a wide range of libraries and tools available for clustering that can be used in addition to those covered in the three part series.  </p>
+  </li>
+  <li>
+    <p><a href="http://www.wiley.com/WileyCDA/WileyTitle/productCd-111866146X.html">Data Smart: Using Data Science to Transform Information into Insight</a>: Chapter 5 uses a similar approach on customers that purchase wine deals based on different buying preferences. This is a great book for those that are more familiar with Excel than <code>R</code> programming.</p>
+  </li>
+</ol>
+
+
+	    </div>
+	    <!-- Sidebar -->
+	    <div class="col-md-3 well well-lg bs-component hidden-print hidden-sm hidden-xs" role="complimentary">
+	    	<nav class="bs-docs-sidebar ">
+	<ul class="nav bs-docs-sidenav">
+
+		<!-- Feedburer Email Signup-->
+		<li>
+			<!-- <h5>Interested in Business Science? Subscribe!</h5> -->
+			<form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=mattdancho', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p style="color: #2c3e50;">Get <em>Business Science</em> updates:</p>
+                        <p><input type="text" style="width:90%; color: #2c3e50; padding-left: 4px;" name="email" placeholder="email address" /></p>
+                        <input type="hidden" value="mattdancho" name="uri"/>
+                        <input type="hidden" name="loc" value="en_US"/>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <input type="submit" value="Subscribe" class="btn btn-primary btn-sm" style="margin-bottom: 8px;"/>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <p class="text-center"><a href="http://feeds.feedburner.com/mattdancho"><img src="http://feeds.feedburner.com/~fc/mattdancho?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26" width="75%" style="border:0" alt="" /></a></p>
+                    </div>
+                </div>
+            </form>
+		</li>
+		<li><hr></li>
+
+		<!-- Post Navigation -->
+		
+		<li>
+			<ul class="pager">
+			  
+			    <li class="previous">
+			    	<a href="/Business/2016/09/04/CustomerSegmentationPt2.html"><i class="fa fa-arrow-circle-left"></i> Prev</a>
+			    </li>
+			  
+			  
+			</ul>
+		</li>
+		<li><hr></li>
+		
+
+		<!-- Blog Navigation -->
+		
+
+		<!-- Recent Posts -->
+		<li>
+			<h5>Recent Posts</h5>
+			<div class="list-group">
+				
+				<a href="/Business/2016/10/01/CustomerSegmentationPt3.html" class="list-group-item">
+					<h6 class="list-group-item-heading">Customer Segmentation Part 3: Network Visualization</h6>
+				    
+	                  <img src="/assets/custSegments3.png" alt="..." style="width: 100%;">
+	                
+				</a>
+				
+				<a href="/Business/2016/09/04/CustomerSegmentationPt2.html" class="list-group-item">
+					<h6 class="list-group-item-heading">Customer Segmentation Part 2: PCA for Segment Visualization</h6>
+				    
+	                  <img src="/assets/custSegments2.png" alt="..." style="width: 100%;">
+	                
+				</a>
+				
+				<a href="/Business/2016/08/07/CustomerSegmentationPt1.html" class="list-group-item">
+					<h6 class="list-group-item-heading">Customer Segmentation Part 1: K-Means Clustering</h6>
+				    
+	                  <img src="/assets/custSegments1.png" alt="..." style="width: 100%;">
+	                
+				</a>
+				
+			</div>
+		</li>
+		<li><hr></li>
+
+		<!-- Categories -->
+		<li>
+			<h5>Categories</h5>
+			
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Technology" aria-expanded="false" aria-controls="R">
+				  Technology:
+				  <span class="badge">1</span>
+				</button>
+				<div class="collapse" id="Technology">
+				  <div class="list-group">
+				    
+				      
+				      	
+				      
+				    
+				      
+				      	
+					        <!-- <a href="/Technology/2016/04/09/A-Data-Scientists-Resources.html" class="list-group-item">A Data Scientist's Resources</a> -->
+					        <a href="/Technology/2016/04/09/A-Data-Scientists-Resources.html" class="list-group-item">
+								<h6 class="list-group-item-heading">A Data Scientist's Resources</h6>
+							    
+				                  <img src="/assets/sextant.jpg" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				    
+				  </div>
+				</div>
+			</div>
+			
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Business" aria-expanded="false" aria-controls="R">
+				  Business:
+				  <span class="badge">1</span>
+				</button>
+				<div class="collapse" id="Business">
+				  <div class="list-group">
+				    
+				      
+				      	
+				      
+				    
+				      
+				      	
+					        <!-- <a href="/Business/2016/05/01/Marketing-Strategy-MBAs-Learn-Analytics.html" class="list-group-item">Marketing Strategy: Why MBAs Can Benefit from Learning Analytics</a> -->
+					        <a href="/Business/2016/05/01/Marketing-Strategy-MBAs-Learn-Analytics.html" class="list-group-item">
+								<h6 class="list-group-item-heading">Marketing Strategy: Why MBAs Can Benefit from Learning Analytics</h6>
+							    
+				                  <img src="/assets/digital_woman.jpg" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				    
+				  </div>
+				</div>
+			</div>
+			
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Business" aria-expanded="false" aria-controls="R">
+				  Business:
+				  <span class="badge">4</span>
+				</button>
+				<div class="collapse" id="Business">
+				  <div class="list-group">
+				    
+				      
+				      	
+				      
+				    
+				      
+				      	
+					        <!-- <a href="/Business/2016/10/01/CustomerSegmentationPt3.html" class="list-group-item">Customer Segmentation Part 3: Network Visualization</a> -->
+					        <a href="/Business/2016/10/01/CustomerSegmentationPt3.html" class="list-group-item">
+								<h6 class="list-group-item-heading">Customer Segmentation Part 3: Network Visualization</h6>
+							    
+				                  <img src="/assets/custSegments3.png" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				      	
+					        <!-- <a href="/Business/2016/09/04/CustomerSegmentationPt2.html" class="list-group-item">Customer Segmentation Part 2: PCA for Segment Visualization</a> -->
+					        <a href="/Business/2016/09/04/CustomerSegmentationPt2.html" class="list-group-item">
+								<h6 class="list-group-item-heading">Customer Segmentation Part 2: PCA for Segment Visualization</h6>
+							    
+				                  <img src="/assets/custSegments2.png" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				      	
+					        <!-- <a href="/Business/2016/08/07/CustomerSegmentationPt1.html" class="list-group-item">Customer Segmentation Part 1: K-Means Clustering</a> -->
+					        <a href="/Business/2016/08/07/CustomerSegmentationPt1.html" class="list-group-item">
+								<h6 class="list-group-item-heading">Customer Segmentation Part 1: K-Means Clustering</h6>
+							    
+				                  <img src="/assets/custSegments1.png" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				      	
+					        <!-- <a href="/Business/2016/07/12/orderSimulatoR.html" class="list-group-item">orderSimulatoR: Simulate Orders for Business Analytics</a> -->
+					        <a href="/Business/2016/07/12/orderSimulatoR.html" class="list-group-item">
+								<h6 class="list-group-item-heading">orderSimulatoR: Simulate Orders for Business Analytics</h6>
+							    
+				                  <img src="/assets/cannondale_bike.jpg" alt="..." style="width: 100%;">
+				                
+							</a>
+					    
+				      
+				    
+				  </div>
+				</div>
+			</div>
+			
+		</li>
+		<li><hr></li>
+
+		<!-- Tags -->
+		<li>
+			<h5>Tags</h5>
+			<div>
+				<!-- https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html -->
+				
+				
+
+				
+				
+				<a href="/tags/#BI" class="btn btn-primary btn-xs">BI: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#CRM" class="btn btn-primary btn-xs">CRM: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Code" class="btn btn-primary btn-xs">Code: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Community Detection" class="btn btn-primary btn-xs">Community Detection: <span class="badge">3</span></a>
+				
+				
+				<a href="/tags/#Customer Segmentation" class="btn btn-primary btn-xs">Customer Segmentation: <span class="badge">3</span></a>
+				
+				
+				<a href="/tags/#Data Mining" class="btn btn-primary btn-xs">Data Mining: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Excel" class="btn btn-primary btn-xs">Excel: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#MBA" class="btn btn-primary btn-xs">MBA: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Marketing" class="btn btn-primary btn-xs">Marketing: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#PCA" class="btn btn-primary btn-xs">PCA: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Python" class="btn btn-primary btn-xs">Python: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#R" class="btn btn-primary btn-xs">R: <span class="badge">5</span></a>
+				
+				
+				<a href="/tags/#R-Project" class="btn btn-primary btn-xs">R-Project: <span class="badge">4</span></a>
+				
+				
+				<a href="/tags/#SQL" class="btn btn-primary btn-xs">SQL: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Sales Data Scientist" class="btn btn-primary btn-xs">Sales Data Scientist: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Salesforce" class="btn btn-primary btn-xs">Salesforce: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Simulation" class="btn btn-primary btn-xs">Simulation: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#Strategy" class="btn btn-primary btn-xs">Strategy: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#bikes data set" class="btn btn-primary btn-xs">bikes data set: <span class="badge">4</span></a>
+				
+				
+				<a href="/tags/#igraph" class="btn btn-primary btn-xs">igraph: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#kmeans" class="btn btn-primary btn-xs">kmeans: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#networkD3" class="btn btn-primary btn-xs">networkD3: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#orderSimulatoR" class="btn btn-primary btn-xs">orderSimulatoR: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#prcomp" class="btn btn-primary btn-xs">prcomp: <span class="badge">1</span></a>
+				
+				
+				<a href="/tags/#silhouette" class="btn btn-primary btn-xs">silhouette: <span class="badge">1</span></a>
+				
+			</div>
+
+		</li>
+		<li><hr></li>
+
+		<!-- Resources -->
+		<li>
+			<h5>Resources</h5>
+			<!-- R -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#R" aria-expanded="false" aria-controls="R">
+				  R: <span class="badge">0</span>
+				</button>
+				<div class="collapse" id="R">
+				  <div class="list-group">
+				    
+				  </div>
+				</div>
+			</div>
+
+			<!-- Python -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Python" aria-expanded="false" aria-controls="Python">
+				  Python: <span class="badge">0</span>
+				</button>
+				<div class="collapse" id="Python">
+				  <div class="list-group">
+				    
+				  </div>
+				</div>
+			</div>
+
+			<!-- Power BI -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#PowerBI" aria-expanded="false" aria-controls="PowerBI">
+				  Power BI: <span class="badge">0</span>
+				</button>
+				<div class="collapse" id="PowerBI">
+				  <div class="list-group">
+				    
+				  </div>
+				</div>
+			</div>
+
+			<!-- Tableau -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Tableau" aria-expanded="false" aria-controls="Tableau">
+				  Tableau: <span class="badge">0</span>
+				</button>
+				<div class="collapse" id="Tableau">
+				  <div class="list-group">
+				    
+				  </div>
+				</div>
+			</div>
+
+			<!-- Excel -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" style="width: 100%;" type="button" data-toggle="collapse" data-target="#Excel" aria-expanded="false" aria-controls="Excel">
+				  Excel <span class="badge">0</span>
+				</button>
+				<div class="collapse" id="Excel">
+				  <div class="list-group">
+					
+				  </div>
+				</div>
+			</div>
+
+		</li>
+		<!-- <li><hr></li> -->
+
+
+	</ul>
+</nav>
+	    </div>
+    </div>
+
+
+  </div>
+
+  <div class="container">
+  	<div class="col-md-8 col-md-offset-1">
+		<div class="PageNavigation">
+		  
+		    <a class="prev" href="/Business/2016/09/04/CustomerSegmentationPt2.html">
+		    	<i class="fa fa-arrow-circle-left"></i>
+		    	Customer Segmentation Part 2: PCA for Segment Visualization
+		    </a>
+		  
+		  
+		</div>
+	</div>
+	 </div>
+</section>
+
+<!-- Disqus -->
+<div class="container">
+	<div class="col-md-8 col-md-offset-1">
+	Include file 'disqus.html disqus_identifier=page.disqus_identifier' contains invalid characters or sequences
+	</div>
+</div>
+
+
+<!-- htmlwidgets dependencies -->
+<!--  -->
+
+
+	<!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+
+                    <div class="footer-col col-md-4">
+                        <h3 class="footer">About the Site</h3>
+                        <p>This site is dedicated to using data science and analytics in a variety of business and investment settings to gain insights beyond face-value. <a href="/about.html">Learn more</a>.</p>
+                    </div>
+
+                    <div class="footer-col col-md-4">
+                        <h3 class="footer">Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="http://www.mattdancho.com/atom.xml" class="btn-social btn-outline"><i class="fa fa-fw fa-rss"></i></a>
+                            </li>
+                            <li>
+                                <a href="mailto:mdancho@gmail.com" class="btn-social btn-outline"><i class="fa fa-fw fa-envelope"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/mdancho84" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/mattdancho" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col col-md-4">
+                        <!-- <h3 class="footer">Location</h3>
+                        <p>State College, PA</p> -->
+                        <h3 class="footer">Interested?</h3>
+                        <div class="well">
+                            <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=mattdancho', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p style="color: #2c3e50;">Get <em>Business Science</em> updates:</p>
+                                        <p><input type="text" style="width:90%; color: #2c3e50; padding-left: 4px;" name="email" placeholder="email address" /></p>
+                                        <input type="hidden" value="mattdancho" name="uri"/>
+                                        <input type="hidden" name="loc" value="en_US"/>
+                                    </div>
+
+                                    <div class="col-sm-12 col-md-6">
+                                        <input type="submit" value="Subscribe" class="btn btn-primary btn-sm" style="margin-bottom: 8px;"/>
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <p class="text-center"><a href="http://feeds.feedburner.com/mattdancho"><img src="http://feeds.feedburner.com/~fc/mattdancho?bg=99CCFF&amp;fg=444444&amp;anim=0" height="26" width="88" style="border:0" alt="" /></a></p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; www.mattdancho.com 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+	<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll" id="top-link-block">
+            <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- jQuery -->
+    <script src="/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    <!-- <script src="/js/contact_me.js"></script> -->
+
+    <!-- MathJax processing for LaTeX -->
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+    <!-- Highlightjs -->
+    <script src="/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/freelancer.js"></script>
+    <script src="/js/scripts.js"></script>
+
+    <!-- Google+ -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+
+    <!-- Facebook -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+
+    
+	<!-- Google Analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-76139189-1', 'auto');
+		ga('send', 'pageview', {
+		  'page': '/Business/2016/10/01/CustomerSegmentationPt3.html',
+		  'title': 'Post'
+		});
+	</script>
+	<!-- End Google Analytics -->
+
+
+
+</body>
+
+</html>
