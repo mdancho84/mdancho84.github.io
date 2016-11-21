@@ -40,6 +40,8 @@ It's very difficult to create order data with trends for data mining and visuali
 
 ![Order Simulation Process](/figure/source/2016-7-12-orderSimulatoR/OrderSimProcess.png)
 
+
+
 ## Getting Started <a class="anchor" id="getting-started"></a>
 
 Prior to starting, you'll need three data frames:
