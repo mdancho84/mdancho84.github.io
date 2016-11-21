@@ -1,4 +1,5 @@
 name,tooltip,link
+R-Bloggers,R blog aggregator combining blogs from many advanced R users., https://www.r-bloggers.com
 R-Project.org,Home of the R Project. Includes documentation and resources for R.,https://www.r-project.org/
 RStudio,The IDE that most R-programmers use. Its website has documentation & tutorials on various R-packages developed by RStudio.,https://www.rstudio.com/
 CRAN,Comprehensive R Archive Network: The primary database of popular R libraries and documentation.,https://cran.r-project.org/
@@ -20,4 +21,3 @@ Tidy Text Mining with R,A free online book focusing on text mining using the tid
 Great Libraries for Working w/ Data,Computerworld's best R packages for data import + wrangling + visualization.,http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html
 60+ R Resources,Computerworld's list of best R resources.,http://www.computerworld.com/article/2497464/business-intelligence/business-intelligence-60-r-resources-to-improve-your-data-skills.html
 RDataMining.com,A nice resource on data mining with training + documents + examples.,http://www.rdatamining.com/
-R-Bloggers,An R blog aggregator combining blogs from many advanced R users., https://www.r-bloggers.com

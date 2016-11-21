@@ -38,7 +38,7 @@ In this post, we will be discussing `orderSimulatoR`, which enables __fast and e
 
 It's very difficult to create order data with trends for data mining and visualization. I've searched for good data sets, and I've come to the conclusion that I'm better off creating my own orders data for analyzing on my blog. In the process, I made a collection of `R` scripts that became known as `orderSimulatoR`. The scripts are [publicly available](https://github.com/mdancho84/orderSimulatoR) so others can simulate orders for customers and products in any sales/marketing situation. The process to create orders (shown below) is fast and easy, and the result is orders with customized trends depending on the inputs you create and the parameters you select.
 
-![Order Simulation Process](/figure/source/2016-7-12-orderSimulatoR/OrderSimProcess.jpg)
+![Order Simulation Process](/figure/source/2016-7-12-orderSimulatoR/OrderSimProcess.png)
 
 ## Getting Started <a class="anchor" id="getting-started"></a>
 
