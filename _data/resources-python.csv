@@ -1,5 +1,6 @@
 name,tooltip,link
 Python.org,Home of Python. I strongly recommend downloading the Anaconda distribution if you're interested in data science.,https://www.python.org/
+PyData.org,A community for developers and users of open source data tools,http://pydata.org/index.html
 Anaconda,The Anaconda distribution contains many of the necessary packages for data analysis and data science. If working from the comand line you can use commands such as 'conda install pandas'.,https://www.continuum.io/
 Conda Package List,A list of the default packages that comes with the Conda Python distribution.,https://docs.continuum.io/anaconda/pkg-docs
 Jupyter Notebook,Jupyter Notebooks (formerly iPython) is a browser-based IDE that is the standard for creating reproducible reports in Python. It also works with R and Julia but has its roots in Python.,http://jupyter.org/

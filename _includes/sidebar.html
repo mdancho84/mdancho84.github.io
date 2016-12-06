@@ -221,7 +221,7 @@
 			<!-- Excel -->
 			<div class = "button-margin">
 				<button class="btn btn-primary" style="width: 100%;" type="button" data-toggle="collapse" data-target="#Excel" aria-expanded="false" aria-controls="Excel">
-				  Excel <span class="badge">{{ site.data.resources-excel | size }}</span>
+				  Excel: <span class="badge">{{ site.data.resources-excel | size }}</span>
 				</button>
 				<div class="collapse" id="Excel">
 				  <div class="list-group">
@@ -231,7 +231,20 @@
 				  </div>
 				</div>
 			</div>
-
+			
+			<!-- Open Source Tools -->
+			<div class = "button-margin">
+				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#opensource" aria-expanded="false" aria-controls="opensource">
+				  Other Tools: <span class="badge">{{ site.data.resources-opensource | size }}</span>
+				</button>
+				<div class="collapse" id="opensource">
+				  <div class="list-group">
+				    {% for resource_item in site.data.resources-opensource %}
+    				<a href="{{ resource_item.link }}" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="{{ resource_item.tooltip }}">{{ resource_item.name }}</a>
+    				{% endfor %}
+				  </div>
+				</div>
+			</div>
 		</li>
 		<!-- <li><hr></li> -->
 
