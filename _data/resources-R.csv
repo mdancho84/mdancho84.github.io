@@ -8,8 +8,11 @@ RDocumentation,Searching R packages can be difficult. RDocumentation pools libra
 Shiny,A tool for building interactive R web applications. Its website includes Documentation + Webinars + Tutorials + Articles.,http://shiny.rstudio.com/
 RMarkdown,Language for combining R with Markdown for incorporating R into reproducible reports and websites. Its website includes documentation and examples.,http://rmarkdown.rstudio.com/
 knitr,Expands on RMarkdown for dynamic and reproducible report generation in RStudio. Its website includes documentation and tutorials.,http://yihui.name/knitr/
+tidyverse,A set of packages that work in harmony because they share common data representations and API design. The packages are used extensively in my analysis.,https://github.com/tidyverse/tidyverse
 ggplot2,The most popular graphing library in R. Its website includes documentation and examples.,http://ggplot2.org/
 caret,A wrapper for machine learning libraries that makes modeling consistent and easy. Its website includes documentation and tutorials.,http://topepo.github.io/caret/index.html
+broom,The broom package takes the messy output of built-in functions in R such as lm or nls or t.test and turns them into tidy data frames.,https://github.com/tidyverse/broom
+quantmod,The quantmod package is designed to assist the quantitative trader in the development + testing + deployment of statistically-based trading models.,http://www.quantmod.com/
 Intro to Statistical Learning (ISL),A free book on many of the most popular statistics and machine learning tools with applications in R.,http://www-bcf.usc.edu/~gareth/ISL/
 Elements of Statistical Learning (ESL),A free book that goes much more in-depth than ISL.,http://statweb.stanford.edu/~tibs/ElemStatLearn/
 R for Data Science,A free online book that covers data wrangling and visualization with libraries such as dplyr + tidyr + ggplot2.,http://r4ds.had.co.nz/
