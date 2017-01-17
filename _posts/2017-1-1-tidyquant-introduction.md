@@ -13,6 +13,7 @@ My new package, `tidyquant`, is now available on CRAN. `tidyquant` integrates th
 
 # Table of Contents
 
+  * [Updates](#updates)
   * [Why tidyquant?](#why)
   * [Benefits](#benefits)
   * [Example: Visualizing Moving Averages](#example)
@@ -23,6 +24,10 @@ My new package, `tidyquant`, is now available on CRAN. `tidyquant` integrates th
   * [Conclusion](#conclusion)
   * [Recap](#recap)
   * [Further Reading](#further-reading)
+
+# Updates <a class="anchor" id="updates"></a>
+
+* _2017-01-17_: I updated the post to use the 0.2.0 `tq_mutate` and `tq_transform` function arguments `ohlc_fun`, `x`, and `y` (replaces `x_fun`, `.x` and `.y`, respectively). These will be deprecated in 0.3.0 so please make the switch! :)
 
 # Why tidyquant? <a class="anchor" id="why"></a>
 
@@ -96,23 +101,23 @@ AAPL
 
 
 {% highlight text %}
-## # A tibble: 252 × 7
-##          date   open   high    low  close   volume  adjusted
-##        <date>  <dbl>  <dbl>  <dbl>  <dbl>    <dbl>     <dbl>
-## 1  2016-01-04 102.61 105.37 102.00 105.35 67649400 103.05706
-## 2  2016-01-05 105.75 105.85 102.41 102.71 55791000 100.47452
-## 3  2016-01-06 100.56 102.37  99.87 100.70 68457400  98.50827
-## 4  2016-01-07  98.68 100.13  96.43  96.45 81094400  94.35077
-## 5  2016-01-08  98.55  99.11  96.76  96.96 70798000  94.84967
-## 6  2016-01-11  98.97  99.06  97.34  98.53 49739400  96.38550
-## 7  2016-01-12 100.55 100.69  98.84  99.96 49154200  97.78438
-## 8  2016-01-13 100.32 101.19  97.30  97.39 62439600  95.27031
-## 9  2016-01-14  97.96 100.48  95.74  99.52 63170100  97.35395
-## 10 2016-01-15  96.20  97.71  95.36  97.13 79010000  95.01597
-## # ... with 242 more rows
+## # A tibble: 251 × 7
+##          date   open   high   low  close    volume adjusted
+##        <date>  <dbl>  <dbl> <dbl>  <dbl>     <dbl>    <dbl>
+## 1  2016-01-19  98.41  98.65 95.50  96.66  53087700 94.55621
+## 2  2016-01-20  95.10  98.19 93.42  96.79  72334400 94.68337
+## 3  2016-01-21  97.06  97.88 94.94  96.30  52161500 94.20404
+## 4  2016-01-22  98.63 101.46 98.37 101.42  65800500 99.21260
+## 5  2016-01-25 101.52 101.53 99.21  99.44  51794500 97.27570
+## 6  2016-01-26  99.93 100.88 98.07  99.99  75077000 97.81372
+## 7  2016-01-27  96.04  96.63 93.34  93.42 133369700 91.38672
+## 8  2016-01-28  93.79  94.52 92.39  94.09  55678800 92.04213
+## 9  2016-01-29  94.79  97.34 94.35  97.34  64416500 95.22140
+## 10 2016-02-01  96.47  96.71 95.40  96.43  40943500 94.33121
+## # ... with 241 more rows
 {% endhighlight %}
 
-We now have 252 days of stock prices as a `tibble` object. This is exactly the format we want for working in the `tidyverse`. 
+We now have 251 days of stock prices as a `tibble` object. This is exactly the format we want for working in the `tidyverse`. 
 
 ## Step 3: Use tq_mutate to add moving averages <a class="anchor" id="step3"></a>
 
@@ -132,9 +137,9 @@ For this tutorial, we will use `tq_mutate()` to expose you to OHLC notation alon
 
 ### tq_mutate() function
 
-`tq_mutate()` has two primary arguments: `x_fun` and `mutate_fun`: 
+`tq_mutate()` has two primary arguments: `ohlc_fun` and `mutate_fun`: 
 
-* `x_fun`: Takes `quantmod::OHLC` functions, which are `Op`, `Cl`, `Hi`, `Lo`, `Vo`, `Ad`, `HLC`, `OHLC`, and `OHLCV`. The OHLC notation is the basis of all `quantmod`, `xts`, and `TTR` functions. These functions collect a subset of the dataframe columns matching open, high, low, close, volume, and/or adjusted. Think of the OHLC notation akin to the `dplyr::select()` function, which selects columns. `Op` selects the column named "open", and `HLC` selects "high", "low" and "close" columns.
+* `ohlc_fun`: Takes `quantmod::OHLC` functions, which are `Op`, `Cl`, `Hi`, `Lo`, `Vo`, `Ad`, `HLC`, `OHLC`, and `OHLCV`. The OHLC notation is the basis of all `quantmod`, `xts`, and `TTR` functions. These functions collect a subset of the dataframe columns matching open, high, low, close, volume, and/or adjusted. Think of the OHLC notation akin to the `dplyr::select()` function, which selects columns. `Op` selects the column named "open", and `HLC` selects "high", "low" and "close" columns.
 
 * `mutate_fun`: Takes any `quantmod`, `xts`, or `TTR` function listed in `tq_mutate_fun_options()` (see below for compatible functions). The `mutation_fun` performs the work. Any additional parameters of the passed via `...` in the `tq_mutate()` function go to the `mutation_fun`.  
 
@@ -148,37 +153,38 @@ tq_mutate_fun_options() %>%
 
 
 {% highlight text %}
-## List of 3
+## List of 4
+##  $ zoo     : chr [1:14] "rollapply" "rollapplyr" "rollmax" "rollmax.default" ...
 ##  $ xts     : chr [1:27] "apply.daily" "apply.monthly" "apply.quarterly" "apply.weekly" ...
 ##  $ quantmod: chr [1:25] "allReturns" "annualReturn" "ClCl" "dailyReturn" ...
 ##  $ TTR     : chr [1:61] "adjRatios" "ADX" "ALMA" "aroon" ...
 {% endhighlight %}
 
-An example with `SMA()` from the `TTR` package helps solidify how it works. Reviewing the documentation for `SMA`, we see that the function, `SMA(x, n = 10, ...)`, accepts `x` a price or volume and `n` a number of periods to average over. For the 15-day simple moving average, we would pass a set of prices, either "close" or "adjusted", and `n = 15` for 15 days. In OHLC notation `x_fun = Cl` for "close" or `x_fun = Ad` for adjusted. The `mutate_fun = SMA`, and we pass `n = 15` as an additional argument. Shown below, we pipe (`%>%`) our tibble of AAPL stock prices to `tq_mutate(x_fun = Cl, mutate_fun = SMA, n = 15)`, which creates an additional column with the simple moving average of the close prices. 
+An example with `SMA()` from the `TTR` package helps solidify how it works. Reviewing the documentation for `SMA`, we see that the function, `SMA(x, n = 10, ...)`, accepts `x` a price or volume and `n` a number of periods to average over. For the 15-day simple moving average, we would pass a set of prices, either "close" or "adjusted", and `n = 15` for 15 days. In OHLC notation `ohlc_fun = Cl` for "close" or `ohlc_fun = Ad` for adjusted. The `mutate_fun = SMA`, and we pass `n = 15` as an additional argument. Shown below, we pipe (`%>%`) our tibble of AAPL stock prices to `tq_mutate(ohlc_fun = Cl, mutate_fun = SMA, n = 15)`, which creates an additional column with the simple moving average of the close prices. 
 
 
 {% highlight r %}
 AAPL %>%
-    tq_mutate(x_fun = Cl, mutate_fun = SMA, n = 15)
+    tq_mutate(ohlc_fun = Cl, mutate_fun = SMA, n = 15)
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## # A tibble: 252 × 8
-##          date   open   high    low  close   volume  adjusted   SMA
-##        <date>  <dbl>  <dbl>  <dbl>  <dbl>    <dbl>     <dbl> <dbl>
-## 1  2016-01-04 102.61 105.37 102.00 105.35 67649400 103.05706    NA
-## 2  2016-01-05 105.75 105.85 102.41 102.71 55791000 100.47452    NA
-## 3  2016-01-06 100.56 102.37  99.87 100.70 68457400  98.50827    NA
-## 4  2016-01-07  98.68 100.13  96.43  96.45 81094400  94.35077    NA
-## 5  2016-01-08  98.55  99.11  96.76  96.96 70798000  94.84967    NA
-## 6  2016-01-11  98.97  99.06  97.34  98.53 49739400  96.38550    NA
-## 7  2016-01-12 100.55 100.69  98.84  99.96 49154200  97.78438    NA
-## 8  2016-01-13 100.32 101.19  97.30  97.39 62439600  95.27031    NA
-## 9  2016-01-14  97.96 100.48  95.74  99.52 63170100  97.35395    NA
-## 10 2016-01-15  96.20  97.71  95.36  97.13 79010000  95.01597    NA
-## # ... with 242 more rows
+## # A tibble: 251 × 8
+##          date   open   high   low  close    volume adjusted   SMA
+##        <date>  <dbl>  <dbl> <dbl>  <dbl>     <dbl>    <dbl> <dbl>
+## 1  2016-01-19  98.41  98.65 95.50  96.66  53087700 94.55621    NA
+## 2  2016-01-20  95.10  98.19 93.42  96.79  72334400 94.68337    NA
+## 3  2016-01-21  97.06  97.88 94.94  96.30  52161500 94.20404    NA
+## 4  2016-01-22  98.63 101.46 98.37 101.42  65800500 99.21260    NA
+## 5  2016-01-25 101.52 101.53 99.21  99.44  51794500 97.27570    NA
+## 6  2016-01-26  99.93 100.88 98.07  99.99  75077000 97.81372    NA
+## 7  2016-01-27  96.04  96.63 93.34  93.42 133369700 91.38672    NA
+## 8  2016-01-28  93.79  94.52 92.39  94.09  55678800 92.04213    NA
+## 9  2016-01-29  94.79  97.34 94.35  97.34  64416500 95.22140    NA
+## 10 2016-02-01  96.47  96.71 95.40  96.43  40943500 94.33121    NA
+## # ... with 241 more rows
 {% endhighlight %}
 
 We need both the 15-day and the 50-day moving average, which is two steps with the pipe. I `rename` in between steps so the column names are more descriptive.
@@ -186,64 +192,64 @@ We need both the 15-day and the 50-day moving average, which is two steps with t
 
 {% highlight r %}
 AAPL %>%
-    tq_mutate(x_fun = Cl, mutate_fun = SMA, n = 15) %>%
+    tq_mutate(ohlc_fun = Cl, mutate_fun = SMA, n = 15) %>%
     rename(SMA.15 = SMA) %>%
-    tq_mutate(x_fun = Cl, mutate_fun = SMA, n = 50) %>%
+    tq_mutate(ohlc_fun = Cl, mutate_fun = SMA, n = 50) %>%
     rename(SMA.50 = SMA)
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## # A tibble: 252 × 9
-##          date   open   high    low  close   volume  adjusted SMA.15
-##        <date>  <dbl>  <dbl>  <dbl>  <dbl>    <dbl>     <dbl>  <dbl>
-## 1  2016-01-04 102.61 105.37 102.00 105.35 67649400 103.05706     NA
-## 2  2016-01-05 105.75 105.85 102.41 102.71 55791000 100.47452     NA
-## 3  2016-01-06 100.56 102.37  99.87 100.70 68457400  98.50827     NA
-## 4  2016-01-07  98.68 100.13  96.43  96.45 81094400  94.35077     NA
-## 5  2016-01-08  98.55  99.11  96.76  96.96 70798000  94.84967     NA
-## 6  2016-01-11  98.97  99.06  97.34  98.53 49739400  96.38550     NA
-## 7  2016-01-12 100.55 100.69  98.84  99.96 49154200  97.78438     NA
-## 8  2016-01-13 100.32 101.19  97.30  97.39 62439600  95.27031     NA
-## 9  2016-01-14  97.96 100.48  95.74  99.52 63170100  97.35395     NA
-## 10 2016-01-15  96.20  97.71  95.36  97.13 79010000  95.01597     NA
-## # ... with 242 more rows, and 1 more variables: SMA.50 <dbl>
+## # A tibble: 251 × 9
+##          date   open   high   low  close    volume adjusted SMA.15
+##        <date>  <dbl>  <dbl> <dbl>  <dbl>     <dbl>    <dbl>  <dbl>
+## 1  2016-01-19  98.41  98.65 95.50  96.66  53087700 94.55621     NA
+## 2  2016-01-20  95.10  98.19 93.42  96.79  72334400 94.68337     NA
+## 3  2016-01-21  97.06  97.88 94.94  96.30  52161500 94.20404     NA
+## 4  2016-01-22  98.63 101.46 98.37 101.42  65800500 99.21260     NA
+## 5  2016-01-25 101.52 101.53 99.21  99.44  51794500 97.27570     NA
+## 6  2016-01-26  99.93 100.88 98.07  99.99  75077000 97.81372     NA
+## 7  2016-01-27  96.04  96.63 93.34  93.42 133369700 91.38672     NA
+## 8  2016-01-28  93.79  94.52 92.39  94.09  55678800 92.04213     NA
+## 9  2016-01-29  94.79  97.34 94.35  97.34  64416500 95.22140     NA
+## 10 2016-02-01  96.47  96.71 95.40  96.43  40943500 94.33121     NA
+## # ... with 241 more rows, and 1 more variables: SMA.50 <dbl>
 {% endhighlight %}
 
 
 ### tq_mutate_xy() function
 
-Not all `quantmod`, `xts`, and `TTR` functions work with OHLC notation. A few of these functions take two primary inputs. An example of this is the `Delt` function from the `quantmod` package. The function form is `Delt(x1, x2 = NULL, k = 0, type = c("arithmetic", "log"))`, which has `x1` and `x2` arguments. In these situations you will need to use the XY variant, `tq_mutate_xy()`, which accepts `.x` (required) and `.y` (optional).  For the `Delt` function, `.x = x1` and `.y = x2`.
+Not all `quantmod`, `xts`, and `TTR` functions work with OHLC notation. A few of these functions take two primary inputs. An example of this is the `Delt` function from the `quantmod` package. The function form is `Delt(x1, x2 = NULL, k = 0, type = c("arithmetic", "log"))`, which has `x1` and `x2` arguments. In these situations you will need to use the XY variant, `tq_mutate_xy()`, which accepts `x` (required) and `y` (optional).  For the `Delt` function, `x = x1` and `y = x2`.
 
-For the `SMA()` function, we don't need the `.y` argument, but we can use the XY variant to accomplish the same task as the OHLC variant. The operation is the same except instead of `x_fun = Cl` we replace with `.x = close` (the name of the column being passed to the mutation function).
+For the `SMA()` function, we don't need the `y` argument, but we can use the XY variant to accomplish the same task as the OHLC variant. The operation is the same except instead of `ohlc_fun = Cl` we replace with `x = close` (the name of the column being passed to the mutation function).
 
 
 {% highlight r %}
 AAPL %>%
-    tq_mutate_xy(.x = close, mutate_fun = SMA, n = 15) %>%
+    tq_mutate_xy(x = close, mutate_fun = SMA, n = 15) %>%
     rename(SMA.15 = SMA) %>%
-    tq_mutate_xy(.x = close, mutate_fun = SMA, n = 50) %>%
+    tq_mutate_xy(x = close, mutate_fun = SMA, n = 50) %>%
     rename(SMA.50 = SMA)
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## # A tibble: 252 × 9
-##          date   open   high    low  close   volume  adjusted SMA.15
-##        <date>  <dbl>  <dbl>  <dbl>  <dbl>    <dbl>     <dbl>  <dbl>
-## 1  2016-01-04 102.61 105.37 102.00 105.35 67649400 103.05706     NA
-## 2  2016-01-05 105.75 105.85 102.41 102.71 55791000 100.47452     NA
-## 3  2016-01-06 100.56 102.37  99.87 100.70 68457400  98.50827     NA
-## 4  2016-01-07  98.68 100.13  96.43  96.45 81094400  94.35077     NA
-## 5  2016-01-08  98.55  99.11  96.76  96.96 70798000  94.84967     NA
-## 6  2016-01-11  98.97  99.06  97.34  98.53 49739400  96.38550     NA
-## 7  2016-01-12 100.55 100.69  98.84  99.96 49154200  97.78438     NA
-## 8  2016-01-13 100.32 101.19  97.30  97.39 62439600  95.27031     NA
-## 9  2016-01-14  97.96 100.48  95.74  99.52 63170100  97.35395     NA
-## 10 2016-01-15  96.20  97.71  95.36  97.13 79010000  95.01597     NA
-## # ... with 242 more rows, and 1 more variables: SMA.50 <dbl>
+## # A tibble: 251 × 9
+##          date   open   high   low  close    volume adjusted SMA.15
+##        <date>  <dbl>  <dbl> <dbl>  <dbl>     <dbl>    <dbl>  <dbl>
+## 1  2016-01-19  98.41  98.65 95.50  96.66  53087700 94.55621     NA
+## 2  2016-01-20  95.10  98.19 93.42  96.79  72334400 94.68337     NA
+## 3  2016-01-21  97.06  97.88 94.94  96.30  52161500 94.20404     NA
+## 4  2016-01-22  98.63 101.46 98.37 101.42  65800500 99.21260     NA
+## 5  2016-01-25 101.52 101.53 99.21  99.44  51794500 97.27570     NA
+## 6  2016-01-26  99.93 100.88 98.07  99.99  75077000 97.81372     NA
+## 7  2016-01-27  96.04  96.63 93.34  93.42 133369700 91.38672     NA
+## 8  2016-01-28  93.79  94.52 92.39  94.09  55678800 92.04213     NA
+## 9  2016-01-29  94.79  97.34 94.35  97.34  64416500 95.22140     NA
+## 10 2016-02-01  96.47  96.71 95.40  96.43  40943500 94.33121     NA
+## # ... with 241 more rows, and 1 more variables: SMA.50 <dbl>
 {% endhighlight %}
 
 ### Back to the example
@@ -253,9 +259,9 @@ Returning back to our need, we get the simple moving averages using one of the t
 
 {% highlight r %}
 AAPL <- AAPL %>%
-    tq_mutate(x_fun = Cl, mutate_fun = SMA, n = 15) %>%
+    tq_mutate(ohlc_fun = Cl, mutate_fun = SMA, n = 15) %>%
     rename(SMA.15 = SMA) %>%
-    tq_mutate(x_fun = Cl, mutate_fun = SMA, n = 50) %>%
+    tq_mutate(ohlc_fun = Cl, mutate_fun = SMA, n = 50) %>%
     rename(SMA.50 = SMA)
 {% endhighlight %}
 
@@ -274,20 +280,20 @@ AAPL %>%
 
 
 {% highlight text %}
-## # A tibble: 756 × 3
+## # A tibble: 753 × 3
 ##          date  type  price
 ##        <date> <chr>  <dbl>
-## 1  2016-01-04 close 105.35
-## 2  2016-01-05 close 102.71
-## 3  2016-01-06 close 100.70
-## 4  2016-01-07 close  96.45
-## 5  2016-01-08 close  96.96
-## 6  2016-01-11 close  98.53
-## 7  2016-01-12 close  99.96
-## 8  2016-01-13 close  97.39
-## 9  2016-01-14 close  99.52
-## 10 2016-01-15 close  97.13
-## # ... with 746 more rows
+## 1  2016-01-19 close  96.66
+## 2  2016-01-20 close  96.79
+## 3  2016-01-21 close  96.30
+## 4  2016-01-22 close 101.42
+## 5  2016-01-25 close  99.44
+## 6  2016-01-26 close  99.99
+## 7  2016-01-27 close  93.42
+## 8  2016-01-28 close  94.09
+## 9  2016-01-29 close  97.34
+## 10 2016-02-01 close  96.43
+## # ... with 743 more rows
 {% endhighlight %}
 
 Now, we can use `ggplot2` to plot the tidy data. We use the same select and gather statements above and pipe to `ggplot`. I add a custom palette to match the black, blue and red colors from the Investopedia graphic. The final code chunk for the visualization is as follows: 
@@ -324,9 +330,10 @@ We discussed why there is a need for `tidyquant`, which is to help minimize the 
 
 This example just scratches the surface of the power of `tidyquant`. See the vignette for a detailed discussion on each of the `tidyquant` features.
 
+
 # Further Reading <a class="anchor" id="further-reading"></a>
 
-1. __[tidyquant Vignette](https://github.com/mdancho84/tidyquant/blob/master/vignettes/tidyquant.md)__: This tutorial just scratches the surface of `tidyquant`. The vignette explains much, much more!
+1. __[tidyquant Vignette](https://CRAN.R-project.org/package=tidyquant)__: This tutorial just scratches the surface of `tidyquant`. The vignette explains much, much more!
 
 2. __[R for Data Science](http://r4ds.had.co.nz/)__: A free book that thoroughly covers the `tidyverse` packages. 
 

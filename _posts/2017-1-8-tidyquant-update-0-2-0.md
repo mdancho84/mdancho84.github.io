@@ -254,20 +254,20 @@ AAPL_prices
 
 
 {% highlight text %}
-## # A tibble: 252 × 7
-##          date   open   high   low  close   volume adjusted
-##        <date>  <dbl>  <dbl> <dbl>  <dbl>    <dbl>    <dbl>
-## 1  2016-01-08  98.55  99.11 96.76  96.96 70798000 94.84967
-## 2  2016-01-11  98.97  99.06 97.34  98.53 49739400 96.38550
-## 3  2016-01-12 100.55 100.69 98.84  99.96 49154200 97.78438
-## 4  2016-01-13 100.32 101.19 97.30  97.39 62439600 95.27031
-## 5  2016-01-14  97.96 100.48 95.74  99.52 63170100 97.35395
-## 6  2016-01-15  96.20  97.71 95.36  97.13 79010000 95.01597
-## 7  2016-01-19  98.41  98.65 95.50  96.66 53087700 94.55621
-## 8  2016-01-20  95.10  98.19 93.42  96.79 72334400 94.68337
-## 9  2016-01-21  97.06  97.88 94.94  96.30 52161500 94.20404
-## 10 2016-01-22  98.63 101.46 98.37 101.42 65800500 99.21260
-## # ... with 242 more rows
+## # A tibble: 251 × 7
+##          date   open   high   low  close    volume adjusted
+##        <date>  <dbl>  <dbl> <dbl>  <dbl>     <dbl>    <dbl>
+## 1  2016-01-19  98.41  98.65 95.50  96.66  53087700 94.55621
+## 2  2016-01-20  95.10  98.19 93.42  96.79  72334400 94.68337
+## 3  2016-01-21  97.06  97.88 94.94  96.30  52161500 94.20404
+## 4  2016-01-22  98.63 101.46 98.37 101.42  65800500 99.21260
+## 5  2016-01-25 101.52 101.53 99.21  99.44  51794500 97.27570
+## 6  2016-01-26  99.93 100.88 98.07  99.99  75077000 97.81372
+## 7  2016-01-27  96.04  96.63 93.34  93.42 133369700 91.38672
+## 8  2016-01-28  93.79  94.52 92.39  94.09  55678800 92.04213
+## 9  2016-01-29  94.79  97.34 94.35  97.34  64416500 95.22140
+## 10 2016-02-01  96.47  96.71 95.40  96.43  40943500 94.33121
+## # ... with 241 more rows
 {% endhighlight %}
 
 Next, we use `tq_mutate()` to add the 15-day and 50-day rolling medians. The first two arguments are `ohlc_fun = Cl`, which selects the closing price using `quantmod` OHLC notation, and `mutate_fun = rollapply`, which sends the closing price to the rollapply function. The next arguments, `width` and `FUN` are arguments that are passed to the `rollapply` function. Width is the number of periods to take the median, and FUN is the function we intend to apply (i.e. median). The workflow is as follows:
@@ -285,20 +285,20 @@ AAPL_prices
 
 
 {% highlight text %}
-## # A tibble: 252 × 9
-##          date   open   high   low  close   volume adjusted median.15
-##        <date>  <dbl>  <dbl> <dbl>  <dbl>    <dbl>    <dbl>     <dbl>
-## 1  2016-01-08  98.55  99.11 96.76  96.96 70798000 94.84967        NA
-## 2  2016-01-11  98.97  99.06 97.34  98.53 49739400 96.38550        NA
-## 3  2016-01-12 100.55 100.69 98.84  99.96 49154200 97.78438        NA
-## 4  2016-01-13 100.32 101.19 97.30  97.39 62439600 95.27031        NA
-## 5  2016-01-14  97.96 100.48 95.74  99.52 63170100 97.35395        NA
-## 6  2016-01-15  96.20  97.71 95.36  97.13 79010000 95.01597        NA
-## 7  2016-01-19  98.41  98.65 95.50  96.66 53087700 94.55621        NA
-## 8  2016-01-20  95.10  98.19 93.42  96.79 72334400 94.68337        NA
-## 9  2016-01-21  97.06  97.88 94.94  96.30 52161500 94.20404        NA
-## 10 2016-01-22  98.63 101.46 98.37 101.42 65800500 99.21260        NA
-## # ... with 242 more rows, and 1 more variables: median.50 <dbl>
+## # A tibble: 251 × 9
+##          date   open   high   low  close    volume adjusted median.15
+##        <date>  <dbl>  <dbl> <dbl>  <dbl>     <dbl>    <dbl>     <dbl>
+## 1  2016-01-19  98.41  98.65 95.50  96.66  53087700 94.55621        NA
+## 2  2016-01-20  95.10  98.19 93.42  96.79  72334400 94.68337        NA
+## 3  2016-01-21  97.06  97.88 94.94  96.30  52161500 94.20404        NA
+## 4  2016-01-22  98.63 101.46 98.37 101.42  65800500 99.21260        NA
+## 5  2016-01-25 101.52 101.53 99.21  99.44  51794500 97.27570        NA
+## 6  2016-01-26  99.93 100.88 98.07  99.99  75077000 97.81372        NA
+## 7  2016-01-27  96.04  96.63 93.34  93.42 133369700 91.38672        NA
+## 8  2016-01-28  93.79  94.52 92.39  94.09  55678800 92.04213        NA
+## 9  2016-01-29  94.79  97.34 94.35  97.34  64416500 95.22140        NA
+## 10 2016-02-01  96.47  96.71 95.40  96.43  40943500 94.33121        NA
+## # ... with 241 more rows, and 1 more variables: median.50 <dbl>
 {% endhighlight %}
 
 Two new columns, rollapply and rollapply.1, were added to the tibble. We `rename` these to be more descriptive. The next part is the same visualization code used in the last post. Essentially we `gather` the prices we wish to visualize so they are in one long tibble with two columns, "type" (close, median.15, and median.50) and "value". We color each line by "type" using the ggplot aesthetics.
@@ -334,7 +334,7 @@ You should now have a good understanding of the benefits and new features of the
 
 # Further Reading <a class="anchor" id="further-reading"></a>
 
-1. __[tidyquant Vignette](https://cran.r-project.org/web/packages/tidyquant/vignettes/tidyquant.html)__: This tutorial just scratches the surface of `tidyquant`. The vignette explains much, much more!
+1. __[tidyquant Vignette](https://CRAN.R-project.org/package=tidyquant)__: This tutorial just scratches the surface of `tidyquant`. The vignette explains much, much more!
 
 2. __[R for Data Science](http://r4ds.had.co.nz/)__: A free book that thoroughly covers the `tidyverse` packages. 
 
