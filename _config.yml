@@ -31,7 +31,7 @@ url: http://www.mattdancho.com
 baseurl: ""
 
 # Pagination
-paginate: 5
+paginate: 8
 paginate_path: "/blog/page:num"
 
 # Handle future posts
