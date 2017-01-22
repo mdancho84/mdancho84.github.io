@@ -355,7 +355,7 @@ g_pic <- grid::rasterGrob(img, interpolate=TRUE)
 AAPL_historical_pe_ratios %>%
     ggplot(aes(x = date, y = value)) +
     geom_line(aes(color = "historical.pe"), size = 1) +
-    geom_point(aes(color = "historical.pe"), size = 3) +
+    geom_point(size = 3) +
     geom_ma(aes(color = "historical.ma"), ma_fun = SMA, n = 3, size = 1) +
     geom_hline(yintercept = AAPL_key_stats$PE.Ratio, color = "red", size = 1) + 
     labs(title = "AAPL P/E Ratio: Comparing Historical Trends Versus Current Value", 
@@ -363,8 +363,10 @@ AAPL_historical_pe_ratios %>%
          y = "", x = "") +
     scale_colour_manual(name = 'Legend', 
                         guide = 'legend',
-                        values = c('historical.pe' = 'black', 'historical.ma' = 'blue'), 
-                        labels = c('Historical PE', '3-Year Moving Average')) +
+                        values = c('historical.pe' = 'black',
+                                   'historical.ma' = 'blue'), 
+                        labels = c('3-Year Moving Average',
+                                   'Historical PE')) +
     annotate("text", label = "Current PE", x = ymd("2016-06-01"), y = 16, 
              color = "red", size = 3.5) +
     theme_bw() +
