@@ -1,5 +1,6 @@
 name,tooltip,link
 R-Bloggers,R blog aggregator combining blogs from many advanced R users., https://www.r-bloggers.com
+r-statistics.co,An excellent source of quality and up-to-date R training on visualization and machine learning,http://r-statistics.co/
 R-Project.org,Home of the R Project. Includes documentation and resources for R.,https://www.r-project.org/
 RStudio,The IDE that most R-programmers use. Its website has documentation & tutorials on various R-packages developed by RStudio.,https://www.rstudio.com/
 CRAN,Comprehensive R Archive Network: The primary database of popular R libraries and documentation.,https://cran.r-project.org/
