@@ -1,5 +1,6 @@
 name,link
 Blog,/blog/index.html
 R-Packages,/r-packages.html
-About,/about.html
+About,/about.html,
+Team,/team.html,
 Contact,/contact.html

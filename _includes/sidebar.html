@@ -58,51 +58,7 @@
 		</li>
 		<li><hr></li>
 		{% endif %}
-
-		<!-- Recent Posts -->
-		<li>
-			<h5>Recent Posts</h5>
-			<div class="list-group">
-				{% for post in site.posts limit:3 %}
-				<a href="{{ post.url }}" class="list-group-item">
-					<h6 class="list-group-item-heading">{{ post.title }}</h6>
-				    {% if post.image %}
-	                  <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
-	                {% else %}
-	                  <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
-	                {% endif %}
-				</a>
-				{% endfor %}
-			</div>
-		</li>
-		<li><hr></li>
 		
-		
-        <!-- Twitter -->
-		<li>
-			<div class = "container">
-				<a class="twitter-timeline" data-width="220" data-height="750" data-theme="light" href="https://twitter.com/mdancho84">Tweets by mdancho84</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</div>
-		</li>
-		<li><hr></li>
-
-		<!-- Adsense: Sidebar-1 -->
-		<li>
-			<div class = "container">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- Sidebar-1 -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:300px;height:600px"
-				     data-ad-client="ca-pub-8190393691755597"
-				     data-ad-slot="2077485865"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			</div>
-		</li>
-		<li><hr></li>
-		
-
 		<!-- Categories -->
 		<li>
 			<h5>Categories</h5>
@@ -135,6 +91,49 @@
 			{% endfor %}
 		</li>
 		<li><hr></li>
+
+		<!-- Recent Posts -->
+		<li>
+			<h5>Recent Posts</h5>
+			<div class="list-group">
+				{% for post in site.posts limit:3 %}
+				<a href="{{ post.url }}" class="list-group-item">
+					<h6 class="list-group-item-heading">{{ post.title }}</h6>
+				    {% if post.image %}
+	                  <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
+	                {% else %}
+	                  <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
+	                {% endif %}
+				</a>
+				{% endfor %}
+			</div>
+		</li>
+		<li><hr></li>
+		
+		
+        <!-- Twitter -->
+		<li>
+			<div class = "container">
+				<a class="twitter-timeline" data-width="220" data-height="750" data-theme="light" href="https://twitter.com/mdancho84">Tweets by mdancho84</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</li>
+		<li><hr></li>
+
+		<!-- Adsense: Sidebar-1 -->
+		<!-- <li>
+			<div class = "container">
+				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+				Sidebar-1
+				<ins class="adsbygoogle"
+				     style="display:inline-block;width:300px;height:600px"
+				     data-ad-client="ca-pub-8190393691755597"
+				     data-ad-slot="2077485865"></ins>
+				<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+		</li>
+		<li><hr></li> -->
 
 		<!-- Tags -->
 		<li>
@@ -241,13 +240,13 @@
 				</div>
 			</div>
 		</li>
-		<li><hr></li>
+		<!-- <li><hr></li> -->
 		
 		<!-- Adsense: Sidebar-3 -->
-		<li>
+		<!-- <li>
 			<div class = "container">
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- Sidebar-3 -->
+				Sidebar-3
 				<ins class="adsbygoogle"
 				     style="display:inline-block;width:300px;height:600px"
 				     data-ad-client="ca-pub-8190393691755597"
@@ -256,7 +255,7 @@
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
 			</div>
-		</li>
+		</li> -->
 		<!-- <li><hr></li> -->
 
 
