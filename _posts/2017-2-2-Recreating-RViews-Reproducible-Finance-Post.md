@@ -4,12 +4,12 @@ title:  "Recreating RView's ''Reproducible Finance With R: Sector Correlations''
 author: "Davis Vaughan"
 categories: [Financial-Analysis]
 tags: [R-Project, R, Stock Analysis, Trading Strategy, tidyverse, tidyquant, quantmod, xts, TTR, zoo, dplyr, tidyr, dygraphs]
-image: rviews-sector-corr.png
+image: rviews-sector-corr-post.png
 ---
 
 
 
-The folks at _RStudio_ have a segment on their _RViews_ blog, ["Reproducible Finance with R"](https://www.rstudio.com/rviews/category/finance/), one that we we at [Business Science](/index.html) are very fond of! In the spirit of reproducibility, we thought that it would be appropriate to recreate the [_RViews_ post, "Reproducible Finance with R: Sector Correlations"](https://www.rstudio.com/rviews/2017/01/18/reproducible-finance-with-r-sector-correlations/). This time, however, the `tidyquant` package will be used to __streamline much of the code that is currently used__. The main advantage of `tidyquant` is to bridge the gap between the best quantitative resources for collecting and manipulating quantitative data: `xts`, `zoo`, `quantmod` and `TTR`, and the data modeling workflow and infrastructure of the `tidyverse`. When implemented, `tidyquant`  __cuts the code down by about half and simplfies the workflow__.
+The folks at _RStudio_ have a segment on their _RViews_ blog, ["Reproducible Finance with R"](https://www.rstudio.com/rviews/category/finance/), one that we at [Business Science](/index.html) are very fond of! In the spirit of reproducibility, we thought that it would be appropriate to recreate the [_RViews_ post, "Reproducible Finance with R: Sector Correlations"](https://www.rstudio.com/rviews/2017/01/18/reproducible-finance-with-r-sector-correlations/). This time, however, the `tidyquant` package will be used to __streamline much of the code that is currently used__. The main advantage of `tidyquant` is to bridge the gap between the best quantitative resources for collecting and manipulating quantitative data: `xts`, `zoo`, `quantmod` and `TTR`, and the data modeling workflow and infrastructure of the `tidyverse`. When implemented, `tidyquant`  __cuts the code down by about half and simplfies the workflow__.
 
 
 
