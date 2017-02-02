@@ -27,11 +27,11 @@ The folks at _RStudio_ have a segment on their _RViews_ blog, ["Reproducible Fin
 
 The folks at _RStudio_ have a new segment in _RViews_ (The _RStudio_ blog) called ["Reproducible Finance with R"](https://www.rstudio.com/rviews/category/finance/). For their first installation of 2017 they looked at how Sector Exchange Traded Fund (ETF) returns correlate to the broader market using the Spider SP500 ETF ("SPY") as a proxy for the SP500 index. The _RViews_ post can be found [here](https://www.rstudio.com/rviews/2017/01/18/reproducible-finance-with-r-sector-correlations/), and here's a snapshot of the final chart comparing the correlation between the SP500 (overall market) and the Technology ETF over time. 
 
-![Correlation Between SP500 and Tech ETF](/assets/rviews-sector-corr.PNG)
+![Correlation Between SP500 and Tech ETF](/assets/rviews-sector-corr-post.PNG)
 
 <p class="text-center date">Source: <a href="https://www.rstudio.com/rviews/2017/01/18/reproducible-finance-with-r-sector-correlations/">Reproducible Finance with R: Sector Correlations</a></p>
 
-Today, the newest member of the Business Science (BizSci) team, [Davis Vaughan](/team.html), shows how you can implement our R financial package, `tidyquant`, to streamline the _RViews_ Sector Correlations analysis. I hope you'll join me in welcoming Davis to our team! You can follow him on [twitter](https://twitter.com/dvaughan32), [LinkedIn]() and [GitHub](https://github.com/DavisVaughan). 
+Today, the newest member of the Business Science (BizSci) team, [Davis Vaughan](/team.html), shows how you can implement our R financial package, `tidyquant`, to streamline the _RViews_ Sector Correlations analysis. I hope you'll join me in welcoming Davis to our team! You can follow him on [twitter](https://twitter.com/dvaughan32), [LinkedIn](https://www.linkedin.com/in/davis-vaughan-9786455b) and [GitHub](https://github.com/DavisVaughan). 
 
 _Matt Dancho, Director of Product Development @ BizSci_
 
@@ -86,7 +86,7 @@ etf_ticker_sector
 
 # Data Import  <a class="anchor" id="data-import"></a>
 
-Alright, now is where things get interesting! Let's take a peak at the differences in how you might get data to solve this problem. 
+Alright, now is where things get interesting! Let's take a peek at the differences in how you might get data to solve this problem. 
 
 ## RViews
 
