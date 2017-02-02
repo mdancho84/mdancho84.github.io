@@ -4,7 +4,7 @@ title:  "Recreating RView's ''Reproducible Finance With R: Sector Correlations''
 author: "Davis Vaughan"
 categories: [Financial-Analysis]
 tags: [R-Project, R, Stock Analysis, Trading Strategy, tidyverse, tidyquant, quantmod, xts, TTR, zoo, dplyr, tidyr, dygraphs]
-image: rviews-sector-corr-post.png
+image: rviews-sector-corr-post.PNG
 ---
 
 
