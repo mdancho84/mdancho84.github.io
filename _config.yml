@@ -7,11 +7,11 @@ encoding: UTF-8
 name: mattdancho.com
 author:
   name: Matt Dancho
-  email: mdancho@gmail.com
+  email: info@business-science.io
 
 # Short bio or description (displayed in the header)
 title: "Business Science"
-description: Applying data science to business and investments
+description: Applying data science to business and financial analysis
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
