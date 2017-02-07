@@ -4,7 +4,7 @@
 encoding: UTF-8
 
 # Name of your site (displayed in the header)
-name: mattdancho.com
+name: business-science.io
 author:
   name: Matt Dancho
   email: info@business-science.io
@@ -22,7 +22,7 @@ google_analytics: UA-76139189-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.mattdancho.com
+url: http://www.business-science.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
