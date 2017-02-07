@@ -6,10 +6,11 @@ encoding: UTF-8
 # Name of your site (displayed in the header)
 name: business-science.io
 author:
-  name: Matt Dancho
+  name: Business Science
   email: info@business-science.io
   linkedin: https://www.linkedin.com/in/mattdancho
   github: https://github.com/mdancho84
+  twitter: https://twitter.com/mdancho84
 
 # Short bio or description (displayed in the header)
 title: "Business Science"
