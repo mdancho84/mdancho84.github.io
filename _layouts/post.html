@@ -55,7 +55,8 @@ title: Post
 
 <!-- Blog Body -->
 <section id="blog">
-
+  
+  <!-- Main Body -->
   <div class="container" id="blog_content">
     <div class="row">
     	<!-- Main Content -->
@@ -69,12 +70,26 @@ title: Post
 	    	{% include sidebar.html %}
 	    </div>
     </div>
-
-
   </div>
-
+  
+  <!-- Interested in Business Science? Subscribe! -->
   <div class="container">
-  	<div class="col-md-8 col-md-offset-1">
+  	  <form style="border:0px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=business-science', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">	    
+	    <div class="row">
+	        <div class="col-sm-12 col-md-7 col-sm-offset-0 col-md-offset-1 well well-lg">
+	            <p style="color: #2c3e50;">Like what you read? Sign up for <em>Business Science</em> updates:</p>
+	            <p><input type="text" style="width:70%; color: #2c3e50; padding-left: 4px;" name="email" placeholder="email address" /></p>
+	            <input type="hidden" value="business-science" name="uri"/>
+	            <input type="hidden" name="loc" value="en_US"/>
+	            <input type="submit" value="Subscribe" class="btn btn-primary btn-sm" style="margin-bottom: 8px;"/>
+	        </div>	        
+	    </div>
+	  </form>
+  </div>
+  
+  <!-- Left / Right Nav  -->
+  <div class="container">
+  	<div class="col-md-9 col-md-offset-0">
 		<div class="PageNavigation">
 		  {% if page.previous.url %}
 		    <a class="prev" href="{{page.previous.url}}">
@@ -90,12 +105,12 @@ title: Post
 		  {% endif %}
 		</div>
 	</div>
-	 </div>
+  </div>
 </section>
 
 <!-- Disqus -->
 <div class="container">
-	<div class="col-md-8 col-md-offset-1">
+	<div class="col-md-9 col-md-offset-0">
 	{% include disqus.html disqus_identifier=page.disqus_identifier %}
 	</div>
 </div>
