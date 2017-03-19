@@ -4,7 +4,7 @@ title:  "tidyquant + Quandl: Getting Data Just Got Easier"
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, Stock Analysis, tidyverse, tidyquant, Quandl, broom, corrr]
-image: tidyquant-quandl.png
+image: tidyquant-quandl.PNG
 ---
 
 
@@ -33,7 +33,7 @@ Today I'm very pleased to introduce the new [_Quandl_](https://www.quandl.com/) 
 
 The topic for today is the [_Quandl_](https://www.quandl.com/) integration today. _Quandl_ enables access to a wide range of financial and economic data. It has it's own _R_ library appropriately named `Quandl`. Users can sign up for a __FREE__ account, and in return users get an API key that enables access to numerous free and paid data sets. The `Quandl` package is very good: it enables searching the _Quandl_ databases from the _R_ console. Once a data set is found, the data set "code" can be used to retrieve the data in various formats. The one downside is that, although you can get multiple data sets (e.g. for multiple stocks, FRED codes, etc), the data returned is not "tidy". This is where the `tidyquant` integration fits in. The integration makes it even more convenient to get data, and when multiple data sets are retrieved they are returned in one "tidy" data frame (aka "long" format which is perfect for grouping and scaling analysis)! In addition, you only need to load one package, `tidyquant`, to get the full capabilities of the _Quandl_ API. The figure below shows how _Quandl_ fits into the __"Collect, Modify, Analyze"__ `tidyquant` financial analysis workflow. 
 
-![tidyquant Financial Analysis Workflow](/assets/tidyquant-quandl.png){:width="750px"}
+![tidyquant Financial Analysis Workflow](/assets/tidyquant-quandl.PNG){:width="750px"}
 
 If you are new to `tidyquant`, there's a few core functions that you need to be aware of. I've broken them down by step in the CMA process.
 
