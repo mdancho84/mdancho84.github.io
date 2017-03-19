@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "tidyquant + Quandl: Getting Data Just Got Easier"
+title:  "tidyquant Integrates Quandl: Getting Data Just Got Easier"
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, Stock Analysis, tidyverse, tidyquant, Quandl, broom, corrr]
