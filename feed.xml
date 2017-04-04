@@ -8,7 +8,7 @@ layout: null
     <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
     <link>
     {{ site.url }}</link>
-    {% for post in site.tags.R-Project limit:2 %}
+    {% for post in site.tags.R-Project limit:1 %}
       {% unless post.link %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
