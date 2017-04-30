@@ -148,6 +148,32 @@ header {
     -o-background-size: cover;
 }
 
+#services {
+    background-image: url(../img/math_bkrd.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#r-packages {
+    background-image: url(../img/header.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.nav-logo {
+  height: 145%;
+}
+
+.navbar-brand {
+  padding-top: 5px;
+}
+
 header .header-content {
     position: relative;
     width: 100%;
@@ -198,6 +224,14 @@ header .header-content .header-content-inner p {
         margin-left: auto;
         max-width: 80%;
         font-size: 18px;
+    }
+
+    .nav-logo {
+      height: 200%;
+    }
+
+    .navbar-brand {
+      padding-top: 0px;
     }
 }
 
