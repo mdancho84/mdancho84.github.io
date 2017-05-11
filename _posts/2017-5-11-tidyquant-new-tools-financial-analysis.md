@@ -21,6 +21,8 @@ Three usage cases are discussed to illustrate the benefits of `tidyquant`. The f
 
 ![tidyquant Technical Paper Cover](/assets/new_tools_report_cover.PNG)
 
+<center><a href="https://github.com/business-science/reports/blob/master/new_financial_tools_tidy_ecosystem.pdf">Download the technical paper on GitHub!</a></center>
+
 # Announcements
 
 If you're interested in meeting with the members of [_Business Science_](http://www.business-science.io/), we'll be speaking at the following upcoming conferences:
