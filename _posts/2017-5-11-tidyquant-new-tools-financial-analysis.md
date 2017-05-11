@@ -34,7 +34,7 @@ If you're interested in meeting with the members of [_Business Science_](http://
 If you are interested learning more about `tidyquant`:
 
 * [Visit our `pkgdown` site for detailed documentation](https://business-science.github.io/tidyquant/)
-* [Visit our GitHub site for code updates](https://github.com/business-science/timekit)
+* [Visit our GitHub site for code updates](https://github.com/business-science/)
 * [Visit our website for news and announcements](http://www.business-science.io/)
 
 # Follow Us on Social Media <a class="anchor" id="social"></a>
