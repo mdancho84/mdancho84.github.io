@@ -102,16 +102,7 @@ JPM_key_ratios
 
 
 {% highlight text %}
-## # A tibble: 7 × 2
-##             section               data
-##               <chr>             <list>
-## 1        Financials <tibble [150 × 5]>
-## 2     Profitability <tibble [170 × 5]>
-## 3            Growth <tibble [160 × 5]>
-## 4         Cash Flow  <tibble [50 × 5]>
-## 5  Financial Health <tibble [240 × 5]>
-## 6 Efficiency Ratios  <tibble [80 × 5]>
-## 7  Valuation Ratios  <tibble [40 × 5]>
+## [1] NA
 {% endhighlight %}
 
 Let's check out the key ratios by unnesting.
@@ -125,221 +116,22 @@ JPM_key_ratios %>%
 
 
 {% highlight text %}
-## # A tibble: 890 × 6
-##       section sub.section group        category       date  value
-##         <chr>       <chr> <dbl>           <chr>     <date>  <dbl>
-## 1  Financials  Financials     1 Revenue USD Mil 2006-12-01  61437
-## 2  Financials  Financials     1 Revenue USD Mil 2007-12-01  71372
-## 3  Financials  Financials     1 Revenue USD Mil 2008-12-01  67252
-## 4  Financials  Financials     1 Revenue USD Mil 2009-12-01 100434
-## 5  Financials  Financials     1 Revenue USD Mil 2010-12-01 102694
-## 6  Financials  Financials     1 Revenue USD Mil 2011-12-01  97234
-## 7  Financials  Financials     1 Revenue USD Mil 2012-12-01  97031
-## 8  Financials  Financials     1 Revenue USD Mil 2013-12-01  97367
-## 9  Financials  Financials     1 Revenue USD Mil 2014-12-01  95112
-## 10 Financials  Financials     1 Revenue USD Mil 2015-12-01  93543
-## # ... with 880 more rows
-{% endhighlight %}
-
-Yikes, there's 890 rows of data. We can get the unique categories by selecting the "category" column and using the `unique` function. We first `filter` to the section we want, "Valuation Ratios".
-
-
-{% highlight r %}
-JPM_key_ratios %>%
-    unnest() %>%
-    filter(section == "Valuation Ratios") %>%
-    select(category) %>%
-    unique()
+## Error in UseMethod("unnest_"): no applicable method for 'unnest_' applied to an object of class "logical"
 {% endhighlight %}
 
 
 
-{% highlight text %}
-## # A tibble: 4 × 1
-##             category
-##                <chr>
-## 1  Price to Earnings
-## 2     Price to Sales
-## 3      Price to Book
-## 4 Price to Cash Flow
-{% endhighlight %}
-
-We see that "Price to Earnings" is one of the valuation ratios we can get. Let's `filter` and plot with `ggplot2`.
-
-
-{% highlight r %}
-JPM_key_ratios %>%
-    unnest() %>%
-    filter(category == "Price to Earnings") %>%
-    ggplot(aes(x = date, y = value)) +
-    geom_line() +
-    labs(title = "P/E Ratios are Easy to Retrieve with tidyquant", 
-         x = "", y = "Price to Earnings",
-         subtitle = "JPM Valuation Over Time") +
-    lims(y = c(0, 30))
-{% endhighlight %}
-
-![plot of chunk unnamed-chunk-6](/figure/source/2017-1-8-tidyquant-update-0-2-0/unnamed-chunk-6-1.png)
-
-This is great, but we want to evaluate more than one stock. That's easy to do with `dplyr` and `purrr`. First, we'll make a function to get the P/E ratios using the same procedure as for one stock. Then we'll map it to scale to many stocks.
-
-
-{% highlight r %}
-get_pe_ratios <- function(stock.symbol) {
-    tq_get(stock.symbol, get = "key.ratios") %>%
-        unnest() %>%
-        filter(category == "Price to Earnings")
-}
-{% endhighlight %}
-
-Now, let's scale it to a tibble of stocks.
-
-
-{% highlight r %}
-bank_stock_pe_ratios <- tibble(symbol = c("JPM", "GS", "BAC", "C")) %>%
-    mutate(pe.ratio = map(.x = symbol, get_pe_ratios))
-bank_stock_pe_ratios
-{% endhighlight %}
 
 
 
-{% highlight text %}
-## # A tibble: 4 × 2
-##   symbol          pe.ratio
-##    <chr>            <list>
-## 1    JPM <tibble [10 × 6]>
-## 2     GS <tibble [10 × 6]>
-## 3    BAC <tibble [10 × 6]>
-## 4      C <tibble [10 × 6]>
-{% endhighlight %}
-
-Now that we have a nested tibble of P/E ratios, we can use the same technique to visualize four stocks as with one stock. We'll unnest the list to get a single level tibble, then plot using `ggplot2` tacking on a facet wrap to split the plots by stock.
-
-
-{% highlight r %}
-bank_stock_pe_ratios %>%
-    unnest() %>%
-    ggplot(aes(x = date, y = value, col = symbol)) +
-    geom_line() +
-    labs(title = "P/E Ratios are Easy to Retrieve with tidyquant", 
-         x = "", y = "Price to Earnings",
-         subtitle = "JPM, GS, BAC, C: Valuation Over Time") +
-    lims(y = c(-10, 50)) +
-    facet_wrap(~ symbol, ncol = 2)
-{% endhighlight %}
-
-![plot of chunk unnamed-chunk-9](/figure/source/2017-1-8-tidyquant-update-0-2-0/unnamed-chunk-9-1.png)
-
-We now have the price to earnings ratio visualization for the four bank stocks. We can see how the valuation of each stock compares historically and against its peers. Just a few observations:
-
-* GS has the highest current valuation at almost 15X earnings. JPM, C, and BAC are all priced closer to 10X earnings. 
-* BAC is missing some values, which were cut off by the y-limits. This happened after the financial crisis, which may be a red flag since earnings were impacted more than peers.
-* C had negative PE multiples in 2009 and 2010. This was the result of the financial crisis. Again, this may be a red flag.
-
-The P/E multiple is just one of the 89 key ratios that can be used to evaluate stocks that are now available using `tq_get(x, get = "key.ratios")`. 
-
-
-# Example 2: Taking the New Zoo Integration for a Spin <a class="anchor" id="example2"></a>
-
-The `rollapply` functions from the `zoo` package are useful in calculating rolling averages, medians, maximums, etc, which are integral in separating the trend from the noise from time-series. One common technique is use simple moving averages to determine the crossover (which was discussed in my [last post](http://www.mattdancho.com/code-tools/2017/01/01/tidyquant-introduction.html) on `tidyquant`). A potential issue is that an average is more susceptible to outliers. Instead of using averages, let's use the zoo functions to get the 15-day and 50-day rolling medians, which are more resistent to noise. 
-
-First, we get the past year of stock prices for AAPL using `tq_get(get = "stock.prices", from = today - years(1))`. 
-
-
-{% highlight r %}
-AAPL_prices <- tq_get("AAPL", get = "stock.prices", from = today() - years(1))
-AAPL_prices
-{% endhighlight %}
 
 
 
-{% highlight text %}
-## # A tibble: 251 × 7
-##          date   open   high   low  close    volume adjusted
-##        <date>  <dbl>  <dbl> <dbl>  <dbl>     <dbl>    <dbl>
-## 1  2016-01-19  98.41  98.65 95.50  96.66  53087700 94.55621
-## 2  2016-01-20  95.10  98.19 93.42  96.79  72334400 94.68337
-## 3  2016-01-21  97.06  97.88 94.94  96.30  52161500 94.20404
-## 4  2016-01-22  98.63 101.46 98.37 101.42  65800500 99.21260
-## 5  2016-01-25 101.52 101.53 99.21  99.44  51794500 97.27570
-## 6  2016-01-26  99.93 100.88 98.07  99.99  75077000 97.81372
-## 7  2016-01-27  96.04  96.63 93.34  93.42 133369700 91.38672
-## 8  2016-01-28  93.79  94.52 92.39  94.09  55678800 92.04213
-## 9  2016-01-29  94.79  97.34 94.35  97.34  64416500 95.22140
-## 10 2016-02-01  96.47  96.71 95.40  96.43  40943500 94.33121
-## # ... with 241 more rows
-{% endhighlight %}
-
-Next, we use `tq_mutate()` to add the 15-day and 50-day rolling medians. The first two arguments are `ohlc_fun = Cl`, which selects the closing price using `quantmod` OHLC notation, and `mutate_fun = rollapply`, which sends the closing price to the rollapply function. The next arguments, `width` and `FUN` are arguments that are passed to the `rollapply` function. Width is the number of periods to take the median, and FUN is the function we intend to apply (i.e. median). The workflow is as follows:
-
-
-{% highlight r %}
-AAPL_prices <- AAPL_prices %>%
-    tq_mutate(ohlc_fun = Cl, mutate_fun = rollapply, width = 15, FUN = median) %>%
-    tq_mutate(ohlc_fun = Cl, mutate_fun = rollapply, width = 50, FUN = median) %>%
-    rename(median.15 = rollapply,
-           median.50 = rollapply.1)
-AAPL_prices
-{% endhighlight %}
 
 
 
-{% highlight text %}
-## # A tibble: 251 × 9
-##          date   open   high   low  close    volume adjusted median.15
-##        <date>  <dbl>  <dbl> <dbl>  <dbl>     <dbl>    <dbl>     <dbl>
-## 1  2016-01-19  98.41  98.65 95.50  96.66  53087700 94.55621        NA
-## 2  2016-01-20  95.10  98.19 93.42  96.79  72334400 94.68337        NA
-## 3  2016-01-21  97.06  97.88 94.94  96.30  52161500 94.20404        NA
-## 4  2016-01-22  98.63 101.46 98.37 101.42  65800500 99.21260        NA
-## 5  2016-01-25 101.52 101.53 99.21  99.44  51794500 97.27570        NA
-## 6  2016-01-26  99.93 100.88 98.07  99.99  75077000 97.81372        NA
-## 7  2016-01-27  96.04  96.63 93.34  93.42 133369700 91.38672        NA
-## 8  2016-01-28  93.79  94.52 92.39  94.09  55678800 92.04213        NA
-## 9  2016-01-29  94.79  97.34 94.35  97.34  64416500 95.22140        NA
-## 10 2016-02-01  96.47  96.71 95.40  96.43  40943500 94.33121        NA
-## # ... with 241 more rows, and 1 more variables: median.50 <dbl>
-{% endhighlight %}
-
-Two new columns, rollapply and rollapply.1, were added to the tibble. We `rename` these to be more descriptive. The next part is the same visualization code used in the last post. Essentially we `gather` the prices we wish to visualize so they are in one long tibble with two columns, "type" (close, median.15, and median.50) and "value". We color each line by "type" using the ggplot aesthetics.
 
 
 
-{% highlight r %}
-my_palette <- c("black", "blue", "red")
-AAPL_prices %>%
-    select(date, close, median.15, median.50) %>%
-    gather(key = type, value = price, close:median.50) %>%
-    ggplot(aes(x = date, y = price, col = type)) +
-    geom_line() +
-    scale_colour_manual(values = my_palette) + 
-    theme(legend.position="bottom") +
-    ggtitle("Simple Moving Medians are a Breeze with tidyquant") +
-    xlab("") + 
-    ylab("Stock Price")
-{% endhighlight %}
-
-![plot of chunk unnamed-chunk-12](/figure/source/2017-1-8-tidyquant-update-0-2-0/unnamed-chunk-12-1.png)
-
-And, we're done. We now have an alternative to the SMA that is more resistant to changes caused by outliers. 
-
-# Conclusion <a class="anchor" id="conclusion"></a>
-
-The `tidyquant` package is a useful tool for both financial engineers and financial analysts, with tools to collect, analyze, visualize and model financial data. 
- 
-# Recap <a class="anchor" id="recap"></a>
-
-You should now have a good understanding of the benefits and new features of the `tidyquant` package. We addressed some of the benefits that financial engineers and analysts can get from using the package. We discussed new features including key ratios and the `zoo` integration. Eighty nine key ratios are now available using `tq_get()`. The `zoo` `rollapply()` function can be used with `tq_mutate()` and `tq_transform()`. This example just scratches the surface of the power of `tidyquant`. See the [vignette](https://cran.r-project.org/web/packages/tidyquant/vignettes/tidyquant.html) for a detailed discussion on each of the `tidyquant` features.
 
 
-# Further Reading <a class="anchor" id="further-reading"></a>
-
-1. __[tidyquant Vignette](https://CRAN.R-project.org/package=tidyquant)__: This tutorial just scratches the surface of `tidyquant`. The vignette explains much, much more!
-
-2. __[R for Data Science](http://r4ds.had.co.nz/)__: A free book that thoroughly covers the `tidyverse` packages. 
-
-3. __[Quantmod Website](http://www.quantmod.com/)__: Covers many of the `quantmod` functions. Also, see the [quantmod vignette](https://CRAN.R-project.org/package=quantmod).
-
-4. __[Extensible Time-Series Website](http://joshuaulrich.github.io/xts/index.html)__: Covers many of the `xts` functions. Also, see the [xts vignette](https://CRAN.R-project.org/package=xts). 
-
-5. __[TTR Vignette](https://CRAN.R-project.org/package=TTR)__: Covers each of the `TTR` functions. 
