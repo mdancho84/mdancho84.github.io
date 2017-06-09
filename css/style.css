@@ -415,3 +415,8 @@ li {
 /*.tooltip.left > .tooltip-arrow {
       color: red;
 }*/
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
