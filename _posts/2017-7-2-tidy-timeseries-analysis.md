@@ -269,7 +269,7 @@ stats_tidyverse_downloads_w
 ## #   `100%` <dbl>
 {% endhighlight %}
 
-Like before, the data was sectioned by week, but now we have a number of additional features that can be used to visualize volatility in addition to trend. The trend is visualized by the median and the volatility by the first and third quartile. 
+Like before, the data was sectioned by week, but now we have a number of additional features that can be used to visualize volatility in addition to trend. The trend is visualized by the median and the volatility by the first and third quartile. We can also visually recognize the skew caused by the weekends by the space between the 1st Quartile line and the median points on several of the facets. This is an indicator that there may be a separate group to estimate.
 
 
 {% highlight r %}
