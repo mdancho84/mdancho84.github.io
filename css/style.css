@@ -140,7 +140,8 @@ header {
 }
 
 #homepage {
-    background-image: url(../img/header.jpg);
+    /* background-image: url(../img/header.jpg); */
+    background-image: url(../img/math_bkrd.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -158,7 +159,8 @@ header {
 }
 
 #r-packages {
-    background-image: url(../img/header.jpg);
+    /* background-image: url(../img/header.jpg); */
+    background-image: url(../img/math_bkrd.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
