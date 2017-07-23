@@ -178,6 +178,16 @@ header {
     -o-background-size: cover;
 }
 
+#post {
+    /* background-image: url(../img/header.jpg); */
+    background-image: url(../img/math_bkrd.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .nav-logo {
   height: 145%;
 }
