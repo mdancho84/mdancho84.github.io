@@ -163,7 +163,7 @@ As we saw in the tidyverse daily download graph above, it can be difficult to un
 
 Suppose we'd like to investigate if significant changes in trend are taking place among the package downloads such that future downloads are likely to continue to increase, decrease or stay the same. One way to do this is to use moving averages. Rather than try to sift through the noise, we can __use a combination of a fast and slow moving average to detect momentum__. 
 
-We'll create a fast moving average with `width = 30` days (just enough to detrend the data) and a slow moving average with `width = 90` days (slow window = 3X fast window). To do this we apply two calls to `tq_mutate()`, the first for the 30 day (fast) and the second for the 90 day (slow) moving average. There are three groups of arguments we need to supply: 
+We'll create a fast moving average with `width = 28` days (just enough to detrend the data) and a slow moving average with `width = 84` days (slow window = 3X fast window). To do this we apply two calls to `tq_mutate()`, the first for the 28 day (fast) and the second for the 84 day (slow) moving average. There are three groups of arguments we need to supply: 
 
 1. `tq_mutate` args: These `select` the column to apply the mutation to ("count") and the mutation function (`mutate_fun`) to apply (`rollapply` from `zoo`).
 2. `rollapply` args: These set the `width`, `align = "right"` (aligns with end of data frame), and the `FUN` we wish to apply (`mean` in this case).
@@ -180,26 +180,26 @@ tidyverse_downloads_rollmean <- tidyverse_downloads %>%
         select     = count,
         mutate_fun = rollapply, 
         # rollapply args
-        width      = 30,
+        width      = 28,
         align      = "right",
         FUN        = mean,
         # mean args
         na.rm      = TRUE,
         # tq_mutate args
-        col_rename = "mean_30"
+        col_rename = "mean_28"
     ) %>%
     tq_mutate(
         # tq_mutate args
         select     = count,
         mutate_fun = rollapply,
         # rollapply args
-        width      = 90,
+        width      = 84,
         align      = "right",
         FUN        = mean,
         # mean args
         na.rm      = TRUE,
         # tq_mutate args
-        col_rename = "mean_90"
+        col_rename = "mean_84"
     )
 
 # ggplot
@@ -207,12 +207,12 @@ tidyverse_downloads_rollmean %>%
     ggplot(aes(x = date, y = count, color = package)) +
     # Data
     geom_point(alpha = 0.1) +
-    geom_line(aes(y = mean_30), color = palette_light()[[1]], size = 1) +
-    geom_line(aes(y = mean_90), color = palette_light()[[2]], size = 1) +
+    geom_line(aes(y = mean_28), color = palette_light()[[1]], size = 1) +
+    geom_line(aes(y = mean_84), color = palette_light()[[2]], size = 1) +
     facet_wrap(~ package, ncol = 3, scale = "free_y") +
     # Aesthetics
     labs(title = "tidyverse packages: Daily Downloads", x = "",
-         subtitle = "30 and 90 Day Moving Average") +
+         subtitle = "28 and 84 Day Moving Average") +
     scale_color_tq() +
     theme_tq() +
     theme(legend.position="none")
@@ -228,12 +228,12 @@ tidyverse_downloads_rollmean %>%
     ggplot(aes(x = date, color = package)) +
     # Data
     # geom_point(alpha = 0.5) +  # Drop "count" from plots
-    geom_line(aes(y = mean_30), color = palette_light()[[1]], linetype = 1, size = 1) +
-    geom_line(aes(y = mean_90), color = palette_light()[[2]], linetype = 1, size = 1) +
+    geom_line(aes(y = mean_28), color = palette_light()[[1]], linetype = 1, size = 1) +
+    geom_line(aes(y = mean_84), color = palette_light()[[2]], linetype = 1, size = 1) +
     facet_wrap(~ package, ncol = 3, scale = "free_y") +
     # Aesthetics
     labs(title = "tidyverse packages: Daily downloads", x = "", y = "",
-         subtitle = "Zoomed In: 30 and 90 Day Moving Average") +
+         subtitle = "Zoomed In: 28 and 84 Day Moving Average") +
     scale_color_tq() +
     theme_tq() +
     theme(legend.position="none")
@@ -282,7 +282,7 @@ tidyverse_downloads_rollstats <- tidyverse_downloads %>%
         select     = count,
         mutate_fun = rollapply, 
         # rollapply args
-        width      = 30,
+        width      = 28,
         align      = "right",
         by.column  = FALSE,
         FUN        = custom_stat_fun_2,
@@ -326,7 +326,7 @@ tidyverse_downloads_rollstats %>%
     facet_wrap(~ package, ncol = 3, scale = "free_y") +
     # Aesthetics
     labs(title = "tidyverse packages: Volatility and Trend", x = "",
-         subtitle = "30-Day Moving Average with 95% Confidence Interval Bands (+/-2 Standard Deviations)") +
+         subtitle = "28-Day Moving Average with 95% Confidence Interval Bands (+/-2 Standard Deviations)") +
     scale_color_tq(theme = "light") +
     theme_tq() +
     theme(legend.position="none")
