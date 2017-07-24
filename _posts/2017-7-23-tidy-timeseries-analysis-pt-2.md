@@ -322,7 +322,7 @@ tidyverse_downloads_rollstats %>%
     # Data
     geom_point(aes(y = count), color = "grey40", alpha = 0.5) +
     geom_ribbon(aes(ymin = lo.95, ymax = hi.95), alpha = 0.4) +
-    geom_point(aes(y = mean), linetype = 3, size = 1, alpha = 0.5) +
+    geom_point(aes(y = mean), size = 1, alpha = 0.5) +
     facet_wrap(~ package, ncol = 3, scale = "free_y") +
     # Aesthetics
     labs(title = "tidyverse packages: Volatility and Trend", x = "",
