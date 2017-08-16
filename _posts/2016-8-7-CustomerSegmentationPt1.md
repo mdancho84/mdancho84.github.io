@@ -113,7 +113,7 @@ Last, we need to scale the quantity data. Unadjusted quantities presents a probl
 # Convert customer purchase quantity to percentage of total quantity -----------
 customerTrends.mat <- as.matrix(customerTrends[,-(1:5)])  # Drop first five columns
 customerTrends.mat <- prop.table(customerTrends.mat, margin = 2)  # column-wise pct
-customerTrends <- cbind(customerTrends[,1:5], as.data.frame(customerTrends.mat))
+customerTrends <- bind_cols(customerTrends[,1:5], as.data.frame(customerTrends.mat))
 {% endhighlight %}
 
 The final data frame (first five rows shown below) is now ready for clustering. 
@@ -261,7 +261,7 @@ The easiest way to determine the customer preferences is by inspection of factor
 # Combine cluster centroids with bike models for feature inspection ------------
 custSegmentCntrs <- t(km.out.best$centers)  # Get centroids for groups
 colnames(custSegmentCntrs) <- make.names(colnames(custSegmentCntrs))
-customerTrends.clustered <- cbind(customerTrends[,1:5], custSegmentCntrs)
+customerTrends.clustered <- bind_cols(customerTrends[,1:5], as.data.frame(custSegmentCntrs))
 {% endhighlight %}
 
 Now, on to cluster inspection.
@@ -279,18 +279,18 @@ knitr::kable(head(customerTrends.clustered[order(-X1), c(1:5, 6)], 10))
 
 
 
-|   |model                          |category1 |category2          |frame    |price        |        X1|
-|:--|:------------------------------|:---------|:------------------|:--------|:------------|---------:|
-|46 |Scalpel-Si Carbon 3            |Mountain  |Cross Country Race |Carbon   |[3500,12790] | 0.0342692|
-|42 |Jekyll Carbon 4                |Mountain  |Over Mountain      |Carbon   |[ 415, 3500) | 0.0302818|
-|53 |Scalpel 29 Carbon Race         |Mountain  |Cross Country Race |Carbon   |[3500,12790] | 0.0280391|
-|96 |Trigger Carbon 3               |Mountain  |Over Mountain      |Carbon   |[3500,12790] | 0.0259353|
-|35 |Habit Carbon 2                 |Mountain  |Trail              |Carbon   |[3500,12790] | 0.0233750|
-|97 |Trigger Carbon 4               |Mountain  |Over Mountain      |Carbon   |[ 415, 3500) | 0.0232606|
-|20 |Catalyst 4                     |Mountain  |Sport              |Aluminum |[ 415, 3500) | 0.0215639|
-|40 |Jekyll Carbon 2                |Mountain  |Over Mountain      |Carbon   |[3500,12790] | 0.0210792|
-|62 |Supersix Evo Hi-Mod Dura Ace 2 |Road      |Elite Road         |Carbon   |[3500,12790] | 0.0210578|
-|95 |Trigger Carbon 2               |Mountain  |Over Mountain      |Carbon   |[3500,12790] | 0.0210433|
+|model                          |category1 |category2          |frame    |price        |        X1|
+|:------------------------------|:---------|:------------------|:--------|:------------|---------:|
+|Scalpel-Si Carbon 3            |Mountain  |Cross Country Race |Carbon   |[3500,12790] | 0.0342692|
+|Jekyll Carbon 4                |Mountain  |Over Mountain      |Carbon   |[ 415, 3500) | 0.0302818|
+|Scalpel 29 Carbon Race         |Mountain  |Cross Country Race |Carbon   |[3500,12790] | 0.0280391|
+|Trigger Carbon 3               |Mountain  |Over Mountain      |Carbon   |[3500,12790] | 0.0259353|
+|Habit Carbon 2                 |Mountain  |Trail              |Carbon   |[3500,12790] | 0.0233750|
+|Trigger Carbon 4               |Mountain  |Over Mountain      |Carbon   |[ 415, 3500) | 0.0232606|
+|Catalyst 4                     |Mountain  |Sport              |Aluminum |[ 415, 3500) | 0.0215639|
+|Jekyll Carbon 2                |Mountain  |Over Mountain      |Carbon   |[3500,12790] | 0.0210792|
+|Supersix Evo Hi-Mod Dura Ace 2 |Road      |Elite Road         |Carbon   |[3500,12790] | 0.0210578|
+|Trigger Carbon 2               |Mountain  |Over Mountain      |Carbon   |[3500,12790] | 0.0210433|
 
 #### Cluster 2
 
@@ -304,18 +304,18 @@ knitr::kable(head(customerTrends.clustered[order(-X2), c(1:5, 7)], 10))
 
 
 
-|   |model               |category1 |category2          |frame    |price        |        X2|
-|:--|:-------------------|:---------|:------------------|:--------|:------------|---------:|
-|57 |Slice Ultegra       |Road      |Triathalon         |Carbon   |[ 415, 3500) | 0.0554531|
-|97 |Trigger Carbon 4    |Mountain  |Over Mountain      |Carbon   |[ 415, 3500) | 0.0304147|
-|7  |CAAD12 105          |Road      |Elite Road         |Aluminum |[ 415, 3500) | 0.0270792|
-|5  |Beast of the East 3 |Mountain  |Trail              |Aluminum |[ 415, 3500) | 0.0263331|
-|89 |Trail 1             |Mountain  |Sport              |Aluminum |[ 415, 3500) | 0.0249397|
-|1  |Bad Habit 1         |Mountain  |Trail              |Aluminum |[ 415, 3500) | 0.0229976|
-|26 |F-Si Carbon 4       |Mountain  |Cross Country Race |Carbon   |[ 415, 3500) | 0.0224490|
-|9  |CAAD12 Disc 105     |Road      |Elite Road         |Aluminum |[ 415, 3500) | 0.0209568|
-|81 |Synapse Disc 105    |Road      |Endurance Road     |Aluminum |[ 415, 3500) | 0.0209568|
-|90 |Trail 2             |Mountain  |Sport              |Aluminum |[ 415, 3500) | 0.0203094|
+|model               |category1 |category2          |frame    |price        |        X2|
+|:-------------------|:---------|:------------------|:--------|:------------|---------:|
+|Slice Ultegra       |Road      |Triathalon         |Carbon   |[ 415, 3500) | 0.0554531|
+|Trigger Carbon 4    |Mountain  |Over Mountain      |Carbon   |[ 415, 3500) | 0.0304147|
+|CAAD12 105          |Road      |Elite Road         |Aluminum |[ 415, 3500) | 0.0270792|
+|Beast of the East 3 |Mountain  |Trail              |Aluminum |[ 415, 3500) | 0.0263331|
+|Trail 1             |Mountain  |Sport              |Aluminum |[ 415, 3500) | 0.0249397|
+|Bad Habit 1         |Mountain  |Trail              |Aluminum |[ 415, 3500) | 0.0229976|
+|F-Si Carbon 4       |Mountain  |Cross Country Race |Carbon   |[ 415, 3500) | 0.0224490|
+|CAAD12 Disc 105     |Road      |Elite Road         |Aluminum |[ 415, 3500) | 0.0209568|
+|Synapse Disc 105    |Road      |Endurance Road     |Aluminum |[ 415, 3500) | 0.0209568|
+|Trail 2             |Mountain  |Sport              |Aluminum |[ 415, 3500) | 0.0203094|
 
 
 
@@ -347,3 +347,5 @@ The customer segmentation process can be performed with various clustering algor
 ## Updates <a class="anchor" id="updates"></a>
 
 1. August 28, 2016: There was an issue with the `set.seed()` being outside of the for-loop in the _k_-means algorithm preventing the kmeans output from being completely reproducible. The `set.seed()` was moved inside the for-loop.
+
+2. August 16, 2017: There is an issue with `cbind()` from base R that resulted in data frames binding incorrectly. The `bind_cols()` function from `dplyr` is used instead.
