@@ -106,7 +106,7 @@ tidyverse_downloads %>%
 
 The [lag operator](https://en.wikipedia.org/wiki/Lag_operator) (also known as backshift operator) is a function that shifts (offsets) a time series such that the "lagged" values are aligned with the actual time series. The lags can be shifted any number of units, which simply controls the length of the backshift. The picture below illustrates the lag operation for lags 1 and 2. 
 
-![Rolling Correlation Example](/assets/lag-explanation.png)
+![Lag Example](/assets/lag-explanation.PNG)
 
 Lags are very useful in time series analysis because of a phenomenon called [autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation), which is a tendency for the values within a time series to be correlated with previous copies of itself. One benefit to autocorrelation is that we can __identify patterns within the time series__, which helps in determining [seasonality](https://en.wikipedia.org/wiki/Seasonality), the tendency for patterns to repeat at periodic frequencies. Understanding how to calculate lags and analyze autocorrelation will be the focus of this post. 
 
