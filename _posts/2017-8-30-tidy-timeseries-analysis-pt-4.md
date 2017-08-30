@@ -474,7 +474,7 @@ tidyverse_absolute_autocorrelations
 ## # ... with 242 more rows
 {% endhighlight %}
 
-We can now visualize the absolute correlations using a __box plot that lumps each of the lags together__. We can add a line to indicate the presence of outliers at values above $1.5IQR$. If the values are consistently above this, the lag can be considered an outlier. Note that we use the `fct_reorder()` function from `forcats` to organize the boxplot in order of decending magnitude. 
+We can now visualize the absolute correlations using a __box plot that lumps each of the lags together__. We can add a line to indicate the presence of outliers at values above $$1.5IQR$$. If the values are consistently above this limit, the lag can be considered an outlier. Note that we use the `fct_reorder()` function from `forcats` to organize the boxplot in order of decending magnitude. 
 
 
 {% highlight r %}
@@ -484,7 +484,7 @@ tidyverse_absolute_autocorrelations %>%
     ggplot(aes(x = fct_reorder(lag, cor_abs, .desc = TRUE) , y = cor_abs)) +
     # Add boxplot
     geom_boxplot(color = palette_light()[[1]]) +
-    # Add horizontal line at 0.63 correlation
+    # Add horizontal line at outlier break point
     geom_hline(yintercept = break_point, color = "red") +
     annotate("text", label = paste0("Outlier Break Point = ", break_point), 
              x = 24.5, y = break_point + .03, color = "red") +
@@ -505,7 +505,7 @@ tidyverse_absolute_autocorrelations %>%
 ![plot of chunk unnamed-chunk-15](/figure/source/2017-8-30-tidy-timeseries-analysis-pt-4/unnamed-chunk-15-1.png)
 
 
-__Lags in multiples of seven have the highest autocorrelation indicating the presence of a strong weekly pattern.__ The autocorrelation with the seven-day lag is the highest, with a median of approximately 0.75. Lags 14, 21, and 28 are also outliers with median autocorrelations in excess of our outlier break point of 0.471. 
+__Lags in multiples of seven have the highest autocorrelation and are consistently above the outlier break point indicating the presence of a strong weekly pattern.__ The autocorrelation with the seven-day lag is the highest, with a median of approximately 0.75. Lags 14, 21, and 28 are also outliers with median autocorrelations in excess of our outlier break point of 0.471. 
 
 Note that the median of Lag 1 is essentially at the break point indicating that half of the packages have a presence of "abnormal" autocorrelation. However, this is not part of a seasonal pattern since a periodic frequency is not present. 
 
