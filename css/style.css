@@ -61,8 +61,25 @@ h5 {
     padding-bottom: 10px;
 }
 
+h6 {
+    font-size: 14px !important;
+  	margin-top: 10px !important;
+    padding-bottom: 5px;
+}
+
 p {
   /*margin: 15px 0;*/
+}
+
+.tab-pane{
+  height: 400px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+#homepage-entry > p{
+    font-size: 12px;
+    width: 90%;
 }
 
 /*small {
