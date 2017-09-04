@@ -23,13 +23,15 @@ $( document ).ready(function() {
                 offset: {top:-20} //needed for the affix to work, must be negative otherwise fadeout does not work
             });
             TweenMax.to($topLinkBlock, 0.5, {
-                right: "2%",
-                x: 0
+                left: "2%",
+                x: 0,
+                y: -20
             });
         } else {
             TweenMax.to($topLinkBlock, 2.0, {
-                right: "-50%",
-                x: 0
+                left: "-50%",
+                x: 0,
+                y: -20
             });
         }
     });
