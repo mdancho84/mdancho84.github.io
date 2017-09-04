@@ -45,19 +45,19 @@ h2 {
 
 h3 {
   	font-size: 28px !important;
-  	margin-top: 60px !important;
+  	margin-top: 40px !important;
     padding-bottom: 20px;
 }
 
 h4 {
   	font-size: 22px !important;
-  	margin-top: 40px !important;
+  	margin-top: 20px !important;
     padding-bottom: 10px;
 }
 
 h5 {
 	  font-size: 18px !important;
-  	margin-top: 30px !important;
+  	margin-top: 10px !important;
     padding-bottom: 10px;
 }
 
@@ -240,7 +240,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     #homepage {
-        min-height: 1000px;
+        min-height: 500px;
     }
 
     header .header-content {
@@ -319,6 +319,24 @@ aside .intro-text .skills {
 
 li {
   font-size: 20px;
+}
+
+.ul-small{
+    padding-left: 20px;
+}
+
+.ul-small > li{
+    font-size: 15px;
+}
+
+.ul-small > li > a {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.ul-small > li > p {
+    font-size: 15px;
+    padding-left: 20px;
 }
 
 /*images*/
