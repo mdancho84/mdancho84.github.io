@@ -23,7 +23,7 @@ $( document ).ready(function() {
                 offset: {top: -20} //needed for the affix to work, must be negative otherwise fadeout does not work
             });
             TweenMax.to($topLinkBlock, 0.5, {
-                left: "3%",
+                left: "2.5%",
                 x: 0,
                 y: -20
             });
