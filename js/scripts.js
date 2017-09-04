@@ -20,10 +20,10 @@ $( document ).ready(function() {
     $(window).scroll(function(){
         if ($(this).scrollTop() > 100) {    //Check to see if the window is top if not then display button
             $topLinkBlock.affix({
-                offset: {top:-20} //needed for the affix to work, must be negative otherwise fadeout does not work
+                offset: {top: -20} //needed for the affix to work, must be negative otherwise fadeout does not work
             });
             TweenMax.to($topLinkBlock, 0.5, {
-                left: "2%",
+                left: "3%",
                 x: 0,
                 y: -20
             });
