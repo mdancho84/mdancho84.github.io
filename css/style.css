@@ -241,6 +241,7 @@ header .header-content .header-content-inner p {
 @media(min-width:768px) {
     #homepage {
         min-height: 600px;
+
     }
 
     header .header-content {
