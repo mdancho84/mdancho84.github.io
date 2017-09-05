@@ -1,6 +1,6 @@
 status,date,event,link,description,
 current,2017-09-19,Panama R User Group,https://secure.meetup.com/register/?ctx=ref,"Matt is presenting on time series analysis including R packages <code>tidyquant</code>, <code>timetk</code> and <code>sweep</code>",
 current,2017-11-01,"EARL Boston","https://earlconf.com/boston/","Matt will be there supporting one of our clients, <a href='https://www.healthyhive.com/'>Hiveaway</a>, and potentially speaking (presentation topic TBD)",
-current,2018-01-31,rsudio::conf2018,"https://www.rstudio.com/conference/","Davis will be in attendance. See him for tidyquant stickers!",
+current,2018-01-31,rsudio::conf2018,"https://www.rstudio.com/conference/","Davis will be in attendance. See him for <code>tidyquant</code> stickers!",
 past,2017-06-05,EARL San Francisco,"https://earlconf.com/sanfrancisco/","<a href='https://www.youtube.com/watch?v=8BYjv1AKI1Y&index=2&list=PLo32uKohmrXtepF9JgZlA5uNt7CP-SF5k'>New tools for performing financial and time series analysis within the tidyverse</a>",
 past,2017-05-19,R/Finance 2017,"https://channel9.msdn.com/Events/RFinance/RFinance-2017","<a href='https://www.youtube.com/watch?v=yIbgf9zasaY&list=PLo32uKohmrXtepF9JgZlA5uNt7CP-SF5k'>New tools for performing financial within the tidyverse</a>"
