@@ -40,7 +40,7 @@ $( document ).ready(function() {
           var w = $(img).prop('naturalWidth');
           var h = $(img).prop('naturalHeight');
           $(img).css({
-            'width':  Math.round(containerHeight * w / h) + 'px',
+            //'width':  Math.round(containerHeight * w / h) + 'px',
             'height': '250px' //containerHeight + 'px'
           });
         }),
