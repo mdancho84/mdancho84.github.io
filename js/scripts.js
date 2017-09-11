@@ -12,6 +12,7 @@ $( document ).ready(function() {
 // Tooltip Hover Over
     $('[data-toggle="tooltip"]').tooltip();
 
+
 // Owl Carousel
     $('.owl-carousel').owlCarousel({
         loop:true,
