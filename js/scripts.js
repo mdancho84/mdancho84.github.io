@@ -12,6 +12,42 @@ $( document ).ready(function() {
 // Tooltip Hover Over
     $('[data-toggle="tooltip"]').tooltip();
 
+// Owl Carousel
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        autoplay: 1000, //Set AutoPlay to 3 seconds
+        center:true,
+        margin:10,
+        dots:true,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    });
+    //fix images
+    $(".owl-carousel").each(function(index, el) {
+        var containerHeight = $(el).height();
+        $(el).find("img").each(function(index, img) {
+          var w = $(img).prop('naturalWidth');
+          var h = $(img).prop('naturalHeight');
+          $(img).css({
+            'width':  Math.round(containerHeight * w / h) + 'px',
+            'height': '250px' //containerHeight + 'px'
+          });
+        }),
+        $(el).owlCarousel({
+          autoWidth: true
+        });
+    });
+
 
 // Scroll Top Button
 
