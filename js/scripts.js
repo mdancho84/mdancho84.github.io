@@ -17,6 +17,7 @@ $( document ).ready(function() {
     $('.owl-carousel').owlCarousel({
         loop:true,
         autoplay: 1000, //Set AutoPlay to 3 seconds
+        autoplayHoverPause:true,
         center:true,
         margin:10,
         dots:true,
