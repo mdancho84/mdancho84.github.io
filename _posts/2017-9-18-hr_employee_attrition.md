@@ -176,12 +176,12 @@ h2o.init()
 ##  Connection successful!
 ## 
 ## R is connected to the H2O cluster: 
-##     H2O cluster uptime:         13 hours 46 minutes 
+##     H2O cluster uptime:         1 hours 16 minutes 
 ##     H2O cluster version:        3.15.0.4004 
-##     H2O cluster version age:    23 days  
-##     H2O cluster name:           H2O_started_from_R_mdanc_kdu471 
+##     H2O cluster version age:    24 days  
+##     H2O cluster name:           H2O_started_from_R_mdanc_zpi346 
 ##     H2O cluster total nodes:    1 
-##     H2O cluster total memory:   3.17 GB 
+##     H2O cluster total memory:   3.27 GB 
 ##     H2O cluster total cores:    8 
 ##     H2O cluster allowed cores:  8 
 ##     H2O cluster healthy:        TRUE 
@@ -253,7 +253,6 @@ automl_models_h2o <- h2o.automl(
 
 
 
-
 All of the models are stored the `automl_models_h2o` object. However, we are only concerned with the leader, which is the best model in terms of accuracy on the validation set. We'll extract it from the models object.
 
 
@@ -313,8 +312,9 @@ We can use the `table()` function to quickly get a confusion table of the result
 
 {% highlight r %}
 # Confusion table counts
-test_performance %>%
+confusion_matrix <- test_performance %>%
     table() 
+confusion_matrix
 {% endhighlight %}
 
 
@@ -326,47 +326,59 @@ test_performance %>%
 ##       Yes  11  18
 {% endhighlight %}
 
-We can review from a percentage standpoint. We had 7% Type I Error (predicted to quit, but actually stayed) and 5% Type II Error (predicted to stay, but actually quit).
+We'll run through a binary classification analysis to understand the model performance. 
 
 
 {% highlight r %}
-# Confusion table percentages
-test_performance %>%
-    table() %>%
-    prop.table()
+# Performance analysis
+tn <- confusion_matrix[1]
+tp <- confusion_matrix[4]
+fp <- confusion_matrix[3]
+fn <- confusion_matrix[2]
+
+accuracy <- (tp + tn) / (tp + tn + fp + fn)
+misclassification_rate <- 1 - accuracy
+recall <- tp / (tp + fn)
+precision <- tp / (tp + fp)
+null_error_rate <- tn / (tp + tn + fp + fn)
+
+tibble(
+    accuracy,
+    misclassification_rate,
+    recall,
+    precision,
+    null_error_rate
+) %>% 
+    transpose() 
 {% endhighlight %}
 
 
 
 {% highlight text %}
-##          pred
-## Attrition         No        Yes
-##       No  0.79146919 0.07109005
-##       Yes 0.05213270 0.08530806
+## [[1]]
+## [[1]]$accuracy
+## [1] 0.8767773
+## 
+## [[1]]$misclassification_rate
+## [1] 0.1232227
+## 
+## [[1]]$recall
+## [1] 0.6206897
+## 
+## [[1]]$precision
+## [1] 0.5454545
+## 
+## [[1]]$null_error_rate
+## [1] 0.7914692
 {% endhighlight %}
 
-And the final performance from a percentage-standpoint is about 88% accuracy.
+It is important to understand is that the accuracy can be misleading: 88% sounds pretty good especially for modeling HR data, but if we just pick Attrition = NO we would get an accuracy of about 79%. Doesn't sound so great now. 
 
+Before we make our final judgement, let's dive a little deeper into __precision__ and __recall__. Precision is when the model predicts yes, how often is it actually yes. Recall (also true positive rate or specificity) is when the actual value is yes how often is the model correct. Confused yet? Let's explain in terms of what's important to HR.
 
-{% highlight r %}
-# Overall performance
-test_performance %>%
-    mutate(correct = case_when(
-        Attrition == pred ~ 1,
-        TRUE ~ 0
-    )) %>%
-    summarize(correct_pct = sum(correct) / n())
-{% endhighlight %}
+Most HR groups would probably prefer to incorrectly classify folks not looking to quit as high potential of quiting rather than classify those that are likely to quit as not at risk. Because it's important to not miss at risk employees, __HR will really care about recall__ or when the actual value is Attrition = YES how often the model predicts YES. 
 
-
-
-{% highlight text %}
-## # A tibble: 1 x 1
-##   correct_pct
-##         <dbl>
-## 1   0.8767773
-{% endhighlight %}
-
+Recall for our model is 62%. In an HR context, this is 62% more employees that could potentially be targeted prior to quiting. From that standpoint, an organization that loses 100 people per year could possibly target 62 implementing measures to retain.
 
 ### LIME
 
@@ -497,7 +509,7 @@ plot_features(explanation) +
          subtitle = "Hold Out (Test) Set, First 10 Cases Shown")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-28](/figure/source/2017-9-18-hr_employee_attrition/unnamed-chunk-28-1.png)
+![plot of chunk unnamed-chunk-26](/figure/source/2017-9-18-hr_employee_attrition/unnamed-chunk-26-1.png)
 
 
 ## What Features Are Linked To Employee Attrition?
@@ -543,23 +555,24 @@ attrition_critical_features
 
 From the violin plot, the employees that stay tend to have a large peaks at two and three trainings per year whereas the employees that leave tend to have a large peak at two trainings per year. This suggests that employees with more trainings may be less likely to leave. 
 
-![plot of chunk unnamed-chunk-30](/figure/source/2017-9-18-hr_employee_attrition/unnamed-chunk-30-1.png)
+![plot of chunk unnamed-chunk-28](/figure/source/2017-9-18-hr_employee_attrition/unnamed-chunk-28-1.png)
 
 #### Overtime
 
 The plot below shows a very interesting relationship: a very high proportion of employees that turnover are working over time. The opposite is true for employees that stay.
 
-![plot of chunk unnamed-chunk-31](/figure/source/2017-9-18-hr_employee_attrition/unnamed-chunk-31-1.png)
+![plot of chunk unnamed-chunk-29](/figure/source/2017-9-18-hr_employee_attrition/unnamed-chunk-29-1.png)
 
 #### Job Role
 
 Several job roles are experiencing more turnover. Sales reps have the highest turnover at about 40% followed by Lab Technician, Human Resources, Sales Executive, and Research Scientist. It may be worthwhile to investigate what localized issues could be creating the high turnover among these groups within the organization.  
 
-![plot of chunk unnamed-chunk-32](/figure/source/2017-9-18-hr_employee_attrition/unnamed-chunk-32-1.png)
+![plot of chunk unnamed-chunk-30](/figure/source/2017-9-18-hr_employee_attrition/unnamed-chunk-30-1.png)
 
 ## Conclusions
 
 There's a lot to take away from this article. We showed how you can use predictive analytics to develop sophisticated models that __very accurately detect employees that are at risk of turnover__. The __autoML algorithm from H2O.ai__ worked well for classifying attrition with an accuracy around 87% on unseen / unmodeled data. We then used __LIME to breakdown the complex ensemble model returned from H2O into critical features that are related to attrition__. Overall, this is a really useful example where we can see how machine learning and data science can be used in business applications. 
+
 
 ## About Business Science <a class="anchor" id="contact"></a>
 
