@@ -3,7 +3,7 @@ layout: post
 title:  "HR Analytics: Using Machine Learning to Predict Employee Turnover"
 author: "Matt Dancho"
 categories: [Business]
-tags: [R-Project, R, h2o, lime]
+tags: [R-Project, R, h2o, lime, Employee Turnover]
 image: hr_employee_attrition.png
 ---
 
@@ -173,15 +173,23 @@ h2o.init()
 
 
 {% highlight text %}
-##  Connection successful!
+## 
+## H2O is not running yet, starting it now...
+## 
+## Note:  In case of errors look at the following log files:
+##     C:\Users\mdanc\AppData\Local\Temp\RtmpMdwBB4/h2o_mdanc_started_from_r.out
+##     C:\Users\mdanc\AppData\Local\Temp\RtmpMdwBB4/h2o_mdanc_started_from_r.err
+## 
+## 
+## Starting H2O JVM and connecting: . Connection successful!
 ## 
 ## R is connected to the H2O cluster: 
-##     H2O cluster uptime:         1 hours 16 minutes 
+##     H2O cluster uptime:         2 seconds 524 milliseconds 
 ##     H2O cluster version:        3.15.0.4004 
-##     H2O cluster version age:    24 days  
-##     H2O cluster name:           H2O_started_from_R_mdanc_zpi346 
+##     H2O cluster version age:    28 days, 20 hours and 35 minutes  
+##     H2O cluster name:           H2O_started_from_R_mdanc_pul628 
 ##     H2O cluster total nodes:    1 
-##     H2O cluster total memory:   3.27 GB 
+##     H2O cluster total memory:   3.52 GB 
 ##     H2O cluster total cores:    8 
 ##     H2O cluster allowed cores:  8 
 ##     H2O cluster healthy:        TRUE 
