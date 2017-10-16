@@ -899,8 +899,8 @@ $$ EV = \sum_{i=1}^{N} p_i*v_i $$
 
 Where,
 
-- _p~i~_ is the probability of the outcome for one observation
-- _v~i~_ is the value of the outcome for one observation
+- _p<sub>i</sub>_ is the probability of the outcome for one observation
+- _v<sub>i</sub>_ is the value of the outcome for one observation
 
 The general form isn't very useful, but from it we can create an __Expected Profit__ equation using a basic rule of probability _p(x,y) = p(y)*p(x\|y)_ that combines both the Expected Rates (2x2 matrix of probabilities after normalization of Confusion Matrix) and a Cost/Benefit Matrix (2x2 matrix with expected costs and benefits). Refer to _Data Science for Business_ for the proof. 
 
@@ -1134,7 +1134,7 @@ total_expected_profit_ten_items %>%
 
 # Conclusions
 
-This was a very technical and detailed post, and if you made it through congratulations! We covered automated machine learning with H2O, an efficient and high accuracy tool for prediction. We worked with an extremely unbalanced data set, showing how SMOTE can be used to synthetically improve dataset balance and ultimately model performance. We spent a considerable amount of effort optimizing the cutoff (threshold) selection to maximize expected profit, which ultimately matters most to the bottom line. Hopefully you can see how data science and machine learning can be very beneficial to the business, enabling better decisions and ROI.  
+This was a very technical and detailed post, and if you made it through congratulations! We covered __automated machine learning with H2O__, an efficient and high accuracy tool for prediction. We worked with an extremely unbalanced data set, showing how to use __SMOTE to synthetically improve dataset balance__ and ultimately model performance. We spent a considerable amount of effort __optimizing the cutoff (threshold) selection to maximize expected profit__, which ultimately matters most to the bottom line. Hopefully you can see how data science and machine learning can be very beneficial to the business, enabling better decisions and ROI.  
 
 # Announcements <a class="anchor" id="announcements"></a>
 
