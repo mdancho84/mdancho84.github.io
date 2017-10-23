@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Demo Week: class(Monday) &lt- tidyquant"
+title:  "Demo Week: class&#40Monday&#41 &lt- tidyquant"
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, tidyquant]
