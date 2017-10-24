@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Demo Week: class(Tuesday) &lt;- timetk"
+title:  "Demo Week: Time Series Machine Learning with timetk"
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, timetk]
