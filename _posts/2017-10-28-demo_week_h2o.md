@@ -302,7 +302,7 @@ h2o.init()        # Fire up h2o
 ##  Connection successful!
 ## 
 ## R is connected to the H2O cluster: 
-##     H2O cluster uptime:         26 minutes 14 seconds 
+##     H2O cluster uptime:         46 minutes 4 seconds 
 ##     H2O cluster version:        3.14.0.3 
 ##     H2O cluster version age:    1 month and 5 days  
 ##     H2O cluster name:           H2O_started_from_R_mdancho_pcs046 
@@ -603,6 +603,21 @@ We've only scratched the surface of `h2o`. There's more to learn including worki
 # Announcements <a class="anchor" id="announcements"></a>
 
 We have a busy couple of weeks. In addition to Demo Week, we have:
+
+#### Facebook LIVE DataTalk
+
+Matt was recently hosted on Experian DataLabs live webcast, #DataTalk, where he spoke about [Machine Learning in Human Resources](https://www.facebook.com/experiannews/videos/1749616808676222/?hc_ref=ARR0oYeZnCOmpHroDqlluVyco3T0s0afqbmRJyrCB3WILri12itbXYYm4CfowCzQiL8). __The talk already has 80K+ views and is growing__!! Check it out if you are interested in #rstats, #hranalytics and #MachineLearning.
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-video" data-href="https://www.facebook.com/experiannews/videos/1749616808676222/?hc_ref=ARR0oYeZnCOmpHroDqlluVyco3T0s0afqbmRJyrCB3WILri12itbXYYm4CfowCzQiL8" data-width="500" data-show-text="false"><blockquote cite="https://www.facebook.com/experiannews/videos/1749616808676222/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/experiannews/videos/1749616808676222/">Machine Learning to Reduce Employee Attrition</a><p>Machine Learning to Reduce Employee Attrition w/ Business Science, LLC</p>Posted by <a href="https://www.facebook.com/experiannews/">Experian News</a> on Thursday, October 26, 2017</blockquote></div>
 
 #### EARL
 
