@@ -77,6 +77,12 @@ p {
   width: 100%;
 }
 
+.tab-pane-sm{
+  height: 300px;
+  overflow-y: scroll;
+  width: 100%;
+}
+
 #homepage-entry > p{
     font-size: 12px;
     width: 90%;

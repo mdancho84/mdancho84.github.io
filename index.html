@@ -144,53 +144,53 @@ title: Business Science
                 <h3>See Us In Person</h3>
                 <hr>
             </div>
-            <!-- Left column -->
+            <!-- Left column: Current Events -->
             <div class="col-md-6">
                 <div class="panel panel-primary" style="min-height=400px;">
                   <div class="panel-heading">
                     <h5 class="panel-title">Upcoming Events</h5>
                   </div>
                   <div class="panel-body">
-                    <ul class = "ul-small" style="list-style-type: none;">
-
-                        <!-- Current Events -->
-                        {% assign sorted_events = site.data.events | where:"status","current"| sort:"date" %}
-                        {% for event_item in sorted_events limit:4 %}
-                        <li><i class="fa fa-2x fa-map-marker" aria-hidden="true"></i>
-                            <a href="{{ event_item.link }}">
-                                {{ event_item.date | date: "%b %d, %Y"}}: {{ event_item.event }}
-                            </a>
-                            <br />
-                            <p>{{ event_item.description }}</p>
-                        </li>
-                        {% endfor %}
-
-                    </ul>
+                      <div class="tab-pane-sm">
+                          <ul class = "ul-small" style="list-style-type: none;">
+                            {% assign sorted_events = site.data.events | where:"status","current"| sort:"date" %}
+                            {% for event_item in sorted_events limit:4 %}
+                            <li><i class="fa fa-2x fa-map-marker" aria-hidden="true"></i>
+                                <a href="{{ event_item.link }}">
+                                    {{ event_item.date | date: "%b %d, %Y"}}: {{ event_item.event }}
+                                </a>
+                                <br />
+                                <p>{{ event_item.description }}</p>
+                            </li>
+                            {% endfor %}
+    
+                        </ul>
+                      </div>
                   </div>
                 </div>
             </div>
-            <!-- Right column -->
+            <!-- Right column: Past Events -->
             <div class="col-md-6">
                 <div class="panel panel-primary" style="min-height=400px;">
                   <div class="panel-heading">
                     <h5 class="panel-title">Past Events</h5>
                   </div>
                   <div class="panel-body">
-                    <ul class = "ul-small" style="list-style-type: none;">
-
-                        <!-- Past Events -->
-                        {% assign sorted_events = site.data.events | where:"status","past"| sort:"date" | reverse %}
-                        {% for event_item in sorted_events limit:4 %}
-                        <li><i class="fa fa-2x fa-map-marker" aria-hidden="true"></i>
-                            <a href="{{ event_item.link }}">
-                                {{ event_item.date | date: "%b %d, %Y"}}: {{ event_item.event }}
-                            </a>
-                            <br />
-                            <p>{{ event_item.description }}</p>
-                        </li>
-                        {% endfor %}
-
-                    </ul>
+                      <div class="tab-pane-sm">
+                          <ul class = "ul-small" style="list-style-type: none;">
+                            {% assign sorted_events = site.data.events | where:"status","past"| sort:"date" | reverse %}
+                            {% for event_item in sorted_events limit:4 %}
+                            <li><i class="fa fa-2x fa-map-marker" aria-hidden="true"></i>
+                                <a href="{{ event_item.link }}">
+                                    {{ event_item.date | date: "%b %d, %Y"}}: {{ event_item.event }}
+                                </a>
+                                <br />
+                                <p>{{ event_item.description }}</p>
+                            </li>
+                            {% endfor %}
+    
+                        </ul>
+                      </div>
                   </div>
                 </div>
             </div>
