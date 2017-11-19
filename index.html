@@ -154,7 +154,8 @@ title: Business Science
                       <div class="tab-pane-sm">
                           <ul class = "ul-small" style="list-style-type: none;">
                             {% assign sorted_events = site.data.events | where:"status","current"| sort:"date" %}
-                            {% for event_item in sorted_events limit:4 %}
+                            <!--{% for event_item in sorted_events limit:4 %}-->
+                            {% for event_item in sorted_events %}
                             <li><i class="fa fa-2x fa-map-marker" aria-hidden="true"></i>
                                 <a href="{{ event_item.link }}">
                                     {{ event_item.date | date: "%b %d, %Y"}}: {{ event_item.event }}
@@ -179,7 +180,8 @@ title: Business Science
                       <div class="tab-pane-sm">
                           <ul class = "ul-small" style="list-style-type: none;">
                             {% assign sorted_events = site.data.events | where:"status","past"| sort:"date" | reverse %}
-                            {% for event_item in sorted_events limit:4 %}
+                            <!--{% for event_item in sorted_events limit:4 %}-->
+                            {% for event_item in sorted_events %}
                             <li><i class="fa fa-2x fa-map-marker" aria-hidden="true"></i>
                                 <a href="{{ event_item.link }}">
                                     {{ event_item.date | date: "%b %d, %Y"}}: {{ event_item.event }}
