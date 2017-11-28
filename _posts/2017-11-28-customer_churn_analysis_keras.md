@@ -45,7 +45,7 @@ In this example we show you how to use [`keras`](https://tensorflow.rstudio.com/
 
 We have some fun with preprocessing the data (_yes, preprocessing can actually be fun and easy!_). We use the new [`recipes`](https://topepo.github.io/recipes) package to simplify the preprocessing workflow. 
 
-We end by showing you how to explain the ANN with the [`lime`](https://github.com/thomasp85/lime) package. __Neural networks used to be frowned upon because of the "black box" nature__ meaning these sophisticated models (ANNs are highly accurate) are difficult to explain using traditional methods. __Not no more with LIME!__ Here's the feature importance visualization.
+We end by showing you how to explain the ANN with the [`lime`](https://github.com/thomasp85/lime) package. __Neural networks used to be frowned upon because of the "black box" nature__ meaning these sophisticated models (ANNs are highly accurate) are difficult to explain using traditional methods. __Not any more with LIME!__ Here's the feature importance visualization.
 
 ![LIME Feature Importance](/assets/customer_churn_analysis_lime.png)
 
