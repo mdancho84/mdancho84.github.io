@@ -25,6 +25,10 @@ body {
     padding: 7.5px 15px;
 }
 
+.navbar-nav li {
+  font-size: 18px;
+}
+
 /*#inline {
   display: inline-block;
 }*/
