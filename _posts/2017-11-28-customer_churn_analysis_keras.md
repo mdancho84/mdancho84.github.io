@@ -661,7 +661,13 @@ estimates_keras_tbl
 ## # ... with 1,396 more rows
 {% endhighlight %}
 
-Now that we have the data formatted, we can take advantage of the `yardstick` package. 
+Now that we have the data formatted, we can take advantage of the `yardstick` package. The only other thing we need to do is to set `options(yardstick.event_first = FALSE)`. As pointed out by [ad1729]() in [GitHub Issue 13](options(yardstick.event_first = FALSE)), the default is to classify 0 as the positive class instead of 1. 
+
+
+{% highlight r %}
+options(yardstick.event_first = FALSE)
+{% endhighlight %}
+
 
 #### Confusion Table
 
@@ -737,7 +743,7 @@ tibble(
 ## # A tibble: 1 x 2
 ##   precision    recall
 ##       <dbl>     <dbl>
-## 1 0.8550855 0.9056244
+## 1 0.6644068 0.5490196
 {% endhighlight %}
 
 Precision and recall are very important to the business case: The organization is concerned with __balancing the cost of targeting and retaining customers at risk of leaving with the cost of inadvertently targeting customers that are not planning to leave__ (and potentially decreasing revenue from this group). The threshold above which to predict Churn = "Yes" can be adjusted to optimize for the business problem. This becomes an __Customer Lifetime Value optimization problem__ that is discussed further in [Next Steps](#next-steps).
@@ -756,7 +762,7 @@ estimates_keras_tbl %>% f_meas(truth, estimate, beta = 1)
 
 
 {% highlight text %}
-## [1] 0.8796296
+## [1] 0.601227
 {% endhighlight %}
 
 
@@ -883,7 +889,7 @@ plot_features(explanation) +
          subtitle = "Hold Out (Test) Set, First 10 Cases Shown")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-40](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-40-1.png)
+![plot of chunk unnamed-chunk-41](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-41-1.png)
 
 Another excellent visualization can be performed using `plot_explanations()`, which produces a facetted heatmap of all case/label/feature combinations. It's a more condensed version of `plot_features()`, but we need to be careful because it does not provide exact statistics and it makes it less easy to investigate binned features (Notice that "tenure" would not be identified as a contributor even though it shows up as a top feature in 7 of 10 cases).
 
@@ -894,7 +900,7 @@ plot_explanations(explanation) +
          subtitle = "Hold Out (Test) Set, First 10 Cases Shown")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-41](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-41-1.png)
+![plot of chunk unnamed-chunk-42](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-42-1.png)
 
 ## Check Explanations With Correlation Analysis
 
@@ -965,7 +971,7 @@ corrr_analysis %>%
          y = "Feature Importance")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-43](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-43-1.png)
+![plot of chunk unnamed-chunk-44](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-44-1.png)
 
 The correlation analysis helps us quickly disseminate which features that the LIME analysis may be excluding. We can see that the following features are highly correlated (magnitude > 0.25):
 
@@ -994,41 +1000,41 @@ We can investigate features that are __most frequent__ in the LIME feature impor
 
 LIME cases indicate that the ANN model is using this feature frequently and high correlation agrees that this is important. Investigating the feature distribution, it appears that customers with lower tenure (bin 1) are more likely to leave. __Opportunity: Target customers with less than 12 month tenure.__
 
-![plot of chunk unnamed-chunk-44](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-44-1.png)
+![plot of chunk unnamed-chunk-45](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-45-1.png)
 
 #### Contract (Highly Correlated)
 
 While LIME did not indicate this as a primary feature in the first 10 cases, the feature is clearly correlated with those electing to stay. Customers with one and two year contracts are much less likely to churn. __Opportunity: Offer promotion to switch to long term contracts.__
 
-![plot of chunk unnamed-chunk-45](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-45-1.png)
+![plot of chunk unnamed-chunk-46](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-46-1.png)
 
 #### Internet Service (Highly Correlated)
 
 While LIME did not indicate this as a primary feature in the first 10 cases, the feature is clearly correlated with those electing to stay. Customers with fiber optic service are more likely to churn while those with no internet service are less likely to churn. __Improvement Area: Customers may be dissatisfied with fiber optic service.__ 
 
-![plot of chunk unnamed-chunk-46](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-46-1.png)
+![plot of chunk unnamed-chunk-47](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-47-1.png)
 
 #### Payment Method (Highly Correlated)
 
 While LIME did not indicate this as a primary feature in the first 10 cases, the feature is clearly correlated with those electing to stay. Customers with electronic check are more likely to leave. __Opportunity: Offer customers a promotion to switch to automatic payments__.  
 
-![plot of chunk unnamed-chunk-47](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-47-1.png)
+![plot of chunk unnamed-chunk-48](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-48-1.png)
 
 #### Senior Citizen (5/10 LIME Cases)
 
 Senior citizen appeared in several of the LIME cases indicating it was important to the ANN for the 10 samples. However, it was not highly correlated to Churn, which may indicate that the ANN is using in an more sophisticated manner (e.g. as an interaction). It's difficult to say that senior citizens are more likely to leave, but non-senior citizens appear less at risk of churning. __Opportunity: Target users in the lower age demographic.__
 
-![plot of chunk unnamed-chunk-48](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-48-1.png)
+![plot of chunk unnamed-chunk-49](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-49-1.png)
 
 #### Online Security (4/10 LIME Cases)
 
 Customers that did not sign up for online security were more likely to leave while customers with no internet service or online security were less likely to leave. __Opportunity: Promote online security and other packages that increase retention rates.__
 
-![plot of chunk unnamed-chunk-49](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-49-1.png)
+![plot of chunk unnamed-chunk-50](/figure/source/2017-11-28-customer_churn_analysis_keras/unnamed-chunk-50-1.png)
 
 ## Next Steps: Business Science University <a class="anchor" id="next-steps"></a> 
 
-We've just scratched the surface with the solution to this problem, but unfortunately there's only so much ground we can cover in an article. Here are a few next steps that I'm pleased to announce will be covered in a __Business Science University__ course coming in 2018!
+We've just scratched the surface with the solution to this problem, but unfortunately there's only so much ground we can cover in an article. Here are a few next steps that I'm pleased to announce will be covered in a [__Business Science University__](https://university.business-science.io/) course coming in 2018!
 
 ### Customer Lifetime Value
 
@@ -1075,15 +1081,18 @@ For those seeking options for distributing analytics, two good options are:
 
 ### Business Science University
 
-You're probably wondering why we are going into so much detail on next steps. We are happy to announce a new project for 2018: __Business Science University__, an online school dedicated to helping data science learners improve in the areas of:
+You're probably wondering why we are going into so much detail on next steps. We are happy to announce a new project for 2018: [__Business Science University__](https://university.business-science.io/), an online school dedicated to helping data science learners.
 
-- Advanced machine learning techniques
-- Developing interactive data products and applications using Shiny and other tools
-- Distributing data science within an organization 
+Benefits to learners:
 
-Learning paths will be focused on _business and financial applications_. We'll keep you posted via [social media](#social) and our blog (please [follow us](#social) / subscribe to stay updated). 
+- Build your own __online GitHub portfolio__ of data science projects to market your skills to future employers!
+- Learn __real-world applications__ in People Analytics (HR), Customer Analytics, Marketing Analytics, Social Media Analytics, Text Mining and Natural Language Processing (NLP), Financial and Time Series Analytics, and more!
+- Use __advanced machine learning techniques__ for both high accuracy modeling and explaining features that have an effect on the outcome!
+- Create __ML-powered web-applications__ that can be distributed throughout an organization, enabling non-data scientists to benefit from algorithms in a user-friendly way!
 
-Please let us know if you are interested in joining __Business Science University__. Let us know what you think in the _Disqus Comments_ below.
+__Enrollment is open__ so please signup for special perks. Just go to [__Business Science University__](https://university.business-science.io/) and select enroll. 
+
+
 
 ## Conclusions
 
