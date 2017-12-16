@@ -35,7 +35,11 @@
 
 <!-- Highlightjs -->
 <script  src="/js/highlight.pack.9.12.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+    hljs.configure({useBR: true});
+    hljs.initHighlightingOnLoad();
+</script>
 
 <!-- Google+ -->
 <script src="https://apis.google.com/js/platform.js" async defer></script>
