@@ -20,7 +20,7 @@ For those new to to package, `tibbletime` is a new package that enables the crea
 - [Time-Based Filtering](https://business-science.github.io/tibbletime/articles/TT-01-time-based-filtering.html)
 - [Changing Periodicity](https://business-science.github.io/tibbletime/articles/TT-02-changing-time-periods.html)
 - [Rolling Calculations In tibbletime](https://business-science.github.io/tibbletime/articles/TT-03-rollify-for-rolling-analysis.html)
-- [Using tibbletime With dplyr](https://business-science.github.io/tibbletime/articles/TT-03-rollify-for-rolling-analysis.html) __BRAND NEW!!__
+- [Using tibbletime With dplyr](https://business-science.github.io/tibbletime/articles/TT-04-use-with-dplyr.html) __BRAND NEW!!__
 
 ![tibbletime overview](/assets/tibbletime-0-1-0-overview.png)
 
