@@ -2,6 +2,8 @@ status,date,event,link,description,
 
 current,2018-01-31,rsudio::conf2018,"https://www.rstudio.com/conference/","Davis will be speaking on the <strong>future of time series in the <code>tidyverse</code></strong>. See Davis for <code>tidyquant</code> stickers!!!",
 
+current,2018-06-01,R/Finance 2018,"http://www.rinfinance.com/","Matt will give a talk on <code>tibbletime</code> and <code>tidyquant</code> including the project roadmap for tidy time series analysis and extendibilty!",
+
 past,2017-06-05,EARL San Francisco,"https://earlconf.com/sanfrancisco/","<a href='https://www.youtube.com/watch?v=8BYjv1AKI1Y&index=2&list=PLo32uKohmrXtepF9JgZlA5uNt7CP-SF5k'>New tools for performing financial and time series analysis within the tidyverse</a>",
 
 past,2017-05-19,R/Finance 2017,"https://channel9.msdn.com/Events/RFinance/RFinance-2017","<a href='https://www.youtube.com/watch?v=yIbgf9zasaY&list=PLo32uKohmrXtepF9JgZlA5uNt7CP-SF5k'>New tools for performing financial within the tidyverse</a>",
@@ -12,6 +14,6 @@ past,2017-10-26,"Experian DataLabs Live Interview","https://www.facebook.com/exp
 
 past,2017-11-01,"EARL Boston","https://earlconf.com/boston/","<a href='https://youtu.be/hcxu2oPlwS0'>Matt gave a talk on <strong>HR Analytics: Using Machine Learning to Predict Employee Turnover</strong></a>",
 
-past,2017-12-04,H2O World,"http://h2oworld.h2o.ai/","Matt will be speaking on <strong>how H2O and LIME were used to predict employee turnover</strong>, a powerful <a href = 'https://twitter.com/search?q=%23PeopleAnalytics&src=tyah'>#PeopleAnalytics</a> solution for organizations!",
+past,2017-12-04,H2O World,"http://h2oworld.h2o.ai/","<a href='https://youtu.be/-qfEOwm5Th4'>Matt gave a talk on <strong>how H2O and LIME were used to predict employee turnover</strong>, a powerful #PeopleAnalytics solution for organizations!</a>",
 
-past,2017-12-06,SuperDataScience Podcast,"https://www.superdatascience.com/","Matt speaks with <a href='https://www.linkedin.com/in/keremenko/'>Kirill Eremenko</a>, founder of SuperDataScience, on how <code>tidyquant</code> came to be, how the <a href = '/blog/index.html'>Business Science blog</a> is used to help data scientist learn, R vs Python in business, and more! <a href = 'https://www.superdatascience.com/sds-109-business-consultancy-space-data-science/'>Listen to the episode with Kirill and Matt!</a>",
+past,2017-12-06,SuperDataScience Podcast,"https://www.superdatascience.com/","Matt spoke with <a href='https://www.linkedin.com/in/keremenko/'>Kirill Eremenko</a>, founder of SuperDataScience, on how <code>tidyquant</code> came to be, how the <a href = '/blog/index.html'>Business Science blog</a> is used to help data scientist learn, R vs Python in business, and more! <a href = 'https://www.superdatascience.com/sds-109-business-consultancy-space-data-science/'>Listen to the episode with Kirill and Matt!</a>",

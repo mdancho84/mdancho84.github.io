@@ -1,27 +1,14 @@
-name,tooltip,link
-R-Bloggers,R blog aggregator combining blogs from many advanced R users., https://www.r-bloggers.com
-r-statistics.co,An excellent source of quality and up-to-date R training on visualization and machine learning,http://r-statistics.co/
-R-Project.org,Home of the R Project. Includes documentation and resources for R.,https://www.r-project.org/
-RStudio,The IDE that most R-programmers use. Its website has documentation & tutorials on various R-packages developed by RStudio.,https://www.rstudio.com/
-CRAN,Comprehensive R Archive Network: The primary database of popular R libraries and documentation.,https://cran.r-project.org/
-Bioconductor,A very popular database for R libraries related to genomics.,https://www.bioconductor.org/
-RDocumentation,Searching R packages can be difficult. RDocumentation pools libraries from CRAN + Bioconductor + Github for search. Libraries are broken into task views (i.e. categories related to task). Users can search by measures such as download frequency.,http://www.rdocumentation.org/taskviews#Bayesian
-Shiny,A tool for building interactive R web applications. Its website includes Documentation + Webinars + Tutorials + Articles.,http://shiny.rstudio.com/
-RMarkdown,Language for combining R with Markdown for incorporating R into reproducible reports and websites. Its website includes documentation and examples.,http://rmarkdown.rstudio.com/
-knitr,Expands on RMarkdown for dynamic and reproducible report generation in RStudio. Its website includes documentation and tutorials.,http://yihui.name/knitr/
-tidyverse,A set of packages that work in harmony because they share common data representations and API design. The packages are used extensively in my analysis.,https://github.com/tidyverse/tidyverse
-ggplot2,The most popular graphing library in R. Its website includes documentation and examples.,http://ggplot2.org/
-caret,A wrapper for machine learning libraries that makes modeling consistent and easy. Its website includes documentation and tutorials.,http://topepo.github.io/caret/index.html
-broom,The broom package takes the messy output of built-in functions in R such as lm or nls or t.test and turns them into tidy data frames.,https://github.com/tidyverse/broom
-quantmod,The quantmod package is designed to assist the quantitative trader in the development + testing + deployment of statistically-based trading models.,http://www.quantmod.com/
-Intro to Statistical Learning (ISL),A free book on many of the most popular statistics and machine learning tools with applications in R.,http://www-bcf.usc.edu/~gareth/ISL/
-Elements of Statistical Learning (ESL),A free book that goes much more in-depth than ISL.,http://statweb.stanford.edu/~tibs/ElemStatLearn/
-R for Data Science,A free online book that covers data wrangling and visualization with libraries such as dplyr + tidyr + ggplot2.,http://r4ds.had.co.nz/
-Advanced R,A free online book for R-programmers that want to improve their programming skills and understanding of the language.,http://adv-r.had.co.nz/
-R Packages,A free online book for R-programmers that want to develop R packages for reproducibility and so others can use.,http://r-pkgs.had.co.nz/
-Forecasting: Principles & Practice,Free online book that covers forecasting in R.,https://www.otexts.org/book/fpp
-Little Book of R for Time Series,Free online resource that walks users through the essentials of forecasting in R.,http://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/
-Tidy Text Mining with R,A free online book focusing on text mining using the tidyverse principles,http://tidytextmining.com/
-ComputerWorld's Top R Packages,Computerworld's best R packages for data import + wrangling + visualization.,http://www.computerworld.com/article/2921176/business-intelligence/great-r-packages-for-data-import-wrangling-visualization.html
-ComputerWorld's Top R Resources,Computerworld's list of best R resources.,http://www.computerworld.com/article/2497464/business-intelligence/business-intelligence-60-r-resources-to-improve-your-data-skills.html
-RDataMining.com,A nice resource on data mining with training + documents + examples.,http://www.rdatamining.com/
+name,tooltip,link,
+R for Data Science (Book),A free online book that covers data wrangling and visualization with libraries such as dplyr + tidyr + ggplot2.,http://r4ds.had.co.nz/,
+Advanced R (Book),A free online book for R-programmers that want to improve their programming skills and understanding of the language.,http://adv-r.had.co.nz/,
+R Packages (Book),A free online book for R-programmers that want to develop R packages for reproducibility and so others can use.,http://r-pkgs.had.co.nz/,
+RStudio (IDE),The IDE that most R-programmers use. Its website has documentation & tutorials on various R-packages developed by RStudio.,https://www.rstudio.com/,
+tidyverse (R),A set of packages that work in harmony because they share common data representations and API design. The packages are used extensively in our analysis.,https://www.tidyverse.org/,
+Shiny (R),A tool for building interactive R web applications. Its website includes Documentation + Webinars + Tutorials + Articles.,http://shiny.rstudio.com/,
+RMarkdown (R),Language for combining R with Markdown for incorporating R into reproducible reports and websites. Its website includes documentation and examples.,http://rmarkdown.rstudio.com/,
+R Interface To TensorFlow (R),The R interface to TensorFlow lets you work productively using the high-level Keras and Estimator APIs,https://tensorflow.rstudio.com/,
+R-Bloggers (Blog),R blog aggregator combining blogs from many advanced R users., https://www.r-bloggers.com,
+RDocumentation (Search),'Searching R packages can be difficult. RDocumentation pools libraries from CRAN + Bioconductor + Github for search. Libraries are broken into task views (i.e. categories related to task). Users can search by measures such as download frequency.',http://www.rdocumentation.org/taskviews,
+Intro to Statistical Learning (Book),A free book on many of the most popular statistics and machine learning tools with applications in R.,http://www-bcf.usc.edu/~gareth/ISL/,
+Forecasting: Principles & Practice (Book),Free online book that covers forecasting in R.,https://www.otexts.org/book/fpp,
+Tidy Text Mining with R (Book),A free online book focusing on text mining using the tidyverse principles,http://tidytextmining.com/,

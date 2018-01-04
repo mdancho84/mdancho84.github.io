@@ -110,6 +110,23 @@
 				{% endif %}
 				{% endfor %}
 			</div>
+			
+			<div class="list-group">
+				{% for post in site.posts %}
+				<!-- 6 Reasons To Learn R -->
+				{% if post.title == 'Six Reasons To Learn R For Business' %}
+				<a href="{{ post.url }}" class="list-group-item">
+					<h6 class="list-group-item-heading">{{ post.title }}</h6>
+				    {% if post.image %}
+	                  <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
+	                {% else %}
+	                  <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
+	                {% endif %}
+				</a>
+				{% endif %}
+				{% endfor %}
+			</div>
+			
 			<div class="list-group">
 				{% for post in site.posts %}
 				<!-- Customer Analytics -->
@@ -125,21 +142,7 @@
 				{% endif %}
 				{% endfor %}
 			</div>
-			<div class="list-group">
-				{% for post in site.posts %}
-				<!-- HR Analytics -->
-				{% if post.title == 'Sales Analytics: How to Use Machine Learning to Predict and Optimize Product Backorders' %}
-				<a href="{{ post.url }}" class="list-group-item">
-					<h6 class="list-group-item-heading">{{ post.title }}</h6>
-				    {% if post.image %}
-	                  <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
-	                {% else %}
-	                  <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
-	                {% endif %}
-				</a>
-				{% endif %}
-				{% endfor %}
-			</div>
+			
 		</li>
 		<li><hr></li>
 
