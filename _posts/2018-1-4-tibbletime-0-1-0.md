@@ -4,7 +4,7 @@ title: "The Tidy Time Series Platform: tibbletime 0.1.0"
 author: "Davis Vaughan"
 categories: [Code Tools]
 tags: [R-Project, R, tibbletime]
-image: tibbletime-0-1-0.png
+image: tibbletime-0-1-0-overview.png
 ---
 
 
@@ -12,6 +12,17 @@ image: tibbletime-0-1-0.png
 
 
 We're happy to announce the third release of the `tibbletime` package. This is a __huge update__, mainly due to a complete rewrite of the package. It contains a ton of __new functionality__ and a number of breaking changes that existing users need to be aware of. All of the changes have been well documented in the [NEWS](https://business-science.github.io/tibbletime/news/index.html) file, but it's worthwhile to touch on a few of them here and discuss the __future of the package__. We're super excited so let's check out the vision for `tibbletime` and its new functionality!
+
+## About Tibbletime
+
+For those new to to package, `tibbletime` is a new package that enables the creation of time aware tibbles. It's sole purpose is to make working with time series in the tidyverse much easier! The [documentation](https://business-science.github.io/tibbletime/) really explains everything, and here are a few important vignettes that can help get you up to speed on all of the functionality:
+
+- [Time-Based Filtering](https://business-science.github.io/tibbletime/articles/TT-01-time-based-filtering.html)
+- [Changing Periodicity](https://business-science.github.io/tibbletime/articles/TT-02-changing-time-periods.html)
+- [Rolling Calculations In tibbletime](https://business-science.github.io/tibbletime/articles/TT-03-rollify-for-rolling-analysis.html)
+- [Using tibbletime With dplyr](https://business-science.github.io/tibbletime/articles/TT-03-rollify-for-rolling-analysis.html) __BRAND NEW!!__
+
+![tibbletime overview](/assets/tibbletime-0-1-0-overview.png)
 
 ## Package roadmap
 
@@ -30,6 +41,7 @@ The `tibbletime` package was completely re-invisioned, making it much more flexi
 - A consistent API along with more informative argument names that attempt to give it that intuitive look and feel of a `tidyverse` package.
 
 The one downside is that we had to make a few __breaking changes__, but with this post you'll be able to easily get your code up to speed with the new functionality. What follows are a few of the most important changes for those that already used `tibbletime` and are interested in seeing what has changed. 
+
 
 ## Libraries
 
@@ -52,6 +64,33 @@ data(FB)
 FB_time <- FB %>%
   as_tbl_time(date)
 
+FB_time
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## # A time tibble: 1,008 x 8
+## # Index: date
+##    symbol date        open  high   low close    volume adjusted
+##    <chr>  <date>     <dbl> <dbl> <dbl> <dbl>     <dbl>    <dbl>
+##  1 FB     2013-01-02  27.4  28.2  27.4  28.0  69846400     28.0
+##  2 FB     2013-01-03  27.9  28.5  27.6  27.8  63140600     27.8
+##  3 FB     2013-01-04  28.0  28.9  27.8  28.8  72715400     28.8
+##  4 FB     2013-01-07  28.7  29.8  28.6  29.4  83781800     29.4
+##  5 FB     2013-01-08  29.5  29.6  28.9  29.1  45871300     29.1
+##  6 FB     2013-01-09  29.7  30.6  29.5  30.6 104787700     30.6
+##  7 FB     2013-01-10  30.6  31.5  30.3  31.3  95316400     31.3
+##  8 FB     2013-01-11  31.3  32.0  31.1  31.7  89598000     31.7
+##  9 FB     2013-01-14  32.1  32.2  30.6  31.0  98892800     31.0
+## 10 FB     2013-01-15  30.6  31.7  29.9  30.1 173242600     30.1
+## # ... with 998 more rows
+{% endhighlight %}
+
+The index has been collapsed. We can now do easy `dplyr` operations like summarizes.
+
+
+{% highlight r %}
 FB_collapsed <- FB_time %>%
   mutate(date = collapse_index(date, "5 day"))
 
@@ -77,6 +116,7 @@ FB_collapsed
 ## 10 FB     2013-01-16  30.6  31.7  29.9  30.1 173242600     30.1
 ## # ... with 998 more rows
 {% endhighlight %}
+
   
 An added bonus of this is that it promotes an integration with `dplyr` that renders the previous need for `time_summarise()` and other `time_*()` functions obsolete. Rather, you now group on the collapsed date column and can then use _any_ dplyr function that your heart desires. For example, here is a powerful example of easily creating 6 month summaries for every column of Facebook using `summarise_if()`.
 
