@@ -43,7 +43,7 @@ The `tibbletime` package was completely re-invisioned, making it much more flexi
 The one downside is that we had to make a few __breaking changes__, but with this post you'll be able to easily get your code up to speed with the new functionality. What follows are a few of the most important changes for those that already used `tibbletime` and are interested in seeing what has changed. 
 
 
-## Libraries
+### Libraries
 
 Load the following libraries to follow along.
 
@@ -311,11 +311,11 @@ There are plenty of other minor changes that make the package more consistent an
 
 ### Special thanks
 
-Dmytro Perepolkin ([@dmi3k]() on Twitter) gave a lot of good feedback on the previous version of `tibbletime`, and nicely helped promote the package on Twitter and Stack Overflow, so we just wanted to give a special shout out to him! Thanks!
+Dmytro Perepolkin ([@dmi3k](https://twitter.com/dmi3k) on Twitter) gave a lot of good feedback on the previous version of `tibbletime`, and nicely helped promote the package on Twitter and Stack Overflow, so we just wanted to give a special shout out to him! Thanks!
 
 ## Wrap Up
 
-We are super excited about the new release of the re-imagined `tibbletime` package. It has a ton of new functionality and it can now be extended as a platform to build packages on. The sky is the limit with `tibbletime`. Install the package, and let us know what you think!
+We are super excited about the new release of the re-imagined `tibbletime` package. It has a ton of new functionality and it can now be extended as a platform to build packages on. The sky is the limit with `tibbletime`. Install the package, check out [the docs](https://business-science.github.io/tibbletime/index.html), and let us know what you think!
  
 
 ## About Business Science <a class="anchor" id="contact"></a>
