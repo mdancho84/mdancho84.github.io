@@ -15,3 +15,5 @@ RDocumentation (Search),'Searching R packages can be difficult. RDocumentation p
 Intro to Statistical Learning (Book),A free book on many of the most popular statistics and machine learning tools with applications in R.,http://www-bcf.usc.edu/~gareth/ISL/,
 Forecasting: Principles & Practice (Book),Free online book that covers forecasting in R.,https://www.otexts.org/book/fpp,
 Tidy Text Mining with R (Book),A free online book focusing on text mining using the tidyverse principles,http://tidytextmining.com/,
+Blogdown (Book),Creating Websites with R Markdown,https://bookdown.org/yihui/blogdown/,
+Bookdown (Book),Creating Books and Technical Documents with R Markdown,https://bookdown.org/yihui/bookdown/, 
