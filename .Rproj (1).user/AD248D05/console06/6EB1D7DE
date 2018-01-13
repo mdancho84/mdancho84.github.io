@@ -1,0 +1,208 @@
+[0m[0K]0;:/c/Users/mdancho/Google Drive/GitHub/mdancho84.github.io[?25l
+[0;32mmdancho@MU-MDANCHO [0;35m [0;33m~/Google Drive/GitHub/mdancho84.github.io[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ j[0K[?25he[0Ky[0Kk[0Kl[0Kl[0K[?25l$ jeykl[0K[?25h[?25l$ jeyk[0K[?25h[?25l$ jey[0K[?25h[?25l$ je[0K[?25hk[0Ky[0Kl[0Kl[0K[10G[?25l$ jekyll s[0K[?25he[0Kr[0Kv[0Ke[0K[?25l
+[0K[?25hConfiguration file: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_config.yml[0K[?25l
+[0;33m       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly[0K.
+[0m[0K
+[0K[?25h            Source: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io[0K[?25l
+       Destination: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_site[0K
+ Incremental build: disabled. Enable with --incremental[0K
+      Generating...[0K
+[0K[?25h                    done in 15.579 seconds.[0K[?25l
+[0K[?25h  Please add the following to your Gemfile to avoid polling for changes:[0K[?25l
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?[0K
+[0K[?25h Auto-regeneration: enabled for 'C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io'[0K[?25l
+[0K[?25h    Server address: http://127.0.0.1:4000/[0K[?25l
+  Server running... press ctrl-c to stop.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-04 14:40:44[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-04 14:40:44 ...done in 55.33717 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-04 14:41:39[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-04 14:41:39 ...done in 52.259425 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-04 14:42:31[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-04 14:42:31 ...done in 52.089385 seconds.[0K[62G[?25h[?25l
+[0K[?25h      Regenerating: 4 file(s) changed at 2018-01-04 14:43:24[0K[62G[?25l      Regenerating: 4 file(s) changed at 2018-01-04 14:43:24 ...done in 51.73454 seconds.[0K
+[0K[?25h      Regenerating: 5 file(s) changed at 2018-01-04 14:44:15[0K[62G[?25l      Regenerating: 5 file(s) changed at 2018-01-04 14:44:15 ...done in 54.644439 seconds.[0K
+[0K[?25h      Regenerating: 5 file(s) changed at 2018-01-04 14:45:10[0K[62G[?25l
+[0;32mmdancho@MU-MDANCHO [0;35m [0;33m~/Google Drive/GitHub/mdancho84.github.io[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ jekyll serve[0K[3G[?25h[15G[?25l
+[0K[?25hConfiguration file: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_config.yml[0K[?25l
+[0;33m       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly[0K.
+[0m[0K
+[0K[?25h            Source: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io[0K[?25l
+       Destination: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_site[0K
+ Incremental build: disabled. Enable with --incremental[0K
+      Generating...[0K
+[0K[?25h                    done in 14.372 seconds.[0K[?25l
+[0K[?25h  Please add the following to your Gemfile to avoid polling for changes:[0K[?25l
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?[0K
+[0K[?25h Auto-regeneration: enabled for 'C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io'[0K[?25l
+[0K[?25h    Server address: http://127.0.0.1:4000/[0K[?25l
+  Server running... press ctrl-c to stop.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-04 14:45:30[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-04 14:45:30 ...done in 52.248719 seconds.[0K
+[0K[?25h      Regenerating: 4 file(s) changed at 2018-01-04 14:46:22[0K[62G[?25l      Regenerating: 4 file(s) changed at 2018-01-04 14:46:22 ...done in 54.199116 seconds.[0K[62G[?25h[?25l
+[0K[?25h      Regenerating: 4 file(s) changed at 2018-01-04 14:47:17[0K[62G[?25l      Regenerating: 4 file(s) changed at 2018-01-04 14:47:17 ...done in 53.366942 seconds.[0K
+[0K[?25h      Regenerating: 4 file(s) changed at 2018-01-04 14:48:10[0K[62G[?25l      Regenerating: 4 file(s) changed at 2018-01-04 14:48:10 ...done in 52.976104 seconds.[0K
+[0K[?25h      Regenerating: 4 file(s) changed at 2018-01-04 14:49:03[0K[62G[?25l      Regenerating: 4 file(s) changed at 2018-01-04 14:49:03 ...done in 55.339241 seconds.[0K
+[0K[?25h      Regenerating: 5 file(s) changed at 2018-01-04 14:49:58[0K[62G[?25l      Regenerating: 5 file(s) changed at 2018-01-04 14:49:58 ...done in 54.103124 seconds.[0K
+[0K[?25h      Regenerating: 5 file(s) changed at 2018-01-04 14:50:53[0K[62G[?25l      Regenerating: 5 file(s) changed at 2018-01-04 14:50:53 ...done in 52.57544 seconds.[0K
+[0K[?25h      Regenerating: 4 file(s) changed at 2018-01-04 14:51:45[0K[62G[?25l      Regenerating: 4 file(s) changed at 2018-01-04 14:51:45 ...done in 54.212427 seconds.[0K
+[0K[?25h      Regenerating: 4 file(s) changed at 2018-01-04 14:52:39[0K[62G[?25l      Regenerating: 4 file(s) changed at 2018-01-04 14:52:39 ...done in 53.066053 seconds.[0K
+[0K[?25h      Regenerating: 4 file(s) changed at 2018-01-04 14:53:33[0K[62G[?25l      Regenerating: 4 file(s) changed at 2018-01-04 14:53:33 ...done in 55.504536 seconds.[0K
+[0K[?25h      Regenerating: 5 file(s) changed at 2018-01-04 14:54:28[0K[62G[?25l      Regenerating: 5 file(s) changed at 2018-01-04 14:54:28 ...done in 53.342667 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-04 14:55:22[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-04 14:55:22 ...done in 53.419434 seconds.[0K[?25h[?25l
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-04 14:56:15[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-04 14:56:15 ...done in 51.790854 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-04 14:57:07[0K[62G[?25l
+[0;32mmdancho@MU-MDANCHO [0;35m [0;33m~/Google Drive/GitHub/mdancho84.github.io[0;36m (master)[0m[0K
+$[0K[3G[?25h[0m[0K]0;:/c/Users/mdancho/Google Drive/GitHub/mdancho84.github.io[?25l
+[0;32mmdancho@MU-MDANCHO [0;35m [0;33m~/Google Drive/GitHub/mdancho84.github.io[0;36m (master)[0m[0K
+]0;:/c/Users/mdancho/Google Drive/GitHub/mdancho84.github.io[?25l
+[0;32mmdancho@MU-MDANCHO [0;35m [0;33m~/Google Drive/GitHub/mdancho84.github.io[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ j[0K[?25he[0Kk[0Ky[0Kl[0Kl[0K[10G[?25l$ jekyll s[0K[?25he[0Kv[0K[?25l$ jekyll se[0K[?25hr[0Kv[0Ke[0KConfiguration file: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_config.yml[0K[?25l
+[0;33m       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly[0K.
+[0m[0K
+[0K[?25h            Source: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io[0K[?25l
+       Destination: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_site[0K
+ Incremental build: disabled. Enable with --incremental[0K
+      Generating...[0K
+[0K[?25h                    done in 20.656 seconds.[0K[?25l
+[0K[?25h  Please add the following to your Gemfile to avoid polling for changes:[0K[?25l
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?[0K
+[0K[?25h Auto-regeneration: enabled for 'C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io'[0K[?25l
+[0K[?25h    Server address: http://127.0.0.1:4000/[0K[?25l
+  Server running... press ctrl-c to stop.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:03:49[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:04:35 ...done in 49.529101 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:05:25[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:05:25 ...done in 50.943623 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:06:16[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:06:16 ...done in 48.713317 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:07:05[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:07:05 ...done in 47.538164 seconds.[0K[?25h[?25l
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:07:53[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:07:53 ...done in 47.760781 seconds.[0K[?25h[?25l
+[0K[?25h      Regenerating: 5 file(s) changed at 2018-01-05 09:08:40[0K[62G[?25l      Regenerating: 5 file(s) changed at 2018-01-05 09:08:40 ...done in 47.338223 seconds.[0K
+[0K[?25h      Regenerating: 5 file(s) changed at 2018-01-05 09:09:28[0K[62G[?25l      Regenerating: 5 file(s) changed at 2018-01-05 09:09:28 ...done in 46.292757 seconds.[0K
+[0K[?25h      Regenerating: 4 file(s) changed at 2018-01-05 09:10:14[0K[62G[?25l      Regenerating: 4 file(s) changed at 2018-01-05 09:10:14 ...done in 46.909032 seconds.[0K[?25h[?25l
+[0K[?25h      Regenerating: 5 file(s) changed at 2018-01-05 09:11:01[0K[62G[?25l      Regenerating: 5 file(s) changed at 2018-01-05 09:11:01 ...done in 48.891266 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:11:50[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:11:50 ...done in 45.549667 seconds.[0K
+[0K[?25h      Regenerating: 3 file(s) changed at 2018-01-05 09:12:36[0K[62G[?25l      Regenerating: 3 file(s) changed at 2018-01-05 09:12:36 ...done in 44.663419 seconds.[0K
+[0K[?25h      Regenerating: 7 file(s) changed at 2018-01-05 09:13:20[0K[62G[?25l      Regenerating: 7 file(s) changed at 2018-01-05 09:13:20 ...done in 45.964561 seconds.[0K[62G[?25h[?25l
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:14:06[0K[62G[?25l
+[0;32mmdancho@MU-MDANCHO [0;35m [0;33m~/Google Drive/GitHub/mdancho84.github.io[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ jekyll serve[0K[?25h[?25l
+[0K[?25hConfiguration file: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_config.yml[0K[?25l
+[0;33m       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly[0K.
+[0m[0K
+[0K[?25h            Source: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io[0K[?25l
+       Destination: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_site[0K
+ Incremental build: disabled. Enable with --incremental[0K
+      Generating...[0K
+[0K[?25h                    done in 15.688 seconds.[0K[?25l
+[0K[?25h  Please add the following to your Gemfile to avoid polling for changes:[0K[?25l
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?[0K
+[0K[?25h Auto-regeneration: enabled for 'C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io'[0K[?25l
+[0K[?25h    Server address: http://127.0.0.1:4000/[0K[?25l
+  Server running... press ctrl-c to stop.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:22:21[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:22:21 ...done in 52.642869 seconds.[0K[?25h[?25l
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:23:14[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:23:14 ...done in 51.129745 seconds.[0K
+[0K[?25h      Regenerating: 5 file(s) changed at 2018-01-05 09:24:05[0K[62G[?25l      Regenerating: 5 file(s) changed at 2018-01-05 09:24:05 ...done in 46.075785 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:24:51[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:24:51 ...done in 47.500193 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:25:39[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:25:39 ...done in 47.047683 seconds.[0K
+[0K[?25h      Regenerating: 3 file(s) changed at 2018-01-05 09:26:26[0K[62G[?25l      Regenerating: 3 file(s) changed at 2018-01-05 09:26:26 ...done in 48.527607 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:27:15[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:27:15 ...done in 48.462451 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:28:03[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:28:03 ...done in 48.139924 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:28:51[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:28:51 ...done in 52.477098 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:29:44[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:29:44 ...done in 48.835273 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:30:33[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:30:33 ...done in 48.9073 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:31:22[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:31:22 ...done in 48.947113 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:32:11[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:32:11 ...done in 48.050053 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:32:59[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:32:59 ...done in 48.02874 seconds.[0K[?25h[?25l
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:33:47[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:33:47 ...done in 47.685024 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:34:35[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:34:35 ...done in 47.549669 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:35:22[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:35:22 ...done in 47.295334 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:36:10[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:36:10 ...done in 47.324252 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:36:57[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:36:57 ...done in 47.335267 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:37:44[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:37:44 ...done in 47.478365 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:38:32[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:38:32 ...done in 47.502413 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:39:19[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:39:19 ...done in 47.319016 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:40:07[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:40:07 ...done in 47.275749 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:40:54[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:40:54 ...done in 47.551034 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:41:42[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:41:42 ...done in 47.428 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:42:29[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:42:29 ...done in 47.759782 seconds.[0K[62G[?25h[?25l
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:43:17[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:43:17 ...done in 48.13761 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:44:05[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:44:05 ...done in 47.357077 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:44:53[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:44:53 ...done in 48.308637 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:45:41[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:45:41 ...done in 48.068759 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:46:29[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:46:29 ...done in 48.009731 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:47:17[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:47:17 ...done in 48.821874 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:48:06[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:48:06 ...done in 47.70238 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:48:54[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:48:54 ...done in 47.78331 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:49:42[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:49:42 ...done in 48.148264 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:50:30[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:50:30 ...done in 48.064046 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:51:18[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:51:18 ...done in 47.653949 seconds.[0K
+[0K[?25h      Regenerating: 7 file(s) changed at 2018-01-05 09:52:06[0K[62G[?25l
+[0;32mmdancho@MU-MDANCHO [0;35m [0;33m~/Google Drive/GitHub/mdancho84.github.io[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ jekyll serve[0K[?25h[?25l
+[0K[?25hConfiguration file: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_config.yml[0K[?25l
+[0;33m       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly[0K.
+[0m[0K
+[0K[?25h            Source: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io[0K[?25l
+       Destination: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_site[0K
+ Incremental build: disabled. Enable with --incremental[0K
+      Generating...[0K
+[0K[?25h                    done in 15.102 seconds.[0K[?25l
+[0K[?25h  Please add the following to your Gemfile to avoid polling for changes:[0K[?25l
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?[0K
+[0K[?25h[?25l Auto-regeneration: enabled for 'C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io'[0K[1G[?25h[?25l
+[0K[?25h    Server address: http://127.0.0.1:4000/[0K[?25l
+  Server running... press ctrl-c to stop.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:53:00[0K[62G[?25l
+[0;32mmdancho@MU-MDANCHO [0;35m [0;33m~/Google Drive/GitHub/mdancho84.github.io[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ jekyll serve[0K[?25h[?25l
+[0K[?25hConfiguration file: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_config.yml[0K[?25l
+[0;33m       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly[0K.
+[0m[0K
+[0K[?25h            Source: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io[0K[?25l
+       Destination: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_site[0K
+ Incremental build: disabled. Enable with --incremental[0K
+      Generating...[0K
+[0K[?25h                    done in 14.171 seconds.[0K[?25l
+[0K[?25h  Please add the following to your Gemfile to avoid polling for changes:[0K[?25l
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?[0K
+[0K[?25h Auto-regeneration: enabled for 'C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io'[0K[?25l
+[0K[?25h    Server address: http://127.0.0.1:4000/[0K[?25l
+  Server running... press ctrl-c to stop.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:58:50[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:58:50 ...done in 54.429393 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 09:59:45[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 09:59:45 ...done in 52.339074 seconds.[0K
+[0K[?25h      Regenerating: 3 file(s) changed at 2018-01-05 10:00:37[0K[62G[?25l      Regenerating: 3 file(s) changed at 2018-01-05 10:00:37 ...done in 49.766598 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 10:01:27[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 10:01:27 ...done in 44.964007 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 10:02:12[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 10:02:12 ...done in 47.979904 seconds.[0K
+[0K[?25h      Regenerating: 3 file(s) changed at 2018-01-05 10:03:00[0K[62G[?25l      Regenerating: 3 file(s) changed at 2018-01-05 10:03:00 ...error:[0K
+[0;33m             Error: No such file or directory @ rb_file_s_stat - C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/css[0K/
+bootstrap.min-flatly-update.css[0m[0K
+[0;33m             Error: Run jekyll build --trace for more information.[0m[0K
+[0K[?25h      Regenerating: 7 file(s) changed at 2018-01-05 10:03:45[0K[62G[?25l      Regenerating: 7 file(s) changed at 2018-01-05 10:03:45 ...done in 46.715553 seconds.[0K
+[0K[?25h      Regenerating: 11 file(s) changed at 2018-01-05 10:04:32[0K[63G[?25l      Regenerating: 11 file(s) changed at 2018-01-05 10:04:32 ...error:[0K
+[0;33m             Error: No such file or directory @ rb_file_s_stat - C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/js/[0Kj
+query.js[0m[0K
+[0;33m             Error: Run jekyll build --trace for more information.[0m[0K
+[0K[?25h      Regenerating: 9 file(s) changed at 2018-01-05 10:05:17[0K[62G[?25l      Regenerating: 9 file(s) changed at 2018-01-05 10:05:17 ...error:[0K
+[0;33m             Error: No such file or directory @ rb_file_s_stat - C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/js/[0Kf
+reelancer.js[0m[0K
+[0;33m             Error: Run jekyll build --trace for more information.[0m[0K
+[0K[?25h      Regenerating: 14 file(s) changed at 2018-01-05 10:06:02[0K[63G[?25l      Regenerating: 14 file(s) changed at 2018-01-05 10:06:02 ...error:[0K
+[0;33m             Error: No such file or directory @ rb_file_s_stat - C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/js/[0Kh
+ighlight.pack.9.12.js[0m[0K
+[0;33m             Error: Run jekyll build --trace for more information.[0m[0K
+[0K[?25h      Regenerating: 7 file(s) changed at 2018-01-05 10:06:48[0K[62G[?25l
+[0;32mmdancho@MU-MDANCHO [0;35m [0;33m~/Google Drive/GitHub/mdancho84.github.io[0;36m (master)[0m[0K
+$[0K[3G[?25h[?25l$ jekyll serve[0K[?25h[?25l
+[0K[?25hConfiguration file: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_config.yml[0K[?25l
+[0;33m       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please update your config file accordingly[0K.
+[0m[0K
+[0K[?25h            Source: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io[0K[?25l
+       Destination: C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_site[0K
+ Incremental build: disabled. Enable with --incremental[0K
+      Generating...[0K
+[0K[?25h                    done in 14.022 seconds.[0K[?25l
+[0K[?25h  Please add the following to your Gemfile to avoid polling for changes:[0K[?25l
+    gem 'wdm', '>= 0.1.0' if Gem.win_platform?[0K
+[0K[?25h Auto-regeneration: enabled for 'C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io'[0K[?25l
+[0K[?25h    Server address: http://127.0.0.1:4000/[0K[?25l
+  Server running... press ctrl-c to stop.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 10:07:09[0K[62G[?25l      Regenerating: 1 file(s) changed at 2018-01-05 10:07:09 ...done in 51.042193 seconds.[0K
+[0K[?25h      Regenerating: 1 file(s) changed at 2018-01-05 10:08:00[0K[62G[?25l
+[0;32mmdancho@MU-MDANCHO [0;35m [0;33m~/Google Drive/GitHub/mdancho84.github.io[0;36m (master)[0m[0K
+$[0K[3G[?25h

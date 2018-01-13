@@ -1,0 +1,4 @@
+"0","# Import data"
+"0","churn_data_raw <- read_csv(""2017-11-28_customer_churn_keras/data/WA_Fn-UseC_-Telco-Customer-Churn.csv"")"
+"2","Error: '2017-11-28_customer_churn_keras/data/WA_Fn-UseC_-Telco-Customer-Churn.csv' does not exist in current working directory ('C:/Users/mdancho/Google Drive/GitHub/mdancho84.github.io/_source/archived').
+"
