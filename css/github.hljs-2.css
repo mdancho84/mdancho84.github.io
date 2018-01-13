@@ -14,12 +14,13 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 }
 
 
+/*
 .hljs-comment,
 .hljs-quote {
   color: #998;
   font-style: italic;
 }
-
+*/
 
 .hljs-keyword,
 .hljs-selector-tag,
