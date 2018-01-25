@@ -9,6 +9,7 @@ Gemfile.lock
 node_modules
 package.json
 .Rproj.user
+.Rproj (1).user
 .Rhistory
 .RData
 .httr-oauth
