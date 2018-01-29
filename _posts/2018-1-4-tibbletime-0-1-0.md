@@ -2,7 +2,7 @@
 layout: post
 title: "The Tidy Time Series Platform: tibbletime 0.1.0"
 author: "Davis Vaughan"
-categories: [Code Tools]
+categories: [Code-Tools]
 tags: [R-Project, R, tibbletime]
 image: tibbletime-0-1-0-overview.png
 ---
