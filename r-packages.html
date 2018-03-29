@@ -12,6 +12,7 @@ title: R Packages
           <h4>Open Source Software for Business &amp; Financial Analysis</h4>
           <br>
         </div>
+        
         <div class="row">
           <div class="col-md-12 col-md-offset-0">
 
@@ -87,6 +88,88 @@ title: R Packages
                   </div>
                 </div>
               </div>
+            </div>
+
+          </div>
+
+        </div>
+        
+        <!--row 2-->
+        
+        <div class="row">
+          <div class="col-md-12 col-md-offset-0">
+
+            <!-- Package 5 -->
+            <div class="col-sm-12 col-md-3">
+              <div class="thumbnail">
+                <img src="/img/anomalize-logo.png" alt="anomalize logo" style="width:66%; margin-top: 5px;">
+                <div class="caption">
+                 
+                  <p style="height: 100px;">Tidy anomaly detection</p>
+                  <div>
+                    <a href="#anomalize" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-info-circle fa-2x"></i></a>
+                    <a href="https://business-science.github.io/anomalize/" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-book fa-2x"></i></a>
+                    <a href="https://github.com/business-science/anomalize" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-github fa-2x"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Package 6 -->
+            <div class="col-sm-12 col-md-3">
+              <!--<div class="thumbnail" >
+                <img src="/img/timetk-logo.png" alt="timetk logo" style="width:66%; margin-top: 5px;">
+                <div class="caption">
+                  <p style="height: 100px;">A toolkit for working with time series in R</p>
+                  <div>
+                    <a href="#timetk" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-info-circle fa-2x"></i></a>
+                    <a href="https://business-science.github.io/timetk/" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-book fa-2x"></i></a>
+                    <a href="https://github.com/business-science/timetk" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-github fa-2x"></i></a>
+                  </div>
+                </div>
+              </div>-->
+            </div>
+
+            <!-- Package 7 -->
+            <div class="col-sm-12 col-md-3">
+              <!--<div class="thumbnail" >
+                <img src="/img/sweep-logo.png" alt="sweep logo"  style="width:66%; margin-top: 5px;">
+                <div class="caption">
+                  <p style="height: 100px;"><code>broom</code>-style tidiers for forecasting</p>
+                  <div>
+                    <a href="#sweep" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-info-circle fa-2x"></i></a>
+                    <a href="https://business-science.github.io/sweep/" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-book fa-2x"></i></a>
+                    <a href="https://github.com/business-science/sweep" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-github fa-2x"></i></a>
+                  </div>
+                </div>
+              </div>-->
+            </div>
+            
+            <!-- Package 8 -->
+            <div class="col-sm-12 col-md-3">
+              <!--<div class="thumbnail" >
+                <img src="/img/tibbletime-logo-1.png" alt="tibbletime logo"  style="width:66%; margin-top: 5px;">
+                <div class="caption">
+                  <p style="height: 100px;">Time-aware tibbles</p>
+                  <div>
+                    <a href="#tibbletime" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-info-circle fa-2x"></i></a>
+                    <a href="https://business-science.github.io/tibbletime/" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-book fa-2x"></i></a>
+                    <a href="https://github.com/business-science/tibbletime" class="btn btn-primary btn-md" role="button" >
+                        <i class="fa fa-github fa-2x"></i></a>
+                  </div>
+                </div>
+              </div>-->
             </div>
 
           </div>
@@ -271,13 +354,54 @@ title: R Packages
             <div class = "row">
                 <h3 class="text-center">Introducing the tibbletime functions</h3>
                 <ol style="list-style-type: decimal">
-                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/time_filter.html">time_filter()</a></code> - Succinctly filter a tbl_time object by date.</p></li>
-                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/time_summarise.html">time_summarise()</a></code> - Similar to dplyr::summarise but with the added benefit of being able to summarise by a time period such as “yearly” or “monthly”.</p></li>
-                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/tmap.html">tmap()</a></code> - The family of tmap functions transform a tbl_time input by applying a function to each column at a specified time interval.</p></li>
-                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/as_period.html">as_period()</a></code> - Convert a tbl_time object from daily to monthly, from minute data to hourly, and more. This allows the user to easily aggregate data to a less granular level.</p></li>
-                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/time_collapse.html">time_collapse()</a></code> - When time_collapse is used, the index of a tbl_time object is altered so that all dates that fall in a period share a common date.</p></li>
-                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/rollify.html">rollify()</a></code> - Modify a function so that it calculates a value (or a set of values) at specific time intervals. This can be used for rolling averages and other rolling calculations inside the <code>tidyverse</code> framework.</p></li>
-                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/create_series.html">create_series()</a></code> - Use shorthand notation to quickly initialize a <code>tbl_time</code> object containing a <code>date</code> column with a regularly spaced time series.</p></li>
+                    
+                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/filter_time.html">filter_time()</a></code> - Succinctly filter a <code>tbl_time</code> object by date.</p></li>
+                    
+                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/as_period.html">as_period()</a></code> - Convert a <code>tbl_time</code> object from daily to monthly, from minute data to hourly, and more. This allows the user to easily aggregate data to a less granular level.</p></li>
+                    
+                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/collapse_by.html">collapse_by()</a></code> -  Take an <code>tbl_time</code> object, and collapse the index so that all observations in an interval share the same date. The most common use of this is to then group on this column with <code>dplyr::group_by()</code> and perform time-based calculations with <code>summarise()</code>, <code>mutate()</code>, or any other <code>dplyr</code> function.</p></li>
+                    
+                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/collapse_index.html">collapse_index()</a></code> - A lower level version of <code>collapse_by()</code> that directly modifies the <code>index</code> column and not the entire <code>tbl_time</code> object. It allows the user more flexibility when collapsing, like the ability to assign the resulting collapsed index to a new column.</p></li>
+                    
+                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/rollify.html">rollify()</a></code> - Modify a function so that it calculates a value (or a set of values) at specific time intervals. This can be used for rolling averages and other rolling calculations inside the tidyverse framework.</p></li>
+                    
+                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/create_series.html">create_series()</a></code> - Use shorthand notation to quickly initialize a tbl_time object containing a regularly spaced index column of class <code>Date</code>, <code></code>POSIXct, <code>yearmon</code>, <code>yearqtr</code>, or <code>hms</code></p></li>
+                    
+                </ol>
+            </div>
+            
+            
+            <!-- anomalize -->
+            <br />
+            <hr />
+            <br />
+            <div class="row" id="anomalize">
+                <div class="jumbotron">
+                    <div class="row">
+                        <div class = "col-md-4">
+                            <img src="/img/anomalize-logo.png"  alt="anomalize logo" style="height:300px">
+                        </div>
+                        <div class="col-md-8">
+                            <h1>anomalize</h1>
+                            <!-- <p>Bringing financial analysis to the <code>tidyverse</code></p> -->
+                            <p>Built on top of the <code>tibbletime</code>, <code>anomalize</code> enables a "tidy" workflow for detecting anomalies in time series data. The main functions are <code>time_decompose()</code>, <code>anomalize()</code>, and <code>time_recompose()</code>.</p>
+                            <p><a href="https://business-science.github.io/anomalize/" class="btn btn-primary btn-lg">Documentation</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- tibbletime: What users are saying -->
+            <div class = "row">
+                <h3 class="text-center">Introducing the tibbletime functions</h3>
+                <ol style="list-style-type: decimal">
+                    
+                    <li><p><code><a href="https://business-science.github.io/anomalize/reference/time_decompose.html">time_decompose()</a></code> - Separates the time series into seasonal, trend, and remainder components.</p></li>
+                    
+                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/anomalize.html">anomalize()</a></code> - Applies anomaly detection methods to the remainder component.</p></li>
+                    
+                    <li><p><code><a href="https://business-science.github.io/tibbletime/reference/time_recompose.html">time_recompose()</a></code> -  Calculates limits that separate the “normal” data from the anomalies.</p></li>
+                    
                 </ol>
             </div>
 
