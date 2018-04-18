@@ -11,7 +11,7 @@ image: 2018-04-18-keras-lstm-sunspots/keras_stateful_lstm.png
 
 
 
-__Time series prediction (forecasting) has experienced dramatic improvements in predictive accuracy as a result of the data science machine learning and deep learning evolution__. As these ML/DL tools have evolved, businesses and financial instutions are now able to forecast better by applying these new technologies to solve old problems. In this article, we showcase the use of a special type of __Deep Learning model called an [LSTM (Long Short-Term Memory)](https://en.wikipedia.org/wiki/Long_short-term_memory)__, which is useful for problems involving [sequences with autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation). We analyze a famous historical data set called ["sunspots"](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/sunspot.month.html) (a [sunspot](https://en.wikipedia.org/wiki/Solar_cycle) is a solar phenomenon wherein a dark spot forms on the surface of the sun). We'll show you how you can use an LSTM model to predict sunspots ten years into the future with an LSTM model.
+__Time series prediction (forecasting) has experienced dramatic improvements in predictive accuracy as a result of the data science machine learning and deep learning evolution__. As these ML/DL tools have evolved, businesses and financial institutions are now able to forecast better by applying these new technologies to solve old problems. In this article, we showcase the use of a special type of __Deep Learning model called an [LSTM (Long Short-Term Memory)](https://en.wikipedia.org/wiki/Long_short-term_memory)__, which is useful for problems involving [sequences with autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation). We analyze a famous historical data set called ["sunspots"](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/sunspot.month.html) (a [sunspot](https://en.wikipedia.org/wiki/Solar_cycle) is a solar phenomenon wherein a dark spot forms on the surface of the sun). We'll show you how you can use an LSTM model to predict sunspots ten years into the future with an LSTM model.
 
 ## Tutorial Overview
 
@@ -35,17 +35,17 @@ The end result is a __high performance deep learning algorithm__ that does an ex
 
 ## Applications in Business
 
-Time series prediction (forecasting) has a dramatic effect on the top and bottom line. In business, we could be interested in predicting which day of the month, quarter, or year that large expenditures are going to occur or we could be interested in understanding how the consumer price index (CPI) will change over the course of the next six months. These are common questions that impact organizations both on a microeconomic and macroeconomic level. While the data set used in this tutorial is not a "business" data set, it shows the power of the __tool-problem fit__, meaning that using the right tool for the job can offer tremendous improvements in accuracy. __The net result is Increased prediction accuracy ultimately leads to quantifiable improvements to the top and bottom line__.
+Time series prediction (forecasting) has a dramatic effect on the top and bottom line. In business, we could be interested in predicting which day of the month, quarter, or year that large expenditures are going to occur or we could be interested in understanding how the consumer price index (CPI) will change over the course of the next six months. These are common questions that impact organizations both on a microeconomic and macroeconomic level. While the data set used in this tutorial is not a "business" data set, it shows the power of the __tool-problem fit__, meaning that using the right tool for the job can offer tremendous improvements in accuracy. __The net result is increased prediction accuracy ultimately leads to quantifiable improvements to the top and bottom line__.
 
 ## Long Short-Term Memory (LSTM) Models
 
-A __Long Short-Term Memory (LSTM) model__ is a powerful type of recurrent neural network (RNN). The blog article, ["Understanding LSTM Networks"](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), does an excellent job at explaining the underlying complexity in an easy to understand way. Here's an image depicting the LSTM internal cell archetecture that enables it to persist for long term states (in addition to short term), which traditional RNN's have difficulty with:
+A __Long Short-Term Memory (LSTM) model__ is a powerful type of recurrent neural network (RNN). The blog article, ["Understanding LSTM Networks"](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), does an excellent job at explaining the underlying complexity in an easy to understand way. Here's an image depicting the LSTM internal cell architecture that enables it to persist for long term states (in addition to short term), which traditional RNN's have difficulty with:
 
 <img src="/assets/2018-04-18-keras-lstm-sunspots/LSTM3-chain.png" style="width: 50%; height: 50%"/>
 
 <p class="text-center date">Source: <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM Networks</a></p>
 
-LSTMs are quite useful in time series prediction tasks involving __autocorrelation__, the presence of correlation between the time series and lagged versions of itself, because of their ability to maintain state and recognize patterns over the length of the time series. The recurrent architecture enables the states to persist, or communicate between updates of the weights as each epoch progresses. Further, the LSTM cell archecture enhances the RNN by enabling long term persistence in addition to short term, which is fascinating!
+LSTMs are quite useful in time series prediction tasks involving __autocorrelation__, the presence of correlation between the time series and lagged versions of itself, because of their ability to maintain state and recognize patterns over the length of the time series. The recurrent architecture enables the states to persist, or communicate between updates of the weights as each epoch progresses. Further, the LSTM cell architecture enhances the RNN by enabling long term persistence in addition to short term, which is fascinating!
 
 In Keras, LSTM's can be operated in a "stateful" mode, which according to the Keras documentation:
 
@@ -120,7 +120,7 @@ install_keras()
 
 ### 2.0 Data 
 
-The dataset, `sunspot.month`, is avaliable for all of us (it ships with base R). It's a `ts` class (not tidy), so we'll convert to a tidy data set using the `tk_tbl()` function from `timetk`. We use this instead of `as.tibble()` from `tibble` to automatically preserve the time series index as a `zoo` `yearmon` index. Last, we'll convert the `zoo` index to date using `lubridate::as_date()` (loaded with `tidyquant`) and then change to a `tbl_time` object to make time series operations easier.
+The dataset, `sunspot.month`, is available for all of us (it ships with base R). It's a `ts` class (not tidy), so we'll convert to a tidy data set using the `tk_tbl()` function from `timetk`. We use this instead of `as.tibble()` from `tibble` to automatically preserve the time series index as a `zoo` `yearmon` index. Last, we'll convert the `zoo` index to date using `lubridate::as_date()` (loaded with `tidyquant`) and then change to a `tbl_time` object to make time series operations easier.
 
 
 {% highlight r %}
@@ -195,7 +195,7 @@ At first glance, it looks like this series should be easy to predict. However, w
 
 #### 3.2 Evaluating The ACF
 
-The next thing we can do is determine whether or not an LSTM model may be a good approach. The LSTM will leverage autocorrelation to generate sequence predictions. Our goal is to produce a 10-year forecast using __batch forecasting__ (a technique for creating a single forecast batch accros the forecast region, which is in contrast to a single-prediction that is iteratively performed one or several steps into the future). The batch prediction will only work if the autocorrelation used is beyond ten years. Let's inspect.
+The next thing we can do is determine whether or not an LSTM model may be a good approach. The LSTM will leverage autocorrelation to generate sequence predictions. Our goal is to produce a 10-year forecast using __batch forecasting__ (a technique for creating a single forecast batch across the forecast region, which is in contrast to a single-prediction that is iteratively performed one or several steps into the future). The batch prediction will only work if the autocorrelation used is beyond ten years. Let's inspect.
 
 First, we need to review the Autocorrelation Function (ACF), which is the correlation between the time series of interest in lagged versions of itself. The `acf()` function from the `stats` library returns the ACF values for each lag as a plot. However, we'd like to get the ACF values as data so we can investigate the underlying data. To do so, we'll create a custom function, `tidy_acf()`, to return the ACF values in a tidy tibble.
 
@@ -308,7 +308,7 @@ optimal_lag_setting
 
 ### 4.0 Backtesting: Time Series Cross Validation
 
-__Cross validation__ is the process of developing models on sub-sampled data against a validation set with the goal of determining an expected accuracy level and error range. __Time series is a bit different than non-sequential data when it comes to cross validation__. Specifically, the time dependency on previous time samples must be preserved when developing a sampling plan. We can create a cross validation sampling plan using by offseting the window used to select sequential sub-samples. __In finance, this type of analysis is often called "Backtesting", which takes a time series and splits it into multiple uninterupted sequences offset at various windows that can be tested for strategies on both current and past observations.__ 
+__Cross validation__ is the process of developing models on sub-sampled data against a validation set with the goal of determining an expected accuracy level and error range. __Time series is a bit different than non-sequential data when it comes to cross validation__. Specifically, the time dependency on previous time samples must be preserved when developing a sampling plan. We can create a cross validation sampling plan using by offsetting the window used to select sequential sub-samples. __In finance, this type of analysis is often called "Backtesting", which takes a time series and splits it into multiple uninterupted sequences offset at various windows that can be tested for strategies on both current and past observations.__ 
 
 A recent development is [the `rsample` package](https://topepo.github.io/rsample/), which makes cross validation sampling plans very easy to implement. Further, the `rsample` package has __Backtesting__ covered. The vignette, ["Time Series Analysis Example"](https://topepo.github.io/rsample/articles/Applications/Time_Series.html), describes a procedure that uses the `rolling_origin()` function to create samples designed for __time series cross validation__. We'll use this approach.
 
@@ -410,7 +410,7 @@ plot_split <- function(split, expand_y_axis = TRUE, alpha = 1, size = 1, base_si
 }
 {% endhighlight %}
 
-The `plot_split()` function takes one split (in this case Slice01), and retrns a visual of the sampling strategy. We expand the axis to the range for the full dataset using `expand_y_axis = TRUE`. 
+The `plot_split()` function takes one split (in this case Slice01), and returns a visual of the sampling strategy. We expand the axis to the range for the full dataset using `expand_y_axis = TRUE`. 
 
 
 {% highlight r %}
@@ -509,7 +509,7 @@ plot_split(split, expand_y_axis = FALSE, size = 0.5) +
 
 ##### 5.1.2 Data Setup
 
-First, let's combine the training and testing data sets into a single data set with a column `key` that specifies what set they came from (either "training" or "testing)". Note that the `tbl_time` object will need to have the index respecified during the `bind_rows()` step, but [this issue](https://github.com/tidyverse/dplyr/issues/3259) should be corrected in `dplyr` soon (please upvote it so RStudio focuses on it). 
+First, let's combine the training and testing data sets into a single data set with a column `key` that specifies what set they came from (either "training" or "testing)". Note that the `tbl_time` object will need to have the index re-specified during the `bind_rows()` step, but [this issue](https://github.com/tidyverse/dplyr/issues/3259) should be corrected in `dplyr` soon (please upvote it so RStudio focuses on it). 
 
 
 {% highlight r %}
@@ -607,7 +607,7 @@ __Tensor Format__:
 * Outcomes/Targets (y) must be a 2D Array with dimensions: [samples, timesteps]: The first dimension is the length of values and the second is the number of time steps (lags)
 
 __Training/Testing__:
-* The training and testing length must be evenly divisble (e.g. training length / testing length must be a whole number)
+* The training and testing length must be evenly divisible (e.g. training length / testing length must be a whole number)
 
 __Batch Size__:
 
@@ -624,7 +624,7 @@ __Epochs__:
 * The epochs are the total number of forward/backward pass iterations
 * Typically more improves model performance unless overfitting occurs at which time the validation accuracy/loss will not improve
 
-Taking this in, we can come up with a plan. We'll select a prediction of window 120 months (10 years) or the length of our test set. The best correlation occurs at 125, but this is not evenly divisble by the forecasting range. We could increase the forecast horizon, but this offers a minimal increase in autocorrelation. We can select a batch size of 40 units which evenly divides into the number of testing and training observations. We select time steps = 1, which is because we are only using one lag. Finally, we set `epochs = 300`, but this will need to be adjusted to balance the bias/variance tradeoff. 
+Taking this in, we can come up with a plan. We'll select a prediction of window 120 months (10 years) or the length of our test set. The best correlation occurs at 125, but this is not evenly divisible by the forecasting range. We could increase the forecast horizon, but this offers a minimal increase in autocorrelation. We can select a batch size of 40 units which evenly divides into the number of testing and training observations. We select time steps = 1, which is because we are only using one lag. Finally, we set `epochs = 300`, but this will need to be adjusted to balance the bias/variance tradeoff. 
 
 
 {% highlight r %}
