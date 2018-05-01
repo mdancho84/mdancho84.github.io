@@ -14,6 +14,12 @@ image: custSegments2.png
 This post is the second part in the customer segmentation analysis. The [first post](http://www.mattdancho.com/business/2016/08/07/CustomerSegmentationPt1.html) focused on [_k_-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) in `R` to segment customers into distinct groups based on purchasing habits. This post takes a different approach, using [Pricipal Component Analysis](https://en.wikipedia.org/wiki/Principal_component_analysis) (PCA) in `R` as a tool to view customer groups. Because PCA attacks the problem from a different angle than _k_-means, we can get different insights. We'll compare both the _k_-means results with the PCA visualization. Let's see what happens when we apply PCA.  
 
 
+## 3 Part Series
+
+* [CUSTOMER SEGMENTATION PART 1: K-MEANS CLUSTERING](http://www.business-science.io/business/2016/08/07/CustomerSegmentationPt1.html)
+* [CUSTOMER SEGMENTATION PART 2: PCA FOR SEGMENT VISUALIZATION](http://www.business-science.io/business/2016/09/04/CustomerSegmentationPt2.html)
+* [CUSTOMER SEGMENTATION PART 3: NETWORK VISUALIZATION](http://www.business-science.io/business/2016/10/01/CustomerSegmentationPt3.html)
+
 ## Table of Contents
 
   * [Why PCA?](#pca)
@@ -313,4 +319,49 @@ This post expanded on our customer segmentation methodology by using __PCA to vi
 2. [Computing and Visualizing PCA in R](https://tgmstat.wordpress.com/2013/11/28/computing-and-visualizing-pca-in-r/): This is a great article that takes PCA to the next level in `R` with biplots, predictions, and the caret package.  
 
 
+## Business Science University  <a class="anchor" id="bsu"></a>
 
+Enjoy data science for business? We do too. This is why we created [Business Science University](https://university.business-science.io/) where we teach you how to do __Data Science For Busines (#DS4B)__ just like us!
+
+Our first [DS4B course (HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) is now available! 
+
+#### Who is this course for?
+
+Anyone that is interested in applying data science in a business context (we call this DS4B). All you need is basic `R`, `dplyr`, and `ggplot2` experience. If you understood this article, you are qualified. 
+
+#### What do you get it out of it?
+
+
+You learn everything you need to know about how to apply data science in a business context:
+
+- __Using ROI-driven data science taught from consulting experience!__
+
+- __Solve high-impact problems__ (e.g. $15M Employee Attrition Problem)
+
+- __Use advanced, bleeding-edge machine learning algorithms__ (e.g. H2O, LIME)
+
+- __Apply systematic data science frameworks__ (e.g. [Business Science Problem Framework](https://university.business-science.io/courses/246843/lectures/5029853))
+
+>__"If you've been looking for a program like this, I'm happy to say it's finally here! This is what I needed when I first began data science years ago. It's why I created Business Science University."__
+>
+>__Matt Dancho, Founder of Business Science__
+
+
+### DS4B Virtual Workshop: Predicting Employee Attrition <a class="anchor" id="vw"></a>
+
+Did you know that __an organization that loses 200 high performing employees per year is essentially losing $15M/year in lost productivity__? Many organizations don't realize this because it's an indirect cost. It goes unnoticed. What if you could use data science to predict and explain turnover in a way that managers could make better decisions and executives would see results? You will learn the tools to do so in our Virtual Workshop. Here's an example of a Shiny app you will create.
+
+![HR 301 Shiny Application: Employee Prediction](/img/hr_301_app.png) 
+<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in HR 301</p> 
+
+
+Our first [__Data Science For Business (HR 201) Virtual Workshop__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) teaches you how to solve this employee attrition problem in four courses that are fully integrated:
+
+* HR 201: Predicting Employee Attrition with `h2o` and `lime`
+* HR 301: Building A `Shiny` Web Application
+* HR 302: Data Story Telling With `RMarkdown` Reports and Presentations
+* HR 303: Building An R Package For Your Organization, `tidyattrition`
+
+The Virtual Workshop is intended for __intermediate and advanced R users__. It's __code intensive (like these articles)__, but also teaches you fundamentals of data science consulting including CRISP-DM and the Business Science Problem Framework. __The content bridges the gap between data science and the business, making you even more effective and improving your organization in the process.__
+
+Interested? [__Enroll in Business Science University today!__](https://university.business-science.io/)

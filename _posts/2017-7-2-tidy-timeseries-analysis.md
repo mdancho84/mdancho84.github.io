@@ -12,6 +12,12 @@ image: tidy-timeseries-part1.png
 
 In the first part in a series on __Tidy Time Series Analysis__, we'll use `tidyquant` to investigate CRAN downloads. You're probably thinking, "Why tidyquant?" Most people think of `tidyquant` as purely a financial package and rightfully so. However, because of its integration with `xts`, `zoo` and `TTR`, it's naturally suited for __"tidy" time series analysis__. In this post, we'll discuss the the "period apply" functions from the `xts` package, which make it easy to apply functions to time intervals in a __"tidy"__ way using `tq_transmute()`!  
 
+Part of a 4-part series:
+
+* [Part 1: Tidy Period Apply](http://www.business-science.io/timeseries-analysis/2017/07/02/tidy-timeseries-analysis.html)
+* [Part 2: Tidy Rolling Functions](http://www.business-science.io/timeseries-analysis/2017/07/23/tidy-timeseries-analysis-pt-2.html)
+* [Part 3: Tidy Rolling Correlations](http://www.business-science.io/timeseries-analysis/2017/07/30/tidy-timeseries-analysis-pt-3.html)
+* [Part 4: Lags and Autocorrelations](http://www.business-science.io/timeseries-analysis/2017/08/30/tidy-timeseries-analysis-pt-4.html)
 
 An example of the visualization we can create using the period apply functions with `tq_transmute()`:
 
@@ -318,15 +324,52 @@ stats_tidyverse_downloads_w %>%
 The period apply functions from `xts` can be used to apply aggregations using common time series intervals such as weekly, monthly, quarterly, and yearly. The `tq_transmute()` function from `tidyquant` enables efficient and "tidy" application of the functions. We were able to use the period apply functions to visualize trends and volatility and to expose relationships between statistical measures.
 
 
-# About Business Science <a class="anchor" id="contact"></a>
+## Business Science University  <a class="anchor" id="bsu"></a>
 
-We have a full suite of data science services to _supercharge_ your financial and business performance. How do we do it? Using our network of data science consultants, we pull together the right team to get custom projects done on time, within budget, and of the highest quality. Find out more about our [data science services](http://www.business-science.io/services.html) or [contact us](http://www.business-science.io/contact.html)!
+Enjoy data science for business? We do too. This is why we created [Business Science University](https://university.business-science.io/) where we teach you how to do __Data Science For Busines (#DS4B)__ just like us!
 
-We are growing! Let us know if you are interested in joining our __network of data scientist consultants__. If you have expertise in Marketing Analytics, Data Science for Business, Financial Analytics, we'd love to talk. [Contact us](http://www.business-science.io/contact.html)!
+Our first [DS4B course (HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) is now available! 
 
-# Announcements <a class="anchor" id="announcements"></a>
+#### Who is this course for?
 
-We have completed the new package, `sweep`, which "tidies" the `forecast` workflow by applying `broom` concepts to the various model functions (`auto.arima()`, `ets()`, etc) and `forecast()` output. You can download from github: `devtools::install_github("business-science/sweep")`. We'll be requesting addition to CRAN soon!
+Anyone that is interested in applying data science in a business context (we call this DS4B). All you need is basic `R`, `dplyr`, and `ggplot2` experience. If you understood this article, you are qualified. 
+
+#### What do you get it out of it?
+
+
+You learn everything you need to know about how to apply data science in a business context:
+
+- __Using ROI-driven data science taught from consulting experience!__
+
+- __Solve high-impact problems__ (e.g. $15M Employee Attrition Problem)
+
+- __Use advanced, bleeding-edge machine learning algorithms__ (e.g. H2O, LIME)
+
+- __Apply systematic data science frameworks__ (e.g. [Business Science Problem Framework](https://university.business-science.io/courses/246843/lectures/5029853))
+
+>__"If you've been looking for a program like this, I'm happy to say it's finally here! This is what I needed when I first began data science years ago. It's why I created Business Science University."__
+>
+>__Matt Dancho, Founder of Business Science__
+
+
+### DS4B Virtual Workshop: Predicting Employee Attrition <a class="anchor" id="vw"></a>
+
+Did you know that __an organization that loses 200 high performing employees per year is essentially losing $15M/year in lost productivity__? Many organizations don't realize this because it's an indirect cost. It goes unnoticed. What if you could use data science to predict and explain turnover in a way that managers could make better decisions and executives would see results? You will learn the tools to do so in our Virtual Workshop. Here's an example of a Shiny app you will create.
+
+![HR 301 Shiny Application: Employee Prediction](/img/hr_301_app.png) 
+<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in HR 301</p> 
+
+
+Our first [__Data Science For Business (HR 201) Virtual Workshop__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) teaches you how to solve this employee attrition problem in four courses that are fully integrated:
+
+* HR 201: Predicting Employee Attrition with `h2o` and `lime`
+* HR 301: Building A `Shiny` Web Application
+* HR 302: Data Story Telling With `RMarkdown` Reports and Presentations
+* HR 303: Building An R Package For Your Organization, `tidyattrition`
+
+The Virtual Workshop is intended for __intermediate and advanced R users__. It's __code intensive (like these articles)__, but also teaches you fundamentals of data science consulting including CRISP-DM and the Business Science Problem Framework. __The content bridges the gap between data science and the business, making you even more effective and improving your organization in the process.__
+
+Interested? [__Enroll in Business Science University today!__](https://university.business-science.io/)
 
 # Follow Business Science on Social Media <a class="anchor" id="social"></a>
 
