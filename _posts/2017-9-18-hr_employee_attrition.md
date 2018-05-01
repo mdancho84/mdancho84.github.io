@@ -581,6 +581,53 @@ Several job roles are experiencing more turnover. Sales reps have the highest tu
 
 There's a lot to take away from this article. We showed how you can use predictive analytics to develop sophisticated models that __very accurately detect employees that are at risk of turnover__. The __autoML algorithm from H2O.ai__ worked well for classifying attrition with an accuracy around 87% on unseen / unmodeled data. We then used __LIME to breakdown the complex ensemble model returned from H2O into critical features that are related to attrition__. Overall, this is a really useful example where we can see how machine learning and data science can be used in business applications. 
 
+## Business Science University  <a class="anchor" id="bsu"></a>
+
+Enjoy data science for business? We do too. This is why we created [Business Science University](https://university.business-science.io/) where we teach you how to do __Data Science For Busines (#DS4B)__ just like us!
+
+Our first [DS4B course (HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) is now available! 
+
+#### Who is this course for?
+
+Anyone that is interested in applying data science in a business context (we call this DS4B). All you need is basic `R`, `dplyr`, and `ggplot2` experience. If you understood this article, you are qualified. 
+
+#### What do you get it out of it?
+
+
+You learn everything you need to know about how to apply data science in a business context:
+
+- __Using ROI-driven data science taught from consulting experience!__
+
+- __Solve high-impact problems__ (e.g. $15M Employee Attrition Problem)
+
+- __Use advanced, bleeding-edge machine learning algorithms__ (e.g. H2O, LIME)
+
+- __Apply systematic data science frameworks__ (e.g. [Business Science Problem Framework](https://university.business-science.io/courses/246843/lectures/5029853))
+
+>__"If you've been looking for a program like this, I'm happy to say it's finally here! This is what I needed when I first began data science years ago. It's why I created Business Science University."__
+>
+>__Matt Dancho, Founder of Business Science__
+
+
+### DS4B Virtual Workshop: Predicting Employee Attrition <a class="anchor" id="vw"></a>
+
+Did you know that __an organization that loses 200 high performing employees per year is essentially losing $15M/year in lost productivity__? Many organizations don't realize this because it's an indirect cost. It goes unnoticed. What if you could use data science to predict and explain turnover in a way that managers could make better decisions and executives would see results? You will learn the tools to do so in our Virtual Workshop. Here's an example of a Shiny app you will create.
+
+![HR 301 Shiny Application: Employee Prediction](/img/hr_301_app.png) 
+<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in HR 301</p> 
+
+
+Our first [__Data Science For Business (HR 201) Virtual Workshop__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) teaches you how to solve this employee attrition problem in four courses that are fully integrated:
+
+* HR 201: Predicting Employee Attrition with `h2o` and `lime`
+* HR 301: Building A `Shiny` Web Application
+* HR 302: Data Story Telling With `RMarkdown` Reports and Presentations
+* HR 303: Building An R Package For Your Organization, `tidyattrition`
+
+The Virtual Workshop is intended for __intermediate and advanced R users__. It's __code intensive (like these articles)__, but also teaches you fundamentals of data science consulting including CRISP-DM and the Business Science Problem Framework. __The content bridges the gap between data science and the business, making you even more effective and improving your organization in the process.__
+
+Interested? [__Enroll in Business Science University today!__](https://university.business-science.io/)
+
 
 ## About Business Science <a class="anchor" id="contact"></a>
 
