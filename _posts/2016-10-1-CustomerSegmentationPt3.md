@@ -13,6 +13,11 @@ image: custSegments3.png
 
 This post is the third and final part in the customer segmentation analysis. The [first post](http://www.mattdancho.com/business/2016/08/07/CustomerSegmentationPt1.html) focused on [_K_-Means Clustering](https://en.wikipedia.org/wiki/K-means_clustering) to segment customers into distinct groups based on purchasing habits. The second post takes a different approach, using [Pricipal Component Analysis (PCA)](https://en.wikipedia.org/wiki/Principal_component_analysis) to visualize customer groups. The third and final post performs [Network Visualization (Graph Drawing)](https://en.wikipedia.org/wiki/Graph_drawing) using the `igraph` and `networkD3` libraries as a method to visualize the customer connections and relationship strengths.  
 
+## 3 Part Series
+
+* [CUSTOMER SEGMENTATION PART 1: K-MEANS CLUSTERING](http://www.business-science.io/business/2016/08/07/CustomerSegmentationPt1.html)
+* [CUSTOMER SEGMENTATION PART 2: PCA FOR SEGMENT VISUALIZATION](http://www.business-science.io/business/2016/09/04/CustomerSegmentationPt2.html)
+* [CUSTOMER SEGMENTATION PART 3: NETWORK VISUALIZATION](http://www.business-science.io/business/2016/10/01/CustomerSegmentationPt3.html)
 
 ## Table of Contents
 

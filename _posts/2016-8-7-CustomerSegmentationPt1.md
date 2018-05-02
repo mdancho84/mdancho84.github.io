@@ -11,6 +11,12 @@ image: custSegments1.png
 In this post, we'll be using [_k_-means clustering](https://en.wikipedia.org/wiki/K-means_clustering) in `R` to segment customers into distinct groups based on purchasing habits. _k_-means clustering is an unsupervised learning technique, which means we don't need to have a target for clustering. All we need is to format the data in a way the algorithm can process, and we'll let it determine the customer segments or clusters. This makes _k_-means clustering great for exploratory analysis as well as a jumping-off point for more detailed analysis. We'll walk through a relevant example using the Cannondale `bikes data set` from the `orderSimulatoR` project [GitHub repository](https://github.com/mdancho84/orderSimulatoR).
 
 
+## 3 Part Series
+
+* [CUSTOMER SEGMENTATION PART 1: K-MEANS CLUSTERING](http://www.business-science.io/business/2016/08/07/CustomerSegmentationPt1.html)
+* [CUSTOMER SEGMENTATION PART 2: PCA FOR SEGMENT VISUALIZATION](http://www.business-science.io/business/2016/09/04/CustomerSegmentationPt2.html)
+* [CUSTOMER SEGMENTATION PART 3: NETWORK VISUALIZATION](http://www.business-science.io/business/2016/10/01/CustomerSegmentationPt3.html)
+
 ## Table of Contents
 
   * [How _k_-Means Works](#how-works)
