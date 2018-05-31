@@ -364,7 +364,7 @@ The `future` package enables parallel processing. Here are a few important point
 
 - You set a "plan" for how code should be executed, call `future()` with an expression to evaluate, and call `value()` to retrieve the value. The first `future()` call sends off the code to another R process and is _non-blocking_ so you can keep running R code in this session. It only blocks once you call `value()`.
 
-- Globals variables and packages are automatically identified and 
+- Global variables and packages are automatically identified and 
 exported for you!
 
 __Now, the major point__: If you're familiar with `purrr`, you can take advantage of `future` parallel processing with `furrr`!
@@ -632,7 +632,7 @@ What if you could write your `initialize()` and `handle_data()` functions in R _
 
 #### Why "Flying Fox"?
 
-Zipline just doesn't quite make for a good hex sticker. A flying fox is a synonymn for zipliners, and it's hard to argue that this magestic animal wouldn't create a killer hex sticker.
+Zipline just doesn't quite make for a good hex sticker. A flying fox is a synonym for zipliners, and it's hard to argue that this majestic animal wouldn't create a killer hex sticker.
 
 ![Flying Fox](/assets/2018-05-31-flyingfox/flying_fox.jpg)
 
@@ -853,7 +853,7 @@ transactions_flagged_time %>%
 ## $ flag_transactions <lgl> TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRU...
 ## $ commission        <lgl> NA, NA, NA, NA, NA, NA, NA, NA, NA
 ## $ amount            <int> 212, -212, 197, 2, -199, 179, -179, 166, 3
-## $ sid               <list> [<environment: 0x0000000027c98c78>, <e...
+## $ sid               <list> [<environment: 0x0000000027ca9f18>, <e...
 ## $ order_id          <chr> "573c67da9fb6481c8a10cc55cddf57eb", "79...
 ## $ price             <dbl> 47.07353, 54.02298, 57.44871, 57.55877,...
 ## $ dt                <dttm> 2013-01-31 21:00:00, 2014-05-07 21:00:...
@@ -1155,7 +1155,7 @@ results_tbl$results[[1]] %>%
 ## [1] 9187.849
 {% endhighlight %}
 
-We can turn this into a function and map it to all of the columns to obtain the "final_portfoli_value" for each of the grid search combinations. 
+We can turn this into a function and map it to all of the columns to obtain the "final_portfolio_value" for each of the grid search combinations. 
 
 
 {% highlight r %}
@@ -1255,7 +1255,7 @@ transactions_tbl  %>%
 ## $ flag_transactions     <lgl> TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,...
 ## $ commission            <lgl> NA, NA, NA, NA, NA, NA, NA, NA, NA,...
 ## $ amount                <int> 172, 2, -174, 161, 2, -163, 147, -1...
-## $ sid                   <list> [<environment: 0x00000000291720c8>...
+## $ sid                   <list> [<environment: 0x00000000294f7048>...
 ## $ order_id              <chr> "d8a3551cb36c4ff985c42e4d78e00ef8",...
 ## $ price                 <dbl> 57.44871, 56.82840, 54.02298, 57.44...
 ## $ dt                    <dttm> 2014-03-13 21:00:00, 2014-03-14 21...
@@ -1300,7 +1300,7 @@ We've covered a lot of ground in this article. Congrats if you've made it throug
 
 1. `tibbletime`: For time-series in the tidyverse
 2. `furrr`: Our parallel processing extension to `purrr`
-3. `flyingfox`: Our experimental package brought to you as part of our Business Science Labs initative
+3. `flyingfox`: Our experimental package brought to you as part of our Business Science Labs initiative
 
 Further, you've seen how to apply all three of these packages to perform grid search backtest optimization of your trading algorithm.  
 
