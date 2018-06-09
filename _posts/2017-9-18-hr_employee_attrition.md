@@ -28,7 +28,7 @@ With advances in machine learning and data science, its possible to __not only p
 
 2. __Feature Importance with the `lime` package__: The problem with advanced machine learning algorithms such as deep learning is that it's near impossible to understand the algorithm because of its complexity. This has all changed with the `lime` package. The major advancement with `lime` is that, by recursively analyzing the models locally, it can extract feature importance that repeats globally. What this means to us is that `lime` has opened the door to understanding the ML models regardless of complexity. __Now the best (and typically very complex) models can also be investigated and potentially understood as to what variables or features make the model tick__. 
 
-
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
 
 ## Employee Attrition: Machine Learning Analysis 
 
@@ -635,7 +635,11 @@ __Our mission is to enable ANY organization to have access to data science.__ We
 
 __Grow with us!__ We are seeking top-tier data scientists. Let us know if you are interested in joining our __network of data scientist consultants__. If you have expertise in Marketing Analytics, Data Science for Business, Financial Analytics, or Data Science in general, we'd love to talk. [Contact us](http://www.business-science.io/contact.html)!
 
+
+
 ## Follow Business Science on Social Media <a class="anchor" id="social"></a>
+
+<span data-sumome-listbuilder-embed-id="8944080265e0a41a6249cd11ea3299d46ee953ea5bc9a1cd5635069be5bf0987"></span>
 
 * [@bizScienc](https://twitter.com/bizScienc) is on [twitter](https://twitter.com/bizScienc)!
 * Check us out on [Facebook page](https://www.facebook.com/Business-Science-LLC-754699134699054/)!
