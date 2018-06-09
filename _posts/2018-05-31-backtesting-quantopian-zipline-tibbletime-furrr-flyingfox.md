@@ -11,6 +11,7 @@ image: 2018-05-31-flyingfox/portfolio_value_grid.png
 
 We are ready to demo our __new experimental package for Algorithmic Trading__, `flyingfox`, which uses `reticulate` to to bring [Quantopian's open source algorithmic trading Python library, `Zipline`](http://www.zipline.io/), to R. The `flyingfox` library is part of our _NEW Business Science Labs_ innovation lab, which is dedicated to bringing experimental packages to our followers _early on_ so they can test them out and let us know what they think before they make their way to CRAN. This article includes a long-form code tutorial on how to __perform backtest optimizations of trading algorithms via grid search and parallel processing__. In this article, we'll show you how to use the combination of `tibbletime` (time-based extension of `tibble`) + `furrr` (a parallel-processing compliment to `purrr`) + `flyingfox` (`Zipline` in R) to __develop a backtested trading algorithm that can be optimized via grid search and parallel processing__. We are releasing this article as a compliment to the R/Finance Conference presentation ["A Time Series Platform For The Tidyverse"](https://github.com/business-science/presentations/tree/master/2018_06_01_R-Finance-Time-Series-Platform-Tidyverse), which Matt will present on Saturday (June 2nd, 2018). Enjoy! 
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
 
 ## New: Business Science Labs
 
@@ -40,7 +41,7 @@ Here's an example of the time series showing the order (buy/sell) points determi
 
 ![Portfolio Over Time With Buy/Sell Points](/assets/2018-05-31-flyingfox/portfolio_over_time.png)
 
-<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 
 ## Algorithmic Trading Strategies And Backtesting
 
