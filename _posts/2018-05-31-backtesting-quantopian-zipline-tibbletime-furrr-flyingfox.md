@@ -40,6 +40,8 @@ Here's an example of the time series showing the order (buy/sell) points determi
 
 ![Portfolio Over Time With Buy/Sell Points](/assets/2018-05-31-flyingfox/portfolio_over_time.png)
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 ## Algorithmic Trading Strategies And Backtesting
 
 __Algorithmic trading__ is nothing new. Financial companies have been performing algorithmic trading for years as a way of attempting to "beat" the market. It can be very difficult to do, but some traders have successfully applied advanced algorithms to yield significant profits. 
