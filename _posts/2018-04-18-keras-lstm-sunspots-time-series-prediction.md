@@ -33,6 +33,8 @@ The end result is a __high performance deep learning algorithm__ that does an ex
 
 ![Stateful Keras LSTM Predictions](/assets/2018-04-18-keras-lstm-sunspots/keras_stateful_lstm.png)
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 ## Applications in Business
 
 Time series prediction (forecasting) has a dramatic effect on the top and bottom line. In business, we could be interested in predicting which day of the month, quarter, or year that large expenditures are going to occur or we could be interested in understanding how the consumer price index (CPI) will change over the course of the next six months. These are common questions that impact organizations both on a microeconomic and macroeconomic level. While the data set used in this tutorial is not a "business" data set, it shows the power of the __tool-problem fit__, meaning that using the right tool for the job can offer tremendous improvements in accuracy. __The net result is increased prediction accuracy ultimately leads to quantifiable improvements to the top and bottom line__.

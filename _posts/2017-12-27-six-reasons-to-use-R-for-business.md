@@ -12,6 +12,8 @@ image: ds4b_rating.png
 
 Data science for business (DS4B) is the future of business analytics yet it is really difficult to figure out where to start. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: (1) selecting the right tool for the job, and (2) efficiently learning how to use the tool to return business value. This article focuses on the first part, explaining why R is the right choice in six points. Our next article will focus on the second part, learning R in 12 weeks. 
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 ## Reason 1: R Has The Best Overall Qualities
 
 ![DS4B Tool Ratings](/assets/ds4b_rating.png)

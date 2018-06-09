@@ -20,6 +20,8 @@ This post is the second part in the customer segmentation analysis. The [first p
 * [CUSTOMER SEGMENTATION PART 2: PCA FOR SEGMENT VISUALIZATION](http://www.business-science.io/business/2016/09/04/CustomerSegmentationPt2.html)
 * [CUSTOMER SEGMENTATION PART 3: NETWORK VISUALIZATION](http://www.business-science.io/business/2016/10/01/CustomerSegmentationPt3.html)
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 ## Table of Contents
 
   * [Why PCA?](#pca)

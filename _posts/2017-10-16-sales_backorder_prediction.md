@@ -22,6 +22,7 @@ One of the important visualizations (benefits to your understanding) is the effe
 
 ![Precision and Recall Vs Cutoff](/assets/sales_backorder_prediction.png)
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
 
 # Quick Navigation
 

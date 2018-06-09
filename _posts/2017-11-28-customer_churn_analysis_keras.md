@@ -18,7 +18,7 @@ Customer churn refers to the situation when a customer ends their relationship w
 
 The good news is that __machine learning can help__. For many businesses that offer subscription based services, it's critical to both predict customer churn and explain what features relate to customer churn. Older techniques such as logistic regression can be less accurate than newer techniques such as deep learning, which is why __we are going to show you how to model an ANN in R with the [`keras`](https://tensorflow.rstudio.com/keras/) package__. 
 
-
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
 
 ## Churn Modeling With Artificial Neural Networks (Keras)
 
