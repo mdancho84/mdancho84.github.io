@@ -23,6 +23,8 @@ Here's an example of the autocorrelation plot we investigate as part of this pos
 
 ![tidyquant correlation over time](/assets/tidy-timeseries-part4.png)
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 # Libraries Needed
 
 We'll need to load several libraries today.

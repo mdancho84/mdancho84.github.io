@@ -23,6 +23,8 @@ An example of the visualization we can create using the period apply functions w
 
 ![Median tidyverse downloads by week](/assets/tidy-timeseries-part1.png)
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 # Libraries Needed
 
 We'll primarily be using two libraries today.

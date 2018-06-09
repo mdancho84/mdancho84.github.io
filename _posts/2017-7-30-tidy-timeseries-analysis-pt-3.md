@@ -23,6 +23,8 @@ An example of the visualization we can create using the `runCor` function with `
 
 ![tidyquant correlation over time](/assets/tidy-timeseries-part3.png)
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 # Libraries Needed
 
 We'll need to load four libraries today.
