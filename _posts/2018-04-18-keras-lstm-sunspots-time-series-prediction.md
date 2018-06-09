@@ -13,6 +13,8 @@ image: 2018-04-18-keras-lstm-sunspots/keras_stateful_lstm.png
 
 __Time series prediction (forecasting) has experienced dramatic improvements in predictive accuracy as a result of the data science machine learning and deep learning evolution__. As these ML/DL tools have evolved, businesses and financial institutions are now able to forecast better by applying these new technologies to solve old problems. In this article, we showcase the use of a special type of __Deep Learning model called an [LSTM (Long Short-Term Memory)](https://en.wikipedia.org/wiki/Long_short-term_memory)__, which is useful for problems involving [sequences with autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation). We analyze a famous historical data set called ["sunspots"](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/sunspot.month.html) (a [sunspot](https://en.wikipedia.org/wiki/Solar_cycle) is a solar phenomenon wherein a dark spot forms on the surface of the sun). We'll show you how you can use an LSTM model to predict sunspots ten years into the future with an LSTM model.
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 ## Tutorial Overview
 
 This code tutorial goes along with a [presentation on Time Series Deep Learning](https://github.com/business-science/presentations/tree/master/2018_04_19_SP_Global_Time_Series_Deep_Learning) given to [SP Global](https://www.spglobal.com/) on Thursday, April 19, 2018. The slide deck that complements this article is available for download. 
@@ -33,7 +35,7 @@ The end result is a __high performance deep learning algorithm__ that does an ex
 
 ![Stateful Keras LSTM Predictions](/assets/2018-04-18-keras-lstm-sunspots/keras_stateful_lstm.png)
 
-<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 
 ## Applications in Business
 

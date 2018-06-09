@@ -12,6 +12,10 @@ image: hr_employee_attrition.png
 
 __Employee turnover (attrition) is a major cost to an organization, and predicting turnover is at the forefront of needs of Human Resources (HR) in many organizations__. Until now the mainstream approach has been to use logistic regression or survival curves to model employee attrition. However, with advancements in machine learning (ML), we can now get both better predictive performance and better explanations of what critical features are linked to employee attrition. In this post, we'll use two cutting edge techniques. First, we'll use the __`h2o` package's new FREE automatic machine learning algorithm, `h2o.automl()`__, to develop a predictive model that is in the same ballpark as commercial products in terms of ML accuracy. Then we'll use the __new `lime` package that enables breakdown of complex, black-box machine learning models into variable importance plots__. We can't stress how excited we are to share this post because it's a much needed step towards machine learning in business applications!!! Enjoy.
 
+
+
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 ## Employee Attrition: A Major Problem
 
 Bill Gates was once quoted as saying, 
@@ -28,7 +32,7 @@ With advances in machine learning and data science, its possible to __not only p
 
 2. __Feature Importance with the `lime` package__: The problem with advanced machine learning algorithms such as deep learning is that it's near impossible to understand the algorithm because of its complexity. This has all changed with the `lime` package. The major advancement with `lime` is that, by recursively analyzing the models locally, it can extract feature importance that repeats globally. What this means to us is that `lime` has opened the door to understanding the ML models regardless of complexity. __Now the best (and typically very complex) models can also be investigated and potentially understood as to what variables or features make the model tick__. 
 
-<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 
 ## Employee Attrition: Machine Learning Analysis 
 

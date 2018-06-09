@@ -11,6 +11,8 @@ image: customer_churn_analysis.png
 
 __Customer churn is a problem that all companies need to monitor, especially those that depend on subscription-based revenue streams__. The simple fact is that most organizations have data that can be used to target these individuals and to understand the key drivers of churn, and __we now have Keras for Deep Learning available in R (Yes, in R!!), which predicted customer churn with 82% accuracy__. We're super excited for this article because we are using the new [`keras`](https://tensorflow.rstudio.com/keras/) package to produce an __Artificial Neural Network (ANN)__ model on the [IBM Watson Telco Customer Churn Data Set](https://www.ibm.com/communities/analytics/watson-analytics-blog/predictive-insights-in-the-telco-customer-churn-data-set/)! As for most business problems, it's equally important to __explain what features drive the model__, which is why we'll use the [`lime`](https://github.com/thomasp85/lime) package for explainability. We cross-checked the LIME results with a Correlation Analysis using the [`corrr`](https://github.com/drsimonj/corrr) package. We're not done yet. In addition, we use __three new packages to assist with Machine Learning (ML)__: [`recipes`](https://topepo.github.io/recipes) for preprocessing, [`rsample`](https://topepo.github.io/rsample/) for sampling data and [`yardstick`](https://github.com/topepo/yardstick) for model metrics. These are relatively new additions to CRAN developed by [Max Kuhn](https://github.com/topepo) at RStudio (creator of the [`caret`](http://topepo.github.io/caret/index.html) package). It seems that _R is quickly developing ML tools that rival Python_. Good news if you're interested in applying Deep Learning in R! We are so let's get going!! 
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 ## Customer Churn: Hurts Sales, Hurts Company
 
 Customer churn refers to the situation when a customer ends their relationship with a company, and it's a costly problem. Customers are the fuel that powers a business. Loss of customers impacts sales. Further, it's much more difficult and costly to gain new customers than it is to retain existing customers. As a result, __organizations need to focus on reducing customer churn__.
@@ -18,7 +20,7 @@ Customer churn refers to the situation when a customer ends their relationship w
 
 The good news is that __machine learning can help__. For many businesses that offer subscription based services, it's critical to both predict customer churn and explain what features relate to customer churn. Older techniques such as logistic regression can be less accurate than newer techniques such as deep learning, which is why __we are going to show you how to model an ANN in R with the [`keras`](https://tensorflow.rstudio.com/keras/) package__. 
 
-<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 
 ## Churn Modeling With Artificial Neural Networks (Keras)
 

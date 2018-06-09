@@ -13,6 +13,7 @@ image: sales_backorder_prediction.png
 
 Sales, customer service, supply chain and logistics, manufacturing... no matter which department you're in, you more than likely care about backorders. Backorders are products that are temporarily out of stock, but a customer is permitted to place an order against future inventory. Back orders are both good and bad: Strong demand can drive back orders, but so can suboptimal planning. __The problem is when a product is not immediately available, customers may not have the luxury or patience to wait. This translates into lost sales and low customer satisfaction.__ The good news is that machine learning (ML) can be used to identify products at risk of backorders. In this article we use the __new H2O automated ML algorithm__ to implement Kaggle-quality predictions on the Kaggle dataset, ["Can You Predict Product Backorders?"](https://www.kaggle.com/tiredgeek/predict-bo-trial). This is an advanced tutorial, which can be difficult for learners. We have good news, see our [announcement below](#announcements) if you are interested in a machine learning course from Business Science. If you love this tutorial, please [connect with us on social media](#social) to stay up on the latest [Business Science](#contact) news, events and information! Good luck and happy analyzing!
 
+<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
 
 # Challenges and Benefits
 
@@ -22,7 +23,7 @@ One of the important visualizations (benefits to your understanding) is the effe
 
 ![Precision and Recall Vs Cutoff](/assets/sales_backorder_prediction.png)
 
-<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
 
 # Quick Navigation
 
