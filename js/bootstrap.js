@@ -785,17 +785,28 @@ if (typeof jQuery === 'undefined') {
       var $this         = $(this)
       var $parent       = getParent($this)
       var relatedTarget = { relatedTarget: this }
+      var isMobile      = false;
 
       if (!$parent.hasClass('open')) return
-
+      
       if (e && e.type == 'click' && /input|textarea/i.test(e.target.tagName) && $.contains($parent[0], e.target)) return
 
       $parent.trigger(e = $.Event('hide.bs.dropdown', relatedTarget))
 
       if (e.isDefaultPrevented()) return
-
-      $this.attr('aria-expanded', 'false')
-      $parent.removeClass('open').trigger($.Event('hidden.bs.dropdown', relatedTarget))
+      
+      //CHANGED THIS TO DEFAULT EXPANDED ON MOBILE
+      // device detection 
+      if($( window ).width() <= 768) { isMobile = true; }
+       
+      if(! isMobile) { 
+           $this.attr('aria-expanded', 'false')
+           $parent.removeClass('open').trigger($.Event('hidden.bs.dropdown', relatedTarge))
+      } 
+      //$this.attr('aria-expanded', 'false')
+      //$parent.removeClass('open').trigger($.Event('hidden.bs.dropdown', relatedTarget))
+      
+        
     })
   }
 

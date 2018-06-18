@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <button type="button" class="navbar-toggle" onclick="$('.nav > .dropdown').addClass('open')" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -19,14 +19,76 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                <!-- Nav Links: Maintained in data/nav.csv -->
+                
                 <ul class="nav navbar-nav navbar-right">
+                    
+                    
+    				
+    				<li {% if page.url == nav_item.link %} class="active" {% endif %}>
+    				    <a href="https://university.business-science.io">University</a>
+    				</li>
+    				
+    				<li {% if page.url == nav_item.link %} class="active" {% endif %}>
+    				    <a href="/services.html">Services</a>
+    				</li>
+    				
+                    <!--
+                    <li class="dropdown">
+                      <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Education</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="https://university.business-science.io">Business Science University</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/workshops.html">Workshops</a></li>
+                        
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Coaching &amp; Mentorship</a></li>
+                        
+                      </ul>
+                    </li>
+                    -->
+                    
+                    
+                    <!--
+                    <li class="dropdown">
+                      <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Software Development</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Web Applications</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">RStudio Enterprise Services</a></li>
+                      </ul>
+                    </li>
+                    -->
+                    
+                    
+                    
+                    <li class="dropdown">
+                      <a href="/software.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
+                      <ul class="dropdown-menu">
+                        <li><a href="/software.html">Software</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/bspf.html">BSPF Framework</a></li>
+                        <!--
+                        <li role="separator" class="divider"></li>
+                        <li><a href="https://www.youtube.com/channel/UCqQ_cxcNu1ekqHXDc-MbU_w">Videos</a></li>
+                        -->
+                        <!--
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Business Science Labs</a></li>
+                        -->
+                      </ul>
+                    </li>
+                    
+                    <!-- Nav Links: Maintained in data/nav.csv -->
     				{% for nav_item in site.data.nav %}
     				<li {% if page.url == nav_item.link %} class="active" {% endif %}>
     				    <a href="{{ nav_item.link }}">{{ nav_item.name }}</a>
     				</li>
     				{% endfor %}
-
+                    
+                    
+                    
                     <!-- Search site using Google's index -->
                     <li>
                         <form class="navbar-form navbar-right" role="search" method="get" action="http://google.com/search">
