@@ -133,7 +133,7 @@ The BSPF has seven phases that are __detailed__ with specific actions focused on
 6. Measure Results
 7. Report Financial Impact
 
-![BPSF Top Half](/assets/2018-06-19_BSPF/bspf_top.png)
+![BPSF Top Half](/assets/2018-06-19_BSPF/bspf_top.PNG)
 
 <p class="text-center date">Top Half of BSPF</p>
 
@@ -148,7 +148,7 @@ The seven BSPF phases flow along the six phases of [CRISP-DM](https://en.wikiped
 5. Evaluation
 6. Deployment
 
-![BPSF Top Half](/assets/2018-06-19_BSPF/bspf_bottom.png)
+![BPSF Top Half](/assets/2018-06-19_BSPF/bspf_bottom.PNG)
 
 <p class="text-center date">Bottom Half of BSPF</p>
 
