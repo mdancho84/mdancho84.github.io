@@ -8,7 +8,7 @@ layout: null
   <link href="{{ site.url }}/atom.xml" rel="self" />
   <link href="{{ site.url }}/"/>
   <pubDate>{{ site.time | date: "%Y-%m-%d %H:%M:%S" }}</pubDate>
-  <updated>{{ site.date | date_to_xmlschema }}</updated>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.url }}</id>
   <author>
     <name>{{ site.author.name }}</name>
@@ -18,8 +18,8 @@ layout: null
     <entry>
       <title>{{ post.title }}</title>
       <link href="{{ site.url }}{{ post.url }}" />
-      <pubDate>{{ post.date | date: "%Y-%m-%d %H:%M:%S" }}</pubDate>
-      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <pubDate>{{ post.time | date: "%Y-%m-%d %H:%M:%S" }}</pubDate>
+      <updated>{{ post.time | date_to_xmlschema }}</updated>
       <id>{{ site.url }}{{ post.id }}</id>
       <content type="html">{{ post.content | xml_escape }}</content>
       {% for tag in post.tags %}
