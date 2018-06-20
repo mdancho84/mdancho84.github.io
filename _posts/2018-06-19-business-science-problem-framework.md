@@ -2,7 +2,7 @@
 layout: post
 title: "How To Successfully Manage A Data Science Project For Businesses: The Business Science Problem Framework"
 author: "Matt Dancho"
-date:   2018-06-19 22:45:01 -0600
+date:   2018-06-19 22:45:01
 categories: [Business]
 tags: [BSPF, Framework, Data Science For Business, DS4B, Data Science, Project Management, CRISP-DM, Principles By Ray Dalio]
 image: 2018-06-19_BSPF/Business Science Problem Framework.png
