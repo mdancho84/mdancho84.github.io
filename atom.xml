@@ -7,7 +7,8 @@ layout: null
   <title>{{ site.name }}</title>
   <link href="{{ site.url }}/atom.xml" rel="self" />
   <link href="{{ site.url }}/"/>
-  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <!--<updated>{{ site.time | date_to_xmlschema }}</updated>-->
+  <pubDate>{{ site.time | date: "%Y-%m-%d %H:%M:%S" }}</pubDate>
   <id>{{ site.url }}</id>
   <author>
     <name>{{ site.author.name }}</name>
