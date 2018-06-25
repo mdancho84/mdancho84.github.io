@@ -125,25 +125,17 @@ h2o.init()
 
 
 {% highlight text %}
-## 
-## H2O is not running yet, starting it now...
-## 
-## Note:  In case of errors look at the following log files:
-##     C:\Users\mdancho\AppData\Local\Temp\RtmpotNUyt/h2o_mdancho_started_from_r.out
-##     C:\Users\mdancho\AppData\Local\Temp\RtmpotNUyt/h2o_mdancho_started_from_r.err
-## 
-## 
-## Starting H2O JVM and connecting: . Connection successful!
+##  Connection successful!
 ## 
 ## R is connected to the H2O cluster: 
-##     H2O cluster uptime:         6 seconds 264 milliseconds 
+##     H2O cluster uptime:         3 minutes 17 seconds 
 ##     H2O cluster timezone:       America/New_York 
 ##     H2O data parsing timezone:  UTC 
 ##     H2O cluster version:        3.19.0.4208 
-##     H2O cluster version age:    4 months and 5 days !!! 
-##     H2O cluster name:           H2O_started_from_R_mdancho_oli836 
+##     H2O cluster version age:    4 months and 6 days !!! 
+##     H2O cluster name:           H2O_started_from_R_mdancho_zbl980 
 ##     H2O cluster total nodes:    1 
-##     H2O cluster total memory:   3.51 GB 
+##     H2O cluster total memory:   3.50 GB 
 ##     H2O cluster total cores:    4 
 ##     H2O cluster allowed cores:  4 
 ##     H2O cluster healthy:        TRUE 
@@ -248,28 +240,28 @@ h2o.partialPlot(h2o_rf, data = train_obs.h2o, cols = "MonthlyIncome")
 ![plot of chunk unnamed-chunk-5](/figure/source/2018-06-25-lime-local-feature-interpretation/unnamed-chunk-5-1.png)
 
 {% highlight text %}
-## PartialDependence: Partial Dependence Plot of model DRF_model_R_1529916860364_1 on column 'MonthlyIncome'
+## PartialDependence: Partial Dependence Plot of model DRF_model_R_1529928665020_106 on column 'MonthlyIncome'
 ##    MonthlyIncome mean_response stddev_response
-## 1    1009.000000      0.255176        0.213761
-## 2    2008.473684      0.236896        0.218129
-## 3    3007.947368      0.171347        0.225505
-## 4    4007.421053      0.156794        0.224702
-## 5    5006.894737      0.156494        0.224239
-## 6    6006.368421      0.153149        0.223669
-## 7    7005.842105      0.155210        0.224341
-## 8    8005.315789      0.157163        0.224536
-## 9    9004.789474      0.159634        0.224945
-## 10  10004.263158      0.166896        0.222641
-## 11  11003.736842      0.166664        0.222439
-## 12  12003.210526      0.166091        0.221996
-## 13  13002.684211      0.165204        0.221900
-## 14  14002.157895      0.164303        0.221216
-## 15  15001.631579      0.164084        0.220963
-## 16  16001.105263      0.164084        0.220963
-## 17  17000.578947      0.164002        0.220618
-## 18  18000.052632      0.164398        0.220608
-## 19  18999.526316      0.164876        0.220570
-## 20  19999.000000      0.172835        0.217833
+## 1    1009.000000      0.229433        0.229043
+## 2    2008.473684      0.216096        0.234960
+## 3    3007.947368      0.167686        0.234022
+## 4    4007.421053      0.161024        0.231287
+## 5    5006.894737      0.157775        0.231151
+## 6    6006.368421      0.156628        0.231455
+## 7    7005.842105      0.157734        0.230267
+## 8    8005.315789      0.160137        0.229286
+## 9    9004.789474      0.164437        0.229305
+## 10  10004.263158      0.169652        0.227902
+## 11  11003.736842      0.165502        0.226240
+## 12  12003.210526      0.165297        0.225529
+## 13  13002.684211      0.165051        0.225335
+## 14  14002.157895      0.165051        0.225335
+## 15  15001.631579      0.164983        0.225316
+## 16  16001.105263      0.165051        0.225019
+## 17  17000.578947      0.165556        0.224890
+## 18  18000.052632      0.165556        0.224890
+## 19  18999.526316      0.166498        0.224726
+## 20  19999.000000      0.182348        0.219882
 {% endhighlight %}
 
 We can gain further insight by using centered ICE curves which can help draw out further details.  For example, the following ICE curves show a similar trend line as the PDP above but by centering we identify the decrease as monthly income approaches &#36;5,000 followed by an increase in probability of attriting once an employee's monthly income approaches \$20,000.  Futhermore, we see some turbulence in the flatlined region between &#36;5-&#36;20K) which means there appears to be certain salary regions where the probability of attriting changes.
@@ -277,15 +269,11 @@ We can gain further insight by using centered ICE curves which can help draw out
 
 {% highlight r %}
 fit.ranger %>%
-  partial(pred.var = "MonthlyIncome", grid.resolution = 25, ice = TRUE) %>%
+  pdp::partial(pred.var = "MonthlyIncome", grid.resolution = 25, ice = TRUE) %>%
   autoplot(rug = TRUE, train = train_obs, alpha = 0.1, center = TRUE)
 {% endhighlight %}
 
-
-
-{% highlight text %}
-## Error: is.function(...f) is not TRUE
-{% endhighlight %}
+![plot of chunk unnamed-chunk-6](/figure/source/2018-06-25-lime-local-feature-interpretation/unnamed-chunk-6-1.png)
 
 
 These visualizations help us to understand our model from a global perspective: identifying the variables with the largest overall impact and the typical influence of a feature on the response variable across all observations.  However, what these do not help us understand is given a new observation, what were the most ___influential variables that determined the predicted outcome___.  Say we obtain information on an employee that makes about &#36;10,000 per month and we need to assess their probabilty of leaving the firm.  Although monthly income is the most important variable in our model, it may not be the most influential variable driving this employee to leave.  To retain the employee, leadership needs to understand what variables are most influential for that specific employee.  This is where `lime` can help.
@@ -395,16 +383,16 @@ tibble::glimpse(explanation_caret)
 ## $ model_type       <chr> "classification", "classification", "cla...
 ## $ case             <chr> "1", "1", "1", "1", "1", "2", "2", "2", ...
 ## $ label            <chr> "Yes", "Yes", "Yes", "Yes", "Yes", "Yes"...
-## $ label_prob       <dbl> 0.260, 0.260, 0.260, 0.260, 0.260, 0.084...
-## $ model_r2         <dbl> 0.3130249, 0.3130249, 0.3130249, 0.31302...
-## $ model_intercept  <dbl> 0.2066689, 0.2066689, 0.2066689, 0.20666...
-## $ model_prediction <dbl> 0.2789978, 0.2789978, 0.2789978, 0.27899...
-## $ feature          <chr> "OverTime", "NumCompaniesWorked", "Age",...
-## $ feature_value    <int> 2, 8, 41, 3, 5993, 1, 2, 5130, 279, 1, 2...
-## $ feature_weight   <dbl> 0.12102147, 0.04510203, -0.04024521, -0....
-## $ feature_desc     <chr> "OverTime = Yes", "5 < NumCompaniesWorke...
+## $ label_prob       <dbl> 0.216, 0.216, 0.216, 0.216, 0.216, 0.070...
+## $ model_r2         <dbl> 0.5517840, 0.5517840, 0.5517840, 0.55178...
+## $ model_intercept  <dbl> 0.1498396, 0.1498396, 0.1498396, 0.14983...
+## $ model_prediction <dbl> 0.3233514, 0.3233514, 0.3233514, 0.32335...
+## $ feature          <chr> "OverTime", "MaritalStatus", "BusinessTr...
+## $ feature_value    <fct> Yes, Single, Travel_Rarely, Sales, Very_...
+## $ feature_weight   <dbl> 0.14996805, 0.05656074, -0.03929651, 0.0...
+## $ feature_desc     <chr> "OverTime = Yes", "MaritalStatus = Singl...
 ## $ data             <list> [[41, Yes, Travel_Rarely, 1102, Sales, ...
-## $ prediction       <list> [[0.26, 0.74], [0.26, 0.74], [0.26, 0.7...
+## $ prediction       <list> [[0.216, 0.784], [0.216, 0.784], [0.216...
 {% endhighlight %}
 
 ### Visualizing results <a class="anchor" id="viz"></a>
@@ -561,11 +549,11 @@ predict_model(fit.ranger, newdata = local_obs)
 
 {% highlight text %}
 ##         Yes        No
-## 1 0.3016175 0.6983825
-## 2 0.1021706 0.8978294
-## 3 0.4105476 0.5894524
-## 4 0.3057778 0.6942222
-## 5 0.2097452 0.7902548
+## 1 0.2915452 0.7084548
+## 2 0.0701619 0.9298381
+## 3 0.4406563 0.5593437
+## 4 0.3465294 0.6534706
+## 5 0.2525397 0.7474603
 {% endhighlight %}
 
 
