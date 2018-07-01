@@ -39,6 +39,22 @@ In fact, one of the coolest things you'll develop is this plot of backtested LST
 
 <p class="text-center date">Backtested LSTM Forecasts</p>
 
+
+
+<hr>
+
+<h2 class="text-center">Interested in Learning Data Science For Business?</h2>
+
+<p class="text-center">
+Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I'll send you the five coolest topics in data science for business that I've found that week. These could be new R packages, free books, or just some fun to end the week on. 
+</p>
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://mailchi.mp/business-science.io/five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
+</p>
+
+<hr>
+
 ## Time Series Deep Learning In Business <a class="anchor" id="dl-in-business"></a> 
 
 > Introduction by Matt Dancho, Founder of Business Science
