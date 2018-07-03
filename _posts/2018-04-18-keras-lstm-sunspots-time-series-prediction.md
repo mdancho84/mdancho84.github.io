@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Time Series Deep Learning: Forecasting Sunspots With Keras Stateful LSTM In R"
+title: "Time Series Deep Learning, Part 1: Forecasting Sunspots With Keras Stateful LSTM In R"
 author: "Matt Dancho"
 categories: [Timeseries-Analysis]
 tags: [R-Project, R, Time Series, Deep Learning, Keras, TensorFlow, Backtesting, tidyverse, tibbletime, timetk, keras, rsample, recipes, yardstick]
@@ -13,7 +13,14 @@ image: 2018-04-18-keras-lstm-sunspots/keras_stateful_lstm.png
 
 __Time series prediction (forecasting) has experienced dramatic improvements in predictive accuracy as a result of the data science machine learning and deep learning evolution__. As these ML/DL tools have evolved, businesses and financial institutions are now able to forecast better by applying these new technologies to solve old problems. In this article, we showcase the use of a special type of __Deep Learning model called an [LSTM (Long Short-Term Memory)](https://en.wikipedia.org/wiki/Long_short-term_memory)__, which is useful for problems involving [sequences with autocorrelation](https://en.wikipedia.org/wiki/Autocorrelation). We analyze a famous historical data set called ["sunspots"](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/sunspot.month.html) (a [sunspot](https://en.wikipedia.org/wiki/Solar_cycle) is a solar phenomenon wherein a dark spot forms on the surface of the sun). We'll show you how you can use an LSTM model to predict sunspots ten years into the future with an LSTM model.
 
+
 <span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
+
+## Articles In This Series
+
+* [Time Series Deep Learning, Part 1: Forecasting Sunspots With Keras Stateful LSTM In R](http://www.business-science.io/timeseries-analysis/2018/04/18/keras-lstm-sunspots-time-series-prediction.html) - Shows the a number of powerful time series deep learning techniques such as how to use ___autocorrelation___ with an LSTM, how to backtest time series, and more!
+
+* [Time Series Deep Learning, Part 2: Predicting Sunspot Frequency with Keras LSTM In R](http://www.business-science.io/timeseries-analysis/2018/07/01/keras-lstm-sunspots-part2.html) - Matt teamed up with Sigrid Keydana (TF Dev Advocate at RStudio) to develop a state-of-the-art TensorFlow model using `keras` and `tfruns`. You can also find this article on [RStudio's TensorFlow Blog](https://tensorflow.rstudio.com/blog/sunspots-lstm.html).
 
 ## Tutorial Overview
 
@@ -36,6 +43,19 @@ The end result is a __high performance deep learning algorithm__ that does an ex
 ![Stateful Keras LSTM Predictions](/assets/2018-04-18-keras-lstm-sunspots/keras_stateful_lstm.png)
 
 
+<hr>
+
+<h2 class="text-center">Interested in Learning Data Science For Business?</h2>
+
+<p class="text-center">
+Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I'll send you the five coolest topics in data science for business that I've found that week. These could be new R packages, free books, or just some fun to end the week on. 
+</p>
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://mailchi.mp/business-science.io/five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
+</p>
+
+<hr>
 
 ## Applications in Business
 
