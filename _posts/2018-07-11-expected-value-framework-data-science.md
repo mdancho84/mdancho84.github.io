@@ -313,7 +313,7 @@ Get Started Today!
 </a></p>
 
 
-![HR 301 Shiny Application: Employee Prediction](/assets/2018-07-11-expected-value/hr_301_app.png) 
+![HR 301 Shiny Application: Employee Prediction](/img/hr_301_app.png) 
 <p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in HR 301</p> 
 
 <span data-sumome-listbuilder-embed-id="1e13d987ad901ab4571b6d92bb2ab8a2230c397b886c1fd49eba5392ed5c88cb"></span>
