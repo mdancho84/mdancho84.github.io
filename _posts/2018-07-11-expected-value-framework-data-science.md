@@ -38,7 +38,7 @@ Alright, let's get started!
 
 <hr>
 
-<h2 class="text-center">Interested in Learning Data Science For Business?</h2>
+<h2 class="text-center">Get The Best Resources In Data Science. Every Friday!</h2>
 
 <p class="text-center">
 Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I'll send you the five coolest topics in data science for business that I've found that week. These could be new R packages, free books, or just some fun to end the week on. 
@@ -67,9 +67,15 @@ For those that are wondering [__what the threshold at max F1 is__](https://en.wi
 
 As an example, let's focus on the cost difference between Type 1 (false positives) and Type 2 (false negatives) in an employee attrition problem. Say we are considering a mandatory overtime reduction because saw that employees flagged as working overtime are 5X more likely to quit. We develop a prediction algorithm using H2O Automated Machine Learning and then run our LIME algorithm to develop explanations at the employee level. The LIME results confirm our suspicion. Overtime is a key feature supporting Employee Attrition. 
 
+![Expected Value Of Churn](/assets/2018-07-11-expected-value/ev_churn.png)
+
+<p class="text-center date">Calculating Expected Attrition Cost From H2O + LIME Results</p>
+
 We develop a proposal to reduce overtime using our H2O classification model, which by default uses the threshold that maximizes F1 (treats Type 1 and Type 2 errors equally). We then begin targeting people for overtime reduction. We end up misclassifying people that leave as stay (Type 2 error) at roughly the same rate as we misclassify people that stay as leave (Type 1 error). The cost of overtime reduction for an employee is estimated at 30% of the lost productivity if the employee quits. 
 
-__Here lies the problem: The cost of reducing the overtime incorrectly for some one that stays is 30% of missing the opportunity to reduce overtime for an employee incorrectly predicted to stay when they leave. In other words, Type 2 Error is 3X more costly than Type 1 Error, yet we are treating them the same__
+__Here lies the problem: The cost of reducing the overtime incorrectly for some one that stays is 30% of missing the opportunity to reduce overtime for an employee incorrectly predicted to stay when they leave. In other words, Type 2 Error is 3X more costly than Type 1 Error, yet we are treating them the same!__
+
+> "Type 2 Error is 3X more costly than Type 1 Error, yet we are treating them the same!"
 
 Because of this, the ___optimal threshold for business problems___ is almost always less than the F1 threshold. This leads us to our second reason you need to know the Expected Value Framework. 
 
@@ -77,11 +83,11 @@ Because of this, the ___optimal threshold for business problems___ is almost alw
 
 When we have a calculation to determine the expected value using business costs, we can perform the calculation iteratively to find the optimal threshold that __maximizes the expected profit or savings of the business problem__. By iteratively calculating the savings generated at different thresholds, we can see which threshold optimizes the targeting approach. 
 
-In the example below, we can see in the threshold optimization results that the maximum savings occurs at a threshold of 0.149, which is 16% higher than the threshold at max F1 (default). It's worth mentioning that the threshold that maximizes F1 was 0.280, and that for a test set containing 15% of the total population it cost \$76K due to being sub-optimal (\$546K - $470K). __Extending this inefficiency to the full population, this is a missed opportunity of \$500K!__
+In the example below, we can see in the threshold optimization results that the maximum savings (\$546K) occurs at a threshold of 0.149, which is __16% more savings__ than the savings at threshold at max F1 (\$470K). It's worth mentioning that the threshold that maximizes F1 was 0.280, and that for a test set containing 15% of the total population it cost \$76K due to being sub-optimal (\$546K - \$470K). __Extending this inefficiency to the full population (train + test data), this is a missed opportunity of \$500K annually!__
 
 ![Threshold Optimization Results](/assets/2018-07-11-expected-value/threshold_optimization.png)
 
-<p class="text-center date">Threshold Optimization Results On A Test Set Containing 15% Of Total Population</p>
+<p class="text-center date">Threshold Optimization Results Results in 16% Benefit for A Test Set Containing 15% Of Total Population, Extending To Full Set is $500K Savings</p>
 
 The Expected Value Framework enables us to find the optimal threshold that accounts for the business costs, thus weighting Type 2 Errors appropriately. As shown, this can result in huge savings over the F1.
 
@@ -104,7 +110,21 @@ In the human resources example below, we tested for a range of values _average o
 
 Wow! Not only can we test for the optimal threshold that maximizes the business case, we can use expected value to test for a range of inputs that are variable from year to year and person to person. This is huge for business analysis!
 
-If you're interested in learning how to apply the Expected Value Framework using data science, we teach it in Chapters 7 and 8 of [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15).
+
+
+<hr>
+
+<h2 class="text-center">Interested in Learning The Expected Value Framework For Business?</h2>
+
+<p class="text-center">
+If you're interested in learning how to apply the Expected Value Framework using R Programming, we teach it in Chapters 7 and 8 of <strong>Data Science For Business (DS4B 201)</strong> as part of our <strong>end-to-end Employee Churn business data science project</strong>.
+</p>
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+</p>
+
+<hr>
 
 ## YouTube Expected Value Framework Overview <a class="anchor" id="youtube"></a>
 
@@ -334,4 +354,3 @@ If you like our software (`anomalize`, `tidyquant`, `tibbletime`, `timetk`, and 
 * [__Business Science, LLC__ on LinkedIn](https://www.linkedin.com/company/business.science)
 * [__bizScienc__ on twitter](https://twitter.com/bizScienc)
 * [__Business Science, LLC__ on Facebook](https://www.facebook.com/Business-Science-LLC-754699134699054/)
-
