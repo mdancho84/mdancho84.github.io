@@ -10,7 +10,7 @@ image: 2018-07-16-ch7-ds4b-201/ev_churn.png
 
 
 
-I'm pleased to announce that we released __brand new content__ for our flagship course, [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15). The latest content is focused on transitioning from modeling Employee Churn with H2O and LIME to __evaluating our binary classification model using Return-On-Investment (ROI), thus delivering business value__. We do this through application of a special tool called the __Expected Value Framework__. Let's learn about the new course content available now in DS4B 201, Chapter 7, which covers the Expected Value Framework for modeling churn with H2O!
+I'm pleased to announce that we released __brand new content__ for our flagship course, [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15). Over the course of 10 weeks, the DS4B 201 course teaches students and end-to-end data science project solving Employee Churn with R, H2O, & LIME. The latest content is focused on transitioning from modeling Employee Churn with H2O and LIME to __evaluating our binary classification model using Return-On-Investment (ROI), thus delivering business value__. We do this through application of a special tool called the __Expected Value Framework__. Let's learn about the new course content available now in DS4B 201, Chapter 7, which covers the Expected Value Framework for modeling churn with H2O!
 
 
 
