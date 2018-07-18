@@ -3,7 +3,7 @@ layout: post
 title: "Press Release: Business Science Partners With Method Data Science To Accelerate Your Data Science Career"
 author: "Matt Dancho"
 date:   2018-07-18 11:11:01
-categories: [Press-Releases]
+categories: [Press Releases]
 tags: [R-Project, R, Python, Data Science, Education, Partnerships]
 image: 2018-07-18-press-release-method/press_release_method_data_science.png
 ---
@@ -11,6 +11,7 @@ image: 2018-07-18-press-release-method/press_release_method_data_science.png
 
 
 __The goal is simple: to educate and empower future data scientists so they can help organizations gain data-driven results.__ This is why it was a no-brainer when the opportunity came up for [Business Science](http://www.business-science.io/) to partner with [Method Data Science](http://methoddatascience.com/), the go-to data science accelerator for aspiring data scientists. Now Method Data Scientists will get [exclusive lectures](#value) from Business Science Instructors and have [discounted access](#value) to [Business Science University](https://university.business-science.io/), the revolutionary online education platform for learning data science for business, along with instructor trainings as part of the Method Data Science accelerator program. This is big news for current and future data scientists seeking to gain real-world experience while learning how to deliver results to organizations!
+
 
 > _"The goal is simple: to __educate__ and __empower__ future data scientists so they can help organizations gain data-driven results."_
 
