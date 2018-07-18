@@ -3,7 +3,7 @@ layout: post
 title: "Press Release: Business Science Partners With Method Data Science To Accelerate Your Data Science Career"
 author: "Matt Dancho"
 date:   2018-07-18 11:11:01
-categories: [Press Releases]
+categories: [Press-Releases]
 tags: [R-Project, R, Python, Data Science, Education, Partnerships]
 image: 2018-07-18-press-release-method/press_release_method_data_science.png
 ---
