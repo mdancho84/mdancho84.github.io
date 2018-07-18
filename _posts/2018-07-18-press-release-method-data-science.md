@@ -3,8 +3,8 @@ layout: post
 title: "Press Release: Business Science Partners With Method Data Science To Accelerate Your Data Science Career"
 author: "Matt Dancho"
 date:   2018-07-18 11:11:01
-categories: [Press Releases]
-tags: [R-Project, R, Data Science, Education, Partnerships]
+categories: [Press-Releases]
+tags: [R-Project, R, Python, Data Science, Education, Partnerships]
 image: 2018-07-18-press-release-method/press_release_method_data_science.png
 ---
 
@@ -159,14 +159,29 @@ The Virtual Workshop is intended for __intermediate and advanced R users__. It's
 Get 15% OFF!
 </a></p>
 
+
+
+<hr>
+
+<h2 class="text-center">Get The Best Resources In Data Science. Every Friday!</h2>
+
+<p class="text-center">
+Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I'll send you the five coolest topics in data science for business that I've found that week. These could be new R packages, free books, or just some fun to end the week on. 
+</p>
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://mailchi.mp/business-science.io/five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
+</p>
+
+<hr>
+
 ## Don't Miss A Beat
 
-<span data-sumome-listbuilder-embed-id="8944080265e0a41a6249cd11ea3299d46ee953ea5bc9a1cd5635069be5bf0987"></span>
-
-* Sign up for the [Business Science blog](http://www.business-science.io/blog/index.html) to stay updated
+* Sign up for the [Business Science "5 Topic Friday" Newsletter!](https://mailchi.mp/business-science.io/five-topic-friday) 
 * Get started with [Business Science University](https://university.business-science.io/) to learn how to solve real-world data science problems from Business Science
 * Check out our [Open Source Software](http://www.business-science.io/r-packages.html)
 
+<span data-sumome-listbuilder-embed-id="8944080265e0a41a6249cd11ea3299d46ee953ea5bc9a1cd5635069be5bf0987"></span>
 
 ## Connect With Business Science <a class="anchor" id="social"></a>
 
