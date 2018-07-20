@@ -22,6 +22,7 @@ We're at the final day of __Business Science Demo Week__. Today we are demo-ing 
 - [class(Thursday) <- tibbletime](/code-tools/2017/10/26/demo_week_tibbletime.html)
 - [class(Friday) <- h2o + timetk](/code-tools/2017/10/28/demo_week_h2o.html)
 
+<br>
 <hr>
 
 <h2 class="text-center">Get The Best Resources In Data Science. Every Friday!</h2>
@@ -34,6 +35,7 @@ Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I
 <a href="https://mailchi.mp/business-science.io/five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
 </p>
 
+<br>
 <hr>
 
 # h2o: What's It Used For?
