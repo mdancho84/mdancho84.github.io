@@ -22,6 +22,18 @@ We're at the final day of __Business Science Demo Week__. Today we are demo-ing 
 - [class(Thursday) <- tibbletime](/code-tools/2017/10/26/demo_week_tibbletime.html)
 - [class(Friday) <- h2o + timetk](/code-tools/2017/10/28/demo_week_h2o.html)
 
+<h2 class="text-center">Get The Best Resources In Data Science. Every Friday!</h2>
+
+<p class="text-center">
+Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I'll send you the five coolest topics in data science for business that I've found that week. These could be new R packages, free books, or just some fun to end the week on. 
+</p>
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://mailchi.mp/business-science.io/five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
+</p>
+
+<hr>
+
 # h2o: What's It Used For?
 
 The `h2o` package is a product offered by [H2O.ai](https://www.h2o.ai/) that contains a number of cutting edge machine learning algorithms, performance metrics, and auxiliary functions to make machine learning both powerful and easy. One of the main benefits of H2O is that it can be deployed on a cluster (this will not be discussed today). From the R perspective, there are four main uses:

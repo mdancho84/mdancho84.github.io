@@ -23,6 +23,18 @@ We've got an exciting week ahead of us at [Business Science](#contact): we're la
 - [class(Thursday) <- tibbletime](/code-tools/2017/10/26/demo_week_tibbletime.html)
 - [class(Friday) <- h2o + timetk](/code-tools/2017/10/28/demo_week_h2o.html)
 
+<h2 class="text-center">Get The Best Resources In Data Science. Every Friday!</h2>
+
+<p class="text-center">
+Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I'll send you the five coolest topics in data science for business that I've found that week. These could be new R packages, free books, or just some fun to end the week on. 
+</p>
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://mailchi.mp/business-science.io/five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
+</p>
+
+<hr>
+
 # tidyquant: What's It Used For?
 
 Six reasons to use `tidyquant`:
