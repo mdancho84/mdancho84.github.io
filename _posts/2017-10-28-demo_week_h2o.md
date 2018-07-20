@@ -22,6 +22,8 @@ We're at the final day of __Business Science Demo Week__. Today we are demo-ing 
 - [class(Thursday) <- tibbletime](/code-tools/2017/10/26/demo_week_tibbletime.html)
 - [class(Friday) <- h2o + timetk](/code-tools/2017/10/28/demo_week_h2o.html)
 
+<hr>
+
 <h2 class="text-center">Get The Best Resources In Data Science. Every Friday!</h2>
 
 <p class="text-center">
