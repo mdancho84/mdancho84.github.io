@@ -14,10 +14,13 @@ image: demo-week-sweep.png
 We're into the third day of __Business Science Demo Week__. Hopefully by now you're getting a taste of some interesting and useful packages. For those that may have missed it, every day this week we are demo-ing an R package: `tidyquant` (Monday), `timetk` (Tuesday), `sweep` (Wednesday), `tibbletime` (Thursday) and `h2o` (Friday)! __That's five packages in five days__! We'll give you intel on __what you need to know about these packages to go from zero to hero__. Today is `sweep`, which has `broom`-style tidiers for forecasting. Let's get going!
 
 
-#### Previous Demo Week Demos
+#### Demo Week Demos:
 
 - [class(Monday) <- tidyquant](/code-tools/2017/10/23/demo_week_tidyquant.html)
 - [class(Tuesday) <- timetk](/code-tools/2017/10/24/demo_week_timetk.html)
+- [class(Wednesday) <- sweep](/code-tools/2017/10/25/demo_week_sweep.html)
+- [class(Thursday) <- tibbletime](/code-tools/2017/10/26/demo_week_tibbletime.html)
+- [class(Friday) <- h2o + timetk](/code-tools/2017/10/28/demo_week_h2o.html)
 
 
 # sweep: What's It Used For?

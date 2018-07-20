@@ -15,6 +15,14 @@ image: demo-week-tidyquant.png
 We've got an exciting week ahead of us at [Business Science](#contact): we're launching our __first ever Business Science Demo Week__. Every day this week we are demoing an R package: `tidyquant` (Monday), `timetk` (Tuesday), `sweep` (Wednesday), `tibbletime` (Thursday) and `h2o` (Friday)! __That's five packages in five days__! We'll give you intel on __what you need to know about these packages to go from zero to hero__. First up is `tidyquant`, our flagship package that's useful for financial and time series analysis. Here we go!
 
 
+#### Demo Week Demos:
+
+- [class(Monday) <- tidyquant](/code-tools/2017/10/23/demo_week_tidyquant.html)
+- [class(Tuesday) <- timetk](/code-tools/2017/10/24/demo_week_timetk.html)
+- [class(Wednesday) <- sweep](/code-tools/2017/10/25/demo_week_sweep.html)
+- [class(Thursday) <- tibbletime](/code-tools/2017/10/26/demo_week_tibbletime.html)
+- [class(Friday) <- h2o + timetk](/code-tools/2017/10/28/demo_week_h2o.html)
+
 # tidyquant: What's It Used For?
 
 Six reasons to use `tidyquant`:
