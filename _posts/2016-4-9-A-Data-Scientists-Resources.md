@@ -33,7 +33,7 @@ These are the best resources I've found to get you up and running quickly with a
 
 [R Programming for Data Science](https://leanpub.com/rprogramming) - Good book you can get for free. This is pure `R`, whereas the others are more statistics driven. It accompanies the Coursera R Programming course on Coursera.
 
-[Exploratory Data Analysis with R](https://leanpub.com/exdata) & [Art of Data Science](https://leanpub.com/artofdatascience) - The focus is on graphology... the art of communicating data. Exploratory Data Analysis shows the `R` programming side of data communication while the Art of Data Science focuses on the fundamentals behind data communication.
+[Exploratory Data Analysis with R](https://leanpub.com/exdata) and [Art of Data Science](https://leanpub.com/artofdatascience) - The focus is on graphology... the art of communicating data. Exploratory Data Analysis shows the `R` programming side of data communication while the Art of Data Science focuses on the fundamentals behind data communication.
 
 #### Courses:
 
