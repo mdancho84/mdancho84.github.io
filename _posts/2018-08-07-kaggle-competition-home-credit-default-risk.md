@@ -34,8 +34,10 @@ Next, we'll go through the process Matt used to [build a competitive model in ab
 
 
 ![Simplified H2O AutoML Preprocessing Workflow](/assets/2018-08-07-kaggle-credit-risk/h2o_strategy.png)
+<p class="text-center date">H2O AutoML Preprocessing Workflow</p>
 
-We end on [next steps](#next-steps), which provides details on our [end-to-end data science project course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) that is transforms your abilities in 10 weeks. 
+
+We end on [next steps](#next-steps), which provides details on our [end-to-end data science project course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) that will transform your data science abilities in 10 weeks. 
 
 <br>
 <hr>
@@ -63,6 +65,8 @@ In the world of finance, [Credit or Default Risk](https://www.investopedia.com/t
 
 ![JP Morgan](/assets/2018-08-07-kaggle-credit-risk/jpmorgan.jpg)
 
+<p class="text-center date">JP Morgan: A Major Lender Of Corporate Loans</p>
+
 Every time Citi or JP Morgan extends a loan to a person or a corporation it assesses the ___level of risk___ involved in the transaction. This is because every once in a while people or companies won't be able to make payments. In the dynamic world we live in unfortunate events happen and circumstances change. 
 [Default risk is comprised of two components](https://www.investopedia.com/university/risk/risk2.asp):
 
@@ -81,6 +85,7 @@ Like any machine learning problem, default risk has drivers, or features related
 For the Kaggle Competition, _Home Credit_ (the company) has supplied us with data from several data sources. The following Data Architecture Diagram shows the interrelationships between the data files provided. 
 
 ![Home Credit Default Risk Data Architecture](/assets/2018-08-07-kaggle-credit-risk/home_credit.png)
+<p class="text-center date"><a href="https://www.kaggle.com/c/home-credit-default-risk">Data Architecture Diagram For Home Credit Default Risk Competition</a></p>
 
 For the purposes of this article, we'll focus on the `application_train.csv` and `application_test.csv` files, which contain a significant amount of useful information for predicting credit default. This is the main source of information for people that have applied for personal loans including features related to their loan application. 
 
@@ -224,6 +229,9 @@ application_train_tbl %>%
 |     100011|      0|Cash loans         |F           |N            |Y               |            0|           112500|  1019610.0|     33826.5|          913500|Children        |Pensioner            |Secondary / secondary special |Married              |House / apartment |                   0.018634|     -20099|        365243|             -7427|           -3514|          NA|          1|              0|               0|                1|          0|          0|NA              |               2|                    2|                           2|WEDNESDAY                  |                      14|                          0|                          0|                           0|                      0|                      0|                       0|XNA                    |    0.5873340|    0.2057473|    0.7517237|             NA|               NA|                          NA|              NA|             NA|            NA|            NA|            NA|            NA|           NA|                   NA|             NA|                      NA|                NA|              NA|                NA|                           NA|               NA|              NA|             NA|             NA|             NA|             NA|            NA|                    NA|              NA|                       NA|                 NA|              NA|                NA|                           NA|               NA|              NA|             NA|             NA|             NA|             NA|            NA|                    NA|              NA|                       NA|                 NA|NA                 |NA             |             NA|NA                 |NA                  |                        1|                        0|                        1|                        0|                      0|               0|               1|               0|               0|               0|               0|               0|               0|                0|                0|                0|                0|                0|                0|                0|                0|                0|                0|                0|                0|                          0|                         0|                          0|                         0|                         0|                          1|
 |     100012|      0|Revolving loans    |M           |N            |Y               |            0|           135000|   405000.0|     20250.0|          405000|Unaccompanied   |Working              |Secondary / secondary special |Single / not married |House / apartment |                   0.019689|     -14469|         -2019|            -14437|           -3992|          NA|          1|              1|               0|                1|          0|          0|Laborers        |               1|                    2|                           2|THURSDAY                   |                       8|                          0|                          0|                           0|                      0|                      0|                       0|Electricity            |           NA|    0.7466436|           NA|             NA|               NA|                          NA|              NA|             NA|            NA|            NA|            NA|            NA|           NA|                   NA|             NA|                      NA|                NA|              NA|                NA|                           NA|               NA|              NA|             NA|             NA|             NA|             NA|            NA|                    NA|              NA|                       NA|                 NA|              NA|                NA|                           NA|               NA|              NA|             NA|             NA|             NA|             NA|            NA|                    NA|              NA|                       NA|                 NA|NA                 |NA             |             NA|NA                 |NA                  |                        2|                        0|                        2|                        0|                  -1673|               0|               0|               0|               0|               0|               0|               0|               0|                0|                0|                0|                0|                0|                0|                0|                0|                0|                0|                0|                0|                         NA|                        NA|                         NA|                        NA|                        NA|                         NA|
 
+<p class="text-center date">application_train_tbl: First 10 Rows</p>
+
+
 A few points about the data:
 
 - The training data contains 307K observations, which are people applied for and received loans
@@ -332,6 +340,7 @@ I see that there are 3 data type formats: integer, numeric, and character. For H
 The first 5 minutes were dedicated to mocking up a plan. I began by framing a solution on a piece of scrap paper.
 
 ![Analysis Strategy Scrap Paper](/assets/2018-08-07-kaggle-credit-risk/strategy_scrap_paper.png)
+<p class="text-center date">Analysis Strategy on Scrap Paper</p>
 
 The general workflow (1) is at the top where I wanted to accomplish the following goals:
 
@@ -363,6 +372,7 @@ Here's the simplified strategy I used for preprocessing for AutoML. I diagrammed
 
 
 ![Simplified H2O AutoML Preprocessing Workflow](/assets/2018-08-07-kaggle-credit-risk/h2o_strategy.png)
+<p class="text-center date">H2O AutoML Preprocessing Workflow</p>
 
 <br>
 <hr>
@@ -725,12 +735,12 @@ h2o.init()
 ##  Connection successful!
 ## 
 ## R is connected to the H2O cluster: 
-##     H2O cluster uptime:         3 hours 2 minutes 
+##     H2O cluster uptime:         4 hours 42 minutes 
 ##     H2O cluster version:        3.16.0.2 
 ##     H2O cluster version age:    8 months and 7 days !!! 
 ##     H2O cluster name:           H2O_started_from_R_mdanc_inu316 
 ##     H2O cluster total nodes:    1 
-##     H2O cluster total memory:   2.16 GB 
+##     H2O cluster total memory:   1.85 GB 
 ##     H2O cluster total cores:    8 
 ##     H2O cluster allowed cores:  8 
 ##     H2O cluster healthy:        TRUE 
@@ -939,6 +949,7 @@ prediction_tbl %>%
 Submitting my results, I got an AUC of approximately 0.70. Not bad for 30 minutes of modeling. 
 
 ![Kaggle Submission](/assets/2018-08-07-kaggle-credit-risk/submission_001.png)
+<p class="text-center date">Kaggle Submission</p>
 
 The important thing to understand is that this is a great baseline for a model. We can begin to improve it, which can take significant effort depending on how far you want to go. 
 
@@ -983,28 +994,51 @@ Learn everything you need to know to complete a real-world, end-to-end data scie
 
 ## Business Science University Course Roadmap
 
+We have one course out and two courses coming soon! 
+
+### Data Science For Business With R (DS4B 201-R)
+
+Over the course of 10 weeks, we teach you how to solve an end-to-end data science project. Available now!
+
+![DS4B 301-R Shiny Application: Employee Prediction](/img/recipes.png) 
+<p class="text-center date">Transform you abilities by solving employee churn over a 10-week end-to-end data science project in DS4B 201-R</p>
+
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+</p>
+
+
+
 ### Building A Shiny Application (DS4B 301-R)
 
-Our next course teaches you how to take the H2O Model, LIME explanation results, and the recommendation algorithm you develop in DS4B 201-R and turn it into a `Shiny` Web Application that predicts employee attrition!
+Our next course teaches you how to take the H2O Model, LIME explanation results, and the recommendation algorithm you develop in DS4B 201-R and turn it into a `Shiny` Web Application that predicts employee attrition! Coming in Q3 2018.
 
-![HR 301 Shiny Application: Employee Prediction](/img/hr_301_app.png) 
-<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in DS4B 301 (Building A Shiny Web App)</p> 
+![DS4B 301-R Shiny Application: Employee Prediction](/img/hr_301_app.png) 
+<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in DS4B 301-R (Building A Shiny Web App)</p> 
 
 
 [Kelly O'Briant](https://www.linkedin.com/in/kellyobriant/) is lead developer for the Shiny App Course coming soon. She's a brilliant software engineer / data scientist that knows how to make a great looking and performing Shiny app.
 
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io"><strong>Sign Up! Coming Q3!</strong></a> 
+</p>
+
 ### Data Science For Business With Python (DS4B 201-P)
 
-Did we mention with have a __DS4B Python Course coming__?!?! Well we do! 
+Did we mention with have a __DS4B Python Course coming__?!?! Well we do! Coming in Q4 2018.
 
 The problem changes: Customer Churn! The tools will be H2O, LIME, and a host of other tools implemented in Python + Spark.  
 
 ![Python Track](/img/python_track.png)
 
+<p class="text-center date">Python Track: Data Science For Business With Python And Spark</p>
+
 [Favio Vazquez](https://www.linkedin.com/in/faviovazquez/), Principle Data Scientist at OXXO, is building the Python + Spark equivalent of DS4B 201-R. He's so talented knowing Python, Spark, and R, along with a host of other data science tools.
 
-More information is forthcoming. Sign up for [Business Science University](https://university.business-science.io/).
-
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io"><strong>Sign Up! Coming Q4!</strong></a> 
+</p>
 
 ## Don't Miss A Beat
 
