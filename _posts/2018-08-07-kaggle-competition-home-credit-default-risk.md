@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kaggle Competition In 30 Minutes: Predict Home Credit Defualt Risk With R"
+title: "Kaggle Competition In 30 Minutes: Predict Home Credit Default Risk With R"
 author: "Matt Dancho"
 date:   2018-08-07 08:15:01
 categories: [Business]
