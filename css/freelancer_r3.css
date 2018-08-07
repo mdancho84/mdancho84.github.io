@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
   width: 100%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1228px) {
   body {
     overflow-x: hidden;
   }
@@ -96,7 +96,7 @@ header .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
 }
-@media (min-width: 768px) {
+@media (min-width: 1228px) {
   header .container {
     padding-top: 200px;
     padding-bottom: 100px;
@@ -108,7 +108,7 @@ header .intro-text .skills {
     font-size: 1.75em;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 1228px) {
   .navbar-fixed-top {
     padding: 25px 0;
     -webkit-transition: padding 0.3s;

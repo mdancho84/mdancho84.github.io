@@ -797,7 +797,7 @@ if (typeof jQuery === 'undefined') {
       
       //CHANGED THIS TO DEFAULT EXPANDED ON MOBILE
       // device detection 
-      if($( window ).width() <= 768) { isMobile = true; }
+      if($( window ).width() <= 1228) { isMobile = true; }
        
       if(! isMobile) { 
            $this.attr('aria-expanded', 'false')
