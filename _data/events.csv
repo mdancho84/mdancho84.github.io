@@ -1,8 +1,14 @@
 status,date,event,link,description,
 
-current,2018-01-31,rsudio::conf2018,"https://www.rstudio.com/conference/","Davis will be speaking on the <strong>future of time series in the <code>tidyverse</code></strong>. See Davis for <code>tidyquant</code> stickers!!!",
+current,2018-10-12,Data Science GO Conference 2018,"https://www.datasciencego.com/","Matt is giving a workshop on Machine Learning with H2O and a talk on Data Science For Business With Applications In R And H2O. Come see the fun and learn our tools and systems for success!",
 
-current,2018-06-01,R/Finance 2018,"http://www.rinfinance.com/","Matt will give a talk on <code>tibbletime</code> and <code>tidyquant</code> including the project roadmap for tidy time series analysis and extendibilty!",
+past,2018-08-07,Humans Of Data Science Interview,"https://youtu.be/OiqTOmAq4KU","Matt spoke with Kate Strachnyi about the crazy transition of going full time with Business Science.",
+
+past,2018-06-14,SuperDataScience Podcast Episode 165,"https://www.superdatascience.com/data-science-community/","Matt spoke with <a href='https://www.linkedin.com/in/keremenko/'>Kirill Eremenko</a>, Founder of SuperDataScience, on the importance of giving back to the data science community! <a href = 'https://www.superdatascience.com/data-science-community/'>Listen to Episode 165 with Kirill and Matt!</a>",
+
+past,2018-01-31,rstudio::conf2018,"https://www.rstudio.com/conference/","Davis will be speaking on the <strong>future of time series in the <code>tidyverse</code></strong>. See Davis for <code>tidyquant</code> stickers!!!",
+
+past,2018-06-01,R/Finance 2018,"http://www.rinfinance.com/","Matt will give a talk on <code>tibbletime</code> and <code>tidyquant</code> including the project roadmap for tidy time series analysis and extendibilty!",
 
 past,2017-06-05,EARL San Francisco,"https://earlconf.com/sanfrancisco/","<a href='https://www.youtube.com/watch?v=8BYjv1AKI1Y&index=2&list=PLo32uKohmrXtepF9JgZlA5uNt7CP-SF5k'>New tools for performing financial and time series analysis within the tidyverse</a>",
 
