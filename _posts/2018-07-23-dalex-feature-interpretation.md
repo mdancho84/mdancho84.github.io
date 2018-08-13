@@ -17,23 +17,49 @@ As advanced machine learning algorithms are gaining acceptance across many organ
 We implement machine learning models using `H2O`, a high performance ML toolkit. Let's see how `DALEX` and `H2O` work together to get the best of both worlds with high performance and feature explainability!
 
 
-## Similar Articles You Might Enjoy
+## Articles In The Model Interpretability Series
 
-Data science for business tutorials:
+__Articles related to machine learning and black-box model interpretability__:
 
-* [HR Analytics: Using Machine Learning To Predict Employee Turnover](http://www.business-science.io/business/2017/09/18/hr_employee_attrition.html)
+* __LIME__: [LIME and H2O: Using Machine Learning With LIME To Understand Employee Churn](http://www.business-science.io/business/2018/06/25/lime-local-feature-interpretation.html)
 
-* [Customer Analytics: Using Deep Learning With Keras To Predict Customer Churn](http://www.business-science.io/business/2017/11/28/customer_churn_analysis_keras.html)
+* __DALEX__: [DALEX and H2O: Machine Learning Model Interpretability and Feature Explanation](http://www.business-science.io/business/2018/07/23/dalex-feature-interpretation.html)
 
-* [Sales Analytics: How To Use Machine Learning To Predict And Optimize Product Backorders](http://www.business-science.io/business/2017/10/16/sales_backorder_prediction.html)
+* __IML__: [IML and H2O: Machine Learning Model Interpetability and Feature Explanation](http://www.business-science.io/business/2018/08/13/iml-model-interpretability.html)
 
-LIME for black-box model interpretability and feature:
+__Awesome Data Science Tutorials with LIME for black-box model explanation in business__: 
 
-* [Using Machine Learning With LIME To Understand Employee Churn](http://www.business-science.io/business/2018/06/25/lime-local-feature-interpretation.html)
+* __Credit Default Risk__: [Kaggle Competition in 30 Minutes: Predict Home Credit Default Risk With R](http://www.business-science.io/business/2018/08/07/kaggle-competition-home-credit-default-risk.html)
 
-Expected Value Framework for ML Classification in Business:
+* __Human Resources Employee Turnover__:[HR Analytics: Using Machine Learning To Predict Employee Turnover](http://www.business-science.io/business/2017/09/18/hr_employee_attrition.html)
 
-* [3 Reasons You Need To Learn The Expected Value Framework](http://www.business-science.io/business/2018/07/11/expected-value-framework-data-science.html)
+* __Customer Churn__:[Customer Analytics: Using Deep Learning With Keras To Predict Customer Churn](http://www.business-science.io/business/2017/11/28/customer_churn_analysis_keras.html)
+
+* __Sales Product Backorders__: [Sales Analytics: How To Use Machine Learning To Predict And Optimize Product Backorders](http://www.business-science.io/business/2017/10/16/sales_backorder_prediction.html)
+
+<br>
+<hr>
+
+<h2 class="text-center">Transform Your Data Science Abilities In 10 Weeks</h2>
+
+<p class="text-center">
+If you're interested in learning how to apply critical thinking and data science while solving a real-world business problem following an end-to-end data science project, check out <strong>Data Science For Business (DS4B 201-R)</strong>. Over the course of 10 weeks you will solve an <strong>end-to-end Employee Churn data science project following our systematic Business Science Problem Framework</strong>.
+</p>
+
+<p style="text-align:center;">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15">
+<img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
+</a>
+</p>
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Start Learning Today!</strong></a> 
+</p>
+
+<p>We have two new course offerings coming soon! <strong>Shiny Web Apps</strong> and <strong>Python And Spark For Customer Churn</strong>! Get started with <a href="https://university.business-science.io/"><strong>Business Science University</strong></a>.</p> 
+
+<hr>
+<br>
 
 
 ## Learning Trajectory
