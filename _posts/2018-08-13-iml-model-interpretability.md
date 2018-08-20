@@ -73,7 +73,7 @@ The creator of the __IML (Interpretable Machine Learning)__ package has a great 
 </a>
 </p>
 
-<p class="text-center date"><a href="(https://christophm.github.io/interpretable-ml-book/">Interpretable Machine Learning Book by Christoph Molnar</a></p>
+<p class="text-center date"><a href="https://christophm.github.io/interpretable-ml-book/">Interpretable Machine Learning Book by Christoph Molnar</a></p>
 
 
 
