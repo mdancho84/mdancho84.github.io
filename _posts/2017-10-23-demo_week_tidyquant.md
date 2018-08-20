@@ -471,7 +471,7 @@ tq_transmute_fun_options()
 
 We've only scratched the surface of `tidyquant`. There's so much more to learn including `tq_portfolio`, `tq_performance`, charting capabilities, and more. Here are a few resources to help you along the way:
 
-* [Business Science Software](http://www.business-science.io/r-packages.html)
+* [Business Science Software](http://www.business-science.io/software.html)
 * [tidyquant documentation](https://business-science.github.io/tidyquant/)
 * [tidyquant GitHub Page](https://github.com/business-science/tidyquant)
 * [Business Science Insights Blog](http://www.business-science.io/blog/index.html)
