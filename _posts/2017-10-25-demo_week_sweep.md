@@ -490,7 +490,7 @@ tibble(me, rmse, mae, mape, mpe) %>% glimpse()
 
 The `sweep` package is very useful for tidying the `forecast` package output. This demo showed some of the basics. Interested readers should check out the [documentation](https://business-science.github.io/sweep/), which goes into expanded detail on scaling analysis by groups and using multiple forecast models.
 
-- [Business Science Software Website](http://www.business-science.io/r-packages.html)
+- [Business Science Software Website](http://www.business-science.io/software.html)
 - [sweep documentation](https://business-science.github.io/sweep/)
 - [sweep GitHub Page](https://github.com/business-science/sweep)
 - [Business Science Insights Blog](http://www.business-science.io/blog/index.html)

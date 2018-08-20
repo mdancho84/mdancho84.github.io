@@ -559,7 +559,7 @@ This package is currently under active development. Don't be shocked if the func
 
 Interested learners can check out the following links to further understanding of `tibbletime`:
 
-- [Business Science Software Website](http://www.business-science.io/r-packages.html)
+- [Business Science Software Website](http://www.business-science.io/software.html)
 - [tibbletime documentation](https://business-science.github.io/tibbletime/index.html)
 - [tibbletime GitHub Page](https://github.com/business-science/tibbletime)
 - [Business Science Insights Blog](http://www.business-science.io/blog/index.html)

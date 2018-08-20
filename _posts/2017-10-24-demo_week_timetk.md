@@ -706,7 +706,7 @@ tk_tbl(beer_sales_ts, timetk_idx = TRUE, rename_index = "date")
 
 We've only scratched the surface of `timetk`. There's more to learn including working with time series indices and making future indices. Here are a few resources to help you along the way:
 
-- [Business Science Software Website](http://www.business-science.io/r-packages.html)
+- [Business Science Software Website](http://www.business-science.io/software.html)
 - [timetk documentation](https://business-science.github.io/timetk/) - The vignettes are must reads for time series machine learning, working with the index and creating future index that matched the desired time series pattern
 - [timetk GitHub Page](https://github.com/business-science/timetk)
 - [Business Science Insights Blog](http://www.business-science.io/blog/index.html)

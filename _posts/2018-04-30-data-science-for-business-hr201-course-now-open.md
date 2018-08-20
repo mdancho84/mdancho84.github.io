@@ -130,7 +130,7 @@ Enrollment in BSU is open. [Enroll Now](https://university.business-science.io/p
 
 * Sign up for the [Business Science blog](http://www.business-science.io/blog/index.html) to stay updated
 * Enroll in [Business Science University](https://university.business-science.io/) to learn how to solve real-world data science problems from Business Science
-* Check out our [Open Source Software](http://www.business-science.io/r-packages.html)
+* Check out our [Open Source Software](http://www.business-science.io/software.html)
 
 
 ## Connect With Business Science <a class="anchor" id="social"></a>

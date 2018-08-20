@@ -1044,7 +1044,7 @@ The problem changes: Customer Churn! The tools will be H2O, LIME, and a host of 
 
 * Sign up for the [Business Science "5 Topic Friday" Newsletter!](https://mailchi.mp/business-science.io/five-topic-friday) 
 * Get started with [Business Science University](https://university.business-science.io/) to learn how to solve real-world data science problems from Business Science
-* Check out our [Open Source Software](http://www.business-science.io/r-packages.html)
+* Check out our [Open Source Software](http://www.business-science.io/software.html)
 
 <span data-sumome-listbuilder-embed-id="8944080265e0a41a6249cd11ea3299d46ee953ea5bc9a1cd5635069be5bf0987"></span>
 
