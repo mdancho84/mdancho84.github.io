@@ -93,7 +93,7 @@ ___Modeling___ is the process of understanding the "reality", the world around u
 What I'm saying here is that data science is very much linked to the business, but it is a science in the end. A lot of people can disagree with me in the part that data science is a science. But keep your mind open and read this carefully. I think it could be very useful that we define data science as a science because, if that's the case, every project in data science should be at least:
 
 
-- __Reproducible__: Necessary for making easy to test other's work and analysis.
+- __Reproducible__: Necessary for making easy to test others work and analysis.
  
 - __Fallible__: Data Science and Science are not looking for the truth, they look for knowledge, so every project can be substituted or improved in the future, no solution is the ultimate solution. 
 
@@ -310,7 +310,7 @@ See below for our __course roadmap__ including information about my forthcoming 
 
 ## About The Author
 
-[Favio Vazquez](https://www.linkedin.com/in/faviovazquez/) is Principle Data Scientist at OXXO, and a data science influencer on LinkedIn. A physicst by trade, Favio has transitioned into data science and has since mastered Python, Spark, and R. Favio has recently joined the Business Science team and is building our first ever Python and Spark course (equivalent to Data Science For Business With R). Please connect with him and let him know if you are interested in taking __Data Science For Business With Python (DS4B 201-P)__ coming soon!
+[Favio Vazquez](https://www.linkedin.com/in/faviovazquez/) is Principal Data Scientist at OXXO, and a data science influencer on LinkedIn. A physicist by trade, Favio has transitioned into data science and has since mastered Python, Spark, and R. Favio has recently joined the Business Science team and is building our first ever Python and Spark course (equivalent to Data Science For Business With R). Please connect with him and let him know if you are interested in taking __Data Science For Business With Python (DS4B 201-P)__ coming soon!
 
 ![Python Track](/img/python_track.png)
 
