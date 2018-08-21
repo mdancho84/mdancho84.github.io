@@ -12,6 +12,16 @@ image: 2018-06-19_BSPF/Business Science Problem Framework.png
 
 __Data Scientists want to run successful projects. However, the sad fact is that most data science projects in organizations fail.__ It's not because of lack of skill or knowledge. Data science projects need a clear and effective plan of attack to be successful. As data scientists, we study a wide array of tools: advanced algorithms, knowledge of statistics, and even programming skills. However, if you're like us, you've had to learn how to successfully manage a project through trial and error. Fortunately, we've learned a lot over the past several years working with clients, and we've integrated the best resources into __one streamlined framework to make your life easier: [The Business Science Project Framework](/bspf.html)!__ In this article, we'll cover the basics showing you __how the BSPF helps as a guide for successful data science projects following a Customer Churn Problem example__. [__Download the BPSF for FREE here__](/bspf.html). 
 
+
+## Articles In this Series
+
+- __Agile BSPF Framework__: [Agile Framework For Creating An ROI-Driven Data Science Practice](http://www.business-science.io/business/2018/08/21/agile-business-science-problem-framework.html)
+
+- __BSPF Framework__: [How To Successfully Manage A Data Science Project: The BSPF](http://www.business-science.io/business/2018/06/19/business-science-problem-framework.html)
+
+- __Expected Value Framework__: [3 Reasons You Need To Learn The Expected Value Framework](http://www.business-science.io/business/2018/07/11/expected-value-framework-data-science.html)
+
+
 ## Learning Tragectory
 
 In this article, you'll learn:

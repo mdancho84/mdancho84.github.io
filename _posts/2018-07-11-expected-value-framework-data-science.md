@@ -12,15 +12,13 @@ image: 2018-07-11-expected-value/threshold_optimization.png
 
 One of the most difficult and most critical parts of implementing data science in business is __quantifying the return-on-investment or ROI__. As a data scientist in an organization, it's of chief importance to show the value that your improvements bring. In this article, we highlight __three reasons you need to learn the Expected Value Framework, a framework that connects the machine learning classification model to ROI__. Further, we'll point you to a new video we released on the [Expected Value Framework: Modeling Employee Churn With H2O](https://youtu.be/amGLWN4hmY0) that was recently taught as part of our flagship course: [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15). The video serves as an overview of the steps involved in calculating ROI from reducing employee churn with H2O, tying the key H2O functions to the process. Last, we'll go over some __Expected Value Framework FAQ's__ that are commonly asked in relation to applying Expected Value to machine learning classification problems in business. 
 
-## Articles In This Series
+## Articles In this Series
 
-If you're interested in data science for business and / or the HR Analytics Employee Turnover problem and how it can be solved with H2O Automated Machine Learning, check out some of these tutorials.
+- __Agile BSPF Framework__: [Agile Framework For Creating An ROI-Driven Data Science Practice](http://www.business-science.io/business/2018/08/21/agile-business-science-problem-framework.html)
 
-* [How To Successfully Manage A Data Science Project For Business: The Business Science Problem Framework](http://www.business-science.io/business/2018/06/19/business-science-problem-framework.html)
+- __BSPF Framework__: [How To Successfully Manage A Data Science Project: The BSPF](http://www.business-science.io/business/2018/06/19/business-science-problem-framework.html)
 
-* [HR Analytics: Using Machine Learning To Predict Employee Turnover](http://www.business-science.io/business/2017/09/18/hr_employee_attrition.html)
-
-* [Data Science For Business Tutorial: Using Machine Learning With LIME To Understand Employee Churn](http://www.business-science.io/business/2018/06/25/lime-local-feature-interpretation.html)
+- __Expected Value Framework__: [3 Reasons You Need To Learn The Expected Value Framework](http://www.business-science.io/business/2018/07/11/expected-value-framework-data-science.html)
 
 
 ## Learning Trajectory
