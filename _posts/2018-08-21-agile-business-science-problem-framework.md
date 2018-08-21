@@ -38,7 +38,7 @@ We'll cover a lot of ground related to how one can implement an __Agile Methodol
 __The key to your success as a data scientist is generating ROI. How do you do this?__
 
 <p class="text-center" style="font-size:30px;">
-The Business Science Problem Framework!</strong></a> 
+The Business Science Problem Framework! 
 </p>
 
 
