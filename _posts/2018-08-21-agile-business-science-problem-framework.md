@@ -135,6 +135,8 @@ He read an article about the [Business Science Problem Framework](http://www.bus
 
 Through his company, [Genesis Partners](https://www.linkedin.com/company/genesis-partnerscl/), Rodrigo has since implemented the BSPF on 3 projects. __According to Rodrigo, the BSPF has cut his time-to-deliver data science projects in half!__
 
+Let's think about this for a minute. Half. That's 50% of the time it used to take to complete a project. This means Rodrigo just doubled his effeciency. If he was generating 10X ROI as a consultant, __he's now generating 20X ROI__ just by implementing our BSPF framework!
+
 If interested, you can listen to his [2-minute testimonial](https://youtu.be/yw5CtGTzIw0).
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/yw5CtGTzIw0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
