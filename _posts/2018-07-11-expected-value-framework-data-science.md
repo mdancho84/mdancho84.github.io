@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Data Science For Business: 3 Reasons You Need To Learn The Expected Value Framework"
+title: "Data Science for Business: 3 Reasons Why You Need the Expected Value Framework"
+excerpt: "The Expected Value Framework connects the machine learning model to ROI. In data science for business, it is critical to quantify the  ROI of data science."
 author: "Matt Dancho"
 date:   2018-07-11 04:45:01
 categories: [Business]

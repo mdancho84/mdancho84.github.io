@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Demo Week: Time Series Machine Learning with h2o and timetk"
+excerpt: "Learn R in this time series using H2O machine learning demonstration."
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, h2o, timetk]

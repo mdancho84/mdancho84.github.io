@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Time Series Deep Learning, Part 2: Predicting Sunspot Frequency with Keras LSTM In R"
+title: "Time Series Analysis: KERAS LSTM Deep Learning - Part 2"
+excerpt: "Learn time series analysis with Keras LSTM deep learning. Learn to predict sunspots ten years into the future with an LSTM deep learning model."
 author: "Sigrid Keydana, Matt Dancho"
 date:   2018-07-01 07:45:01
 categories: [Timeseries-Analysis]

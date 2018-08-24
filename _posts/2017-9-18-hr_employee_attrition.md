@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "HR Analytics: Using Machine Learning to Predict Employee Turnover"
+excerpt: "Predict employee turnover using the H2O machine learning and Lime."
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Project, R, h2o, lime, Employee Turnover]

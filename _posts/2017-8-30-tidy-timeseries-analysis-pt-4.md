@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Tidy Time Series Analysis, Part 4: Lags and Autocorrelation"
+excerpt: "Tidy Time Series Analysis, investigate lags and autocorrelation to understand seasonality and form the basis for autoregressive forecast models."
 author: "Matt Dancho"
 categories: [Timeseries-Analysis]
 tags: [R-Project, R, tidyquant, xts, cranlogs]

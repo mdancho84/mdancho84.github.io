@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Customer Analytics: Using Deep Learning With Keras To Predict Customer Churn"
+excerpt: "Predict customer churn using deep Learning Keras in R, with a 82% model accuracy."
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Project, R, keras, lime, recipes, yardstick, rsample, corrr, Customer Analytics, Churn]

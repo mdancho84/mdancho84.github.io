@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "DALEX and H2O: Machine Learning Model Interpretability And Feature Explanation"
+title: "Interpretable Machine Learning Algorithms with Dalex and H2O"
+excerpt: "Interpret machine learning algorithms with R to explain why one prediction is made over another."
 author: "Brad Boehmke"
 date:   2018-07-23 04:45:01
 categories: [Business]
