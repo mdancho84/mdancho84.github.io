@@ -3,14 +3,16 @@
 
 <head>
 
+		{% include analytics.html %}
+		
     <title>
 	  {% if page.title %}
 	    {{ page.title }}
 	  {% else %}
 	    Default Page Title
 	  {% endif %}
-	</title>
-
+	  </title>
+		
     {% include meta.html %}
 
     {% include atom_feed.html %}
@@ -32,8 +34,6 @@
 	{% include footer.html %}
 
 	{% include script.html %}
-
-    {% include analytics.html %}
 
 </body>
 
