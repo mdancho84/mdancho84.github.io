@@ -11,7 +11,7 @@ image: ds4b_rating.png
 
 
 
-Data science for business (DS4B) is the future of business analytics yet it is really difficult to figure out where to start. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: (1) selecting the right tool for the job, and (2) efficiently learning how to use the tool to return business value. This article focuses on the first part, explaining why R is the right choice in six points. Our next article will focus on the second part, learning R in 12 weeks. 
+Data science for business (DS4B) is the future of business analytics yet it is really difficult to figure out where to start. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: <span>(1) selecting the right tool for the job, and</span> <span>(2) efficiently learning how to use the tool to return business value. This article focuses on the first part, explaining why R is the right choice in six points. Our next article will focus on the second part, learning R in 12 weeks.</span>
 
 <span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
 
@@ -35,7 +35,7 @@ Of the top tools in capability, __R has the best mix of desirable attributes__ i
 
 ## Reason 2: R Is Data Science For Non-Computer Scientists
 
-If you are seeking high-performance data science tools, you really have two options: __R or Python__. When starting out, you should pick one. It's a mistake to try to learn both. Your choice comes down to what's right for you. The difference between the R and Python has been described in numerous infographics and debates online, but __the most overlooked reason is person-programming language fit__. Don't understand what we mean? Let's break it down.
+If you are seeking high-performance data science tools, you really have two options: __R or Python__. When starting out, you should pick one. It's a mistake to try to learn both. Your choice comes down to what's right for you. The difference between R and Python has been described in numerous infographics and debates online, but __the most overlooked reason is person-programming language fit__. Don't understand what we mean? Let's break it down.
 
 __Fact 1: Most people interested in learning data science for business are not computer scientists.__ They are business professionals, non-software engineers (e.g. mechanical, chemical), and other technical-to-business converts. This is important because of where each language excels.  
 
@@ -51,19 +51,19 @@ Python is a __general service__ programming language developed by __software eng
 
 R is a __statistical__ programming language developed by __scientists__ that has open source libraries for statistics, machine learning, and data science. __R lends itself well to business because of its depth of topic-specific packages and its communciation infrastructure__. R has packages covering a wide range of topics such as econometrics, finance, and time series. R has best-in-class tools for visualization, reporting, and interactivity, which are as important to business as they are to science. Because of this, R is well-suited for scientists, engineers and business professionals.  
 
-### What Should You Do?
+### Which Should You Learn?
 
 Don't make the decision tougher than what it is. Think about where you are coming from: 
 
-- __Are you a computer scientist or software engineer?__ If yes, choose Python. 
+- __Are you a computer scientist or software engineer?__ <span>If yes, learn Python.</span>
 
-- __Are you an analytics professional or mechanical/industrial/chemical engineer looking to get into data science?__ If yes, choose R. 
+- __Are you an analytics professional or mechanical/industrial/chemical engineer looking to get into data science?__ <span>If yes, learn R.</span>
 
 Think about what you are trying to do:
 
-- __Are you trying to build a self-driving car?__ If yes, choose Python.
+- __Are you trying to build a self-driving car?__ <span>If yes, learn Python.</span>
 
-- __Are you trying to communicate business analytics throughout your organization?__ If yes, choose R. 
+- __Are you trying to communicate business analytics throughout your organization?__ <span>If yes, learn R.</span>
 
 ## Reason 3: Learning R Is Easy With The Tidyverse
 
@@ -87,9 +87,9 @@ Saying R is powerful is actually an understatement. From the business context, R
 
 R implements cutting-edge algorithms including:
 
-- [H2O](https://www.h2o.ai/download/) (`h2o`) - High-end machine learning package
-- [Keras/TensorFlow](https://tensorflow.rstudio.com/) (`keras`, `tensorflow`) - Go-to deep learning packages
-- [xgboost](http://xgboost.readthedocs.io/en/latest/) - Top Kaggle algorithm
+- [H2O](https://www.h2o.ai/download/) (`h2o`) - <span>High-end machine learning package</span>
+- [Keras/TensorFlow](https://tensorflow.rstudio.com/) (`keras`, `tensorflow`) - <span>Go-to deep learning packages</span>
+- [xgboost](http://xgboost.readthedocs.io/en/latest/) - <span>Top Kaggle algorithm</span>
 - And many more!
 
 These tools are used everywhere from AI products to Kaggle Competitions, and you can use them in your business analyses.
@@ -137,11 +137,11 @@ Two major advantages of R versus every other programming language is that it can
 
 ### Shiny
 
+[Shiny](http://shiny.rstudio.com) is a framework for creating interactive web applications that are powered by R. Shiny is a major consulting area for us as four of five assignments involve building a web application using `shiny`. It's not only powerful, it enables non-data scientists to gain the benefit of data science via interactive decision making tools. Here's an example of a Google Trend app built with `shiny`.
+
 <iframe id="example1" src="https://gallery.shinyapps.io/goog-trend-index/" style="border: none; width: 100%; height: 475px" frameborder="1"></iframe>
 
 <p class="text-center date">Source: <a href="http://shiny.rstudio.com/">shiny.rstudio.com</a></p>
-
-[Shiny](http://shiny.rstudio.com) is a framework for creating interactive web applications that are powered by R. Shiny is a major consulting area for us as four of five assignments involve building a web application using `shiny`. It's not only powerful, it enables non-data scientists to gain the benefit of data science via interactive decision making tools. Here's an example of a Google Trend app built with `shiny`. 
 
 ## Reason 6: R Community Support
 
@@ -153,7 +153,7 @@ CRAN is like the Apple App store, except everything is free, super useful, and b
 
 ### Community Support
 
-You begin with R because of its capability, you stay with R because of its community. The R Community is the coolest part. It's tight-knit, opinionated, fun, silly, and highly knowledgeable... all of the things you want in a high performing team. 
+You begin learning R because of its capability, you stay with R because of its community. The R Community is the coolest part. It's tight-knit, opinionated, fun, silly, and highly knowledgeable... all of the things you want in a high performing team. 
 
 #### Social/Web
 
@@ -173,16 +173,16 @@ R users can be found all over the web. A few of the popular hangouts are:
 
 R-focused business conferences are gaining traction in a big way. Here are a few that we attend and/or will be attending in the future:
 
-- [EARL](https://earlconf.com/) - Mango Solution's conference on enterprise and business applications of R 
-- [R/Finance](http://www.rinfinance.com/) - Community-hosted conference on financial asset and portfolio analytics and applied finance
-- [Rstudio Conf](https://www.rstudio.com/conference/) - Rstudio's technology conference
--  [New York R](http://www.rstats.nyc/) - Business and technology-focused R conference
+- [EARL](https://earlconf.com/) - <span>Mango Solution's conference on enterprise and business applications of R</span>
+- [R/Finance](http://www.rinfinance.com/) - <span>Community-hosted conference on financial asset and portfolio analytics and applied finance</span>
+- [Rstudio Conf](https://www.rstudio.com/conference/) - <span>Rstudio's technology conference<span>
+-  [New York R](http://www.rstats.nyc/) - <span>Business and technology-focused R conference</span>
 
-A [full list of R-conferences can be found here](https://jumpingrivers.github.io/meetingsR/events.html). 
+<span>A [full list of R conferences can be found here](https://jumpingrivers.github.io/meetingsR/events.html).</span>
 
 #### Meetups
 
-A really cool thing about R is that many major cities have a meetup nearby. Meetups are exactly what you think: a group of R-users getting together to talk R. They are usually funded by R-Consortium. You can get a [full list of meetups here](https://jumpingrivers.github.io/meetingsR/r-user-groups.html). 
+<span>A really cool thing about R is that many major cities have a meetup nearby. Meetups are exactly what you think: a group of R-users getting together to talk R. They are usually funded by [R-Consortium](https://www.r-consortium.org/).</span> You can get a [full list of meetups here](https://jumpingrivers.github.io/meetingsR/r-user-groups.html). 
 
  
 ## Conclusion
@@ -239,7 +239,7 @@ Interested? [__Enroll in Business Science University today!__](https://universit
 
 ## About Business Science <a class="anchor" id="contact"></a>
 
-Business Science specializes in "ROI-driven data science". Our focus is machine learning and data science in business and financial applications. We build __web applications__ and __automated reports__ to put machine learning in the hands of decision makers. Visit the [Business Science](http://www.business-science.io/) or [contact us](http://www.business-science.io/contact.html) to learn more!
+Business Science specializes in "ROI-driven data science". Our focus is machine learning and data science in business and financial applications. We build __web applications__ and __automated reports__ to put machine learning in the hands of decision makers. Visit [Business Science](http://www.business-science.io/) or [contact us](http://www.business-science.io/contact.html) to learn more!
 
 
 
@@ -296,21 +296,21 @@ Our assessment of the most powerful DS4B tools was based on three criteria:
 #### Excel:
 
 * DS4B Capability = 4: Mainly a spreadsheet software but has programming built in with VBA. Difficult to integrate R, but is possible. No data science libraries. 
-* Learning Curve = 10: Relatively easy to become an advanced user.
+* Learning Curve = 10: Relatively easy to learn and become an advanced user.
 * Trend = 7: Stack overflow questions are growing at a relatively fast pace.
 * Cost = Low: Comes with Microsoft Office, which most organizations use. 
 
 #### Tableau:
 
 * DS4B Capability = 6: Has R integrated, but is very difficult to implement advanced algorithms and not as flexible as R+shiny.  
-* Learning Curve = 7: Very easy to pick up. 
+* Learning Curve = 7: Very easy to learn. 
 * Trend = 6: Stack overflow questions are growing at a relatively fast pace.
 * Cost = Low: Free public version. Enterprise licenses are relatively affordable.
 
 #### PowerBI:
 
 * DS4B Capability = 5: Similar to Tableau, but not quite as feature-rich. Can integrate R to some extent.
-* Learning Curve = 8: Very easy to pick up.
+* Learning Curve = 8: Very easy to learn.
 * Trend = 6: Expected to have same trend as Tableau.
 * Cost = Low: Free public version. Licenses are very affordable.
 
