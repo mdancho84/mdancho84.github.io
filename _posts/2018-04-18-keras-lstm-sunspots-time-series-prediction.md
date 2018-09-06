@@ -19,9 +19,9 @@ __Time series prediction (forecasting) has experienced dramatic improvements in 
 
 ## Articles In This Series
 
-* [Time Series Deep Learning, Part 1: Forecasting Sunspots With Keras Stateful LSTM In R](http://www.business-science.io/timeseries-analysis/2018/04/18/keras-lstm-sunspots-time-series-prediction.html) - Shows the a number of powerful time series deep learning techniques such as how to use ___autocorrelation___ with an LSTM, how to backtest time series, and more!
+* [Time Series Deep Learning, Part 1: Forecasting Sunspots With Keras Stateful LSTM In R](http://www.business-science.io/timeseries-analysis/2018/04/18/keras-lstm-sunspots-time-series-prediction.html) - <span>Shows the a number of powerful time series deep learning techniques such as how to use ___autocorrelation___ with an LSTM, how to backtest time series, and more!</span>
 
-* [Time Series Deep Learning, Part 2: Predicting Sunspot Frequency with Keras LSTM In R](http://www.business-science.io/timeseries-analysis/2018/07/01/keras-lstm-sunspots-part2.html) - Matt teamed up with Sigrid Keydana (TF Dev Advocate at RStudio) to develop a state-of-the-art TensorFlow model using `keras` and `tfruns`. You can also find this article on [RStudio's TensorFlow Blog](https://tensorflow.rstudio.com/blog/sunspots-lstm.html).
+* [Time Series Deep Learning, Part 2: Predicting Sunspot Frequency with Keras LSTM In R](http://www.business-science.io/timeseries-analysis/2018/07/01/keras-lstm-sunspots-part2.html) - <span>Matt teamed up with Sigrid Keydana (TF Dev Advocate at RStudio) to develop a state-of-the-art TensorFlow model using `keras` and `tfruns`. You can also find this article on [RStudio's TensorFlow Blog](https://tensorflow.rstudio.com/blog/sunspots-lstm.html).</span>
 
 ## Tutorial Overview
 
@@ -66,7 +66,7 @@ Time series prediction (forecasting) has a dramatic effect on the top and bottom
 
 A __Long Short-Term Memory (LSTM) model__ is a powerful type of recurrent neural network (RNN). The blog article, ["Understanding LSTM Networks"](http://colah.github.io/posts/2015-08-Understanding-LSTMs/), does an excellent job at explaining the underlying complexity in an easy to understand way. Here's an image depicting the LSTM internal cell architecture that enables it to persist for long term states (in addition to short term), which traditional RNN's have difficulty with:
 
-<img src="/assets/2018-04-18-keras-lstm-sunspots/LSTM3-chain.png" style="width: 50%; height: 50%"/>
+<img src="/assets/2018-04-18-keras-lstm-sunspots/LSTM3-chain.png" alt="Understanding LSTM Networks" style="width: 50%; height: 50%"/>
 
 <p class="text-center date">Source: <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">Understanding LSTM Networks</a></p>
 
@@ -87,13 +87,13 @@ We'll explain more as we go through this tutorial. For now, just understand that
 [Sunspots](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/sunspot.month.html) is a famous data set that ships with R (refer to the `datasets` library). The dataset tracks sunspots, which are the occurrence of a dark spot on the sun. Here's an image from NASA showing the solar phenomenon. Pretty cool!
 
 
-<img src="/assets/2018-04-18-keras-lstm-sunspots/sunspot_nasa.jpg" style="width: 50%; height: 50%"/>
+<img src="/assets/2018-04-18-keras-lstm-sunspots/sunspot_nasa.jpg" alt="NASA Sunspots" style="width: 50%; height: 50%"/>
 
 <p class="text-center date">Source: <a href="https://www.nasa.gov/content/goddard/largest-sunspot-of-solar-cycle">NASA</a></p>
 
 The dataset we use in this tutorial is called `sunspots.month`, and it contains 265 years (from 1749 through 2013) of monthly data on number of sunspots per month. 
 
-![plot of chunk unnamed-chunk-1](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-1-1.png)
+![NASA Sunspots Dataset  from 1749 to 2013](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-1-1.png)
 
 
 
@@ -213,7 +213,7 @@ p_title <- ggdraw() +
 plot_grid(p_title, p1, p2, ncol = 1, rel_heights = c(0.1, 1, 1))
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-5](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-5-1.png)
+![NASA Sunspots data from 1749 to 1800 10-year Frequency](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-5-1.png)
 
 At first glance, it looks like this series should be easy to predict. However, we can see that the cycle (10-year frequency) and amplitude (count of sunspots) seems to change at least between years 1780 and 1800. This creates some challenges.
 
@@ -289,7 +289,7 @@ sun_spots %>%
     labs(title = "ACF: Sunspots")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-8](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-8-1.png)
+![Evaluating the Autocorrelation Function](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-8-1.png)
 
 This is good news. We have autocorrelation in excess of 0.5 beyond lag 120 (the 10-year mark). We can theoretically use one of the high autocorrelation lags to develop an LSTM model. 
 
@@ -310,7 +310,7 @@ sun_spots %>%
          subtitle = "Zoomed in on Lags 115 to 135")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-9](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-9-1.png)
+![Evaluating the Autocorrelation Function (ACF): 10 Year Mark, Nasa Sunspots](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-9-1.png)
 
 Upon inspection, the optimal lag occurs at lag 125. This isn't necessarily the one we will use since we have more to consider with batch forecasting with a Keras LSTM. With that said, here's how you can `filter()` to get the best lag. 
 
@@ -444,7 +444,7 @@ rolling_origin_resamples$splits[[1]] %>%
     theme(legend.position = "bottom")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-13](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-13-1.png)
+![Visualizing Backtesting Strategy, LSTM](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-13-1.png)
 
 
 The second function, `plot_sampling_plan()`, scales the `plot_split()` function to all of the samples using `purrr` and `cowplot`.
@@ -490,7 +490,7 @@ rolling_origin_resamples %>%
                        title = "Backtesting Strategy: Rolling Origin Sampling Plan")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-15](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-15-1.png)
+![LSTM Backtesting Strategy: Rolling Origin Sampling Plan](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-15-1.png)
 
 And, we can set `expand_y_axis = FALSE` to zoom in on the samples. 
 
@@ -501,7 +501,7 @@ rolling_origin_resamples %>%
                        title = "Backtesting Strategy: Zoomed In")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-16](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-16-1.png)
+![LSTM Backtesting Strategy - Zoomed In](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-16-1.png)
 
 We'll use this Backtesting Strategy (11 samples from one time series each with 50/10 split in years and a 20 year offset) when testing the veracity of the LSTM model on the sunspots dataset. 
 
@@ -530,7 +530,7 @@ plot_split(split, expand_y_axis = FALSE, size = 0.5) +
     ggtitle(glue("Split: {split_id}"))
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-18](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-18-1.png)
+![Modeling Keras LSTM Model - Visualizing the Split](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-18-1.png)
 
 ##### 5.1.2 Data Setup
 
@@ -902,7 +902,7 @@ ret %>%
     theme(legend.position = "bottom")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-32](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-32-1.png)
+![Modeling Keras LSTM Model - Visualizing the Single Prediction](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-32-1.png)
 
 __The LSTM performed relatively well! The settings we selected seem to produce a decent model that picked up the trend. It jumped the gun on the next up-trend, but overall it exceeded my expectations. Now, we need to Backtest to see the true performance over time!__
 
@@ -912,7 +912,7 @@ Once we have the LSTM working for one sample, scaling to all 11 is relatively si
 
 ##### 5.2.1 Creating An LSTM Prediction Function
 
-This step looks intimidating, but it's actually straightforward. We copy the code from [__Section 5.1__](#single-lstm) into a function. We'll make it a safe function, which is a good practice for any long-running mapping processes to prevent a single failure from stopping the entire process. 
+This step looks intimidating, but it's actually straightforward. We copy the code from [__Section 5.1 - Single LSTM__](#single-lstm) into a function. We'll make it a safe function, which is a good practice for any long-running mapping processes to prevent a single failure from stopping the entire process. 
 
 
 {% highlight r %}
@@ -1161,7 +1161,7 @@ sample_rmse_tbl %>%
     ggtitle("Histogram of RMSE")
 {% endhighlight %}
 
-<img src="/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-40-1.png" title="plot of chunk unnamed-chunk-40" alt="plot of chunk unnamed-chunk-40" width="400" style="display: block; margin: auto;" />
+<img src="/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-40-1.png" title="Histogram of RMSE" alt="Histogram of RMSE" width="400" style="display: block; margin: auto;" />
 
 And, we can summarize the RMSE for the 11 slices. __PRO TIP: Using the average and standard deviation of the RMSE (or other similar metric) is a good way to compare the performance of various models__.
 
@@ -1233,7 +1233,7 @@ sample_predictions_lstm_tbl %>%
                      title = "Keras Stateful LSTM: Backtested Predictions")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-43](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-43-1.png)
+![Keras LSTM: Backtested Predictions](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-43-1.png)
 
 #### 5.3 Predicting The Next 10 Years
 
@@ -1380,7 +1380,7 @@ future_sun_spots_tbl %>%
     ggtitle("Sunspots: Ten Year Forecast", subtitle = "Forecast Horizon: 2013 - 2023")
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-47](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-47-1.png)
+![LSTM - Predicting the next 10 Years - NASA Sunspots Dataset](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-47-1.png)
 
 
 ## Conclusions
@@ -1421,7 +1421,7 @@ You learn everything you need to know about how to apply data science in a busin
 
 Did you know that __an organization that loses 200 high performing employees per year is essentially losing $15M/year in lost productivity__? Many organizations don't realize this because it's an indirect cost. It goes unnoticed. What if you could use data science to predict and explain turnover in a way that managers could make better decisions and executives would see results? You will learn the tools to do so in our Virtual Workshop. Here's an example of a Shiny app you will create.
 
-![HR 301 Shiny Application: Employee Prediction](/img/hr_301_app.png) 
+![LSTM Employee Prediction - Shiny Application](/img/hr_301_app.png) 
 <p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in HR 301</p> 
 
 
