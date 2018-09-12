@@ -536,3 +536,25 @@ li {
     margin-bottom: 15px;
 }
 
+/* Hub page css */
+
+#hub-links ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#hub-links li {
+  padding-bottom: 13px;
+}
+
+#hub-links #title {
+  font-size: 22px;
+  font-weight: 600px;
+  padding-bottom: 18px;
+}
+
+#hub-links a {
+  font-size: 18px;
+  line-height: 22px;
+}
+
