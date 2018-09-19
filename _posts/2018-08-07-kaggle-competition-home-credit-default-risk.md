@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Kaggle Competition In 30 Minutes: Predict Home Credit Default Risk With R"
+excerpt: "Real world data science - Learn how to compete in a Kaggle Competition using Machine Learning with R." 
 author: "Matt Dancho"
 date:   2018-08-07 08:15:01
 categories: [Business]
@@ -11,7 +12,7 @@ image: 2018-08-07-kaggle-credit-risk/h2o_strategy.png
 
 
 
-We were very excited when [Home Credit](http://www.homecredit.net/) teamed up with [Kaggle](https://www.kaggle.com/) to host the [Home Credit Default Risk Challenge](https://www.kaggle.com/c/home-credit-default-risk). Default risk is a topic that impacts all financial institutions, one that machine learning can help solve. We decided to __flip the goal__ of this challenge: Kaggle competitions are performance driven, where a data scientist has months to fine tune a model to get maximum performance. This is not reality. __We turned this goal upside down, focusing on a combination of speed, efficiency, and performance.__ 
+We were very excited when [Home Credit](http://www.homecredit.net/) teamed up with [Kaggle](https://www.kaggle.com/) to host the [Home Credit Default Risk Competition](https://www.kaggle.com/c/home-credit-default-risk). Default risk is a topic that impacts all financial institutions, one that machine learning can help solve. We decided to __flip the goal__ of this challenge: Kaggle competitions are performance driven, where a data scientist has months to fine tune a model to get maximum performance. This is not reality. __We turned this goal upside down, focusing on a combination of speed, efficiency, and performance.__ 
 
 In the real world businesses have finite schedules for data science projects. Because of this, we redesigned the competition goal to __get very good results quickly__. We took a look at the top performance ([measured by AUC or area under the curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), which is currently around 0.80. We decided to see how quickly we could develop a competitive model. Follow along and __learn how we got a model of 0.70 on a Kaggle submission in about 30 minutes with H2O automated machine learning (AutoML)__!
 
@@ -85,7 +86,7 @@ Like any machine learning problem, default risk has drivers, or features related
 For the Kaggle Competition, _Home Credit_ (the company) has supplied us with data from several data sources. The following Data Architecture Diagram shows the interrelationships between the data files provided. 
 
 ![Home Credit Default Risk Data Architecture](/assets/2018-08-07-kaggle-credit-risk/home_credit.png)
-<p class="text-center date"><a href="https://www.kaggle.com/c/home-credit-default-risk">Data Architecture Diagram For Home Credit Default Risk Competition</a></p>
+<p class="text-center date"><a href="https://www.kaggle.com/c/home-credit-default-risk">Data Architecture Diagram For Kaggle Home Credit Default Risk Competition</a></p>
 
 For the purposes of this article, we'll focus on the `application_train.csv` and `application_test.csv` files, which contain a significant amount of useful information for predicting credit default. This is the main source of information for people that have applied for personal loans including features related to their loan application. 
 
@@ -159,7 +160,7 @@ In the final challenge of the Computing Olympics, a computer scientist had a fix
 
 2. They spent the remaining 50% to 1/3rd __speed coding__: Hammering out their solution, converting to code with the programming languages that they knew would be the best tool for the scenario. 
 
-There's a lot of value in this approach because of the critical thinking process and the fact that in the real world you will likely only have a fixed amount of days you can work on a model before the business deadline is hit. I wanted to see if this approach could be applied to the [Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk) challenge. 
+There's a lot of value in this approach because of the critical thinking process and the fact that in the real world you will likely only have a fixed amount of days you can work on a model before the business deadline is hit. I wanted to see if this approach could be applied to the [Kaggle Home Credit Default Risk Competition](https://www.kaggle.com/c/home-credit-default-risk). 
 
  
 
@@ -175,7 +176,7 @@ Once the data is downloaded, I added it to a folder in my home directory called 
 
 #### Libraries
 
-I loaded the following libraries to tackle this Home Credit Default Risk problem. The `tidyverse` pulls in `dplyr`, `ggplot2`, and several other must-haves (e.g. `forcats`, `purrr`, etc). The `recipes` package is loaded for preprocessing. The `h2o` package is going to do the heavy lifting via automated machine learning (AutoML). 
+I loaded the following libraries to tackle the Kaggle Home Credit Default Risk problem. The `tidyverse` pulls in `dplyr`, `ggplot2`, and several other must-haves (e.g. `forcats`, `purrr`, etc). The `recipes` package is loaded for preprocessing. The `h2o` package is going to do the heavy lifting via automated machine learning (AutoML). 
 
 
 {% highlight r %}
@@ -337,7 +338,7 @@ I see that there are 3 data type formats: integer, numeric, and character. For H
 
 ### Analysis Strategy (5 min)
 
-The first 5 minutes were dedicated to mocking up a plan. I began by framing a solution on a piece of scrap paper.
+The first 5 minutes were dedicated to mocking up a plan for the competition. I began by framing a solution on a piece of scrap paper.
 
 ![Analysis Strategy Scrap Paper](/assets/2018-08-07-kaggle-credit-risk/strategy_scrap_paper.png)
 <p class="text-center date">Analysis Strategy on Scrap Paper</p>
@@ -817,7 +818,7 @@ If you're interested in learning how to perform H2O Automated Machine Learning u
 <hr>
 <br>
 
-### H2O Performance And Kaggle Submission
+### H2O Performance And Kaggle Competition Submission
 
 This part was excluded from the timed challenge since the model was developed and this is simply testing the validity of the results and submitting the final solution. 
 
@@ -892,7 +893,7 @@ If you're interested in learning how to do performance analysis for H2O modeling
 <hr>
 <br>
 
-#### Kaggle Submission
+#### Kaggle Competition Submission
 
 This is the moment of truth. I made my final predictions for the Kaggle Competition. Here's the procedure and final results.
 
