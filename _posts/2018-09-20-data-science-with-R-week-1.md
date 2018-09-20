@@ -10,7 +10,7 @@ image: 2018-09-20-data-science-with-R-1/system_week1.png
 
 
 
-Data Science and Machine Learning in business begins with R. Why? R is the premier language that enables ___rapid exploration, modeling, and communication___ in a way that no other programming language can match: __SPEED!__ This is why you need to learn R. Time is money, and, in a world where you measured on productivity and skill, R is your best friend. 
+Data Science and Machine Learning in business begins with R. Why? R is the premier language that enables ___rapid exploration, modeling, and communication___ in a way that no other programming language can match: __SPEED!__ This is why you need to learn R. Time is money, and, in a world where you are measured on productivity and skill, R is your best friend. 
 
 In this ___Data Science With R Series___, we’ll cover what life is like in our ground-breaking, enterprise-grade course called [Data Science For Business With R (DS4B 201-R)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15). The objective is to experience the qualities that make R great for business by following a real-world data science project. We review the course that will take you to advanced in __10 weeks__.
 
