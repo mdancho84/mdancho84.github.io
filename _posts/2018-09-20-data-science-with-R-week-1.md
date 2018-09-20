@@ -160,7 +160,7 @@ Check out the [“Installing Required Packages”](https://youtu.be/UAT3VeILS6g)
 <br>
 <p class="date text-center">Sample Lecture, Installing Required Packages, Week 1</p>
 
-## Get Started Today
+## Start Learning Today
 
 You’ve just experienced Week 1 in the course that is changing the way data science is done in business. Now it’s time to get started.
 
@@ -176,7 +176,7 @@ Learn everything you need to know to complete a real-world, end-to-end data scie
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Start Learning Today!</strong></a> 
 </p>
 
 <hr>
