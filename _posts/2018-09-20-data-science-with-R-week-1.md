@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Science With R Series - Week 1"
+title: "Data Science With R Course Series - Week 1"
 author: "Matt Dancho"
 date:   2018-09-20 6:04:01
 categories: [University]
@@ -164,7 +164,8 @@ Check out the [“Installing Required Packages”](https://youtu.be/UAT3VeILS6g)
 
 You’ve just experienced Week 1 in the course that is changing the way data science is done in business. Now it’s time to get started.
 
-__What are you waiting for?__
+<h2 class="text-center">What are you waiting for?</h2>
+
 
 <br>
 <hr>
@@ -183,11 +184,30 @@ Learn everything you need to know to complete a real-world, end-to-end data scie
 <br>
 
 
-## Coming Next
+## Next Up
 
-In the next post in the ___Data Science With R Series___ we'll head to Week 2 where we cover Business Understanding. This begins our transition into code for Weeks 2 to 10! 
+In the next post in the ___Data Science With R Series___ we'll head to Week 2 where we cover ___Business Understanding___. This begins our transition into code for Weeks 2 to 10! 
 
 <p style="text-align:center">
 <img src="/assets/2018-09-20-data-science-with-R-1/system_week2.png" style="width:100%;">
 </p>
 <p class="date text-center">Week 2: Business Understanding, Coming Next</p>
+
+## New Course Coming Soon: Build A Shiny Web App!
+
+You’re experiencing the magic of creating a high performance employee turnover risk prediction algorithm in DS4B 201-R. Why not put it to good use in an Interactive Web Dashboard?
+
+In our new course, ___Build A Shiny Web App (DS4B 301-R)___, you’ll learn how to integrate the H2O model, LIME results, and recommendation algorithm building in the 201 course into an ML-Powered R + Shiny Web App!
+
+<p class="text-center" style="font-size:30px;">Shiny Apps Coming in October 2018!!! Sign up for <a href = "https://university.business-science.io/">Business Science University Now!</a></p>
+
+<p style="text-align:center"><a href="https://university.business-science.io/">
+<img src="/img/hr_301_app.png" alt="DS4B 301-R Shiny Application: Employee Prediction" style="width:100%;">
+</a></p>
+<p class="text-center date">Building an R + Shiny Web App, DS4B 301-R</p>
+
+
+
+
+
+
