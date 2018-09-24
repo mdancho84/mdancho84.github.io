@@ -16,11 +16,11 @@ In this ___Data Science With R Series___, we’ll cover what life is like in our
 
 We want you to experience what our students are saying is the best online course they have ever taken! 
 
-## Data Science With R Series
+## Data Science With R Course Series
 
 You’re in ___Week 1: Getting Started___, and here’s our game-plan over the next 10 articles in this series. We’ll cover how to apply data science for business with R following our systematic process.
 
-- Week 1: Getting Started
+- __Week 1: Getting Started__ (You're Here)
 - Week 2: Business Understanding
 - Week 3: Data Understanding
 - Week 4: Data Preparation
@@ -38,7 +38,7 @@ You’re in ___Week 1: Getting Started___, and here’s our game-plan over the n
 
 ## About The Course
 
-[Data Science For Business With R (DS4B 201-R)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) is a one-of-a-kind course designed to teach you the essential aspects for applying data science to a business problem with R. Here’s why it’s unique and why __our students consistently rate it 9 of 10 for satisfaction__:
+[__Data Science For Business With R (DS4B 201-R)__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) is a one-of-a-kind course designed to teach you the essential aspects for applying data science to a business problem with R. Here’s why it’s unique and why __our students consistently rate it 9 of 10 for satisfaction__:
 
 - The course is based on __real-world experience__ applying data science as a consultant and within organizations
 
