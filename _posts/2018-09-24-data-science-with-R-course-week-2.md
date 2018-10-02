@@ -190,6 +190,21 @@ Your first challenge is something that happens in the real world - your Subject 
 
 At the end of the module, the challenge solution is provided for the learners along with the full code used in the course. 
 
+<br>
+<hr>
+
+<h2 class="text-center">Data Science For Business With R (DS4B 201-R)</h2>
+
+<p class="text-center">
+Learn everything you need to know to complete a real-world, end-to-end data science project with the R programming language. Transform your abilities in 10 weeks. 
+</p>
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Start Learning Today!</strong></a> 
+</p>
+
+<hr>
+<br>
 
 ## New Course Coming Soon: Build A Shiny Web App!
 
