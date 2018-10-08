@@ -21,11 +21,11 @@ In our recent article, ["Case Study: How To Build A High Performance Data Scienc
 
 This idea of using multiple languages may seem crazy. In the short term, it requires more education. But, in the long term it pays dividends in:
 
-1. __Increased efficiency__ (how quickly can your data science team iterate through its workflow)
+1. __Increased efficiency__ - How quickly can your data science team iterate through its workflow?
 
-2. __Increased productivity__ (how much can your data science team produce that adds value and generates ROI)
+2. __Increased productivity__ - How much can your data science team produce that adds value and generates ROI?
 
-3. __Increased capability__ (how limited is your data science team's output)
+3. __Increased capability__ - How limited (or unlimited) is your data science team's output?
 
 ## Summary
 
@@ -509,7 +509,7 @@ print(clf.best_params_)
 
 
 {% highlight text %}
-## {'randomforestregressor__max_depth': None, 'randomforestregressor__max_features': 'sqrt'}
+## {'randomforestregressor__max_depth': None, 'randomforestregressor__max_features': 'log2'}
 {% endhighlight %}
 
 ### Step 5: Make Wine Predictions and Get Error Metrics
@@ -531,7 +531,7 @@ print(r2_score(y_test, y_pred))
 
 
 {% highlight text %}
-## 0.4832907560990376
+## 0.4829226950783947
 {% endhighlight %}
 
 
@@ -543,7 +543,7 @@ print(mean_squared_error(y_test, y_pred))
 
 
 {% highlight text %}
-## 0.33341875
+## 0.33365625
 {% endhighlight %}
 
 __But is this model good???__
