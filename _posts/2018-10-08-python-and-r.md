@@ -76,7 +76,7 @@ The ML Tutorial is particularly powerful showcasing the interplay between Python
 <hr>
 <br>
 
-In this article, we'll show a __quick machine learning (ML) tutorial that integrates both R + Python, showcasing the strengths of the two dominant programming languages__. But, before we get into the ML tutorial, let's examine the strengths of each language.
+In this article, we'll show a __quick machine learning (ML) tutorial that integrates both R and Python, showcasing the strengths of the two dominant programming languages__. But, before we get into the ML tutorial, let's examine the strengths of each language.
 
 
 ## Part 1: R + Python, Examination of Key Strengths {#part1} 
@@ -185,11 +185,11 @@ The project we are performing comes from the ["Wine Snob Machine Learning Tutori
 
 3. (R) Build the report using `RMarkdown` and the new `radix` framework for scientific reporting
 
-These are the same steps that were used to create the "Python + R with `reticulate`" report contained in this Machine Learning Tutorial on YouTube:
+These are the same steps that were used to create the "R + Python with `reticulate`" report contained in this Machine Learning Tutorial on YouTube:
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/YfqxICYVNtU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<p class="date text-center">Python + R with Reticulate, YouTube Video</p>
+<p class="date text-center">R + Python with Reticulate, YouTube Video</p>
 
 
 The report built in the video looks like this:
@@ -198,7 +198,7 @@ The report built in the video looks like this:
 
 <p class="date text-center">Report with R and Python via <code>reticulate</code> and <code>radix</code></p>
 
-We'll go through the basic steps used to build this "Python + R with reticulate" report in an `RMarkdown` document using both Python and R. 
+We'll go through the basic steps used to build this "R + Python with reticulate" report in an `RMarkdown` document using both Python and R. 
 
 ### Step 1: Setup R + Python Environments
 
@@ -359,7 +359,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.externals import joblib
 {% endhighlight %}
 
-Next, import the data using `read_csv()` from `pandas`. Note that the separator is a colon (not a comma which is what most data sets are stored as in CSV format). The data is stored as a Python object named `data`. 
+Next, import the data using `read_csv()` from `pandas`. Note that the separator is a semicolon (not a comma which is what most data sets are stored as in CSV format). The data is stored as a Python object named `data`. 
 
 
 {% highlight python %}
