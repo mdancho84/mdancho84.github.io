@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "R and Python: How to Integrate the Best of Both into Your Data Science Workflow"
+excerpt: "R and Python - Build a data science team that capitalizes on the unique strengths of both r and python languages."
 author: "Matt Dancho"
 date:   2018-10-08 5:44:01
 categories: [Business]
@@ -638,7 +639,7 @@ When you "Knit" the final report, it will build a web-based HTML report that can
 
 <img src="/assets/2018-10-08-python-and-r/python_r_strengths.png" class="img-rounded pull-right" alt="Key Strengths, R and Python" style="width:50%;margin-left:20px"/>
 
-Both R and Python are powerful languages. Much of the talk about R versus Python pits these languages as competitors when actually they are allies. We've discussed and put to use this idea of __leveraging the strengths of each language in a harmony__.
+Both __R and Python__ are powerful languages. Much of the talk about R versus Python pits these languages as competitors when actually they are allies. We've discussed and put to use this idea of __leveraging the strengths of each language in a harmony__.
 
 
 When data science teams go beyond being "R Shops" and "Python Shops", and start thinking in terms of being __"High Performance Data Science Teams"__, they begin a transition that improves efficiency, productivity, and capability. The challenge is learning multiple languages. But here's the secret - __it's not that difficult with _Business Science University_.__ 
