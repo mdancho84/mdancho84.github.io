@@ -3,7 +3,7 @@ layout: post
 title: "Data Science With R Course Series - Week 6"
 excerpt: "In Data Science With R Course Series - Week 6, learn how to analyze model performance and communicate machine learning model results to stakeholders."
 author: "David Curry"
-date: 2018-10-22 05:28:00 -0400
+date: 2018-10-22 5:28:00 -0400
 categories: [University]
 tags: [R-Project, R, Data Science, DS4B 201-R, Business Understanding]
 image: 2018-10-22-data-science-with-R-6/system_week6.png
