@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Marketing Analytics & Data Science"
+title: "Marketing Analytics and Data Science"
 excerpt: "This article uses a Kaggle competition as an opportunity to show how data science can be used in digital marketing to answer a specific question, and take what is learned from the data and apply it to marketing strategies."
 author: "David Curry"
 date: 2018-10-26 5:00:00 -0400
