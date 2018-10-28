@@ -18,10 +18,6 @@
     {% include atom_feed.html %}
 
     {% include head.html %}
-    
-    {% include mailchimp_head.html %}
-    
-    {% include sumo_head.html %}
 
 </head>
 
@@ -32,6 +28,10 @@
 	{{ content }}
 
 	{% include footer.html %}
+
+	{% include sumo_head.html %}
+
+	{% include mailchimp_head.html %}
 
 	{% include script.html %}
 
