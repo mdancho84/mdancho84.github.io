@@ -12,7 +12,7 @@ image: 2018-10-29-data-science-with-R-7/system_week7.png
 
 After week 7, you will be able to communicate confidently which model features are the most important.
 
-Interpretability is a very important topic in machine learning. The automated machine learning tool, `H2O`, makes a data scientist’s life easier, however, it doesn't remove the need to understand your model. As the data scientist, you need to be able to explain why the selected model is the best.
+Interpretability is a very important topic in machine learning. The automated machine learning tool, `H2O`, makes a data scientist’s life easier, however it doesn't remove the need to understand your model. As the data scientist, you need to be able to explain why the selected model is the best.
 
 In this week’s curriculum, you learn how to explain “black-box” machine learning models with `LIME`. `LIME` stands for Local Interpretable Model-Agnostic Explanations and is used to understand __which model features have the most predictive impact__.
 
@@ -22,7 +22,7 @@ In this week’s curriculum, you learn how to explain “black-box” machine le
 <p>Here is a recap of our trajectory and the course overview:</p>
 
 ## Recap: Data Science With R Course Series
-You’re in the [Week 7: Machine Learning Interpretability](#week7). Here’s our game-plan over the 10 articles in this series. We’ll cover how to apply __data science for business with R__ following our systematic process.
+You’re in the [Week 7: Machine Learning Interpretability with LIME](#week7). Here’s our game-plan over the 10 articles in this series. We’ll cover how to apply __data science for business with R__ following our systematic process.
 
 
 - [Week 1: Getting Started](https://www.business-science.io/university/2018/09/20/data-science-with-R-week-1.html)
@@ -40,7 +40,7 @@ You’re in the [Week 7: Machine Learning Interpretability](#week7). Here’s ou
 <p style="text-align:center">
 <img src="/assets/2018-10-29-data-science-with-R-7/system_week7.png" style="width:100%;">
 </p>
-<p class="date text-center">Week 7: Machine Learning Interpretability</p>
+<p class="date text-center">Week 7: Machine Learning Interpretability with LIME</p>
 
 <br/>
 <p style="text-align:center">
@@ -51,13 +51,13 @@ You’re in the [Week 7: Machine Learning Interpretability](#week7). Here’s ou
 <hr/>
 
 
-## Week 7: Machine Learning Interpretability {#week7}
+## Week 7: Machine Learning Interpretability with LIME {#week7}
 
-### Overview & Setup
+### Overview &amp; Setup
 
-The Overview & Setup will walk through the setup to support `LIME` within the project workflow, and prepare the machine learning model for interpretation.
+The Overview &amp; Setup will walk through the setup to support `LIME` within the project workflow, and prepare the machine learning model for interpretation.
 
-After understanding the features that make up your machine learning model, __you will be able to answer the critical business question__, Why is employee churn happening?
+After understanding the features that make up your machine learning model, __you will be able to answer the critical business question__, <i>Why is employee churn happening?</i>
 
 
 <p style="text-align:center">
