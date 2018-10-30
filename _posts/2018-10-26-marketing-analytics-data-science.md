@@ -55,7 +55,7 @@ Exploratory data analysis (EDA) is an observational approach to understand the c
 
 EDA is a necessary step to understand the data before attempting to create a predictive model.
 
-A big thanks to [Erik Brin for sharing his exploratory data analysis](https://www.kaggle.com/erikbruin/google-analytics-eda-lightgbm-screenshots) on Kaggle. I share Erik’s EDA findings below. The full exploratory data analysis is quite long, therefore, I will focus on highlighting some of the important findings.
+A big thanks to [Erik Bruin for sharing his exploratory data analysis](https://www.kaggle.com/erikbruin/google-analytics-eda-lightgbm-screenshots) on Kaggle. I share Erik’s EDA findings below. The full exploratory data analysis is quite long, therefore, I will focus on highlighting some of the important findings.
 
 
 ### 2.1 Data Overview
