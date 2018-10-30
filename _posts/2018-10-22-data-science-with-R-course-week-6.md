@@ -7,6 +7,7 @@ date: 2018-10-22 5:28:00 -0400
 categories: [University]
 tags: [R-Project, R, Data Science, DS4B 201-R, Business Understanding]
 image: 2018-10-22-data-science-with-R-6/system_week6.png
+image_preview: 2018-10-22-data-science-with-R-6/system_week6_preview.png
 ---
 
 

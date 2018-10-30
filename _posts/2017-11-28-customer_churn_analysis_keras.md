@@ -6,6 +6,7 @@ author: "Matt Dancho"
 categories: [Business]
 tags: [R-Project, R, keras, lime, recipes, yardstick, rsample, corrr, Customer Analytics, Churn]
 image: customer_churn_analysis.png
+image_preview: customer_churn_analysis_preview.png
 ---
 
 

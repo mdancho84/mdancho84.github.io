@@ -96,11 +96,13 @@
 				{% if post.title == 'Time Series Deep Learning, Part 1: Forecasting Sunspots With Keras Stateful LSTM In R' %}
 				<a href="{{ post.url }}" class="list-group-item">
 					<h6 class="list-group-item-heading">{{ post.title }}</h6>
-				    {% if post.image %}
-	                  <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
-	                {% else %}
-	                  <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
-	                {% endif %}
+					{% if post.image_preview %}
+						<img src="{{ site.baseurl }}/assets/{{ post.image_preview }}" alt="..." style="width: 100%;">
+					{% elsif post.image %}
+						<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
+					{% else %}
+						<img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
+					{% endif %}
 				</a>
 				{% endif %}
 				{% endfor %}
@@ -112,11 +114,13 @@
 				{% if post.title == 'Sales Analytics: How to Use Machine Learning to Predict and Optimize Product Backorders' %}
 				<a href="{{ post.url }}" class="list-group-item">
 					<h6 class="list-group-item-heading">{{ post.title }}</h6>
-				    {% if post.image %}
-	                  <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
-	                {% else %}
-	                  <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
-	                {% endif %}
+					{% if post.image_preview %}
+						<img src="{{ site.baseurl }}/assets/{{ post.image_preview }}" alt="..." style="width: 100%;">
+					{% elsif post.image %}
+						<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
+					{% else %}
+						<img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
+					{% endif %}
 				</a>
 				{% endif %}
 				{% endfor %}
@@ -128,11 +132,13 @@
 				{% if post.title == 'Customer Analytics: Using Deep Learning With Keras To Predict Customer Churn' %}
 				<a href="{{ post.url }}" class="list-group-item">
 					<h6 class="list-group-item-heading">{{ post.title }}</h6>
-				    {% if post.image %}
-	                  <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
-	                {% else %}
-	                  <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
-	                {% endif %}
+				    {% if post.image_preview %}
+							<img src="{{ site.baseurl }}/assets/{{ post.image_preview }}" alt="..." style="width: 100%;">
+						{% elsif post.image %}
+							<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
+	          {% else %}
+	            <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
+	      	  {% endif %}
 				</a>
 				{% endif %}
 				{% endfor %}
@@ -150,11 +156,13 @@
 				{% for post in site.posts limit:3 %}
 				<a href="{{ post.url }}" class="list-group-item">
 					<h6 class="list-group-item-heading">{{ post.title }}</h6>
-				    {% if post.image %}
-	                  <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
-	                {% else %}
-	                  <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
-	                {% endif %}
+						{% if post.image_preview %}
+							<img src="{{ site.baseurl }}/assets/{{ post.image_preview }}" alt="..." style="width: 100%;">
+						{% elsif post.image %}
+							<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
+						{% else %}
+							<img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
+						{% endif %}
 				</a>
 				{% endfor %}
 			</div>
