@@ -24,11 +24,11 @@ You’re in the [__Week 3: Data Understanding__](#week3). Here’s our game-plan
 
 - [Week 1: Getting Started](https://www.business-science.io/university/2018/09/20/data-science-with-R-week-1.html)
 - [Week 2: Business Understanding](https://www.business-science.io/university/2018/09/24/data-science-with-R-course-week-2.html)
-- __Week 3: Data Understanding__ (You're Here)
-- Week 4: Data Preparation
-- Week 5: Predictive Modeling With H2O
-- Week 6: H2O Model Performance 
-- Week 7: Machine Learning Interpretability With LIME
+- [Week 3: Data Understanding](https://www.business-science.io/university/2018/10/01/data-science-with-R-course-week-3.html) (You're here)
+- [Week 4: Data Preparation](https://www.business-science.io/university/2018/10/10/data-science-with-R-course-week-4.html)
+- [Week 5: Predictive Modeling With H2O](https://www.business-science.io/university/2018/10/15/data-science-with-R-course-week-5.html)
+- [Week 6: H2O Model Performance](https://www.business-science.io/university/2018/10/22/data-science-with-R-course-week-6.html)
+- [__Week 7: Machine Learning Interpretability With LIME__](https://www.business-science.io/university/2018/10/29/data-science-with-R-course-week-7.html) 
 - Week 8: Link Data Science To Business With Expected Value
 - Week 9: Expected Value Optimization And Sensitivity Analysis
 - Week 10: Build A Recommendation Algorithm To Improve Decision Making
