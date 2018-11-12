@@ -7,6 +7,7 @@ date:   2018-11-04 9:30:01
 categories: [Learning-R]
 tags: [R-Project, R, Cheatsheet, Tidyverse, RMarkdown, Shiny, dplyr, ggplot2]
 image: 2018-11-04-data-science-with-R-cheatsheet/Data_Science_With_R_Workflow.png
+image_preview: 2018-11-04-data-science-with-R-cheatsheet/Data_Science_With_R_Workflow_preview.jpg
 ---
 
 Teaching R is our mission at [__Business Science University__](https://university.business-science.io/) because __R is the most efficient language for exploring data, performing business analysis, and applying data science to business to extract ROI for an organization__. R has an amazing ecosystem of tools that seemlessly work together, which has been termed the "tidyverse". The "tidyverse" ecosystem can take business analysis to a new level. __Here's the key: 99.9% of business analysts don't know R (and its awesome power). With our learning system, you can learn R quickly, setting yourself on a career tragectory in data science.__ 
