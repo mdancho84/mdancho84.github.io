@@ -38,7 +38,7 @@ You’re in the [Week 6: H2O Model Performance](#week6). Here’s our game-plan 
 - [__Week 6: H2O Model Performance__](https://www.business-science.io/university/2018/10/22/data-science-with-R-course-week-6.html) (You're here)
 - [Week 7: Machine Learning Interpretability With LIME](https://www.business-science.io/university/2018/10/29/data-science-with-R-course-week-7.html) 
 - [Week 8: Link Data Science To Business With Expected Value](https://www.business-science.io/university/2018/11/05/data-science-with-R-course-week-8.html)
-- Week 9: Expected Value Optimization And Sensitivity Analysis
+- [Week 9: Expected Value Optimization And Sensitivity Analysis](https://www.business-science.io/university/2018/11/12/data-science-with-R-course-week-9.html)
 - Week 10: Build A Recommendation Algorithm To Improve Decision Making
 
 
