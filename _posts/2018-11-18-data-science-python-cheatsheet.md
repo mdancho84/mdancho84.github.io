@@ -12,7 +12,7 @@ image_preview: 2018-11-18-data-science-with-python-cheatsheet/Data_Science_With_
 
 At [Business Science](https://www.business-science.io), we are developing a __revolutionary system for teaching _Business Analysis with Python___ (Business Analysis with Python is a new course we are developing at [Business Science University](https://university.business-science.io/)).
 
-<a href="/python-cheatsheet.html"><img src="/assets/2018-11-18-data-science-with-Python-cheatsheet/Data_Science_With_Python_Workflow.png" class="img-rounded pull-right" alt="Python Cheatsheet" style="width:50%;margin-left:20px"/></a>
+<a href="https://www.business-science.io/python-cheatsheet.html"><img src="/assets/2018-11-18-data-science-with-python-cheatsheet/Data_Science_With_Python_Workflow.png" class="img-rounded pull-right" alt="Python Cheatsheet" style="width:50%;margin-left:20px"/></a>
 
 The system is revolutionary for a number of reasons (we'll get to these in a minute). The cornerstone of our teaching process is the [Data Science with Python Workflow](https://www.business-science.io/python-cheatsheet.html), which is an adaptation of the _Data Science with R workflow_ originally taught by Hadley Wickham and Garrett Grolemund in the the excellent book, [R For Data Science](https://r4ds.had.co.nz/). __The [NEW Python Cheatsheet](/python-cheatsheet.html) links the documentation, cheatsheets, and key resources available for the most widely used Python packages into one meta-cheatsheet that illustrates the workflow__. 
 
