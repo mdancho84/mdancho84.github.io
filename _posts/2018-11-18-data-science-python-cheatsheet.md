@@ -18,6 +18,7 @@ The system is revolutionary for a number of reasons (we'll get to these in a min
 
 > ___The NEW Python Cheatsheet links the documentation, cheatsheets, and key resources available for the most widely used Python packages into one meta-cheatsheet that illustrates the workflow.___
 
+
 ## Get The ULTIMATE Python Cheatsheet
 
 Just go to our website, and you'll see it available under the "Resources" Tab. [The NEW Python Cheatsheet with the Data Science Workflow in Python is available for download here.](https://www.business-science.io/python-cheatsheet.html) 
@@ -26,6 +27,15 @@ Just go to our website, and you'll see it available under the "Resources" Tab. [
 
 <p class="text-center" style="font-size:30px"><a href="https://www.business-science.io/python-cheatsheet.html">Download the ULTIMATE Python Cheatsheet</a></p>
 
+#### Get More Cheatsheets
+
+Like our cheatsheets? Get them all!
+
+- [Business Science Problem Framework](https://www.business-science.io/bspf.html)
+
+- [ULTIMATE R CHEATSHEET](https://www.business-science.io/r-cheatsheet.html)
+
+- [ULTIMATE PYTHON CHEATSHEET](https://www.business-science.io/python-cheatsheet.html)
 
 
 <br>
