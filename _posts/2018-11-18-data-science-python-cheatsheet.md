@@ -27,11 +27,12 @@ Just go to our website, and you'll see it available under the "Resources" Tab. [
 
 <p class="text-center" style="font-size:30px"><a href="https://www.business-science.io/python-cheatsheet.html">Download the ULTIMATE Python Cheatsheet</a></p>
 
-#### Get More Cheatsheets
+
+## Get All Cheatsheets
 
 Like our cheatsheets? Get them all!
 
-- [Business Science Problem Framework](https://www.business-science.io/bspf.html)
+- [BUSINESS SCIENCE PROBLEM FRAMEWORK (BSPF)](https://www.business-science.io/bspf.html)
 
 - [ULTIMATE R CHEATSHEET](https://www.business-science.io/r-cheatsheet.html)
 

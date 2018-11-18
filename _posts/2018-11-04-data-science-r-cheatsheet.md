@@ -28,15 +28,16 @@ Just go to our website, and you'll see it available under the "Resources" Tab. [
 
 <p class="text-center" style="font-size:30px"><a href="/r-cheatsheet.html">Download the NEW R Cheatsheet</a></p>
 
-#### Get More Cheatsheets
+## Get All Cheatsheets
 
 Like our cheatsheets? Get them all!
 
-- [Business Science Problem Framework](https://www.business-science.io/bspf.html)
+- [BUSINESS SCIENCE PROBLEM FRAMEWORK (BSPF)](https://www.business-science.io/bspf.html)
 
 - [ULTIMATE R CHEATSHEET](https://www.business-science.io/r-cheatsheet.html)
 
 - [ULTIMATE PYTHON CHEATSHEET](https://www.business-science.io/python-cheatsheet.html)
+
 
 ## How To Use The Cheatsheet
 
