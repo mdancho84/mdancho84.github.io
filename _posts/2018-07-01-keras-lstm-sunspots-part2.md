@@ -1,17 +1,18 @@
 ---
 layout: post
 title: "Time Series Analysis: KERAS LSTM Deep Learning - Part 2"
-excerpt: "Learn time series analysis with Keras LSTM deep learning. Learn to predict sunspots ten years into the future with an LSTM deep learning model."
+excerpt: "KERAS LSTM deep learning time series analysis. Use the NASA sunspots data set to predict sunspots ten years into the future with an KERAS LSTM deep learning model."
 author: "Sigrid Keydana, Matt Dancho"
 date:   2018-07-01 07:45:01
 categories: [Timeseries-Analysis]
 tags: [R-Project, R, Time Series, Deep Learning, Keras, TensorFlow, Backtesting, tidyverse, tibbletime, timetk, keras, rsample, recipes, yardstick]
 image: 2018-07-01-keras-lstm-sunspots2/backtested_test.png
+image_preview: 2018-07-01-keras-lstm-sunspots2/backtested_test_preview.png
 ---
 
 
 
-One of the ways __Deep Learning can be used in business__ is to improve the accuracy of time series forecasts (prediction). We recently showed how a [Long Short Term Memory (LSTM) Models developed with the Keras library in R](http://www.business-science.io/timeseries-analysis/2018/04/18/keras-lstm-sunspots-time-series-prediction.html) could be used to take advantage of _autocorrelation_ to predict the next 10 years of monthly Sunspots (a solar phenomenon that's tracked by NASA). In this article, we teamed up with RStudio to take another look at the Sunspots data set, this time implementing some really advanced Deep Learning functionality available with [TensorFlow for R](https://tensorflow.rstudio.com). Sigrid Keydana, TF Developer Advocate at RStudio, put together an amazing Deep Learning tutorial using `keras` for [implementing Keras in R](https://tensorflow.rstudio.com/keras/) and `tfruns`, a [suite of tools](https://tensorflow.rstudio.com/blog/tfruns.html) for trackingtracking, visualizing, and managing TensorFlow training runs and experiments from R. Sounds amazing, right? It is! __Let's get started with this Deep Learning Tutorial!__
+One of the ways __Deep Learning can be used in business__ is to improve the accuracy of time series forecasts (prediction). We recently showed how a [Long Short Term Memory (LSTM) Models developed with the Keras library in R](http://www.business-science.io/timeseries-analysis/2018/04/18/keras-lstm-sunspots-time-series-prediction.html) could be used to take advantage of _autocorrelation_ to predict the next 10 years of monthly Sunspots (a solar phenomenon that's tracked by NASA). In this article, we teamed up with RStudio to take another look at the Sunspots data set, this time implementing some really advanced Deep Learning functionality available with [TensorFlow for R](https://tensorflow.rstudio.com). Sigrid Keydana, TF Developer Advocate at RStudio, put together an amazing Deep Learning tutorial using `keras` for [implementing Keras in R](https://tensorflow.rstudio.com/keras/) and `tfruns`, a [suite of tools](https://tensorflow.rstudio.com/blog/tfruns.html) for trackingtracking, visualizing, and managing TensorFlow training runs and experiments from R. Sounds amazing, right? It is! __Let's get started with this KERAS LSTM Deep Learning Tutorial!__
 
 <span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
 
@@ -24,7 +25,7 @@ One of the ways __Deep Learning can be used in business__ is to improve the accu
 
 ## Learning Trajectory
 
-In this __DEEP LEARNING TUTORIAL___, you will learn:
+In this __DEEP LEARNING TUTORIAL__, you will learn:
 
 * [How Time Series Deep Learning can be used in business](#dl-in-business)
 
@@ -65,7 +66,7 @@ Time Series Forecasting is a key area that can lead to Return On Investment (ROI
 
 We'll take [NVIDIA](http://www.nvidia.com/page/home.html), a semiconductor manufacturer that manufactures state-of-the-art chips for _Artificial Intelligence (AI)_ and _Deep Learning (DL)_, as an example. _NVIDIA_ builds [Graphics Processing Unitis or GPUs](https://en.wikipedia.org/wiki/Graphics_processing_unit), which are necessary for the computational intensitity resulting from the massive number of numerical calculations required in high-performance Deep Learning. The chips look like this.
 
-![NVIDIA](/assets/2018-07-01-keras-lstm-sunspots2/nvidia.png)
+![NVIDIA](/assets/2018-07-01-keras-lstm-sunspots2/nvidia.jpg)
 
 <p class="text-center date">Source: <a href="http://www.nvidia.com/page/home.html">NVIDIA USA</a></p>
 
@@ -90,7 +91,7 @@ Sigrid is the _TensorFlow Developer Advocate at RStudio_, where she develops ama
 You know me (Matt). I'm the Founder of [Business Science](http://www.business-science.io/) where I strive for one mission: To empower Data scientists interested in Business and Finance. 
 
 
-## Deep Learning for Time Series Forecasting: Predicting Sunspot Frequency with Keras
+## LSTM Deep Learning for Time Series Forecasting: Predicting Sunspot Frequency with Keras
 
 > By Sigrid Keydana, TensorFlow Developer Advocate at RStudio,
 > And Matt Dancho, Founder of Business Science
@@ -100,7 +101,7 @@ You know me (Matt). I'm the Founder of [Business Science](http://www.business-sc
 
 In this post we will examine making time series predictions using the [sunspots](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/sunspot.month.html) dataset that ships with base R. Sunspots are dark spots on the sun, associated with lower temperature. Here's an image from NASA showing the solar phenomenon.
 
-<img src="/assets/2018-04-18-keras-lstm-sunspots/sunspot_nasa.jpg" style="width: 50%; height: 50%"/>
+<img src="/assets/2018-04-18-keras-lstm-sunspots/sunspot_nasa.jpg" alt="NASA Sunspot" style="width: 50%; height: 50%"/>
 
 <p class="text-center date">Source: <a href="https://www.nasa.gov/content/goddard/largest-sunspot-of-solar-cycle">NASA</a></p>
 
@@ -252,14 +253,14 @@ plot_grid(p_title, p1, p2, ncol = 1, rel_heights = c(0.1, 1, 1))
 {% endhighlight %}
 
 
-![](/assets/2018-07-01-keras-lstm-sunspots2/cowplot.png)
+![NASA Sunspots Cowplot](/assets/2018-07-01-keras-lstm-sunspots2/cowplot.png)
 
 
 ### Backtesting: time series cross validation
 
 When doing cross validation on sequential data, the time dependencies on preceding samples must be preserved. We can create a cross validation sampling plan by offsetting the window used to select sequential sub-samples. In essence, we're creatively dealing with the fact that there's no future test data available by creating multiple synthetic "futures" -  a process often, esp. in finance, called "backtesting".
 
-As mentioned in the introduction, the [rsample](https://cran.r-project.org/package=rsample) package includes facitlities for backtesting on time series. The vignette, ["Time Series Analysis Example"](https://topepo.github.io/rsample/articles/Applications/Time_Series.html), describes a procedure that uses the `rolling_origin()` function to create samples designed for time series cross validation. We'll use this approach.
+As mentioned in the introduction, the [rsample](https://cran.r-project.org/package=rsample) package includes facitlities for backtesting on time series. The vignette, ["Time Series Analysis Example"](https://tidymodels.github.io/rsample/articles/Applications/Time_Series.html), describes a procedure that uses the `rolling_origin()` function to create samples designed for time series cross validation. We'll use this approach.
 
 #### Developing a backtesting strategy
 
@@ -361,7 +362,7 @@ rolling_origin_resamples$splits[[1]] %>%
     theme(legend.position = "bottom")
 {% endhighlight %}
 
-![](/assets/2018-07-01-keras-lstm-sunspots2/slice1.png)
+![The plot_split() function takes one split and returns the sampling strategy](/assets/2018-07-01-keras-lstm-sunspots2/slice1.png)
 
 
 The second function, `plot_sampling_plan()`, scales the `plot_split()` function to all of the samples using `purrr` and `cowplot`.
@@ -407,7 +408,7 @@ rolling_origin_resamples %>%
                        title = "Backtesting Strategy: Rolling Origin Sampling Plan")
 {% endhighlight %}
 
-![](/assets/2018-07-01-keras-lstm-sunspots2/all_splits.png)
+![Backtesting Strategy: Rolling Origin Sampling](/assets/2018-07-01-keras-lstm-sunspots2/all_splits.png)
 
 And, we can set `expand_y_axis = FALSE` to zoom in on the samples. 
 
@@ -418,7 +419,7 @@ rolling_origin_resamples %>%
                        title = "Backtesting Strategy: Zoomed In")
 {% endhighlight %}
 
-![](/assets/2018-07-01-keras-lstm-sunspots2/all_splits_zoomed.png)
+![Backtesting Strategy: Rolling Origin Sampling, Zoomed In](/assets/2018-07-01-keras-lstm-sunspots2/all_splits_zoomed.png)
 
 We'll use this backtesting strategy (6 samples from one time series each with 50/10 split in years and a ~20 year offset) when testing the veracity of the LSTM model on the sunspots dataset. 
 
@@ -442,7 +443,7 @@ plot_split(example_split, expand_y_axis = FALSE, size = 0.5) +
     ggtitle(glue("Split: {example_split_id}"))
 {% endhighlight %}
 
-![](/assets/2018-07-01-keras-lstm-sunspots2/slice6.png)
+![Use the plot_split() function to visualize the split](/assets/2018-07-01-keras-lstm-sunspots2/slice6.png)
 
 ### Data setup
 
@@ -836,7 +837,7 @@ plot(history, metrics = "loss")
 
 
 
-![](/assets/2018-07-01-keras-lstm-sunspots2/history.png)
+![R plot() history](/assets/2018-07-01-keras-lstm-sunspots2/history.png)
 
 
 Now let's see how well the model was able to capture the characteristics of the training set.
@@ -979,7 +980,7 @@ ggplot(compare_test, aes(x = index, y = value)) + geom_line() +
   ggtitle("Predictions on test set")
 {% endhighlight %}
 
-![](/assets/2018-07-01-keras-lstm-sunspots2/pred_test.png)
+![Predictions on test set](/assets/2018-07-01-keras-lstm-sunspots2/pred_test.png)
 
 
 That's not as good as on the training set, but not bad either, given this time series is quite challenging.
@@ -1277,7 +1278,7 @@ plot_grid(p_title_train, p_body_train, ncol = 1, rel_heights = c(0.05, 1, 0.05))
 {% endhighlight %}
 
 
-![](/assets/2018-07-01-keras-lstm-sunspots2/backtested_train.png)
+![Backtested Predictions: Training Sets](/assets/2018-07-01-keras-lstm-sunspots2/backtested_train.png)
 
 And the test sets:
 
