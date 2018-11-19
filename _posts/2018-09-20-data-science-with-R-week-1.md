@@ -20,7 +20,7 @@ We want you to experience what our students are saying is the best online course
 
 You’re in ___Week 1: Getting Started___, and here’s our game-plan over the next 10 articles in this series. We’ll cover how to apply data science for business with R following our systematic process.
 
-- [__Week 1: Getting Started__](https://www.business-science.io/university/2018/09/20/data-science-with-R-week-1.html) (You're here)
+- __Week 1: Getting Started__ (You're here)
 - [Week 2: Business Understanding](https://www.business-science.io/university/2018/09/24/data-science-with-R-course-week-2.html)
 - [Week 3: Data Understanding](https://www.business-science.io/university/2018/10/01/data-science-with-R-course-week-3.html) 
 - [Week 4: Data Preparation](https://www.business-science.io/university/2018/10/10/data-science-with-R-course-week-4.html)

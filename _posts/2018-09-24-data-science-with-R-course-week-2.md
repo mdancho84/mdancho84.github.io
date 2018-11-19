@@ -25,7 +25,7 @@ But, first, a quick recap of our trajectory and the course overview.
 You’re in the [__Week 2: Business Understanding__](#week2). Here’s our game-plan over the next 10 articles in this series. We’ll cover how to apply data science for business with R following our systematic process.
 
 - [Week 1: Getting Started](https://www.business-science.io/university/2018/09/20/data-science-with-R-week-1.html)
-- [__Week 2: Business Understanding__](https://www.business-science.io/university/2018/09/24/data-science-with-R-course-week-2.html) (You're here)
+- __Week 2: Business Understanding__ (You're here)
 - [Week 3: Data Understanding](https://www.business-science.io/university/2018/10/01/data-science-with-R-course-week-3.html) 
 - [Week 4: Data Preparation](https://www.business-science.io/university/2018/10/10/data-science-with-R-course-week-4.html)
 - [Week 5: Predictive Modeling With H2O](https://www.business-science.io/university/2018/10/15/data-science-with-R-course-week-5.html)
