@@ -65,7 +65,7 @@ Over the course of 10-weeks you follow our process while solving an END-TO-END D
 
 ### WHAT ARE YOU WAITING FOR?
 
-Data Science for Business with R (DS4B 201-R) will up-level your skills by teaching you a __consultant-proven framework__ while learning `R` coding. Invest in yourself today!
+Data Science for Business with R (DS4B 201-R) will up-level your skills by teaching you a __consultant-proven framework__ while learning `R` coding. Invest in your data science success today!
 
 <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=black-fri-2018">
 <img src="/assets/2018-11-23-black-friday/DS4B_201_R.png" class="img-responsive img-rounded center-block" alt="DS4B 201-R Course" style="width:30%;"/></a>
