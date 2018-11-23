@@ -8,7 +8,8 @@ title: Post
 	<section class="info" id="blog" style="padding-bottom: 40px;">
 		<div class= "container">
 			<div class="row">
-			  	<div class="col-lg-12 text-center">
+			    <!-- Blog Title -->
+			  	<div class="col-sm-9 col-xs-12 text-center">
 			  		<div class="text-center">
 					    <h1 style="margin-top: 20px !important;">{{ page.title }}</h1>
 					    <p><em>Written {% if page.author %} by {{ page.author }} {% endif %} on {{ page.date | date: "%B %e, %Y" }}</em></p>
@@ -36,23 +37,8 @@ title: Post
                             </li>
                         </ul>
 					</div>
-
-					<!-- Business Science University -->
-					<div class="col-lg-12 text-center">
-                        <hr style="border-color:#FFFFFF">
-                        <div class="col-md-6 col-md-offset-3 col-sm-12">
-                            <img src="/img/homepage/r_python_spark.png" alt="Data Science: R, Python, Spark" style="width:80%;">
-                        </div>
-                        
-                        <div class="col-md-6 col-md-offset-3 col-sm-12">
-                            
-                            <a href="https://university.business-science.io/" 
-                            class="btn btn-lg btn-outline" style="width:100%">
-                                <p id="start-learning">Start Learning Today!</p>
-                            </a>
-                        </div>
-                    </div>
-					<!-- End Business Science University -->
+					<hr style="border-color:#FFFFFF;" />
+					<br />
 
 					<!-- <div>
 						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -66,6 +52,21 @@ title: Post
 						(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div> -->
+			  	</div>
+			  	
+			  	<!-- Business Science University -->
+			  	<div class="col-sm-3 col-xs-12">
+					<div class="text-center thumbnail">
+                        <div class="create-account-block ">
+                            <h4 class="text-primary">Learn Data Science</h4>
+                            <p class="text-primary" style="font-size:16px">Join hundreds of other data scientists</p>
+                            <a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1" class="btn btn-lg btn-info">Create Free Account</a>
+                        </div>
+                        <br/>
+                        <img class="img-responsive center-block" src="/img/homepage/r_python_spark.png" width="80%" style="max-width:250px;">
+                      </div>
+                    </div>
+					<!-- End Business Science University -->
 			  	</div>
 			</div>
 		</div>
