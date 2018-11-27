@@ -104,3 +104,5 @@ li{font-size:20px;}
 .large-img-rounded {border-radius:50%;margin:auto;}
 .testimonial-list .row {padding-bottom:45px;}
 .testimonial-list .testimonial img {width: 100px;height: 100px;}
+#cover .subtitle {font-weight:300;font-size:1.7em;letter-spacing:2px;}
+#cover .benefits {font-weight:400;font-size:1.1em;letter-spacing:2px;text-transform:uppercase;}
