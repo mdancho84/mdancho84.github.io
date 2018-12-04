@@ -5,7 +5,7 @@ excerpt: "This article demonstrates a real-world case study for business forecas
 author: "Blaine Bateman"
 date:   2018-12-04 05:00:01
 categories: [Business]
-tags: [R-Project, R, Neural Network, keras]
+tags: [R-Project, R, Neural Network, Deep Learning, keras]
 image: 2018-12-04-time-series/time_series_deep_learning.png
 ---
 
@@ -15,7 +15,7 @@ In this article, __you will experience an end-to-end forecasting project that wa
 
 > _The article showcases __time series machine learning__ using multiple data sources including alternative data, advanced tools like artificial neural networks, with a focus on business value: __saving a hypothetical client $10.5M__ with a 10% improvement in forecast performance_
 
-This is an __end-to-end analysis of a real-world project__ that a leading data science consultant has graciously provided. [__Blaine Bateman__](https://www.linkedin.com/in/blainebateman/) is the Founder and Chief Data Engineer at [EAF LLC](http://www.eaf-llc.com/). He specializes in business forecasting. He's also a student in the [__Data Science For Business With R (DS4B 201-R) Course__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) offered through [Business Science University](https://university.business-science.io/). Blaine showcases a number of advanced techniques including using [__Keras__](https://tensorflow.rstudio.com/keras/) to create a cutting-edge deep learning model. 
+This is an __end-to-end analysis of a real-world project__ that a leading data science consultant has graciously provided. [__Blaine Bateman__](https://www.linkedin.com/in/blainebateman/) is the Founder and Chief Data Engineer at [EAF LLC](http://www.eaf-llc.com/). He specializes in business forecasting. Blaine is also a student in the [__Data Science For Business With R (DS4B 201-R) Course__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) offered through [Business Science University](https://university.business-science.io/). Blaine showcases a number of advanced techniques including using [__Keras__](https://tensorflow.rstudio.com/keras/) to create a cutting-edge deep learning model. 
 
 What I like most about this analysis is the process he uses to __create business value__ for his clients, which is the [__Business Science Problem Framework and CRISP-DM__](https://www.business-science.io/business/2018/06/19/business-science-problem-framework.html) taught in the [DS4B 201-R Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15). Blaine's focus is on generating business value in terms of [Return-On-Investment (ROI)](https://www.investopedia.com/terms/r/returnoninvestment.asp). This is how real-world data science is done.
 
