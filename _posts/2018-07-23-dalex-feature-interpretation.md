@@ -91,7 +91,7 @@ Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://mailchi.mp/business-science.io/five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
+<a href="https://mailchi.mp/business-science/data-science-five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
 </p>
 
 <hr>
@@ -830,7 +830,7 @@ Did we mention with have a __DS4B Python Course coming__?!?! Well we do! [Favio 
 
 ## Don't Miss A Beat
 
-* Sign up for the [Business Science "5 Topic Friday" Newsletter!](https://mailchi.mp/business-science.io/five-topic-friday) 
+* Sign up for the [Business Science "5 Topic Friday" Newsletter!](https://mailchi.mp/business-science/data-science-five-topic-friday) 
 * Get started with [Business Science University](https://university.business-science.io/) to learn how to solve real-world data science problems from Business Science
 * Check out our [Open Source Software](http://www.business-science.io/software.html)
 

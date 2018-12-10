@@ -32,7 +32,7 @@ Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://mailchi.mp/business-science.io/five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
+<a href="https://mailchi.mp/business-science/data-science-five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
 </p>
 
 <br>
