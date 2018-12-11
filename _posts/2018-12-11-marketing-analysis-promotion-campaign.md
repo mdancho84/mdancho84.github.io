@@ -19,7 +19,17 @@ The new item is introduced at several randomly selected markets to determine whi
 
 To solve this marketing problem, I will be using the [Business Science Problem Framework](https://www.business-science.io/business/2018/08/21/agile-business-science-problem-framework.html) (BSPF) from [Business Science University](https://university.business-science.io/). The BSPF is a methodology for using data science to solve problems in a business context.
 
-Lastly, this marketing analysis uses marketing campaign data from IBM Watson, found [here](https://www.ibm.com/communities/analytics/watson-analytics-blog/marketing-campaign-eff-usec_-fastf/).
+This marketing analysis uses marketing campaign data from IBM Watson, found [here](https://www.ibm.com/communities/analytics/watson-analytics-blog/marketing-campaign-eff-usec_-fastf/).
+
+### Other articles you might like:
+
+- [Marketing Analytics and Data Science - Business Science](https://www.business-science.io/business/2018/10/26/marketing-analytics-data-science.html)
+- [Time Series Analysis for Business Forecasting with Artificial Neural Networks](https://www.business-science.io/business/2018/12/04/time-series-forecasting.html)
+- [New R Cheatsheet: Data Science Workflow with R](https://www.business-science.io/learning-r/2018/11/04/data-science-r-cheatsheet.html)
+- [Ultimate Python Cheatsheet: Data Science Workflow with Python](https://www.business-science.io/learning-python/2018/11/18/data-science-python-cheatsheet.html)
+
+<br/>
+<hr/>
 
 
 ## Table of Contents
@@ -40,8 +50,6 @@ Lastly, this marketing analysis uses marketing campaign data from IBM Watson, fo
 </ol>
 
 
-<hr/>
-
 
 ## I. Business Objective <a name="objective"></a>
 
@@ -60,7 +68,7 @@ Data analysis is performed to find relationships to help determine which marketi
 <hr>
 ### 10-Week System: Data Science Education For Enterprise
 
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
 <img src="/assets/2018-12-11-marketing-analysis-promotion-campaign/DS4B_201_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
 
 ##### Learn to analyze data, create machine learning models and solve business problems with our DS4B 201-R Course.
@@ -188,7 +196,7 @@ Large market stores around 9,10,18 years underperformed versus other stores in t
 <hr>
 ### 10-Week System: Data Science Education For Enterprise
 
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
 <img src="/assets/2018-12-11-marketing-analysis-promotion-campaign/DS4B_201_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
 
 ##### Learn to analyze data, create machine learning models and solve business problems with our DS4B 201-R Course.

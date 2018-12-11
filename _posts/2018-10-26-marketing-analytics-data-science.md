@@ -21,9 +21,18 @@ In my approach to the competition, I am using the [Business Science Problem Fram
 
 The BSPF was developed by [Matt Dancho](/about) of Business Science. Business Science has an [online university](https://university.business-science.io/) for learning data science on a pro level. I learned the BSPF methodology from their course, Data Science for Business with R.
 
+### Other articles you might like:
+
+- [Marketing Analytics and Data Science - Business Science](https://www.business-science.io/business/2018/10/26/marketing-analytics-data-science.html)
+- [Time Series Analysis for Business Forecasting with Artificial Neural Networks](https://www.business-science.io/business/2018/12/04/time-series-forecasting.html)
+- [New R Cheatsheet: Data Science Workflow with R](https://www.business-science.io/learning-r/2018/11/04/data-science-r-cheatsheet.html)
+- [Ultimate Python Cheatsheet: Data Science Workflow with Python](https://www.business-science.io/learning-python/2018/11/18/data-science-python-cheatsheet.html)
+
+<br>
+<hr/>
 
 
-## Contents
+## Table of Contents
 
 ##### 1. [The Business Problem](#business-problem)
 ##### 2. [Data Understanding](#data-understanding)
@@ -33,7 +42,6 @@ The BSPF was developed by [Matt Dancho](/about) of Business Science. Business Sc
 ##### 6. [Impact – Business Benefit](#impact)
 
 <br/>
-<hr/>
 
 
 ## 1.  The Business Problem {#business-problem}
@@ -145,33 +153,25 @@ A pageview indicates each time a visitor views a page on your website, regardles
 
 
 
-<!-- begin University CTA -->
+<!-- CTA -->
 <br>
 <hr>
+### 10-Week System: Data Science Education For Enterprise
 
-<h3>Solve Problems with Data Science Today!</h3>
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<img src="/assets/2018-12-11-marketing-analysis-promotion-campaign/DS4B_201_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
 
-<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&amp;coupon_code=DS4B_15">
-<img src="/img/course_logo_full_DS4B_201_R.png" class="img-rounded pull-right" alt="Data Science For Business With R Course" style="width:30%;margin-left:20px;" />
-</a></p>
+##### Learn to analyze data, create machine learning models and solve business problems with our DS4B 201-R Course.
 
-<p><strong>To be efficient as a data scientist, you need to learn R.</strong> Take the course that has <strong>cut data science projects in half</strong> (see <a href="https://youtu.be/yw5CtGTzIw0">this testimonial</a> from a leading data science consultant) and has <strong>progressed data scientists more than anything they have tried before</strong>. Over 10-weeks you learn what it has taken data scientists 10-years to learn:</p>
-
-<ul>
-  <li>Our systematic data science for business framework</li>
-  <li>R and H2O for Machine Learning</li>
-  <li>How to produce Return-On-Investment from data science</li>
-  <li>And much more.</li>
-</ul>
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Start Learning Today!</strong></a>
-</p>
-
-
-<br>
+- Learn by following a [proven data science framework](https://www.business-science.io/bspf.html)
+- Learn `H2O` & `LIME` for building High-Performance Machine Learning Models
+- Learn __Expected Value Framework__ by connecting Data Science to ROI
+- Learn __Preprocessing__ with `recipes`
+- Learn how to build a __Recommendation Algorithm__ from scratch
+- All while learning `R` __coding__!
+<br><br>
 <hr>
-<!-- end University CTA -->
+<!-- CTA end -->
 
 
 
