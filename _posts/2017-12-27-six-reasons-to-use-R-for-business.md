@@ -13,7 +13,6 @@ image: ds4b_rating.png
 
 Data science for business (DS4B) is the future of business analytics yet it is really difficult to figure out where to start. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: <span>(1) selecting the right tool for the job, and</span> <span>(2) efficiently learning how to use the tool to return business value. This article focuses on the first part, explaining why R is the right choice in six points. Our next article will focus on the second part, learning R in 12 weeks.</span>
 
-<span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
 
 ## Reason 1: R Has The Best Overall Qualities
 
@@ -31,6 +30,27 @@ Further discussion on the assessment is included in the [Appendix](#appendix-1) 
 What we saw was particularly interesting. A trendline developed exposing a tradeoff between learning curve and DS4B capability rating. The most flexible tools are more difficult to learn but tend to have higher business capability. Conversely, the "easy-to-learn" tools are often not the best long-term tools for business or data science capability. Our opinion is __go for capability over ease of use__. 
 
 Of the top tools in capability, __R has the best mix of desirable attributes__ including high data science for business capability, low cost, and it's growing very fast. The only downside is the learning curve. The rest of the article explains why R is so great for business.
+
+
+<!-- CTA -->
+<br>
+<hr>
+### 10-Week System: Data Science Education For Enterprise
+
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<img src="/assets/2018-12-11-marketing-analysis-promotion-campaign/DS4B_201_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
+
+##### Learn to analyze data, create machine learning models and solve business problems with our DS4B 201-R Course.
+
+- Learn by following a [proven data science framework](https://www.business-science.io/bspf.html)
+- Learn `H2O` & `LIME` for building High-Performance Machine Learning Models
+- Learn __Expected Value Framework__ by connecting Data Science to ROI
+- Learn __Preprocessing__ with `recipes`
+- Learn how to build a __Recommendation Algorithm__ from scratch
+- All while learning `R` __coding__!
+<br><br>
+<hr>
+<!-- CTA end -->
 
 
 ## Reason 2: R Is Data Science For Non-Computer Scientists
@@ -189,16 +209,26 @@ R-focused business conferences are gaining traction in a big way. Here are a few
 
 R has a wide range of benefits making it our obvious choice for Data Science for Busienss (DS4B). That's not to say that Python isn't a good choice as well, but, for the wide-range of needs for business, there's nothing that compares to R. In this article we saw why R is a great choice. In the next article we'll show you how to learn R in 12 weeks. 
 
+<br>
+<hr>
+
 
 ## Business Science University  <a class="anchor" id="bsu"></a>
 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<img src="/assets/2018-12-11-marketing-analysis-promotion-campaign/DS4B_201_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
+
 Enjoy data science for business? We do too. This is why we created [Business Science University](https://university.business-science.io/) where we teach you how to do __Data Science For Busines (#DS4B)__ just like us!
 
-Our first [DS4B course (HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) is now available! 
+Our first [DS4B course (HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) is now available! 
 
 #### Who is this course for?
 
-Anyone that is interested in applying data science in a business context (we call this DS4B). All you need is basic `R`, `dplyr`, and `ggplot2` experience. If you understood this article, you are qualified. 
+- __Data Analysts & Data Scientists In Business:__ Data savvy people seeking to make the link between data science and the business objectives to drive ROI for their organization.
+
+- __Consultants:__ Data scientists working for companies in large consulting firms (e.g. Accenture, Deloitte, etc) and boutique consulting firms that are related to enterprise improvement and ROI.
+
+- __Students:__ Future data scientists seeking to gain skills beyond their current program offering. Leveraging Business Science University gets you trained on high-demand skills placing you ahead of your peers in the job market.
 
 #### What do you get it out of it?
 
