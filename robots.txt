@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.business-science.io/sitemap.xml
