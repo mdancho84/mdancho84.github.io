@@ -68,7 +68,7 @@ library(timetk)     # Functions working with time series
 
 # Data
 
-We'll use the same data as in the [previous post](/code-tools/2017/10/23/demo_week_timetk.html) where we used `timetk` to forecast with time series machine learning. We get data using the `tq_get()` function from `tidyquant`. The data comes from FRED: [Beer, Wine, and Distilled Alcoholic Beverages Sales](https://fred.stlouisfed.org/series/S4248SM144NCEN).
+We'll use the same data as in the [previous post](/code-tools/2017/10/24/demo_week_timetk.html) where we used `timetk` to forecast with time series machine learning. We get data using the `tq_get()` function from `tidyquant`. The data comes from FRED: [Beer, Wine, and Distilled Alcoholic Beverages Sales](https://fred.stlouisfed.org/series/S4248SM144NCEN).
 
 
 {% highlight r %}
