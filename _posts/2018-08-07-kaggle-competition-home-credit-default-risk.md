@@ -17,7 +17,7 @@ We were very excited when [Home Credit](http://www.homecredit.net/) teamed up wi
 In the real world businesses have finite schedules for data science projects. Because of this, we redesigned the competition goal to __get very good results quickly__. We took a look at the top performance ([measured by AUC or area under the curve](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), which is currently around 0.80. We decided to see how quickly we could develop a competitive model. Follow along and __learn how we got a model of 0.70 on a Kaggle submission in about 30 minutes with H2O automated machine learning (AutoML)__!
 
 
-# Related Business Machine Learning Articles
+## Related Business Machine Learning Articles
 
 * [HR Analytics: Using Machine Learning To Predict Employee Turnover](http://www.business-science.io/business/2017/09/18/hr_employee_attrition.html)
 
