@@ -6,6 +6,7 @@ author: "Matt Dancho"
 categories: [Timeseries-Analysis]
 tags: [R-Project, R, tidyquant, xts, cranlogs]
 image: tidy-timeseries-part4.png
+image_preview: tidy-timeseries-part4_preview.png
 ---
 
 

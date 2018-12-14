@@ -7,6 +7,7 @@ date:   2018-12-04 05:00:01
 categories: [Business]
 tags: [R-Project, R, Neural Network, Deep Learning, keras]
 image: 2018-12-04-time-series/time_series_deep_learning.png
+image_preview: 2018-12-04-time-series/time_series_deep_learning_preview.png
 ---
 
 In this article, __you will experience an end-to-end forecasting project that was adapted from a real business case__ between a client and consulting firm, [EAF LLC](http://www.eaf-llc.com/). The article showcases __time series deep learning__ using multiple data sources including alternative data, advanced tools like artificial neural networks, with a focus on generating business value: __saving a hypothetical client $10.5M__ with a 10% improvement in forecast performance (results based on a client with $100M in annual revenue). 

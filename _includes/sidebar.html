@@ -90,46 +90,11 @@
 		<!-- Popular Content -->
 		<li>
 			<h5>Popular Content</h5>
+					
 			<div class="list-group">
 				{% for post in site.posts %}
-				<!-- HR Analytics -->
-				{% if post.title == 'Time Series Deep Learning, Part 1: Forecasting Sunspots With Keras Stateful LSTM In R' %}
-				<a href="{{ post.url }}" class="list-group-item">
-					<h6 class="list-group-item-heading">{{ post.title }}</h6>
-					{% if post.image_preview %}
-						<img src="{{ site.baseurl }}/assets/{{ post.image_preview }}" alt="..." style="width: 100%;">
-					{% elsif post.image %}
-						<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
-					{% else %}
-						<img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
-					{% endif %}
-				</a>
-				{% endif %}
-				{% endfor %}
-			</div>
-			
-			<div class="list-group">
-				{% for post in site.posts %}
-				<!-- 6 Reasons To Learn R -->
-				{% if post.title == 'Sales Analytics: How to Use Machine Learning to Predict and Optimize Product Backorders' %}
-				<a href="{{ post.url }}" class="list-group-item">
-					<h6 class="list-group-item-heading">{{ post.title }}</h6>
-					{% if post.image_preview %}
-						<img src="{{ site.baseurl }}/assets/{{ post.image_preview }}" alt="..." style="width: 100%;">
-					{% elsif post.image %}
-						<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
-					{% else %}
-						<img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
-					{% endif %}
-				</a>
-				{% endif %}
-				{% endfor %}
-			</div>
-			
-			<div class="list-group">
-				{% for post in site.posts %}
-				<!-- Customer Analytics -->
-				{% if post.title == 'Customer Analytics: Using Deep Learning With Keras To Predict Customer Churn' %}
+				<!-- 6 Reasons To Learn R For Business -->
+				{% if post.title == '6 Reasons To Learn R For Business' %}
 				<a href="{{ post.url }}" class="list-group-item">
 					<h6 class="list-group-item-heading">{{ post.title }}</h6>
 				    {% if post.image_preview %}

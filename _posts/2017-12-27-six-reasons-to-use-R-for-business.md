@@ -6,6 +6,7 @@ author: "Matt Dancho"
 categories: [Business]
 tags: [R-Project, R, Learning Data Science]
 image: ds4b_rating.png
+image_preview: ds4b_rating_preview.png
 ---
 
 

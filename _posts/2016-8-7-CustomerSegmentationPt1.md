@@ -5,6 +5,7 @@ excerpt: "In this machine learning with R tutorial, use k means clustering to se
 categories: [Business]
 tags: [R-Project, R, Customer Segmentation, Community Detection, kmeans, silhouette, bikes data set]
 image: custSegments1.png
+image_preview: custSegments1_preview.png
 ---
 
 

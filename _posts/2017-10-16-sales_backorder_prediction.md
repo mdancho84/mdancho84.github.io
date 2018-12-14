@@ -6,6 +6,7 @@ author: "Matt Dancho"
 categories: [Business]
 tags: [R-Project, R, h2o, Sales Analytics, Product Backorders]
 image: sales_backorder_prediction.png
+image_preview: sales_backorder_prediction_preview.png
 ---
 
 
