@@ -51,7 +51,7 @@
 		<li><hr></li>
 
 		<!-- Post Navigation -->
-		{% if (page.url contains "/blog/") %}{% else %}
+		<!--{% if (page.url contains "/blog/") %}{% else %}
 		<li>
 			<ul class="pager">
 			  {% if page.previous.url != true %}
@@ -67,7 +67,7 @@
 			</ul>
 		</li>
 		<li><hr></li>
-		{% endif %}
+		{% endif %}-->
 
 		<!-- Blog Navigation -->
 		{% if page.url contains "/blog/" %}
@@ -171,7 +171,7 @@
 
         
         <!-- Categories -->
-		<li>
+		<!--<li>
 			<h5>Categories</h5>
 			{% for category in site.categories %}
 			<div class = "button-margin">
@@ -184,7 +184,7 @@
 				    {% for posts in category %}
 				      {% for post in posts %}
 				      	{% if post.url %}
-					        <!-- <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a> -->
+					        <!commentout <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a> commentout>
 					        <a href="{{ post.url }}" class="list-group-item">
 								<h6 class="list-group-item-heading">{{ post.title }}</h6>
 							    {% if post.image %}
@@ -201,7 +201,7 @@
 			</div>
 			{% endfor %}
 		</li>
-		<li><hr></li>
+		<li><hr></li>-->
         
         
         <!-- Twitter -->
@@ -229,10 +229,10 @@
 		<li><hr></li> -->
 
 		<!-- Tags -->
-		<li>
+		<!--<li>
 			<h5>Tags</h5>
 			<div>
-				<!-- https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html -->
+				<!commentout https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html commentout>
 				{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 				{% assign tag_words = site_tags | split:',' | sort %}
 
@@ -243,7 +243,7 @@
 			</div>
 
 		</li>
-		<li><hr></li>
+		<li><hr></li>-->
 
 
 		<!-- Resources -->
