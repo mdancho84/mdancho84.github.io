@@ -159,7 +159,7 @@ A pageview indicates each time a visitor views a page on your website, regardles
 <hr>
 ### 10-Week System: Data Science Education For Enterprise
 
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/assets/2018-12-11-marketing-analysis-promotion-campaign/DS4B_201_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
 
 ##### Learn to analyze data, create machine learning models and solve business problems with our DS4B 201-R Course.

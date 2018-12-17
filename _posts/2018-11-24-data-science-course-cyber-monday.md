@@ -13,7 +13,7 @@ image_preview: 2018-11-23-black-friday/DS4B_201_R.png
 We have great news! Our __35% OFF SAVINGS__ has been extended through __Cyber Monday__! Get our AMAZING 10-week course, __Data Science For Business With R (DS4B 201-R)__, at the best price. It makes a perfect investment for 2019! An investment in education, building skills to accelerate you and your career. =)
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=black-fri-2018"><strong>Get The Deal!</strong></a>
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Get The Deal!</strong></a>
 </p>
 
 ## Invest in Your Education for 2019
@@ -22,17 +22,17 @@ Data Science for Business with R (DS4B 201-R) will up-level your skills by teach
 
 > DS4B 201-R is the perfect investment in your data science education for 2019!
 
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=black-fri-2018">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/assets/2018-11-23-black-friday/DS4B_201_R.png" class="img-responsive img-rounded center-block" alt="DS4B 201-R Course" style="width:30%;"/></a>
 
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=black-fri-2018"><strong>Start Learning NOW!</strong></a>
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning NOW!</strong></a>
 </p>
 
 ## 10-Week System: Data Science Education For Enterprise
 
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=black-fri-2018">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/assets/2018-11-23-black-friday/DS4B_201_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
 
 Learn our system for integrating data science with business to generate Return-On-Investment (ROI).
@@ -53,11 +53,11 @@ Learn our system for integrating data science with business to generate Return-O
 
 The deal is ___available right now___! But hurry. It ends Monday (11/26) night!
 
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=black-fri-2018">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/assets/2018-11-23-black-friday/DS4B_201_R.png" class="img-responsive img-rounded center-block" alt="DS4B 201-R Course" style="width:30%;"/></a>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=black-fri-2018"><strong>Get The Deal!</strong></a>
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Get The Deal!</strong></a>
 </p>
 
 ## What Do I Get When I Purchase DS4B 201-R?
@@ -84,11 +84,11 @@ Over the course of 10-weeks you follow our process while solving an END-TO-END D
 
 What are you waiting for? Start learning today!
 
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=black-fri-2018">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/assets/2018-11-23-black-friday/DS4B_201_R.png" class="img-responsive img-rounded center-block" alt="DS4B 201-R Course" style="width:30%;"/></a>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=black-fri-2018"><strong>Start Learning Today!</strong></a>
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a>
 </p>
 
 

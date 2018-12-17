@@ -1338,7 +1338,7 @@ Check out our other articles on Time Series!
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/dl6V3122IkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Why learn from [Business Science University](https://university.business-science.io/)? __You could spend years trying to learn all of the skills required to confidently apply Data Science For Business (DS4B)__. Or you can take the first course in our Virtual Workshop, [__Data Science For Business (DS4B 201)__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15). In 10 weeks, you'll learn:
+Why learn from [Business Science University](https://university.business-science.io/)? __You could spend years trying to learn all of the skills required to confidently apply Data Science For Business (DS4B)__. Or you can take the first course in our Virtual Workshop, [__Data Science For Business (DS4B 201)__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15). In 10 weeks, you'll learn:
 
 - A 100% ROI-driven Methodology - Everything we teach is to maximize ROI.
 
@@ -1353,7 +1353,7 @@ Why learn from [Business Science University](https://university.business-science
  
 You can spend years learning this information or in 10 weeks (one chapter per week pace). Get started today!
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 Sign Up Now!
 </a></p>
 
@@ -1361,7 +1361,7 @@ Sign Up Now!
 
 Did you know that __an organization that loses 200 high performing employees per year is essentially losing $15M/year in lost productivity__? Many organizations don't realize this because it's an indirect cost. It goes unnoticed. What if you could use data science to predict and explain turnover in a way that managers could make better decisions and executives would see results? You will learn the tools to do so in our Virtual Workshop. Here's an example of a Shiny app you will create.
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 Get Started Today!
 </a></p>
 
@@ -1373,14 +1373,14 @@ Get Started Today!
 
 Our first __Data Science For Business Virtual Workshop__ teaches you how to solve this employee attrition problem in four courses that are fully integrated:
 
-* [DS4B 201: Predicting Employee Attrition with `h2o` and `lime`](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15)
+* [DS4B 201: Predicting Employee Attrition with `h2o` and `lime`](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15)
 * DS4B 301 (Coming Soon): Building A `Shiny` Web Application
 * DS4B 302 (EST Q4): Data Communication With `RMarkdown` Reports and Presentations
 * DS4B 303 (EST Q4): Building An R Package For Your Organization, `tidyattrition`
 
 The Virtual Workshop is intended for __intermediate and advanced R users__. It's __code intensive (like these articles)__, but also teaches you fundamentals of data science consulting including CRISP-DM and the Business Science Problem Framework. __The content bridges the gap between data science and the business, making you even more effective and improving your organization in the process.__
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 Get Started Today!
 </a></p>
 

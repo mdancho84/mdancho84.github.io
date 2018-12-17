@@ -11,7 +11,7 @@ image: 2018-07-11-expected-value/threshold_optimization.png
 
 
 
-One of the most difficult and most critical parts of implementing data science in business is __quantifying the return-on-investment or ROI__. As a data scientist in an organization, it's of chief importance to show the value that your improvements bring. In this article, we highlight __three reasons you need to learn the Expected Value Framework, a framework that connects the machine learning classification model to ROI__. Further, we'll point you to a new video we released on the [Expected Value Framework: Modeling Employee Churn With H2O](https://youtu.be/amGLWN4hmY0) that was recently taught as part of our flagship course: [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15). The video serves as an overview of the steps involved in calculating ROI from reducing employee churn with H2O, tying the key H2O functions to the process. Last, we'll go over some __Expected Value Framework FAQ's__ that are commonly asked in relation to applying Expected Value to machine learning classification problems in business. 
+One of the most difficult and most critical parts of implementing data science in business is __quantifying the return-on-investment or ROI__. As a data scientist in an organization, it's of chief importance to show the value that your improvements bring. In this article, we highlight __three reasons you need to learn the Expected Value Framework, a framework that connects the machine learning classification model to ROI__. Further, we'll point you to a new video we released on the [Expected Value Framework: Modeling Employee Churn With H2O](https://youtu.be/amGLWN4hmY0) that was recently taught as part of our flagship course: [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15). The video serves as an overview of the steps involved in calculating ROI from reducing employee churn with H2O, tying the key H2O functions to the process. Last, we'll go over some __Expected Value Framework FAQ's__ that are commonly asked in relation to applying Expected Value to machine learning classification problems in business. 
 
 ## Articles In this Series
 
@@ -51,7 +51,7 @@ Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I
 
 ## 3 Reasons You Need To Learn The Expected Value Framework <a class="anchor" id="benefits"></a>
 
-Here are the 3 reasons you need to know about Expected Value if you want to tie data science to ROI for a machine learning classifier. We'll use examples from the [DS4B 201 course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) that are related to employee churn (also called employee turnover or employee attrition).
+Here are the 3 reasons you need to know about Expected Value if you want to tie data science to ROI for a machine learning classifier. We'll use examples from the [DS4B 201 course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15) that are related to employee churn (also called employee turnover or employee attrition).
 
 ### Reason #1: We Can Avoid The Problem With Max F1
 
@@ -120,14 +120,14 @@ If you're interested in learning how to apply the Expected Value Framework using
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 <hr>
 
 ## YouTube Expected Value Framework Overview <a class="anchor" id="youtube"></a>
 
-Here's a 20-minute tutorial on the Expected Value Framework that applies to the [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) course where we use __H2O Automated Machine Learning__ to develop high performance models identifying those likely to leave and then the expected value framework to calculate the savings due to various policy changes.
+Here's a 20-minute tutorial on the Expected Value Framework that applies to the [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15) course where we use __H2O Automated Machine Learning__ to develop high performance models identifying those likely to leave and then the expected value framework to calculate the savings due to various policy changes.
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/amGLWN4hmY0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
@@ -245,7 +245,7 @@ __This is the benefit of using Expected Value. Since the model predicts Maggie h
 
 ## Next Steps: Take The DS4B 201 Course!
 
-If interested in learning more, definitely check out [__Data Science For Business (DS4B 201)__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15). In 10 weeks, the course covers all of the steps to solve the employee turnover problem with H2O in an integrated fashion. 
+If interested in learning more, definitely check out [__Data Science For Business (DS4B 201)__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15). In 10 weeks, the course covers all of the steps to solve the employee turnover problem with H2O in an integrated fashion. 
 
 The students love it. Here's a comment we just received on Sunday morning from one of our students, [Siddhartha Choudhury, Data Architect at Accenture](https://www.linkedin.com/in/siddhartha-choudhury-715524100/). 
 
@@ -256,9 +256,9 @@ The students love it. Here's a comment we just received on Sunday morning from o
 >
 > Siddhartha Choudhury, Data Architect at Accenture
 
-See for yourself why our students have rated [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) a 9.0 of 10.0 for Course Satisfaction!
+See for yourself why our students have rated [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15) a 9.0 of 10.0 for Course Satisfaction!
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 Get Started Today!
 </a></p>
 
@@ -284,7 +284,7 @@ Check out our other articles on Data Science For Business!
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/dl6V3122IkI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Why learn from [Business Science University](https://university.business-science.io/)? __You could spend years trying to learn all of the skills required to confidently apply Data Science For Business (DS4B)__. Or you can take the first course in our Virtual Workshop, [__Data Science For Business (DS4B 201)__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15). In 10 weeks, you'll learn:
+Why learn from [Business Science University](https://university.business-science.io/)? __You could spend years trying to learn all of the skills required to confidently apply Data Science For Business (DS4B)__. Or you can take the first course in our Virtual Workshop, [__Data Science For Business (DS4B 201)__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15). In 10 weeks, you'll learn:
 
 - A 100% ROI-driven Methodology - Everything we teach is to maximize ROI.
 
@@ -299,7 +299,7 @@ Why learn from [Business Science University](https://university.business-science
  
 You can spend years learning this information or in 10 weeks (one chapter per week pace). Get started today!
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 Sign Up Now!
 </a></p>
 
@@ -307,7 +307,7 @@ Sign Up Now!
 
 Did you know that __an organization that loses 200 high performing employees per year is essentially losing $15M/year in lost productivity__? Many organizations don't realize this because it's an indirect cost. It goes unnoticed. What if you could use data science to predict and explain turnover in a way that managers could make better decisions and executives would see results? You will learn the tools to do so in our Virtual Workshop. Here's an example of a Shiny app you will create.
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 Get Started Today!
 </a></p>
 
@@ -319,7 +319,7 @@ Get Started Today!
 
 Our first __Data Science For Business Virtual Workshop__ teaches you how to solve this employee attrition problem in four courses that are fully integrated:
 
-* [DS4B 201: Predicting Employee Attrition with `h2o` and `lime`](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15)
+* [DS4B 201: Predicting Employee Attrition with `h2o` and `lime`](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15)
 * DS4B 301 (Coming Soon): Building A `Shiny` Web Application
 * DS4B 302 (Coming Soon): Data Communication With `RMarkdown` Reports and Presentations
 * DS4B 303 (Coming Soon): Building An R Package For Your Organization, `tidyattrition`
@@ -332,7 +332,7 @@ Here's what one of our students, [Jason Aizkalns](https://www.linkedin.com/in/ja
 >
 > Jason Aizkalns, Data Science Lead at Saint-Gobain
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 Get Started Today!
 </a></p>
 

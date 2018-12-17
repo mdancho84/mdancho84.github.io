@@ -55,17 +55,17 @@ The Business Science Problem Framework!
 <h2 class="text-center">Learn How To Apply The Business Science Problem Framework</h2>
 
 <p class="text-center">
-If you're interested in learning how to apply critical thinking and data science while solving a real-world business problem following an end-to-end data science project, check out <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Data Science For Business With R(DS4B 201-R)</strong></a>. Over the course of 10 weeks you will solve an end-to-end Employee Churn data science project following our <strong>systematic Business Science Problem Framework (BSPF)</strong>.
+If you're interested in learning how to apply critical thinking and data science while solving a real-world business problem following an end-to-end data science project, check out <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Data Science For Business With R(DS4B 201-R)</strong></a>. Over the course of 10 weeks you will solve an end-to-end Employee Churn data science project following our <strong>systematic Business Science Problem Framework (BSPF)</strong>.
 </p>
 
 <p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
 </a>
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
 </p>
 
 
@@ -131,7 +131,7 @@ A recent success story is that of [Rodrigo Prado](https://www.linkedin.com/in/ro
 
 > _While the program was very good, Rodrigo left with a knowledge gap still present not fully enabling him to connect data science to the business._
 
-He read an article about the [Business Science Problem Framework](http://www.business-science.io/business/2018/06/19/business-science-problem-framework.html), and immediately signed up for our [Data Science For Business With R (DS4B 201-R) course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023).
+He read an article about the [Business Science Problem Framework](http://www.business-science.io/business/2018/06/19/business-science-problem-framework.html), and immediately signed up for our [Data Science For Business With R (DS4B 201-R) course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15).
 
 Through his company, [Genesis Partners](https://www.linkedin.com/company/genesis-partnerscl/), Rodrigo has since implemented the BSPF on 3 projects. __According to Rodrigo, the BSPF has cut his time-to-deliver data science projects in half!__
 
@@ -148,17 +148,17 @@ If interested, you can listen to his [2-minute testimonial](https://youtu.be/yw5
 <h2 class="text-center">Experience The Data Science Course That Cut Rodrigo's Time-To-Deliver In Half</h2>
 
 <p class="text-center">
-If you're interested in learning how to apply critical thinking and BSPF while solving a real-world business problem following an end-to-end data science project, check out <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Data Science For Business With R(DS4B 201-R)</strong></a>. Over the course of 10 weeks you will solve an <strong>end-to-end Employee Churn data science project following our systematic Business Science Problem Framework</strong>.
+If you're interested in learning how to apply critical thinking and BSPF while solving a real-world business problem following an end-to-end data science project, check out <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Data Science For Business With R(DS4B 201-R)</strong></a>. Over the course of 10 weeks you will solve an <strong>end-to-end Employee Churn data science project following our systematic Business Science Problem Framework</strong>.
 </p>
 
 <p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
 </a>
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
 </p>
 
 <hr>
@@ -289,7 +289,7 @@ Matt and I are working on a _new visualization_ that accurately shows the agilit
 
 ## Next Steps (Transform Your Abilities) {#next-steps}
 
-I joined Business Science a little while ago for helping create courses and content for their University. The first course so far, [Data Science For Business With R (DS4B 201-R) Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) has a student satisfaction rating of 9.0/10, and students are learning how to apply data science to business using R code, the __Business Science Problem Framework__, and more. I'm creating the Python counterpart course with the __Agile Data Science Framework__ right now so if you are interested in that please let me know! 
+I joined Business Science a little while ago for helping create courses and content for their University. The first course so far, [Data Science For Business With R (DS4B 201-R) Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15) has a student satisfaction rating of 9.0/10, and students are learning how to apply data science to business using R code, the __Business Science Problem Framework__, and more. I'm creating the Python counterpart course with the __Agile Data Science Framework__ right now so if you are interested in that please let me know! 
 
 
 <br>
@@ -302,7 +302,7 @@ Learn everything you need to know to complete a real-world, end-to-end data scie
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 <hr>
@@ -337,7 +337,7 @@ Over the course of 10 weeks, we teach you how to solve an end-to-end data scienc
 
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 

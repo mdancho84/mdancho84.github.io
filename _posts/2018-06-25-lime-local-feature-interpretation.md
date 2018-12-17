@@ -47,13 +47,13 @@ If you're interested in learning how to apply critical thinking and data science
 </p>
 
 <p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
 </a>
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
 </p>
 
 <p>We have two new course offerings coming soon! <strong>Shiny Web Apps</strong> and <strong>Python And Spark For Customer Churn</strong>! Get started with <a href="https://university.business-science.io/"><strong>Business Science University</strong></a>.</p> 
@@ -96,7 +96,7 @@ Toggling the "OverTime" feature to "No" enables calculating an expected value or
 
 #### Interested in Learning LIME While Solving A Real-World Churn Problem?
 
-If you want to solve this real-world employee churn problem developing models with __H2O Automated Machine Learning__, using __LIME For Black-Box ML Model Explanation__, and __analyzing the impact of a policy change through optimization and sensitivity analysis__, get started today with [Data Science For Business (DS4B 201 / HR 201)](https://university.business-science.io/courses/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover?product_id=635023&coupon_code=DS4B15). You'll learn ___ROI-Driven Data Science___, implementing the  tools (H2O + LIME) and our data science framework ([BSPF](/bspf.html)) under my guidance (Matt Dancho, Instructor and Founder of Business Science) in our new, self-paced course part of the [Business Science University](https://university.business-science.io/) virtual data science workshop. 
+If you want to solve this real-world employee churn problem developing models with __H2O Automated Machine Learning__, using __LIME For Black-Box ML Model Explanation__, and __analyzing the impact of a policy change through optimization and sensitivity analysis__, get started today with [Data Science For Business (DS4B 201 / HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15). You'll learn ___ROI-Driven Data Science___, implementing the  tools (H2O + LIME) and our data science framework ([BSPF](/bspf.html)) under my guidance (Matt Dancho, Instructor and Founder of Business Science) in our new, self-paced course part of the [Business Science University](https://university.business-science.io/) virtual data science workshop. 
 
 <span data-sumome-listbuilder-embed-id="1e13d987ad901ab4571b6d92bb2ab8a2230c397b886c1fd49eba5392ed5c88cb"></span>
 
@@ -679,7 +679,7 @@ One lucky student that enrolls in June will receive an __autographed copy of _De
 
 Did you know that __an organization that loses 200 high performing employees per year is essentially losing $15M/year in lost productivity__? Many organizations don't realize this because it's an indirect cost. It goes unnoticed. What if you could use data science to predict and explain turnover in a way that managers could make better decisions and executives would see results? You will learn the tools to do so in our Virtual Workshop. Here's an example of a Shiny app you will create.
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 Get 15% OFF in June!
 </a></p>
 
@@ -691,14 +691,14 @@ Get 15% OFF in June!
 
 Our first __Data Science For Business Virtual Workshop__ teaches you how to solve this employee attrition problem in four courses that are fully integrated:
 
-* [DS4B 201: Predicting Employee Attrition with `h2o` and `lime`](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15)
+* [DS4B 201: Predicting Employee Attrition with `h2o` and `lime`](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15)
 * DS4B 301 (Coming Soon): Building A `Shiny` Web Application
 * DS4B 302 (EST Q4): Data Communication With `RMarkdown` Reports and Presentations
 * DS4B 303 (EST Q4): Building An R Package For Your Organization, `tidyattrition`
 
 The Virtual Workshop is intended for __intermediate and advanced R users__. It's __code intensive (like these articles)__, but also teaches you fundamentals of data science consulting including CRISP-DM and the Business Science Problem Framework. __The content bridges the gap between data science and the business, making you even more effective and improving your organization in the process.__
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 Get 15% OFF in June!
 </a></p>
 

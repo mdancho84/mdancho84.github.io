@@ -17,9 +17,9 @@ In this article, __you will experience an end-to-end forecasting project that wa
 
 > _The article showcases __time series machine learning__ using multiple data sources including alternative data, advanced tools like artificial neural networks, with a focus on business value: __saving a hypothetical client $10.5M__ with a 10% improvement in forecast performance_
 
-This is an __end-to-end analysis of a real-world project__ that a leading data science consultant has graciously provided. [__Blaine Bateman__](https://www.linkedin.com/in/blainebateman/) is the Founder and Chief Data Engineer at [EAF LLC](http://www.eaf-llc.com/). He specializes in business forecasting. Blaine is also a student in the [__Data Science For Business With R (DS4B 201-R) Course__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) offered through [Business Science University](https://university.business-science.io/). Blaine showcases a number of advanced techniques including using [__Keras__](https://tensorflow.rstudio.com/keras/) to create a cutting-edge deep learning model. 
+This is an __end-to-end analysis of a real-world project__ that a leading data science consultant has graciously provided. [__Blaine Bateman__](https://www.linkedin.com/in/blainebateman/) is the Founder and Chief Data Engineer at [EAF LLC](http://www.eaf-llc.com/). He specializes in business forecasting. Blaine is also a student in the [__Data Science For Business With R (DS4B 201-R) Course__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15) offered through [Business Science University](https://university.business-science.io/). Blaine showcases a number of advanced techniques including using [__Keras__](https://tensorflow.rstudio.com/keras/) to create a cutting-edge deep learning model. 
 
-What I like most about this analysis is the process he uses to __create business value__ for his clients, which is the [__Business Science Problem Framework and CRISP-DM__](https://www.business-science.io/business/2018/06/19/business-science-problem-framework.html) taught in the [DS4B 201-R Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15). Blaine's focus is on generating business value in terms of [Return-On-Investment (ROI)](https://www.investopedia.com/terms/r/returnoninvestment.asp). This is how real-world data science is done.
+What I like most about this analysis is the process he uses to __create business value__ for his clients, which is the [__Business Science Problem Framework and CRISP-DM__](https://www.business-science.io/business/2018/06/19/business-science-problem-framework.html) taught in the [DS4B 201-R Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15). Blaine's focus is on generating business value in terms of [Return-On-Investment (ROI)](https://www.investopedia.com/terms/r/returnoninvestment.asp). This is how real-world data science is done.
 
 ## Contents
 
@@ -94,7 +94,7 @@ Business Science Problem Framework (BSPF)
 
 <h2>Take the Business ML Course that has Helped Data Scientists like Blaine</h2>
 
-<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&amp;coupon_code=DS4B15">
+<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/img/course_logo_full_DS4B_201_R.png" class="img-rounded pull-right" alt="Data Science For Business With R Course" style="width:30%;margin-left:20px;" />
 </a></p>
 
@@ -110,7 +110,7 @@ Business Science Problem Framework (BSPF)
 </ul>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Start Learning Today!</strong></a>
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a>
 </p>
 
 
@@ -564,7 +564,7 @@ Regarding the last entry in Table 3; this is a simple ensemble of the three diff
 
 <h2>Learn a Proven Process for Applying Machine Learning in Business</h2>
 
-<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&amp;coupon_code=DS4B15">
+<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/img/course_logo_full_DS4B_201_R.png" class="img-rounded pull-right" alt="Data Science For Business With R Course" style="width:30%;margin-left:20px;" />
 </a></p>
 
@@ -580,7 +580,7 @@ Regarding the last entry in Table 3; this is a simple ensemble of the three diff
 </ul>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Start Learning Today!</strong></a>
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a>
 </p>
 
 

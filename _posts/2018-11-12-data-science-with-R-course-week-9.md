@@ -133,7 +133,7 @@ Once you complete your solution, compare it with the instructor's solution in th
 
 <h2>You Need To Learn R For Business</h2>
 
-<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&amp;coupon_code=DS4B15">
+<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/img/course_logo_full_DS4B_201_R.png" class="img-rounded pull-right" alt="Data Science For Business With R Course" style="width:30%;margin-left:20px;" />
 </a></p>
 
@@ -147,7 +147,7 @@ Once you complete your solution, compare it with the instructor's solution in th
 </ul>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Start Learning Today!</strong></a>
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a>
 </p>
 
 
@@ -186,7 +186,7 @@ __Are you interested in learning R For Business? Then look no further.__
 
 - We are developing a __NEW INTRODUCTORY COURSE (DS4B 101-R)__ that delivers an amazing educational experience for learners that want to apply R to business analysis.
 
-- The __beginner DS4B 101-R__ is the prequel to the [__intermediate/advanced DS4B 201-R course__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&amp;coupon_code=DS4B15)
+- The __beginner DS4B 101-R__ is the prequel to the [__intermediate/advanced DS4B 201-R course__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15)
 
 ### Course Launch Date
 
