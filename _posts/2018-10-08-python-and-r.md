@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "R and Python: How to Integrate the Best of Both into Your Data Science Workflow"
-excerpt: "R and Python - Build a data science team that capitalizes on the unique strengths of both r and python languages."
+excerpt: "R and Python - learn how to integrate both R and Python into your data science workflow. Use the strengths of the two dominant data science languages."
 author: "Matt Dancho"
 date:   2018-10-08 5:44:01
 categories: [Business]
@@ -11,14 +11,16 @@ image_preview: 2018-10-08-python-and-r/python_r_strengths_preview.png
 canonical: https://www.business-science.io/business/2018/10/08/python-and-r.html
 ---
 
+## R and Python for Data Science
 
-
-From Executive Business Leadership to Data Scientists, we all agree on one thing: ___A data-driven transformation is happening___. Artificial Intelligence (AI) and more specifically, Data Science, are redefining how organizations extract insights from their core business(es). We're experiencing a fundamental shift in organizations in which ["approximately 90% of large global organizations with have a Chief Data Officer by 2019"](http://www.visualcapitalist.com/the-rise-of-the-chief-data-officer-cdo/). Why? Because, when the ingredients of a ___"high performance data science team"___ are present ([refer to this Case Study](https://www.business-science.io/business/2018/09/18/data-science-team.html)), organizations are able to generate massive return on investment (ROI). However, data science teams tend to get hung up on a _"battle"_ waged between the two leading programming languages for data science: ___R versus Python___.
+From Executive Business Leadership to Data Scientists, we all agree on one thing: ___A data-driven transformation is happening___. Artificial Intelligence (AI) and more specifically, Data Science, are redefining how organizations extract insights from their core business(es). We're experiencing a fundamental shift in organizations in which ["approximately 90% of large global organizations with have a Chief Data Officer by 2019"](http://www.visualcapitalist.com/the-rise-of-the-chief-data-officer-cdo/). Why? Because, when the ingredients of a ___"high performance data science team"___ are present ([refer to this Case Study](https://www.business-science.io/business/2018/09/18/data-science-team.html)), organizations are able to generate massive return on investment (ROI). However, data science teams tend to get hung up on a _"battle"_ waged between the two leading programming languages for data science: ___R vs Python___.
 
 <a href="https://www.business-science.io/business/2018/09/18/data-science-team.html"><img src="/assets/2018-09-18-data-science-team/amadeus_team.png" class="img-rounded pull-right" alt="Key Strengths, R and Python" style="width:50%;margin-left:20px"/></a>
 
 
-In our recent article, ["Case Study: How To Build A High Performance Data Science Team"](https://www.business-science.io/business/2018/09/18/data-science-team.html), we exposed how a real company ([Amadeus Investment Partners](http://amadeusip.com/)) is utilizing a structured workflow that combines talented business experts, data science education, and a communication between subject matter experts and data scientists to achieve best-in-class results in the one of the most competitive industries: investing. One of the key points from this article was the use of data science languages as tools in a toolkit. R, Python... Use them both. Leverage their strengths. ___Don't build an "R Shop" or a "Python Shop". Build a High Performance Data Science Team that capitalizes on the unique strengths of both languages.___  
+In our recent article, ["Case Study: How To Build A High Performance Data Science Team"](https://www.business-science.io/business/2018/09/18/data-science-team.html), we exposed how a real company ([Amadeus Investment Partners](http://amadeusip.com/)) is utilizing a structured workflow that combines talented business experts, data science education, and a communication between subject matter experts and data scientists to achieve best-in-class results in the one of the most competitive industries: investing. 
+
+One of the key points from this article was the use of data science languages as tools in a toolkit. R, Python... Use them both. Leverage their strengths. ___Don't build an "R Shop" or a "Python Shop". Build a High Performance Data Science Team that capitalizes on the unique strengths of both languages.___  
 
 > _Don't build an "R Shop" or a "Python Shop". Build a __High Performance Data Science Team__ that capitalizes on the unique strengths of both languages._
 
@@ -100,7 +102,7 @@ In it's essence, R is a language with roots in statistics, data analysis, data e
 
 R is growing quickly with the emergence of the `tidyverse` ([tidyverse.org](https://www.tidyverse.org/)), a set of tools with a common programming-interface that use functional verbs (functions like `mutate()` and `summarize()`) to perform intuitive operations connected by the pipe (`%>%`), which mimics how people read. __The `tidyverse` is a big advantage because it makes exploring data highly efficient. Iterating through your exploratory analysis is as easy as writing a paragraph describing what you want to do to the data.__ Here's a `tidyverse` flow chart from [storybench.org](http://www.storybench.org/getting-started-with-tidyverse-in-r/).
 
-![Tidyverse Workflow](/assets/2018-10-08-python-and-r/tidyverse.png)
+![Tidyverse Workflow](/assets/2018-10-08-python-and-r/tidyverse.jpg)
 
 <p class="date text-center"><a href="http://www.storybench.org/getting-started-with-tidyverse-in-r/">Getting Started with tidyverse in R, storybench.org</a></p>
 
@@ -641,7 +643,7 @@ When you "Knit" the final report, it will build a web-based HTML report that can
 
 <img src="/assets/2018-10-08-python-and-r/python_r_strengths.png" class="img-rounded pull-right" alt="Key Strengths, R and Python" style="width:50%;margin-left:20px"/>
 
-Both __R and Python__ are powerful languages. Much of the talk about R versus Python pits these languages as competitors when actually they are allies. We've discussed and put to use this idea of __leveraging the strengths of each language in a harmony__.
+Both __R and Python__ are powerful languages. Much of the talk about R vs Python pits these languages as competitors when actually they are allies. We've discussed and put to use this idea of __leveraging the strengths of each language in a harmony__.
 
 
 When data science teams go beyond being "R Shops" and "Python Shops", and start thinking in terms of being __"High Performance Data Science Teams"__, they begin a transition that improves efficiency, productivity, and capability. The challenge is learning multiple languages. But here's the secret - __it's not that difficult with _Business Science University_.__ 
