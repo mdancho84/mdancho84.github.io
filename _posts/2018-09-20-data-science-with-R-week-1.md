@@ -12,7 +12,7 @@ image: 2018-09-20-data-science-with-R-1/system_week1.png
 
 Data Science and Machine Learning in business begins with R. Why? R is the premier language that enables ___rapid exploration, modeling, and communication___ in a way that no other programming language can match: __SPEED!__ This is why you need to learn R. Time is money, and, in a world where you are measured on productivity and skill, R is your best friend. 
 
-In this ___Data Science With R Series___, we’ll cover what life is like in our ground-breaking, enterprise-grade course called [Data Science For Business With R (DS4B 201-R)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15). The objective is to experience the qualities that make R great for business by following a real-world data science project. We review the course that will take you to advanced in __10 weeks__.
+In this ___Data Science With R Series___, we’ll cover what life is like in our ground-breaking, enterprise-grade course called [Data Science For Business With R (DS4B 201-R)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15). The objective is to experience the qualities that make R great for business by following a real-world data science project. We review the course that will take you to advanced in __10 weeks__.
 
 We want you to experience what our students are saying is the best online course they have ever taken! 
 
@@ -38,7 +38,7 @@ You’re in ___Week 1: Getting Started___, and here’s our game-plan over the n
 
 ## About The Course
 
-[__Data Science For Business With R (DS4B 201-R)__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) is a one-of-a-kind course designed to teach you the essential aspects for applying data science to a business problem with R. Here’s why it’s unique and why __our students consistently rate it 9 of 10 for satisfaction__:
+[__Data Science For Business With R (DS4B 201-R)__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) is a one-of-a-kind course designed to teach you the essential aspects for applying data science to a business problem with R. Here’s why it’s unique and why __our students consistently rate it 9 of 10 for satisfaction__:
 
 - The course is based on __real-world experience__ applying data science as a consultant and within organizations
 
@@ -65,7 +65,7 @@ Week 1 is designed to get you the necessary knowledge before you jump into codin
 - [Frameworks: Systems for success](#part3)
 - [Data science project setup](#part4)
 
-The first thing you’ll do is log into the [DS4B 201-R Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) through [Business Science University](https://university.business-science.io). The application looks like this.
+The first thing you’ll do is log into the [DS4B 201-R Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) through [Business Science University](https://university.business-science.io). The application looks like this.
 
 ![Inside The Course Application](/assets/2018-09-20-data-science-with-R-1/course_application.png)
 
@@ -177,7 +177,7 @@ Learn everything you need to know to complete a real-world, end-to-end data scie
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Start Learning Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
 </p>
 
 <hr>

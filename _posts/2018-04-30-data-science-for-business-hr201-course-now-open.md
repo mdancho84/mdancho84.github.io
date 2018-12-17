@@ -9,7 +9,7 @@ image: BSU-hr201-launch/course_launch.png
 
 
 
-We are pleased to announce that our [__Data Science For Business (#DS4B) Course (HR 201) is OFFICIALLY OPEN!__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) This course is for intermediate to advanced data scientists looking to apply H2O and LIME to a real-world binary classification problem in an organization: Employee Attrition. If you are interested applying data science for business in a real-world setting with advanced tools using a client-proven system that delivers ROI to the organization, then this is the course for you. For a limited time we are [__offering 15% off enrollment__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15). 
+We are pleased to announce that our [__Data Science For Business (#DS4B) Course (HR 201) is OFFICIALLY OPEN!__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) This course is for intermediate to advanced data scientists looking to apply H2O and LIME to a real-world binary classification problem in an organization: Employee Attrition. If you are interested applying data science for business in a real-world setting with advanced tools using a client-proven system that delivers ROI to the organization, then this is the course for you. For a limited time we are [__offering 15% off enrollment__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15). 
 
 ## What You Learn
 
@@ -42,11 +42,11 @@ The course is __large in scope__, which is necessary to go into the level of det
 ## Course Launch Coupon: 15% OFF
 
 
-<p style="text-align:center"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><img src="/assets/BSU-hr201-launch/course_launch.png" style="width: 50%; height: 50%"/></a></p>
+<p style="text-align:center"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><img src="/assets/BSU-hr201-launch/course_launch.png" style="width: 50%; height: 50%"/></a></p>
 
 <br>
 
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15" class="btn btn-info btn-lg center-block" style="width:65%">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15" class="btn btn-info btn-lg center-block" style="width:65%">
                             DS4B Course Launch 15% OFF
                         </a>
 
@@ -54,7 +54,7 @@ The course is __large in scope__, which is necessary to go into the level of det
 
 __Coupon Details:__
 
-* To get 15% off, click the button above or visit [Business Science University](https://university.business-science.io/) using promotional coupon code: __DS4B_15__.
+* To get 15% off, click the button above or visit [Business Science University](https://university.business-science.io/) using promotional coupon code: __DS4B15__.
 
 * The coupon __expires next Monday (5/7/2018)__. Hurry, don't miss out!
 
@@ -91,7 +91,7 @@ We'll apply the following tools and techniques using a real-world problem:
 
 - And more!
 
-There's a lot that HR 201 offers. Learn more on the [Course Homepage](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15). Be sure to take a peek at the __Course Curriculum__ to get a glimpse of what's inside.
+There's a lot that HR 201 offers. Learn more on the [Course Homepage](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15). Be sure to take a peek at the __Course Curriculum__ to get a glimpse of what's inside.
 
 ## H2O Highlights
 
@@ -116,9 +116,9 @@ Many employers offer assistance to cover the cost of continuous education. __Beg
 
 ## Start Learning DS4B Now
 
-Enrollment in BSU is open. [Enroll Now](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) to take advantage of __15% OFF__.  The coupon expires next Monday! __Time is limited!__ 
+Enrollment in BSU is open. [Enroll Now](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) to take advantage of __15% OFF__.  The coupon expires next Monday! __Time is limited!__ 
 
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15" class="btn btn-info btn-lg center-block" style="width:65%">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15" class="btn btn-info btn-lg center-block" style="width:65%">
                             DS4B Course Launch 15% OFF
                         </a>
 

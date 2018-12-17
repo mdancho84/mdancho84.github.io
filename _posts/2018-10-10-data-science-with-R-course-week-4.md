@@ -111,7 +111,7 @@ Challenge #3 provides an opportunity for you to __apply your correlation analysi
 
 <h2>You Need To Learn R For Business</h2>
 
-<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&amp;coupon_code=DS4B_15">
+<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&amp;coupon_code=DS4B15">
 <img src="/img/course_logo_full_DS4B_201_R.png" class="img-rounded pull-right" alt="Data Science For Business With R Course" style="width:30%;margin-left:20px;" />
 </a></p>
 
@@ -125,7 +125,7 @@ Challenge #3 provides an opportunity for you to __apply your correlation analysi
 </ul>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Start Learning Today!</strong></a>
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Start Learning Today!</strong></a>
 </p>
 
 

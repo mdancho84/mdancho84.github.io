@@ -55,7 +55,7 @@ Working on data science projects and teams is half the battle, the other half is
 <p class="text-center date">Follow <a href="https://www.linkedin.com/company/business.science">Business Science on LinkedIn</a></p>
 
 
-Business Science provides the premium online education service called [Business Science University](http://www.business-science.io/) that teaches [business-specific courses in R](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) and [coming soon Python](https://www.linkedin.com/feed/update/urn:li:activity:6424408800127696896)!!! We just landed [Favio Vazquez](https://www.linkedin.com/in/faviovazquez/), Principle Data Scientist at OXXO, as an instructor for the Python version of DS4B 201!
+Business Science provides the premium online education service called [Business Science University](http://www.business-science.io/) that teaches [business-specific courses in R](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) and [coming soon Python](https://www.linkedin.com/feed/update/urn:li:activity:6424408800127696896)!!! We just landed [Favio Vazquez](https://www.linkedin.com/in/faviovazquez/), Principle Data Scientist at OXXO, as an instructor for the Python version of DS4B 201!
 
 <p style="text-align:center;">
 <a href="https://www.linkedin.com/feed/update/urn:li:activity:6424408800127696896">
@@ -68,7 +68,7 @@ Business Science provides the premium online education service called [Business 
 
 ### Learning While Gaining Experience <a class="anchor" id="learning"></a>
 
-[Business Science University](http://www.business-science.io/) is the perfect complement to the Method Data Science accelerator. The premium [Data Science For Business (DS4B) Virtual Workshop](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) teaches the fundamentals of Data Science For Business through an end-to-end data science project. The flagship course, [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15), can be completed while the student is in the ___Method Data Science accelerator program___. Taken in parallel, the __DS4B 201 course multiplies their impact__ by combining top-tier data science education and real-world experience.
+[Business Science University](http://www.business-science.io/) is the perfect complement to the Method Data Science accelerator. The premium [Data Science For Business (DS4B) Virtual Workshop](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) teaches the fundamentals of Data Science For Business through an end-to-end data science project. The flagship course, [Data Science For Business (DS4B 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15), can be completed while the student is in the ___Method Data Science accelerator program___. Taken in parallel, the __DS4B 201 course multiplies their impact__ by combining top-tier data science education and real-world experience.
 
 The end result is a strong foundation of data science tools, systems, and experience that help aspiring data scientists bring data-driven results to organizations.
 
@@ -137,7 +137,7 @@ If you are looking to take the next step and learn __Data Science For Business (
 
 Did you know that __an organization that loses 200 high performing employees per year is essentially losing $15M/year in lost productivity__? Many organizations don't realize this because it's an indirect cost. It goes unnoticed. What if you could use data science to predict and explain turnover in a way that managers could make better decisions and executives would see results? You will learn the tools to do so in our Virtual Workshop. Here's an example of a Shiny app you will create.
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15">
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
 Get 15% OFF!
 </a></p>
 
@@ -149,14 +149,14 @@ Get 15% OFF!
 
 Our first __Data Science For Business Virtual Workshop__ teaches you how to solve this employee attrition problem in four courses that are fully integrated:
 
-* [DS4B 201: Predicting Employee Attrition with `h2o` and `lime`](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15)
+* [DS4B 201: Predicting Employee Attrition with `h2o` and `lime`](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15)
 * DS4B 301 (Coming Soon): Building A `Shiny` Web Application
 * DS4B 302 (EST Q4): Data Communication With `RMarkdown` Reports and Presentations
 * DS4B 303 (EST Q4): Building An R Package For Your Organization, `tidyattrition`
 
 The Virtual Workshop is intended for __intermediate and advanced R users__. It's __code intensive (like these articles)__, but also teaches you fundamentals of data science consulting including CRISP-DM and the Business Science Problem Framework. __The content bridges the gap between data science and the business, making you even more effective and improving your organization in the process.__
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15">
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
 Get 15% OFF!
 </a></p>
 

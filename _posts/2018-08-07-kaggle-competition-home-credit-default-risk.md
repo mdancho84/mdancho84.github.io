@@ -38,7 +38,7 @@ Next, we'll go through the process Matt used to [build a competitive model in ab
 <p class="text-center date">H2O AutoML Preprocessing Workflow</p>
 
 
-We end on [next steps](#next-steps), which provides details on our [end-to-end data science project course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) that will transform your data science abilities in 10 weeks. 
+We end on [next steps](#next-steps), which provides details on our [end-to-end data science project course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) that will transform your data science abilities in 10 weeks. 
 
 <br>
 <hr>
@@ -50,7 +50,7 @@ If you're interested in learning how to apply critical thinking and data science
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 <hr>
@@ -128,7 +128,7 @@ If you're interested in learning how to apply critical thinking and data science
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 <hr>
@@ -385,7 +385,7 @@ If you're interested in learning how to apply the preprocessing strategies using
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 <hr>
@@ -715,7 +715,7 @@ If you're interested in learning how to apply the preprocessing strategies using
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 <hr>
@@ -812,7 +812,7 @@ If you're interested in learning how to perform H2O Automated Machine Learning u
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 <hr>
@@ -831,7 +831,7 @@ We can perform a brief performance analysis to assess the AutoML Leader model. F
 performance_h2o <- h2o.performance(automl_leader, newdata = test_h2o)
 {% endhighlight %}
 
-Next, let's output the Confusion Matrix using the `h2o.confusionMatrix()` function. It's important to understand that this model uses a threshold of 0.139, which maximizes the F1. This is NOT always the best case for the business. If you want to learn how to __optimize the classification threshold__, our [Data Science For Business With R course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) covers Expected Value, Threshold Optimization, and Sensitivity Analysis in Chapters 7 and 8. 
+Next, let's output the Confusion Matrix using the `h2o.confusionMatrix()` function. It's important to understand that this model uses a threshold of 0.139, which maximizes the F1. This is NOT always the best case for the business. If you want to learn how to __optimize the classification threshold__, our [Data Science For Business With R course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) covers Expected Value, Threshold Optimization, and Sensitivity Analysis in Chapters 7 and 8. 
 
 
 {% highlight r %}
@@ -850,7 +850,7 @@ performance_h2o %>%
 {% endhighlight %}
 
 
-We can see that 1528 people that defaulted were correctly detected, 5516 were incorrectly predicted to be default but actually did not, and 2185 were incorrectly predicted to not default, but actually did. This last group is called False Negatives, and this population can be __EXTREMELY COSTLY__ to the lender. Typically a lot more costly than False Positives. This is why threshold optimization is important. Check out [DS4B 201-R](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) if you want to learn how to do __threshold optimization__.
+We can see that 1528 people that defaulted were correctly detected, 5516 were incorrectly predicted to be default but actually did not, and 2185 were incorrectly predicted to not default, but actually did. This last group is called False Negatives, and this population can be __EXTREMELY COSTLY__ to the lender. Typically a lot more costly than False Positives. This is why threshold optimization is important. Check out [DS4B 201-R](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) if you want to learn how to do __threshold optimization__.
 
 We can also check out the AUC on the performance set. We're getting about 0.73, which is pretty good.
 
@@ -887,7 +887,7 @@ If you're interested in learning how to do performance analysis for H2O modeling
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 <hr>
@@ -958,7 +958,7 @@ We did not perform feature engineering and any additional model tuning beyond wh
 
 ## Next Steps (Transform Your Abilities) {#next-steps}
 
-It's critical to understand that modeling is just one part of the overall data science project. Don't mistake - it's an important part, but other parts are equally if not more important, which is why our [Data Science For Business With R (DS4B 201-R)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) course is successfully teaching data science students how to apply data science in the real world.
+It's critical to understand that modeling is just one part of the overall data science project. Don't mistake - it's an important part, but other parts are equally if not more important, which is why our [Data Science For Business With R (DS4B 201-R)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) course is successfully teaching data science students how to apply data science in the real world.
 
 We teach end-to-end data science. This means you learn how to:
 
@@ -987,7 +987,7 @@ Learn everything you need to know to complete a real-world, end-to-end data scie
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 <hr>
@@ -1006,7 +1006,7 @@ Over the course of 10 weeks, we teach you how to solve an end-to-end data scienc
 
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 

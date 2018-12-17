@@ -50,13 +50,13 @@ If you're interested in learning how to apply critical thinking and data science
 </p>
 
 <p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
 <img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
 </a>
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Start Learning Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
 </p>
 
 <p>We have two new course offerings coming soon! <strong>Shiny Web Apps</strong> and <strong>Python And Spark For Customer Churn</strong>! Get started with <a href="https://university.business-science.io/"><strong>Business Science University</strong></a>.</p> 
@@ -914,10 +914,10 @@ Shapley values are considered more robust than the results you will get from LIM
 
 ## Next Steps (Transform Your Abilities) {#next-steps}
 
-It's critical to understand that modeling is just one part of the overall data science project. Don't mistake - it's an important part, but other parts are equally if not more important, which is why our [Data Science For Business With R (DS4B 201-R)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15) course is successfully teaching data science students how to apply data science in the real world.
+It's critical to understand that modeling is just one part of the overall data science project. Don't mistake - it's an important part, but other parts are equally if not more important, which is why our [Data Science For Business With R (DS4B 201-R)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15) course is successfully teaching data science students how to apply data science in the real world.
 
 <p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
 <img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
 </a>
 </p>
@@ -949,7 +949,7 @@ Learn everything you need to know to complete a real-world, end-to-end data scie
 </p>
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 <hr>
@@ -967,14 +967,14 @@ Over the course of 10 weeks, we teach you how to solve an end-to-end data scienc
 <p class="text-center date">Transform you abilities by solving employee churn over a 10-week end-to-end data science project in DS4B 201-R</p>
 
 <p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15">
 <img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
 </a>
 </p>
 
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B_15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?product_id=635023&coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
 </p>
 
 
