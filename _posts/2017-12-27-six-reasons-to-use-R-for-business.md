@@ -7,6 +7,7 @@ categories: [Business]
 tags: [R-Project, R, Learning Data Science]
 image: ds4b_rating.png
 image_preview: ds4b_rating_preview.png
+canonical: https://www.business-science.io/business/2017/12/27/six-reasons-to-use-R-for-business.html
 ---
 
 

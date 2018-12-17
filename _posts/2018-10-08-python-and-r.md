@@ -8,6 +8,7 @@ categories: [Business]
 tags: [R-Project, R, Python, Tidyverse, RMarkdown, Shiny, Scikit-Learn, TensorFlow, reticulate, radix]
 image: 2018-10-08-python-and-r/python_r_strengths.png
 image_preview: 2018-10-08-python-and-r/python_r_strengths_preview.png
+canonical: https://www.business-science.io/business/2018/10/08/python-and-r.html
 ---
 
 
