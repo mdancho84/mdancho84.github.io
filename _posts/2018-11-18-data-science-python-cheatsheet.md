@@ -1,42 +1,45 @@
 ---
 layout: post
-title: "Ultimate Python Cheatsheet: Data Science Workflow with Python"
-excerpt: "Get the Ultimate Python Cheatsheet that makes learning data science with Python quick and efficient."
+title: "Ultimate Python Cheat Sheet: Data Science Workflow with Python"
+excerpt: "Get the Ultimate Python Cheat Sheet that makes learning data science with Python quick and efficient."
 author: "Matt Dancho"
 date:   2018-11-18 8:01:01
 categories: [Learning-Python]
 tags: [R-Project, Python, Cheatsheet, pandas, matplotlib, seaborn, scikit-learn]
 image: 2018-11-18-data-science-with-python-cheatsheet/Data_Science_With_Python_Workflow.png
 image_preview: 2018-11-18-data-science-with-python-cheatsheet/Data_Science_With_Python_Workflow.png
+canonical: https://www.business-science.io/learning-python/2018/11/18/data-science-python-cheatsheet.html
 ---
+
+## Python Cheat Sheet: Python for Data Science
 
 At [Business Science](https://www.business-science.io), we are developing a __revolutionary system for teaching _Business Analysis with Python___ (Business Analysis with Python is a new course we are developing at [Business Science University](https://university.business-science.io/)).
 
-<a href="https://www.business-science.io/python-cheatsheet.html"><img src="/assets/2018-11-18-data-science-with-python-cheatsheet/Data_Science_With_Python_Workflow.png" class="img-rounded pull-right" alt="Python Cheatsheet" style="width:50%;margin-left:20px"/></a>
+<a href="https://www.business-science.io/python-cheatsheet.html"><img src="/assets/2018-11-18-data-science-with-python-cheatsheet/Data_Science_With_Python_Workflow.png" class="img-rounded pull-right" alt="Python Cheat Sheet" style="width:50%;margin-left:20px"/></a>
 
-The system is revolutionary for a number of reasons (we'll get to these in a minute). The cornerstone of our teaching process is the [Data Science with Python Workflow](https://www.business-science.io/python-cheatsheet.html), which is an adaptation of the _Data Science with R workflow_ originally taught by Hadley Wickham and Garrett Grolemund in the the excellent book, [R For Data Science](https://r4ds.had.co.nz/). __The [NEW Python Cheatsheet](/python-cheatsheet.html) links the documentation, cheatsheets, and key resources available for the most widely used Python packages into one meta-cheatsheet that illustrates the workflow__. 
+The system is revolutionary for a number of reasons (we'll get to these in a minute). The cornerstone of our teaching process is the [Data Science with Python Workflow](https://www.business-science.io/python-cheatsheet.html), which is an adaptation of the _Data Science with R workflow_ originally taught by Hadley Wickham and Garrett Grolemund in the the excellent book, [R For Data Science](https://r4ds.had.co.nz/). __The [NEW Python Cheat Sheet](/python-cheatsheet.html) links the documentation, cheat sheets, and key resources available for the most widely used Python packages into one meta-cheatsheet that illustrates the workflow__. 
 
-> ___The NEW Python Cheatsheet links the documentation, cheatsheets, and key resources available for the most widely used Python packages into one meta-cheatsheet that illustrates the workflow.___
-
-
-## Get The ULTIMATE Python Cheatsheet
-
-Just go to our website, and you'll see it available under the "Resources" Tab. [The NEW Python Cheatsheet with the Data Science Workflow in Python is available for download here.](https://www.business-science.io/python-cheatsheet.html) 
-
-![Getting the ULTIMATE Python Cheatsheet](/assets/2018-11-18-data-science-with-python-cheatsheet/get_cheatsheet.png)
-
-<p class="text-center" style="font-size:30px"><a href="https://www.business-science.io/python-cheatsheet.html">Download the ULTIMATE Python Cheatsheet</a></p>
+> ___The NEW Python Cheat Sheet links the documentation, cheat sheets, and key resources available for the most widely used Python packages into one meta-cheatsheet that illustrates the workflow.___
 
 
-## Get All Cheatsheets
+## Get The ULTIMATE Python Cheat Sheet
 
-Like our cheatsheets? Get them all!
+Just go to our website, and you'll see it available under the "Resources" Tab. [The NEW Python Cheat Sheet with the Data Science Workflow in Python is available for download here.](https://www.business-science.io/python-cheatsheet.html) 
+
+![Getting the ULTIMATE Python Cheat Sheet](/assets/2018-11-18-data-science-with-python-cheatsheet/get_cheatsheet.png)
+
+<p class="text-center" style="font-size:30px"><a href="https://www.business-science.io/python-cheatsheet.html">Download the ULTIMATE Python Cheat Sheet</a></p>
+
+
+## Get All Cheat Sheets
+
+Like our cheat sheets? Get them all!
 
 - [BUSINESS SCIENCE PROBLEM FRAMEWORK (BSPF)](https://www.business-science.io/bspf.html)
 
-- [ULTIMATE R CHEATSHEET](https://www.business-science.io/r-cheatsheet.html)
+- [ULTIMATE R CHEAT SHEET](https://www.business-science.io/r-cheatsheet.html)
 
-- [ULTIMATE PYTHON CHEATSHEET](https://www.business-science.io/python-cheatsheet.html)
+- [ULTIMATE PYTHON CHEAT SHEET](https://www.business-science.io/python-cheatsheet.html)
 
 
 <br>
@@ -69,9 +72,9 @@ Like our cheatsheets? Get them all!
 <br>
 
 
-## How To Use The Cheatsheet
+## How To Use The Cheat Sheet
 
-The __UTLITMATE Python Cheatsheet__ is an amazing reference. It contains the primary resources you need for getting up and running with Python for Data Science. Let's take a look.
+The __UTLITMATE Python Cheat Sheet__ is an amazing reference. It contains the primary resources you need for getting up and running with Python for Data Science. Let's take a look.
 
 
 ### The Workflow 
@@ -85,7 +88,7 @@ The first thing you will notice is the workflow that is prominently presented. Y
 
 ### Links To Documentation
 
-Here's the beauty of the ULTIMATE Python Cheatsheet. __With one click, you can easily get to the web documentation for any of the Python packages.__ 
+Here's the beauty of the ULTIMATE Python Cheat Sheet. __With one click, you can easily get to the web documentation for any of the Python packages.__ 
 
 ![Documentation](/assets/2018-11-18-data-science-with-python-cheatsheet/documentation.png)
 
@@ -97,13 +100,13 @@ Here's the beauty of the ULTIMATE Python Cheatsheet. __With one click, you can e
 
 ### Links To Key Resources
 
-__We didn't stop at documentation and cheatsheets. We also added in important references to get you up to speed quickly.__ 
+__We didn't stop at documentation and cheat sheets. We also added in important references to get you up to speed quickly.__ 
 
 ![Important References](/assets/2018-11-18-data-science-with-python-cheatsheet/reference.png)
 
 <p class="date text-center">One-Click To Important References</p>
 
-> ___We didn't stop at documentation and cheatsheets. We also added in important references to get you up to speed quickly.___
+> ___We didn't stop at documentation and cheat sheets. We also added in important references to get you up to speed quickly.___
 
 
 
