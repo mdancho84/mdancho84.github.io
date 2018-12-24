@@ -61,7 +61,9 @@ All this knowledge is bottled up into one methodically crafted course!
 
 ### You <u>finish</u> at AWESOME 
 
-In week 7, you create a __Customer Segmentation report__ that incorporates advanced analytics including __K-Means clustering__. No other course will take you as far as the _Business Analysis With R course_ does in 7 weeks.
+In week 7, you create a __Customer Segmentation report__ that incorporates advanced analytics including __K-Means clustering__. 
+
+> No other course will take you as far as the _Business Analysis With R course_ does in 7 weeks.
 
 ![Customer Segmentation Report](/assets/2018-12-24-course-launch/promo_business_report.gif)
 
