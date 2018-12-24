@@ -67,18 +67,6 @@ In week 7, you create a __Customer Segmentation report__ that incorporates advan
 
 <p class="date text-center">Customer Segmentation Report - One of 2 business reports you create!</p>
 
-## Tools you learn
-
-![Data Science With R Tool Chain](/assets/2018-12-24-course-launch/toolchain.png)
-
-<p class="date text-center">10+ core tidyverse packages and more!</p>
-
-## Resources you get
-
-![Business Analysis With R Resources](/assets/2018-12-24-course-launch/resources.png)
-
-<p class="date text-center">Hundreds of resources in 1 course!</p>
-
 ## We take the guess-work out of learning data science...
 
 Learning data science is tough. There are a million questions...
@@ -117,6 +105,17 @@ We provide you:
 
 - __Full life-time access__: Once you purchase the course, you gain _life-time access_ to content now and any updates in the future. 
 
+## Tools you learn
+
+![Data Science With R Tool Chain](/assets/2018-12-24-course-launch/toolchain.png)
+
+<p class="date text-center">10+ core tidyverse packages and more!</p>
+
+## Resources you get
+
+![Business Analysis With R Resources](/assets/2018-12-24-course-launch/resources.png)
+
+<p class="date text-center">Hundreds of resources in 1 course!</p>
 
 
 ## Course Launch - January 1st!
