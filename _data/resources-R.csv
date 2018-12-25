@@ -1,4 +1,5 @@
 name,tooltip,link,
+R-Bloggers (Blog),R blog aggregator combining blogs from many advanced R users., https://www.r-bloggers.com,
 R for Data Science (Book),A free online book that covers data wrangling and visualization with libraries such as dplyr + tidyr + ggplot2.,http://r4ds.had.co.nz/,
 Advanced R (Book),A free online book for R-programmers that want to improve their programming skills and understanding of the language.,http://adv-r.had.co.nz/,
 R Packages (Book),A free online book for R-programmers that want to develop R packages for reproducibility and so others can use.,http://r-pkgs.had.co.nz/,
@@ -12,7 +13,6 @@ R Interface To TensorFlow (R),The R interface to TensorFlow lets you work produc
 Databases Using R (R),How to connect to databases in R,https://db.rstudio.com/,
 Spark Using R (R),Ho to connect to R using dplyr,http://spark.rstudio.com/,
 H2O Machine Learning,High accuracy machine learning platform,https://www.h2o.ai/download/,
-R-Bloggers (Blog),R blog aggregator combining blogs from many advanced R users., https://www.r-bloggers.com,
 RDocumentation (Search),'Searching R packages can be difficult. RDocumentation pools libraries from CRAN + Bioconductor + Github for search. Libraries are broken into task views (i.e. categories related to task). Users can search by measures such as download frequency.',http://www.rdocumentation.org/taskviews,
 Intro to Statistical Learning (Book),A free book on many of the most popular statistics and machine learning tools with applications in R.,http://www-bcf.usc.edu/~gareth/ISL/,
 Forecasting: Principles & Practice (Book),Free online book that covers forecasting in R.,https://www.otexts.org/book/fpp,
