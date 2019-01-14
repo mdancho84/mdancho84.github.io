@@ -18,7 +18,7 @@ In this first episode of Learning Lbas, we discuss how to how to learn R fast, a
 </div>
 
 <br>
-We had 115 attendees on the <a href="<a href="https://www.youtube.com/watch?v=lv7dPtZGrrg">LIVE recording</a>. For those that weren't able to make it, subscribe to Learning Labs for the next episode.
+We had 115 attendees on the <a href="https://www.youtube.com/watch?v=lv7dPtZGrrg">LIVE recording</a>. For those that weren't able to make it, subscribe to Learning Labs for the next episode.
 
 Get the slide deck from the Learning Lab. All resources are hyperlinked. 
 
