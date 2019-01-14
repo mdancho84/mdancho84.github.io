@@ -11,7 +11,7 @@ image: webinars/episode1/how-to-learn-r-fast.png
 
 Data Science Education is bad. There are a million people saying a million different things. Most "data scientists" doing the talking have no experience in the real world. Most programs suck. This makes learning data science a struggle. The sad fact is that most learners don't succeed. 
 
-In this first episode of Learning Lbas, we discuss how to how to learn R fast, and give you a 30-minute playbook for success.
+In this first episode of [Learning Labs](https://www.business-science.io/labs/), we discuss how to how to learn R fast, and give you a 30-minute playbook for success.
 
 <div class="text-center">
 <a href="https://www.youtube.com/watch?v=lv7dPtZGrrg"><img src="/assets/webinars/episode1/vide-thumb.png"></a>
