@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Deliver Business Results through Data Science Education"
+title: "How To Deliver Business Results Through Data Science Education"
 date:   2019-01-14 14:37:01
 excerpt: "This is an overview of what Business Science is doing differently to empower students to generate business value with data science."
 author: "Matt Dancho"
@@ -63,11 +63,11 @@ __Academia:__
 
 __MOOCs:__
 
-- __It's not just about the classes__ - Most online course completion rates are in 5% - 10% range due to ___low social involvement___ and other benefits you get in a University Program. 
+- __No social interaction__ - Most online course completion rates are in 5% - 10% range due to ___low social involvement___ and other benefits you get in a University Program. 
 
-- __Screening students matters__ - All students are not created equally. The best students make a commitment. They need to be selected and committed. 
+- __No student screening__ - All students are not created equally. The best students make a commitment. They need to be selected and committed. 
 
-- __Good teachers and content__ - The best teachers connect the dots between theory and application. This requires real-world experience. 
+- __No mentorship__ - The best teachers become mentors. Mentors provide guidance.  
 
 - __Limited application to real-world problems__ - Most educators lack real-world experience. 
 
