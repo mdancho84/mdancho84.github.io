@@ -66,4 +66,8 @@ exclude:
   - README.md
   - CNAME
 
-
+# Site collections
+collections:
+  lab-episodes:
+    output: true
+    permalink: /labs/:path/
