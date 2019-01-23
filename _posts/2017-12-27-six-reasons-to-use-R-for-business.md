@@ -4,7 +4,7 @@ title: "6 Reasons To Learn R For Business"
 excerpt: "Learn R for business - Data science for business is the future of business analytics. Here are 6 reasons why R is the right choice."
 author: "Matt Dancho"
 categories: [Business]
-tags: [R-Project, R, Learning Data Science]
+tags: [R-Project, R-Bloggers, R, Learning Data Science]
 image: ds4b_rating.png
 image_preview: ds4b_rating_preview.png
 canonical: https://www.business-science.io/business/2017/12/27/six-reasons-to-use-R-for-business.html
