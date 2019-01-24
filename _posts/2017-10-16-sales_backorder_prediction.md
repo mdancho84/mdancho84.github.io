@@ -4,7 +4,7 @@ title:  "Predictive Sales Analytics: Use Machine Learning to Predict and Optimiz
 excerpt: "Predictive sales analytics to predict product backorders can increase sales and customer satisfaction. Using a Kaggle dataset, we use H2O AutoML predict backorders."
 author: "Matt Dancho"
 categories: [Business]
-tags: [R-Project, R, h2o, Sales Analytics, Product Backorders]
+tags: [R-Project, R, R-Bloggers, h2o, Sales Analytics, Product Backorders]
 image: sales_backorder_prediction.png
 image_preview: sales_backorder_prediction_preview.png
 ---

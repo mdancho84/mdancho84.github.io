@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "IML and H2O: Machine Learning Model Interpretability And Feature Explanation"
+title: "IML: Machine Learning Model Interpretability And Feature Explanation with IML and H2O"
 author: "Brad Boehmke"
 date:   2018-08-13 12:47:01
 categories: [Business]
-tags: [R-Project, R, H2O, DS4B, IML, h2o, iml]
+tags: [R-Project, R, R-Bloggers, H2O, DS4B, IML, h2o, iml]
 image: 2018-08-13-iml/interpretable_machine_learning.jpg
 image_preview: 2018-08-13-iml/interpretable_machine_learning_preview.jpg
 ---

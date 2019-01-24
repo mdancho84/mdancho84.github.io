@@ -4,7 +4,7 @@ title: "Time Series Analysis: KERAS LSTM Deep Learning - Part 1"
 excerpt: "Learn time series analysis with Keras LSTM deep learning. Learn to predict sunspots ten years into the future with an LSTM deep learning model."
 author: "Matt Dancho"
 categories: [Timeseries-Analysis]
-tags: [R-Project, R, Time Series, Deep Learning, Keras, TensorFlow, Backtesting, tidyverse, tibbletime, timetk, keras, rsample, recipes, yardstick]
+tags: [R-Project, R, R-Bloggers, Time Series, Deep Learning, Keras, TensorFlow, Backtesting, tidyverse, tibbletime, timetk, keras, rsample, recipes, yardstick]
 image: 2018-04-18-keras-lstm-sunspots/keras_stateful_lstm.png
 image_preview: 2018-04-18-keras-lstm-sunspots/keras_stateful_lstm_preview.png
 ---

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Interpretable Machine Learning Algorithms with Dalex and H2O"
+title: "DALEX: Interpretable Machine Learning Algorithms with Dalex and H2O"
 excerpt: "Interpret machine learning algorithms with R to explain why one prediction is made over another."
 author: "Brad Boehmke"
 date:   2018-07-23 04:45:01
 categories: [Business]
-tags: [R-Project, R, H2O, DS4B, DALEX, Churn, Human Resources, Employee Turnover, Employee Attrition, h2o, dalex]
+tags: [R-Project, R-Bloggers, R, H2O, DS4B, DALEX, Churn, Human Resources, Employee Turnover, Employee Attrition, h2o, dalex]
 image: 2018-07-23-dalex/architecture.png
 ---
 
