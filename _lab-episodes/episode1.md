@@ -47,18 +47,18 @@ Get the slide deck from the Learning Lab. All resources are hyperlinked.
 
 ### Playbook for Success:
 
-- <a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15">Beginner Course - DS4B 101-R - Business Analysis With R</a> - Learn the fundamentals of data science including tidyverse, dplyr, ggplot2, purrr, broom, lubridate, stringr, forcats, tidyr, & rmarkdown all while solving a customer segmentation project and a new product pricing model project!
+- <a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=learninglabs">Beginner Course - DS4B 101-R - Business Analysis With R</a> - Learn the fundamentals of data science including tidyverse, dplyr, ggplot2, purrr, broom, lubridate, stringr, forcats, tidyr, & rmarkdown all while solving a customer segmentation project and a new product pricing model project!
 
-- <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">Intermediate/Advanced Course - DS4B 201-R - Data Science For Business With R</a> - Cutting-edge machine learning course that solves a Churn Problem using H2O, LIME, recipes and the Business Science Problem Framework!
+- <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=learninglabs">Intermediate/Advanced Course - DS4B 201-R - Data Science For Business With R</a> - Cutting-edge machine learning course that solves a Churn Problem using H2O, LIME, recipes and the Business Science Problem Framework!
 
-- <a href="https://university.business-science.io/p/data-science-for-business-ds4b-101-201-r-bundle/?coupon=ds4b15">R-Track Bundle - Best Offer - Save $207</a> - Get both the 101 & 201 courses to go from Level 0 to 10 in minimal time. Best value!
+- <a href="https://university.business-science.io/p/data-science-for-business-ds4b-101-201-r-bundle/?coupon=learninglabs">R-Track Bundle - Best Offer - Save $207</a> - Get both the 101 & 201 courses to go from Level 0 to 10 in minimal time. Best value!
 
 <div class="text-center">
     <!-- <div style="color:red;">The limited time discount expires January 15th.</div> -->
 
     <br>
     <button type="button" class="btn btn-info btn-lg"
-    onclick="window.location='https://university.business-science.io/p/data-science-for-business-ds4b-101-201-r-bundle/?coupon=ds4b15';">Start the R-Track Bundle Today!</button>
+    onclick="window.location='https://university.business-science.io/p/data-science-for-business-ds4b-101-201-r-bundle/?coupon=learninglabs';">Start the R-Track Bundle Today!</button>
 </div>
 
 <br>
@@ -69,21 +69,21 @@ Get the slide deck from the Learning Lab. All resources are hyperlinked.
 <div class="row">
     <div class="col-md-12">
         <div class="col-md-4 text-center">
-            <a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15"><img src="/assets/webinars/episode1/101-R-image.png" width="225" height="246" style="border:0;box-shadow:0 0 0 0;"></a>
+            <a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=learninglabs"><img src="/assets/webinars/episode1/101-R-image.png" width="225" height="246" style="border:0;box-shadow:0 0 0 0;"></a>
             <br>
             MSRP: <span style="text-decoration:line-through;">$349</span> <br>
             Your Price: <strong>$297</strong> <br>
             <span style="color:green">Save: $52</span>
         </div>
         <div class="col-md-4 text-center">
-            <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><img src="/assets/webinars/episode1/201-R-image.png" width="225" height="246" style="border:0;box-shadow:0 0 0 0;"></a>
+            <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=learninglabs"><img src="/assets/webinars/episode1/201-R-image.png" width="225" height="246" style="border:0;box-shadow:0 0 0 0;"></a>
             <br>
             MSRP: <span style="text-decoration:line-through;">$499</span> <br>
             Your Price: <strong>$421</strong> <br>
             <span style="color:green">Save: $78</span>
         </div>
         <div class="col-md-4 text-center">
-            <a href="https://university.business-science.io/p/data-science-for-business-ds4b-101-201-r-bundle/?coupon=ds4b15"><img src="/assets/webinars/episode1/bundle-image.png" width="225" height="242" style="border:0;box-shadow:0 0 0 0;"></a>
+            <a href="https://university.business-science.io/p/data-science-for-business-ds4b-101-201-r-bundle/?coupon=learninglabs"><img src="/assets/webinars/episode1/bundle-image.png" width="225" height="242" style="border:0;box-shadow:0 0 0 0;"></a>
             <br>
             MSRP: <span style="text-decoration:line-through;">$844</span> <br>
             Your Price: <strong>$637</strong> <br>
