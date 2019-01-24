@@ -24,6 +24,15 @@ __The Solution:__ We understand the issue. We've studied it over the course of a
 <br>
 We had 115 attendees on the <a href="https://www.youtube.com/watch?v=lv7dPtZGrrg">LIVE recording</a>. For those that weren't able to make it, subscribe to Learning Labs for the next episode.
 
+<br>
+<div class="text-center" >
+    <h3>Attend the Next Learning Lab Live</h3>
+    <button type="button" class="btn btn-info btn-lg" onclick="window.location='https://mailchi.mp/business-science/webinars';">Sign Up for Learning Labs</button>
+</div>
+
+<br>
+<hr>
+
 ### Slide Deck
 
 Get the slide deck from the Learning Lab. All resources are hyperlinked. 
