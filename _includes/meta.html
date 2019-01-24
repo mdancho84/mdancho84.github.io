@@ -70,8 +70,8 @@
   {% if page.url %}
     <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
   {% endif %}
-  {% if page.description %}
-    <meta name="twitter:description" content="{{ page.excerpt }}">
+  {% if page.excerpt %}
+    <meta name="twitter:description" content="{{ page.excerpt| strip_html }}">
   {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
