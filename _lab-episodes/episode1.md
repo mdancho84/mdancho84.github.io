@@ -9,7 +9,7 @@ tags: [R, Cheatsheet, Tidyverse, RMarkdown, Shiny, dplyr, ggplot2]
 image: webinars/episode1/how-to-learn-r-fast.png
 ---
 
-In this first episode of [Learning Labs](https://www.business-science.io/labs/), we discuss how to how to learn R fast, and give you a 30-minute playbook for success.
+In this first episode of [Learning Labs](https://www.business-science.io/labs/), we discuss how to how to learn R fast, and give you a 30-minute playbook for success with 3 Key Strategies.
 
 __The Problem:__ Data Science Education is bad. There are a million people saying a million different things. Most "data scientists" doing the talking have no experience in the real world. Most programs suck. This makes learning data science a struggle. The sad fact is that most learners don't succeed. 
 
