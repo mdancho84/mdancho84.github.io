@@ -21,6 +21,8 @@ __The Solution:__ We understand the issue. We've studied it over the course of a
 <a href="https://www.youtube.com/watch?v=lv7dPtZGrrg"><img src="/assets/webinars/episode1/vide-thumb.png"></a>
 </div>
 
+
+<!-- Lab Signup -->
 <br>
 We had 115 attendees on the <a href="https://www.youtube.com/watch?v=lv7dPtZGrrg">LIVE recording</a>. For those that weren't able to make it, subscribe to Learning Labs for the next episode.
 
@@ -32,6 +34,7 @@ We had 115 attendees on the <a href="https://www.youtube.com/watch?v=lv7dPtZGrrg
 
 <br>
 <hr>
+<!-- End Lab Signup -->
 
 ### Slide Deck
 
@@ -73,6 +76,7 @@ Get the slide deck from the Learning Lab. All resources are hyperlinked.
 <br>
 <hr>
 
+<!-- CTA -->
 ## Special Course Offer
 
 <div class="row">
@@ -104,3 +108,4 @@ Get the slide deck from the Learning Lab. All resources are hyperlinked.
 <br>
 __We want to help you go from Data Scientist Level 0 (Complete Beginner) to 10 (Advanced), accelerating your career in the process.__
 
+<!-- End CTA -->
