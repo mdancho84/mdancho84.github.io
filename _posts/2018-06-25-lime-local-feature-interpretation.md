@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "LIME: Understand Employee Churn Using H2O Machine Learning and Lime"
+title: "LIME: Machine Learning Model Interpretability with LIME"
 excerpt: "Predict employee churn with H2O machine learning and LIME. Use LIME (local Interpretable Model-agnostic Explanations) for model explanation in data science for business." 
 author: "Brad Boehmke"
 date:   2018-06-25 04:45:01
