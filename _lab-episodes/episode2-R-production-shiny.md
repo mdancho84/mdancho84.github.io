@@ -15,7 +15,7 @@ In this episode of [Learning Labs](https://www.business-science.io/labs/), we di
 <a href="https://shiny.rstudio.com">Shiny</a> is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions.
 </blockquote>
 
-Watch our recorded conversation how you can package your data science results into a `Shiny` web application to share with team members, stakeholders and decision-makers.
+Watch our recorded conversation to learn how you can package your data science results into a `Shiny` web application to share with team members, stakeholders and decision-makers.
 
 ### Recording
 
