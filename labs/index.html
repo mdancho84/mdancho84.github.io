@@ -161,7 +161,8 @@ Data Science Experts</span></h1>
             <div class="col-md-12">
 
             <ul style="list-style-position: inside">
-                    {% for post in site.lab-episodes %}
+                    {% assign sorted = site.lab-episodes | sort: 'date' | reverse %}
+                    {% for post in sorted %}
                      <article>
                          <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
                          <div class="date">

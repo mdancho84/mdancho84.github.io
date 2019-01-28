@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Episode 1 - How To Learn R Fast"
+title: "How To Learn R Fast | Episode 1"
 excerpt: In this Business Science Learning Lab we give you 3 strategies to Learn R Fast.
 author: "David Curry"
 date: 2019-01-07 5:30:00
