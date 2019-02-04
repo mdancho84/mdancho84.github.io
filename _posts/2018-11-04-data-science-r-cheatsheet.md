@@ -90,6 +90,14 @@ __We didn't stop at documentation and cheat sheets. We also added in important r
 > ___We didn't stop at documentation and cheat sheets. We also added in important references to get you up to speed quickly.___
 
 
+## R Resources
+
+- [How to Learn R Fast - Webinar](https://www.business-science.io/labs/episode1/)
+- [How To Learn R, Part 1: Learn From A Master Data Scientist's Code](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html)
+- [6 Reasons to Learn R for Business](https://www.business-science.io/business/2017/12/27/six-reasons-to-use-R-for-business.html)
+
+<br>
+<hr>
 
 ## Our Revolutionary System For Learning R For Business
 
