@@ -416,3 +416,9 @@ data_apps %>%
 {% endhighlight %}
 
 ![plot of chunk unnamed-chunk-1](/figure/source/2017-12-27-six-reasons-to-use-R-for-business/unnamed-chunk-1-1.png)
+
+## R Resources
+
+- [How to Learn R Fast - Webinar](https://www.business-science.io/labs/episode1/)
+- [R Cheat Sheet](https://www.business-science.io/learning-r/2018/11/04/data-science-r-cheatsheet.html)
+- [How To Learn R, Part 1: Learn From A Master Data Scientist's Code](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html)

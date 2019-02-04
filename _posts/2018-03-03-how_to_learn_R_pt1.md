@@ -16,7 +16,7 @@ The R programming language is a powerful tool used in data science for business 
 
 __Previous articles in the DS4B series__:
 
-* [Six Reasons to Learn R for Business](http://www.business-science.io/business/2017/12/27/six-reasons-to-use-R-for-business.html)
+* [Six Reasons to Learn R for Business](https://www.business-science.io/business/2017/12/27/six-reasons-to-use-R-for-business.html)
 
 ## Analyzing A Leader Through Their Code
 
@@ -1375,13 +1375,21 @@ The Virtual Workshop is intended for __intermediate and advanced R users__. It's
 
 Interested? [__Enroll in Business Science University today!__](https://university.business-science.io/)
 
+
+## R Resources
+
+- [How to Learn R Fast - Webinar](https://www.business-science.io/labs/episode1/)
+- [R Cheat Sheet](https://www.business-science.io/learning-r/2018/11/04/data-science-r-cheatsheet.html)
+- [6 Reasons to Learn R for Business](https://www.business-science.io/business/2017/12/27/six-reasons-to-use-R-for-business.html)
+
+
 ## About Business Science <a class="anchor" id="contact"></a>
 
-Business Science specializes in "ROI-driven data science". Our focus is helping organizations apply data science to business through projects that generate a financial benefit. Visit [Business Science](http://www.business-science.io/) on the web or [contact us](http://www.business-science.io/contact.html) to learn more!
+Business Science specializes in "ROI-driven data science". Our focus is helping organizations apply data science to business through projects that generate a financial benefit. Visit [Business Science](https://www.business-science.io/) on the web or [contact us](https://www.business-science.io/contact.html) to learn more!
 
 ## Follow Business Science on Social Media <a class="anchor" id="social"></a>
 
-* Sign up for [our insights blog](http://www.business-science.io/) to stay updated!
+* Sign up for [our insights blog](https://www.business-science.io/) to stay updated!
 * If you like our software (`tidyquant`, `tibbletime`, `timetk`, and `sweep`), [star our GitHub packages](https://github.com/business-science)!
 * [@bizScienc](https://twitter.com/bizScienc) is on [twitter](https://twitter.com/bizScienc)!
 * Check us out on [Facebook page](https://www.facebook.com/Business-Science-LLC-754699134699054/)!
