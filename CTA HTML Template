@@ -1,0 +1,41 @@
+<!-- CTA Small -->
+<br>
+<hr>
+
+<h2 class="text-center">Learn Data Science For Business</h2>
+
+[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based, 3-course `R-Track` designed to take you from ___data science foundations___ to ___machine learning-powered production web apps___. [See our Curriculum below](#curriculum).
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
+</p>
+
+<hr>
+<br>
+
+<!-- End CTA -->
+
+
+<!-- CTA Large-->
+<br>
+<hr>
+
+<a class="anchor" id="curriculum"></a>
+
+<h2 class="text-center">Data Science for Business Curriculum</h2>
+
+[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based `R-Track` consisting of:
+
+___Business Analysis with R (Beginner)___ - Data Science Foundations | 7-Week course | 12 `tidyverse` Packages | 2 business projects
+
+___Data Science For Business with R (Intermediate/Advanced)___ - Machine Learning + Business Consulting | 10-Week course | `H2O`, `LIME`, `recipes`, and 10 more packages | 1 end-to-end business project
+
+___Web Apps for Business with Shiny (Advanced)___ - Web Frameworks (Bootstrap, HTML/CSS) and Shiny | 6-Week course | `Shiny`, `shinytest`, `shinyloadtest`, `profvis`, and more! | Take machine learning model into production
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
+</p>
+
+<hr>
+<br>
+<!-- End CTA -->
