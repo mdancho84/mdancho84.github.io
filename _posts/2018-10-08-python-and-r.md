@@ -53,7 +53,24 @@ The ML Tutorial is particularly powerful showcasing the interplay between Python
 <p class="date text-center"><strong>Model Evaluation</strong></p>
 
 
+<!-- CTA Small -->
+<br>
+<hr>
 
+<h2 class="text-center">Learn Data Science For Business</h2>
+
+[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based, 3-course `R-Track` designed to take you from ___data science foundations___ to ___machine learning-powered production web apps___. [See our Curriculum below](#curriculum).
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
+</p>
+
+<hr>
+<br>
+
+<!-- End CTA -->
+
+<!--
 <br>
 <hr>
 
@@ -80,6 +97,7 @@ The ML Tutorial is particularly powerful showcasing the interplay between Python
 <br>
 <hr>
 <br>
+-->
 
 In this article, we'll show a __quick machine learning (ML) tutorial that integrates both R and Python, showcasing the strengths of the two dominant programming languages__. But, before we get into the ML tutorial, let's examine the strengths of each language.
 
@@ -164,21 +182,23 @@ We can make a slight modification to the [_R and Python Strengths_](#strengths) 
 
 Now that we have identified the tools we want to use, let's go through a short tutorial that brings this idea of __language harmony__ together.
 
+
+<!-- CTA Small -->
 <br>
 <hr>
 
-<h2 class="text-center">Data Science For Business With R (DS4B 201-R) Course</h2>
+<h2 class="text-center">Learn Data Science For Business</h2>
 
-<p class="text-center">
-Learn everything you need to know to complete a real-world, end-to-end data science project with the R programming language. Transform your abilities with our enterprise-grade 10-week system. 
-</p>
+[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based, 3-course `R-Track` designed to take you from ___data science foundations___ to ___machine learning-powered production web apps___. [See our Curriculum below](#curriculum).
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
+<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
 </p>
 
 <hr>
 <br>
+
+<!-- End CTA -->
 
 ## Part 2: R + Python, Integrated Machine Learning Tutorial {#part2}
 
@@ -650,38 +670,41 @@ When data science teams go beyond being "R Shops" and "Python Shops", and start 
 
 > The challenge is learning multiple languages. But here's the secret - __it's not difficult with Business Science University.__
 
-## Business Science University
-
-<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-<img src="/img/course_logo_full_DS4B_201_R.png" class="img-rounded pull-right" alt="Data Science For Business With R Course" style="width:30%;margin-left:20px" />
-</a></p>
-
-<p><strong>To be efficient as a data scientist, you need to learn R.</strong> Take the course that has <strong>cut data science projects in half</strong> (see <a href="https://youtu.be/yw5CtGTzIw0">this testimonial</a> from a leading data science consultant) and has <strong>progressed data scientists more than anything they have tried before</strong>. Over 10-weeks you learn what it has taken data scientists 10-years to learn:</p>
-
-<ul>
-  <li>Our systematic data science for business framework</li>
-  <li>R and H2O for Machine Learning</li>
-  <li>How to produce Return-On-Investment from data science</li>
-  <li>And much more.</li>
-</ul>
-
-<br>
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Your Transformation Today!</strong></a> </p>
-
+<!-- CTA Large-->
 <br>
 <hr>
+
+<a class="anchor" id="curriculum"></a>
+
+<h2 class="text-center">Data Science for Business Curriculum</h2>
+
+[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based `R-Track` consisting of:
+
+___[Business Analysis with R (Beginner)](https://university.business-science.io/p/ds4b-101-r-business-analysis-r)___ - Data Science Foundations | 7-Week course | 12 `tidyverse` Packages | 2 business projects
+
+___[Data Science For Business with R (Intermediate/Advanced)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover)___ - Machine Learning + Business Consulting | 10-Week course | `H2O`, `LIME`, `recipes`, and 10 more packages | 1 end-to-end business project
+
+___Web Apps for Business with Shiny (Advanced)___ - Web Frameworks (Bootstrap, HTML/CSS) and Shiny | 6-Week course | `Shiny`, `shinytest`, `shinyloadtest`, `profvis`, and more! | Take machine learning model into production 
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
+</p>
+
+<hr>
 <br>
+<!-- End CTA -->
 
-<!-- __Interested in learning R?__ Take the course that has __cut data science projects in half__ (see [this testimonial](https://youtu.be/yw5CtGTzIw0) from a leading data science consultant). Over 10-weeks you learn what it has taken data scientists 10 years to learn: -->
+## Stay Connected, Get Updates, Learn Data Science <a class="anchor" id="social"></a>
 
-<!-- - Our systematic data science for business framework -->
-<!-- - R and H2O for Machine Learning -->
-<!-- - How to produce Return-On-Investment from data science -->
-<!-- - And much more. -->
+[Join our Free Learning Lab (YouTube Webinar) Series](https://mailchi.mp/business-science/webinars).
 
-<!-- <p class="text-center" style="font-size:30px;"> -->
-<!-- <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> -->
+If you like our software (`anomalize`, `tidyquant`, `tibbletime`, `timetk`, and `sweep`), our courses, and our company, you can connect with us:
+
+* [__Business Science__ on LinkedIn](https://www.linkedin.com/company/business.science)
+* [__bizScienc__ on twitter](https://twitter.com/bizScienc)
+* [__Business Science__ on Facebook](https://www.facebook.com/Business-Science-LLC-754699134699054/)
+* [__@business-science__ on GitHub](https://github.com/business-science)
+
 
 
 

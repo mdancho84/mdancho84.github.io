@@ -40,29 +40,24 @@ __Awesome Data Science Tutorials with LIME for black-box model explanation in bu
 
 * __Sales Product Backorders__: [Sales Analytics: How To Use Machine Learning To Predict And Optimize Product Backorders](http://www.business-science.io/business/2017/10/16/sales_backorder_prediction.html)
 
+
+<!-- CTA Small -->
 <br>
 <hr>
 
-<h2 class="text-center">Transform Your Data Science Abilities In 10 Weeks</h2>
+<h2 class="text-center">Learn Data Science For Business</h2>
 
-<p class="text-center">
-If you're interested in learning how to apply critical thinking and data science while solving a real-world business problem following an end-to-end data science project, check out <strong>Data Science For Business (DS4B 201-R)</strong>. Over the course of 10 weeks you will solve an <strong>end-to-end Employee Churn data science project following our systematic Business Science Problem Framework</strong>.
-</p>
-
-<p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-<img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
-</a>
-</p>
+[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based, 3-course `R-Track` designed to take you from ___data science foundations___ to ___machine learning-powered production web apps___. [See our Curriculum below](#curriculum).
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
+<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
 </p>
-
-<p>We have two new course offerings coming soon! <strong>Shiny Web Apps</strong> and <strong>Python And Spark For Customer Churn</strong>! Get started with <a href="https://university.business-science.io/"><strong>Business Science University</strong></a>.</p> 
 
 <hr>
 <br>
+
+<!-- End CTA -->
+
 
 ## FREE BOOK: Interpretable Machine Learning
 
@@ -912,116 +907,38 @@ gridExtra::grid.arrange(shapley.glm, shapley.rf, shapley.gbm, nrow = 1)
 
 Shapley values are considered more robust than the results you will get from LIME. However, similar to the different ways you can compute variable importance, although you will see differences between the two methods often you will see common variables being identified as highly influential in both approaches.  Consequently, we should use these approaches to help _indicate_ influential variables but not to definitively label a variables as the most influential.
 
-## Next Steps (Transform Your Abilities) {#next-steps}
 
-It's critical to understand that modeling is just one part of the overall data science project. Don't mistake - it's an important part, but other parts are equally if not more important, which is why our [Data Science For Business With R (DS4B 201-R)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15) course is successfully teaching data science students how to apply data science in the real world.
-
-<p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-<img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
-</a>
-</p>
-
-We teach end-to-end data science. This means you learn how to:
-
-- __Chapter 1: Sizing The Problem, Custom Functions With Tidy Eval__: Learn how to understand if a business problem exists by sizing the problem. In addition, create custom functions using `Tidy Eval`, a programming interface that is needed if you want to build custom functions using `dplyr`, `ggplot2`.
-
-- __Chapter 2: Exploration with `GGally`, `skimr`__ - We show you how to explore data and identify relationships efficiently and effectively
-
-- __Chapter 3: `recipes`, Premodeling Correlation Analysis__: We teach you how to use recipes to develop data transformation workflow and we show you how to perform a pre-modeling correlation analysis so you do not move into modeling prematurely, which again saves you time
-
-- __Chapters 4 and 5: H2O AutoML__: You will first learn how to use all of the major `h2o` functions to perform automated machine learning for binary classification including working with the H2O leaderboard, visualizing results, and performing grid search and cross validation. In the next chapter, you learn how to evaluate multiple models against each other with ROC, Precision vs Recall, Gain and Lift, which is necessary to explain your choices for best model to the business stakeholders (your manager and key decision makers).
-
-- __Chapter 6: LIME__: You learn how to create local explanations to interpret black-box machine learning models. Explanations for the model predictions are critical because the business cannot do anything to improve unless they understand why. We show you how with `lime`.
-
-- __Chapters 7 and 8: Expected Value Framework, Threshold Optimization, Sensitivity Analysis__: These are my two favorite chapters because they show you how to link the churn classification model to financial results, and they teach `purrr` for iterative grid-search style optimization! These are POWERFUL CONCEPTS.
-
-- __Chapter 9: Recommendation Algorithm__: We again use a correlation analysis but in a different way. We __discretize__, creating a special visualization that enables us to develop a recommendation strategy. 
-
-
+<!-- CTA Large-->
 <br>
 <hr>
 
-<h2 class="text-center">Data Science For Business With R (DS4B 201-R)</h2>
+<a class="anchor" id="curriculum"></a>
 
-<p class="text-center">
-Learn everything you need to know to complete a real-world, end-to-end data science project with the R programming language. Transform your abilities in 10 weeks. 
-</p>
+<h2 class="text-center">Data Science for Business Curriculum</h2>
+
+[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based `R-Track` consisting of:
+
+___[Business Analysis with R (Beginner)](https://university.business-science.io/p/ds4b-101-r-business-analysis-r)___ - Data Science Foundations | 7-Week course | 12 `tidyverse` Packages | 2 business projects
+
+___[Data Science For Business with R (Intermediate/Advanced)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover)___ - Machine Learning + Business Consulting | 10-Week course | `H2O`, `LIME`, `recipes`, and 10 more packages | 1 end-to-end business project
+
+___Web Apps for Business with Shiny (Advanced)___ - Web Frameworks (Bootstrap, HTML/CSS) and Shiny | 6-Week course | `Shiny`, `shinytest`, `shinyloadtest`, `profvis`, and more! | Take machine learning model into production 
 
 <p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
+<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
 </p>
 
 <hr>
 <br>
+<!-- End CTA -->
 
-## Business Science University Course Roadmap
+## Stay Connected, Get Updates, Learn Data Science <a class="anchor" id="social"></a>
 
-We have one course out and two courses coming soon! 
-
-### Data Science For Business With R (DS4B 201-R)
-
-Over the course of 10 weeks, we teach you how to solve an end-to-end data science project. Available now!
-
-![DS4B 301-R Shiny Application: Employee Prediction](/img/recipes.png) 
-<p class="text-center date">Transform you abilities by solving employee churn over a 10-week end-to-end data science project in DS4B 201-R</p>
-
-<p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-<img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
-</a>
-</p>
-
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Get Started Today!</strong></a> 
-</p>
-
-
-
-### Building A Shiny Application (DS4B 301-R)
-
-Our next course teaches you how to take the H2O Model, LIME explanation results, and the recommendation algorithm you develop in DS4B 201-R and turn it into a `Shiny` Web Application that predicts employee attrition! Coming in Q3 2018.
-
-![DS4B 301-R Shiny Application: Employee Prediction](/img/hr_301_app.png) 
-<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in DS4B 301-R (Building A Shiny Web App)</p> 
-
-
-[Kelly O'Briant](https://www.linkedin.com/in/kellyobriant/) is lead developer for the Shiny App Course coming soon. She's a brilliant software engineer / data scientist that knows how to make a great looking and performing Shiny app.
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io"><strong>Sign Up! Coming Q3!</strong></a> 
-</p>
-
-### Data Science For Business With Python (DS4B 201-P)
-
-Did we mention with have a __DS4B Python Course coming__? Well we do! Coming in Q4 2018.
-
-The problem changes: Customer Churn! The tools will be H2O, LIME, and a host of other tools implemented in Python + Spark.  
-
-![Python Track](/img/python_track.png)
-
-<p class="text-center date">Python Track: Data Science For Business With Python And Spark</p>
-
-[Favio Vazquez](https://www.linkedin.com/in/faviovazquez/), Principle Data Scientist at OXXO, is building the Python + Spark equivalent of DS4B 201-R. He's so talented knowing Python, Spark, and R, along with a host of other data science tools.
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io"><strong>Sign Up! Coming Q4!</strong></a> 
-</p>
-
-## Don't Miss A Beat
-
-* Sign up for the [Business Science "5 Topic Friday" Newsletter!](https://mailchi.mp/business-science/data-science-five-topic-friday) 
-* Get started with [Business Science University](https://university.business-science.io/) to learn how to solve real-world data science problems from Business Science
-* Check out our [Open Source Software](http://www.business-science.io/software.html)
-
-<span data-sumome-listbuilder-embed-id="8944080265e0a41a6249cd11ea3299d46ee953ea5bc9a1cd5635069be5bf0987"></span>
-
-## Connect With Business Science <a class="anchor" id="social"></a>
+[Join our Free Learning Lab (YouTube Webinar) Series](https://mailchi.mp/business-science/webinars).
 
 If you like our software (`anomalize`, `tidyquant`, `tibbletime`, `timetk`, and `sweep`), our courses, and our company, you can connect with us:
 
-* [__business-science__ on GitHub](https://github.com/business-science)
-* [__Business Science, LLC__ on LinkedIn](https://www.linkedin.com/company/business.science)
+* [__Business Science__ on LinkedIn](https://www.linkedin.com/company/business.science)
 * [__bizScienc__ on twitter](https://twitter.com/bizScienc)
-* [__Business Science, LLC__ on Facebook](https://www.facebook.com/Business-Science-LLC-754699134699054/)
+* [__Business Science__ on Facebook](https://www.facebook.com/Business-Science-LLC-754699134699054/)
+* [__@business-science__ on GitHub](https://github.com/business-science)
