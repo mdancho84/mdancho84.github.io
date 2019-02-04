@@ -88,7 +88,23 @@ Business Science Problem Framework (BSPF)
 </a>
 </p>
 
+<!-- CTA Small -->
+<br>
+<hr>
 
+<h2 class="text-center">Learn the Business Science Problem Framework</h2>
+
+We teach the BSPF and H2O Machine Learning as part of [Data Science for Business, DS4B 201-R](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15), a 10-Week Course that teaches how to apply machine learning to business.
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Learn the BSPF Framework + H2O Machine Learning Today</strong></a>
+</p>
+
+<hr>
+<br>
+<!-- End CTA -->
+
+<!--
 <br>
 <hr>
 
@@ -116,7 +132,8 @@ Business Science Problem Framework (BSPF)
 
 <br>
 <hr>
-<br>
+<br> 
+-->
 
 
 ## 3. Business Understanding {#business-understanding}
@@ -559,6 +576,8 @@ A summary of the results is given in Table 3, in terms of accuracy over the stat
 Regarding the last entry in Table 3; this is a simple ensemble of the three different models (excluding the optimized regression which is essentially the same as the baseline model).  I chart this along with sales below; as an initial approach, I would probably use this ensemble to make predictions.
 
 ![plot of chunk Plot Ensemble results](/figure/source/2018-12-04-time-series-forecasting/Plot Ensemble results-1.png)
+
+<!--
 <br>
 <hr>
 
@@ -587,6 +606,7 @@ Regarding the last entry in Table 3; this is a simple ensemble of the three diff
 <br>
 <hr>
 <br>
+-->
 
 ## 6. Conclusions and Further Work {#conclusion}
 
@@ -601,6 +621,28 @@ In addition to more business understanding and data understanding, there are imp
 Regarding deployment, I have built interactive web applications based on such models using Shiny to allow clients to interact with the models and data--I plan to write an article on that subject in the future.  One version of the model was provided in an Excel workbook as that fit the business needs.
 
 I hope these discussions and results motivate you to try some alternative methods in your next business analytics challenge!
+
+<!-- CTA Large-->
+<br>
+<hr>
+
+<h2 class="text-center">Data Science for Business Education</h2>
+
+[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based `R-Track` consisting of:
+
+___Business Analysis with R (Beginner)___ - Data Science Foundations | 7-Week course | 12 `tidyverse` Packages | 2 business projects
+
+___Data Science For Business with R (Intermediate/Advanced)___ - Machine Learning + Business Consulting | 10-Week course | `H2O`, `LIME`, `recipes`, and 10 more packages | 1 end-to-end business project
+
+___Web Apps for Business with Shiny (Advanced)___ - Web Frameworks (Bootstrap, HTML/CSS) and Shiny | 6-Week course | `Shiny`, `shinytest`, `shinyloadtest`, `profvis`, and more! | Take machine learning model into production 
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
+</p>
+
+<hr>
+<br>
+<!-- End CTA -->
 
 ## References
 
