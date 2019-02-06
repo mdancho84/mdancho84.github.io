@@ -622,40 +622,7 @@ Regarding deployment, I have built interactive web applications based on such mo
 
 I hope these discussions and results motivate you to try some alternative methods in your next business analytics challenge!
 
-<!-- CTA Large-->
-<br>
-<hr>
 
-<a class="anchor" id="curriculum"></a>
-
-<h2 class="text-center">Data Science for Business Curriculum</h2>
-
-[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based `R-Track` consisting of:
-
-___[Business Analysis with R (Beginner)](https://university.business-science.io/p/ds4b-101-r-business-analysis-r)___ - Data Science Foundations | 7-Week course | 12 `tidyverse` Packages | 2 business projects
-
-___[Data Science For Business with R (Intermediate/Advanced)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover)___ - Machine Learning + Business Consulting | 10-Week course | `H2O`, `LIME`, `recipes`, and 10 more packages | 1 end-to-end business project
-
-___Web Apps for Business with Shiny (Advanced)___ - Web Frameworks (Bootstrap, HTML/CSS) and Shiny | 6-Week course | `Shiny`, `shinytest`, `shinyloadtest`, `profvis`, and more! | Take machine learning model into production 
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
-</p>
-
-<hr>
-<br>
-<!-- End CTA -->
-
-## Stay Connected, Get Updates, Learn Data Science <a class="anchor" id="social"></a>
-
-[Join our Free Learning Lab (YouTube Webinar) Series](https://mailchi.mp/business-science/webinars).
-
-If you like our software (`anomalize`, `tidyquant`, `tibbletime`, `timetk`, and `sweep`), our courses, and our company, you can connect with us:
-
-* [__Business Science__ on LinkedIn](https://www.linkedin.com/company/business.science)
-* [__bizScienc__ on twitter](https://twitter.com/bizScienc)
-* [__Business Science__ on Facebook](https://www.facebook.com/Business-Science-LLC-754699134699054/)
-* [__@business-science__ on GitHub](https://github.com/business-science)
 
 ## References
 
