@@ -26,6 +26,7 @@ Let's take a look at how the `Python` integration works.
 
 <br>
 
+
 > RStudio is making the case for a powerful mult-language IDE designed for Data Science.
 
 ## Summary of RStudio Python Review
@@ -63,9 +64,9 @@ Here's what we liked about the new RStudio IDE `Python` Integration:
 
 <!-- End CTA -->
 
-## Contents & 
+## Contents  
 
-- [Get the Data](#data) - We used the MovieLens 1M Data Set from Wes McKinney's [Python for Data Analysis Book](https://www.amazon.com/Python-Data-Analysis-Wrangling-IPython/dp/1449319793) 
+- [Get the Data](#data) - We used the MovieLens 1M Data Set
 
 - [YouTube Video Walkthrough](#youtube) - 6 Minute Python Tutorial in the RStudio IDE
 
@@ -75,12 +76,26 @@ Here's what we liked about the new RStudio IDE `Python` Integration:
 
 - [Additional Information](#additional)
 
-- [Announcements](#announcements)
+<br>
 
-- [Stay Connected, Get Updates](#social)
+#### Get More From Business Science
 
-## Similar Articles 
+[Announcements](#announcements) | [Business Science University Curriculum](#curriculum) | [Stay Connected, Get Updates](#social)
 
+<br>
+
+#### Similar Articles to Check Out Next
+
+- [R and Python: How to Integrate the Best of Both into Your Data Science Workflow](https://www.business-science.io/business/2018/10/08/python-and-r.html)
+
+- [Ultimate Python Cheat Sheet: Data Science Workflow with Python](https://www.business-science.io/learning-python/2018/11/18/data-science-python-cheatsheet.html)
+
+- [Ultimate R Cheat Sheet: Data Science Workflow with R](https://www.business-science.io/learning-r/2019/01/07/data-science-with-r-cheat-sheet.html)
+
+
+# Product Review
+
+With the rollout of the `Python` Integration - a major new feature in RStudio - We did a ___product review___ of the ___RStudio IDE___ from the perspective of data scientist using `Python`. We created a script file (`.py` file) and worked interactively with the RStudio IDE's console, help documentation, and plotting panel performing basic operations that a data scientist will be doing quite frequently.
 
 ## Get the Data {#data}
 
@@ -422,70 +437,3 @@ p$version
 
 
 
-## Announcements {#announcements}
-
-### 1. BRAND NEW - Learning Lab Webinar - LIVE CODING
-
-Topic: __Marketing Analytics: Excel to R & The Correlation Funnel - LIVE CODING__
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://zoom.us/webinar/register/WN_zDjku3aNREa4zMflJZzRuA"><strong>Sign Up For Learning Lab: Marketing Analytics</strong></a>
-</p>
-
-We are giving a [LIVE CODING Learning Lab (Webinar)](https://zoom.us/webinar/register/WN_zDjku3aNREa4zMflJZzRuA) on Wednesday February 13th, 2019. This is an ambitious project where we are showcasing:
-
-- Marketing Analytics
-- `Excel` to `R` Business Process Conversion
-- Packages including `tidyverse` and `recipes`
-- Correlation Analysis and the Correlation Funnel
-- Strategy Development
-
-![Learning Lab: Correlation Funnel](/assets/2019-02-05-python-rstudio-ide/correlation_funnel.jpg) 
-<p class="date text-center">Correlation Funnel - Taught in our next Learning Lab</p>
-
-
-
-
-
-### 2. NEWSLETTER - Data Science Fundamentals
-
-We just launched a new initiative to help you take your data science skills to the next level. Every Tuesday we send you new resources, tips, and advice to accelerate your learning. 
-
-![Data Science Fundamentals](/assets/2019-02-05-python-rstudio-ide/DSF.jpg)
-
-<!-- CTA Large-->
-<br>
-<hr>
-
-<a class="anchor" id="curriculum"></a>
-
-<h2 class="text-center">Data Science for Business Curriculum</h2>
-
-[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based `R-Track` consisting of:
-
-___[Business Analysis with R (Beginner)](https://university.business-science.io/p/ds4b-101-r-business-analysis-r)___ - Data Science Foundations | 7-Week course | 12 `tidyverse` Packages | 2 business projects
-
-___[Data Science For Business with R (Intermediate/Advanced)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover)___ - Machine Learning + Business Consulting | 10-Week course | `H2O`, `LIME`, `recipes`, and 10 more packages | 1 end-to-end business project
-
-___Web Apps for Business with Shiny (Advanced)___ - Web Frameworks (Bootstrap, HTML/CSS) and Shiny | 6-Week course | `Shiny`, `shinytest`, `shinyloadtest`, `profvis`, and more! | Take machine learning model into production
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
-</p>
-
-<hr>
-<br>
-<!-- End CTA -->
-
-## Stay Connected, Get Updates, Learn Data Science <a class="anchor" id="social"></a>
-
-- Join our [Data Science Foundations Newsletter](https://mailchi.mp/business-science/data-science-fundamentals-newsletter) - Every Tuesday, we send you tools, tips, advice, and resources.
-- Join our [Learning Lab (YouTube Webinar) Series](https://mailchi.mp/business-science/webinars) - We host live learning events where you learn from experts.
-
-
-If you like our software (`anomalize`, `tidyquant`, `tibbletime`, `timetk`, and `sweep`), our courses, and our company, you can connect with us:
-
-* [__Business Science__ on LinkedIn](https://www.linkedin.com/company/business.science)
-* [__bizScienc__ on twitter](https://twitter.com/bizScienc)
-* [__Business Science__ on Facebook](https://www.facebook.com/Business-Science-LLC-754699134699054/)
-* [__@business-science__ on GitHub](https://github.com/business-science)
