@@ -3,7 +3,7 @@ layout: post
 title: "Time Series Analysis for Business Forecasting with Artificial Neural Networks"
 excerpt: "This article demonstrates a real-world case study for business forecasting with regression models including artificial neural networks (ANNs) with Keras"
 author: "Blaine Bateman"
-date:   2018-12-04 05:00:01
+date:   2018-12-04 05:00:01 
 categories: [Business]
 tags: [R-Project, R, R-Bloggers, Neural Network, Deep Learning, keras]
 image: 2018-12-04-time-series/time_series_deep_learning.png

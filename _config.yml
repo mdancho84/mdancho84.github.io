@@ -2,6 +2,7 @@
 # This file contains configuration flags to customize your site
 #
 encoding: UTF-8
+timezone: America/New_York
 
 # Name of your site (displayed in the header)
 name: business-science.io
