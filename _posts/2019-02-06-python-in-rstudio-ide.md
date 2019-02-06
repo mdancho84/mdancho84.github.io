@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Product Review - Python Integration in RStudio IDE"
+title: "Python Integration in RStudio - Data Science IDE Review"
 date:   2019-02-06 06:37:01
 excerpt: "With the latest integration of Python into the RStudio IDE, RStudio is making the case for a powerful multi-language Data Science IDE."
 author: "Matt Dancho"
