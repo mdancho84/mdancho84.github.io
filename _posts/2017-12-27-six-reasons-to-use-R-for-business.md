@@ -13,7 +13,7 @@ canonical: https://www.business-science.io/business/2017/12/27/six-reasons-to-us
 
 
 
-Data science for business (DS4B) is the future of business analytics yet it is really difficult to figure out where to start. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: <span>(1) selecting the right tool for the job, and</span> <span>(2) efficiently learning how to use the tool to return business value. This article focuses on the first part, explaining why R is the right choice in six points. Our next article will focus on the second part, learning R in 12 weeks.</span>
+Data science for business (DS4B) is the future of business analytics yet it is really difficult to figure out where to start. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: <span>(1) selecting the right tool for the job, and</span> <span>(2) efficiently learning how to use the tool to return business value. This article focuses on the first part, explaining why R is the right choice in six points. Our next article will focus on the second part, [how to learn R](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html) in 12 weeks.</span>
 
 
 ## Reason 1: R Has The Best Overall Qualities
@@ -31,18 +31,18 @@ Further discussion on the assessment is included in the [Appendix](#appendix-1) 
 
 What we saw was particularly interesting. A trendline developed exposing a tradeoff between learning curve and DS4B capability rating. The most flexible tools are more difficult to learn but tend to have higher business capability. Conversely, the "easy-to-learn" tools are often not the best long-term tools for business or data science capability. Our opinion is __go for capability over ease of use__. 
 
-Of the top tools in capability, __R has the best mix of desirable attributes__ including high data science for business capability, low cost, and it's growing very fast. The only downside is the learning curve. The rest of the article explains why R is so great for business.
+Of the top tools in capability, __R has the best mix of desirable attributes__ including high data science for business capability, low cost, and it's growing very fast. The only downside is the learning curve. The rest of the article explains why learning R is great for business.
 
 
 <!-- CTA -->
 <br>
 <hr>
-### 10-Week System: Data Science Education For Enterprise
+### Learn R in 10 Weeks: Data Science Education For Business
 
 <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/assets/2018-12-11-marketing-analysis-promotion-campaign/DS4B_201_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
 
-##### Learn to analyze data, create machine learning models and solve business problems with our DS4B 201-R Course.
+##### Learn R to analyze data, create machine learning models and solve business problems with our DS4B 201-R Course.
 
 - Learn by following a [proven data science framework](https://www.business-science.io/bspf.html)
 - Learn `H2O` & `LIME` for building High-Performance Machine Learning Models
@@ -57,7 +57,7 @@ Of the top tools in capability, __R has the best mix of desirable attributes__ i
 
 ## Reason 2: R Is Data Science For Non-Computer Scientists
 
-If you are seeking high-performance data science tools, you really have two options: __R or Python__. When starting out, you should pick one. It's a mistake to try to learn both. Your choice comes down to what's right for you. The difference between R and Python has been described in numerous infographics and debates online, but __the most overlooked reason is person-programming language fit__. Don't understand what we mean? Let's break it down.
+If you are seeking high-performance data science tools, you really have two options: __R or Python__. When starting out, you should pick one. It's a mistake to try to learn both. Your choice comes down to what's right for you. [The difference between R and Python](https://www.business-science.io/business/2018/10/08/python-and-r.html) has been described in numerous infographics and debates online, but __the most overlooked reason is person-programming language fit__. Don't understand what we mean? Let's break it down.
 
 __Fact 1: Most people interested in learning data science for business are not computer scientists.__ They are business professionals, non-software engineers (e.g. mechanical, chemical), and other technical-to-business converts. This is important because of where each language excels.  
 
@@ -86,6 +86,7 @@ Think about what you are trying to do:
 - __Are you trying to build a self-driving car?__ <span>If yes, learn Python.</span>
 
 - __Are you trying to communicate business analytics throughout your organization?__ <span>If yes, learn R.</span>
+
 
 ## Reason 3: Learning R Is Easy With The Tidyverse
 
@@ -142,7 +143,7 @@ We already talked about the infrastructure, the `tidyverse`, that enables the ec
 
 ## Reason 5: R Is Built For Business
 
-Two major advantages of R versus every other programming language is that it can produce business-ready reports and machine learning-powered web applications. Neither Python or Tableau or any other tool can currently do this as efficiently as R can. The two capabilities we refer to are `rmarkdown` for report generation and `shiny` for interactive web applications. 
+Two major advantages of learning R versus every other programming language is that it can produce business-ready reports and machine learning-powered web applications. Neither Python or Tableau or any other tool can currently do this as efficiently as R can. The two capabilities we refer to are `rmarkdown` for report generation and `shiny` for interactive web applications. 
 
 ### Rmarkdown
 
@@ -209,13 +210,13 @@ R-focused business conferences are gaining traction in a big way. Here are a few
  
 ## Conclusion
 
-R has a wide range of benefits making it our obvious choice for Data Science for Busienss (DS4B). That's not to say that Python isn't a good choice as well, but, for the wide-range of needs for business, there's nothing that compares to R. In this article we saw why R is a great choice. In the next article we'll show you how to learn R in 12 weeks. 
+R has a wide range of benefits making it our obvious choice for Data Science for Busienss (DS4B). That's not to say that Python isn't a good choice as well, but, for the wide-range of needs for business, there's nothing that compares to R. In this article we saw why learning R is a great choice. In the next article we'll show you [how to learn R](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html) in 12 weeks. 
 
 <br>
 <hr>
 
 
-## Business Science University  <a class="anchor" id="bsu"></a>
+## Learn R with Business Science University  <a class="anchor" id="bsu"></a>
 
 <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
 <img src="/assets/2018-12-11-marketing-analysis-promotion-campaign/DS4B_201_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>

@@ -5,6 +5,7 @@ author: "Matt Dancho"
 categories: [Learning-R]
 tags: [R-Project, R-Bloggers, R, Learning Data Science, Text Analysis, Web Scraping, rvest, fs, tidyverse]
 image: 2018-03-03_how_to_learn_r/ve_functions_top_20.png
+canonical: https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html
 ---
 
 
@@ -52,7 +53,7 @@ We noticed a theme that DRob is frequently using packages in the "tidyverse" (e.
 
 And, finally, we listed out the top 88 functions in our 80/20 analysis. These are the functions he used 80% of the time. Check out the [80/20 list of most frequently used functions below](#q4)!
 
-#### Bonus: Analyze Your Code
+#### Bonus: How to Learn R by Analyzing Your Code
 
 We show as a bonus how you can apply the custom scripts developed in this article to do an analysis on your code with the new `fs` package (short for file system). We briefly analyze our code base for the HR 201: Predicting Employee Attrition course that is under development for our [__Business Science University Virtual Workshop__](#bsu) on predicting employee turnover and developing `Shiny` web applications. The Virtual Workshop is coming soon!
 
@@ -70,7 +71,7 @@ Our quest is to prove these theories.
 
 Trying to solve every aspect of a challenge is overwhelming and often not the best use of your time. The 80/20 Rule can often help in these situations. Generally speaking, the 80/20 Rule posits that roughly 20% of activities or tasks produce 80% of the results you want. The challenge of learning the R language falls perfectly into this model. The key is figuring out which areas are the highest value for your time. 
 
-### Learning From A Master Data Scientist <a class="anchor" id="master"></a>
+### How to Learn R From A Master Data Scientist <a class="anchor" id="master"></a>
 
 To make an optimal strategy, we need data on what tools are being used to perform high-end data science. But, where can we get data? From a data scientist that regularly performs high-end data science publicly via the internet. A true master at the dark art of data science!
 
@@ -83,7 +84,7 @@ Many data scientists such as top Kaggle competitors focus on how to create a hig
 I had checked out his blog before, but never picked up on the fact that he's really doing data science that can be applied to business (although he's mainly applying to other areas such as sports and politics). DRob has written a number of articles on his blog, [Variance Explained](http://varianceexplained.org/). Some of my favorites are his articles on statistics applications in baseball. His approaches are novel leaning on Bayesian A/B testing, hierarchical modeling, mixture models, and many other tools that are very useful in business analysis. Further, he employs problem solving and critical thinking, which are the same skills that are needed in DS4B.
 
 
-## Analysis: Learning From A Master
+## Analysis: Learning R From A Master
 
 If we treat DRob's code on his Variance Explained blog as a text analysis, __we can find the most frequently used packages and functions that cover the majority of code he produces__. We can then use an 80/20 approach to determine which functions and packages are most used and therefore most important to master. We'll split this analysis into two parts:
 
@@ -1078,7 +1079,7 @@ One point I have not discussed is that DRob is just one _really good_ data scien
 
 Another point is that we got 2,314 functions out of 58 posts. While this is by no means a small sample, we certainly may wish to increase the sample size to get more confidence in the most high usage functions. Personally, I'd like to see a 100X ratio between top functions and total observations, meaning the top 100 functions would be from at a minimum 10,000 functions. With that said, the analysis was performed accross a large sample of projects (58 posts less those that do not contain code) and multiple years which is another factor that improves confidence. 
 
-## Bonus: Analyze Your Code <a class="anchor" id="bonus"></a>
+## Bonus: How to Learn R by Analyzing Your Code <a class="anchor" id="bonus"></a>
 
 We spoke a lot about analyzing DRob's code, but with a few modifications you can apply this analysis to your own code stored in .R or .Rmd files! Here's how with the `fs` package. 
 
@@ -1346,7 +1347,7 @@ ve_functions_top_20_tbl %>%
 
 ## Conclusions
 
-We are half-way on our quest to develop an optimal strategy to learn R. We picked a great candidate in DRob to learn from. He's a tidyverse afficianado, a master data scientist, and he has a large sample of blog posts spanning multiple years to aggregate and analyze. 
+We are half-way on our quest to develop an optimal strategy on how to learn R. We picked a great candidate in DRob to learn from. He's a tidyverse afficianado, a master data scientist, and he has a large sample of blog posts spanning multiple years to aggregate and analyze. 
 
 We learned a bunch of cool things related to our hypothesis. To recap, we hypothesized that (1) you don't need to learn everything to become proficient at R, and (2) we can develop a strategic plan by learning from a master data scientist. We have not proven the second point yet, but the first we can confirm with confidence given that 88 functions created 80% of the output on DRob's blog. 
 
