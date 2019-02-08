@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "New R Cheat Sheet: Data Science Workflow with R"
+title: "R Cheat Sheet: Data Science Workflow with R"
 excerpt: "Get the new R Cheat Sheet that makes learning data science with R quick and efficient."
 author: "Matt Dancho"
 date:   2018-11-04 9:30:01
@@ -52,7 +52,7 @@ The __NEW R cheat sheet__ is an amazing reference. It contains every resource yo
 
 The first thing you will notice is the workflow that is prominently presented. You can see where the various R Packages are used. 
 
-![Workflow](/assets/2018-11-04-data-science-with-R-cheatsheet/workflow.png)
+![R Cheat Sheet Workflow](/assets/2018-11-04-data-science-with-R-cheatsheet/workflow.png)
 
 <p class="date text-center">Data Science Workflow</p>
 
@@ -61,7 +61,7 @@ The first thing you will notice is the workflow that is prominently presented. Y
 
 Here's the beauty of the R cheat sheet. __With one click, you can easily get to the web documentation for any of the key tidyverse R packages.__ 
 
-![Documentation](/assets/2018-11-04-data-science-with-R-cheatsheet/documentation.png)
+![R Cheat Sheet Documentation](/assets/2018-11-04-data-science-with-R-cheatsheet/documentation.png)
 
 <p class="date text-center">One-Click To Documentation</p>
 
@@ -83,7 +83,7 @@ __Wait, there's more. By clicking "CS", you can even get the individual R packag
 
 __We didn't stop at documentation and cheat sheets. We also added in important references to get you up to speed quickly.__ 
 
-![Important References](/assets/2018-11-04-data-science-with-R-cheatsheet/reference.png)
+![R Cheat Sheet Important References](/assets/2018-11-04-data-science-with-R-cheatsheet/reference.png)
 
 <p class="date text-center">One-Click To Important References</p>
 
