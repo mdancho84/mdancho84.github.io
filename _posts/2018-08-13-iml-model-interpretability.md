@@ -41,25 +41,7 @@ __Awesome Data Science Tutorials with LIME for black-box model explanation in bu
 * __Sales Product Backorders__: [Sales Analytics: How To Use Machine Learning To Predict And Optimize Product Backorders](http://www.business-science.io/business/2017/10/16/sales_backorder_prediction.html)
 
 
-<!-- CTA Small -->
-<!--
-<br>
-<hr>
 
-<h2 class="text-center">Learn Data Science For Business</h2>
-
-[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based, 3-course `R-Track` designed to take you from ___data science foundations___ to ___machine learning-powered production web apps___. [See our Curriculum below](#curriculum).
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
-</p>
-
-<hr>
-<br>
-
--->
-
-<!-- End CTA -->
 
 
 ## FREE BOOK: Interpretable Machine Learning

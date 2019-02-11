@@ -59,23 +59,7 @@ We'll cover the following topics on `DALEX` in this article:
 
 7. [Local interpretation](#local): explanations for a single prediction.
 
-<!-- CTA Small -->
-<!--
-<br>
-<hr>
 
-<h2 class="text-center">Learn Data Science For Business</h2>
-
-[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based, 3-course `R-Track` designed to take you from ___data science foundations___ to ___machine learning-powered production web apps___. [See our Curriculum below](#curriculum).
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
-</p>
-
-<hr>
-<br>
--->
-<!-- End CTA -->
 
 
 ## DALEX and H2O: Machine Learning Model Interpretability And Feature Explanation

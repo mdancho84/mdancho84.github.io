@@ -47,24 +47,7 @@ Here's what we liked about the new RStudio IDE `Python` Integration:
 
 <p class="date text-center">Summary of RStudio IDE Python Integration</p>
 
-<!-- CTA Small -->
-<!--
-<br>
-<hr>
 
-<h2 class="text-center">Learn Data Science For Business</h2>
-
-[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based, 3-course `R-Track` designed to take you from ___data science foundations___ to ___machine learning-powered production web apps___. [See our Curriculum below](#curriculum).
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
-</p>
-
-<hr>
-<br>
--->
-
-<!-- End CTA -->
 
 ## Contents  
 

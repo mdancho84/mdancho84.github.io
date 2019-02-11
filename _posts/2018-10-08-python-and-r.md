@@ -53,53 +53,6 @@ The ML Tutorial is particularly powerful showcasing the interplay between Python
 <p class="date text-center"><strong>Model Evaluation</strong></p>
 
 
-<!-- CTA Small -->
-<!--
-<br>
-<hr>
-
-<h2 class="text-center">Learn Data Science For Business</h2>
-
-[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based, 3-course `R-Track` designed to take you from ___data science foundations___ to ___machine learning-powered production web apps___. [See our Curriculum below](#curriculum).
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
-</p>
-
-<hr>
-<br>
--->
-<!-- End CTA -->
-
-<!--
-<br>
-<hr>
-
-<h2>You Need To Learn R For Business</h2>
-
-<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-<img src="/img/course_logo_full_DS4B_201_R.png" class="img-rounded pull-right" alt="Data Science For Business With R Course" style="width:30%;margin-left:20px;" />
-</a></p>
-
-<p><strong>To be efficient as a data scientist, you need to learn R.</strong> Take the course that has <strong>cut data science projects in half</strong> (see <a href="https://youtu.be/yw5CtGTzIw0">this testimonial</a> from a leading data science consultant) and has <strong>progressed data scientists more than anything they have tried before</strong>. Over 10-weeks you learn what it has taken data scientists 10-years to learn:</p>
-
-<ul>
-  <li>Our systematic data science for business framework</li>
-  <li>R and H2O for Machine Learning</li>
-  <li>How to produce Return-On-Investment from data science</li>
-  <li>And much more.</li>
-</ul>
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a>
-</p>
-
-
-<br>
-<hr>
-<br>
--->
-
 In this article, we'll show a __quick machine learning (ML) tutorial that integrates both R and Python, showcasing the strengths of the two dominant programming languages__. But, before we get into the ML tutorial, let's examine the strengths of each language.
 
 
@@ -179,29 +132,10 @@ We can make a slight modification to the [_R and Python Strengths_](#strengths) 
 
 <p class="date text-center"><strong>Data Science Workflow Integrating R + Python</strong></p>
 
-<!-- <p class="text-center" style="font-size:30px;">Can we leverage the strengths of the two languages?</p> -->
-
 Now that we have identified the tools we want to use, let's go through a short tutorial that brings this idea of __language harmony__ together.
 
 
-<!-- CTA Small -->
-<!--
-<br>
-<hr>
 
-<h2 class="text-center">Learn Data Science For Business</h2>
-
-[Business Science University](https://university.business-science.io/) is an educational platform that teaches how to apply data science to business. Our current offering includes of a fully integrated, project-based, 3-course `R-Track` designed to take you from ___data science foundations___ to ___machine learning-powered production web apps___. [See our Curriculum below](#curriculum).
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/"><strong>Join Business Science University Today</strong></a>
-</p>
-
-<hr>
-<br>
--->
-
-<!-- End CTA -->
 
 ## Part 2: R + Python, Integrated Machine Learning Tutorial {#part2}
 
