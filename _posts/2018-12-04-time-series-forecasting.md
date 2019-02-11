@@ -532,36 +532,6 @@ Regarding the last entry in Table 3; this is a simple ensemble of the three diff
 
 ![plot of chunk Plot Ensemble results](/figure/source/2018-12-04-time-series-forecasting/Plot Ensemble results-1.png)
 
-<!--
-<br>
-<hr>
-
-<h2>Learn a Proven Process for Applying Machine Learning in Business</h2>
-
-<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-<img src="/img/course_logo_full_DS4B_201_R.png" class="img-rounded pull-right" alt="Data Science For Business With R Course" style="width:30%;margin-left:20px;" />
-</a></p>
-
-<p class="text-center" style="font-size:30px">Available Now!</p>
-
-<p>Take the course that has <strong>cut data science projects in half</strong> (see <a href="https://youtu.be/yw5CtGTzIw0">this testimonial</a> from a leading data science consultant) and has <strong>progressed data scientists like Blaine more than anything they have tried before</strong>. Over 10-weeks you learn what it has taken data scientists 10-years to learn:</p>
-
-<ul>
-  <li>Our systematic data science for business framework, the BSPF</li>
-  <li>R and H2O for Machine Learning</li>
-  <li>How to produce Return-On-Investment from data science</li>
-  <li>And much more.</li>
-</ul>
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a>
-</p>
-
-
-<br>
-<hr>
-<br>
--->
 
 ## 6. Conclusions and Further Work {#conclusion}
 
