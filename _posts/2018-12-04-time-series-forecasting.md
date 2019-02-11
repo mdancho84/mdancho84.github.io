@@ -88,54 +88,7 @@ Business Science Problem Framework (BSPF)
 </a>
 </p>
 
-<!-- CTA Small -->
-<!--
-<br>
-<hr>
 
-<h2 class="text-center">Learn the Business Science Problem Framework</h2>
-
-We teach the BSPF and H2O Machine Learning as part of [Data Science for Business, DS4B 201-R](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15), a 10-Week Course that teaches how to apply machine learning to business.
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Learn the BSPF Framework + H2O Machine Learning Today</strong></a>
-</p>
-
-<hr>
-<br>
--->
-
-<!-- End CTA -->
-
-<br>
-<hr>
-
-<h2>Take the Business ML Course that has Helped Data Scientists like Blaine</h2>
-
-<p><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-<img src="/img/course_logo_full_DS4B_201_R.png" class="img-rounded pull-right" alt="Data Science For Business With R Course" style="width:30%;margin-left:20px;" />
-</a></p>
-
-<p class="text-center" style="font-size:30px">Available Now!</p>
-
-<p>Take the course that has <strong>cut data science projects in half</strong> (see <a href="https://youtu.be/yw5CtGTzIw0">this testimonial</a> from a leading data science consultant) and has <strong>progressed data scientists like Blaine more than anything they have tried before</strong>. Over 10-weeks you learn what it has taken data scientists 10-years to learn:</p>
-
-<ul>
-  <li>Our systematic data science for business framework, the BSPF</li>
-  <li>R and H2O for Machine Learning</li>
-  <li>How to produce Return-On-Investment from data science</li>
-  <li>And much more.</li>
-</ul>
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a>
-</p>
-
-
-<br>
-<hr>
-<br> 
--->
 
 
 ## 3. Business Understanding {#business-understanding}
