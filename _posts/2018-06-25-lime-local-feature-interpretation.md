@@ -38,6 +38,7 @@ __Awesome Data Science Tutorials with LIME for black-box model explanation in bu
 * __Sales Product Backorders__: [Sales Analytics: How To Use Machine Learning To Predict And Optimize Product Backorders](http://www.business-science.io/business/2017/10/16/sales_backorder_prediction.html)
 
 <!-- CTA Small -->
+<!--
 <br>
 <hr>
 
@@ -51,6 +52,7 @@ __Awesome Data Science Tutorials with LIME for black-box model explanation in bu
 
 <hr>
 <br>
+-->
 
 <!-- End CTA -->
 

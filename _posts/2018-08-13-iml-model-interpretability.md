@@ -42,6 +42,7 @@ __Awesome Data Science Tutorials with LIME for black-box model explanation in bu
 
 
 <!-- CTA Small -->
+<!--
 <br>
 <hr>
 
@@ -55,6 +56,8 @@ __Awesome Data Science Tutorials with LIME for black-box model explanation in bu
 
 <hr>
 <br>
+
+-->
 
 <!-- End CTA -->
 

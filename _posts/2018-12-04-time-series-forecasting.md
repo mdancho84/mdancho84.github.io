@@ -89,6 +89,7 @@ Business Science Problem Framework (BSPF)
 </p>
 
 <!-- CTA Small -->
+<!--
 <br>
 <hr>
 
@@ -102,9 +103,10 @@ We teach the BSPF and H2O Machine Learning as part of [Data Science for Business
 
 <hr>
 <br>
+-->
+
 <!-- End CTA -->
 
-<!--
 <br>
 <hr>
 

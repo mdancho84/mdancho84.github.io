@@ -60,6 +60,7 @@ We'll cover the following topics on `DALEX` in this article:
 7. [Local interpretation](#local): explanations for a single prediction.
 
 <!-- CTA Small -->
+<!--
 <br>
 <hr>
 
@@ -73,7 +74,7 @@ We'll cover the following topics on `DALEX` in this article:
 
 <hr>
 <br>
-
+-->
 <!-- End CTA -->
 
 

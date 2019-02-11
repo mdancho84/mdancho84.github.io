@@ -54,6 +54,7 @@ The ML Tutorial is particularly powerful showcasing the interplay between Python
 
 
 <!-- CTA Small -->
+<!--
 <br>
 <hr>
 
@@ -67,7 +68,7 @@ The ML Tutorial is particularly powerful showcasing the interplay between Python
 
 <hr>
 <br>
-
+-->
 <!-- End CTA -->
 
 <!--
@@ -184,6 +185,7 @@ Now that we have identified the tools we want to use, let's go through a short t
 
 
 <!-- CTA Small -->
+<!--
 <br>
 <hr>
 
@@ -197,6 +199,7 @@ Now that we have identified the tools we want to use, let's go through a short t
 
 <hr>
 <br>
+-->
 
 <!-- End CTA -->
 

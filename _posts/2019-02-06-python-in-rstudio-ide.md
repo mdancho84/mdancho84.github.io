@@ -48,6 +48,7 @@ Here's what we liked about the new RStudio IDE `Python` Integration:
 <p class="date text-center">Summary of RStudio IDE Python Integration</p>
 
 <!-- CTA Small -->
+<!--
 <br>
 <hr>
 
@@ -61,6 +62,7 @@ Here's what we liked about the new RStudio IDE `Python` Integration:
 
 <hr>
 <br>
+-->
 
 <!-- End CTA -->
 
