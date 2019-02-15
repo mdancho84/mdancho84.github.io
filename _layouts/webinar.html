@@ -1,0 +1,170 @@
+---
+layout: default
+title: Webinar
+---
+
+<!-- Blog Head -->
+<header id="post">
+	<section class="info" id="blog" style="padding-bottom: 40px;">
+		<div class= "container">
+			<div class="row">
+			    <!-- Blog Title -->
+			  	<div class="col-sm-9 col-xs-12 text-center">
+			  		<div class="text-center">
+					    <h1 style="margin-top: 20px !important;">{{ page.title }}</h1>
+					    <p><em>Written {% if page.author %} by {{ page.author }} {% endif %} on {{ page.date | date: "%B %e, %Y" }}</em></p>
+					    <!-- <p>Written on {{ page.date | date: "%B %e, %Y" }}</p> -->
+					    <p>{% include post-categories.html %}</p>
+					    <p>{% include post-tags.html %}</p>
+
+					    <ul class="list-inline">
+					    	<!-- Facebook -->
+                            <li>
+                                <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="box_count" data-size="small" data-mobile-iframe="true" style="bottom: 5px;"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
+                            </li>
+                            <!-- LinkedIn -->
+                            <li>
+                                <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+                                <script type="IN/Share" data-counter="top"></script>
+                            </li>
+                            <!-- Google+ -->
+                            <li>
+                                <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
+                            </li>
+                    		<!-- Twitter -->
+                            <li>
+                                <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+                            </li>
+                        </ul>
+					</div>
+					<hr style="border-color:#FFFFFF;" />
+					<br />
+			  	</div>
+			  	
+			  	<!-- Business Science University -->
+			  	<div class="col-sm-3 col-xs-12">
+					<div class="text-center thumbnail">
+                        <div class="create-account-block ">
+                            <h4 class="text-primary">Learn Data Science</h4>
+                            <p class="text-primary" style="font-size:16px">Join hundreds of other data scientists</p>
+                            <a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1" class="btn btn-lg btn-info">Create Free Account</a>
+                        </div>
+                        <br/>
+                        <img class="img-responsive center-block" src="/img/homepage/r_python_spark.png" width="80%" style="max-width:250px;">
+                  </div>
+                </div>
+				<!-- End Business Science University -->
+			  	</div>
+			</div>
+	</section>
+</header>
+
+
+<!-- Blog Body -->
+<section id="blog">
+
+  <!-- Main Body -->
+  <div class="container" id="blog_content">
+    <div class="row">
+
+    	<!-- Main Content -->
+    	<div class="col-md-9 col-md-offset-0" role="main">
+
+	  		<p><img class="shadow" src="/assets/{{page.image}}" style="margin-top: 0px;"></p>
+	  		<hr class="margin-bottom-40">
+            {{ content }}
+            
+            <!-- MARKETING -->
+            {% include blog_1_curriculum.html %}
+            {% include blog_1_social.html %}
+
+        </div>
+        
+	    <!-- Sidebar -->
+	    <div class="col-md-3 well well-lg bs-component hidden-print hidden-sm hidden-xs" role="complimentary">
+	    	{% include sidebar.html %}
+        </div>
+        
+    </div>
+  </div>
+  
+  
+  <div class="container">
+  	<!-- Assistance -->
+	<div class="row">
+	  <div class="col-sm-12 col-md-7 col-sm-offset-0 col-md-offset-1 text-center" style="margin-top: 40px;">
+	      <p><em>Start learning today! <a href="https://university.business-science.io/" style="color: #18BC9C;">Business Science University</a></em>
+	      </p>
+	  </div>
+	</div> <!-- End Assistance -->
+  </div>
+
+    <br>
+  <!-- Interested in Business Science? Subscribe! -->
+  <div class="container">
+      <div class="col-md-3 col-md-offset-3">
+    
+  	  <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+            	#mc_embed_signup{ width:100%;}
+            	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+            	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+            <form action="https://business-science.us17.list-manage.com/subscribe/post?u=cc36813ecec32f8e7b5088961&amp;id=a4e5b7c52f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" style="border:1px solid #ccc;padding:10px;text-align:center;" novalidate>
+                <div class = "row">
+                    <div id="mc_embed_signup_scroll">
+                        
+                        <div class="col-md-12">
+                            <p style="color: #2c3e50;">Interested in Business Science? Subscribe.</p>
+                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" style="width:100%; color: #2c3e50; text-align:center;" placeholder="email address" required>
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cc36813ecec32f8e7b5088961_a4e5b7c52f" tabindex="-1" value=""></div>
+                        </div>
+                    
+                        <div class="col-sm-12 col-md-12">
+                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-sm" style="margin-bottom: 8px;">
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
+            </div>
+        </div>
+  </div>
+
+  
+  <!-- Left / Right Nav  -->
+  <div class="container">
+  	<div class="col-md-9 col-md-offset-0">
+		<div class="PageNavigation">
+		  {% if page.previous.url %}
+		    <a class="prev" href="{{page.previous.url}}">
+		    	<i class="fa fa-arrow-circle-left"></i>
+		    	{{page.previous.title}}
+		    </a>
+		  {% endif %}
+		  {% if page.next.url %}
+		    <a class="next pull-right" href="{{page.next.url}}">
+		    	{{page.next.title}}
+				<i class="fa fa-arrow-circle-right"></i>
+		    </a>
+		  {% endif %}
+		</div>
+	</div>
+  </div>
+</section>
+
+<!-- Disqus -->
+<div class="container">
+	<div class="col-md-9 col-md-offset-0">
+	{% include disqus.html disqus_identifier=page.disqus_identifier %}
+	</div>
+</div>
+
+
+<!-- htmlwidgets dependencies -->
+<!-- {% if page.htmlwidgets %}
+    {% assign dep_file = page.url | split: '/' | last | prepend : 'htmlwidgets/' %}
+    {% include {{dep_file}} %}
+  {% endif %} -->
