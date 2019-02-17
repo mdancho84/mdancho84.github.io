@@ -5,7 +5,7 @@ excerpt: "R and Python - learn how to integrate both R and Python into your data
 author: "Matt Dancho"
 date:   2018-10-08 5:44:01
 categories: [Business]
-tags: [R-Project, R-Bloggers, R, Python, Tidyverse, RMarkdown, Shiny, Scikit-Learn, TensorFlow, reticulate, radix]
+tags: [R-Project, R-Bloggers, R, Python, Tidyverse, RMarkdown, Shiny, Scikit-Learn, TensorFlow, reticulate, radix, Learn-R, Learn-Python]
 image: 2018-10-08-python-and-r/python_r_strengths.png
 image_preview: 2018-10-08-python-and-r/python_r_strengths_preview.png
 canonical: https://www.business-science.io/business/2018/10/08/python-and-r.html

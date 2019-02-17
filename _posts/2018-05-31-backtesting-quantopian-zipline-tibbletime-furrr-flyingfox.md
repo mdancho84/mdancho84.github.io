@@ -3,7 +3,7 @@ layout: post
 title: "Algorithmic Trading: Using Quantopian's Zipline Python Library In R And Backtest Optimizations By Grid Search And Parallel Processing"
 author: "Davis Vaughan and Matt Dancho"
 categories: [Business-Science-Labs]
-tags: [R-Project, R, Financial Analysis, Stock Analysis, Trading Algorithms, Backtesting, Quantopian, Zipline, Parallel Processing, flyingfox, furrr, tibbletime]
+tags: [R-Project, R, Financial Analysis, Stock Analysis, Trading Algorithms, Backtesting, Quantopian, Zipline, Parallel Processing, flyingfox, furrr, tibbletime, Learn-Finance, Learn-Timeseries]
 image: 2018-05-31-flyingfox/portfolio_value_grid.png
 ---
 

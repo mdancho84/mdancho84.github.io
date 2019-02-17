@@ -5,7 +5,7 @@ excerpt: "Predict employee churn with H2O machine learning and LIME. Use LIME (l
 author: "Brad Boehmke"
 date:   2018-06-25 04:45:01
 categories: [Business]
-tags: [R-Project, R, R-Bloggers, DS4B, LIME, Churn, Human Resources, Employee Turnover, Employee Attrition, h2o, caret, lime, vip, pdp]
+tags: [R-Project, R, R-Bloggers, DS4B, LIME, Churn, Human Resources, Employee Turnover, Employee Attrition, h2o, caret, lime, vip, pdp, Learn-Machine-Learning]
 image: 2018-06-25-lime/employee-attrition-target-employees.png
 ---
 

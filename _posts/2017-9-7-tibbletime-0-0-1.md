@@ -3,7 +3,7 @@ layout: post
 title:  "It's tibbletime: Time-Aware Tibbles"
 author: "Davis Vaughan"
 categories: [Code-Tools]
-tags: [R-Project, R, tibbletime]
+tags: [R-Project, R, tibbletime, Learn-R]
 image: tibbletime-0-0-1.png
 ---
 

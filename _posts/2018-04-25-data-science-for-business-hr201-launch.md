@@ -3,7 +3,7 @@ layout: post
 title: "Data Science For Business: Course Launch In 5 Days!!!"
 author: "Matt Dancho"
 categories: [University]
-tags: [R-Project, R, People Analytics, HR Analytics, h2o, lime, GGally, skimr, recipes]
+tags: [R-Project, R, People Analytics, HR Analytics, h2o, lime, GGally, skimr, recipes, Learn-R, Learn-Machine-Learning]
 image: BSU-hr201-launch/Business Science Problem Framework.png
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Russell 2000 Quantitative Stock Analysis in R: Six Stocks with Amazing, Consistent Growth"
 categories: [Investments]
-tags: [R-Project, R, R-Bloggers, Stock Analysis, Trading Strategy, Web Scraping, rvest, quantmod, tidyverse, purrr, plotly]
+tags: [R-Project, R, R-Bloggers, Stock Analysis, Trading Strategy, Web Scraping, rvest, quantmod, tidyverse, purrr, plotly, Learn-Finance]
 image: russell2000.PNG
 ---
 

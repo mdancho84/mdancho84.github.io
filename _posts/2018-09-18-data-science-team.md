@@ -4,7 +4,7 @@ title: "Case Study: How To Build A High Performance Data Science Team"
 author: "Matt Dancho and Rafael Nicolas Fermin Cota"
 date:   2018-09-18 8:04:01
 categories: [Business]
-tags: [R-Project, R, Python, Data Science Team, Case Study, Amadeus]
+tags: [R-Project, R, Python, Data Science Team, Case Study, Amadeus, Learn-Business]
 image: 2018-09-18-data-science-team/amadeus_team.png
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "tidyquant 0.2.0: Added Functionality for Financial Engineers and Business Analysts"
 categories: [Code-Tools]
-tags: [R-Project, R, Stock Analysis, Trading Strategy, tidyverse, tidyquant, quantmod, xts, TTR, zoo, dplyr, tidyr, ggplot2]
+tags: [R-Project, R, Stock Analysis, Trading Strategy, tidyverse, tidyquant, quantmod, xts, TTR, zoo, dplyr, tidyr, ggplot2, Learn-R, Learn-Finance]
 image: tidyquant-logo.png
 ---
 

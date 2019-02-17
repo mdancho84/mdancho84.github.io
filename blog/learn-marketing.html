@@ -1,0 +1,61 @@
+---
+layout: default
+title: Data Science in Marketing
+---
+
+<!-- Body -->
+<section id="blog">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-1">
+          </div>
+          <!-- Main -->
+          <div class="col-md-10" role="main">
+            <ul style="list-style-position: inside">
+               
+               {% for post in site.tags.Learn-Machine-Learning %}
+                <article>
+                    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+                    <div class="date">
+                      Written {% if post.author %} by {{ post.author }} {% endif %} on {{ post.date | date: "%B %e, %Y" }}
+                    </div>
+
+                    <div class="row">
+                      <div class="bloglist-thumbnail">
+                        <div class="col-xs-8 col-md-6" style="padding-top:15px;">
+                          <a href="{{ site.baseurl }}{{ post.url }}" class="thumbnail" style="margin-bottom:0px">
+                            {% if post.image %}
+                              <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="...">
+                            {% else %}
+                              <img src="{{ site.baseurl }}/img/header-sm-crpd.jpg" alt="...">
+                            {% endif %}
+                          </a>
+                        </div>
+                      </div>
+                      <div class="entry" style="margin-left: 15px;">
+                        <p>{{ post.excerpt }}</p>
+                      </div>
+                    </div>
+
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
+                </article>
+                {% endfor %}
+                
+            </ul>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Pager Buttons -->
+<nav>
+  <ul class="pager" id="pager-blog">
+    {% if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path }}"><i class="fa fa-arrow-circle-left"></i> Newer</a></li>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path }}">Older <i class="fa fa-arrow-circle-right"></i></a></li>
+    {% endif %}
+  </ul>
+</nav>

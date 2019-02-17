@@ -5,7 +5,7 @@ excerpt: "Get the new R Cheat Sheet that makes learning data science with R quic
 author: "Matt Dancho"
 date:   2018-11-04 9:30:01
 categories: [Learning-R]
-tags: [R-Project, R, Cheatsheet, Tidyverse, RMarkdown, Shiny, dplyr, ggplot2]
+tags: [R-Project, R, Cheatsheet, Tidyverse, RMarkdown, Shiny, dplyr, ggplot2, Learn-R]
 image: 2018-11-04-data-science-with-R-cheatsheet/Data_Science_With_R_Workflow.png
 image_preview: 2018-11-04-data-science-with-R-cheatsheet/Data_Science_With_R_Workflow_preview.jpg
 canonical: https://www.business-science.io/learning-r/2018/11/04/data-science-r-cheatsheet.html

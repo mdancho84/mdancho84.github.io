@@ -2,7 +2,7 @@
 layout: post
 title:  "tidyquant: Bringing Quantitative Financial Analysis to the tidyverse"
 categories: [Code-Tools]
-tags: [R-Project, R, R-Bloggers, Stock Analysis, Trading Strategy, tidyverse, tidyquant, quantmod, xts, TTR, dplyr, tidyr, ggplot2]
+tags: [R-Project, R, R-Bloggers, Stock Analysis, Trading Strategy, tidyverse, tidyquant, quantmod, xts, TTR, dplyr, tidyr, ggplot2, Learn-R, Learn-Finance]
 image: tidyquant-intro.png
 ---
 

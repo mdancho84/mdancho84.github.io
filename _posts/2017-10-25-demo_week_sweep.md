@@ -3,7 +3,7 @@ layout: post
 title:  "Demo Week: Tidy Forecasting with sweep"
 author: "Matt Dancho"
 categories: [Code-Tools]
-tags: [R-Project, R, sweep]
+tags: [R-Project, R, sweep, Learn-R]
 image: demo-week-sweep.png
 ---
 

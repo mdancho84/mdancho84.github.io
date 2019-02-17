@@ -5,7 +5,7 @@ excerpt: "Real world data science - Learn how to compete in a Kaggle Competition
 author: "Matt Dancho"
 date:   2018-08-07 08:15:01
 categories: [Business]
-tags: [R-Project, R, Kaggle Competitions, H2O, DS4B, h2o, recipes, tidyverse, skimr]
+tags: [R-Project, R, Kaggle Competitions, H2O, DS4B, h2o, recipes, tidyverse, skimr, Learn-R, Learn-Machine-Learning]
 image: 2018-08-07-kaggle-credit-risk/h2o_strategy.png
 ---
 

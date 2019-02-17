@@ -5,7 +5,7 @@ excerpt: "In this marketing analysis, we used promotion campaign data from a fas
 author: "David Curry"
 date: 2018-12-11 6:00:00 -0500
 categories: [Business]
-tags: [R-Project, R, Data Science, DS4B 201-R, Business Understanding]
+tags: [R-Project, R, Data Science, DS4B 201-R, Business Understanding, Learn Marketing]
 image: 2018-12-11-marketing-analysis-promotion-campaign/fast-food-promotion-campaign.jpg
 image_preview: 2018-12-11-marketing-analysis-promotion-campaign/fast-food-promotion-campaign_preview.jpg
 canonical: https://sureoptimize.com/marketing-analytics-fast-food-promotion-campaign

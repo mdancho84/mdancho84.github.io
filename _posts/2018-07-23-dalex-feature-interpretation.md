@@ -5,7 +5,7 @@ excerpt: "Interpret machine learning algorithms with R to explain why one predic
 author: "Brad Boehmke"
 date:   2018-07-23 04:45:01
 categories: [Business]
-tags: [R-Project, R-Bloggers, R, H2O, DS4B, DALEX, Churn, Human Resources, Employee Turnover, Employee Attrition, h2o, dalex]
+tags: [R-Project, R-Bloggers, R, H2O, DS4B, DALEX, Churn, Human Resources, Employee Turnover, Employee Attrition, h2o, dalex, Learn-Machine-Learning, Learn-R]
 image: 2018-07-23-dalex/architecture.png
 ---
 

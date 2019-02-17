@@ -4,7 +4,7 @@ title: "Anomaly Detection Using Tidy and Anomalize"
 excerpt: "Anomaly detection algorithm using Anomolize: an open-source tidy anomaly detection algorithm that’s time-based."
 author: "Matt Dancho"
 categories: [Code-Tools]
-tags: [R-Project, R, R-Bloggers, Time Series, tidyverse, anomalize]
+tags: [R-Project, R, R-Bloggers, Time Series, tidyverse, anomalize, Learn-Machine-Learning]
 image: anomalize-intro.png
 ---
 

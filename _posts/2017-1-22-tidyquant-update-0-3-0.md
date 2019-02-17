@@ -2,7 +2,7 @@
 layout: post
 title:  "tidyquant 0.3.0: ggplot2 Enhancements, Real-Time Data, and More"
 categories: [Code-Tools]
-tags: [R-Project, R, Stock Analysis, Trading Strategy, tidyverse, tidyquant, quantmod, xts, TTR, zoo, dplyr, tidyr, ggplot2]
+tags: [R-Project, R, Stock Analysis, Trading Strategy, tidyverse, tidyquant, quantmod, xts, TTR, zoo, dplyr, tidyr, ggplot2, Learn-R, Leanr-Finance]
 image: tidyquant-030.png
 ---
 

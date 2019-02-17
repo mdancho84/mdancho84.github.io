@@ -3,7 +3,7 @@ layout: post
 title:  "Demo Week: Tidy Time Series Analysis with tibbletime"
 author: "Matt Dancho"
 categories: [Code-Tools]
-tags: [R-Project, R, tibbletime]
+tags: [R-Project, R, tibbletime, Learn-R]
 image: demo-week-tibbletime.png
 ---
 

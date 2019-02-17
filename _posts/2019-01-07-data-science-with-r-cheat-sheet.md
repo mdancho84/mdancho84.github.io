@@ -5,7 +5,7 @@ excerpt: "The ultimate R cheat sheet links to the documentation and cheat sheets
 author: "Matt Dancho"
 date: 2019-01-07 5:30:00
 categories: [Learning-R]
-tags: [R-Project, R, Cheatsheet, Tidyverse, RMarkdown, Shiny, dplyr, ggplot2]
+tags: [R-Project, R, Cheatsheet, Tidyverse, RMarkdown, Shiny, dplyr, ggplot2, Learn-R]
 image: 2019-01-07-r-cheat-sheet/r_cheat_sheet_pages.png
 image_preview: 2019-01-07-r-cheat-sheet/r_cheat_sheet_pages.png
 ---

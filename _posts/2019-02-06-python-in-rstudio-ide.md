@@ -5,7 +5,7 @@ date:   2019-02-06 06:37:01
 excerpt: "With the latest integration of Python into the RStudio IDE, RStudio is making the case for a powerful multi-language Data Science IDE."
 author: "Matt Dancho"
 categories: [Code-Tools]
-tags: [R-Bloggers, Python, RStudio, IDE, pandas, numpy, matplotlib, seaborn]
+tags: [R-Bloggers, Python, RStudio, IDE, pandas, numpy, matplotlib, seaborn, Learn-Python]
 image: 2019-02-05-python-rstudio-ide/python_in_rstudio_ide.jpg
 image_preview: 2019-02-05-python-rstudio-ide/python_in_rstudio_ide.jpg
 ---

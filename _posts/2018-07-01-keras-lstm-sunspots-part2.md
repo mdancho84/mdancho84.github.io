@@ -5,7 +5,7 @@ excerpt: "KERAS LSTM deep learning time series analysis. Use the NASA sunspots d
 author: "Sigrid Keydana, Matt Dancho"
 date:   2018-07-01 07:45:01
 categories: [Timeseries-Analysis]
-tags: [R-Project, R, Time Series, Deep Learning, Keras, TensorFlow, Backtesting, tidyverse, tibbletime, timetk, keras, rsample, recipes, yardstick]
+tags: [R-Project, R, Time Series, Deep Learning, Keras, TensorFlow, Backtesting, tidyverse, tibbletime, timetk, keras, rsample, recipes, yardstick, Learn-Machine-Learning, Learn-Timeseries]
 image: 2018-07-01-keras-lstm-sunspots2/backtested_test.png
 image_preview: 2018-07-01-keras-lstm-sunspots2/backtested_test_preview.png
 ---

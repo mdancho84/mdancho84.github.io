@@ -3,7 +3,7 @@ layout: post
 title:  "Customer Segmentation Part 1: K Means Clustering"
 excerpt: "In this machine learning with R tutorial, use k means clustering to segment customers into distinct groups based on purchasing habits."
 categories: [Business]
-tags: [R-Project, R, R-Bloggers, Customer Segmentation, Community Detection, kmeans, silhouette, bikes data set]
+tags: [R-Project, R, R-Bloggers, Customer Segmentation, Community Detection, kmeans, silhouette, bikes data set, Learn-Marketing, Learn-Machine-Learning]
 image: custSegments1.png
 image_preview: custSegments1_preview.png
 ---

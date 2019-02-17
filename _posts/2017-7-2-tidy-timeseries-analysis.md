@@ -3,7 +3,7 @@ layout: post
 title:  "Tidy Time Series Analysis, Part 1"
 author: "Matt Dancho"
 categories: [Timeseries-Analysis]
-tags: [R-Project, R, tidyquant, zoo, xts, cranlogs]
+tags: [R-Project, R, tidyquant, zoo, xts, cranlogs, Learn-Timeseries]
 image: tidy-timeseries-part1.png
 ---
 

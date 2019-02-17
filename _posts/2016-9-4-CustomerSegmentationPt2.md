@@ -2,7 +2,7 @@
 layout: post
 title:  "Customer Segmentation Part 2: PCA for Segment Visualization"
 categories: [Business]
-tags: [R-Project, R, R-Bloggers, Customer Segmentation, Community Detection, PCA, prcomp, bikes data set]
+tags: [R-Project, R, R-Bloggers, Customer Segmentation, Community Detection, PCA, prcomp, bikes data set, Learn-Marketing, Learn-Machine-Learning]
 image: custSegments2.png
 ---
 

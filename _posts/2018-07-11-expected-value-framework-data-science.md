@@ -5,7 +5,7 @@ excerpt: "The Expected Value Framework connects the machine learning model to RO
 author: "Matt Dancho"
 date:   2018-07-11 04:45:01
 categories: [Business]
-tags: [R-Project, R, Expected Value, Employee Turnover, Human Resources, Churn, People Analytics, HR Analytics]
+tags: [R-Project, R, Expected Value, Employee Turnover, Human Resources, Churn, People Analytics, HR Analytics, Learn-Business]
 image: 2018-07-11-expected-value/threshold_optimization.png
 ---
 

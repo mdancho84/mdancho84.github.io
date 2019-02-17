@@ -3,7 +3,7 @@ layout: post
 title: "Data Science For Business: Course Now Open!"
 author: "Matt Dancho"
 categories: [University]
-tags: [R-Project, R, People Analytics, HR Analytics, HR 201, h2o, lime, GGally, skimr, recipes, tidyverse]
+tags: [R-Project, R, People Analytics, HR Analytics, HR 201, h2o, lime, GGally, skimr, recipes, tidyverse, Learn-R, Learn-Machine-Learning]
 image: BSU-hr201-launch/course_launch.png
 ---
 

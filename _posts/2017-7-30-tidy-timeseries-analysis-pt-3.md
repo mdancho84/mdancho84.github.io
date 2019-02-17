@@ -3,7 +3,7 @@ layout: post
 title:  "Tidy Time Series Analysis, Part 3: The Rolling Correlation"
 author: "Matt Dancho"
 categories: [Timeseries-Analysis]
-tags: [R-Project, R, tidyquant, TTR, cranlogs, corrr, cowplot]
+tags: [R-Project, R, tidyquant, TTR, cranlogs, corrr, cowplot, Learn-Timeseries]
 image: tidy-timeseries-part3.png
 ---
 

@@ -4,7 +4,7 @@ title: "Agile Framework For Creating An ROI-Driven Data Science Practice"
 author: "Favio Vazquez"
 date:   2018-08-21 5:47:01
 categories: [Business]
-tags: [R-Project, R, BSPF, Data Science, AI, Machine Learning, Agile Framework, Project Management, CRISP-DM, DMAIC]
+tags: [R-Project, R, BSPF, Data Science, AI, Machine Learning, Agile Framework, Project Management, CRISP-DM, DMAIC, Learn-Business]
 image: bspf_computer.png
 ---
 

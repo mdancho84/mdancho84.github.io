@@ -3,7 +3,7 @@ layout: post
 title: "How To Learn R, Part 1: Learn From A Master Data Scientist's Code"
 author: "Matt Dancho"
 categories: [Learning-R]
-tags: [R-Project, R-Bloggers, R, Learning Data Science, Text Analysis, Web Scraping, rvest, fs, tidyverse]
+tags: [R-Project, R-Bloggers, R, Learning Data Science, Text Analysis, Web Scraping, rvest, fs, tidyverse, Learn-R]
 image: 2018-03-03_how_to_learn_r/ve_functions_top_20.png
 canonical: https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html
 ---

@@ -3,7 +3,7 @@ layout: post
 title: "Marketing Strategy: Why MBAs Can Benefit from Learning Analytics"
 author: Matt Dancho
 category: [Business]
-tags: [MBA, CRM, Salesforce, Sales Data Scientist, BI, Marketing, Strategy]
+tags: [MBA, CRM, Salesforce, Sales Data Scientist, BI, Marketing, Strategy, Learn-Marketing]
 image: digital_woman.jpg
 ---
 

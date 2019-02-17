@@ -4,7 +4,7 @@ title: "New Course Content: DS4B 201 Chapter 7, The Expected Value Framework For
 author: "Matt Dancho"
 date:   2018-07-16 15:45:01
 categories: [University]
-tags: [R-Project, R, Expected Value, Employee Turnover, Human Resources, Churn, People Analytics, HR Analytics]
+tags: [R-Project, R, Expected Value, Employee Turnover, Human Resources, Churn, People Analytics, HR Analytics, Learn-R, Learn-Machine-Learning]
 image: 2018-07-16-ch7-ds4b-201/ev_churn.png
 ---
 

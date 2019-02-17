@@ -3,7 +3,7 @@ layout: post
 title:  "LIVE DataTalk on HR Analytics Tonight: Using Machine Learning to Predict Employee Turnover"
 author: "Matt Dancho"
 categories: [Presentations]
-tags: [R-Project, R, h2o, lime, HR Analytics, Employee Turnover]
+tags: [R-Project, R, h2o, lime, HR Analytics, Employee Turnover, Learn-R, Learn-Machine-Learning]
 image: hr_employee_attrition.png
 ---
 

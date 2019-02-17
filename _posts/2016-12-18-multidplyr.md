@@ -3,7 +3,7 @@ layout: post
 title:  "Speed Up Your Code: Parallel Processing with multidplyr"
 excerpt: "Use parallel processing to speed up your R code, using tidyverse multidplyr."
 categories: [Code-Tools]
-tags: [R-Project, R, R-Bloggers, Parallel Processing, Multiple Cores, tidyverse, multidplyr, dplyr, parallel]
+tags: [R-Project, R, R-Bloggers, Parallel Processing, Multiple Cores, tidyverse, multidplyr, dplyr, parallel, Learn-R]
 image: multidplyr.png
 ---
 
