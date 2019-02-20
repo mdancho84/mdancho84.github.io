@@ -129,6 +129,10 @@ Learning Lab - Excel to R - Marketing Case Study </a>
 
 - [References](#references)
 
+- [Announcements](#announcements)
+
+- [Curriculum](#curriculum)
+
 
 
 
