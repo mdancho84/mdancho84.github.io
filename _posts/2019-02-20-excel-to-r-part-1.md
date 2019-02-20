@@ -32,7 +32,7 @@ In a world where the data being generated was far exceeding my ability to analyz
 
 I learn best by following ___real-world applications___, so this tutorial will follow a __Marketing Case Study__ first showing the errors, limitations, and inefficiencies of `Excel` (Part 1) and next how to perform the marketing analysis in `R` (Parts 2 and 3). 
 
-If you learn best from real-world applications, then don't miss the [Business Science University Curriculum below](#curriculum) - We have a fully integrated `3-Course R-Track` that will help you ___advance your career___. All of the tools in this series are taught in the R-Track plus advanced Machine Learning and `Shiny` Web Apps. 
+If you learn best from real-world applications, then don't miss the [Business Science University Curriculum below](#curriculum) - We have a fully integrated `3-Course R-Track` that will help you ___advance your career___. All of the tools in this article series are taught in the R-Track plus advanced Machine Learning and `Shiny` Web Apps using real-world applications. 
 
 <p class="well"> 
 Read this article series, to see how you can gain a <strong>10X productivity boost</strong> by switching from Excel to R!
