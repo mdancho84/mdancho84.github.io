@@ -535,7 +535,9 @@ The real benefits will become much clearer once we get to the ___Correlation Fun
 
 We'll cover the ___Correlation Funnel___ in the next article, __"Excel to R for Marketing, Part 2 - The Correlation Funnel"__ (Coming Soon).
 
-Finally, if you want to learn R, be sure to check out our [Business Science University Curriculum below](#curriculum). We have an integrated `3-Course R-Track` that will teach you everything you need to be effective as a data scientist. 
+__Learning R is not that difficult:__
+
+Finally, if you want to learn R, be sure to check out our [Business Science University Curriculum below](#curriculum). We have an integrated `3-Course R-Track` that will teach you everything you need to be effective as a data scientist. And, you can do it - going from no prior knowledge to advanced in weeks. 
 
 
 ## References {#references}
