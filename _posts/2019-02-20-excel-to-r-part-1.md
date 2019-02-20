@@ -34,6 +34,7 @@ I learn best by following ___real-world applications___, so this tutorial will f
 
 If you learn best from real-world applications, then don't miss the [Business Science University Curriculum below](#curriculum) - We have a fully integrated `3-Course R-Track` that will help you ___advance your career___. All of the tools in this article series are taught in the R-Track plus advanced Machine Learning and `Shiny` Web Apps using real-world applications. 
 
+
 <p class="well"> 
 Read this article series, to see how you can gain a <strong>10X productivity boost</strong> by switching from Excel to R!
 </p>
