@@ -23,6 +23,16 @@ This post is the third and final part in the customer segmentation analysis. The
 
 <span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
 
+## Customer Segmentation Cheat Sheet
+
+We have a cheat sheet that walks the user through the workflow for segmenting customers. You can download it here.
+
+<p class="text-center" style="font-size:30px;">
+<a href="/segmentation-cheatsheet.html">Download the Segmentation and Clustering Cheat Sheet</a></p>
+
+<iframe width="100%" height="450px" src="https://www.youtube.com/embed/m20ZKz57c_8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p class="text-center date">10-Minute Overview of Segmentation and Clustering taught in our <a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r">Business Analysis with R (DS4B 101-R) Course</a></p>
+
 ## Table of Contents
 
   * [Why Network Visualization?](#network-vis)
