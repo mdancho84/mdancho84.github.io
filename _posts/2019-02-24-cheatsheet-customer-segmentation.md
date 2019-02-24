@@ -30,7 +30,7 @@ Here's what this article has for you:
 
 As a course instructor and creator, there is nothing more valuable than constructive feedback from our students. This helps big time. __Here's a prime example of what one student said, and how it improved the course.__
 
-Last, week I released the first part of the Modeling section in our [__Business Analysis with R course__](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15), which covers __Customer Segmentation with K-Means & UMAP__ - 2 important techniques for data mining based on customer similarity. It's a nerve-wracking experience launching new material, and the initial feedback is critical to understanding if I hit the mark. 
+Last, week I released the first part of the Modeling section in our [__Business Analysis with R course__](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15), which covers __Customer Segmentation with K-Means and UMAP__ - 2 important techniques for data mining based on customer similarity. It's a nerve-wracking experience launching new material, and the initial feedback is critical to understanding if I hit the mark. 
  
 ### "This Week Just Felt Different"
 
@@ -48,7 +48,7 @@ The student needed me to make the process repeatable. He said, _"I valued the co
 
 Now that I understood the problem, I needed to figure out a solution with his input. What we decided to do was:
 
-1. __Create a new Cheat Sheet (Segmentation & Clustering Workflow)__ that covered the high-level concepts, summarized popular algorithms (K-Means, Hierarchical Clustering, PCA, tSNE, UMAP), code examples, and most importantly a 2nd page that covers the step-by-step workflow for applying clustering to segment customers/companies.
+1. __Create a new Cheat Sheet (Segmentation and Clustering Workflow)__ that covered the high-level concepts, summarized popular algorithms (K-Means, Hierarchical Clustering, PCA, tSNE, UMAP), code examples, and most importantly a 2nd page that covers the step-by-step workflow for applying clustering to segment customers/companies.
 
 2. __Create a new Challenge (Company Segmentation using Stock Prices)__ that reinforced the learning where the student applies the material. We settled on an exciting Company Segmentation Project using Stock Prices to cluster similar companies based on their stock price movement. 
 
@@ -77,7 +77,7 @@ And here's what he is referring to - Page 2 that summarizes the workflow.
 
 We made a major upgrade to the Business Analysis with `R` course - New in __Modeling: Week 6__:
 
-1. __We added the new cheat sheet__ with a 10-Minute Overview of Clustering & Dimensionality Reduction techniques
+1. __We added the new cheat sheet__ with a 10-Minute Overview of Clustering and Dimensionality Reduction techniques
 
 2. We integrated the new cheat sheet into all of the course videos
 
@@ -126,7 +126,7 @@ We made a major upgrade to the Business Analysis with `R` course - New in __Mode
 
 We didn't stop at upgrading the course - __We open-sourced the new Cheat Sheet so everyone can benefit!__
 
-- [__New Cheat Sheet - Segmentation & Clustering__](/segmentation-cheatsheet.html)
+- [__New Cheat Sheet - Segmentation and Clustering__](/segmentation-cheatsheet.html)
 - [__10-Minute Overview Video__](https://youtu.be/m20ZKz57c_8)
 
 >__My goal is to help everyone learn - you get free resources!__
