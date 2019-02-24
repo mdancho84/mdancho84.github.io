@@ -14,6 +14,8 @@ __Quite often our student feedback leads to BIG IMPROVEMENTS in our courses and 
 
 <img src="/assets/2019-02-25-cheatsheet-customer-segmentation/segmentation_clustering_page1.jpg" class="img-rounded pull-right" alt="Customer Segmentation Cheat Sheet - Page 1" style="width:50%;margin-left:20px; margin-top:0px;"/>
 
+<p class="well">Learn how <strong>one student's feedback</strong> led to the creation of a new Cheat Sheet that benefits everyone.</p>
+
 Here's what this article has for you:
 
 
@@ -22,7 +24,7 @@ Here's what this article has for you:
 3. [Free Resources - Download the New Cheat Sheet](#cheatsheet)
 4. [SPECIAL OFFER - 15% OFF until March 1](#offer)
 
-<p class="well">Learn how <strong>one student's feedback</strong> led to the creation of a new Cheat Sheet that benefits everyone.</p>
+
 
 
 
@@ -75,7 +77,7 @@ And here's what he is referring to - Page 2 that summarizes the workflow.
 
 ## Student Feedback led to a Major Upgrade to our Business Analysis with R Course {#course-upgrade} 
 
-We made a major upgrade to the Business Analysis with `R` course - New in __Modeling: Week 6__:
+We made a major upgrade to the [__Business Analysis with `R` course__](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15) - New in __Modeling: Week 6__:
 
 1. __We added the new cheat sheet__ with a 10-Minute Overview of Clustering and Dimensionality Reduction techniques
 
