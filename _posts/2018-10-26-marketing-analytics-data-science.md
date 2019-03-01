@@ -269,7 +269,5 @@ It’s not explicitly mentioned in the article, but <span class="highlight"><str
 Although the exercise uses a large dataset, data science can be used to answer questions with fewer data as well.
 
 <br/>
-David Curry<br/>
-Founder, [Sure Optimize](https://sureoptimize.com) – Marketing Intelligence
-
-
+Author: David Curry<br/>
+Founder, [Sure Optimize](https://sureoptimize.com) – SEO and Marketing Analytics
