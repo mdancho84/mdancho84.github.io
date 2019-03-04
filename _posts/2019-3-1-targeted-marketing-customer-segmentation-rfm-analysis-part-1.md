@@ -25,9 +25,9 @@ canonical: https://sureoptimize.com/targeted-marketing-with-customer-segmentatio
 <br>
 <p>This topic will be a two-part series:<br></p>
 
-<p>Part 1: <br>This article will focus on customer segmentation using <em>Recency</em> for the purpose of keeping customers active in purchasing.</p>
+- __Part 1__: This article will focus on customer segmentation using _Recency_ for the purpose of keeping customers active in purchasing.
 
-<p>Part 2: The next article in the series will focus on customer segmentation <em>Frequency</em> and <em>Monetary Value</em> to personalize marketing by segment and value.</p>
+- __Part 2__: The next article in the series will focus on customer segmentation _Frequency_ and _Monetary Value_ to personalize marketing by segment and value.
 
 
 <h2>Business Objective </h2>
@@ -43,10 +43,46 @@ canonical: https://sureoptimize.com/targeted-marketing-with-customer-segmentatio
 
 <h2>About the Data</h2>
 
+The Data Set comes from the __UCI Machine Learning Repository "Online Retail" Data set__. You can download the [Excel File with transaction data here](https://archive.ics.uci.edu/ml/datasets/online+retail).
+
 <p>Transaction data is needed in order to compute RFM and create the customer segmentations. The required fields are a unique <em>customer ID</em> for each transaction, the <em>total transaction amount,</em> and the <em>date of purchase</em>. &nbsp;<br></p>
 
-<p>The data used in this article is form an eCommerce store with transactions spanning a year. <br></p>
+<p>The data used in this article is from an eCommerce store with transactions spanning one year. <br></p>
 
+## About the Analysis
+
+This analysis includes a [Recency, Frequency, Monetary (RFM) analysis](https://en.wikipedia.org/wiki/RFM_(customer_value)), with the focus of this article (Part 1 in the series) on the Recency analysis. 
+
+<hr>
+### R Programming Language
+
+The RFM analysis was performed using the `R` statistical programming language. We teach data analysis and machine learning with `R` at [Business Science University](https://university.business-science.io/). 
+
+#### Business Analysis with R
+
+We offer a beginner 7-week program that teaches you the __fundamentals of Data Science with 2 key business projects__:
+
+1. __Customer Segmentation (Unsupervised Learning)__ - Use K-Means Clustering & UMAP to segment customers
+2. __Product Price Algorithm (Machine Learning)__ - Use Linear Regression, GLM (Elastic Net), Decision Trees, Random Forest, XGBoost, and Support Vector Machines to develop a pricing model based on product characteristics
+
+<div class="text-center">
+    <a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15" class="btn btn-lg btn-info">
+        <span style="font-size:28px;"><strong>Learn About Our Business Analysis With R Course</strong></span>
+    </a>
+</div>
+
+#### Data Science for Business with R
+
+We offer an advanced 10-Week program that teaches __Automatic Machine Learning__ with `H2O` solving an __end-to-end Churn problem for an organization__. The student learns advanced data manipulation, preprocessing with `recipes`, classification, ROC/AUC, Precision vs Recall, Gain/Lift, local interpretable model explanation (`LIME`), and how to optimize a classification model for return-on-investment.
+
+<div class="text-center">
+    <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15" class="btn btn-lg btn-info">
+        <span style="font-size:28px;"><strong>Learn About Our Data Science For Business Course</strong></span>
+    </a>
+</div>
+
+
+<hr>
 
 <h2>Data Analysis</h2>
 
