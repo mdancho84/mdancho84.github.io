@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AB Testing with Machine Learning - A Step-by-Step Tutorial"
+title: "A/B Testing with Machine Learning - A Step-by-Step Tutorial"
 date:   2019-03-11 11:59:01
 excerpt: "Experience how to implement Machine Learning for A/B Testing step-by-step"
 author: "Matt Dancho"
