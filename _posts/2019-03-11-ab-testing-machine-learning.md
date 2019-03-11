@@ -72,7 +72,9 @@ This is where Machine Learning can help.
 
 Unlike statistical inference, Machine Learning algorithms enable us to model complex systems that include all of the ongoing events, user features, and more. There are a number of algorithms each with strengths and weaknesses. 
 
-An attractive benefit to Machine Learning is that we can combine multiple approaches to gain insights. Rather than discuss in abstract, we can use an example from [Udacity's A/B Testing Course](https://www.udacity.com/course/ab-testing--ud257), but apply the applied Machine Learning techniques from our [Business Analysis with R Course](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15) to gain better insights into the inner-workings of the system rather than simply comparing an experiment and control group in an A/B Test. 
+> An attractive benefit to Machine Learning is that we can combine multiple approaches to gain insights. 
+
+Rather than discuss in abstract, we can use an example from [Udacity's A/B Testing Course](https://www.udacity.com/course/ab-testing--ud257), but apply the applied Machine Learning techniques from our [Business Analysis with R Course](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15) to gain better insights into the inner-workings of the system rather than simply comparing an experiment and control group in an A/B Test. 
 
 # 3.0 A/B Test Using Machine Learning: Step-By-Step Walkthrough 
 
@@ -99,7 +101,7 @@ However, what Udacity wants to avoid is "significantly" reducing the number of s
 
 __Project Goal__
 
-In this analysis, will investigate which features are contributing enrollments and determine if there is an impact on enrollments from the new "Setting Expectations" form. 
+In this analysis, we will investigate which features are contributing enrollments and determine if there is an impact on enrollments from the new "Setting Expectations" form. 
 
 - The users that experience the form will be denoted as "Experiment = 1" 
 - The control group (users that don't see the form) will be denoted as "Experiment = 0". 
@@ -228,9 +230,11 @@ experiment_tbl %>% glimpse()
 
 __Key Points__:
 
-- 37 total observations in the control set
+- 37 total observations in the control set and 37 in the experiment set
 
-- We can see that `Date` is formatted as a character data type. This will be important when we get to data quality. 
+- Data is time-based and aggregated by day - This isn't the best way to understand complex user behavior, but we'll go with it
+
+- We can see that `Date` is formatted as a character data type. This will be important when we get to data quality. We'll extract day of the week features out of it. 
 
 - Data between the experiment group and the control group is in the same format. Same number of observations (37 days) since the groups were tested in parallel. 
 
@@ -242,7 +246,7 @@ Next, let's check the data quality. We'll go through a process involves:
 
 - __Check Data Format__ - Is data in correct format for analysis? Are all features created and in the right class?
 
-We will use mainly `dplyr` in this section. _Side Note_ - Data Manipulation is with `dplyr`, `tidyr`, `lubridate` (time-series), `stringr` (text), and `forcats` (categorical), is taught in-depth (Weeks 2 and 3, 60+ lessons, 2 Challenges) in our [Business Analysis with R course](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15).
+We will use mainly `dplyr` in this section. _Side Note_ - Data Manipulation with `dplyr`, `tidyr`, `lubridate` (time-series), `stringr` (text), and `forcats` (categorical) is taught in-depth (Weeks 2 and 3, 60+ lessons, 2 Challenges) in our [Business Analysis with R course](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15).
 
 ### 3.5.1 Check for Missing Data
 
@@ -526,22 +530,21 @@ Next, we can make predictions on the test set using `predict()`. We bind the pre
 
 
 {% highlight r %}
+# knitr::kable() used for pretty tables
 model_01_lm %>%
     predict(new_data = test_tbl) %>%
     bind_cols(test_tbl %>% select(Enrollments)) %>%
-    metrics(truth = Enrollments, estimate = .pred)
+    metrics(truth = Enrollments, estimate = .pred) %>%
+    knitr::kable()
 {% endhighlight %}
 
 
 
-{% highlight text %}
-## # A tibble: 3 x 3
-##   .metric .estimator .estimate
-##   <chr>   <chr>          <dbl>
-## 1 rmse    standard     26.1   
-## 2 rsq     standard      0.0637
-## 3 mae     standard     19.4
-{% endhighlight %}
+|.metric |.estimator |  .estimate|
+|:-------|:----------|----------:|
+|rmse    |standard   | 26.0634680|
+|rsq     |standard   |  0.0636897|
+|mae     |standard   | 19.4039158|
 
 We can investigate the predictions by visualizing them using `ggplot2`. After formatting and plotting the data, we can see that the model had an issue with Observation 7, which is likely the reason for the low R-squared value (test set).
 
@@ -575,26 +578,24 @@ linear_regression_model_terms_tbl <- model_01_lm$fit %>%
     arrange(p.value) %>%
     mutate(term = as_factor(term) %>% fct_rev()) 
 
-linear_regression_model_terms_tbl
+# knitr::kable() used for pretty tables
+linear_regression_model_terms_tbl %>% knitr::kable()
 {% endhighlight %}
 
 
 
-{% highlight text %}
-## # A tibble: 10 x 5
-##    term         estimate std.error statistic  p.value
-##    <fct>           <dbl>     <dbl>     <dbl>    <dbl>
-##  1 Clicks        -0.579     0.132    -4.37   0.000153
-##  2 Pageviews      0.0503    0.0148    3.39   0.00208 
-##  3 Experiment   -17.6       7.61     -2.31   0.0286  
-##  4 (Intercept)  135.       79.6       1.69   0.101   
-##  5 DOWMon        25.4      17.5       1.45   0.157   
-##  6 DOWThu       -17.4      15.8      -1.10   0.280   
-##  7 DOWWed        12.4      14.6       0.854  0.401   
-##  8 DOWSat       -11.0      15.5      -0.709  0.484   
-##  9 DOWFri         8.52     14.3       0.597  0.555   
-## 10 DOWTue        -0.702    16.8      -0.0419 0.967
-{% endhighlight %}
+|term        |    estimate|  std.error|  statistic|   p.value|
+|:-----------|-----------:|----------:|----------:|---------:|
+|Clicks      |  -0.5788150|  0.1323455| -4.3735162| 0.0001533|
+|Pageviews   |   0.0503213|  0.0148314|  3.3928928| 0.0020803|
+|Experiment  | -17.5541754|  7.6074013| -2.3075127| 0.0286325|
+|(Intercept) | 134.7873196| 79.5652606|  1.6940474| 0.1013534|
+|DOWMon      |  25.4287578| 17.4786746|  1.4548447| 0.1568322|
+|DOWThu      | -17.4230930| 15.8000716| -1.1027224| 0.2795358|
+|DOWWed      |  12.4235287| 14.5532451|  0.8536604| 0.4005376|
+|DOWSat      | -11.0150158| 15.5347097| -0.7090584| 0.4841509|
+|DOWFri      |   8.5195293| 14.2637448|  0.5972856| 0.5551166|
+|DOWTue      |  -0.7023031| 16.7661840| -0.0418881| 0.9668852|
 
 We can visualize the importance separating "p.values" of 0.05 with a red dotted line.
 
@@ -694,25 +695,26 @@ Next, we can calculate the metrics on this model using our helper function, `cal
 
 
 {% highlight r %}
-model_02_decision_tree %>% calc_metrics(test_tbl)
+# knitr::kable() used for pretty tables
+model_02_decision_tree %>% 
+    calc_metrics(test_tbl) %>%
+    knitr::kable()
 {% endhighlight %}
 
 
 
-{% highlight text %}
-## # A tibble: 3 x 3
-##   .metric .estimator .estimate
-##   <chr>   <chr>          <dbl>
-## 1 rmse    standard      23.9  
-## 2 rsq     standard       0.277
-## 3 mae     standard      19.1
-{% endhighlight %}
+|.metric |.estimator | .estimate|
+|:-------|:----------|---------:|
+|rmse    |standard   |  23.85086|
+|rsq     |standard   |   0.27693|
+|mae     |standard   |  19.06771|
 
 We can visualize how its performing on the observations using our helper function, `plot_predictions()`. The model is having issues with Observations 1 and 7.
 
 
 {% highlight r %}
-model_02_decision_tree %>% plot_predictions(test_tbl) +
+model_02_decision_tree %>% 
+    plot_predictions(test_tbl) +
     labs(title = "Enrollments: Prediction vs Actual",
          subtitle = "Model 02: Decision Tree")
 {% endhighlight %}
@@ -778,19 +780,19 @@ We can get the test set performance using our custom `calc_metrics()` function. 
 
 
 {% highlight r %}
-model_03_xgboost %>% calc_metrics(test_tbl)
+# knitr::kable() used for pretty tables
+model_03_xgboost %>% 
+    calc_metrics(test_tbl) %>%
+    knitr::kable()
 {% endhighlight %}
 
 
 
-{% highlight text %}
-## # A tibble: 3 x 3
-##   .metric .estimator .estimate
-##   <chr>   <chr>          <dbl>
-## 1 rmse    standard      13.9  
-## 2 rsq     standard       0.726
-## 3 mae     standard      11.5
-{% endhighlight %}
+|.metric |.estimator |  .estimate|
+|:-------|:----------|----------:|
+|rmse    |standard   | 13.8760506|
+|rsq     |standard   |  0.7256724|
+|mae     |standard   | 11.5450172|
 
 We can visualize how its performing on the observations using our helper function, `plot_predictions()`. We can see that it's performing better on Observation 7.
 
