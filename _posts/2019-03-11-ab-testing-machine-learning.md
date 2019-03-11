@@ -42,7 +42,7 @@ In this article you will experience how to __implement Machine Learning for A/B 
 
 # 1.0 What is A/B Testing?
 
-A/B Testing is a tried-and-true method commonly performed using a traditional ___statistical inference approach___ grounded in a hypothesis test (e.g. t-test, z-score, chi-squared test). In plain English, 2 tests are run in parallel:
+A/B Testing is a tried-and-true method commonly performed using a traditional [___statistical inference approach___](https://en.wikipedia.org/wiki/A/B_testing) grounded in a hypothesis test (e.g. t-test, z-score, chi-squared test). In plain English, 2 tests are run in parallel:
 
 1. __Treatment Group (Group A)__ - This group is exposed to the new web page, popup form, etc.
 
