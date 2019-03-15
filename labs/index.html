@@ -166,11 +166,7 @@ Data Science Experts</span></h1>
                     {% assign sorted = site.lab-episodes | sort: 'date' | reverse %}
                     {% for post in sorted %}
                      <article>
-                         <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-                         <div class="date">
-                           Written {% if post.author %} by {{ post.author }} {% endif %} on {{ post.date | date: "%B %e, %Y" }}
-                         </div>
-     
+                         
                          <div class="row">
                            <div class="bloglist-thumbnail">
                              <div class="col-xs-8 col-md-6" style="padding-top:15px;">
@@ -184,12 +180,16 @@ Data Science Experts</span></h1>
                              </div>
                            </div>
                            <div class="entry" style="margin-left: 15px;">
-                             <p>{{ post.excerpt }}</p>
+                                <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+                                <div class="date">
+                                {{ post.date | date: "%B %e, %Y" }}
+                                </div>
+                                
                            </div>
                          </div>
      
-                         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
                      </article>
+                     <br>
                     {% endfor %}
                  </ul>
 
