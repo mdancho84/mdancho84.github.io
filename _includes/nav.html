@@ -22,23 +22,32 @@
                 
                 <ul class="nav navbar-nav navbar-right">
                     
-                    
+                    <!-- GETTING STARTED -->
+                    <li class="dropdown">
+                      <a href="/learn.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Getting Started</a>
+                      <ul class="dropdown-menu">
+                          
+                        <li><a href="https://mailchi.mp/business-science/data-science-fundamentals-newsletter"><i class="fa fa-newspaper fa-1x"></i> Data Science Fundamentals Newsletter</a></li>
+                        <li role="separator" class="divider"></li>
+                        
+                        <li><a href="/labs"><i class="fa fa-video fa-1x"></i> Learning Labs - Attend Live &amp; Get Recordings</a></li>
+                        <li><a href="/learn.html"><i class="fas fa-book-open fa-1x"></i>
+ Learning Hub - Currated Article Portal</a></li>
+                        <li><a href="/blog/index.html"><i class="fas fa-book fa-1x"></i>
+ Blog - Over 85 Articles!</a></li>
+                      </ul>
+                    </li>
     				
+    				<!-- UNIVERSITY PROGRAMS -->
     				<li {% if page.url == nav_item.link %} class="active" {% endif %}>
-    				    <a href="https://university.business-science.io">University</a>
+    				    <a href="https://university.business-science.io">University Programs</a>
                     </li>
                     
-                    <li {% if page.url == nav_item.link %} class="active" {% endif %}>
-                        <a href="/learn.html">Learn</a>
-                    </li>
-    				
+                    
+    				<!-- RESOURCES -->
     				<li class="dropdown">
                       <a href="/software.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Resources</a>
                       <ul class="dropdown-menu">
-                        
-                        <li><a href="/labs"><i class="fa fa-video fa-1x"></i> Learning Lab Webinar Series</a></li>
-                        <li><a href="https://mailchi.mp/business-science/data-science-fundamentals-newsletter"><i class="fa fa-newspaper fa-1x"></i> Data Science Fundamentals Newsletter</a></li>
-                        <li role="separator" class="divider"></li>
                         
                         <li><a href="/software.html"><i class="fa fa-code fa-1x"></i> Software</a></li>
                         <li role="separator" class="divider"></li>
@@ -53,21 +62,29 @@
                         
                       </ul>
                     </li>
+
+                    <!-- CONTACT -->
+                    <li class="dropdown">
+                      <a href="/contact.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact</a>
+                      <ul class="dropdown-menu">
+                        
+                        <li><a href="/contact.html"><i class="fas fa-comments fa-1x"></i>
+ Contact Us</a></li>
+                        <li><a href="/about.html"><i class="fas fa-graduation-cap fa-1x"></i>
+ About Us</a></li>
+                      </ul>
+                    </li>
                     
-                    <!-- Nav Links: Maintained in data/nav.csv -->
-    				{% for nav_item in site.data.nav %}
+                    <!-- LOG IN -->
     				<li {% if page.url == nav_item.link %} class="active" {% endif %}>
-    				    <a href="{{ nav_item.link }}">{{ nav_item.name }}</a>
-    				</li>
-    				{% endfor %}
+    				    <a href="https://university.business-science.io">Log In</a>
+                    </li>
                     
-                    
-                    
-                    <!-- Search site using Google's index -->
+                    <!-- SEARCH -->
                     <li>
                         <form class="navbar-form navbar-right" role="search" method="get" action="https://google.com/search">
                           <div class="row">
-                              <div class="col-xs-8">
+                              <div class="col-xs-6">
                                   <div class="form-group" id="inline">
                                     <input type="hidden" name="q" value="site:business-science.io" />
                                     <input type="text" class="form-control search-query" name="q" placeholder="Search"/>
@@ -79,6 +96,10 @@
                           </div>
                         </form>
                     </li>
+                    
+                    
+                    
+                    
 				</ul>
 
             </div>
