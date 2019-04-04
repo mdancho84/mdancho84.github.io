@@ -39,8 +39,18 @@
                     </li>
     				
     				<!-- UNIVERSITY PROGRAMS -->
-    				<li {% if page.url == nav_item.link %} class="active" {% endif %}>
-    				    <a href="https://university.business-science.io">University Programs</a>
+                    <li class="dropdown">
+                      <a href="https://university.business-science.io" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">University Programs</a>
+                      <ul class="dropdown-menu">
+                        
+                        <li><a href="https://university.business-science.io"><i class="fas fa-graduation-cap fa-1x"></i>
+ University Programs</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="/app-gallery.html"><i class="fas fa-laptop fa-1x"></i>
+ App Gallery</a></li>
+                        <!--<li><a href="/testimonials.html"><i class="fas fa-comments fa-1x"></i>
+ Testimonials</a></li>-->
+                      </ul>
                     </li>
                     
                     
