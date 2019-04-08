@@ -41,7 +41,7 @@ __Business Forecasting__ (the process of forecasting demand for a business) affe
 - Bonuses + 2 Special Announcements (and a __Free Giveaway ($100 value)__)! 
 
 <p class="text-center">
-<a href="http://bit.ly/learning-lab-07" class="btn btn-lg btn-info"><strong>Reserve Your Spot Today</strong></a>
+<a href="http://bit.ly/learning-lab-07" class="btn btn-lg btn-info"><strong>Sign Me Up!</strong></a>
 </p>
 
 
