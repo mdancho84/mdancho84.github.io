@@ -5,18 +5,20 @@ excerpt: "Learn R for business - Data science for business is the future of busi
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Project, R-Bloggers, R, Learning Data Science, Learn-R]
-image: ds4b_rating.png
-image_preview: ds4b_rating_preview.png
+image: 2017-12-27-six-reasons-to-learn-r/six_reasons_to_learn_r_for_business.jpg
+image_preview: 2017-12-27-six-reasons-to-learn-r/six_reasons_to_learn_r_for_business.jpg
 canonical: https://www.business-science.io/business/2017/12/27/six-reasons-to-use-R-for-business.html
 ---
 
 
 
 
-Data science for business (DS4B) is the future of business analytics yet it is really difficult to figure out where to start. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: <span>(1) selecting the right tool for the job, and</span> <span>(2) efficiently learning how to use the tool to return business value. This article focuses on the first part, explaining why R is the right choice in six points. Our next article will focus on the second part, [how to learn R](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html) in 12 weeks.</span>
+Data science for business (DS4B) is the future of business analytics yet __it is really difficult to figure out where to start__. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: <span>(1) selecting the right tool for the job, and</span> <span>(2) efficiently learning how to use the tool to return business value. This article focuses on the first part, __explaining why R is the right choice in six points
+__. If you'd like to tackle learning R efficiently, we have another article that covers the [80/20 Rule for Learning R](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html).
 
 
-## Reason 1: R Has The Best Overall Qualities
+
+## Reason 1: R Has The Best Overall Qualities For Business
 
 ![DS4B Tool Ratings](/assets/ds4b_rating.png)
 
@@ -29,30 +31,15 @@ There are a number of tools available business analysis/business intelligence (w
 
 Further discussion on the assessment is included in the [Appendix](#appendix-1) at the end of the article. 
 
-What we saw was particularly interesting. A trendline developed exposing a tradeoff between learning curve and DS4B capability rating. The most flexible tools are more difficult to learn but tend to have higher business capability. Conversely, the "easy-to-learn" tools are often not the best long-term tools for business or data science capability. Our opinion is __go for capability over ease of use__. 
+What we saw was particularly interesting. A trendline developed exposing a tradeoff between learning curve and DS4B capability rating. The most flexible tools are more difficult to learn but tend to have higher business capability. Conversely, the "easy-to-learn" tools are often not the best long-term tools for business or data science capability. __Our opinion is go for capability over ease of use__. 
 
-Of the top tools in capability, __R has the best mix of desirable attributes__ including high data science for business capability, low cost, and it's growing very fast. The only downside is the learning curve. The rest of the article explains why learning R is great for business.
+Of the top tools in capability, __R has the best mix of desirable attributes__ including high data science for business capability, low cost, is growing very fast., and has __a massive ecosystem of powerful R libraries__. The only downside is the learning curve. The Cheat Sheet below showcases the powerful libraries that are at your fingertips - <a href="https://www.business-science.io/r-cheatsheet.html">Download our Ultimate R Cheat Sheet</a> to see what libraries are available to solve specific needs.
 
 
-<!-- CTA -->
-<br>
-<hr>
-### Learn R in 10 Weeks: Data Science Education For Business
+<p><a href="https://www.business-science.io/r-cheatsheet.html"><img src="/assets/cheatsheets/r_cheatsheet.jpg" alt="R Cheat Sheet" style="width:100%;"></a></p>
+<p class="date text-center">The Ultimate R Cheat Sheet showcases the massive ecosystem of powerful R packages (<a href="https://www.business-science.io/r-cheatsheet.html">Free Download</a>)</p>
 
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-<img src="/assets/2018-12-11-marketing-analysis-promotion-campaign/DS4B_201_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
 
-##### Learn R to analyze data, create machine learning models and solve business problems with our DS4B 201-R Course.
-
-- Learn by following a [proven data science framework](https://www.business-science.io/bspf.html)
-- Learn `H2O` & `LIME` for building High-Performance Machine Learning Models
-- Learn __Expected Value Framework__ by connecting Data Science to ROI
-- Learn __Preprocessing__ with `recipes`
-- Learn how to build a __Recommendation Algorithm__ from scratch
-- All while learning `R` __coding__!
-<br><br>
-<hr>
-<!-- CTA end -->
 
 
 ## Reason 2: R Is Data Science For Non-Computer Scientists
@@ -87,6 +74,26 @@ Think about what you are trying to do:
 
 - __Are you trying to communicate business analytics throughout your organization?__ <span>If yes, learn R.</span>
 
+<!-- CTA -->
+<br>
+<hr>
+### Learn R in 7 Weeks: Business Analysis with R
+
+<a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r">
+<img src="/img/course_logo_full_DS4B_101_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
+
+##### Learn R to analyze data, create machine learning models and solve business problems with our DS4B 201-R Course.
+
+- Learn the `tidyverse` 
+- Get 8 hours of video training on __Machine Learning__ with `parsnip` 
+- You model with `XGBoost`, Random Forest, Support Vector Machines, and more!
+- Learn __Visualization__ with `ggplot2`
+- Learn __Data Manipulation__ with `dplyr`
+- Create 2 Projects: Customer Segmentation Report and Product Pricing Algorithm
+- All while learning `R` __coding__!
+<br><br>
+<hr>
+<!-- CTA end -->
 
 ## Reason 3: Learning R Is Easy With The Tidyverse
 
@@ -104,7 +111,12 @@ R continues to evolve in a structured manner, with advanced packages that are bu
 
 ## Reason 4: R Has Brains, Muscle, And Heart
 
-Saying R is powerful is actually an understatement. From the business context, R is like Excel on steroids! But more important than just muscle is the combination of what R offers: brains, muscle, and heart. 
+Saying R is powerful is actually an understatement. From the business context, R is like Excel on steroids! But more important than just muscle is the combination of what R offers: brains, muscle, and heart. The 2nd page of the [R Cheat Sheet (FREE DOWNLOAD)](https://www.business-science.io/r-cheatsheet.html) links to all of the tools discussed next (and more tools beyond)!
+
+<p><a href="https://www.business-science.io/r-cheatsheet.html"><img src="/assets/2019-01-07-r-cheat-sheet/r_cheat_sheet_pages.png" alt="R Cheat Sheet" style="width:100%;"></a></p>
+<p class="date text-center">An expanded set of tools has been added to the R Cheat Sheet (<a href="https://www.business-science.io/r-cheatsheet.html">Free Download</a>)</p>
+
+
 
 ### R has brains
 
@@ -141,6 +153,8 @@ We already talked about the infrastructure, the `tidyverse`, that enables the ec
 - Programming (`purrr`, `tidyeval`)
 - Communication (`Rmarkdown`, `shiny`) 
 
+
+
 ## Reason 5: R Is Built For Business
 
 Two major advantages of learning R versus every other programming language is that it can produce business-ready reports and machine learning-powered web applications. Neither Python or Tableau or any other tool can currently do this as efficiently as R can. The two capabilities we refer to are `rmarkdown` for report generation and `shiny` for interactive web applications. 
@@ -162,9 +176,9 @@ Two major advantages of learning R versus every other programming language is th
 
 [Shiny](http://shiny.rstudio.com) is a framework for creating interactive web applications that are powered by R. Shiny is a major consulting area for us as four of five assignments involve building a web application using `shiny`. It's not only powerful, it enables non-data scientists to gain the benefit of data science via interactive decision making tools. Here's an example of a Google Trend app built with `shiny`.
 
-<iframe id="example1" src="https://gallery.shinyapps.io/goog-trend-index/" style="border: none; width: 100%; height: 475px" frameborder="1"></iframe>
+<p><a href="https://www.business-science.io/app-gallery.html" target="_blank"><img src="/assets/app_gallery/product_price_prediction_app.gif" alt="Product Price Prediction App" style="width:100%;box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);"></a></p>
 
-<p class="text-center date">Source: <a href="http://shiny.rstudio.com/">shiny.rstudio.com</a></p>
+<p class="text-center date">Explore the <a href="https://www.business-science.io/app-gallery.html">Web App Gallery</a> of predictive business apps</p>
 
 ## Reason 6: R Community Support
 
@@ -172,7 +186,7 @@ Being a powerful language alone is not enough. To be successful, a language need
 
 ### CRAN: Community-Provided R Packages
 
-CRAN is like the Apple App store, except everything is free, super useful, and built for R. With over 14,000 packages, it has most everything you can possibly want from machine learning to high-performance computing to finance and econometrics! The [task views](https://cran.r-project.org/web/views/) cover specific areas and are one way to explore R's offerings. CRAN is community-driven, with top open source authors such as Hadley Wickham and Dirk Eddelbuettel leading the way. Package development is a great way to contribute to the community especially for those looking to showcase their coding skills and give back!
+CRAN is like the Apple App store, except everything is free, super useful, and built for R. With over 17,000 packages, it has most everything you can possibly want from machine learning to high-performance computing to finance and econometrics! The [task views](https://cran.r-project.org/web/views/) cover specific areas and are one way to explore R's offerings. CRAN is community-driven, with top open source authors such as Hadley Wickham and Dirk Eddelbuettel leading the way. Package development is a great way to contribute to the community especially for those looking to showcase their coding skills and give back!
 
 ### Community Support
 
@@ -210,7 +224,7 @@ R-focused business conferences are gaining traction in a big way. Here are a few
  
 ## Conclusion
 
-R has a wide range of benefits making it our obvious choice for Data Science for Busienss (DS4B). That's not to say that Python isn't a good choice as well, but, for the wide-range of needs for business, there's nothing that compares to R. In this article we saw why learning R is a great choice. In the next article we'll show you [how to learn R](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html) in 12 weeks. 
+R has a wide range of benefits making it our obvious choice for Data Science for Busienss (DS4B). That's not to say that Python isn't a good choice as well, but, for the wide-range of needs for business, there's nothing that compares to R. In this article we saw why learning R is a great choice. In the next article we'll show you [how to learn R](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html)  using the 80/20 Rule. 
 
 <br>
 <hr>
