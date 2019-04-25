@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'New Learning Lab "1-Hour Course" - Build A Strategic Database With Web Scraping'
+title: 'New Learning Lab 1-Hour Course - Build A Strategic Database With Web Scraping'
 excerpt: "We have just released a new 1-HOUR COURSE - Build a Strategic Database with Web Scraping - Through Learning Labs PRO."
 author: "Matt Dancho"
 date: 2019-04-26 6:30:00
