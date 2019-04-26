@@ -217,7 +217,7 @@ You get __FOUNDATIONS__ (through BSU Courses) and __KEY SKILLS__ (through Learni
 
 __Learn both fundamentals and key skills__ by enrolling in both. We make it simple with this limited time offer.
 
-![Program Summary](/assets/2019-04-26-web-scraping-course/summary.jpg)
+![Program Summary](/assets/2019-04-26-web-scraping-course/course_summary.jpg)
 
 #### Program Summary and Links:
 
