@@ -159,7 +159,7 @@ On the fence about [__Learning Labs PRO__](https://university.business-science.i
 ![Student Feedback - Web Scraping](/assets/2019-04-26-web-scraping-course/web_scraping_course_feedback.jpg)
 <p class="date text-center">Student Feedback - Web Scraping Course</p>
 
-Apparently the students think highly of our product. They should. We use ___student feedback___ to drive our products to make sure they hit the mark!
+We love hearing student feedback like this! 
 
 OK, let's quickly recap. 
 
