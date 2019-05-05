@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Kaggle Competition In 30 Minutes: Predict Home Credit Default Risk With R"
+title: "How To Complete A Kaggle Competition In 30 Minutes - Home Credit Default Challenge"
 excerpt: "Real world data science - Learn how to compete in a Kaggle Competition using Machine Learning with R." 
 author: "Matt Dancho"
 date:   2018-08-07 08:15:01
 categories: [Business]
-tags: [R-Project, R, Kaggle Competitions, H2O, DS4B, h2o, recipes, tidyverse, skimr, Learn-R, Learn-Machine-Learning]
-image: 2018-08-07-kaggle-credit-risk/h2o_strategy.png
+tags: [R-Project, R, Learn-Finance, Kaggle Competitions, H2O, DS4B, h2o, recipes, tidyverse, skimr, Learn-R, Learn-Machine-Learning]
+image: 2018-08-07-kaggle-credit-risk/kaggle_competition_in_30_minutes.jpg
 ---
 
 
