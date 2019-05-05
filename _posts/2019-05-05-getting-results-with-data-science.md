@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-05-05 6:30:00
 categories: [Business]
 tags: [R, Learn-Business, Data Science]
-image: 2019-05-03-getting-results-with-data-science/3_simple_rules_results_with_data_science.jpg
-image_preview: 2019-05-03-getting-results-with-data-science/3_simple_rules_results_with_data_science.jpg
+image: 2019-05-03-getting-results-with-data-science/3_simple_rules_for_results_with_data_science.jpg
+image_preview: 2019-05-03-getting-results-with-data-science/3_simple_rules_for_results_with_data_science.jpg
 ---
 
 ___Are you finding it difficult to show your organization results with data science?___
