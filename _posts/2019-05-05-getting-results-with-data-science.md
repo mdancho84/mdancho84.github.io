@@ -1,13 +1,13 @@
 ---
 layout: post
-title: '3 Simple Rules For Getting Results With Data Science (A Story About Rebounding From Failure)'
+title: '3 Simple Rules For Getting Results With Data Science (A Story About Learning From Failure)'
 excerpt: "These are 3 Rules I learned through my consulting experience that have helped me be able to deliver results with data science."
 author: "Matt Dancho"
 date: 2019-05-05 6:30:00
 categories: [Business]
 tags: [R, Learn-Business, Data Science]
-image: 2019-05-03-getting-results-with-data-science/3_simple_rules_results_with_data_science_retina.jpg
-image_preview: 2019-05-03-getting-results-with-data-science/3_simple_rules_results_with_data_science_retina.jpg
+image: 2019-05-03-getting-results-with-data-science/3_simple_rules_results_with_data_science.jpg
+image_preview: 2019-05-03-getting-results-with-data-science/3_simple_rules_results_with_data_science.jpg
 ---
 
 ___Are you finding it difficult to show your organization results with data science?___
