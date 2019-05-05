@@ -6,8 +6,8 @@ excerpt: "Experience how to implement Machine Learning for A/B Testing step-by-s
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Learn-Business, Learn-Marketing, parsnip]
-image: 2019-03-11-ab-testing/decision_tree.jpg
-image_preview: 2019-03-11-ab-testing/decision_tree.jpg
+image: 2019-03-11-ab-testing/ab_testing_retina.jpg
+image_preview: 2019-03-11-ab-testing/ab_testing_retina.jpg
 ---
 
 
