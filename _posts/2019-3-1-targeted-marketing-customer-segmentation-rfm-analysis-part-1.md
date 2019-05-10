@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Targeted Marketing with Customer Segmentation and RFM Analysis – Part 1"
+title: "Targeted Marketing with Customer Segmentation and RFM Analysis - Part 1"
 excerpt: "Customer segmentation is the process of grouping customers by specific likeness. Creating customer segmentation enables a business to target specific groups of customers and personalize marketing for each group."
 author: "David Curry"
 date: 2019-3-1 10:00:00 -0400
@@ -178,7 +178,7 @@ We offer an advanced 10-Week program that teaches __Automatic Machine Learning__
 
 <br/>
 Author: David Curry<br/>
-Founder, [Sure Optimize](https://sureoptimize.com) – SEO and Marketing Analytics
+Founder, [Sure Optimize – SEO and Marketing Analytics](https://sureoptimize.com)
 
 
 <br><br>
