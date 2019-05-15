@@ -10,7 +10,11 @@ image: 2019-05-15-tidyquant-course/finance_tidyquant_thumb.jpg
 image_preview: 2019-05-15-tidyquant-course/finance_tidyquant_thumb.jpg
 ---
 
-_Special Delivery to LL Pro Members_ - We have just released a NEW Learning Lab "1-Hour Course" - ___Finance in R with `tidyquant`___ - [__Available in Learning Labs PRO__)](https://university.business-science.io/p/learning-labs-pro). Learn how to performance Stock Analysis and Portfolio Optimization using the `tidyquant` package. 
+We have 2 announcements:
+
+1. __Special Delivery to LL Pro Members__ - We have just released a NEW Learning Lab "1-Hour Course" - ___Finance in R with `tidyquant`___ - [__Available in Learning Labs PRO__)](https://university.business-science.io/p/learning-labs-pro). Learn how to performance Stock Analysis and Portfolio Optimization using the `tidyquant` package. 
+
+2. __Next Learning Lab Announcement__ - We are going to teach you how to ___Productionalize Machine Learning models with `plumber` API's___. You can [__Register Here! (Registration is open until May 22nd)__](http://bit.ly/learning-lab-plumber)
 
 #### You Create This Optimized Portfolio
 
