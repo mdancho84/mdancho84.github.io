@@ -16,7 +16,7 @@ We have 2 announcements:
 
 2. __Next Learning Lab Announcement__ - We are going to teach you how to ___Productionalize Machine Learning models with `plumber` API's___. You can [__Register Here! (Registration is open until May 22nd)__](http://bit.ly/learning-lab-plumber)
 
-#### You Create This Optimized Portfolio
+#### Tidyquant Course - You Create This Optimized Portfolio
 
 ![Tidyquant Portfolio Optimization Code](/assets/2019-05-15-tidyquant-course/tidyquant_course_3d_plot.gif)
 <p class="date text-center">Optimize 250 Portfolios in this Learning Lab 1-Hour Course</p>
