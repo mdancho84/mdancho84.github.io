@@ -12,7 +12,7 @@ image_preview: 2019-05-16-shiny-course/shiny_course.jpg
 
 We've built a revolutionary system for taking machine learning models into production with `R` and `Shiny`. __Learn by building two (2) applications - (1) Sales Dashboard and (2) Predictive Web Application that integrates Shiny, Flexdashboard, and XGBoost!__
 
-The Shiny Web Application Development Course is the culmination of months of work and years of effort in shiny development training through live workshops I've given, feedback I've received, and best practices that I've implemented. __Now you get to learn everything through a streamlined systematic course!__
+The ___Shiny Web Application Development Course___ is the culmination of months of work and years of effort in shiny development training through live workshops I've given, feedback I've received, and best practices that I've implemented. __Now you get to learn everything through a streamlined systematic course!__
 
 <br>
 <p class="text-center">
