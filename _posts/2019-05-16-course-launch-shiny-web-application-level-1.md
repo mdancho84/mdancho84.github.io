@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-05-16 6:00:00
 categories: [University]
 tags: [R-Project, R, Data Science, DS4B 102-R, Business Analysis, shiny]
-image: 2019-05-16-shiny-course/shiny_course.jpg
-image_preview: 2019-05-16-shiny-course/shiny_course.jpg
+image: 2019-05-16-shiny-course/01_sales_dashboard_in_r_shiny.png
+image_preview: 2019-05-16-shiny-course/01_sales_dashboard_in_r_shiny.png
 ---
 
 We've built a revolutionary system for taking machine learning models into production with `R` and `Shiny`. __Learn by building two (2) applications - (1) Sales Dashboard and (2) Predictive Web Application that integrates Shiny, Flexdashboard, and XGBoost!__
@@ -181,7 +181,7 @@ You get access to the ___Ultimate R Cheat Sheet - Version 2.0___, which has a ne
 <br>
 <hr>
 
-![Course Summary](/assets/2019-05-16-shiny-course/summary.png)
+![Course Summary](/assets/2019-05-16-shiny-course/shiny_course_summary.png)
 <p class="date text-center">Summary of What You Get!</p>
 
 <!--- ___Innovative 3-Part Training Program___ that teaches you how to build web applications using Shiny & Flexdashboard
