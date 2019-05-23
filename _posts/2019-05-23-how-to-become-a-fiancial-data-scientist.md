@@ -202,13 +202,13 @@ The [__101 and 201 Courses__](https://university.business-science.io/p/data-scie
 
 The [__102 and 202 Courses (Coming June 1st)__](https://www.business-science.io/university/2019/05/16/course-launch-shiny-web-application-level-1.html) teach you how to build production-ready web applications that deliver business value. You will learn by building multiple web applications. 
 
-In 101 you will build:
+In 102 you will build:
 
 - ___Sales Dashboard___ - Implements a complex series of UI and reactive programming using `shiny` and `flexdashboard`
 
 - [___New Product Price Prediction (Demo Available)___](https://business-science.shinyapps.io/Product_Price_Prediction_Application/) - Extends 101 by implementing `XGBoost` product price prediction model via `parsnip` and builds on reactive programming and `CSS` customization
 
-In 201, you will build:
+In 202, you will build:
 
 - [___Stock Optimization App (Demo Available)___](https://business-science.shinyapps.io/stock_optimization_app) - Uses `shiny`, `argonDash`, and `tidyquant`
 
