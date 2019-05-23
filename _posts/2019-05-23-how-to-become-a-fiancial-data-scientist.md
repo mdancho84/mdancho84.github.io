@@ -21,6 +21,8 @@ The opportunity to understand what organizations in Finance (or any Domain) valu
 
 What I'm covering here is focused on finance, but the same strategies can be applied broadly to domains as wide-reaching as Marketing, Research & Development, Medicine, and more. 
 
+I'll assume that if you are reading this, then you have some knowledge on _Portfolio Theory_ and _Risk Management_, which are required knowledge for the finance domain. What I will show you is how you can take this _domain knowledge_ and ___extend it to value generating activities for the business using data science tools___.  
+
 But, first, the cold hard reality...
 
 ## Learning Skills That You Don't Use Is A Waste Of Time
