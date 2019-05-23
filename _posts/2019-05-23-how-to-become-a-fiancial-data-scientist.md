@@ -12,7 +12,7 @@ image_preview: 2019-05-23-financial-data-scientist/how-to-become-a-financial-dat
 
 Becoming a data scientist in Finance can be a lofty challenge... unless you see how to streamline the path. Instead of asking "what skills do I need?", ___we need to ask a different question___. We need to first learn to see ___what the organization values___. Then apply the __80/20 Rule__ to get there. 
 
-This is what you've been waiting for. 
+If you are a financial professional seeking to learn data science, then this is what you've been waiting for. 
 
 The opportunity to understand what organizations in Finance (or any Domain) value from the data science practice. If you understand what they value, you then know what skills to learn to streamline your path from where you are now to being a productive member of a Financial organization (or any organization). 
 
@@ -27,7 +27,7 @@ But, first, the cold hard reality...
 
 ## Learning Skills That You Don't Use Is A Waste Of Time
 
-Most data scientists that want to break into Finance make major mistakes that cost them a career. It starts with their first step.
+Most financial people that want to break into Data Science make major mistakes that cost them a career. It starts with their first step.
 
 ![Modern Data Scientist](/assets/2019-05-23-financial-data-scientist/modern_data_scientist.jpg)
 <p class="text-center date">"Modern Data Scientist Infographic" - Everything That Is Wrong With A Learning Strategy</p>
