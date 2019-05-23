@@ -14,14 +14,14 @@ Becoming a data scientist in Finance can be a lofty challenge... unless you see 
 
 This is what you've been waiting for. 
 
-The opportunity to understand what organizations in Finance (or any Domain) value. If you understand what they value, you then know what skills to learn to streamline your path from where you are now to being a productive member of a Financial organization (or any organization). 
+The opportunity to understand what organizations in Finance (or any Domain) value from the data science practice. If you understand what they value, you then know what skills to learn to streamline your path from where you are now to being a productive member of a Financial organization (or any organization). 
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/SD2EOSy1hl4" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p class="text-center date">My Talk "How To Become A Financial Data Scientist" - YouTube</p>
 
 What I'm covering here is focused on finance, but the same strategies can be applied broadly to domains as wide-reaching as Marketing, Research & Development, Medicine, and more. 
 
-I'll assume that if you are reading this, then you have some knowledge on _Portfolio Theory_ and _Risk Management_, which are required knowledge for the finance domain. What I will show you is how you can take this _domain knowledge_ and ___extend it to value generating activities for the business using data science tools___.  
+I'll assume that if you are reading this, then you have some knowledge on [_Portfolio Theory_](https://www.investopedia.com/terms/m/modernportfoliotheory.asp) and [_Risk Management_](https://www.investopedia.com/terms/r/riskmanagement.asp), which are required knowledge for the finance domain. What I will show you is how you can take this _domain knowledge_ and ___extend it to value generating activities for the business using data science tools___.  
 
 But, first, the cold hard reality...
 
