@@ -27,7 +27,7 @@ But, first, the cold hard reality...
 
 ## Learning Skills That You Don't Use Is A Waste Of Time
 
-Most financial people that want to break into Data Science make major mistakes that cost them a career. It starts with their first step.
+Most financial people that want to break into Data Science make major mistakes that cost them a career in data science. It starts with their first step.
 
 ![Modern Data Scientist](/assets/2019-05-23-financial-data-scientist/modern_data_scientist.jpg)
 <p class="text-center date">"Modern Data Scientist Infographic" - Everything That Is Wrong With A Learning Strategy</p>
@@ -49,17 +49,17 @@ __It's scary__ - being alone on this journey. Add to it that every misstep costs
 
 ## We Grow By Building Skills That Add Value
 
-One thing I learned along my own journey was how to sell my value. It was an incredibly important lesson that I learned through my experience consulting. When I begin an engagement, I never go in saying I know something. Rather, I ask how I can help and listen for opportunity. ___Skills alone don't sell. It's solutions, results, and value that sell.___ 
+One thing I learned along my own journey was how to sell my value. It was an incredibly important lesson that I learned through my experience consulting. When I begin an engagement, I never go in saying I know something. Rather, I ask how I can help and listen for opportunity. ___Skills alone don't sell. It's solutions, results, and value that sells.___ 
 
 ## Marketing 101 - Skills Don't Sell; Solutions Sell, Results Sell, Value Sells
 
 We need to change our beliefs. Most of us feel that to get a job in data science, you need to learn data science inside and out. Machine Learning, Deep Learning, Neural Networks, Graph Theory - the list goes on. 
 
-This is not correct. Further, this strategy will cost you time, and likely won't result in your desired outcome - ___to begin a career in Finance___. 
+This is not correct. Further, this strategy will cost you time, and likely won't result in your desired outcome - ___to begin a career as a Data Scientist in Finance___. 
 
 When we adopt a new mindset, one of value over skills, we begin seeking skills that add value _incrementally_ to the larger goal. This is a step in the right direction, one that many data scientists miss. 
 
-__Remember the "Modern Data Scientist" infographic? Don't learn all of these skills.__
+__Remember the _"Modern Data Scientist"_ infographic? Don't learn all of these skills.__
 
 ![Stop Modern Data Scientist](/assets/2019-05-23-financial-data-scientist/stop_modern_data_scientist.jpg)
 <p class="text-center date">Bad Strategy: Learn Skills That Every Data Scientist "Should" Have</p>
