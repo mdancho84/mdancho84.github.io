@@ -1,22 +1,22 @@
 ---
 layout: post
-title: "Shiny Web Applications for Business - Course Opens June 1st!!!"
+title: "Predictive Web Applications for Business with R Shiny - Course is Open!!!"
 excerpt: "We've built a revolutionary system for taking machine learning models into production with R and Shiny. Learn by building two (2) applications - a Sales Dashboard and a Predictive Web Application that integrates Shiny, Flexdashboard, and XGBoost!"
 author: "Matt Dancho"
 date: 2019-05-16 6:00:00
 categories: [University]
-tags: [R-Project, R, Data Science, DS4B 102-R, Business Analysis, shiny]
-image: 2019-05-16-shiny-course/01_sales_dashboard_in_r_shiny.png
-image_preview: 2019-05-16-shiny-course/01_sales_dashboard_in_r_shiny.png
+tags: [R-Project, R, Data Science, DS4B 102-R, Business Analysis, Predictive Web Apps, Course Launch, shiny]
+image: 2019-05-16-shiny-course/predictive_web_apps_shiny_course.jpg
+image_preview: 2019-05-16-shiny-course/predictive_web_apps_shiny_course.jpg
 ---
 
 We've built a revolutionary system for taking machine learning models into production with `R` and `Shiny`. __Learn by building two (2) applications - (1) Sales Dashboard and (2) Predictive Web Application that integrates Shiny, Flexdashboard, and XGBoost!__
 
-The ___Shiny Web Application Development Course___ is the culmination of months of work and years of effort in shiny development training through live workshops I've given, feedback I've received, and best practices that I've implemented. __Now you get to learn everything through a streamlined systematic course!__
+The [___Shiny Web Application Development Course___](https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1/) is the culmination of months of work and years of effort in `shiny` development training through live workshops I've given, feedback I've received, and best practices that I've implemented. __Now you get to learn everything through a streamlined systematic course!__
 
 <br>
 <p class="text-center">
-<a class="btn btn-lg btn-success" href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Create A FREE Account Here!</strong>
+<a class="btn btn-lg btn-success" href="https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1" target="_blank"><strong>Build Predictive Web Apps with Shiny Course</strong>
 </a></p>
 <br>
 
@@ -52,6 +52,12 @@ ___Shiny Web Applications for Business (DS4B 102-R)___ is designed specifically 
 - Intermediate and Advanced data scientists familiar with `R` but want to learn `Shiny` and `Flexdashboard` to take applications into production
 
 We strongly recommend taking [___Business Analysis With R (DS4B 101-R) course___](https://university.business-science.io/p/ds4b-101-r-business-analysis-r) prior to taking ___Shiny Web Applications for Business (DS4B 102-R)___. Because of this we are offering ___Special Bundles___ that include multiple courses for additional savings.
+
+<br>
+<p class="text-center">
+<a class="btn btn-lg btn-success" href="https://university.business-science.io/p/data-science-starter-bundle-r-track-courses-101-102" target="_blank"><strong>Data Science Starter Bundle: 101 + 102 Courses</strong>
+</a></p>
+<br>
 
 <br>
 <hr>
@@ -229,13 +235,22 @@ You get access to the ___Ultimate R Cheat Sheet - Version 2.0___, which has a ne
 <br>
 <hr>
 <br>
-<p class="text-center" style="font-size:40px">Course Launch - <strong>June 1st!</strong></p>
-<p class="text-center">(What you need to do)</p>
+<p class="text-center" style="font-size:40px">Course is Open!</p>
+<p class="text-center">(Unlock Shiny Web Apps Today)</p>
 <br>
 <hr>
 
-The doors are opening ___June 1st___, and you will gain special perks for [___creating a FREE account now___](https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1). 
+The doors are OPEN!. Get access to our ___NEW Predictive Web Applications for Business with `R Shiny` Course___ here: 
 
+<br>
+<p class="text-center">
+<a class="btn btn-lg btn-success" href="https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1" target="_blank"><strong>Unlock Course - Build Predictive Web Apps with R Shiny</strong>
+</a></p>
+<br>
+
+![Predictive Web Applications with R Shiny Course](/assets/2019-05-16-shiny-course/predictive_web_apps_shiny_course.jpg)
+
+<!--
 <div class="well">
 <ul>
   <li><strong>Step 1</strong> - <a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Sign up here for Business Science University.</strong></a> Signup is FREE. This gains you access to the university programs and course list.</li>
@@ -250,6 +265,7 @@ The doors are opening ___June 1st___, and you will gain special perks for [___cr
 <p class="text-center" style="font-size:30px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Look Out For Course Launch Email - June 1st</strong></a></p>
 
 </div>
+-->
 
 <!-- 
 Interested? Here's what you need to do:
