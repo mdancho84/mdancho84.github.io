@@ -63,7 +63,7 @@ We strongly recommend taking [___Business Analysis With R (DS4B 101-R) course___
 <br>
 
 ![Data Science Starter Bundle: Courses 101 + 102](/assets/2019-05-16-shiny-course/data_science_starter_bundle.jpg)
-<p class="date text-center"><a href="https://university.business-science.io/p/data-science-starter-bundle-r-track-courses-101-102" target="_blank">Data Science Starter Bundle</a></p>
+<p class="date text-center"><a href="https://university.business-science.io/p/data-science-starter-bundle-r-track-courses-101-102" target="_blank">Data Science Starter Bundle - Recommended if you are getting started in Data Science for Business</a></p>
 
 <br>
 <hr>
