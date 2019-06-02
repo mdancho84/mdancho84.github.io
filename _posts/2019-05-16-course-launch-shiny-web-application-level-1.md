@@ -12,6 +12,9 @@ image_preview: 2019-05-16-shiny-course/predictive_web_apps_shiny_course.jpg
 
 We've built a revolutionary system for taking machine learning models into production with `R` and `Shiny`. __Learn by building two (2) applications - (1) Sales Dashboard and (2) Predictive Web Application that integrates Shiny, Flexdashboard, and XGBoost!__
 
+<a href="https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1/" target="_blank">
+<img src="/assets/2019-05-16-shiny-course/shiny_web_apps_course.jpg" class="img-rounded pull-right" alt="DS4B 102-R Course" style="width:30%;margin-left:20px"/></a>
+
 The [___Shiny Web Application Development Course___](https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1/) is the culmination of months of work and years of effort in `shiny` development training through live workshops I've given, feedback I've received, and best practices that I've implemented. __Now you get to learn everything through a streamlined systematic course!__
 
 <br>
@@ -58,6 +61,9 @@ We strongly recommend taking [___Business Analysis With R (DS4B 101-R) course___
 <a class="btn btn-lg btn-success" href="https://university.business-science.io/p/data-science-starter-bundle-r-track-courses-101-102" target="_blank"><strong>Data Science Starter Bundle: 101 + 102 Courses</strong>
 </a></p>
 <br>
+
+![Data Science Starter Bundle: Courses 101 + 102](/assets/2019-05-16-shiny-course/data_science_starter_bundle.jpg)
+<p class="date text-center"><a href="https://university.business-science.io/p/data-science-starter-bundle-r-track-courses-101-102" target="_blank">Data Science Starter Bundle</a></p>
 
 <br>
 <hr>
