@@ -41,6 +41,8 @@ I began the 101 course showing students how the _Ultimate R Cheat Sheet_ works, 
 
 ## Student's Learned Faster Than Ever
 
+![How Learning Works with the Ultimate R Cheat Sheet](/assets/2019-05-30-r-cheat-sheet/learning_with_ultimate_r_cheatsheet.jpg)
+
 Students love the _Ultimate R Cheat Sheet_. They learn why each R package is important. They experience using each of the package-level cheat sheets and core references. They apply the R packages and key functions within those packages to solve business problems. ___Most importantly - The students learn where to go to find answers to their questions.___
 
 > The Cheat Sheet is a map. It shows you where to go for answers to your questions.
@@ -71,7 +73,7 @@ ___This builds confidence. This transforms people. This gets results.___
 
 I've learned a lot over the past 2 years of training 600+ students through the [Business Science University platform](https://university.business-science.io/) and through workshops at leading companies. What I've found is that Cheat Sheets are excellent training tools. 
 
-Over the past 2 years, I've seen ___one critical tool being requested___ more than any other for putting __machine learning models into the hands of decision makers__.
+I've seen ___one critical tool being requested___ more than any other for putting __machine learning models into the hands of decision makers__.
 
 <p class = "text-center" style="font-size:42px; color:blue;">Shiny!</p>
 
