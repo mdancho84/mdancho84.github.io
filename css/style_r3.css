@@ -556,6 +556,15 @@ li {
   border-radius: 4px;
   padding-top: 8px;
 }
+.create-account-block a {
+  color: #fff;
+  text-decoration: none;
+
+}
+.create-account-block h4, p {
+  line-height: 40px;
+}
+
 .large-img-rounded {
   border-radius: 50%;
   margin: auto;

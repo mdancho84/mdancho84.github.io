@@ -68,3 +68,37 @@
 <!-- Scrollmagic -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+
+
+<script>
+    function toggleCheatSheetDownload(value) {
+        if (value == "r") {
+            document.getElementById("download-default").style.display = "none";
+            document.getElementById("download-r").style.display = "block";
+            document.getElementById("download-python").style.display = "none";
+            document.getElementById("download-segmentation").style.display = "none";
+            document.getElementById("download-ml").style.display = "none";
+        }
+        if (value == "python") {
+            document.getElementById("download-default").style.display = "none";
+            document.getElementById("download-r").style.display = "none";
+            document.getElementById("download-python").style.display = "block";
+            document.getElementById("download-segmentation").style.display = "none";
+            document.getElementById("download-ml").style.display = "none";
+        }
+        if (value == "segmentation") {
+            document.getElementById("download-default").style.display = "none";
+            document.getElementById("download-r").style.display = "none";
+            document.getElementById("download-python").style.display = "none";
+            document.getElementById("download-segmentation").style.display = "block";
+            document.getElementById("download-ml").style.display = "none";
+        }
+        if (value == "ml") {
+            document.getElementById("download-default").style.display = "none";
+            document.getElementById("download-r").style.display = "none";
+            document.getElementById("download-python").style.display = "none";
+            document.getElementById("download-segmentation").style.display = "none";
+            document.getElementById("download-ml").style.display = "block";
+        }
+    }
+</script>
