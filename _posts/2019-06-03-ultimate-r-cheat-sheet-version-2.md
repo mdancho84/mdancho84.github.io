@@ -91,9 +91,15 @@ I created a BRAND NEW Page 2 - "Shinyverse" to help organize the main tools that
 
 > A new Page 2 - Shinyverse page: Added to provide a map to the main R Packages in the Shinyverse Ecosystem. 
 
-## I Teach How To Use Version 2.0
+<a href="https://www.business-science.io/r-cheatsheet.html" target="_blank">
+<img src="/assets/2019-05-30-r-cheat-sheet/ultimate_r_cheat_sheet_version_2.jpg" class="img-rounded pull-right" alt="R Cheat Sheet Toolbox" style="width:100%;"/></a>
+<p class="date text-center"><a href="https://www.business-science.io/r-cheatsheet.html" target="_blank">Shinyverse - New Page 2 of Cheat Sheet</a></p>
 
-If you are interested in learning how to build [___Predictive Web Applications with `Shiny`___](https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1/) then check out my new course. You will learn how to build web application with ___a focus on integrating machine learning.___ And yes, I do teach the `Shinyverse` cheat sheet in the course! 
+## Learn Shiny For Predictive Web Applications
+
+Learn how to build [___Predictive Web Applications with `Shiny`___ - My new course that streamlines the approach](https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1/).  You will learn how to build web application with ___a focus on integrating machine learning.___ You will follow a __streamlined learning system__ that implments __80/20 Tools__. And yes, I do teach the `Shinyverse` cheat sheet in the course! 
+
+<p class="text-center" style="font-size: 36px;"><a href="https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1/">Predictive Web Applications With Shiny Course</a></p>
 
 <br>
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/QOwgEK_c5Kg" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
