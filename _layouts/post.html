@@ -3,97 +3,71 @@ layout: default
 title: Post
 ---
 
-<!-- Blog Head -->
-<header id="post">
-	<section class="info" id="blog" style="padding-bottom: 40px;">
-		<div class= "container">
-			<div class="row">
-			    <!-- Blog Title -->
-			  	<div class="col-sm-9 col-xs-12 text-center">
-			  		<div class="text-center">
-					    <h1 style="margin-top: 20px !important;">{{ page.title }}</h1>
-					    <p><em>Written {% if page.author %} by {{ page.author }} {% endif %} on {{ page.date | date: "%B %e, %Y" }}</em></p>
-					    <!-- <p>Written on {{ page.date | date: "%B %e, %Y" }}</p> -->
-					    <p>{% include post-categories.html %}</p>
-					    <p>{% include post-tags.html %}</p>
+<!-- Cover Container -->
+<div class="container" style="padding-top:40px">
 
-					    <ul class="list-inline">
-					    	<!-- Facebook -->
-                            <li>
-                                <div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="box_count" data-size="small" data-mobile-iframe="true" style="bottom: 5px;"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse">Share</a></div>
-                            </li>
-                            <!-- LinkedIn -->
-                            <li>
-                                <script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
-                                <script type="IN/Share" data-counter="top"></script>
-                            </li>
-                            <!-- Google+ -->
-                            <li>
-                                <div class="g-plus" data-action="share" data-annotation="vertical-bubble" data-height="60"></div>
-                            </li>
-                    		<!-- Twitter -->
-                            <li>
-                                <a href="https://twitter.com/share" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-                            </li>
-                        </ul>
-					</div>
-					<hr style="border-color:#FFFFFF;" />
-					<br />
-
-					<!-- <div>
-						<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-						Blog-Top-1
-						<ins class="adsbygoogle"
-						     style="display:block"
-						     data-ad-client="ca-pub-8190393691755597"
-						     data-ad-slot="1616814268"
-						     data-ad-format="auto"></ins>
-						<script>
-						(adsbygoogle = window.adsbygoogle || []).push({});
-						</script>
-					</div> -->
-			  	</div>
-			  	
-			  	<!-- Business Science University -->
-			  	<div class="col-sm-3 col-xs-12">
-					<div class="text-center thumbnail">
-                        <div class="create-account-block ">
-                            <h4 class="text-primary">Learn Data Science</h4>
-                            <p class="text-primary" style="font-size:16px">Join hundreds of other data scientists</p>
-                            <a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1" class="btn btn-lg btn-info">Create Free Account</a>
-                        </div>
-                        <br/>
-                        <img class="img-responsive center-block" src="/img/homepage/r_python_spark.png" width="80%" style="max-width:250px;">
-                  </div>
-                </div>
-				<!-- End Business Science University -->
-			  </div>
-			  
-			  
-              <div class="row">
-    		    <br />
-                {% include blog_1_signup_3_free_course.html %}
-    		  </div>
-   
+	<div id="cover" class="row ">
+			<div class="col-md-8">
+					<h1 style="padding-bottom: 0px !important;" class="text-center">Business Science</h1>
+					<h2>Data Science Courses for Business</h2>
+					<p class="subtitle">
+							Learn the data science skills to <strong><em>accelerate your career</em></strong> in 5 months or less.
+					</p>
+					<p class="benefits hidden-xs hidden-sm" style="padding-top: 20px;">
+							Expert Instructors.&nbsp; High-Performance Tools.&nbsp; End-to-End Projects.
+					</p>
 			</div>
-	</section>
-</header>
+			
+			<div class="hidden-xs hidden-sm" style="padding-top:60px;"><!-- additional spacer for larger screen size--></div>
 
-<!-- CTA -->
+			<div class="col-md-4 text-center" style="padding-top:10px;">
+					<div class="thumbnail">
+							<div class="create-account-block">
+
+									<form>
+									<p style="font-family: ff-tisa-web-pro, serif;">Join over 15,000 data scientists</p>
+									<h4>GET OUR ULTIMATE<br>DATA SCIENCE<br>CHEAT SHEETS FOR FREE!</h4>
+									<p class="text-left" style="padding: 14px;">
+											<input name="cheatsheet-option" type="radio" onclick="toggleCheatSheetDownload('r');">&nbsp; Interested in R <br>
+											<input name="cheatsheet-option" type="radio" onclick="toggleCheatSheetDownload('python');">&nbsp; Interested in Python <br>
+											<input name="cheatsheet-option" type="radio" onclick="toggleCheatSheetDownload('segmentation');">&nbsp; Interested in Segmentation <br>
+											<input name="cheatsheet-option" type="radio" onclick="toggleCheatSheetDownload('ml');">&nbsp; Interested in Machine Learning
+									</p>
+									<div id="download-default">
+											<a id="cheatsheet-download" data-sumome-listbuilder-id="" class="btn btn-lg btn-info" style="color:#fff;">Click Here to Download!</a>
+									</div>
+									<div id="download-r" style="display: none;">
+											<a id="cheatsheet-download" data-sumome-listbuilder-id="6a54f0f0-90ea-4488-bddd-1f583c280dca" class="btn btn-lg btn-info" style="color:#fff;">Click Here to Download!</a>
+									</div>
+									<div id="download-python" style="display: none;">
+											<a id="cheatsheet-download" data-sumome-listbuilder-id="a411aca8-9fa9-4774-8e48-daeb1a34a8a1" class="btn btn-lg btn-info" style="color:#fff;">Click Here to Download!</a>
+									</div>
+									<div id="download-segmentation" style="display: none;">
+											<a id="cheatsheet-download" data-sumome-listbuilder-id="d72caf53-29f8-4543-a5bb-5adf5e7fa396" class="btn btn-lg btn-info" style="color:#fff;">Click Here to Download!</a>
+									</div>
+									<div id="download-ml" style="display: none;">
+											<a id="cheatsheet-download" data-sumome-listbuilder-id="b48252d6-16f8-4cb8-a817-5778e4c938ee" class="btn btn-lg btn-info" style="color:#fff;">Click Here to Download!</a>
+									</div>
+									</form>
+									
+							</div>
+					</div>
+			</div>
+	</div>
+
+</div> <!-- end Cover Container -->
+
+<br />
+<br />
+
+{% include blog_1_signup_3_free_course.html %}
 
 
-<!-- <div class="container">
-    <div class="row">
-        <br>
-        <div class="col-sm-9 col-xs-12 text-center shadow">
-        <h3 class="text-center" style="padding-bottom:0px;">Master Data Science for Business. Learn about our </h3>
-        <h3 style="margin-top:0px !important;"><a href="#curriculum">3-Course R-Track Curriculum</a> below.</h3>
-        <br>
-        </div>
-    </div>
-    
-</div>-->
-<!-- END CTA -->
+
+<br />
+<hr />
+
+
 
 <!-- Blog Body -->
 <section id="blog">
@@ -103,6 +77,12 @@ title: Post
     <div class="row">
     	<!-- Main Content -->
     	<div class="col-md-9 col-md-offset-0" role="main">
+
+				<h1 style="margin-top: 20px !important;">{{ page.title }}</h1>
+				<p><em>Written {% if page.author %} by {{ page.author }} {% endif %} on {{ page.date | date: "%B %e, %Y" }}</em></p>
+
+				<br>
+
 	  		<p><img class="shadow" src="/assets/{{page.image}}" style="margin-top: 0px;"></p>
 	  		<hr class="margin-bottom-40">
 	    	{{ content }}
