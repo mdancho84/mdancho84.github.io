@@ -12,7 +12,7 @@ image_preview: 2019-06-09-wedding-app/data_science_wedding_risk_model.jpg
 
 
 
-It continues to amaze us at the _progress_ that our students are making in applying data science in the real world. [__Bryan Clark (LinkedIn)__](https://www.linkedin.com/in/bryan-clark-b38470b/), Data Scientist with H&amp;M and student in our [___Business Science University DS4B 201-R course___](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) has successfully applied the [BSPF Framework](https://www.business-science.io/business/2018/06/19/business-science-problem-framework.html) (our data science project-management methodology applied in the DS4B 201-R course) to model the cost and risk of his forthcoming wedding (_congratulations on getting married!!_). In this article, Bryan presents his amazing analysis that led to the development of a minimum viable product: [A Wedding Invitation Risk Modeling Application](https://bclark.shinyapps.io/WeddingRiskModel_App/). Way to go Bryan!
+It continues to amaze us at the _progress_ that our students are making in applying data science in the real world. [__Bryan Clark (LinkedIn)__](https://www.linkedin.com/in/bryan-clark-b38470b/), Data Scientist with H&amp;M and student in our [___Business Science University DS4B 201-R course___](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) has successfully applied the [BSPF Framework](https://www.business-science.io/business/2018/06/19/business-science-problem-framework.html) (our data science project-management methodology applied in the DS4B 201-R course) to model the cost and risk of his forthcoming wedding (_congratulations on getting married!!_). In this article, Bryan presents his amazing analysis that led to the development of a minimum viable product: [A Wedding Invitation Risk Modeling Application](https://bclark.shinyapps.io/WeddingRiskModel_App/) using `R` and `Shiny`. Way to go Bryan!
 
 
 # Summary
@@ -403,81 +403,81 @@ guest_sim_tbl %>%
 <tbody>
   <tr>
    <td style="text-align:right;"> 1 </td>
-   <td style="text-align:right;"> 104 </td>
-   <td style="text-align:right;"> 28750 </td>
-   <td style="text-align:right;"> 1350 </td>
+   <td style="text-align:right;"> 97 </td>
+   <td style="text-align:right;"> 27875 </td>
+   <td style="text-align:right;"> 2225 </td>
    <td style="text-align:left;"> No </td>
    <td style="text-align:left;"> Invite All </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 2 </td>
-   <td style="text-align:right;"> 103 </td>
-   <td style="text-align:right;"> 28625 </td>
-   <td style="text-align:right;"> 1475 </td>
+   <td style="text-align:right;"> 114 </td>
+   <td style="text-align:right;"> 30000 </td>
+   <td style="text-align:right;"> 100 </td>
    <td style="text-align:left;"> No </td>
    <td style="text-align:left;"> Invite All </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 3 </td>
-   <td style="text-align:right;"> 115 </td>
-   <td style="text-align:right;"> 30125 </td>
-   <td style="text-align:right;"> -25 </td>
+   <td style="text-align:right;"> 119 </td>
+   <td style="text-align:right;"> 30625 </td>
+   <td style="text-align:right;"> -525 </td>
    <td style="text-align:left;"> Yes </td>
    <td style="text-align:left;"> Invite Less </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:right;"> 136 </td>
-   <td style="text-align:right;"> 32750 </td>
-   <td style="text-align:right;"> -2650 </td>
-   <td style="text-align:left;"> Yes </td>
-   <td style="text-align:left;"> Invite Less </td>
+   <td style="text-align:right;"> 93 </td>
+   <td style="text-align:right;"> 27375 </td>
+   <td style="text-align:right;"> 2725 </td>
+   <td style="text-align:left;"> No </td>
+   <td style="text-align:left;"> Invite All </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 5 </td>
-   <td style="text-align:right;"> 100 </td>
-   <td style="text-align:right;"> 28250 </td>
-   <td style="text-align:right;"> 1850 </td>
-   <td style="text-align:left;"> No </td>
-   <td style="text-align:left;"> Invite All </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 6 </td>
-   <td style="text-align:right;"> 120 </td>
-   <td style="text-align:right;"> 30750 </td>
-   <td style="text-align:right;"> -650 </td>
+   <td style="text-align:right;"> 128 </td>
+   <td style="text-align:right;"> 31750 </td>
+   <td style="text-align:right;"> -1650 </td>
    <td style="text-align:left;"> Yes </td>
    <td style="text-align:left;"> Invite Less </td>
   </tr>
   <tr>
-   <td style="text-align:right;"> 7 </td>
-   <td style="text-align:right;"> 102 </td>
-   <td style="text-align:right;"> 28500 </td>
-   <td style="text-align:right;"> 1600 </td>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 85 </td>
+   <td style="text-align:right;"> 26375 </td>
+   <td style="text-align:right;"> 3725 </td>
    <td style="text-align:left;"> No </td>
    <td style="text-align:left;"> Invite All </td>
   </tr>
   <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 126 </td>
+   <td style="text-align:right;"> 31500 </td>
+   <td style="text-align:right;"> -1400 </td>
+   <td style="text-align:left;"> Yes </td>
+   <td style="text-align:left;"> Invite Less </td>
+  </tr>
+  <tr>
    <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 110 </td>
-   <td style="text-align:right;"> 29500 </td>
-   <td style="text-align:right;"> 600 </td>
+   <td style="text-align:right;"> 87 </td>
+   <td style="text-align:right;"> 26625 </td>
+   <td style="text-align:right;"> 3475 </td>
    <td style="text-align:left;"> No </td>
    <td style="text-align:left;"> Invite All </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 9 </td>
-   <td style="text-align:right;"> 90 </td>
-   <td style="text-align:right;"> 27000 </td>
-   <td style="text-align:right;"> 3100 </td>
+   <td style="text-align:right;"> 112 </td>
+   <td style="text-align:right;"> 29750 </td>
+   <td style="text-align:right;"> 350 </td>
    <td style="text-align:left;"> No </td>
    <td style="text-align:left;"> Invite All </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 10 </td>
-   <td style="text-align:right;"> 104 </td>
-   <td style="text-align:right;"> 28750 </td>
-   <td style="text-align:right;"> 1350 </td>
+   <td style="text-align:right;"> 101 </td>
+   <td style="text-align:right;"> 28375 </td>
+   <td style="text-align:right;"> 1725 </td>
    <td style="text-align:left;"> No </td>
    <td style="text-align:left;"> Invite All </td>
   </tr>
