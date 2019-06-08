@@ -24,13 +24,13 @@ It continues to amaze us at the _progress_ that our students are making in apply
 - __Data Product (Web Application):__ Bryan used the `R` code developed in this tutorial to build a _Wedding Invitation Risk Modeling Application_ using `R` `Shiny`. 
 
 <p style="text-align:center;">
-<a href="https://bclark.shinyapps.io/WeddingRiskModel_App/">
+<a href="https://bclark.shinyapps.io/WeddingRiskModel_App/" target="_blank">
 <img src="/assets/2019-06-09-wedding-app/wedding_app_preview.png" alt="Wedding Risk Web Application" style="width:80%;">
 </a>
 </p>
 
 <p class="text-center date">
-<a href="https://bclark.shinyapps.io/WeddingRiskModel_App/">
+<a href="https://bclark.shinyapps.io/WeddingRiskModel_App/" target="_blank">
 Wedding Risk Web Application (Demo Here)
 </a>
 </p>
@@ -154,7 +154,7 @@ In doing initial research, the main outcomes of going over budget is underestima
 
 The objective at the time invites are sent out are to make sure that all the right people are invited, but at the same time ensure that unexpected costs do not pop up because too many people RSVP _yes_. 
 
-There are a few drivers that lead to the uncertainty of guest attendance. These factors are the distance to the wedding, cost of of attendance (e.g. hotel & travel), availability of the guest based on the time of year, and the strength of the relationship between the guest and the couple. 
+There are a few drivers that lead to the uncertainty of guest attendance. These factors are the distance to the wedding, cost of of attendance (e.g. hotel &amp; travel), availability of the guest based on the time of year, and the strength of the relationship between the guest and the couple. 
 
 #### 2.2 Synthesize Outcomes
 
@@ -403,38 +403,54 @@ guest_sim_tbl %>%
 <tbody>
   <tr>
    <td style="text-align:right;"> 1 </td>
-   <td style="text-align:right;"> 117 </td>
-   <td style="text-align:right;"> 30375 </td>
-   <td style="text-align:right;"> -275 </td>
-   <td style="text-align:left;"> Yes </td>
-   <td style="text-align:left;"> Invite Less </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 2 </td>
-   <td style="text-align:right;"> 129 </td>
-   <td style="text-align:right;"> 31875 </td>
-   <td style="text-align:right;"> -1775 </td>
-   <td style="text-align:left;"> Yes </td>
-   <td style="text-align:left;"> Invite Less </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 3 </td>
-   <td style="text-align:right;"> 93 </td>
-   <td style="text-align:right;"> 27375 </td>
-   <td style="text-align:right;"> 2725 </td>
+   <td style="text-align:right;"> 104 </td>
+   <td style="text-align:right;"> 28750 </td>
+   <td style="text-align:right;"> 1350 </td>
    <td style="text-align:left;"> No </td>
    <td style="text-align:left;"> Invite All </td>
   </tr>
   <tr>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 103 </td>
+   <td style="text-align:right;"> 28625 </td>
+   <td style="text-align:right;"> 1475 </td>
+   <td style="text-align:left;"> No </td>
+   <td style="text-align:left;"> Invite All </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 3 </td>
+   <td style="text-align:right;"> 115 </td>
+   <td style="text-align:right;"> 30125 </td>
+   <td style="text-align:right;"> -25 </td>
+   <td style="text-align:left;"> Yes </td>
+   <td style="text-align:left;"> Invite Less </td>
+  </tr>
+  <tr>
    <td style="text-align:right;"> 4 </td>
-   <td style="text-align:right;"> 121 </td>
-   <td style="text-align:right;"> 30875 </td>
-   <td style="text-align:right;"> -775 </td>
+   <td style="text-align:right;"> 136 </td>
+   <td style="text-align:right;"> 32750 </td>
+   <td style="text-align:right;"> -2650 </td>
    <td style="text-align:left;"> Yes </td>
    <td style="text-align:left;"> Invite Less </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 100 </td>
+   <td style="text-align:right;"> 28250 </td>
+   <td style="text-align:right;"> 1850 </td>
+   <td style="text-align:left;"> No </td>
+   <td style="text-align:left;"> Invite All </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 120 </td>
+   <td style="text-align:right;"> 30750 </td>
+   <td style="text-align:right;"> -650 </td>
+   <td style="text-align:left;"> Yes </td>
+   <td style="text-align:left;"> Invite Less </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
    <td style="text-align:right;"> 102 </td>
    <td style="text-align:right;"> 28500 </td>
    <td style="text-align:right;"> 1600 </td>
@@ -442,28 +458,12 @@ guest_sim_tbl %>%
    <td style="text-align:left;"> Invite All </td>
   </tr>
   <tr>
-   <td style="text-align:right;"> 6 </td>
-   <td style="text-align:right;"> 122 </td>
-   <td style="text-align:right;"> 31000 </td>
-   <td style="text-align:right;"> -900 </td>
-   <td style="text-align:left;"> Yes </td>
-   <td style="text-align:left;"> Invite Less </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 7 </td>
-   <td style="text-align:right;"> 88 </td>
-   <td style="text-align:right;"> 26750 </td>
-   <td style="text-align:right;"> 3350 </td>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 110 </td>
+   <td style="text-align:right;"> 29500 </td>
+   <td style="text-align:right;"> 600 </td>
    <td style="text-align:left;"> No </td>
    <td style="text-align:left;"> Invite All </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 8 </td>
-   <td style="text-align:right;"> 121 </td>
-   <td style="text-align:right;"> 30875 </td>
-   <td style="text-align:right;"> -775 </td>
-   <td style="text-align:left;"> Yes </td>
-   <td style="text-align:left;"> Invite Less </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 9 </td>
@@ -475,11 +475,11 @@ guest_sim_tbl %>%
   </tr>
   <tr>
    <td style="text-align:right;"> 10 </td>
-   <td style="text-align:right;"> 128 </td>
-   <td style="text-align:right;"> 31750 </td>
-   <td style="text-align:right;"> -1650 </td>
-   <td style="text-align:left;"> Yes </td>
-   <td style="text-align:left;"> Invite Less </td>
+   <td style="text-align:right;"> 104 </td>
+   <td style="text-align:right;"> 28750 </td>
+   <td style="text-align:right;"> 1350 </td>
+   <td style="text-align:left;"> No </td>
+   <td style="text-align:left;"> Invite All </td>
   </tr>
 </tbody>
 </table>
@@ -551,7 +551,7 @@ plot_guest_count <- function(simulation_tbl) {
 plot_guest_count(guest_sim_tbl)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-10](/figure/source/2019-06-09-Wedding-Risk-Model-App/unnamed-chunk-10-1.png)
+![plot of chunk unnamed-chunk-9](/figure/source/2019-06-09-Wedding-Risk-Model-App/unnamed-chunk-9-1.png)
 
 ##### 6.3.2 Plot Cost
 
@@ -587,7 +587,7 @@ plot_cost <- function(simulation_tbl, variable_guest_cost = 125) {
 plot_cost(guest_sim_tbl)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-12](/figure/source/2019-06-09-Wedding-Risk-Model-App/unnamed-chunk-12-1.png)
+![plot of chunk unnamed-chunk-10](/figure/source/2019-06-09-Wedding-Risk-Model-App/unnamed-chunk-10-1.png)
 
 ##### 6.3.3 Plot Risk
 
@@ -636,7 +636,7 @@ plot_risk <- function(simulation_tbl, variable_guest_cost = 125) {
 plot_risk(guest_sim_tbl)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-14](/figure/source/2019-06-09-Wedding-Risk-Model-App/unnamed-chunk-14-1.png)
+![plot of chunk unnamed-chunk-11](/figure/source/2019-06-09-Wedding-Risk-Model-App/unnamed-chunk-11-1.png)
 
 ##### 6.3.4 Plot Recommendation
 
@@ -684,7 +684,7 @@ plot_recommendation <- function(simulation_tbl, risk_tolerance) {
 plot_recommendation(guest_sim_tbl, risk_tolerance)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-16](/figure/source/2019-06-09-Wedding-Risk-Model-App/unnamed-chunk-16-1.png)
+![plot of chunk unnamed-chunk-12](/figure/source/2019-06-09-Wedding-Risk-Model-App/unnamed-chunk-12-1.png)
 
 ### 7. Report Financial Impact
 
@@ -713,13 +713,13 @@ Whether in RMarkdown or Shiny, this would be a nice value-add feature.
 The working minimum viable product created from this analysis can be found [here](https://bclark.shinyapps.io/WeddingRiskModel_App/).
 
 <p style="text-align:center;">
-<a href="https://bclark.shinyapps.io/WeddingRiskModel_App/">
+<a href="https://bclark.shinyapps.io/WeddingRiskModel_App/" target="_blank">
 <img src="/assets/2019-06-09-wedding-app/wedding_app_preview.png" alt="Wedding Risk Web Application" style="width:80%;">
 </a>
 </p>
 
 <p class="text-center date">
-<a href="https://bclark.shinyapps.io/WeddingRiskModel_App/">
+<a href="https://bclark.shinyapps.io/WeddingRiskModel_App/" target="_blank">
 Wedding Risk Web Application (Demo Here)
 </a>
 </p>
@@ -731,7 +731,7 @@ I'd like to acknowledge the follow list of people/organizations for helping to i
 
 + My soon-to-be wife for being my muse and soundboard
 + [Boston University MSc. Applied Business Analytics](https://www.bu.edu/online/programs/graduate-programs/applied-business-analytics/): [AD 616 Enterprise Risk Analytics](https://www.bu.edu/online/programs/graduate-programs/applied-business-analytics/#curriculum)
-+ [Business Science](https://www.business-science.io/) & [Matt Dancho](https://www.linkedin.com/in/mattdancho/)
++ [Business Science](https://www.business-science.io/) &amp; [Matt Dancho](https://www.linkedin.com/in/mattdancho/)
 + [Analytics Lifecycle Toolkit](https://www.wiley.com/en-us/The+Analytics+Lifecycle+Toolkit%3A+A+Practical+Guide+for+an+Effective+Analytics+Capability-p-9781119425069)
 
 
