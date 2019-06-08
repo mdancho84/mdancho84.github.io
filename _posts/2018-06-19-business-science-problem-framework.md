@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How To Successfully Manage A Data Science Project For Businesses: The Business Science Problem Framework"
+title: "How To Successfully Manage A Data Science Project: The Business Science Problem Framework"
 author: "Matt Dancho"
 date:   2018-06-19 22:45:01
 categories: [Business]
@@ -10,16 +10,9 @@ image: 2018-06-19_BSPF/Business Science Problem Framework.png
 
 
 
-__Data Scientists want to run successful projects. However, the sad fact is that most data science projects in organizations fail.__ It's not because of lack of skill or knowledge. Data science projects need a clear and effective plan of attack to be successful. As data scientists, we study a wide array of tools: advanced algorithms, knowledge of statistics, and even programming skills. However, if you're like us, you've had to learn how to successfully manage a project through trial and error. Fortunately, we've learned a lot over the past several years working with clients, and we've integrated the best resources into __one streamlined framework to make your life easier: [The Business Science Project Framework](/bspf.html)!__ In this article, we'll cover the basics showing you __how the BSPF helps as a guide for successful data science projects following a Customer Churn Problem example__. [__Download the BPSF for FREE here__](/bspf.html). 
+__Data Scientists want to run successful projects. However, the sad fact is that most data science projects in organizations fail.__ It's not because of lack of skill or knowledge. Data science projects need a clear and effective plan of attack to be successful. As data scientists, we study a wide array of tools: advanced algorithms, knowledge of statistics, and even programming skills. 
 
-
-## Articles In this Series
-
-- __Agile BSPF Framework__: [Agile Framework For Creating An ROI-Driven Data Science Practice](http://www.business-science.io/business/2018/08/21/agile-business-science-problem-framework.html)
-
-- __BSPF Framework__: [How To Successfully Manage A Data Science Project: The BSPF](http://www.business-science.io/business/2018/06/19/business-science-problem-framework.html)
-
-- __Expected Value Framework__: [3 Reasons You Need To Learn The Expected Value Framework](http://www.business-science.io/business/2018/07/11/expected-value-framework-data-science.html)
+If you're like us, you've had to learn how to successfully manage a project through trial and error. Fortunately, we've learned a lot over the past several years working with clients, and we've integrated the best resources into __one streamlined framework to make your life easier: [The Business Science Project Framework](/bspf.html)!__ In this article, we'll cover the basics showing you __how the BSPF helps as a guide for successful data science projects following a Customer Churn Problem example__. [__Download the BPSF for FREE here__](/bspf.html). 
 
 
 ## Learning Tragectory
@@ -30,90 +23,41 @@ In this article, you'll learn:
 
 - [Where to find the BSPF](#get-bspf)
 
-- [How the BSPF works](#bspf-structure)
+- [How the BSPF works - 2 Parts](#bspf-structure)
 
-- [How to use the BSPF following a Customer Churn Example](#bspf-customer-churn)
+- [How to use the BSPF - 7 Phases - Customer Churn Example](#bspf-customer-churn)
+
+- [BSPF - Proven Results](#proof)
+
+
 
 ## What It Takes To Succeed <a class="anchor" id="succeed"></a>
 
 __A successful data science project doesn't happen by accident__. It takes: 
 
-- Communication to effectively pitch a benefits to executives showing the results that relate to organizational goals
+- __Communication__ to effectively pitch a benefits to executives showing the results that relate to organizational goals
 
-- Business understanding, which only happens through interaction with the business stakeholders that are closest to the process or problem
+- __Business understanding__, which only happens through interaction with the business stakeholders that are closest to the process or problem
 
-- Planning to align everyone involved with the project scope and plan
+- __Planning__ to align everyone involved with the project scope and plan
 
-- A checklist of proven actions that must be considered
+- A checklist of __proven actions__ that must be considered
 
 The __single most effective resource__ in our arsenal is a special project framework that we've designed, pooling from our consulting experience and combining with proven project management resources and philosophies. It's called the [__Business Science Project Framework (BSPF)__](/bspf.html). 
 
 <p style="text-align:center;">
 <a href="/bspf.html">
-<img src="/assets/2018-06-19_BSPF/Business Science Problem Framework.png" alt="Business Science Problem Framework" style="width:50%;">
+<img src="/assets/2018-06-19_BSPF/Business Science Problem Framework.png" alt="Business Science Problem Framework" style="width:80%;">
 </a>
 </p>
 
-<p class="text-center date">Business Science Problem Framework (BSPF)</p>
+<p class="text-center date"><a href="/bspf.html">Business Science Problem Framework (BSPF)</a></p>
+
+<span data-sumome-listbuilder-embed-id="8468e41ba6a07a883ba88632b8a12a4b6c366dde664c4965ec5f6bcce9f202c7"></span>
 
 We think the BSPF is great as a systematic plan of attack, but it's more than just us. It's been validated based on client and, now, student feedback. 
 
-## A Client And Student Proven System
 
-At _Business Science_, we've been using the BSPF in the wild with clients for some time. We noticed that we were repeating many of the same activities as we were diving into various clients data science projects. We began keeping track of the steps we were following as we completed projects. Eventually, we formalized our process, calling it the _Business Science Problem Framework_. Clients loved the BSPF because it put a clear path forward. We loved it because it systemized our problem-solving method, making results more repeatable. Win-Win!
-
-__We've recently began teaching the BSPF in our [Data Science For Business (DS4B 201-R) Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15) that is part of [Business Science University](https://university.business-science.io).__ To summarize the student's feedback in one word: __AMAZING!__ The BSPF is one of the most loved aspects of the course because they _"finally get a framework that they can follow tying data science to the business"_.  Here's specifically what the two of the students have said:
-
-> _"Data Science For Business (DS4B 201-R) is the first course that gives me a CLEAR FRAMEWORK to apply data science to Business Intelligence!"_
->
-> ~ Renaud Liber, Business/Data Analyst, Napoleon Games NV
-
-> _"I took away a repeatable methodology and project structure that can be used to solve future business problems using data science"_
->
-> ~ David Curry, CTO, Africa Talent Management
-
-Why do the students love it? One word: Results
-
-### Results 
-
-Before we dive into the BSPF, let us first explain the __incredible results__ that this methodology has generated. At the end of the day, results are what the organization cares about. Let's put the results first then.
-
-A recent success story is that of [Rodrigo Prado](https://www.linkedin.com/in/rodrigo-prado-90b55522/). Rodrigo is a high-end data science consultant and graduate of the prestigious [University of Columbia Masters of Science in Applied Analytics](http://sps.columbia.edu/applied-analytics/master-of-science-in-applied-analytics). While the program was very good, Rodrigo left with a knowledge gap still present not fully enabling him to connect data science to the business.
-
-> _While the program was very good, Rodrigo left with a knowledge gap still present not fully enabling him to connect data science to the business._
-
-He read an article about the [Business Science Problem Framework](http://www.business-science.io/business/2018/06/19/business-science-problem-framework.html), and immediately signed up for our [Data Science For Business With R (DS4B 201-R) course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15).
-
-Through his company, [Genesis Partners](https://www.linkedin.com/company/genesis-partnerscl/), Rodrigo has since implemented the BSPF on 3 projects. __According to Rodrigo, the BSPF has cut his time-to-deliver data science projects in half!__
-
-Let's think about this for a minute. Half. That's 50% of the time it used to take to complete a project. This means Rodrigo just doubled his effeciency. If he was generating 10X ROI as a consultant, __he's now generating 20X ROI__ just by implementing our BSPF framework!
-
-If interested, you can listen to his [2-minute testimonial](https://youtu.be/yw5CtGTzIw0).
-
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/yw5CtGTzIw0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
-<br>
-<hr>
-
-<h2 class="text-center">Experience The Data Science Course That Cut Rodrigo's Time-To-Deliver In Half</h2>
-
-<p class="text-center">
-If you're interested in learning how to apply critical thinking and BSPF while solving a real-world business problem following an end-to-end data science project, check out <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Data Science For Business With R(DS4B 201-R)</strong></a>. Over the course of 10 weeks you will solve an <strong>end-to-end Employee Churn data science project following our systematic Business Science Problem Framework</strong>.
-</p>
-
-<p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-<img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
-</a>
-</p>
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
-</p>
-
-<hr>
-<br>
 
 ## The Goal: Systematic Decision Making
 
@@ -144,26 +88,25 @@ The BSPF allows us to go from identifying business problems to making systematic
 </a>
 </p>
 
-<p class="text-center date">Business Science Problem Framework (BSPF)</p>
+<p class="text-center date"><a href="/bspf.html">Business Science Problem Framework (BSPF)</a></p>
 
-
+<span data-sumome-listbuilder-embed-id="1e13d987ad901ab4571b6d92bb2ab8a2230c397b886c1fd49eba5392ed5c88cb"></span>
 
 ## Combining Decision Making And Project Management Tools
 
 The BSPF combines three tools making it both high level and detailed while being built on experience:
 
-- [Business Science Experience](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15): Our own internal learnings that have been incorporated into a course available for students that want to learn [Data Science For Business (DS4B)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15). From how to setup a data science project to how to show financial impact and size the business problem in terms executives need to see.  
+- [Business Science Experience](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/): Our own internal learnings that have been incorporated into a course available for students that want to learn [Data Science For Business (DS4B)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/). From how to setup a data science project to how to show financial impact and size the business problem in terms executives need to see.  
 
 - [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining): A high-level data mining project framework that generalizes well to any data science project, but lacks critical details for business problems.
 
 - [Principles by Ray Dalio](https://www.principles.com/): A great book that touches on so many learnings that Ray Dalio, Founder of Bridgewatter Capital, has learned through successes and failures. The learning and business analysis philosophy has been incorporated into the BSPF. 
 
 
-> In our [Data Science For Business (DS4B 201 / HR 201) course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15), we show you how to implement the [Business Science Problem Framework](/bspf.html) process, and you will leave with a template and the knowledge to make an impact on your organization by making the best use of your organization's data.
+> In our [Data Science For Business (DS4B 201 / HR 201) course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/), we show you how to implement the [Business Science Problem Framework](/bspf.html) process, and you will leave with a template and the knowledge to make an impact on your organization by making the best use of your organization's data.
 >
->~ Matt Dancho, Founder of Business Science // Instructor Of DS4B 201
+>- Matt Dancho, Founder of Business Science // Instructor Of DS4B 201
 
-<span data-sumome-listbuilder-embed-id="1e13d987ad901ab4571b6d92bb2ab8a2230c397b886c1fd49eba5392ed5c88cb"></span>
 
 ## How The BSPF Works <a class="anchor" id="bspf-structure"></a>
 
@@ -347,9 +290,9 @@ The key steps in this phase are:
 
 First, _develop algorithms_ using advanced tools like H2O Automated Machine Learning and LIME for black-box model explanations. 
 
-- H2O is a great option because of __Automated Machine Learning (AutoML)__, which we teach in [Data Science For Business (DS4B 201 / HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15). Automated machine learning is fast and develops highly accurate models, saving the data scientist time. 
+- H2O is a great option because of __Automated Machine Learning (AutoML)__, which we teach in [Data Science For Business (DS4B 201 / HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/). Automated machine learning is fast and develops highly accurate models, saving the data scientist time. 
 
-- LIME is used to explain deep learning, random forest, and stacked ensembles, which are traditionally unexplainable. We also teach LIME as part of [Data Science For Business (DS4B 201 / HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15).
+- LIME is used to explain deep learning, random forest, and stacked ensembles, which are traditionally unexplainable. We also teach LIME as part of [Data Science For Business (DS4B 201 / HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/).
 
 ![Algorithm Development](/assets/2018-06-19_BSPF/prediction.png)
 <p class="text-center date">Sample H2O + LIME Algorithm, Taught in DS4B 201</p>
@@ -367,8 +310,8 @@ Last, build _recommendation algorithms_ that incorporate feedback from SME's alo
 
 Once a systematic decision making algorithm is developed it's time to deploy into the wild and measure results. Here's an example of a web application built with `Shiny` that is taught in our forthcoming course on building ML-powered web applications.
 
-![HR 301 Shiny Application: Employee Prediction](/img/hr_301_app.png) 
-<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in DS4B 301</p>
+![HR 202 Shiny Application: Employee Prediction](/img/hr_301_app.png) 
+<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in DS4B 202</p>
 
 ### Phase 6: Measure The Results
 
@@ -408,86 +351,89 @@ Here's an example of charts that now show the net profit and cumulative net prof
 
 <p class="text-center date">Measuring Return On Investment (ROI)</p>
 
+## A Proven System <a class="anchor" id="proof"></a>
+
+At _Business Science_, we've been using the BSPF in the wild with clients for some time. We were repeating many of the same activities as we were diving into data science projects. We began keeping track of the steps we were following as we completed projects. Eventually, we formalized our process, calling it the _Business Science Problem Framework_. 
+
+Clients love the BSPF because it put a clear path forward - they saw all of the steps required, where there input would be needed, and understood why the project would take several weeks to complete. 
+
+We love the BSPF because it systemized our problem-solving method, making results more repeatable. Win-Win!
+
+__We've recently began teaching the BSPF in our [Data Science For Business (DS4B 201-R) Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/) that is part of [Business Science University](https://university.business-science.io).__ 
+
+To summarize the student's feedback in one word: __AMAZING!__ The BSPF is one of the most loved aspects of the course because they _"finally get a framework that they can follow tying data science to the business"_.  Here's specifically what the two of the students have said:
+
+> _"Data Science For Business (DS4B 201-R) is the first course that gives me a CLEAR FRAMEWORK to apply data science to Business Intelligence!"_
+>
+> Renaud Liber, Business/Data Analyst, Napoleon Games NV
+
+> _"I took away a repeatable methodology and project structure that can be used to solve future business problems using data science"_
+>
+> David Curry, CTO, Africa Talent Management
+
+Why do the students love it? One word...
+
+## Results 
+
+Before we dive into the BSPF Framework, let us first explain the __incredible results__ that this methodology has generated. At the end of the day, results are what the organization cares about. Let's put the results first then.
+
+A recent success story is that of [Rodrigo Prado](https://www.linkedin.com/in/rodrigo-prado-90b55522/). Rodrigo is a high-end data science consultant and graduate of the prestigious [University of Columbia Masters of Science in Applied Analytics](http://sps.columbia.edu/applied-analytics/master-of-science-in-applied-analytics). While the program was very good, Rodrigo left with a knowledge gap still present not fully enabling him to connect data science to the business.
+
+> _While the program was very good, Rodrigo left with a knowledge gap still present not fully enabling him to connect data science to the business._
+
+He read an article about the [Business Science Problem Framework](http://www.business-science.io/business/2018/06/19/business-science-problem-framework.html), and immediately signed up for our [Data Science For Business With R (DS4B 201-R) course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover).
+
+Through his company, [Genesis Partners](https://www.linkedin.com/company/genesis-partnerscl/), Rodrigo has since implemented the BSPF on 3 projects. __According to Rodrigo, the BSPF has cut his time-to-deliver data science projects in half!__
+
+Let's think about this for a minute. Half. That's 50% of the time it used to take to complete a project. This means Rodrigo just doubled his effeciency. If he was generating 10X ROI as a consultant, __he's now generating 20X ROI__ just by implementing our BSPF framework!
+
+If interested, you can listen to his [2-minute testimonial](https://youtu.be/yw5CtGTzIw0).
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/yw5CtGTzIw0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+<br>
+<hr>
+
+<h2 class="text-center">Experience The Data Science Course That Cut Rodrigo's Time-To-Deliver In Half</h2>
+
+<p class="text-center">
+If you're interested in learning how to apply critical thinking and BSPF while solving a real-world business problem following an end-to-end data science project, check out <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover"><strong>Data Science For Business With R (DS4B 201-R)</strong></a>. Over the course of 10 weeks you will solve an <strong>end-to-end Employee Churn data science project following our systematic Business Science Problem Framework</strong>.
+</p>
+
+<p style="text-align:center;">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover">
+<img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
+</a>
+</p>
+
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover"><strong>Start Learning Today!</strong></a> 
+</p>
+
+<hr>
+<br>
+
 ## Next Steps
 
-If you've enjoyed learning about the [Business Science Problem Framework](/bspf.html) and are ready to take the next step with a real-world employee attrition problem, then take our [Data Science For Business (DS4B 201 / HR 201) Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15)! It has a student satisfaction rating of 9.1/10, and students are learning how to apply data science to business using R code, the _Business Science Problem Framework_, and more! Check out the trailer below.
+If you've enjoyed learning about the [Business Science Problem Framework](/bspf.html) and are ready to take the next step with a real-world employee attrition problem, then take our [Data Science For Business (DS4B 201-R) Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/)! It has a student satisfaction rating of 9.1/10, and students are learning how to apply data science to business using R code, the _Business Science Problem Framework_, and more! Check out the trailer below.
 
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/lyWxrhaBJ38" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Announcements
+<br>
 
-Matt was recently on [Episode 165 of the SuperDataScience Podcast](https://www.superdatascience.com/data-science-community/165/). In his second appearance (also was on [Episode 109](https://www.superdatascience.com/sds-109-business-consultancy-space-data-science/) where he spoke about the transition to data science), he talks about giving back to the data science community if the form of education, open source software, and blogging!
+<p class="text-center">
+If you're interested in learning how to apply critical thinking and BSPF while solving a real-world business problem following an end-to-end data science project, check out <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover"><strong>Data Science For Business With R (DS4B 201-R)</strong></a>. Over the course of 10 weeks you will solve an <strong>end-to-end Employee Churn data science project following our systematic Business Science Problem Framework</strong>.
+</p>
 
-![SuperDataScience Episode 165](/assets/2018-06-19_BSPF/sds165.png)
+<p style="text-align:center;">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover">
+<img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
+</a>
+</p>
 
-## Business Science University  <a class="anchor" id="bsu"></a>
+<p class="text-center" style="font-size:30px;">
+<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover"><strong>Start Learning Today!</strong></a> 
+</p>
 
-If you are looking to take the next step and learn __Data Science For Business (DS4B)__, [Business Science University](https://university.business-science.io/) is for you! Our goal is to __empower data scientists__ through teaching the tools and techniques we implement every day. You'll learn:
-
-- Data Science Framework: [Business Science Problem Framework](/bspf.html)
-- Tidy Eval
-- H2O Automated Machine Learning
-- LIME Feature Explanations
-- Sensitivity Analysis
-- Tying data science to financial improvement
-
-All while solving a __REAL WORLD CHURN PROBLEM: Employee Turnover__!
-
-#### Special Autographed "Deep Learning With R" Giveaway!!!
-
-One lucky student that enrolls in June will receive an __autographed copy of _Deep Learning With R_, signed by JJ Allaire, Founder of Rstudio and DLwR co-author__. 
-
-![Deep Learning With R](/assets/deeplearning_with_r.png)
-
-
-
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-Get 15% OFF in June!
-</a></p>
-
-
-### DS4B Virtual Workshop: Predicting Employee Attrition <a class="anchor" id="vw"></a>
-
-Did you know that __an organization that loses 200 high performing employees per year is essentially losing $15M/year in lost productivity__? Many organizations don't realize this because it's an indirect cost. It goes unnoticed. What if you could use data science to predict and explain turnover in a way that managers could make better decisions and executives would see results? You will learn the tools to do so in our Virtual Workshop. Here's an example of a Shiny app you will create.
-
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-Get 15% OFF in June!
-</a></p>
-
-
-
-![HR 301 Shiny Application: Employee Prediction](/img/hr_301_app.png) 
-<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in HR 301</p> 
-
-
-Our first __Data Science For Business Virtual Workshop__ teaches you how to solve this employee attrition problem in four courses that are fully integrated:
-
-* [HR 201: Predicting Employee Attrition with `h2o` and `lime`](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15)
-* HR 301 (Coming Soon): Building A `Shiny` Web Application
-* HR 302 (EST Q4): Data Story Telling With `RMarkdown` Reports and Presentations
-* HR 303 (EST Q4): Building An R Package For Your Organization, `tidyattrition`
-
-The Virtual Workshop is intended for __intermediate and advanced R users__. It's __code intensive (like these articles)__, but also teaches you fundamentals of data science consulting including CRISP-DM and the Business Science Problem Framework. __The content bridges the gap between data science and the business, making you even more effective and improving your organization in the process.__
-
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-Get 15% OFF in June!
-</a></p>
-
-## Don't Miss A Beat
-
-<span data-sumome-listbuilder-embed-id="8944080265e0a41a6249cd11ea3299d46ee953ea5bc9a1cd5635069be5bf0987"></span>
-
-* Sign up for the [Business Science blog](http://www.business-science.io/blog/index.html) to stay updated
-* Enroll in [Business Science University](https://university.business-science.io/) to learn how to solve real-world data science problems from Business Science
-* Check out our [Open Source Software](http://www.business-science.io/software.html)
-
-
-## Connect With Business Science <a class="anchor" id="social"></a>
-
-If you like our software (`anomalize`, `tidyquant`, `tibbletime`, `timetk`, and `sweep`), our courses, and our company, you can connect with us:
-
-* [__business-science__ on GitHub](https://github.com/business-science)
-* [__Business Science, LLC__ on LinkedIn](https://www.linkedin.com/company/business.science)
-* [__bizScienc__ on twitter](https://twitter.com/bizScienc)
-* [__Business Science, LLC__ on Facebook](https://www.facebook.com/Business-Science-LLC-754699134699054/)
