@@ -41,6 +41,10 @@ Wedding Risk Web Application (Demo Here)
 
 2. [__Predictive Web Applications for Business with R Shiny Course, DS4B 102-R__](https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1/):  Learn to build _predictive web applications (with integrated machine learning)_. Build 2 web applicactions with `parnsip` and `XGBoost` machine learning to generate a demand forecast and product price modeling.
 
+## Code
+
+All code in this step-by-step tutorial can be found in [Bryan's GitHub repo here](https://github.com/bclark86/WeddingRiskModel). 
+
 # Introduction 
 
 __Background__
@@ -403,38 +407,6 @@ guest_sim_tbl %>%
 <tbody>
   <tr>
    <td style="text-align:right;"> 1 </td>
-   <td style="text-align:right;"> 97 </td>
-   <td style="text-align:right;"> 27875 </td>
-   <td style="text-align:right;"> 2225 </td>
-   <td style="text-align:left;"> No </td>
-   <td style="text-align:left;"> Invite All </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 2 </td>
-   <td style="text-align:right;"> 114 </td>
-   <td style="text-align:right;"> 30000 </td>
-   <td style="text-align:right;"> 100 </td>
-   <td style="text-align:left;"> No </td>
-   <td style="text-align:left;"> Invite All </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 3 </td>
-   <td style="text-align:right;"> 119 </td>
-   <td style="text-align:right;"> 30625 </td>
-   <td style="text-align:right;"> -525 </td>
-   <td style="text-align:left;"> Yes </td>
-   <td style="text-align:left;"> Invite Less </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 4 </td>
-   <td style="text-align:right;"> 93 </td>
-   <td style="text-align:right;"> 27375 </td>
-   <td style="text-align:right;"> 2725 </td>
-   <td style="text-align:left;"> No </td>
-   <td style="text-align:left;"> Invite All </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 5 </td>
    <td style="text-align:right;"> 128 </td>
    <td style="text-align:right;"> 31750 </td>
    <td style="text-align:right;"> -1650 </td>
@@ -442,23 +414,15 @@ guest_sim_tbl %>%
    <td style="text-align:left;"> Invite Less </td>
   </tr>
   <tr>
-   <td style="text-align:right;"> 6 </td>
-   <td style="text-align:right;"> 85 </td>
-   <td style="text-align:right;"> 26375 </td>
-   <td style="text-align:right;"> 3725 </td>
-   <td style="text-align:left;"> No </td>
-   <td style="text-align:left;"> Invite All </td>
-  </tr>
-  <tr>
-   <td style="text-align:right;"> 7 </td>
-   <td style="text-align:right;"> 126 </td>
-   <td style="text-align:right;"> 31500 </td>
-   <td style="text-align:right;"> -1400 </td>
+   <td style="text-align:right;"> 2 </td>
+   <td style="text-align:right;"> 116 </td>
+   <td style="text-align:right;"> 30250 </td>
+   <td style="text-align:right;"> -150 </td>
    <td style="text-align:left;"> Yes </td>
    <td style="text-align:left;"> Invite Less </td>
   </tr>
   <tr>
-   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 3 </td>
    <td style="text-align:right;"> 87 </td>
    <td style="text-align:right;"> 26625 </td>
    <td style="text-align:right;"> 3475 </td>
@@ -466,20 +430,60 @@ guest_sim_tbl %>%
    <td style="text-align:left;"> Invite All </td>
   </tr>
   <tr>
+   <td style="text-align:right;"> 4 </td>
+   <td style="text-align:right;"> 140 </td>
+   <td style="text-align:right;"> 33250 </td>
+   <td style="text-align:right;"> -3150 </td>
+   <td style="text-align:left;"> Yes </td>
+   <td style="text-align:left;"> Invite Less </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 5 </td>
+   <td style="text-align:right;"> 109 </td>
+   <td style="text-align:right;"> 29375 </td>
+   <td style="text-align:right;"> 725 </td>
+   <td style="text-align:left;"> No </td>
+   <td style="text-align:left;"> Invite All </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 6 </td>
+   <td style="text-align:right;"> 103 </td>
+   <td style="text-align:right;"> 28625 </td>
+   <td style="text-align:right;"> 1475 </td>
+   <td style="text-align:left;"> No </td>
+   <td style="text-align:left;"> Invite All </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 7 </td>
+   <td style="text-align:right;"> 98 </td>
+   <td style="text-align:right;"> 28000 </td>
+   <td style="text-align:right;"> 2100 </td>
+   <td style="text-align:left;"> No </td>
+   <td style="text-align:left;"> Invite All </td>
+  </tr>
+  <tr>
+   <td style="text-align:right;"> 8 </td>
+   <td style="text-align:right;"> 127 </td>
+   <td style="text-align:right;"> 31625 </td>
+   <td style="text-align:right;"> -1525 </td>
+   <td style="text-align:left;"> Yes </td>
+   <td style="text-align:left;"> Invite Less </td>
+  </tr>
+  <tr>
    <td style="text-align:right;"> 9 </td>
-   <td style="text-align:right;"> 112 </td>
-   <td style="text-align:right;"> 29750 </td>
-   <td style="text-align:right;"> 350 </td>
+   <td style="text-align:right;"> 91 </td>
+   <td style="text-align:right;"> 27125 </td>
+   <td style="text-align:right;"> 2975 </td>
    <td style="text-align:left;"> No </td>
    <td style="text-align:left;"> Invite All </td>
   </tr>
   <tr>
    <td style="text-align:right;"> 10 </td>
-   <td style="text-align:right;"> 101 </td>
-   <td style="text-align:right;"> 28375 </td>
-   <td style="text-align:right;"> 1725 </td>
-   <td style="text-align:left;"> No </td>
-   <td style="text-align:left;"> Invite All </td>
+   <td style="text-align:right;"> 137 </td>
+   <td style="text-align:right;"> 32875 </td>
+   <td style="text-align:right;"> -2775 </td>
+   <td style="text-align:left;"> Yes </td>
+   <td style="text-align:left;"> Invite Less </td>
   </tr>
 </tbody>
 </table>
