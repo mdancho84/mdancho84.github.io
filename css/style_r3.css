@@ -578,3 +578,9 @@ li {
 }
 #cover .subtitle { font-weight:300; font-size: 1.7em; letter-spacing: 2px; }
 #cover .benefits { font-weight:400; font-size: 1.1em; letter-spacing: 2px; text-transform: uppercase; }
+
+
+/* Highlight Style */
+.hljs-comment {
+    color: #999999 !important;
+}
