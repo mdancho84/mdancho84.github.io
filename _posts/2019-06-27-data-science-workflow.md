@@ -27,7 +27,9 @@ In this article, you will:
 
 Data Science is a mysterious term to many, but why?
 
-__Students see data science as machine learning - 100% of the time__ (this is drastically disproportionate to reality). In reality, Machine Learning (or Modeling) is about __5% of your time__. The rest of the time is spent:
+### Students &amp; Data Enthusiasts
+
+__People excited about data science see it as machine learning - 100% of the time__ (this is drastically disproportionate to reality). In reality, Machine Learning (or Modeling) is about __5% of your time__. The rest of the time is spent:
 
 - __Understanding the Business Problem:__ Communicating with Domain Experts (20%)
 - __Working with Data:__ Cleaning, Manipulating, Visualizing, Processing, Transforming, and Understanding (60%)
@@ -35,7 +37,19 @@ __Students see data science as machine learning - 100% of the time__ (this is dr
 
 ![Misconception on How Data Scientist's Time is Spent](/assets/2019-06-27-data-science-workflow/belief_vs_reality.jpg)
 
-__Executives and business professionals__ see data science as a new technology that could benefit their organization, but the connection between business problem and business value is not well understood. Fortunately, the reality is that large businesses:
+<p class="date text-center">How Students View Data Science</p>
+
+### Executives &amp; Business Professionals
+
+__Executives and business professionals__ see data science as a new technology that could benefit their organization, but the connection between business problem and business value is not well understood. Data Science is often viewed as Artificial Intelligence (AI), a complex, black-box technology that is very trendy. But, the question remains - _"What Can AI Do?"_
+
+![Misconception on How Data Scientist's Time is Spent](/assets/2019-06-27-data-science-workflow/artificial_intelligence.jpg)
+
+<p class="date text-center">How Executives and Business Professionals View Data Science</p>
+
+### Reality for Everyone
+
+Fortunately, the reality is that large businesses:
 
 - __Have many customers__ - The customers churn, generate sales, drive forecasts
 - __Make many products and/or services__ - The products are linked to quality, lead time, and inventory
@@ -62,7 +76,7 @@ A simple example illustrates my point - __An organization that does $500M in ann
 In monetary terms, __a reduction in churn of 20% equates to an annual savings of $10M__. Over 5 years, this is $50M in savings generated from the Data Science Practice working with the decision makers (e.g. Sales, Marketing, Production).
 
 
-# How Do We Go From Problem To Value?
+# How Do We Go From Business Problem To Business Value?
 
 The way to go from business problem to business value follows an iterative set of steps that at [Business Science University](https://university.business-science.io), we call the Data Science Workflow:
 
@@ -72,11 +86,13 @@ The __Data Science Workflow__ has milestones (blue clouds), stages (dotted lines
 
 We begin with a __Business Problem__ (milestone), where the team or organization identifies a problem that is worth solving. Typically this has a specific metric assigned to it that can be measured financially (e.g. 10% of our customers are not re-purchasing each year, this is costing the organization $50M annually).
 
-The organization prioritizes this problem with the data science team, and they step into a project management workflow. Hopefully they follow a systematic approach designed to integrate the business with data science such as the <a href="https://www.business-science.io/bspf.html">Business Science Problem Framework</a> (we teach the BSPF in our <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover">Data Science for Business with R Course</a>).
+The organization prioritizes this problem with the data science team, and they step into a project management workflow. Hopefully the organization follows a systematic and repeatable approach designed to integrate the business with data science such as the <a href="https://www.business-science.io/bspf.html">Business Science Problem Framework</a> (we teach the BSPF in our <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover">Data Science for Business with R Course (DS4B 201-R)</a>).
 
-<img src="/assets/2019-06-27-data-science-workflow/bspf-computer.png" alt="Business Science Proflem Framework and The Data Science Workflow">
+<a href="https://www.business-science.io/bspf.html" target="_blank"><img src="/assets/2019-06-27-data-science-workflow/bspf-computer.png" alt="Business Science Proflem Framework and The Data Science Workflow" width="100%"></a>
 
-Back to the Data Science Workflow
+<p class="date text-center"><a href="https://www.business-science.io/bspf.html" target="_blank">Download the BSPF Business Consulting Framework</a></p>
+
+# 3 Stages of the Data Science Workflow
 
 <img src="/assets/2019-06-27-data-science-workflow/the-data-science-workflow-preview.jpeg" alt="The Data Science Workflow">
 
@@ -88,7 +104,13 @@ There are 3 stages:
 
 At the end of the workflow, data scientist’s call this “production” or “deployment”, and this is where __Business Value__ (milestone) is generated.
 
+# Best Data Science Teams Focus on These Parts
+
 The __best data science teams__ can iterate through this process going from problem to value very efficiently, spending little time on modeling and maximum time at the ends of the spectrum:
+
+- __Beginning of Workflow:__ Business Understanding / Domain Expert Communication, Data Understanding, Data Quality, and Feature Engineering are Critical
+
+- __End of Workflow:__ Communication with Project Stakeholders, Product Delivery are Critical
 
 <br>
 <div class="text-center">
@@ -96,13 +118,12 @@ The __best data science teams__ can iterate through this process going from prob
 </div>
 <br>
 
-- __Beginning of Workflow:__ Business Understanding / Domain Expert Communication, Data Understanding, Data Quality, and Feature Engineering are Critical
-- __End of Workflow:__ Communication with Project Stakeholders, Product Delivery are Critical
+
 
 
 # Learn How to Implement the Data Science Workflow
 
-For those that are interested in learning how to implement the data science workflow, I have excellent news. The data science skill sets can be learned very quickly through <a href="https://university.business-science.io/">Business Science Unversity</a>.
+For those that are interested in learning how to implement the data science workflow, I have excellent news. The data science skills can be ___learned in weeks___ through <a href="https://university.business-science.io/">Business Science Unversity</a>.
 
 <img src="/assets/2019-06-27-data-science-workflow/r-track_plan.jpg" alt="Learn The Data Science Workflow - R Programming and Data Science Skills">
 
