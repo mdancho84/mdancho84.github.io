@@ -128,11 +128,13 @@ Here’s an idea of what the Data Science Workflow looks like in <a href="https:
 </center>
 <br>
 
+<!--
 ## Summary of Features
 
 To summarize, Business Science University checks all of the boxes.
 
 <img src="/assets/2019-06-27-data-science-workflow/data-science-product-comparison.png" alt="Business Science: Product Comparison">
+-->
 
 ## Special Offer
 
