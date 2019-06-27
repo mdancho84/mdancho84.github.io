@@ -154,3 +154,7 @@ Matt Dancho is the founder of Business Science and is and Instructor at <a href=
 <i>"I look forward to have you in my courses. I will do everything possible to help you succeed."</i>
 
 <i>-Matt Dancho, Founder of Business Science</i>
+
+### What do you think about the data science workflow process? Let's talk in the comments.
+
+Please share this article if you enjoyed it!
