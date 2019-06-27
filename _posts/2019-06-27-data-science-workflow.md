@@ -140,6 +140,8 @@ I am happy to give you a special offer of [15% OFF the R-Track 3-Course Bundle](
 
 <a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=DS4B15" target="_blank"><img src="/assets/2019-06-27-data-science-workflow/special_offer.jpg" alt="Business Science University 3-Course R-Track" width="100%"></a>
 
+<p class="date text-center" style="font-size:24px;"><a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=DS4B15">Unlock 15% OFF 3-Course R-Track Bundle</a></p>
+
 
 # About The Author 
 
