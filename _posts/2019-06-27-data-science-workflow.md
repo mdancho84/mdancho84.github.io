@@ -137,14 +137,16 @@ For those that are interested in learning how to implement the data science work
 <img src="/assets/2019-06-27-data-science-workflow/r-track_plan.jpg" alt="Learn The Data Science Workflow - R Programming and Data Science Skills">
 
 
-Here is why <a href="https://university.business-science.io/">Business Science University</a> will work:
+Here is why <a href="https://university.business-science.io/">Business Science University</a> works:
 
-- __We cover the entire data science workflow__ - Data Import, Data Preparation, Data Cleaning, Data Manipulation, Data Visualization, Functional Programing, Advanced Machine Learning, and Web Application Development
-- __We teach how to solve problems first__ - The Data Science tools are secondary to the problem solving process. Therefore a typical course focuses on solving the problem while integrating 10-20 tools, which are the mechanisms for how we arrive at the end product.
-- __We integrate cutting-edge tools and resources__ - We teach what works - High-performance, fast iteration, flexibility, and business value. These include tool sets like H2O Automated Machine Learning, LIME for explanations, frameworks like the BSPF, and referenced resources like the Ultimate R Cheat sheet
-- __We provide a community for support__ - We operate a private Slack Channel with over 300 active members of like-minded individuals along with instructor support (yes, I am in there contributing and communicating every day)
+- __You learn how to solve business problems first__ - The Data Science tools are secondary to the problem solving process. Therefore a typical course focuses on solving the problem while integrating 10-20 tools, which are the mechanisms for how we arrive at the end product.
 
-<br>
+- __You learn the entire (end-to-end) data science workflow__ - Data Import, Data Preparation, Data Cleaning, Data Manipulation, Data Visualization, Functional Programing, Advanced Machine Learning, and Web Application Development.
+
+- __You learn cutting-edge tools and resources__ - We teach what works - High-performance, fast iteration, flexibility, and business value. These include tools like `H2O` Automated Machine Learning, `LIME` for explanations, frameworks like the _BSPF Framework_, and referenced resources like the _Ultimate R Cheat sheet_.
+
+- __We provide a community for your support__ - We operate a private Slack Channel with over 300 active members of like-minded individuals along with instructor support (yes, I am in there contributing and communicating every day).
+
 
 <br>
 <center>
