@@ -124,6 +124,16 @@ The __best data science teams__ can iterate through this process going from prob
 
 # Learn How to Implement the Data Science Workflow
 
+Learning how to implement the _Data Science Workflow_ requires knowing which tools to use and in what areas of the workflow they belong. 
+
+Here’s an idea of what the _Data Science Workflow_ looks like in <a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=DS4B15">Business Science University’s 3-Course R-Track</a>:
+
+<img src="/assets/2019-06-27-data-science-workflow/business-science-data-science-workflow.jpeg" alt="Business Science: Data Science Workflow">
+
+<p class="text-center date">Primary R Packages Overlayed on the Data Science Workflow</p>
+
+<br>
+
 For those that are interested in learning how to implement the data science workflow, I have excellent news. The data science skills can be ___learned in weeks___ through <a href="https://university.business-science.io/">Business Science Unversity</a>.
 
 <img src="/assets/2019-06-27-data-science-workflow/r-track_plan.jpg" alt="Learn The Data Science Workflow - R Programming and Data Science Skills">
@@ -137,10 +147,6 @@ Here is why <a href="https://university.business-science.io/">Business Science U
 - __We provide a community for support__ - We operate a private Slack Channel with over 300 active members of like-minded individuals along with instructor support (yes, I am in there contributing and communicating every day)
 
 <br>
-
-Here’s an idea of what the Data Science Workflow looks like in <a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=DS4B15">Business Science University’s 3-Course R-Track</a>:
-
-<img src="/assets/2019-06-27-data-science-workflow/business-science-data-science-workflow.jpeg" alt="Business Science: Data Science Workflow">
 
 <br>
 <center>
@@ -166,9 +172,12 @@ I am happy to give you a special offer of [15% OFF the R-Track 3-Course Bundle](
 
 <p class="date text-center" style="font-size:24px;"><a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=DS4B15">Unlock 15% OFF 3-Course R-Track Bundle</a></p>
 
-# References to Additional Data Science Methodologies
+# References to Data Science Methodologies
 
-Several other data science methodologies exist.
+Several other data science workflow and project management methodologies exist. The two that we use are:
+
+- CRISP-DM
+- BSPF Framework
 
 ### CRISP-DM
 
