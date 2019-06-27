@@ -124,9 +124,7 @@ The __best data science teams__ can iterate through this process going from prob
 
 # Learn How to Implement the Data Science Workflow
 
-Learning how to implement the _Data Science Workflow_ requires knowing which tools to use and in what areas of the workflow they belong. 
-
-Here’s an idea of what the _Data Science Workflow_ looks like in <a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=DS4B15">Business Science University’s 3-Course R-Track</a>:
+Learning how to implement the _Data Science Workflow_ ___requires knowing which tools to use and in what areas of the workflow they belong.___ Here’s exactly where the __R Packages__ fit (we teach the _Data Science Workflow_ in <a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=DS4B15">Business Science University’s 3-Course R-Track</a>):
 
 <img src="/assets/2019-06-27-data-science-workflow/business-science-data-science-workflow.jpeg" alt="Business Science: Data Science Workflow">
 
@@ -174,7 +172,7 @@ I am happy to give you a special offer of [15% OFF the R-Track 3-Course Bundle](
 
 # References to Data Science Methodologies
 
-Several other data science workflow and project management methodologies exist. The two that we use are:
+Several other data science workflow and project management methodologies exist. The two that we use at _Business Science University_ are:
 
 - CRISP-DM
 - BSPF Framework
