@@ -5,7 +5,7 @@ excerpt: "Understand the data science workflow by defining the sequence of steps
 author: "Matt Dancho"
 date: 2019-06-27 7:00:00
 categories: [Business]
-tags: [R-Project, R, Data Science, Business Analysis]
+tags: [R-Project, R, Data Science, Business Analysis, Learn-Business]
 image: 2019-06-27-data-science-workflow/the-data-science-workflow.jpeg
 image_preview: 2019-06-27-data-science-workflow/the-data-science-workflow-preview.jpeg
 ---
@@ -32,6 +32,8 @@ __Students see data science as machine learning - 100% of the time__ (this is dr
 - __Understanding the Business Problem:__ Communicating with Domain Experts (20%)
 - __Working with Data:__ Cleaning, Manipulating, Visualizing, Processing, Transforming, and Understanding (60%)
 - __Communicating Results:__ Reporting, Slide Decking, and Building Distributed Applications (Predictive Decision-Making Tools) (15%)
+
+![Misconception on How Data Scientist's Time is Spent](/assets/2019-06-27-data-science-workflow/belief_vs_reality.jpg)
 
 __Executives and business professionals__ see data science as a new technology that could benefit their organization, but the connection between business problem and business value is not well understood. Fortunately, the reality is that large businesses:
 
@@ -102,7 +104,7 @@ The __best data science teams__ can iterate through this process going from prob
 
 For those that are interested in (1) implementing a data science practice or (2) learning how to add data science as a skill set to accelerate your career, I have excellent news. The full stack data science skill sets can be learned very quickly through <a href="https://university.business-science.io/">Business Science Unversity</a>.
 
-<img src="/assets/2019-06-27-data-science-workflow/r-track.png" alt="Learn The Data Science Workflow - R Programming and Data Science Skills">
+<img src="/assets/2019-06-27-data-science-workflow/r-track_plan.jpg" alt="Learn The Data Science Workflow - R Programming and Data Science Skills">
 
 
 Here is why <a href="https://university.business-science.io/">Business Science University</a> will work:
