@@ -100,9 +100,9 @@ The __best data science teams__ can iterate through this process going from prob
 - __End of Workflow:__ Communication with Project Stakeholders, Product Delivery are Critical
 
 
-# DS Learning Process & Implementing a Data Science Practice
+# Learn How to Implement the Data Science Workflow
 
-For those that are interested in (1) implementing a data science practice or (2) learning how to add data science as a skill set to accelerate your career, I have excellent news. The full stack data science skill sets can be learned very quickly through <a href="https://university.business-science.io/">Business Science Unversity</a>.
+For those that are interested in learning how to implement the data science workflow, I have excellent news. The data science skill sets can be learned very quickly through <a href="https://university.business-science.io/">Business Science Unversity</a>.
 
 <img src="/assets/2019-06-27-data-science-workflow/r-track_plan.jpg" alt="Learn The Data Science Workflow - R Programming and Data Science Skills">
 
