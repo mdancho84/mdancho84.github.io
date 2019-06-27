@@ -132,10 +132,16 @@ Here’s an idea of what the Data Science Workflow looks like in <a href="https:
 
 To summarize, Business Science University checks all of the boxes.
 
-<img src="/assets/2019-06-27-data-science-workflow/data-science-product-comparison.png" alt="Business Science: Data Science Workflow">
+<img src="/assets/2019-06-27-data-science-workflow/data-science-product-comparison.png" alt="Business Science: Product Comparison">
+
+## Special Offer
+
+I am happy to give you a special offer of [15% OFF the R-Track 3-Course Bundle](https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=DS4B15).
+
+<a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=DS4B15" target="_blank"><img src="/assets/2019-06-27-data-science-workflow/special_offer.jpg" alt="Business Science University 3-Course R-Track" width="100%"></a>
 
 
-# About The Author
+# About The Author 
 
 Matt Dancho is the founder of Business Science and is and Instructor at <a href="https://university.business-science.io/">Business Science University</a>. He is committed to doing everything possible to help students successfully apply data science to business to generate value (ROI).
 
