@@ -116,7 +116,7 @@ Here is why <a href="https://university.business-science.io/">Business Science U
 
 <br>
 
-Here’s an idea of what the Data Science Workflow looks like in <a href="https://university.business-science.io/">Business Science University’s R-Track</a>:
+Here’s an idea of what the Data Science Workflow looks like in <a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=DS4B15">Business Science University’s 3-Course R-Track</a>:
 
 <img src="/assets/2019-06-27-data-science-workflow/business-science-data-science-workflow.jpeg" alt="Business Science: Data Science Workflow">
 
