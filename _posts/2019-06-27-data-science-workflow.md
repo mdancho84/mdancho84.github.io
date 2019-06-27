@@ -5,7 +5,7 @@ excerpt: "Understand the data science workflow by defining the sequence of steps
 author: "Matt Dancho"
 date: 2019-06-27 7:00:00
 categories: [Business]
-tags: [R-Project, R, Data Science, Business Analysis, Learn-Business]
+tags: [R-Project, R, Data Science, Business Analysis, Learn-Business, CRISP-DM, BSPF]
 image: 2019-06-27-data-science-workflow/the-data-science-workflow.jpeg
 image_preview: 2019-06-27-data-science-workflow/the-data-science-workflow-preview.jpeg
 ---
@@ -88,7 +88,8 @@ We begin with a __Business Problem__ (milestone), where the team or organization
 
 The organization prioritizes this problem with the data science team, and they step into a project management workflow. Hopefully the organization follows a systematic and repeatable approach designed to integrate the business with data science such as the <a href="https://www.business-science.io/bspf.html">Business Science Problem Framework</a> (we teach the BSPF in our <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover">Data Science for Business with R Course (DS4B 201-R)</a>).
 
-<a href="https://www.business-science.io/bspf.html" target="_blank"><img src="/assets/2019-06-27-data-science-workflow/bspf-computer.png" alt="Business Science Proflem Framework and The Data Science Workflow" width="100%"></a>
+
+<p class="text-center"><a href="/bspf.html" target="_blank"><img src="/img/cheatsheets/bspf.png" alt="Business Science Problem Framework" width="80%"></a></p>
 
 <p class="date text-center"><a href="https://www.business-science.io/bspf.html" target="_blank">Download the BSPF Business Consulting Framework</a></p>
 
@@ -165,6 +166,40 @@ I am happy to give you a special offer of [15% OFF the R-Track 3-Course Bundle](
 
 <p class="date text-center" style="font-size:24px;"><a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=DS4B15">Unlock 15% OFF 3-Course R-Track Bundle</a></p>
 
+# References to Additional Data Science Methodologies
+
+Several other data science methodologies exist.
+
+### CRISP-DM
+
+The ___[CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) - Cross-Industry Standard Process for Data Mining___ - Is a general approach to performing data science projects. It's cross-industry, which means it is compatible with almost any data science problem. One issue is that CRISP-DM is very general, which is why _Business Science_ created the ___BSPF Framework (discussed next)___. 
+
+<p class="text-center"><a href="https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining" target="_blank"><img src="/assets/2019-06-27-data-science-workflow/CRISP-DM_Process_Diagram.png" alt="Business Science Problem Framework" width="66%"></a></p>
+
+<p class="date text-center"><a href="https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining">CRISP-DM Framework</a></p>
+
+### BSPF Framework
+
+The [Business Science Problem Framework](/bspf.html) modifies the CRISP-DM process to provide specific strategies that improve project productivity and help data scientists get results in terms of Return-On-Investment (ROI). 
+
+<p class="text-center"><a href="/bspf.html" target="_blank"><img src="/img/cheatsheets/bspf.png" alt="Business Science Problem Framework" width="80%"></a></p>
+
+<p class="date text-center"><a href="/bspf.html">Business Science Problem Framework</a></p>
+
+
+# Further Reading
+
+We've written a lot about how to build data science teams, manage data science projects, and get results with frameworks. Here are a few of our best articles [Data Science in Business](https://www.business-science.io/blog/learn-business.html). 
+
+- [How To Successfully Managage A Data Science Project - The BSPF](https://www.business-science.io/business/2018/06/19/business-science-problem-framework.html)
+
+- [Agile Framework for Creating an ROI-Driven Data Science Practice](https://www.business-science.io/business/2018/08/21/agile-business-science-problem-framework.html)
+
+- [3 Simple Rules For Getting Results With Data Science](https://www.business-science.io/business/2019/05/05/getting-results-with-data-science.html)
+
+- [Case Study: How To Build A High Performance Data Science Team](https://www.business-science.io/business/2018/09/18/data-science-team.html)
+
+- [3 Reasons Why You Need the Expected Value Framework](https://www.business-science.io/business/2018/07/11/expected-value-framework-data-science.html)
 
 # About The Author 
 
