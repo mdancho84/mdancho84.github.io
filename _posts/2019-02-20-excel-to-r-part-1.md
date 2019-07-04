@@ -50,7 +50,11 @@ Read this article series, to see how you can gain a <strong>10X productivity boo
 - Excel to R, Part 3 - The Business Report (Coming Soon)
 
 
-{% include cta_101.html %}
+<br>
+
+<span data-sumome-listbuilder-embed-id="5d78359fc7a21b676a198de1dd6fcae148f4c4abfe51faae0c940d74803d06e5"></span>
+
+
 
 ## Part 1 Overview
 
