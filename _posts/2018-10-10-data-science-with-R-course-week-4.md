@@ -165,7 +165,7 @@ You’re experiencing the magic of creating a high performance employee turnover
 In our new course, ___Build A Shiny Web App (DS4B 301-R)___, you’ll learn how to integrate the H2O model, LIME results, and recommendation algorithm building in the 201 course into an ML-Powered R + Shiny Web App!
 
 <br/>
-<p class="text-center" style="font-size:30px;">Shiny Apps Course Coming in October 2018!!! Sign up for <a href = "https://university.business-science.io/">Business Science University Now!</a></p>
+<p class="text-center" style="font-size:30px;">Shiny Apps Course Coming in October 2019!!! Sign up for <a href = "https://university.business-science.io/">Business Science University Now!</a></p>
 
 <br/>
 <p style="text-align:center"><a href="https://university.business-science.io/">

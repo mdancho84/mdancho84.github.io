@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Using R Shiny to Build A Wedding Risk Model and Web Application"
+title: "Build A R Shiny App (Tutorial) - Wedding Risk Model"
 date:   2019-06-09 06:59:01
-excerpt: "Learn step-by-step how our student built a wedding risk model and web application in Shiny."
+excerpt: "Learn step-by-step how to built a wedding risk model Shiny app."
 author: "Bryan Clark"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Learn-Shiny, shiny, BSPF]
@@ -44,6 +44,10 @@ Wedding Risk Web Application (Demo Here)
 ## Code
 
 All code in this step-by-step tutorial can be found in [Bryan's GitHub repo here](https://github.com/bclark86/WeddingRiskModel). 
+
+
+{% include cta_102.html %}
+
 
 # Introduction 
 

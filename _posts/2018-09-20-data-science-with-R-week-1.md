@@ -164,24 +164,9 @@ Check out the [“Installing Required Packages”](https://youtu.be/UAT3VeILS6g)
 
 You’ve just experienced Week 1 in the course that is changing the way data science is done in business. Now it’s time to get started.
 
-<h2 class="text-center">What are you waiting for?</h2>
 
+{% include cta_201.html %}
 
-<br>
-<hr>
-
-<h2 class="text-center">Data Science For Business With R (DS4B 201-R)</h2>
-
-<p class="text-center">
-Learn everything you need to know to complete a real-world, end-to-end data science project with the R programming language. Transform your abilities in 10 weeks. 
-</p>
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
-</p>
-
-<hr>
-<br>
 
 
 ## Next Up

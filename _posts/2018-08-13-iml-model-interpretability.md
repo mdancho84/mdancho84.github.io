@@ -42,6 +42,8 @@ __Awesome Data Science Tutorials with LIME for black-box model explanation in bu
 
 
 
+{% include cta_201_learn_ml.html %}
+
 
 
 ## FREE BOOK: Interpretable Machine Learning

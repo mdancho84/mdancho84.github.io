@@ -89,21 +89,7 @@ In Challenge 2, you’ll use your custom plotting function `plot_ggpairs()` to i
 
 <br/>
 
-<br>
-<hr>
-
-<h2 class="text-center">Data Science For Business With R (DS4B 201-R)</h2>
-
-<p class="text-center">
-Learn everything you need to know to complete a real-world, end-to-end data science project with the R programming language. Transform your abilities in 10 weeks. 
-</p>
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15"><strong>Start Learning Today!</strong></a> 
-</p>
-
-<hr>
-<br>
+{% include cta_201.html %}
 
 
 ## Next Up
@@ -122,17 +108,20 @@ The next article in the ___Data Science With R Series___ covers Data Preprocessi
 
 <br>
 <hr>
+
 ## New Course Coming Soon: Build A Shiny Web App!
 
 You’re experiencing the magic of creating a high performance employee turnover risk prediction algorithm in DS4B 201-R. Why not put it to good use in an ___Interactive Web Dashboard___?
 
 In our new course, ___Build A Shiny Web App (DS4B 301-R)___, you’ll learn how to integrate the H2O model, LIME results, and recommendation algorithm building in the 201 course into an ML-Powered R + Shiny Web App!
 
-<p class="text-center" style="font-size:30px;">Shiny Apps Course Coming in October 2018!!! Sign up for <a href = "https://university.business-science.io/">Business Science University Now!</a></p>
+<p class="text-center" style="font-size:30px;">Shiny Apps Course Coming in October 2019!!! Sign up for <a href = "https://university.business-science.io/">Business Science University Now!</a></p>
 
 <p style="text-align:center"><a href="https://university.business-science.io/">
 <img src="/img/hr_301_app.png" alt="DS4B 301-R Shiny Application: Employee Prediction" style="width:100%;">
 </a></p>
+
+<br>
+
 <p class="text-center date">Building an R + Shiny Web App, DS4B 301-R</p>
 
-<p class="text-center" style="font-size:30px;"><a href = "https://university.business-science.io/">Get Started Today!</a></p>

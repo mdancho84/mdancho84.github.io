@@ -50,6 +50,8 @@ Read this article series, to see how you can gain a <strong>10X productivity boo
 - Excel to R, Part 3 - The Business Report (Coming Soon)
 
 
+{% include cta_101.html %}
+
 ## Part 1 Overview
 
 <img src="/assets/2019-02-20-excel-to-r/bank_of_america.jpg" class="img-rounded pull-right" alt="Key Strengths, R and Python" style="width:50%;margin-left:20px;margin-top:0px"/>
@@ -410,6 +412,8 @@ data_joined_tbl <- sheets[4:7] %>%
 {% endhighlight %}
 
 The best part - You don't need to even know what this code does. Just make sure the "ID" column is the only matching column in each of the worksheets that you want to join. Copy-and-paste it the next time you are in a similar situation. 
+
+{% include cta_101.html %}
 
 
 ## Step 3 - Marketing Analysis {#step3}

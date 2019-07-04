@@ -40,6 +40,11 @@ Worse, students starting out believe that this is the ultimate goal - ___A Unico
 
 __I'm hear to tell you that (_fortunately_) this myth is not a reality.__
 
+
+{% include cta_rtrack.html %}
+
+
+
 ## We All Start At The Same Spot - Zero
 
 When we start out, we are the most vulnerable to making missteps. I personally remember feeling overwhelmed and directionless. It's at this moment that we are easily influenced to take the path of learning everything (and anything). 
@@ -181,7 +186,7 @@ If you've read this article and decided that ___you're more excited than ever to
 
 ### Project-Based Data Science For Business Courses
 
-The [__101 and 201 Courses__](https://university.business-science.io/p/data-science-for-business-ds4b-101-201-r-bundle) teach you each of the major skills and tools required to solve business problems with data science and machine learning. These are ___Project-Based Courses___. The ___tools integrate___ while you solve the business problems presented in the courses. Through the process of solving these business problems, you learn:
+The [__101, 102 and 201 Courses__](https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201) teach you each of the major skills and tools required to solve business problems with data science and machine learning. These are ___Project-Based Courses___. The ___tools integrate___ while you solve the business problems presented in the courses. Through the process of solving these business problems, you learn:
 
 - ___Machine Learning___ - Supervised Classification, Supervised Regression, Unsupervised Clustering, Dimensionality Reduction, Local Interpretable Model Explanation - `H2O Automatic Machine Learning`, `parsnip` (XGBoost, SVM, Random Forest, GLM), `K-Means`, `UMAP`, `recipes`, `lime`
 
@@ -195,34 +200,11 @@ The [__101 and 201 Courses__](https://university.business-science.io/p/data-scie
 
 - ___Time Series, Text, and Categorical Data___ - Work with `lubridate`, `stringr`, and `forcats`
 
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/data-science-for-business-ds4b-101-201-r-bundle" target="_blank"><strong>Unlock The 101 + 201 Bundle</strong></a></p>
+- ___Data Science in Production___ - Implement a complex series of UI and reactive programming using `shiny` and `flexdashboard`
 
+<br>
+<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201" target="_blank"><strong>Unlock the 101 + 102 + 201 Bundle</strong></a></p>
 
-### Shiny Web Application Courses
-
-The [__102 and 202 Courses (Coming June 1st)__](https://www.business-science.io/university/2019/05/16/course-launch-shiny-web-application-level-1.html) teach you how to build production-ready web applications that deliver business value. You will learn by building multiple web applications. 
-
-In 102 you will build:
-
-- ___Sales Dashboard___ - Implements a complex series of UI and reactive programming using `shiny` and `flexdashboard`
-
-- [___New Product Price Prediction (Demo Available)___](https://business-science.shinyapps.io/Product_Price_Prediction_Application/) - Extends 101 by implementing `XGBoost` product price prediction model via `parsnip` and builds on reactive programming and `CSS` customization
-
-In 202, you will build:
-
-- [___Stock Optimization App (Demo Available)___](https://business-science.shinyapps.io/stock_optimization_app) - Uses `shiny`, `argonDash`, and `tidyquant`
-
-- ___Churn Prediction App___ - Extends 201 by integrating a predictive model for Employee Attrition Risk
-
-<p class="text-center" style="font-size:30px;"><a href="https://www.business-science.io/university/2019/05/16/course-launch-shiny-web-application-level-1.html" target="_blank"><strong>Shiny Apps 102 Course - Coming June 1st!!!</strong></a></p>
-
-### Learning Labs PRO
-
-Gain Domain-Specific Knowledge and Tool-Specific Skills with our [__Learning Labs PRO service__](https://university.business-science.io/p/learning-labs-pro). A key challenge with Finance (or any domain) is learning how to apply data science to the domain. This is what I solve with a service called _"Learning Labs PRO"_. 
-
-Learning Lab 09 was on `tidyquant`, a quantitative finance package the is the engine that drives the [Stock Portfolio Optimization Application](https://business-science.shinyapps.io/stock_optimization_app). I developed the `tidyquant` package to help the Data Science Community more quickly perform financial analysis inside the `tidyverse` (series of R packages that work together with a common interface and structure). I teach `tidyquant` and many other tools and domain-specific ___1-hour courses___ that I call ___"Learning Labs"___. I release new Learning Labs every 2 weeks. 
-
-<p class="text-center" style="font-size:30px;"><a href="https://university.business-science.io/p/learning-labs-pro" target="_blank"><strong>Explore Learning Labs PRO - 1-Hour Courses</strong></a></p>
 
 
 ## Conclusion

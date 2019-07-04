@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data Science Course Launch Today - Business Analysis With R Now Open!"
-excerpt: "The perfect foundational data science education program! We've crafted an amazing course for those seeking to break into data science for business! We've combined a revolutionary system with a clear-cut path, a cheat sheet that connects every resource learned in the course, two end-to-end projects, and 50 plus tools into one 7-week course!"
+excerpt: "The perfect foundational data science education program! We've crafted an amazing course for those seeking to break into data science for business!"
 author: "Matt Dancho"
 date: 2019-01-01 9:30:00
 categories: [University]
