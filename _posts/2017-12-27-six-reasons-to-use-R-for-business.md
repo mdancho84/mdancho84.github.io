@@ -74,26 +74,9 @@ Think about what you are trying to do:
 
 - __Are you trying to communicate business analytics throughout your organization?__ <span>If yes, learn R.</span>
 
-<!-- CTA -->
-<br>
-<hr>
-### Learn R in 7 Weeks: Business Analysis with R
 
-<a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r">
-<img src="/img/course_logo_full_DS4B_101_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
+{% include cta_101.html %}
 
-##### Learn R to analyze data, create machine learning models and solve business problems with our DS4B 201-R Course.
-
-- Learn the `tidyverse` 
-- Get 8 hours of video training on __Machine Learning__ with `parsnip` 
-- You model with `XGBoost`, Random Forest, Support Vector Machines, and more!
-- Learn __Visualization__ with `ggplot2`
-- Learn __Data Manipulation__ with `dplyr`
-- Create 2 Projects: Customer Segmentation Report and Product Pricing Algorithm
-- All while learning `R` __coding__!
-<br><br>
-<hr>
-<!-- CTA end -->
 
 ## Reason 3: Learning R Is Easy With The Tidyverse
 
@@ -263,6 +246,9 @@ You learn everything you need to know about how to apply data science in a busin
 >__"If you've been looking for a program like this, I'm happy to say it's finally here! This is what I needed when I first began data science years ago. It's why I created Business Science University."__
 >
 >__Matt Dancho, Founder of Business Science__
+
+<br>
+{% include cta_101.html %}
 
 
 ### DS4B Virtual Workshop: Predicting Employee Attrition <a class="anchor" id="vw"></a>
