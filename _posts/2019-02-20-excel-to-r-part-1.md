@@ -11,8 +11,6 @@ image_preview: 2019-02-20-excel-to-r/excel_to_r_pt1.jpg
 ---
 
 
-
-
 Transitioning from `Excel` to `R` is one of the best decisions I have ever made. It accelerated my career and it boosted my productivity 10X - 100X (I show how in a __Time Study__ - keep reading). I used `Excel` primarily for sales and marketing analytics. I was a power-user of `Excel` fully equipped in VBA, Pivot Tables, Conditional Formatting, and all the functions. I was really good. 
 
 ___So, why did I make the switch?___
@@ -45,14 +43,13 @@ Read this article series, to see how you can gain a <strong>10X productivity boo
 
 - [__Excel to R, Part 1 - The 10X Productivity Boost__](/business/2019/02/20/excel-to-r-part-1.html) __(You're here)__
 
-- Excel to R, Part 2 - The Correlation Funnel (Coming Soon)
+- [Excel to R, Part 2 - Speed Up Exploratory Data Analysis 100X](/business/2019/07/08/excel-to-r-part-2.html)
 
-- Excel to R, Part 3 - The Business Report (Coming Soon)
+- Excel to R, Part 3 - Automated Business Reporting (Coming Soon)
 
 
 <br>
-
- <span data-sumome-listbuilder-embed-id="5d78359fc7a21b676a198de1dd6fcae148f4c4abfe51faae0c940d74803d06e5"></span>
+<span data-sumome-listbuilder-embed-id="5d78359fc7a21b676a198de1dd6fcae148f4c4abfe51faae0c940d74803d06e5"></span>
 
 <!--
 {% include cta_101.html %}
