@@ -64,9 +64,9 @@ Here's what the __Correlation Funnel__ looks like for the bank marketing campaig
     
 - [Conclusion](#conclusion)
 
-- [Correlation Analysis Success Story](#success)
-
 - [More Awesome EDA Packages](#eda_packages)
+
+- [Correlation Analysis Success Story](#success)
 
 - [References](#references)
 
@@ -423,7 +423,19 @@ marketing_campaign_tbl %>%
 
 This is a lot better than using Excel `Pivot Tables`. I estimated about __160 Minutes (almost 3 hours__ of non-stop Pivot Table visualizations, not including possibly missing information or getting sidetracked. ___Correlation analysis in 5 lines of code is an easy win.___
 
+## More Awesome EDA Packages {#eda_packages}
 
+Want to go even further with Exploratory Data Analysis? Here are several great EDA packages that can help you understand data issues (cleanliness) and get data prepared for Correlation Analysis!
+
+- [correlationfunnel](https://github.com/business-science/correlationfunnel) - My new correlation analysis R package
+
+- [Data Explorer](https://boxuancui.github.io/DataExplorer/) - Automates Exploration and Data Treatment. Amazing for investigating features quickly and efficiently including by data type, missing data, feature engineering, and identifying relationships. 
+
+- [naniar](http://naniar.njtierney.com/) - For understanding missing data.
+
+- [UpSetR](https://github.com/hms-dbmi/UpSetR) - For generating upset plots
+
+- [GGally](https://ggobi.github.io/ggally/) - The `ggpairs()` function is one of my all-time favorites for visualizing many features quickly.
 
 ## Correlation Analysis Success Story {#success}
 
@@ -441,25 +453,11 @@ Stephen learned `R` through [Business Science University](https://university.bus
 
 1. [__Business Analysis with R (DS4B 101-R)__](https://university.business-science.io/p/ds4b-101-r-business-analysis-r) - A 7-Week course where you learn the foundations of data science for business using `R`, the `tidyverse`, `parsnip` (Machine Learning), `dplyr` (data wrangling), `ggplot2` (visualization), `rmarkdown` (reporting), and more!
 
-2. [__Advanced Machine Learning &amp; Business Consulting (DS4B 201-R)__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) - A 10-Week program where you learn a framework for solving business problems with data science, and you apply cutting-edge tools including `H2O` Automatic Machine Learning, `LIME` Local Feature Explanation, and ROI Analysis. 
+2. [__Advanced Machine Learning &amp; Business Consulting (DS4B 201-R)__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) - A 10-Week program where you learn a framework for solving business problems with data science, and you apply cutting-edge tools including `H2O` Automatic Machine Learning, `LIME` Local Feature Explanation, Correlation Analysis, and ROI Analysis. 
 
 3. [__Learning Labs PRO__](https://university.business-science.io/p/learning-labs-pro) - A continuous learning system where students receive new 1-hour courses every 2-weeks on advanced topics like wrangling large data sets, creating API's, and more!
 
 <span data-sumome-listbuilder-embed-id="9cdb3104db3972bf15bfcdd21d0ae1d67082ed31c22aef5a700b86b9b2cdf5fd"></span>
-
-## More Awesome EDA Packages {#eda_packages}
-
-Want to go even further with Exploratory Data Analysis? Here are several great EDA packages that can help you understand data issues (cleanliness) and get data prepared for Correlation Analysis!
-
-- [correlationfunnel](https://github.com/business-science/correlationfunnel) - My new correlation analysis R package
-
-- [Data Explorer](https://boxuancui.github.io/DataExplorer/) - Automates Exploration and Data Treatment. Amazing for investigating features quickly and efficiently including by data type, missing data, feature engineering, and identifying relationships. 
-
-- [naniar](http://naniar.njtierney.com/) - For understanding missing data.
-
-- [UpSetR](https://github.com/hms-dbmi/UpSetR) - For generating upset plots
-
-- [GGally](https://ggobi.github.io/ggally/) - The `ggpairs()` function is one of my all-time favorites for visualizing many features quickly.
 
 ## References {#references}
 
