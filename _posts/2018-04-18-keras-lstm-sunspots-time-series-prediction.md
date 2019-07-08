@@ -45,19 +45,8 @@ The end result is a __high performance deep learning algorithm__ that does an ex
 ![Stateful Keras LSTM Predictions](/assets/2018-04-18-keras-lstm-sunspots/keras_stateful_lstm.png)
 
 
-<hr>
-
-<h2 class="text-center">Interested in Learning Data Science For Business?</h2>
-
-<p class="text-center">
-Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I'll send you the five coolest topics in data science for business that I've found that week. These could be new R packages, free books, or just some fun to end the week on. 
-</p>
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://mailchi.mp/business-science/data-science-five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
-</p>
-
-<hr>
+<br>
+{% include cta_201.html %}
 
 ## Applications in Business
 
@@ -505,6 +494,11 @@ rolling_origin_resamples %>%
 ![LSTM Backtesting Strategy - Zoomed In](/figure/source/2018-04-18-keras-lstm-sunspots-time-series-prediction/unnamed-chunk-16-1.png)
 
 We'll use this Backtesting Strategy (11 samples from one time series each with 50/10 split in years and a 20 year offset) when testing the veracity of the LSTM model on the sunspots dataset. 
+
+
+<br>
+{% include cta_101.html %}
+
 
 ### 5.0 Modeling The Keras Stateful LSTM Model
 
@@ -1394,7 +1388,6 @@ Beyond the deep learning approach used, the article also exposed methods to dete
 
 Enjoy data science for business? We do too. This is why we created [Business Science University](https://university.business-science.io/) where we teach you how to do __Data Science For Busines (#DS4B)__ just like us!
 
-Our first [DS4B course (HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) is now available! 
 
 #### Who is this course for?
 
@@ -1413,9 +1406,10 @@ You learn everything you need to know about how to apply data science in a busin
 
 - __Apply systematic data science frameworks__ (e.g. [Business Science Problem Framework](https://university.business-science.io/courses/246843/lectures/5029853))
 
->__"If you've been looking for a program like this, I'm happy to say it's finally here! This is what I needed when I first began data science years ago. It's why I created Business Science University."__
->
->__Matt Dancho, Founder of Business Science__
+
+<br>
+{% include cta_201.html %}
+
 
 
 ### DS4B Virtual Workshop: Predicting Employee Attrition <a class="anchor" id="vw"></a>

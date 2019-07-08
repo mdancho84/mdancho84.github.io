@@ -44,6 +44,11 @@ We have a cheat sheet that walks the user through the workflow for segmenting cu
   * [Further Reading](#further-reading)
   * [Updates](#updates)
 
+
+<br>
+{% include cta_201_learn_ml.html %}
+
+
 ## How K-Means Works <a class="anchor" id="how-works"></a>
 
 The _k_-means clustering algorithm works by finding like groups based on Euclidean distance, a measure of distance or similarity. The practitioner selects $$k$$ groups to cluster, and the algorithm finds the best centroids for the $$k$$ groups. The practitioner can then use those groups to determine which factors group members relate. For customers, these would be their buying preferences. 
@@ -152,6 +157,11 @@ knitr::kable(head(customerTrends))
 |Beast of the East 2 |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0104895|       0.0099668|       0.0081301|        0.0000000|               0.0050761|     0.0042735|        0.0152108|      0.0059524|                0.0094044|                0.0181962|         0.0138289|        0.0000000|          0.0220126|                 0.0050633|            0.0084270|             0.0076104|          0.0086705|               0.0097826|       0.0172840|                    0.0086580|              0.0000000|       0.0232558|                    0.0106101|        0.0155280|          0.0147601|             0.0107527|              0.0026738|              0.0234375|   0.0291262|     0.0019724|
 |Beast of the East 3 |Mountain  |Trail      |Aluminum |[ 415, 3500) |          0.0034965|       0.0033223|       0.0000000|        0.0000000|               0.0025381|     0.0042735|        0.0169492|      0.0119048|                0.0000000|                0.0102848|         0.0181504|        0.0032051|          0.0000000|                 0.0050633|            0.0042135|             0.0152207|          0.0202312|               0.0043478|       0.0049383|                    0.0051948|              0.0204082|       0.0162086|                    0.0026525|        0.0201863|          0.0073801|             0.0322581|              0.0000000|              0.0078125|   0.0097087|     0.0000000|
 |CAAD Disc Ultegra   |Road      |Elite Road |Aluminum |[ 415, 3500) |          0.0139860|       0.0265781|       0.0203252|        0.0153453|               0.0101523|     0.0000000|        0.0108648|      0.0079365|                0.0094044|                0.0000000|         0.0106598|        0.0112179|          0.0157233|                 0.0278481|            0.0210674|             0.0182648|          0.0375723|               0.0152174|       0.0172840|                    0.0103896|              0.0163265|       0.0126850|                    0.0026525|        0.0139752|          0.0073801|             0.0053763|              0.0026738|              0.0078125|   0.0000000|     0.0098619|
+
+
+<br>
+{% include cta_201_learn_ml.html %}
+
 
 ## K-Means Clustering <a class="anchor" id="kmeans"></a>
 
@@ -391,9 +401,10 @@ You learn everything you need to know about how to apply data science in a busin
 
 - __Apply systematic data science frameworks__ (e.g. [Business Science Problem Framework](https://university.business-science.io/courses/246843/lectures/5029853))
 
->__"If you've been looking for a program like this, I'm happy to say it's finally here! This is what I needed when I first began data science years ago. It's why I created Business Science University."__
->
->__Matt Dancho, Founder of Business Science__
+
+<br>
+{% include cta_201_learn_ml.html %}
+
 
 
 ### DS4B Virtual Workshop: Predicting Employee Attrition <a class="anchor" id="vw"></a>

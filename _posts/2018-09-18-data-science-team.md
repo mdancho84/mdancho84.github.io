@@ -150,6 +150,7 @@ __Relevant Skill-Sets__:
 * __R__: `R` is used for exploratory data analysis (EDA) and visualization because of its ease of use for exploration. The `tidyverse` is predominantly being used for quickly transforming data prior to exploration.
 * __Python__: `Python` is used for advanced machine learning and deep learning with high-performance NVIDIA GPUs. All the top deep learning frameworks are available in Python and can be easily deployed through the tools provided in the NVIDIA GPU Cloud.
 
+{% include cta_rtrack.html %}
 
 #### User Interface Experts (UIE) {#UIE}
 
@@ -274,6 +275,8 @@ The program will grow into __Data Engineering__ including high-performance langu
 
 <br>
 <p class="text-center" style="font-size:30px;"> Building A Data Science Team? Business Science Can Help.</p>
+
+{% include cta_rtrack.html %}
 <br>
 
 We are your educational partner. We are here to support your transition by providing best-in-class data science education. No matter what point you are at, we will take you where you need to go. Contact us to learn more about our educational data science capabilities.

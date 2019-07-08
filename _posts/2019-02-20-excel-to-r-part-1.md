@@ -49,12 +49,8 @@ Read this article series, to see how you can gain a <strong>10X productivity boo
 
 
 <br>
+
 <span data-sumome-listbuilder-embed-id="5d78359fc7a21b676a198de1dd6fcae148f4c4abfe51faae0c940d74803d06e5"></span>
-
-<!--
-{% include cta_101.html %}
--->
-
 
 
 ## Part 1 Overview

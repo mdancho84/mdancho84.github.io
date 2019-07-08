@@ -34,6 +34,8 @@ With advances in machine learning and data science, its possible to __not only p
 2. __Feature Importance with the `lime` package__: The problem with advanced machine learning algorithms such as deep learning is that it's near impossible to understand the algorithm because of its complexity. This has all changed with the `lime` package. The major advancement with `lime` is that, by recursively analyzing the models locally, it can extract feature importance that repeats globally. What this means to us is that `lime` has opened the door to understanding the ML models regardless of complexity. __Now the best (and typically very complex) models can also be investigated and potentially understood as to what variables or features make the model tick__. 
 
 
+{% include cta_201_learn_ml.html %}
+
 
 ## Employee Attrition: Machine Learning Analysis 
 
@@ -392,6 +394,10 @@ Before we make our final judgement, let's dive a little deeper into __precision_
 Most HR groups would probably prefer to incorrectly classify folks not looking to quit as high potential of quiting rather than classify those that are likely to quit as not at risk. Because it's important to not miss at risk employees, __HR will really care about recall__ or when the actual value is Attrition = YES how often the model predicts YES. 
 
 Recall for our model is 62%. In an HR context, this is 62% more employees that could potentially be targeted prior to quiting. From that standpoint, an organization that loses 100 people per year could possibly target 62 implementing measures to retain.
+
+
+{% include cta_201_learn_ml.html %}
+
 
 ### LIME
 

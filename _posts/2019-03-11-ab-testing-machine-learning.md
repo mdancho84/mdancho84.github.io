@@ -485,24 +485,7 @@ We'll implement the new `parsnip` R package. For those unfamiliar, here are some
 
 - Simple API makes Machine Learning easy
 
-<hr>
-
-<h2 class="text-center">Go From Zero to ML-Pro in 5-Hours</h2>
-
-Machine Learning normally takes years to learn. We've created a 5-hour training that's available in Week 6 of our [Business Analysis with R course](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15). You will learn: 
-
-- Linear Regression (and the impact of Feature Engineering)
-- GLM (Elastic Net)
-- Decision Trees
-- Random Forests 
-- XGBoost
-- Support Vector Machines
-
-All in 5-short hours (not years). This means pros/cons, how to interpret algorithm results, and how to apply with business data!
-
-> __Don't take years to learn Machine Learning. Go from Zero to ML-Pro in 5-hours! Learn each of the major machine learning algorithms with our [Business Analysis with R course](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15)__
-
-<hr>
+{% include cta_101_learn_ml.html %}
 
 Our strategy will be to implement 3 modeling approaches:
 

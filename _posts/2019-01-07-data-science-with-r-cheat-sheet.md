@@ -114,11 +114,10 @@ You finish the course with two reports (one for each project). Here's an example
 <p class="date text-center">Customer Segmentation Report - One of 2 business reports you create!</p>
 
 
-### Limited Time Discount
+<br><br>
 
 <p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon_code=DS4B15"><strong>15% OFF LIMITED TIME OFFER</strong></a></p>
 
-<p class="text-center" style="font-size:30px">Expires January 15th, 2019</p>
 
 ## Summary: A Complete Foundational Data Science Program For Business
 
@@ -143,6 +142,7 @@ In 7-Weeks, learn the tools that will advance your career while generating busin
 
 - __Life-time access and no prerequisites!__
 
+<br>
+
 <p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon_code=DS4B15"><strong>Get Started Today</strong></a></p>
 
-<p class="text-center" style="font-size:30px">Hurry. Offer expires January 15th!</p>

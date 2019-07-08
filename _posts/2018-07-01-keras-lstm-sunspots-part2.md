@@ -43,20 +43,9 @@ In fact, one of the coolest things you'll develop is this plot of backtested LST
 <p class="text-center date">Backtested LSTM Forecasts</p>
 
 
+<br>
+{% include cta_201.html %}
 
-<hr>
-
-<h2 class="text-center">Interested in Learning Data Science For Business?</h2>
-
-<p class="text-center">
-Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I'll send you the five coolest topics in data science for business that I've found that week. These could be new R packages, free books, or just some fun to end the week on. 
-</p>
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://mailchi.mp/business-science/data-science-five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
-</p>
-
-<hr>
 
 ## Time Series Deep Learning In Business <a class="anchor" id="dl-in-business"></a> 
 
@@ -422,6 +411,10 @@ rolling_origin_resamples %>%
 ![Backtesting Strategy: Rolling Origin Sampling, Zoomed In](/assets/2018-07-01-keras-lstm-sunspots2/all_splits_zoomed.png)
 
 We'll use this backtesting strategy (6 samples from one time series each with 50/10 split in years and a ~20 year offset) when testing the veracity of the LSTM model on the sunspots dataset. 
+
+
+<br>
+{% include cta_201.html %}
 
 
 ## The LSTM model <a class="anchor" id="lstm"></a>

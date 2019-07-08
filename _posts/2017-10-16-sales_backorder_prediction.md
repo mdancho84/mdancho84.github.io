@@ -42,19 +42,9 @@ This is a longer analysis, and certain sections may be more interesting based on
     
 Others should just read the whole thing. ;)
 
-<hr>
+<br>
+{% include cta_201_learn_ml.html %}
 
-<h2 class="text-center">Interested in Learning Data Science For Business?</h2>
-
-<p class="text-center">
-Sign up for our free <strong>"5 Topic Friday" Newsletter</strong>. Every week, I'll send you the five coolest topics in data science for business that I've found that week. These could be new R packages, free books, or just some fun to end the week on. 
-</p>
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://mailchi.mp/business-science/data-science-five-topic-friday"><strong>Sign Up For Five-Topic-Friday!</strong></a> 
-</p>
-
-<hr>
 
 # Background on Backorder Prediction <a class="anchor" id="background"></a>
 
@@ -456,6 +446,10 @@ train_df$went_on_backorder %>% table() %>% prop.table()
 ##         0         1 
 ## 0.5714286 0.4285714
 {% endhighlight %}
+
+
+<br>
+{% include cta_201_learn_ml.html %}
 
 
 ### Modeling with h2o
@@ -1177,9 +1171,10 @@ You learn everything you need to know about how to apply data science in a busin
 
 - __Apply systematic data science frameworks__ (e.g. [Business Science Problem Framework](https://university.business-science.io/courses/246843/lectures/5029853))
 
->__"If you've been looking for a program like this, I'm happy to say it's finally here! This is what I needed when I first began data science years ago. It's why I created Business Science University."__
->
->__Matt Dancho, Founder of Business Science__
+
+<br>
+{% include cta_201_learn_ml.html %}
+
 
 
 ### DS4B Virtual Workshop: Predicting Employee Attrition <a class="anchor" id="vw"></a>
