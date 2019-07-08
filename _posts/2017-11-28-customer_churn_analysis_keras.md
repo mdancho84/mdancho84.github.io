@@ -60,9 +60,13 @@ We also cross-checked the LIME results with a __Correlation Analysis__ using the
 
 We even built an __ML-Powered Interactive PowerBI Web Application__ with a __Customer Scorecard__ to monitor customer churn risk and to make recommendations on how to improve customer health! Feel free to take it for a spin.
 
+<!--
 <p style="text-align: center;"><em>View in Full Screen Mode for best experience</em></p>
 
 <iframe width="100%" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNzRhNGI4M2YtZTZhNy00ZjUwLTllM2MtOWVkNDVmOWMzM2I0IiwidCI6IjkxYzM2OWI1LTFjOWUtNDM5Yy05ODljLTE4NjdlYzYwNjYwMyIsImMiOjZ9" frameborder="1" allowFullScreen="true"></iframe>
+-->
+
+{% include cta_101_learn_ml.html %}
 
 ### Credits 
 
@@ -457,6 +461,10 @@ One last step, we need to store the actual values (truth) as `y_train_vec` and `
 y_train_vec <- ifelse(pull(train_tbl, Churn) == "Yes", 1, 0)
 y_test_vec  <- ifelse(pull(test_tbl, Churn) == "Yes", 1, 0)
 {% endhighlight %}
+
+
+{% include cta_101_learn_ml.html %}
+
 
 ## Model Customer Churn With Keras (Deep Learning)
 
@@ -1070,22 +1078,24 @@ We need to implement _K-Fold Cross Validation_ and _Hyper Parameter Tuning_ if w
 
 __It's critical to communicate data science insights to decision makers in the organization__. Most decision makers in organizations are not data scientists, but these individuals make important decisions on a day-to-day basis. The PowerBI application below includes a __Customer Scorecard__ to monitor customer health (risk of churn). The application walks the user through the __machine learning journey__ for how the model was developed, what it means to stakeholders, and how it can be used in production.
 
+<!--
 <p style="text-align: center;"><em>View in Full Screen Mode for best experience</em></p>
 
 <iframe width="100%" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiNzRhNGI4M2YtZTZhNy00ZjUwLTllM2MtOWVkNDVmOWMzM2I0IiwidCI6IjkxYzM2OWI1LTFjOWUtNDM5Yy05ODljLTE4NjdlYzYwNjYwMyIsImMiOjZ9" frameborder="1" allowFullScreen="true"></iframe>
 
 <br>
+-->
 
 For those seeking options for distributing analytics, two good options are:
 
-- __Shiny Apps for rapid prototyping__: Shiny web applications offer the maximum flexibility with R algorithms built in. Shiny is more complex to learn, but Shiny applications are incredible / limitless. 
+- __Shiny Apps for rapid prototyping__: [Shiny web applications](https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1) offer the maximum flexibility with R algorithms built in. Shiny is more complex to learn, but Shiny applications are incredible / limitless. 
 
 - __Microsoft PowerBI and Tableau for Visualization__: Enable distributed analytics with the advantage of intuitive structure but with some flexibilty sacrificed. Can be difficult to build ML into. 
 
 
 ### Business Science University
 
-You're probably wondering why we are going into so much detail on next steps. We are happy to announce a new project for 2018: [__Business Science University__](https://university.business-science.io/), an online school dedicated to helping data science learners.
+You're probably wondering why we are going into so much detail on next steps. [__Business Science University__](https://university.business-science.io/), an online school dedicated to helping data science learners.
 
 Benefits to learners:
 
@@ -1096,38 +1106,13 @@ Benefits to learners:
 
 __Enrollment is open__ so please signup for special perks. Just go to [__Business Science University__](https://university.business-science.io/) and select enroll. 
 
+{% include cta_101_learn_ml.html %}
 
 
 ## Conclusions
 
 __Customer churn is a costly problem__. The good news is that __machine learning can solve churn problems__, making the organization more profitable in the process. In this article, we saw how __Deep Learning can be used to predict customer churn__. We built an ANN model using the new [`keras`](https://tensorflow.rstudio.com/keras/) package that achieved __82% predictive accuracy__ (without tuning)! We used three new machine learning packages to help with preprocessing and measuring performance: [`recipes`](https://topepo.github.io/recipes), [`rsample`](https://topepo.github.io/rsample/) and [`yardstick`](https://github.com/topepo/yardstick). Finally we used [`lime`](https://github.com/thomasp85/lime) to explain the Deep Learning model, which __traditionally was impossible__! We checked the LIME results with a __Correlation Analysis__, which brought to light other features to investigate. For the IBM Telco dataset, tenure, contract type, internet service type, payment menthod, senior citizen status, and online security status were useful in diagnosing customer churn. We hope you enjoyed this article! 
 
-## Business Science University  <a class="anchor" id="bsu"></a>
-
-Enjoy data science for business? We do too. This is why we created [Business Science University](https://university.business-science.io/) where we teach you how to do __Data Science For Busines (#DS4B)__ just like us!
-
-Our first [DS4B course (HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) is now available! 
-
-#### Who is this course for?
-
-Anyone that is interested in applying data science in a business context (we call this DS4B). All you need is basic `R`, `dplyr`, and `ggplot2` experience. If you understood this article, you are qualified. 
-
-#### What do you get it out of it?
-
-
-You learn everything you need to know about how to apply data science in a business context:
-
-- __Using ROI-driven data science taught from consulting experience!__
-
-- __Solve high-impact problems__ (e.g. $15M Employee Attrition Problem)
-
-- __Use advanced, bleeding-edge machine learning algorithms__ (e.g. H2O, LIME)
-
-- __Apply systematic data science frameworks__ (e.g. [Business Science Problem Framework](https://university.business-science.io/courses/246843/lectures/5029853))
-
->__"If you've been looking for a program like this, I'm happy to say it's finally here! This is what I needed when I first began data science years ago. It's why I created Business Science University."__
->
->__Matt Dancho, Founder of Business Science__
 
 
 ### DS4B Virtual Workshop: Predicting Employee Attrition <a class="anchor" id="vw"></a>
