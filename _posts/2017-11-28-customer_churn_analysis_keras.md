@@ -1114,26 +1114,6 @@ __Enrollment is open__ so please signup for special perks. Just go to [__Busines
 __Customer churn is a costly problem__. The good news is that __machine learning can solve churn problems__, making the organization more profitable in the process. In this article, we saw how __Deep Learning can be used to predict customer churn__. We built an ANN model using the new [`keras`](https://tensorflow.rstudio.com/keras/) package that achieved __82% predictive accuracy__ (without tuning)! We used three new machine learning packages to help with preprocessing and measuring performance: [`recipes`](https://topepo.github.io/recipes), [`rsample`](https://topepo.github.io/rsample/) and [`yardstick`](https://github.com/topepo/yardstick). Finally we used [`lime`](https://github.com/thomasp85/lime) to explain the Deep Learning model, which __traditionally was impossible__! We checked the LIME results with a __Correlation Analysis__, which brought to light other features to investigate. For the IBM Telco dataset, tenure, contract type, internet service type, payment menthod, senior citizen status, and online security status were useful in diagnosing customer churn. We hope you enjoyed this article! 
 
 
-
-### DS4B Virtual Workshop: Predicting Employee Attrition <a class="anchor" id="vw"></a>
-
-Did you know that __an organization that loses 200 high performing employees per year is essentially losing $15M/year in lost productivity__? Many organizations don't realize this because it's an indirect cost. It goes unnoticed. What if you could use data science to predict and explain turnover in a way that managers could make better decisions and executives would see results? You will learn the tools to do so in our Virtual Workshop. Here's an example of a Shiny app you will create.
-
-![HR 301 Shiny Application: Employee Prediction](/img/hr_301_app.png) 
-<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in HR 301</p> 
-
-
-Our first [__Data Science For Business (HR 201) Virtual Workshop__](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover) teaches you how to solve this employee attrition problem in four courses that are fully integrated:
-
-* HR 201: Predicting Employee Attrition with `h2o` and `lime`
-* HR 301: Building A `Shiny` Web Application
-* HR 302: Data Story Telling With `RMarkdown` Reports and Presentations
-* HR 303: Building An R Package For Your Organization, `tidyattrition`
-
-The Virtual Workshop is intended for __intermediate and advanced R users__. It's __code intensive (like these articles)__, but also teaches you fundamentals of data science consulting including CRISP-DM and the Business Science Problem Framework. __The content bridges the gap between data science and the business, making you even more effective and improving your organization in the process.__
-
-Interested? [__Enroll in Business Science University today!__](https://university.business-science.io/)
-
 ## About Business Science <a class="anchor" id="contact"></a>
 
 Business Science specializes in "ROI-driven data science". __Our focus is machine learning and data science in business and financial applications. We help businesses that seek to add this competitive advantage but may not have the resources currently to implement predictive analytics__. Business Science can help to expand into predictive analytics while executing on ROI generating projects. Visit the [Business Science website](http://www.business-science.io/) or [contact us](http://www.business-science.io/contact.html) to learn more!
