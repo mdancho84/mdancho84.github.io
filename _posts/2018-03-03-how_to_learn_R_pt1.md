@@ -1353,28 +1353,6 @@ We learned a bunch of cool things related to our hypothesis. To recap, we hypoth
 
 In the next post we'll dive deeper into the list of top functions generated to see if we can develop a program to go from zero experience in R to intermediate status quickly! __If our 80/20 theory is right, we should be able to go from zero to intermediate in just a couple weeks by focusing on the most critical functions__. 
 
-## Business Science University  <a class="anchor" id="bsu"></a>
-
-__Interested in learning data science for business?__ We are developing our Virtual Workshop on analyzing a major problem affecting companies: __employee attrition (turnover)__. Don't wait...  [__Enroll in Business Science University today!__](https://university.business-science.io/) You'll get an __early-bird discount__ on the first Virtual Workshop. 
-
-### Virtual Workshop: Predicting Employee Attrition
-
-Did you know that __an organization that loses 200 high performing employees per year is essentially losing $15M/year in lost productivity__? Many organizations don't realize this because it's an indirect cost. It goes unnoticed. What if you could use data science to predict and explain turnover in a way that managers could make better decisions and executives would see results? You will learn the tools to do so in our Virtual Workshop. Here's an example of a Shiny app you will create.
-
-![HR 301 Shiny Application: Employee Prediction](/img/hr_301_app.png)
-<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in HR 301</p>
-
-
-Our first Virtual Workshop teaches you how to solve this employee attrition problem using data science. We are building four courses that are fully integrated into a single virtual workshop:
-
-* HR 201: Predicting Employee Attrition with `h2o` and `lime`
-* HR 301: Building A `Shiny` Web Application
-* HR 302: Data Story Telling With `RMarkdown` Reports and Presentations
-* HR 303: Building An R Package For Your Organization, `tidyattrition`
-
-The Virtual Workshop is intended for __intermediate and advanced R users__. It's code intensive, but also teaches you fundamentals of data science consulting including CRISP-DM and the Business Science Problem Framework. __The content bridges the gap between data science and the business, making you even more effective and improving your organization in the process.__
-
-Interested? [__Enroll in Business Science University today!__](https://university.business-science.io/)
 
 
 ## R Resources
