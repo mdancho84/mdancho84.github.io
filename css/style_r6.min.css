@@ -119,3 +119,15 @@ li{font-size:20px;}
 
 /* Highlight Style */
 .hljs-comment {color: #999999 !important;}
+
+/* Equal thumbnail sizes on large devices */
+@media (min-width: 991px) {
+  .equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
+  .thumbnail {
+    height: 100%;
+  }  
+}
