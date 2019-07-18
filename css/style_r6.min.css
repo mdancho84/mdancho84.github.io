@@ -152,15 +152,18 @@ li{font-size:20px;}
   color:#2aa7f9;
 }
 .testimonial-cover {
-  height:450px; 
+  min-height:500px; 
   width: 100%;
   background-image: url('/assets/testimonials/testimonials-cover.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+  /* background-attachment: fixed; */
   color: #ffffff;
-  padding-top: 16px;
   margin-bottom: 40px;
 }
 .testimonial-cover h1 {
-  font-size: 60px !important; 
+  font-size: 55px !important; 
   font-weight: 300 !important;
   line-height: 88px;
 }
