@@ -11,7 +11,7 @@ image: 2019-07-22-how-i-started-my-data-science-business/obsessed-with-r.png
 
 
 
-This is a true story based on how I created my data science company from scratch. It's a detailed documentation of my personal journey along with the company I founded, Business Science, and the data science educational university I started, [Business Science University](https://university.business-science.io/).
+This is a true story based on how I created my data science company from scratch. It's a detailed documentation of my personal journey along with the company I founded, [Business Science](https://www.business-science.io/), and the data science educational university I started, [Business Science University](https://university.business-science.io/).
 
 Before we get started, if you are entertaining the idea of getting started on this journey I will cut to the chase. It's been an amazing, life-altering journey. It's also been a heck of a lot of work, effort, time, and energy. I've gotten lucky too.
 
@@ -36,7 +36,7 @@ One day at work, I was trying to read all of our sales data into Excel. This was
 Excel crashed.
 
 <img src="/assets/2019-07-22-how-i-started-my-data-science-business/excel-crashed.jpeg" alt="Excel Crashed Cartoon"/>
-
+<p class="text-center date">...Excel just crashed my PC for the 8th time today.</p>
 
 ## Trying Python and R
 
@@ -44,13 +44,14 @@ I'd been searching for better ways to work with data, and I (vaguely) knew of Py
 
 The goal at the time was to solve my Excel problem. I wanted to work with data larger than 50MB. That's it. It wasn't to learn machine learning or data science. I don't think those terms even existed back then.
 
-I started with Python. It was a good language, but for me something was a bit off. I was using Jupyter notebooks to develop report-ish files that contained text and code. However, it felt like coding and not exploring.
+__I started with Python.__ It was a good language, but for me something was a bit off. I was using Jupyter notebooks to develop report-ish files that contained text and code. However, it felt like coding and not exploring.
 
-A coworker that was fresh out of engineering school recommended I check out R. I began investigating, and although quirky I found the R programming language oddly satisfying. It was more statistical in nature, which lent itself well to exploring data, finding insights, and enabling me to critically think about the analysis. Plus it was free!
+A coworker that was fresh out of engineering school recommended I check out R. I began investigating, and although quirky __I found the R programming language oddly satisfying.__ It was more statistical in nature, which lent itself well to exploring data, finding insights, and enabling me to critically think about the analysis. Plus it was free!
 
 After about a week of using R, I was hooked (aka obsessed). I was using it at work. I was using it on the weekends. I was basically using it all the time.
 
 <img src="/assets/2019-07-22-how-i-started-my-data-science-business/obsessed-with-r.png" alt="Obsessed With R Programming" style="width:400px;"/>
+<p class="text-center date">Obsessed with R. A new fragrance by Business Science.</p>
 
 Quite naturally, I logged in a lot of hours with R very quickly. I probably had my [10,000 hours](https://zenhabits.net/the-only-way-to-become-amazingly-great-at-something/) in within a couple years.
 
@@ -84,7 +85,7 @@ Over the next month I began coding what became known as tidyquant, an R package 
 
 I released tidyquant to CRAN (CRAN is like the Apple App Store for R packages) on December 31, 2016.
 
-<img src="/assets/2019-07-22-how-i-started-my-data-science-business/tidy.png" class="pull-right" alt="Tidyquant R Package"/>
+<a href="https://www.business-science.io/software.html" target="_blank"><img src="/assets/2019-07-22-how-i-started-my-data-science-business/tidy.png" class="pull-right" alt="Tidyquant R Package" style="margin-left:20px;"/></a>
 
 Watching the recorded sessions from the __RStudio Conference from my hotel room of a work trip 3 weeks later__ (RStudio is the major company in the R data science space, and their conference is where a lot early adopters go to learn about the latest cutting edge R work), [I saw a presentation by Hadley Wickham](https://www.rstudio.com/resources/videos/data-science-in-the-tidyverse/) (the most famous data scientist in R, he built the early version of the tidyverse).
 
