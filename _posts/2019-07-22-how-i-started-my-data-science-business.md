@@ -38,6 +38,8 @@ Excel crashed.
 <img src="/assets/2019-07-22-how-i-started-my-data-science-business/excel-crashed.jpeg" alt="Excel Crashed Cartoon"/>
 
 
+## Trying Python and R
+
 I'd been searching for better ways to work with data, and I (vaguely) knew of Python and R. It turned out __Excel crashing was what I needed to get started learning.__
 
 The goal at the time was to solve my Excel problem. I wanted to work with data larger than 50MB. That's it. It wasn't to learn machine learning or data science. I don't think those terms even existed back then.
