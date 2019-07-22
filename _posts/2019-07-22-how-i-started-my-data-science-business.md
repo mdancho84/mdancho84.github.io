@@ -154,7 +154,7 @@ In January 2017, I formed a small team of data scientists that I knew we could c
 
 [Business Science University](https://university.business-science.io/) was established as a way to take beginner-to-intermediate data scientists to an advanced level quickly within a business context. We focused on results first (hence everything we teach is in the pursuit of ROI). We utilized cutting-edge tools like H2O, Keras, and xgboost. Most importantly, we taught how to size a data science problem financially and how to link the predictive models to expected savings or profitability.
 
-<img src="/assets/2019-07-22-how-i-started-my-data-science-business/bsu-flyer.png" class="pull-right" style="width:400px;" alt="Business Science University - Online Data Science Education"/>
+<a href="https://university.business-science.io/" target="_blank"><img src="/assets/2019-07-22-how-i-started-my-data-science-business/bsu-flyer.png" class="pull-right" style="width:40%;margin-left:20px;" alt="Business Science University - Online Data Science Education"/></a>
 
 We launched in April of 2018.
 
