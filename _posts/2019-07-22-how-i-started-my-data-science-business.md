@@ -5,7 +5,7 @@ date:   2019-07-22 08:08:01
 excerpt: "This is a true story based on how I created my data science company from scratch. It's a detailed documentation of my personal journey along with the company I founded, Business Science."
 author: "Matt Dancho"
 categories: [Business]
-tags: [Learn-R, Learn-Business, Learn-Marketing]
+tags: [Learn-R, Learn-Business, Consulting]
 image: 2019-07-22-how-i-started-my-data-science-business/obsessed-with-r.png
 ---
 
