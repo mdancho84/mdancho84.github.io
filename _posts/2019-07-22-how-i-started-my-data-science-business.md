@@ -82,7 +82,7 @@ Over the next month I began coding what became known as tidyquant, an R package 
 
 I released tidyquant to CRAN (CRAN is like the Apple App Store for R packages) on December 31, 2016.
 
-<img src="/assets/2019-07-22-how-i-started-my-data-science-business/tidy.png" class="pull-right" alt="Obsessed With R Programming"/>
+<img src="/assets/2019-07-22-how-i-started-my-data-science-business/tidy.png" class="pull-right" alt="Tidyquant R Package"/>
 
 Watching the recorded sessions from the __RStudio Conference from my hotel room of a work trip 3 weeks later__ (RStudio is the major company in the R data science space, and their conference is where a lot early adopters go to learn about the latest cutting edge R work), [I saw a presentation by Hadley Wickham](https://www.rstudio.com/resources/videos/data-science-in-the-tidyverse/) (the most famous data scientist in R, he built the early version of the tidyverse).
 
@@ -99,7 +99,7 @@ Within 2 months I personally began getting requests for data science projects. T
 
 In February of 2017, I formed Business Science.
 
-<img src="/assets/2019-07-22-how-i-started-my-data-science-business/tidy.png" class="pull-left" style="width:250px; padding-right:20px;" alt="Obsessed With R Programming"/>
+<img src="/assets/2019-07-22-how-i-started-my-data-science-business/business-science-logo-2.png" class="pull-left" style="width:200px; margin-right:20px;" alt="Business Science Logo"/>
 
 Forming a business was something I've always wanted to do, but at this point it was more a strategic way to manage liability. At any rate, it was cool. I was working hard at my 9-5, but now I could actually make some money on the side doing what I enjoyed: R Programming!
 
@@ -120,7 +120,7 @@ I learned that if Business Science was going to be successful, we needed a plan.
 
 # The Business Science Problem Framework
 
-<img src="/assets/2019-07-22-how-i-started-my-data-science-business/bspf-2.png" class="pull-right" alt="Business Science Problem Framework"/>
+<img src="/assets/2019-07-22-how-i-started-my-data-science-business/bspf-2.png" alt="Business Science Problem Framework"/>
 
 The [Business Science Problem Framework](http://www.business-science.io/bspf.html) (or BSPF for short) was a systematic process that I developed after reading the book Principles by Ray Dalio. It incorporated many of Ray's concepts for business improvement, and I was able to integrate it with another popular, high-level framework called CRISP-DM that I'd been experimenting with.
 
