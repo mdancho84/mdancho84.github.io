@@ -125,7 +125,7 @@ I learned that if Business Science was going to be successful, we needed a plan.
 
 # The Business Science Problem Framework
 
-<a href="http://www.business-science.io/bspf.html" target="_blank"><img src="/assets/2019-07-22-how-i-started-my-data-science-business/bspf-2.png" alt="Business Science Problem Framework"/></a>
+<a href="http://www.business-science.io/bspf.html" target="_blank"><img src="/assets/2019-07-22-how-i-started-my-data-science-business/bspf-2.png" alt="Business Science Problem Framework" style="width:100%;"/></a>
 
 The [Business Science Problem Framework](http://www.business-science.io/bspf.html) (or BSPF for short) was a systematic process that I developed after reading the book Principles by Ray Dalio. It incorporated many of Ray's concepts for business improvement, and I was able to integrate it with another popular, high-level framework called CRISP-DM that I'd been experimenting with.
 
