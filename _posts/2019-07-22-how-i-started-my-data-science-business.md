@@ -71,7 +71,7 @@ However, the financial ecosystem within R had not experienced the same infiltrat
 
 Further, in writing the S&P 500 Analysis article, I was constantly converting back and forth between data frame and xts (two different data structures in R each with benefits that I will not go into).
 
-A light bulb in my head went off!
+## A light bulb in my head went off!
 
 What if I put together a set of functions to do all of these financial calculations without ever leaving the tidyverse? That would save me and everyone else a ton of coding time.
 
@@ -108,7 +108,9 @@ Business Science initially started out serving clients as a consulting firm. We'
 
 In September of 2017, we received a big opportunity when a Fortune 500 company signed us up to do a quick turn data science job. We had just released our article ["HR Analytics: Using Machine Learning To Predict Employee Turnover"](http://www.business-science.io/business/2017/09/18/hr_employee_attrition.html) that went viral. We received a job to quickly collect and report predictive insights on a Workday database (Cloud-based software for HR data). The client was to present to executive management the following week and wanted to show predictive insights from their data.
 
-__The job did not go well.__ We received the data on Friday, and were to present findings on Monday so the executives could integrate into a presentation for Wednesday of the following week. I contracted an HR Specialist out of Houston. He and I worked non-stop from Friday through to Monday analyzing their data, extracting insights, and creating a detailed report that documented our entire analysis. We actually created a pretty cool algorithm that detected 13 or so employees that were not currently being targeted for the "executive track" but should have been based on their data.
+## The job with my first Fortune 500 Client did not go well
+
+We received the data on Friday, and were to present findings on Monday so the executives could integrate into a presentation for Wednesday of the following week. I contracted an HR Specialist out of Houston. He and I worked non-stop from Friday through to Monday analyzing their data, extracting insights, and creating a detailed report that documented our entire analysis. We actually created a pretty cool algorithm that detected 13 or so employees that were not currently being targeted for the "executive track" but should have been based on their data.
 
 But this report and algorithm was not what was wanted. Our contacts were expecting something different than what we interpreted from the conversations (still I do not know what they wanted). What we delivered was overly technical, not in a format they could easily integrate into their presentation, and - bottom line - not what they wanted.
 
@@ -181,9 +183,22 @@ __"How Satisfied Are You With This Course?"__
 
 This question is important to me because it is the culmination of the students thoughts and feelings after about 2-3 weeks of taking the 10-week course. It's a measure of quality, of student-perceived effectiveness, and their judgement on whether or not their likely to stick with it. All rolled into one.
 
-At the moment we are averaging 8.8 / 10.0. This is very good, and with room for improvement.
+At the moment we are averaging 8.9 / 10.0. This is very good, and with room for improvement.
 
-<img src="/assets/2019-07-22-how-i-started-my-data-science-business/course-satisfaction.png" alt="Course Satisfaction"/>
+<img src="/assets/2019-07-22-how-i-started-my-data-science-business/course-satisfaction.jpg" alt="Course Satisfaction"/>
+
+A lot has changed in the year since starting __Business Science University__. 
+
+- Our first course remains a great product for [Advanced Machine Learning and Business Consulting (DS4B 201-R)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15)
+
+- We now have [Data Science Foundations (DS4B 101-R) Course](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon_code=DS4B15) for beginners that are ready to make the transition into data science
+
+- I just launched my 3rd Course - [Building Predictive Web Applications with R Shiny (DS4B 102-R)](https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1/?coupon_code=DS4B15)
+
+- And there's now a Continuous Education Program called [Learning Labs PRO](https://university.business-science.io/p/learning-labs-pro) for Data Scientists to go beyond the tools learned in the courses. 
+
+And I have a lot more coming! 
+
 
 
 # How Did I Know I Was Ready For Full Time Business Science?
@@ -225,22 +240,24 @@ Eric Webber - I was recently introduced to Eric. Eric and I share the same excit
 
 Often we don't know the trajectory we are on. You may think you want to create a consultancy and wind up building an educational institution. It's how you handle the journey that's important.
 
-Some times you are going to make mistakes. Make sure you learn from them. If I never crashed and burned with a major client, I wouldn't have created the Business Science Problem Framework.
+- Sometimes you are going to make mistakes. Make sure you learn from them. If I never crashed and burned with a major client, I wouldn't have created the [Business Science Problem Framework](https://www.business-science.io/learn.html#cheatsheet-learn).
 
-Sometimes you will need exposure. One of the best ways you can get your name out there is to contribute to a worthwhile cause. For me, I enjoy building software and writing blog articles. This is how I give back.
+- Sometimes you will need exposure. One of the best ways you can get your name out there is to contribute to a worthwhile cause. For me, I enjoy [building software](https://www.business-science.io/software.html) and [writing blog articles](https://www.business-science.io/learn.html). This is how I give back.
 
-Sometimes you will need to change course. Consulting is a fine job, but if your passion is education, find a way to make it work.
+- Sometimes you will need to change course. Consulting is a fine job, but if your passion is education, find a way to make it work.
 
-Sometimes you will need help. Make friends, help each other, and use LinkedIn to your advantage.
+- Sometimes you will need help. Make friends, help each other, and use [LinkedIn](https://www.linkedin.com/in/mattdancho/) to your advantage.
 
 Last, I hope you've learned from this article about how I did it (starting my data science business, that is). The story isn't finished. It's just beginning.
 
-Follow Business Science if you're interested in seeing where we go.
+Follow [Business Science](https://www.business-science.io/get-started.html) if you're interested in seeing where we go.
 
 Thank you!
 
 Matt Dancho
-Founder of Business Science
-Instructor at Business Science University
 
+Founder of [Business Science](https://www.business-science.io)
 
+Lead Instructor at [Business Science University](https://university.business-science.io/)
+
+{% include cta_rtrack.html%}
