@@ -74,7 +74,7 @@ However, the financial ecosystem within R had not experienced the same infiltrat
 
 Further, in writing the S&P 500 Analysis article, I was constantly converting back and forth between data frame and xts (two different data structures in R each with benefits that I will not go into).
 
-## A light bulb in my head went off!
+## A light bulb went off in my head!
 
 What if I put together a set of functions to do all of these financial calculations without ever leaving the tidyverse? That would save me and everyone else a ton of coding time.
 
