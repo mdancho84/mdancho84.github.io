@@ -230,7 +230,8 @@ I'd like to shout out to a few friends that have helped me along this journey:
 - [Favio Vazquez](https://www.linkedin.com/in/faviovazquez/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BK6%2FnlNafQDuZ3D3M%2FPXRLw%3D%3D) - Favio and I have been enjoying each others blog content for a while, and we recently made the decision to work together on building courses for Business Science University. He's so talented knowing Python, Spark, and R, along with a host of other data science tools.
 
 - [Kelly O'Briant](https://www.linkedin.com/in/kellyobriant/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BK6%2FnlNafQDuZ3D3M%2FPXRLw%3D%3D) - Kelly and I have been working together since inception of Business Science University. She is lead developer for the Shiny App Course coming soon. She's a brilliant software engineer / data scientist that knows how to make a great looking and performing Shiny app.
-Eric Webber - I was recently introduced to Eric. Eric and I share the same excitement about helping data scientists grow. It's an exciting time, and that's what you feel when you speak with Eric.
+
+- [Eric Webber](https://www.linkedin.com/in/eric-weber-060397b7/) - I was recently introduced to Eric. Eric and I share the same excitement about helping data scientists grow. It's an exciting time, and that's what you feel when you speak with Eric.
 
 - [Kate Strachnyi](https://www.linkedin.com/in/kate-strachnyi-data/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BK6%2FnlNafQDuZ3D3M%2FPXRLw%3D%3D) - I just recently got an opportunity to chat with Kate. She's a mother of 2 and still kicking butt building an awesome career in data science. I'm looking forward to our [Humans Of Data Science episode](https://youtu.be/OiqTOmAq4KU) that we are set to record soon.
 
