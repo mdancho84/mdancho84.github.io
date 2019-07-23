@@ -223,13 +223,15 @@ I'd like to shout out to a few friends that have helped me along this journey:
 
 - [Jonathan Regenstein](https://www.linkedin.com/in/jkregenstein/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BK6%2FnlNafQDuZ3D3M%2FPXRLw%3D%3D) - Jonathan is the Director of Financial Services Practice at RStudio. He's a super friend. Jonathan and I speak regularly and work together to provide machine learning workshops in the financial space. I've been lucky to have met him. He's a great guy, always lending a helping hand.
 
-- [Davis Vaughan](https://www.linkedin.com/in/davis-vaughan/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BK6%2FnlNafQDuZ3D3M%2FPXRLw%3D%3D) - Davis helped immensely with R package development efforts. He was the lead for the tibbletime package, and helped grow functionality in tidyquant. He was one of the earliest adopters of tidyquant, and he brought some great ideas along with new R packages.
-
 - [Beau Walker](https://www.linkedin.com/in/beauthescientist/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BK6%2FnlNafQDuZ3D3M%2FPXRLw%3D%3D) - I took his marketing course about a year ago. He's the one that introduced me to the power of LinkedIn and how you can connect with an entire community in a positive way. Since then we've remained close friends, even [partnering our two companies](http://www.business-science.io/press-releases/2018/07/18/press-release-method-data-science.html).
+
+- [Kristen Kehrer](https://www.linkedin.com/in/kristen-kehrer-datamovesme/) - Kristen is the founder of Data Moves Me, and is a data science consultant. We share the same values about helping data scientists grow. Kristen has even become a student of Business Science University. [She recently completed a Shiny App 3-days after beginning the 102 course!](https://youtu.be/KFDJV6BXUS4)
 
 - [Favio Vazquez](https://www.linkedin.com/in/faviovazquez/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BK6%2FnlNafQDuZ3D3M%2FPXRLw%3D%3D) - Favio and I have been enjoying each others blog content for a while, and we recently made the decision to work together on building courses for Business Science University. He's so talented knowing Python, Spark, and R, along with a host of other data science tools.
 
 - [Kelly O'Briant](https://www.linkedin.com/in/kellyobriant/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BK6%2FnlNafQDuZ3D3M%2FPXRLw%3D%3D) - Kelly and I have been working together since inception of Business Science University. She is lead developer for the Shiny App Course coming soon. She's a brilliant software engineer / data scientist that knows how to make a great looking and performing Shiny app.
+
+- [Davis Vaughan](https://www.linkedin.com/in/davis-vaughan/?lipi=urn%3Ali%3Apage%3Ad_flagship3_pulse_read%3BK6%2FnlNafQDuZ3D3M%2FPXRLw%3D%3D) - Davis helped immensely with R package development efforts. He was the lead for the tibbletime package, and helped grow functionality in tidyquant. He was one of the earliest adopters of tidyquant, and he brought some great ideas along with new R packages.
 
 - [Eric Webber](https://www.linkedin.com/in/eric-weber-060397b7/) - I was recently introduced to Eric. Eric and I share the same excitement about helping data scientists grow. It's an exciting time, and that's what you feel when you speak with Eric.
 
