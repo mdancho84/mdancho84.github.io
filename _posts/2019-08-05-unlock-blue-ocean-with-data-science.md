@@ -68,7 +68,8 @@ First, what is Data Science? Much has been made of 3 terms: Artificial Intellige
 
 ![Data Science Insights and Web Technology](/assets/2019-08-05-blue-ocean/data_science_insights_and_web_technology.jpg)
 <p class="text-center date">Data Science Insights and Web Technology Combine to Generate Blue Ocean Opportunity</p>
-<p class=""text-center date"><a href="https://www.business-science.io/" target="_blank">Source: Business Science</a></p>
+
+<p class="text-center date"><a href="https://www.business-science.io/" target="_blank">Source: Business Science</a></p>
 
 
 Rather than go into the details, I'm going to cut to the chase. Data Science has two attributes that can help create Blue Oceans:
@@ -169,12 +170,12 @@ The best candidates for this program are those that are ___Subject Matter Expert
 
 <h2>Give Your Organization The Skills To Make The Portfolio Optimization Web Application</h2>
 
-<a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201" target="_blank"><img class="pull-right" style="width:40%;" src="/assets/2019-08-05-blue-ocean/automatic_portfolio_balancing.jpg"></a>
+<a href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201" target="_blank"><img class="pull-right" style="width:40%;" src="/img/curriculum/bsu_courses.jpg"></a>
 
 <p>Using our streamlined <strong>Data Science training curriculum</strong>, we will accelerate your organization's skill development teaching Data Science and Scalable Web Applications for business.</p>
 
 
 <p class="text-center"><a class="btn btn-lg btn-success" href="https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201">Unlock the 3-Course R-Track</a></p>
 
-The 4th Course on Expert Applications is coming soon. Get started with our condensed Curriculum today. 
+The 4th Course on Expert Applications is coming soon. Get started with our streamlined Curriculum today. 
 
