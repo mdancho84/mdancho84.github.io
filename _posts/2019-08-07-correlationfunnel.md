@@ -230,8 +230,7 @@ We can see that the following prospect groups have a much greater correlation wi
 
 - When "HOUSING", whether or not the contact has a HOME LOAN is "no"
 
-<br>
-{% include cta_rtrack.html %}
+
 
 ## 2. My EDA Workflow R {#section2}
 
@@ -259,13 +258,16 @@ Because of this, I use other packages to understand data (e.g. missing values) a
 
 - [recipes](https://tidymodels.github.io/recipes/) - This is one of the most important R packages in my exploratory and machine learning workflow. It's use to create ___preprocessing pipelines___ - A series of steps to correct data and prepare for machine learning, correlation analysis, etc. I teach `recipes` in __DS4B 201-R, Advanced Machine Learning and Business Consulting__, part of the [3-Course R-Track for Business](https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/).
 
-___Other Great EDA Packages:___
+### Other Great EDA Packages (Notable Mentions)
 
 - [VisDat](http://visdat.njtierney.com/) - Similar in concept to Data Explorer. Utilities for visualizing missing data
 
 - [naniar](http://naniar.njtierney.com/) - For understanding missing data.
 
 - [UpSetR](https://github.com/hms-dbmi/UpSetR) - For generating upset plots
+
+<br>
+{% include cta_rtrack.html %}
 
 ## 3. What do you think of Correlation Funnel? {#comments}
 
