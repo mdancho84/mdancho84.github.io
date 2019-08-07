@@ -29,18 +29,20 @@ Here's the correlation funnel that we'll make in the [__2-Minute Case Study - Ba
 
 ## Table of Contents
 
-- [Two-Minute Case Study - Bank Marketing Campaign](#section1)
+1. [Two-Minute Case Study - Bank Marketing Campaign](#section1)
 
     - [Getting Started](#section1_1)
     - [Response &amp; Predictor Relationships](#section1_2)
     - [Binary Correlation Analysis](#section1_3)
     - [Examining Results](#section1_4)
 
-- [Other Great EDA Packages](#section2)
+2. [Other Great EDA Packages](#section2)
 
-- [What do you think of Correlation Funnel?](#comments)
+3. [What do you think of Correlation Funnel?](#comments)
 
-- [Help Others Learn R - Share this article](#share)
+4. [Help Others Learn R - Share this article](#share)
+
+5. [New Expert Shiny Course - Coming Soon!](#announcements)
 
 <br>
 {% include cta_rtrack.html %}
@@ -269,15 +271,15 @@ Because of this, I use other packages to understand data (e.g. missing values) a
 <br>
 {% include cta_rtrack.html %}
 
-## What do you think of Correlation Funnel? {#comments}
+## 3. What do you think of Correlation Funnel? {#comments}
 
 Let me know what to do you think of `correlationfunnel` in the ___comments___. I'm interested in getting ___your feedback___ on how it works on different data sets. I've tried it on a ton, but that doesn't mean that it's perfect. Let me know your results - good or bad.
 
-## Help Others Learn R - Share this article if you like it! {#share}
+## 4. Help Others Learn R - Share this article if you like it! {#share}
 
 Post the article on [___LinkedIn___](https://www.linkedin.com). Tag ___Matt Dancho (@Matt Dancho)___, and I'll respond!
 
-## New Expert Shiny Course Coming Soon 
+## 5. New Expert Shiny Course - Coming Soon! {#announcements}
 
 Expert `Shiny` Apps! Build these two apps:
 
