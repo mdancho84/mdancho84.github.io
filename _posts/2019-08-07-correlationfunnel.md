@@ -269,13 +269,25 @@ Because of this, I use other packages to understand data (e.g. missing values) a
 <br>
 {% include cta_rtrack.html %}
 
-## 3. What do you think of Correlation Funnel? {#comments}
+## What do you think of Correlation Funnel? {#comments}
 
 Let me know what to do you think of `correlationfunnel` in the ___comments___. I'm interested in getting ___your feedback___ on how it works on different data sets. I've tried it on a ton, but that doesn't mean that it's perfect. Let me know your results - good or bad.
 
-## 4. Help Others Learn R - Share this article if you like it! {#share}
+## Help Others Learn R - Share this article if you like it! {#share}
 
 Post the article on [___LinkedIn___](https://www.linkedin.com). Tag ___Matt Dancho (@Matt Dancho)___, and I'll respond!
+
+## New Expert Shiny Course Coming Soon 
+
+Expert `Shiny` Apps! Build these two apps:
+
+- [Stock Portfolio Optimization](https://business-science.shinyapps.io/stock_optimization_app/)
+
+- [HR Employee Churn Prediction and Prevention](https://business-science.shinyapps.io/hr_analytics_attrition_app/)
+
+<br>
+{% include cta_expert_shiny.html %}
+
 
 
 
