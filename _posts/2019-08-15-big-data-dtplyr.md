@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Big Data in R: Wrangling 4.6M Rows with dtplyr (the NEW data.table backend for dplyr)"
+title: "Big Data: Wrangling 4.6M Rows with dtplyr (the NEW data.table backend for dplyr)"
 date:   2019-08-15 08:08:01
 excerpt: "Wrangling Big Data is one of the best features of the R programming language - which boasts a Big Data Ecosystem that contains fast in-memory tools (e.g. data.table) and distributed computational tools (sparklyr). With the NEW dtplyr package, data scientists with dplyr experience gain the benefits of data.table backend. We saw a 3X speed boost for dplyr!"
 author: "Matt Dancho"
