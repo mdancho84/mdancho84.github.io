@@ -5,7 +5,7 @@ date:   2019-09-23 07:08:01
 excerpt: "Learn how to scrape and wrangle PDF tables of a Report on Endangered Species with the tabulizer R package and visualize trends with ggplot2."
 author: "Jennifer Cooper"
 categories: [Code-Tools]
-tags: [R-Bloggers, Learn-R, tabulizer, tidyverse]
+tags: [R-Bloggers, Learn-R, tabulizer, tidyverse, dplyr, ggplot2]
 image: 2019-09-23-tabulizer/tabulizer_pdf_scrape_workflow.png
 image_preview: 2019-09-23-tabulizer/tabulizer_pdf_scrape_workflow.png
 ---
@@ -13,6 +13,12 @@ image_preview: 2019-09-23-tabulizer/tabulizer_pdf_scrape_workflow.png
 
 
 This article comes from [Jennifer Cooper](https://www.linkedin.com/in/jennifermariecoopermba/), a new student in [Business Science University](https://university.business-science.io/?affcode=173166_fpyudtfo). Jennifer is 35% complete with the 101 course - and shows off her progress in this ___PDF Scraping tutorial___. Jennifer has an interest in understanding the _plight of wildlife_ across the world, and uses her new data science skills to perform a useful analysis - ___scraping PDF tables of a Report on Endangered Species with the `tabulizer` R package and visualizing alarming trends with `ggplot2`___. 
+
+__R Packages Covered__:
+
+* `tabulizer` - Scraping PDF tables
+* `dplyr` - Wrangling unclean data & preparation for data visualization
+* `ggplot2` - Data visualization and understanding trends
 
 # Scraping PDFs and Analyzing Endangered Species
 
@@ -63,9 +69,19 @@ Here's a diagram of the workflow I used:
 
 # Get the PDF
 
-I analyzed the [Critically Endangered Species PDF Report](https://github.com/Coopmeister/data_science_r_projects/blob/master/endangered_species.pdf). 
+<p>I analyzed the <a href="https://github.com/Coopmeister/data_science_r_projects/blob/master/endangered_species.pdf" target="_blank">Critically Endangered Species PDF Report</a>. </p>
 
+<br>
 
+<a href="https://github.com/Coopmeister/data_science_r_projects/blob/master/endangered_species.pdf" target="_blank">
+  <img src="/assets/2019-09-23-tabulizer/endangered_species_pdf.jpg" width="100%"/>
+</a>
+
+<p class="date text-center">
+  <a href="https://github.com/Coopmeister/data_science_r_projects/blob/master/endangered_species.pdf" target="_blank">
+    Get the Endangered Species PDF Report
+  </a>
+</p>
 
 
 # PDF Scrape and Exploratory Analysis
@@ -283,9 +299,9 @@ endangered_species_final_tbl %>%
 
 # Parting Thoughts
 
-__It was really exciting to see my hard work pay off.__ It took a bit to get going, but I found that `tabulizer` made PDF extraction manageable. The most challenging part was getting the data into a format that can be easily visualized (the `tidyverse` really helped as shown in Step 4!). I was particularly excited to see results of my analysis, and I want to share with others the effects of 
+__It was really exciting to see my hard work pay off.__ It took a bit to get going, but I found that `tabulizer` made PDF extraction manageable. The most challenging part was getting the data into a format that can be easily visualized (the `tidyverse` really helped as shown in Step 4!). I was particularly excited to see results of my analysis. I want to share with others the alarming trends related to the plight of wildlife, while demonstrating the power of `R`! 
 
 __If you'd like to join me__, I'm currently  learning Data Science for Business in [Business Science's 101 course (Data Science Foundations)](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon_code=ds4b15&affcode=173166_fpyudtfo), and I've signed up for 201 Advanced Machine Learning and 102 Shiny Web Applications. 
 
-{% include cta_rtrack.html  %}
+{% include cta_rtrack.html %}
 
