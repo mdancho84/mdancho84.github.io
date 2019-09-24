@@ -42,7 +42,7 @@ Through this process, I discovered I still need a lot more practice, so I'm goin
 
 Interested in learning R? [Join me in the 101 course](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon_code=ds4b15&affcode=173166_fpyudtfo).
 
-
+{% include cta_rtrack.html %}
 
 # My Workflow {#workflow}
 
@@ -65,6 +65,8 @@ Here's a diagram of the workflow I used:
 <p class="date text-center">
   <a href = "#workflow">My Code Workflow for PDF Scraping with <code>tabulizer</code></a>
 </p>
+
+
 
 
 # Get the PDF
