@@ -14,6 +14,10 @@ image_preview: 2019-09-30-anomalize/forecast_with_anomalize_md.jpg
 
 In this tutorial, we'll show how we used `clean_anomalies()` from the `anomalize` package to ___reduce forecast error by 9%.___ 
 
+__R Packages Covered__:
+
+- `anomalize` - Time series anomaly detection
+
 ## Cleaning Anomalies to Reduce Forecast Error by 9%
 
 We can often improve forecast performance by cleaning anomalous data prior to forecasting. This is the perfect use case for integrating the `clean_anomalies()` function from `anomalize` into your ___forecast workflow___. 
