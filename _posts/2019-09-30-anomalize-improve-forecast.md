@@ -257,6 +257,7 @@ Using the new `anomalize` function, `clean_anomalies()`, prior to forecasting re
 ## [1] -0.08598726
 {% endhighlight %}
 
+
 # Conclusion
 
 Forecasting with clean anomalies is a good practice that can provide __substantial improvement to forecasting accuracy by removing high leverage points__. The new `clean_anomalies()` function in the `anomalize` package provides an easy workflow for removing anomalies prior to forecasting. Learn more in the [anomalize documentation](https://business-science.github.io/anomalize/). 
