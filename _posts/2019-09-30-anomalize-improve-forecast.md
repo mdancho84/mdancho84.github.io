@@ -6,8 +6,8 @@ excerpt: "We can often improve forecast performance by cleaning anomalous data p
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Learn-Timeseries, anomalize, tidyverse]
-image: 2019-09-30-anomalize/forecast_with_anomalize.jpg
-image_preview: 2019-09-30-anomalize/forecast_with_anomalize.jpg
+image: 2019-09-30-anomalize/forecast_with_anomalize_md.jpg
+image_preview: 2019-09-30-anomalize/forecast_with_anomalize_md.jpg
 ---
 
 
