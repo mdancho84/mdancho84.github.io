@@ -24,7 +24,7 @@ We can often improve forecast performance by cleaning anomalous data prior to fo
 
 ## Forecast Workflow
 
-![Forecast With Anomalize](/assets/2019-09-30-anomalize/forecast_with_anomalize.jpg)
+![Forecast With Anomalize](/assets/2019-09-30-anomalize/forecast_with_anomalize_md.jpg)
 
 We'll use the following workflow to remove time series anomalies prior to forecasting.
 
