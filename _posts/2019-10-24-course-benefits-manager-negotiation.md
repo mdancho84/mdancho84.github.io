@@ -23,7 +23,9 @@ When you ask your manager to pay an expense, they want to know the benefits: how
 One of our data science students provided tips from their experience:
 
 <div stlye="padding-left:30px;">
-<em>"When pitching this to leadership for budget approval, __pitch the relevancy to current/future work__. I used the course learning objective bullet points and tied them to existing projects, and projects we have planned for next year. This makes the "sell" much easier."</em>
+<p>
+<em>"When pitching this to leadership for budget approval, <strong>pitch the relevancy to current/future work</strong>. I used the course learning objective bullet points and tied them to existing projects, and projects we have planned for next year. This makes the "sell" much easier."</em>
+</p>
 </div>
 
 The best way to sell your manager is to explicitly communicate how the course benefits are relevant to your work. 
@@ -31,7 +33,9 @@ The best way to sell your manager is to explicitly communicate how the course be
 
 ## Reimbursement letter
 
-We've made it easy for you! Below is a template you can use to submit a course reimbursement to your manager. Modify the template according to your course preferences and relevancy to your work projects.
+We've made it easy for you! 
+
+Below is a template you can use to submit a course reimbursement to your manager. Modify the template according to your course preferences and relevancy to your work projects.
 
 <br>
 <hr style="border-top: thin #393939 dashed;">
