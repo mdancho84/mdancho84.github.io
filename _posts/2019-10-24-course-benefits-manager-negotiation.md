@@ -73,3 +73,27 @@ Thank you for considering my request.
 
 Sincerely,
 [Your Name]
+
+<br>
+<hr style="border-top: thin #393939 dashed;">
+<br>
+
+## PDF Brochure
+
+<div class="pull-right" style="width:30%;margin-left:20px;">
+<a href="https://github.com/business-science/courseinfo/raw/master/Business%20Science%20-%20Program%20Brochure.pdf" target="_blank">
+<img style="width:100%" src="/img/curriculum/business_science_r_track_brochure.jpg">
+</a>
+
+<p class="date text-center"><a href="https://github.com/business-science/courseinfo/raw/master/Business%20Science%20-%20Program%20Brochure.pdf" target="_blank">PDF Brochure</a></p>
+</div>
+
+For Managers that would like more information on our innovative R-Track, we've created a short [PDF Brochure of the R-Track Data Science for Business Program](https://github.com/business-science/courseinfo/raw/master/Business%20Science%20-%20Program%20Brochure.pdf).
+
+## Summary
+
+- When pitching this to leadership for budget approval, __pitch the relevancy to current/future work__.
+
+- Use the __Email Reimbursement Letter Template__ to help with the intial conversation
+
+- If more information is desired, provide the [PDF Brochure](https://github.com/business-science/courseinfo/raw/master/Business%20Science%20-%20Program%20Brochure.pdf).
