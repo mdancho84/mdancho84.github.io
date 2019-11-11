@@ -24,7 +24,7 @@ One of our data science students provided tips from their experience:
 
 <div stlye="padding-left:30px;">
 <p>
-<em>"When pitching this to leadership for budget approval, <strong>pitch the relevancy to current/future work</strong>. I used the course learning objective bullet points and tied them to existing projects, and projects we have planned for next year. This makes the "sell" much easier."</em>
+<em>"When pitching this to management for budget approval, <strong>pitch the relevancy to current/future work</strong>. I used the course learning objective bullet points and tied them to existing projects, and projects we have planned for next year. This makes the "sell" much easier."</em>
 </p>
 </div>
 
