@@ -117,7 +117,7 @@ If you are ready to Learn Data Science, How to Build Web Applications, and Cloud
 
 <br>
 
-Thank you for reading this edition of Data Science Fundamentals. I look forward to growing our relationship by providing you the best data science for business education. 
+I look forward to providing you the best data science for business education. 
 
 Matt Dancho
 
