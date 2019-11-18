@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Churn Modeling using Machine Learning with parsnip"
+title: "Customer Churn Modeling using Machine Learning with parsnip"
 date:   2019-11-18 10:44:01
 excerpt: "Learn how to performa a tidy approach to classification problem with the new parsnip R package for machine learning."
 author: "Diego Usai"
