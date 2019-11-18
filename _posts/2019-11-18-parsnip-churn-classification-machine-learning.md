@@ -2,7 +2,7 @@
 layout: post
 title: "Customer Churn Modeling using Machine Learning with parsnip"
 date:   2019-11-18 10:44:01
-excerpt: "Learn how to performa a tidy approach to classification problem with the new parsnip R package for machine learning."
+excerpt: "Learn how to perform a tidy approach to classification problem with the new parsnip R package for machine learning."
 author: "Diego Usai"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Learn-Machine-Learning, Learn-Marketing, parsnip, rsample, recipes, yardstick, ranger, skimr]
