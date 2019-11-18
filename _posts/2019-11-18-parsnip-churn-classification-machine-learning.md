@@ -5,7 +5,7 @@ date:   2019-11-18 10:44:01
 excerpt: "Learn how to performa a tidy approach to classification problem with the new parsnip R package for machine learning."
 author: "Diego Usai"
 categories: [Code-Tools]
-tags: [R-Bloggers, Learn-R, parsnip, rsample, recipes, yardstick, ranger, skimr]
+tags: [R-Bloggers, Learn-R, Learn-Machine-Learning, Learn-Marketing, parsnip, rsample, recipes, yardstick, ranger, skimr]
 image: 2019-11-18-parsnip/parsnip_workflow.jpg
 image_preview: 2019-11-18-parsnip/parsnip_workflow.jpg
 ---
