@@ -12,6 +12,13 @@ image_preview: 2019-11-22-docker/docker.png
 
 <p class="lead">Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. Here's what's happening and how <strong>Docker</strong> plays a part in the essential skills of 2020.</p>
 
+This is part of a series of articles on Data Science key skills for 2020:
+
+- [AWS for Data Science - 14% Share, 400% Growth](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
+- [Docker for Data Scientists - 4000% Growth](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
+- Git Version Control for Data Science (Coming Soon)
+- Data Science Web Applications with Shiny (Coming Soon)
+
 ## Changing Trends in Tech Jobs
 
 Indeed, the popular employment-related search engine, released an article this past Tuesday [showing changing trends from 2015 to 2019 in "Technology-Related Job Postings"](https://www.hiringlab.org/2019/11/19/todays-top-tech-skills/). We can see a number of changes in key technologies - One that we are particularly interested in is the 4000% increase in Docker.

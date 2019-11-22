@@ -12,6 +12,13 @@ image_preview: 2019-11-13-data-science-with-aws/amazon-web-services-preview.jpg
 
 <p class="lead">Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. Here's what's happening and how <strong>AWS Cloud Services</strong> play a part in the essential skills of 2020.</p>
 
+This is part of a series of articles on Data Science key skills for 2020:
+
+- [AWS for Data Science - 14% Share, 400% Growth](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
+- [Docker for Data Scientists - 4000% Growth](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
+- Git Version Control for Data Science (Coming Soon)
+- Data Science Web Applications with Shiny (Coming Soon)
+
 ## JEDI Contract - Cloud Wars
 
 If you follow the news, you've seen that articles like ["Microsoft snags hotly contested $10 billion defense contract, beating out Amazon."](https://www.cnbc.com/2019/10/25/microsoft-wins-major-defense-cloud-contract-beating-out-amazon.html)
