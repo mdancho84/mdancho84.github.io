@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Science with AWS"
+title: "Data Science with AWS (A Top Skill for 2020)"
 date: 2019-11-13 05:00:00
 excerpt: "Organizations depend on the Data Science team to build distributed applications that solve business needs. AWS provides an infrastructure to host data science products for stakeholder to access."
 author: "Matt Dancho"
@@ -10,6 +10,9 @@ image: 2019-11-13-data-science-with-aws/amazon-web-services.jpg
 image_preview: 2019-11-13-data-science-with-aws/amazon-web-services-preview.jpg
 ---
 
+<p class="lead">Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. Here's what's happening and how <strong>AWS Cloud Services</strong> play a part in the essential skills of 2020.</p>
+
+## JEDI Contract - Cloud Wars
 
 If you follow the news, you've seen that articles like ["Microsoft snags hotly contested $10 billion defense contract, beating out Amazon."](https://www.cnbc.com/2019/10/25/microsoft-wins-major-defense-cloud-contract-beating-out-amazon.html)
 
@@ -21,10 +24,19 @@ Don't feel bad about Amazon losing the contract to Microsoft. Amazon already has
 
 The point I'm making is not that AWS is the loser and you should learn Microsoft Azure, but rather that no matter where you go, Government or Enterprise, the cloud infrastructure is going to be an important part of what we do as Data Scientists - and you will need to know AWS, Azure, and possibly other cloud service providers too.
 
-Here's what you need to know about AWS (and Cloud in general):
+## Changing Trends
 
-<br>
-<hr>
+Indeed, the popular employment-related search engine, released an article [showing changing trends from 2015 to 2019 in "Technology-Related Job Postings"](https://www.hiringlab.org/2019/11/19/todays-top-tech-skills/). We can see a number of changes in key technologies - One that we are particularly interested in is the __14.2% share, 400% increase in AWS - Making AWS my top skill to learn for 2020.__
+
+![Today's Top Tech Skills](/assets/2019-11-13-data-science-with-aws/indeed_trends_aws.jpg) 
+
+<p class="date text-center">
+<a href="https://www.hiringlab.org/2019/11/19/todays-top-tech-skills/" target="_blank">Source: Indeed Hiring Lab.</a>
+</p>
+
+Azure (No. 17, 1107% Growth) is in the same boat along with Google Cloud Platform for Data Scientists in Digital Marketing. 
+
+Here's what you need to know about AWS (and Cloud in general).
 
 ## The main cloud players
 
