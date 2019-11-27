@@ -21,7 +21,7 @@ Getting a job in Data Science is difficult. Here's how one Business Science stud
 # Landing A Job At a Top Management Consulting Firm
 
 <div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
-  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6575992923119288320" height="600" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe> 
+  <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6575992923119288320" height="600" width="100%" frameborder="1" allowfullscreen="" title="Embedded post"></iframe> 
 </div>
 
 After struggling to balance with my work for many months, I’ve finally completed the Business Science University DS4B 201-R: Data Science For Business With R, taught by Matt Dancho. 
@@ -50,7 +50,7 @@ Here's an example where Masatake showcases using `ggplot2` to adjust a business 
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6603775184317046784" height="650" width="100%" align="center" frameborder="1" allowfullscreen="" title="Embedded post"></iframe> 
 
-# Other Student Articles You Might Enjoy
+# More Student Articles You Will Enjoy
 
 ## Student Success Stories
 
@@ -72,3 +72,6 @@ Tutorials made by our students using data science for business and building `shi
 
 - __[Build An R Shiny App - Wedding Risk Model](https://www.business-science.io/business/2019/06/09/Wedding-Risk-Model-App.html) - By Bryan Clark, Data Scientist at Dashlane__
 
+<br>
+
+{% include cta_rtrack.html %}
