@@ -56,7 +56,7 @@ Here's an example where Masatake showcases using `ggplot2` to adjust a business 
 
 Real stories of success from our students.
 
-- __[How I Landed My Data Science Job](https://www.business-science.io/business/2019/11/27/how_i_got_my_data_science_job.html) - Masatake Hirono__
+- __[How I Landed My Data Science Job](https://www.business-science.io/business/2019/11/27/how_i_got_my_data_science_job.html) - Masatake Hirono, Cognitive Analyst at Deloitte__
 
 - __[Apply Data Science to Improve Addiction Treatment](https://www.business-science.io/business/2019/11/11/data-science-improve-addiction-treatment.html) - Z. Du, Senior Financial Analyst at Turning Point Clinic__
 
