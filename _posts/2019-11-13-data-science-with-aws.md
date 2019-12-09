@@ -5,19 +5,25 @@ date: 2019-11-13 05:00:00
 excerpt: "Organizations depend on the Data Science team to build distributed applications that solve business needs. AWS provides an infrastructure to host data science products for stakeholder to access."
 author: "Matt Dancho"
 categories: [Business]
-tags: [Learn-R]
+tags: [Learn-R, Learn-Business]
 image: 2019-11-13-data-science-with-aws/amazon-web-services.jpg
 image_preview: 2019-11-13-data-science-with-aws/amazon-web-services-preview.jpg
 ---
 
 <p class="lead">Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. Here's what's happening and how <strong>AWS Cloud Services</strong> play a part in the essential skills of 2020.</p>
 
+<div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
+  <img class="img-responsive" src="/assets/2019-12-09-data-science-technologies/data_science_technologies.jpg"> 
+</div>
+
 This is part of a series of articles on Data Science key skills for 2020:
 
-- [AWS for Data Science - 14% Share, 400% Growth](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
-- [Docker for Data Scientists - 4000% Growth](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
-- Git Version Control for Data Science (Coming Soon)
-- Data Science Web Applications with Shiny (Coming Soon)
+- [__5 Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html)
+- [__AWS Cloud__ - 14% Share, 400% Growth](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
+- [__Docker__ - 4000% Growth](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
+- __Git Version Control__  (Coming Soon)
+- __Shiny Web Applications__ (Coming Soon)
+- __H2O Automated Machine Learning (AutoML)__ (Coming Soon)
 
 ## JEDI Contract - Cloud Wars
 
