@@ -18,12 +18,12 @@ image_preview: 2019-12-09-data-science-technologies/data_science_technologies.jp
 
 This is part of a series of articles on Data Science key skills for 2020:
 
-- [__5 Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html)
-- [__AWS Cloud__ - 14% Share, 400% Growth](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
-- [__Docker__ - 4000% Growth](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
-- __Git Version Control__  (Coming Soon)
-- __Shiny Web Applications__ (Coming Soon)
-- __H2O Automated Machine Learning (AutoML)__ (Coming Soon)
+1. [__5 Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html)
+2. [__AWS Cloud__ - 14% Share, 400% Growth](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
+3. [__Docker__ - 4000% Growth](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
+4. [__Git Version Control__ - 8% Share, 150% Growth](https://www.business-science.io/business/2019/12/09/git-for-apps.html)
+5. __Shiny Web Applications__ (Coming Soon)
+6. __H2O Automated Machine Learning (AutoML)__ (Coming Soon)
 
 ## Top 20 Tech Skills 2014-2019
 
