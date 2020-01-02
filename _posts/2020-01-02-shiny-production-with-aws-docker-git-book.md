@@ -16,6 +16,7 @@ image_preview: 2020-01-02-shiny-aws-book/shiny_aws_book_cover.jpg
   <a href="https://business-science.github.io/shiny-production-with-aws-book/" target="_blank">
   <img class="img-responsive" src="/assets/2020-01-02-shiny-aws-book/shiny_aws_book_cover.jpg"> 
   </a>
+  <p class="text-center"><em>Shiny Production with AWS Book</em></p>
 </div>
 
 This is part of a series of articles on key Data Science skills for 2020 and beyond:
