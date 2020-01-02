@@ -16,7 +16,7 @@ image_preview: 2019-12-09-data-science-technologies/data_science_technologies.jp
   <img class="img-responsive" src="/assets/2019-12-09-data-science-technologies/data_science_technologies.jpg"> 
 </div>
 
-This is part of a series of articles on Data Science key skills for 2020:
+This is part of a series of articles on key Data Science skills for 2020 and beyond:
 
 1. [__5 Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html)
 2. [__AWS Cloud__ - 14% Share, 400% Growth](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
@@ -24,6 +24,7 @@ This is part of a series of articles on Data Science key skills for 2020:
 4. [__Git Version Control__ - 8% Share, 150% Growth](https://www.business-science.io/business/2019/12/09/git-for-apps.html)
 5. __Shiny Web Applications__ (Coming Soon)
 6. __H2O Automated Machine Learning (AutoML)__ (Coming Soon)
+7. [__\[NEW\] - Shiny Production with AWS Book__](https://www.business-science.io/business/2020/01/02/shiny-production-with-aws-docker-git-book.html)
 
 ## Top 20 Tech Skills 2014-2019
 
