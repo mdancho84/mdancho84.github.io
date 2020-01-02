@@ -6,15 +6,15 @@ excerpt: "The enterprise-grade process for deploying, hosting, and maintaining S
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, AWS, Git, Docker, Shiny]
-image: 2020-01-02-shiny-aws-book/shiny_production_with_aws_guide_image_rev2.jpg
-image_preview: 2020-01-02-shiny-aws-book/shiny_production_with_aws_guide_image_rev2.jpg
+image: 2020-01-02-shiny-aws-book/shiny_aws_book_cover.jpg
+image_preview: 2020-01-02-shiny-aws-book/shiny_aws_book_cover.jpg
 ---
 
 <p class="lead">It's the new year. Moving into 2020, I'd like to introduce you to the <a href="https://business-science.github.io/shiny-production-with-aws-book/" target="_blank"><strong>BRAND NEW Shiny Production with AWS Book</strong></a>. This book details the enterprise-grade process for deploying, hosting, and maintaining <code>Shiny</code> web applications using <code>AWS</code>, <code>Docker</code>, and <code>Git</code>. It contains <strong>24 Chapters</strong> covering the entire deployment process!</p>
 
 <div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
   <a href="https://business-science.github.io/shiny-production-with-aws-book/" target="_blank">
-  <img class="img-responsive" src="/assets/2020-01-02-shiny-aws-book/shiny_production_with_aws_guide_image_rev2.jpg"> 
+  <img class="img-responsive" src="/assets/2020-01-02-shiny-aws-book/shiny_aws_book_cover.jpg"> 
   </a>
 </div>
 
