@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing Shiny Production with AWS Book"
+title: "Introducing the Shiny Production with AWS Book"
 date: 2020-01-02 9:30:01
 excerpt: "The enterprise-grade process for deploying, hosting, and maintaining Shiny web applications using AWS, Docker, and Git."
 author: "Matt Dancho"
