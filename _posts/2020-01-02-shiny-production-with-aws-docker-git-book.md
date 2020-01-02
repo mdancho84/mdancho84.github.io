@@ -84,7 +84,7 @@ __My recommendation:__
 
 #### Stock Analyzer Application
 
-A full-stack web application that uses `MongoDB` for storing and managing user data (roles, passwords, and settings). The application enables users to store information on their favorites stocks using the `tidyquant` API. The application is built with `Shiny` and hosted on EC2. [Make this app.]([Shiny Developer with AWS Course](https://university.business-science.io/p/expert-shiny-developer-with-aws-course-ds4b-202a-r/)
+A full-stack web application that uses `MongoDB` for storing and managing user data (roles, passwords, and settings). The application enables users to store information on their favorites stocks using the `tidyquant` API. The application is built with `Shiny` and hosted on EC2. [Make this app.](https://university.business-science.io/p/expert-shiny-developer-with-aws-course-ds4b-202a-r/)
 
 ![Stock Analyzer - Application Architecture](/assets/2020-01-02-shiny-aws-book/application_architecture.jpg)
 
@@ -95,7 +95,7 @@ Stock Analyzer - Full-Stack Data Science App<br>
 
 #### Application Library
 
-A meta-application that is stored at the base URL to help users navigate to applications. The Application Library includes functionality for Full Text Search and selecting applications by Tags, making it easy to find the apps your users need. [Make this app.](Shiny Developer with AWS Course](https://university.business-science.io/p/expert-shiny-developer-with-aws-course-ds4b-202a-r/) 
+A meta-application that is stored at the base URL to help users navigate to applications. The Application Library includes functionality for Full Text Search and selecting applications by Tags, making it easy to find the apps your users need. [Make this app.](https://university.business-science.io/p/expert-shiny-developer-with-aws-course-ds4b-202a-r/) 
 
 ![Application Architecture](/assets/2020-01-02-shiny-aws-book/app_library_full_text_search.jpg)
 
