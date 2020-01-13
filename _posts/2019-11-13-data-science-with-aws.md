@@ -12,9 +12,6 @@ image_preview: 2019-11-13-data-science-with-aws/amazon-web-services-preview.jpg
 
 <p class="lead">Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. Here's what's happening and how <strong>AWS Cloud Services</strong> play a part in the essential skills of 2020.</p>
 
-<div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
-  <img class="img-responsive" src="/assets/2019-12-09-data-science-technologies/data_science_technologies.jpg"> 
-</div>
 
 ### Full-Stack Data Science Series
 
