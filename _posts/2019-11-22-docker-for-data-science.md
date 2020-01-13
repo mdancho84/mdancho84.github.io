@@ -16,7 +16,7 @@ image_preview: 2019-11-22-docker/docker.png
 ### Full-Stack Data Science Series
 
 <div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
-  <img class="img-responsive" src="/assets/2019-12-09-data-science-technologies/data_science_technologies.jpg"> 
+  <img class="img-responsive" src="/assets/2020-01-13-h2o/full_stack_data_science_technologies.jpg"> 
 </div>
 
 This is part of a series of articles on essential Data Science and Web Application skills for 2020 and beyond:

@@ -51,7 +51,7 @@ However, we can glean insights based on the technologies present...
 
 From the technology growth, it's clear that __Businesses need Cloud + ML + Apps.__
 
-![Key Technologies Driving Tech Skill Growth](/assets/2020-01-13-h2o/full_stack_data_science_technologies.jpg)
+![Key Technologies Driving Tech Skill Growth](/assets/2019-12-09-data-science-technologies/key_technologies.jpg)
 
 <p class="date text-center">
 Technologies Driving Tech Skill Growth
@@ -69,7 +69,7 @@ That Data Scientists should learn for 2020 and beyond - these are geared towards
 
 _*Note that __R and Python__ are skills that you should be learning before you jump into these._ 
 
-![5 Key Data Science Technologies for Cloud + Machine Learning + Applications](/assets/2019-12-09-data-science-technologies/data_science_technologies.jpg)
+![5 Key Data Science Technologies for Cloud + Machine Learning + Applications](/assets/2020-01-13-h2o/full_stack_data_science_technologies.jpg)
 
 <p class="date text-center">
 5 Key Data Science Technologies for Cloud + Machine Learning + Applications
@@ -77,35 +77,62 @@ _*Note that __R and Python__ are skills that you should be learning before you j
 
 ### 1. AWS Cloud Services
 
+<div class="pull-right hidden-xs" style="width:30%; margin-left:20px;">
+  <a href="https://www.business-science.io/business/2019/11/13/data-science-with-aws.html" target="_blank">
+    <img class="img-responsive" src="/assets/2019-11-13-data-science-with-aws/amazon-web-services.jpg">
+  </a>
+</div>
+
 The most popular cloud service provider. EC2 is a staple for apps, running jupyter/rstudio in the cloud, and leveraging cloud resources rather than investing in expensive computers & servers. 
 
-__AWS Resource:__ [AWS for Data Science Apps - 14% Share, 400% Growth](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
+[__Learn More: Data Science with AWS (A Top Skill for 2020)__](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
 
-### 2. Shiny Web Apps
+### 2. Docker for Web Apps 
+
+<div class="pull-right hidden-xs" style="width:30%; margin-left:20px;">
+  <a href="https://www.business-science.io/business/2019/11/22/docker-for-data-science.html" target="_blank">
+    <img class="img-responsive" src="/assets/2019-11-22-docker/docker.png">
+  </a>
+</div>
+
+Creating docker environments drastically reduces the risk of software incompatibility in production. DockerHub makes it easy to share your environment with other Data Scientists or DevOps. Further, Docker and DockerHub make it easy to deploy applications into production. 
+
+[__Learn More: Docker for Data Scientists (A Top Skill for 2020)__](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
+
+
+### 3. Git Version Control
+
+<div class="pull-right hidden-xs" style="width:30%; margin-left:20px;">
+  <a href="https://www.business-science.io/business/2019/12/09/git-for-apps.html" target="_blank">
+    <img class="img-responsive" src="/assets/2019-12-16-git/git.jpg">
+  </a>
+</div>
+
+Git and GitHub are staples for reproducible research and web application development. Git tracks past versions and enables software upgrades to be performed on branches. GitHub makes it easy to share your research and/or web applications with other Data Scientists, DevOps, or Data Engineering. Further, Git and GitHub make it easy to deploy changes to apps in production. 
+
+[__Learn More: Git for Data Science Applications (A Top Skill for 2020)__](https://www.business-science.io/business/2019/12/09/git-for-apps.html)
+
+
+### 4. H2O Machine Learning
+
+<div class="pull-right hidden-xs" style="width:30%; margin-left:20px;">
+  <a href="https://www.business-science.io/business/2020/01/13/5-reasons-to-learn-h2o-machine-learning.html" target="_blank">
+    <img class="img-responsive" src="/assets/2020-01-13-h2o/h2o_machine_learning.jpg">
+  </a>
+</div>
+
+Automated machine learning library available in Python and R. Works well on structured data (format for 95% of business problems). Automation drastically increases productivity in machine learning. 
+
+[__Learn More: 5 Reasons to Learn H2O Machine Learning__](https://www.business-science.io/business/2020/01/13/5-reasons-to-learn-h2o-machine-learning.html)  
+
+
+### 5. Shiny Web Apps
 
 A comprehensive web framework designed for data scientists with a rich ecosystem of extension libraries (dubbed the "shinyverse").
 
 __Shiny Resource (Coming Soon):__ Shiny Data Science Web Applications 
 
 
-### 3. H2O Machine Learning
-
-Automated machine learning library available in Python and R. Works well on structured data (format for 95% of business problems). Automation drastically increases productivity in machine learning. 
-
-__H2O Resource (Coming Soon):__ H2O Automated Machine Learning (AutoML) 
-
-### 4. Docker for Web Apps 
-
-Creating docker environments drastically reduces the risk of software incompatibility in production. DockerHub makes it easy to share your environment with other Data Scientists or DevOps. Further, Docker and DockerHub make it easy to deploy applications into production. 
-
-__Docker Resource:__ [Docker for Data Science Apps - 4000% Growth](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
-
-
-### 5. Git Version Control
-
-Git and GitHub are staples for reproducible research and web application development. Git tracks past versions and enables software upgrades to be performed on branches. GitHub makes it easy to share your research and/or web applications with other Data Scientists, DevOps, or Data Engineering. Further, Git and GitHub make it easy to deploy changes to apps in production. 
-
-__Git Resource (Coming Soon):__ Git Version Control for Data Science Apps
 
 
 
