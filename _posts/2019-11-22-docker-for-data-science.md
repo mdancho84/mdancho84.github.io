@@ -5,26 +5,29 @@ date: 2019-11-22 10:30:01
 excerpt: "Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. Here's how Docker plays a part in the essential skills of 2020."
 author: "Matt Dancho"
 categories: [Business]
-tags: [Learn-R, Learn-Business]
+tags: [Learn-R, Learn-Business, Docker]
 image: 2019-11-22-docker/docker.png
 image_preview: 2019-11-22-docker/docker.png
 ---
 
 <p class="lead">Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. Here's what's happening and how <strong>Docker</strong> plays a part in the essential skills of 2020.</p>
 
+
+### Full-Stack Data Science Series
+
 <div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
   <img class="img-responsive" src="/assets/2019-12-09-data-science-technologies/data_science_technologies.jpg"> 
 </div>
 
-This is part of a series of articles on key Data Science skills for 2020 and beyond:
+This is part of a series of articles on essential Data Science and Web Application skills for 2020 and beyond:
 
-1. [__5 Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html)
-2. [__AWS Cloud__ - 14% Share, 400% Growth](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
-3. [__Docker__ - 4000% Growth](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
-4. [__Git Version Control__ - 8% Share, 150% Growth](https://www.business-science.io/business/2019/12/09/git-for-apps.html)
-5. __Shiny Web Applications__ (Coming Soon)
-6. __H2O Automated Machine Learning (AutoML)__ (Coming Soon)
-7. [__\[NEW\] - Shiny Production with AWS Book__](https://www.business-science.io/business/2020/01/02/shiny-production-with-aws-docker-git-book.html)
+1. [__Part 1 - 5 Full-Stack Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html)
+2. [__Part 2 - AWS Cloud__ ](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
+3. [__Part 3 - Docker__](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
+4. [__Part 4 - Git Version Control__](https://www.business-science.io/business/2019/12/09/git-for-apps.html)
+5. [__Part 5 - H2O Automated Machine Learning (AutoML)__](https://www.business-science.io/business/2020/01/13/5-reasons-to-learn-h2o-machine-learning.html)
+6. __Part 6 - Shiny Web Applications__ (Coming Soon)
+7. [__\[NEW BOOK\] - Shiny Production with AWS, Docker, Git Book__](https://www.business-science.io/business/2020/01/02/shiny-production-with-aws-docker-git-book.html)
 
 ## Changing Trends in Tech Jobs
 
