@@ -24,7 +24,7 @@ This is part of a series of articles on essential Data Science and Web Applicati
 2. [__Part 2 - AWS Cloud__ ](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
 3. [__Part 3 - Docker__](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
 4. [__Part 4 - Git Version Control__](https://www.business-science.io/business/2019/12/09/git-for-apps.html)
-5. [__Part 5 - H2O Automated Machine Learning (AutoML)__](https://www.business-science.io/business/2020/01/13/5-reasons-to-learn-h2o-machine-learning.html)
+5. [__Part 5 - H2O Automated Machine Learning (AutoML)__](https://www.business-science.io/business/2020/01/13/five-reasons-to-learn-h2o-machine-learning.html)
 6. __Part 6 - Shiny Web Applications__ (Coming Soon)
 7. [__\[NEW BOOK\] - Shiny Production with AWS, Docker, Git Book__](https://www.business-science.io/business/2020/01/02/shiny-production-with-aws-docker-git-book.html)
 
@@ -116,14 +116,14 @@ Git and GitHub are staples for reproducible research and web application develop
 ### 4. H2O Machine Learning
 
 <div class="pull-right hidden-xs" style="width:30%; margin-left:20px;">
-  <a href="https://www.business-science.io/business/2020/01/13/5-reasons-to-learn-h2o-machine-learning.html" target="_blank">
+  <a href="https://www.business-science.io/business/2020/01/13/five-reasons-to-learn-h2o-machine-learning.html" target="_blank">
     <img class="img-responsive" src="/assets/2020-01-13-h2o/h2o_machine_learning.jpg">
   </a>
 </div>
 
 Automated machine learning library available in Python and R. Works well on structured data (format for 95% of business problems). Automation drastically increases productivity in machine learning. 
 
-[__Learn More: 5 Reasons to Learn H2O Machine Learning__](https://www.business-science.io/business/2020/01/13/5-reasons-to-learn-h2o-machine-learning.html)  
+[__Learn More: 5 Reasons to Learn H2O Machine Learning__](https://www.business-science.io/business/2020/01/13/five-reasons-to-learn-h2o-machine-learning.html)  
 
 
 ### 5. Shiny Web Apps
