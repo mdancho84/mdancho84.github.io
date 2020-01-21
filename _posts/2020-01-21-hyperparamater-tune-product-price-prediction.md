@@ -1140,7 +1140,7 @@ xgboost_stage_2_metrics
 
 ## 6.4 Model Winner!
 
-__Winner:__ The `xtboost` model had an MAE of \$3,209 on the test data set. We select this model with the following parameters to move forward. 
+__Winner:__ The `xgboost` model had an MAE of \$3,209 on the test data set. We select this model with the following parameters to move forward. 
 
 
 {% highlight r %}
