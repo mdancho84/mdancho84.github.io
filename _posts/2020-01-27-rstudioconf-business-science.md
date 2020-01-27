@@ -25,7 +25,7 @@ __My amazing team__ will be at `rstudio::conf(2020)` to help you with:
 
 2. [__20% OFF Course Sale for Everyone!__](#sale)
 
-3. [__Accelerating Careers__](#careers)
+3. [__Accelerating Your Career__](#careers)
 
 
 
@@ -91,7 +91,7 @@ We're in Location 1 right next to the RStudio Booths. Stop by, introduce yoursel
 
 ## About Business Science
 
-Business Science is an educational platform for learning Data Science for Business. We specialize is teaching the most in-demand tools including `R`, `Shiny`, `AWS`, `H2O`, and the `tidyverse`. Our program is designed to ___accelerate your career___ in 6-months or less. 
+Business Science is an educational platform for learning Data Science for Business. We specialize in teaching the most in-demand tools including `R`, `Shiny`, `AWS`, `H2O`, and the `tidyverse`. Our program is designed to ___accelerate your career___ in 6-months or less. 
 
 ![Business Science San Francisco](/assets/2020-01-27-rstudioconf/business_science_san_francisco.jpg)
 
