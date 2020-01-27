@@ -25,7 +25,7 @@ __My amazing team__ will be at `rstudio::conf(2020)` to help you with:
 
 2. [__20% OFF Course Sale for Everyone!__](#sale)
 
-3. [__Accelerating Your Career__](#careers)
+3. [__Accelerate Your Career__](#careers)
 
 
 
