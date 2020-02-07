@@ -3,71 +3,16 @@
 
 		<!-- Feedburer Email Signup-->
 		<li>
-			<!-- <h5>Interested in Business Science? Subscribe!</h5> -->
-			<!-- Begin MailChimp Signup Form -->
-            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-            <style type="text/css">
-            	#mc_embed_signup{ width:100%;}
-            	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-            	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-            </style>
-            <div id="mc_embed_signup">
-						<form action="https://business-science.us17.list-manage.com/subscribe/post?u=cc36813ecec32f8e7b5088961&amp;id=a4e5b7c52f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div class = "row">
-                    <div id="mc_embed_signup_scroll">
-                        
-                        <div class="col-md-12">
-                            <p style="color: #2c3e50;">Get <em>Business Science</em> updates:</p>
-                            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" style="width:100%; color: #2c3e50; text-align:center;" placeholder="email address" required>
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cc36813ecec32f8e7b5088961_a4e5b7c52f" tabindex="-1" value=""></div>
-                        </div>
-                    
-                        <div class="col-sm-12 col-md-12">
-                            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary btn-sm" style="margin-bottom: 8px;">
-                        </div>
-                    </div>
-                </div>
-                
+		    <form class="navbar-form" role="search" method="get" action="https://google.com/search">
+              <div class="row">
+                  <div class="col-xs-12">
+                      <h5>Search for Articles</h5>
+                  </div>
+                  {% include search_google.html %}
+              </div>
             </form>
-            </div>
-            
-            <!--End mc_embed_signup-->
-			<!-- <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=business-science', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-                <div class="row">
-                    <div class="col-md-12">
-                        <p style="color: #2c3e50;">Get <em>Business Science</em> updates:</p>
-                        <p><input type="text" style="width:90%; color: #2c3e50; padding-left: 4px;" name="email" placeholder="email address" /></p>
-                        <input type="hidden" value="business-science" name="uri"/>
-                        <input type="hidden" name="loc" value="en_US"/>
-                    </div>
-
-                    <div class="col-sm-12 col-md-12">
-                        <input type="submit" value="Subscribe" class="btn btn-primary btn-sm" style="margin-bottom: 8px;"/>
-                    </div>
-                    
-                </div>
-            </form> -->
 		</li>
 		<li><hr></li>
-
-		<!-- Post Navigation -->
-		<!--{% if (page.url contains "/blog/") %}{% else %}
-		<li>
-			<ul class="pager">
-			  {% if page.previous.url != true %}
-			    <li class="previous">
-			    	<a href="{{page.previous.url}}"><i class="fa fa-arrow-circle-left"></i> Prev</a>
-			    </li>
-			  {% endif %}
-			  {% if page.next.url %}
-			    <li class="next">
-			    	<a class="" href="{{page.next.url}}">Next <i class="fa fa-arrow-circle-right"></i></a>
-			    </li>
-			  {% endif %}
-			</ul>
-		</li>
-		<li><hr></li>
-		{% endif %}-->
 
 		<!-- Blog Navigation -->
 		{% if page.url contains "/blog/" %}
