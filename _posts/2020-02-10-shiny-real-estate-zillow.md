@@ -21,12 +21,12 @@ __Zillow is a FREE TOOL with an API__ that allows Data Scientists to connect to 
 
 This is an amazing, end-to-end data science lab. Follow along, and learn how I built a __Shiny Real Estate App__ that uses `XGBoost`, `DALEX`, `Crosstalk`, `Plotly`, `Leaflet`, and more!
 
-[Register for upcoming Learning Labs here.](https://mailchi.mp/business-science/webinars) I just kicked off the Shiny API Series:
+[__Register for upcoming Learning Labs here (for FREE).__](https://mailchi.mp/business-science/webinars) I just kicked off the Shiny API Series:
 
-- Lab 28: Shiny + Zillow API, Real Estate
-- Lab 29: Shiny + Quandl API, Energy
-- Lab 30: Shiny + Tidyquant API, Finance
-- Lab 31: Shiny + Google Analytics API, Marketing
+- __Lab 28:__ Shiny + Zillow API, Real Estate
+- __Lab 29:__ Shiny + Quandl API, Energy
+- __Lab 30:__ Shiny + Tidyquant API, Finance
+- __Lab 31:__ Shiny + Google Analytics API, Marketing
 
 <br>
 <iframe class="logo-shadow" width="100%" height="450" src="https://www.youtube.com/embed/kLiU-hzS7SE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
