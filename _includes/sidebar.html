@@ -1,7 +1,7 @@
 <nav class="bs-docs-sidebar ">
 	<ul class="nav bs-docs-sidenav">
 
-		<!-- Feedburer Email Signup-->
+		<!-- Search -->
 		<li>
 		    <form class="navbar-form" role="search" method="get" action="https://google.com/search">
               <div class="row">
@@ -13,8 +13,26 @@
             </form>
 		</li>
 		<li><hr></li>
+		
+		<!-- Learning Hub -->
+		<li>
+		    <div class="row">
+		        <div class="col-xs-12">
+		            <h5>Articles By Category</h5>
+		            <a href="/learn.html">
+		                <img src="/img/learning_hub.jpg" alt="Learning Hub" class="" style="width:100%"/>
+		            </a>
+		            <br /><br />
+		            <div class="text-center">
+		                <a href="/learn.html" class="btn btn-md btn-success">Learning Hub</a>
+		            </div>
+		        </div>
+		    </div>
+		</li>
+		<li><hr></li>
 
 		<!-- Blog Navigation -->
+		<!--
 		{% if page.url contains "/blog/" %}
 		<li>
 			<ul class="pager">
@@ -29,9 +47,26 @@
 		</li>
 		<li><hr></li>
 		{% endif %}
+		-->
 
 		
-
+        <!-- Cheat Sheets -->
+		<li>
+		    <div class="row">
+		        <div class="col-xs-12">
+		            <h5>Cheat Sheets</h5>
+		            <a href="/learn.html#cheatsheet-learn">
+		                <img src="/img/cheatsheets/r-cheatsheet-300x250.png" alt="Learning Hub" class="" style="width:100%"/>
+		            </a>
+		            <br /><br />
+		            <div class="text-center">
+		                <a href="/learn.html#cheatsheet-learn" class="btn btn-md btn-success">Cheat Sheets</a>
+		            </div>
+		        </div>
+		    </div>
+		</li>
+		<li><hr></li>
+		
 		<!-- Popular Content -->
 		<li>
 			<h5>Popular Content</h5>
@@ -80,86 +115,31 @@
 		<li><hr></li>
 
         
-        <!-- Categories -->
-		<!--<li>
-			<h5>Categories</h5>
-			{% for category in site.categories %}
-			<div class = "button-margin">
-				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#{{ category | first | slugize }}" aria-expanded="false" aria-controls="R">
-				  {{ category | first }}:
-				  <span class="badge">{{ category | last | size }}</span>
-				</button>
-				<div class="collapse" id="{{ category | first | slugize }}">
-				  <div class="list-group">
-				    {% for posts in category %}
-				      {% for post in posts %}
-				      	{% if post.url %}
-					        <!commentout <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a> commentout>
-					        <a href="{{ post.url }}" class="list-group-item">
-								<h6 class="list-group-item-heading">{{ post.title }}</h6>
-							    {% if post.image %}
-				                  <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
-				                {% else %}
-				                  <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
-				                {% endif %}
-							</a>
-					    {% endif %}
-				      {% endfor %}
-				    {% endfor %}
-				  </div>
-				</div>
-			</div>
-			{% endfor %}
+        <!-- Social -->
+        <li><h4 class="text-center">Social</h4></li>
+        <li>
+		    <h5>DS Newsletter <small><a href="http://bit.ly/data-fundamentals" target="_blank">(Read Us)</a></small></h5>
 		</li>
-		<li><hr></li>-->
-        
-        
-        <!-- Twitter -->
+        <li>
+		    <h5>LinkedIn <small><a href="https://www.linkedin.com/company/business.science" target="_blank">(Follow Us)</a></small></h5>
+		</li>
 		<li>
+		    <h5>GitHub <small><a href="https://github.com/business-science" target="_blank">(Star Us)</a></small></h5>
+		</li>
+		<li>
+		    <h5>Twitter <small><a href="https://twitter.com/bizScienc" target="_blank">(Tweet Us)</a></small></h5>
 			<div class = "container">
 				<a class="twitter-timeline" data-width="220" data-height="750" data-theme="light" href="https://twitter.com/bizScienc">Tweets by bizScienc</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 		</li>
-		<li><hr></li>
-
-		<!-- Adsense: Sidebar-1 -->
-		<!-- <li>
-			<div class = "container">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				Sidebar-1
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:300px;height:600px"
-				     data-ad-client="ca-pub-8190393691755597"
-				     data-ad-slot="2077485865"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			</div>
-		</li>
-		<li><hr></li> -->
-
-		<!-- Tags -->
-		<!--<li>
-			<h5>Tags</h5>
-			<div>
-				<!commentout https://blog.lanyonm.org/articles/2013/11/21/alphabetize-jekyll-page-tags-pure-liquid.html commentout>
-				{% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
-				{% assign tag_words = site_tags | split:',' | sort %}
-
-				{% for item in (0..site.tags.size) %}{% unless forloop.last %}
-				{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-				<a href="/tags/#{{ this_word | slugify}}" class="btn btn-primary btn-xs">{{ this_word }}: <span class="badge">{{ site.tags[this_word].size }}</span></a>
-				{% endunless %}{% endfor %}
-			</div>
-
-		</li>
-		<li><hr></li>-->
-
+		
 
 		<!-- Resources -->
+		<!--
+		<li><hr></li>
 		<li>
 			<h5>Resources</h5>
-			<!-- R -->
+			
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#R" aria-expanded="false" aria-controls="R">
 				  R: <span class="badge">{{ site.data.resources-R | size }}</span>
@@ -173,7 +153,7 @@
 				</div>
 			</div>
 
-			<!-- Python -->
+			
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Python" aria-expanded="false" aria-controls="Python">
 				  Python: <span class="badge">{{ site.data.resources-python | size }}</span>
@@ -187,7 +167,7 @@
 				</div>
 			</div>
 
-			<!-- Power BI -->
+			
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#PowerBI" aria-expanded="false" aria-controls="PowerBI">
 				  Power BI: <span class="badge">{{ site.data.resources-powerbi | size }}</span>
@@ -201,7 +181,7 @@
 				</div>
 			</div>
 
-			<!-- Tableau -->
+			
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Tableau" aria-expanded="false" aria-controls="Tableau">
 				  Tableau: <span class="badge">{{ site.data.resources-tableau | size }}</span>
@@ -215,7 +195,7 @@
 				</div>
 			</div>
 
-			<!-- Excel -->
+			
 			<div class = "button-margin">
 				<button class="btn btn-primary" style="width: 100%;" type="button" data-toggle="collapse" data-target="#Excel" aria-expanded="false" aria-controls="Excel">
 				  Excel: <span class="badge">{{ site.data.resources-excel | size }}</span>
@@ -229,7 +209,7 @@
 				</div>
 			</div>
 
-			<!-- Open Source Tools -->
+			
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#opensource" aria-expanded="false" aria-controls="opensource">
 				  Other Tools: <span class="badge">{{ site.data.resources-opensource | size }}</span>
@@ -243,26 +223,7 @@
 				</div>
 			</div>
 		</li>
-		<!-- <li><hr></li> -->
-
-		<!-- Adsense: Sidebar-3 -->
-		<!-- <li>
-			<div class = "container">
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				Sidebar-3
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:300px;height:600px"
-				     data-ad-client="ca-pub-8190393691755597"
-				     data-ad-slot="7751282660"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
-			</div>
-		</li> -->
-		<!-- <li><hr></li> -->
-
-
-
+		-->
 
 	</ul>
 </nav>
