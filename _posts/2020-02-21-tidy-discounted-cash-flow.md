@@ -1858,4 +1858,4 @@ Business Science would like to thank the author, [Rafael Nicolas Fermin Cota (Fo
 
 Rafael Nicolas Fermin Cota (Nico) founded and is the CEO at [162 Labs](https://162labs.com){:target="_blank"}. He is also a part-time faculty member at the National University of Singapore.
 
-Prior to founding 162 Labs, Nico co-founded and led the technology and research teams at OneSixtyTwo Capital (https://onesixtytwocapital.com){:target="_blank"}. In this role, he was responsible for quantitative application development supporting various systematic trading strategies and the integration of trading/market data-driven technologies.
+Prior to founding 162 Labs, Nico co-founded and led the technology and research teams at [OneSixtyTwo Capital](https://onesixtytwocapital.com){:target="_blank"}. In this role, he was responsible for quantitative application development supporting various systematic trading strategies and the integration of trading/market data-driven technologies.
