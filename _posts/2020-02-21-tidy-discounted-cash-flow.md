@@ -12,7 +12,7 @@ image_preview: 2020-02-21-dcf/tidy-discounted-cash-flow.jpg
 
 
 
-The ___tidy data principles___ are a cornerstone of financial data management and the data modeling workflow. The foundation for tidy data management is the `tidyverse`, a collection of R packages, that work in harmony, are built for scalability, and are taught at [__Business Science University__](https://www.business-science.io/). Using this infrastructure and the core tidy concepts, we can apply the tidy data principles to the __Saudi Aramco Discounted	Cash Flow (DCF)	Valuation__. 
+The ___tidy data principles___ are a cornerstone of financial data management and the data modeling workflow. The foundation for tidy data management is the `tidyverse`, a collection of R packages, that work in harmony, are built for scalability, and are taught at [__Business Science University__](https://www.business-science.io/). Using this infrastructure and the core tidy concepts, we can apply the tidy data principles to the [__Saudi Aramco Discounted	Cash Flow (DCF)	Valuation__](#). 
 
     
 
