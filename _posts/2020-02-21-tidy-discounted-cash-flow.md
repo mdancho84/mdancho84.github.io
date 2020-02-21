@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tidy Discounted Cash Flow (DCF) Analysis in R (for Company Valuation)"
+title: "Tidy Discounted Cash Flow Analysis in R (for Company Valuation)"
 date:   2020-02-21 09:12:01
 excerpt: "Learn how to use the Tidy Data Principles to perform a discounted cash flow analysis for Saudi Aramco, an oil giant with a value listed of 1.7 Trillion USD"
 author: "Rafael Nicolas Fermin Cota"
