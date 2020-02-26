@@ -43,7 +43,7 @@ In `tidyquant` version 1.0.0.9000 (_[still in beta-mode on GitHub Here](https://
 📅 [__NEW API Integrations (Implementation scheduled for March)__](#api-integrations)
 
 
-I'll showcase a __small portion__ of the new features in this post. [__Attend Learning Lab 30 (Register Here)__](http://bit.ly/lab-30-shiny-tidyquant) for a real business example where I showcase `Shiny` and `tidyquant` together. You'll see how the new `tidyquant` features streamline development of __Financial and Business `Shiny` Apps__.  
+I'll showcase a __small portion__ of the new features in this post. [__Attend Learning Lab 30 (Register Here for Free)__](http://bit.ly/lab-30-shiny-tidyquant) for a real business example where I showcase `Shiny` and `tidyquant` together. You'll see how the new `tidyquant` features streamline development of __Financial and Business `Shiny` Apps__.  
 
 
 ## Replication Requirements
