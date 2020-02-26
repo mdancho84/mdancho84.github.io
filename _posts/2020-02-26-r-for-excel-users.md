@@ -28,7 +28,7 @@ Let's demo several of the new Excel features!
 
 In `tidyquant` version 1.0.0.9000 (_[still in beta-mode on GitHub Here](https://github.com/business-science/tidyquant){:target="_blank"}, but expected CRAN release of tidyquant v1.0.0 is March 2020_), I have added the following features to __support new _useRs_ transitioning from an <span style="color:green">Excel background.</span>__
 
-## New Features
+## New Features <br><small>To make the transition to R easier for Excel Users</small>
 
 ✅ [__Pivot Tables in R__](#pivot-tables)
 
@@ -38,7 +38,7 @@ In `tidyquant` version 1.0.0.9000 (_[still in beta-mode on GitHub Here](https://
 
 ✅ [__100 + New Excel Functions__](#excel-functions)
 
-✅ [__NEW Tidyverse Functions__](#tidyverse-functions)
+✅ [__NEW Tidyverse Functions - Summarize By Time__](#tidyverse-functions)
 
 📅 [__NEW API Integrations (Implementation scheduled for March)__](#api-integrations)
 
