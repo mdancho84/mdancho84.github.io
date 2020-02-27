@@ -45,6 +45,13 @@ In `tidyquant` version 1.0.0.9000 (_[still in beta-mode on GitHub Here](https://
 
 I'll showcase a __small portion__ of the new features in this post. [__Attend Learning Lab 30 (Register Here for Free)__](http://bit.ly/lab-30-shiny-tidyquant) for a real business example where I showcase `Shiny` and `tidyquant` together. You'll see how the new `tidyquant` features streamline development of __Financial and Business `Shiny` Apps__.  
 
+<iframe class="logo-shadow" width="100%" height="500" src="https://www.youtube.com/embed/6H8q6UAFVpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p class="text-center date">Shiny App with Pivot Table using tidyquant <br>
+  <a href="http://bit.ly/lab-30-shiny-tidyquant" >Register for Learning Lab 30 Here</a>
+</p>
+
+
 
 ## Replication Requirements
 
@@ -222,7 +229,7 @@ Let's replicate a VLOOKUP in R using the new `VLOOKUP()` function. First, let's 
 
 
 {% highlight r %}
-lookup_table <- lookup_table <- tibble(
+lookup_table <- tibble(
     stock   = c("FB", "AMZN", "NFLX", "GOOG"),
     company = c("Facebook", "Amazon", "Netflix", "Google")
 )
