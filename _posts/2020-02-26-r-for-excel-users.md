@@ -26,7 +26,7 @@ Let's demo several of the new Excel features!
   </a>
 </div>
 
-In `tidyquant` version 1.0.0.9000 (_[still in beta-mode on GitHub Here](https://github.com/business-science/tidyquant){:target="_blank"}, but expected CRAN release of tidyquant v1.0.0 is March 2020_), I have added the following features to __support new _useRs_ transitioning from an <span style="color:green">Excel background.</span>__
+In `tidyquant` version 1.0.0, I have added the following features to __support new _useRs_ transitioning from an <span style="color:green">Excel background.</span>__
 
 ## New Features <br><small>To make the transition to R easier for Excel Users</small>
 
@@ -40,7 +40,7 @@ In `tidyquant` version 1.0.0.9000 (_[still in beta-mode on GitHub Here](https://
 
 ✅ [__NEW Tidyverse Functions - Summarize By Time__](#tidyverse-functions)
 
-📅 [__NEW API Integrations (Implementation scheduled for March)__](#api-integrations)
+✅ [__NEW API Integrations (Implementation scheduled for March)__](#api-integrations)
 
 
 I'll showcase a __small portion__ of the new features in this post. [__Attend Learning Lab 30 (Register Here for Free)__](http://bit.ly/lab-30-shiny-tidyquant) for a real business example where I showcase `Shiny` and `tidyquant` together. You'll see how the new `tidyquant` features streamline development of __Financial and Business `Shiny` Apps__.  
@@ -531,10 +531,51 @@ I can use `summarise_by_time()` in Shiny Apps to make common summarization plots
 
 <p class="text-center date">Summarizing by Time in a Shiny App</p>
 
-## 📅 NEW API Integration (Implementation scheduled for March) {#api-integrations}
+## ✅ NEW API Integration  {#api-integrations}
 
-Coming Soon - `Tingo API` is a popular free and open source for stock prices, cryptocurrencies, and intraday feeds from the IEX (Investors Exchange). I'm planning integration via the `riingo` package.
+The `Tingo API` is a popular free and open source for stock prices, cryptocurrencies, and intraday feeds from the IEX (Investors Exchange). I'm planning integration via the `riingo` package.
 
+First, get a [Tiingo API Key](https://www.tiingo.com/){:target="_blank"}. Then setup your API Key using `tiingo_api_key()`. 
+
+
+
+
+
+{% highlight r %}
+tiingo_api_key("<your-api-key>")
+{% endhighlight %}
+
+We can use `tq_get()` to interface with the Tiingo API. Here I'm getting __High Frequency Time Series at 5-Minute Intervals__ via Tiingo's IEX data feed.
+
+
+{% highlight r %}
+tq_get(c("AAPL", "GOOG"),
+       get    = "tiingo.iex",
+       from   = "2020-01-01",
+       to     = "2020-01-15",
+       resample_frequency = "5min")
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## # A tibble: 1,578 x 6
+##    symbol date                 open  high   low close
+##    <chr>  <dttm>              <dbl> <dbl> <dbl> <dbl>
+##  1 AAPL   2020-01-02 14:30:00  296.  297.  295.  297.
+##  2 AAPL   2020-01-02 14:35:00  297.  298.  297.  297.
+##  3 AAPL   2020-01-02 14:40:00  297.  298.  297.  297.
+##  4 AAPL   2020-01-02 14:45:00  297.  297.  297.  297.
+##  5 AAPL   2020-01-02 14:50:00  297.  297.  297.  297.
+##  6 AAPL   2020-01-02 14:55:00  297.  298.  297.  298.
+##  7 AAPL   2020-01-02 15:00:00  298.  298.  298.  298.
+##  8 AAPL   2020-01-02 15:05:00  298.  298.  298.  298.
+##  9 AAPL   2020-01-02 15:10:00  298.  298.  297.  297.
+## 10 AAPL   2020-01-02 15:15:00  297.  298.  297.  297.
+## # … with 1,568 more rows
+{% endhighlight %}
+
+Learn more by visiting the help documentation for `?tq_get`.
 
 # Summary
 
