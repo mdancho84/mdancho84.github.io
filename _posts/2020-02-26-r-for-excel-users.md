@@ -18,7 +18,7 @@ __Learning `R` can be a major hurdle.__ You need to learn data structures, algor
 
 Let's demo several of the new Excel features!
 
-# Excel in R: Introducing tidyquant <br><small>New Features in v1.0.0.9000 (Beta on GitHub)</small> {#new-features}
+# Excel in R: Introducing tidyquant 1.0.0<br><small>Pivot Tables, VLOOKUPs, Sum-Ifs, and more</small> {#new-features}
 
 <div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
   <a href="#" target="_blank">
@@ -57,11 +57,12 @@ I'll showcase a __small portion__ of the new features in this post. [__Attend Le
 
 ## Replication Requirements
 
-Please use `tidyquant (>= 1.0.0)`. Installation is recommended via GitHub until the official CRAN release (expected in March 2020).
+Please use `tidyquant (>= 1.0.0)`, which is now available on CRAN.
 
 
 {% highlight r %}
-devtools::install_github("business-science/tidyquant")
+# devtools::install_github("business-science/tidyquant")
+install.packages("tidyquant")
 {% endhighlight %}
 
 Load the following libraries.
