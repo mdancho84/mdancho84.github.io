@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "5 Full Stack Data Science Technologies for 2020 (and Beyond)"
+title: "Part 1 - 5 Full Stack Data Science Technologies for 2020 (and Beyond)"
 date: 2019-12-09 11:30:01
 excerpt: "Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. Here are the essential skills for Data Scientists that need to build and deploy applications in 2020 and beyond."
 author: "Matt Dancho"
@@ -12,21 +12,19 @@ image_preview: 2020-01-13-h2o/full_stack_data_science_technologies.jpg
 
 <p class="lead">Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. <strong>Here are the Top 5 essential skills for Data Scientists that need to build and deploy applications in 2020 and beyond.</strong></p>
 
-### Full-Stack Data Science Series
+#### Articles in Series
 
 <div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
   <img class="img-responsive" src="/assets/2020-01-13-h2o/full_stack_data_science_technologies.jpg"> 
 </div>
 
-This is part of a series of articles on essential Data Science and Web Application skills for 2020 and beyond:
-
-1. [__Part 1 - 5 Full-Stack Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html)
+1. [__Part 1 - 5 Full-Stack Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html) __(You Are Here)__
 2. [__Part 2 - AWS Cloud__ ](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
 3. [__Part 3 - Docker__](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
-4. [__Part 4 - Git Version Control__](https://www.business-science.io/business/2019/12/09/git-for-apps.html)
-5. [__Part 5 - H2O Automated Machine Learning (AutoML)__](https://www.business-science.io/business/2020/01/13/five-reasons-to-learn-h2o-machine-learning.html)
-6. __Part 6 - Shiny Web Applications__ (Coming Soon)
-7. [__\[NEW BOOK\] - Shiny Production with AWS, Docker, Git Book__](https://www.business-science.io/business/2020/01/02/shiny-production-with-aws-docker-git-book.html)
+4. [__Part 4 - Git Version Control__](https://www.business-science.io/business/2019/12/09/git-for-apps.html) 
+5. [__Part 5 - H2O Automated Machine Learning (AutoML)__](https://www.business-science.io/business/2020/01/13/five-reasons-to-learn-h2o-machine-learning.html) 
+6. [__Part 6 - R Shiny vs Tableau (3 Business Application Examples)__](https://www.business-science.io/business/2020/03/09/shiny-vs-tableau.html) 
+7. [__\[NEW BOOK\] - The Shiny Production with AWS Book__](https://www.business-science.io/business/2020/01/02/shiny-production-with-aws-docker-git-book.html)
 
 ## Top 20 Tech Skills 2014-2019
 
@@ -128,9 +126,15 @@ Automated machine learning library available in Python and R. Works well on stru
 
 ### 5. Shiny Web Apps
 
+<div class="pull-right hidden-xs" style="width:30%; margin-left:20px;">
+  <a href="https://www.business-science.io/business/2020/03/09/shiny-vs-tableau.html" target="_blank">
+    <img class="img-responsive" src="/assets/2020-03-09-shiny-vs-tableau/shiny-vs-tableau.jpg">
+  </a>
+</div>
+
 A comprehensive web framework designed for data scientists with a rich ecosystem of extension libraries (dubbed the "shinyverse").
 
-__Shiny Resource (Coming Soon):__ Shiny Data Science Web Applications 
+[__Learn More: Shiny vs Tableau (3 Business Application Examples)__](https://www.business-science.io/business/2020/03/09/shiny-vs-tableau.html)  
 
 
 
@@ -138,7 +142,7 @@ __Shiny Resource (Coming Soon):__ Shiny Data Science Web Applications
 
 ## Other Technologies Worth Mentioning
 
-6. __dbplyr for SQL__ - For data scientists that need to create complex SQL queries, but don't have time to deal with messy SQL. dbplyr is a massive productivity booster. It converts R (dplyr) to SQL. Can use it for 95% of SQL queries. 
+6. __SQL__ - For data scientists that need to create complex SQL queries, but don't have time to deal with messy SQL. `dbplyr` is a _massive productivity_ booster - __It converts R (dplyr) to SQL.__ You can use it for 95% of SQL queries. 
 
 7. __Bootstrap__ - For data scientists that build apps, Bootstrap is a Front-End web framework that Shiny is built on top of and it powers much of the web (e.g. Twitter's app). Bootstrap makes it easy to control the User Interface (UI) of your application. 
 

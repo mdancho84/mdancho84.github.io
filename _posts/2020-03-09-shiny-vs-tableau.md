@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R Shiny vs Tableau (3 Business Application Examples)"
+title: "Part 6 - R Shiny vs Tableau (3 Business Application Examples)"
 date:   2020-03-09 12:04:01
 excerpt: "Shiny is much more than just a dashboarding tool. Here we illustrate 3 powerful use cases for R Shiny Apps in business."
 author: "Matt Dancho"
@@ -13,6 +13,16 @@ image_preview: 2020-03-09-shiny-vs-tableau/shiny-vs-tableau.jpg
 
 
 __`Shiny`, a web framework that is written in `R`, often gets lumped into the conversation with Tableau and PowerBI__ - two popular Business Intelligence (BI Tools) used for "Dashboarding". The critical point is that `Shiny` is much more than just a dashboarding tool: `R` and `Shiny` combine both machine learning and decision-making, packaging your data science analysis into a web application that businesses can use. Here we illustrate __3 powerful use cases for `R Shiny` Apps in business.__ [View the updated article at Business Science.](#)
+
+#### Articles in Series
+
+1. [__Part 1 - 5 Full-Stack Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html)
+2. [__Part 2 - AWS Cloud__ ](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
+3. [__Part 3 - Docker__](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
+4. [__Part 4 - Git Version Control__](https://www.business-science.io/business/2019/12/09/git-for-apps.html)
+5. [__Part 5 - H2O Automated Machine Learning (AutoML)__](https://www.business-science.io/business/2020/01/13/five-reasons-to-learn-h2o-machine-learning.html)
+6. [__Part 6 - R Shiny vs Tableau (3 Business Application Examples)__](https://www.business-science.io/business/2020/03/09/shiny-vs-tableau.html) __(You Are Here)__
+7. [__\[NEW BOOK\] - The Shiny Production with AWS Book__](https://www.business-science.io/business/2020/01/02/shiny-production-with-aws-docker-git-book.html)
 
 # Why Shiny?
 

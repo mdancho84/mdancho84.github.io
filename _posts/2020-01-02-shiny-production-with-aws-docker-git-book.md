@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing the Shiny Production with AWS Book"
+title: "NEW BOOK - The Shiny Production with AWS Book"
 date: 2020-01-02 9:30:01
 excerpt: "The enterprise-grade process for deploying, hosting, and maintaining Shiny web applications using AWS, Docker, and Git."
 author: "Matt Dancho"
@@ -13,24 +13,19 @@ image_preview: 2020-01-02-shiny-aws-book/shiny_aws_book_cover.jpg
 <p class="lead">It's the new year. Moving into 2020, I'd like to introduce you to the <a href="https://business-science.github.io/shiny-production-with-aws-book/" target="_blank"><strong>BRAND NEW Shiny Production with AWS Book</strong></a>. This book details the enterprise-grade process for deploying, hosting, and maintaining <code>Shiny</code> web applications using <code>AWS</code>, <code>Docker</code>, and <code>Git</code>. It contains <strong>24 Chapters</strong> covering the entire deployment process!</p>
 
 
-### Full-Stack Data Science Series
+#### Articles in Series
 
 <div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
-  <a href="https://business-science.github.io/shiny-production-with-aws-book/" target="_blank">
-  <img class="img-responsive" src="/assets/2020-01-02-shiny-aws-book/shiny_aws_book_cover.jpg"> 
-  </a>
-  <p class="text-center"><em>Shiny Production with AWS Book</em></p>
+  <img class="img-responsive" src="/assets/2020-01-13-h2o/full_stack_data_science_technologies.jpg"> 
 </div>
-
-This is part of a series of articles on essential Data Science and Web Application skills for 2020 and beyond:
 
 1. [__Part 1 - 5 Full-Stack Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html)
 2. [__Part 2 - AWS Cloud__ ](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
 3. [__Part 3 - Docker__](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
 4. [__Part 4 - Git Version Control__](https://www.business-science.io/business/2019/12/09/git-for-apps.html)
-5. [__Part 5 - H2O Automated Machine Learning (AutoML)__](https://www.business-science.io/business/2020/01/13/five-reasons-to-learn-h2o-machine-learning.html)
-6. __Part 6 - Shiny Web Applications__ (Coming Soon)
-7. [__\[NEW BOOK\] - Shiny Production with AWS, Docker, Git Book__](https://www.business-science.io/business/2020/01/02/shiny-production-with-aws-docker-git-book.html)
+5. [__Part 5 - H2O Automated Machine Learning (AutoML)__](https://www.business-science.io/business/2020/01/13/five-reasons-to-learn-h2o-machine-learning.html) 
+6. [__Part 6 - R Shiny vs Tableau (3 Business Application Examples)__](https://www.business-science.io/business/2020/03/09/shiny-vs-tableau.html) 
+7. [__\[NEW BOOK\] - The Shiny Production with AWS Book__](https://www.business-science.io/business/2020/01/02/shiny-production-with-aws-docker-git-book.html) __(You Are Here)__
 
 
 

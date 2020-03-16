@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "5 Reasons to Learn H2O for High-Performance Machine Learning"
+title: "Part 5 - 5 Reasons to Learn H2O for High-Performance Machine Learning"
 date: 2020-01-13 10:30:01
 excerpt: "H2O is the scalable, open-source ML library that features AutoML. Here's why it's an essential library for me (and you)."
 author: "Matt Dancho"
@@ -12,21 +12,20 @@ image_preview: 2020-01-13-h2o/h2o_machine_learning.jpg
 
 <p class="lead"><strong>H2O</strong> is the scalable, open-source Machine Learning library that features <code>AutoML</code>. Here are 5 Reasons why it's an essential library for creating production data science code.</p>
 
-### Full-Stack Data Science Series
+
+#### Articles in Series
 
 <div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
   <img class="img-responsive" src="/assets/2020-01-13-h2o/h2o_machine_learning.jpg"> 
 </div>
 
-This is part of a series of articles on essential Data Science and Web Application skills for 2020 and beyond:
-
 1. [__Part 1 - 5 Full-Stack Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html)
 2. [__Part 2 - AWS Cloud__ ](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
 3. [__Part 3 - Docker__](https://www.business-science.io/business/2019/11/22/docker-for-data-science.html)
 4. [__Part 4 - Git Version Control__](https://www.business-science.io/business/2019/12/09/git-for-apps.html)
-5. [__Part 5 - H2O Automated Machine Learning (AutoML)__](https://www.business-science.io/business/2020/01/13/five-reasons-to-learn-h2o-machine-learning.html)
-6. __Part 6 - Shiny Web Applications__ (Coming Soon)
-7. [__\[NEW BOOK\] - Shiny Production with AWS, Docker, Git Book__](https://www.business-science.io/business/2020/01/02/shiny-production-with-aws-docker-git-book.html)
+5. [__Part 5 - H2O Automated Machine Learning (AutoML)__](https://www.business-science.io/business/2020/01/13/five-reasons-to-learn-h2o-machine-learning.html) __(You Are Here)__
+6. [__Part 6 - R Shiny vs Tableau (3 Business Application Examples)__](https://www.business-science.io/business/2020/03/09/shiny-vs-tableau.html) 
+7. [__\[NEW BOOK\] - The Shiny Production with AWS Book__](https://www.business-science.io/business/2020/01/02/shiny-production-with-aws-docker-git-book.html)
 
 
 <h2>Machine Learning<br><small><strong>Up 440%</strong> vs 5-Years Ago</small></h2>
