@@ -15,9 +15,11 @@ image_preview: 2019-11-13-data-science-with-aws/amazon-web-services-preview.jpg
 
 #### Articles in Series
 
+<!--
 <div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
   <img class="img-responsive" src="/assets/2020-01-13-h2o/full_stack_data_science_technologies.jpg"> 
 </div>
+-->
 
 1. [__Part 1 - Five Full-Stack Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html) 
 2. [__Part 2 - AWS Cloud__ ](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html) __(You Are Here)__

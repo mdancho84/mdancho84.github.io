@@ -13,10 +13,11 @@ image_preview: 2019-12-16-git/git.jpg
 <p class="lead">Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. <strong>A key skill that companies need is <code>Git</code> for application development (I call this Full Stack Data Science). Here's what is driving Git's growth, and why you should learn Git for data science application development.</strong></p>
 
 #### Articles in Series
-
+<!--
 <div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
-  <img class="img-responsive" src="/assets/2020-01-13-h2o/full_stack_data_science_technologies.jpg"> 
+  <img class="img-responsive" src="/assets/2019-12-16-git/git.jpg"> 
 </div>
+-->
 
 1. [__Part 1 - Five Full-Stack Data Science Technologies for 2020 (and Beyond)__](https://www.business-science.io/business/2019/12/09/data-science-technologies.html)
 2. [__Part 2 - AWS Cloud__ ](https://www.business-science.io/business/2019/11/13/data-science-with-aws.html)
