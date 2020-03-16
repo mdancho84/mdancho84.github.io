@@ -24,11 +24,11 @@ This is the 2nd Article in a series on why you should learn R if you're coming f
 
 #### Articles in Series
 
-- [__Excel to R, Part 1 - The 10X Productivity Boost__](/business/2019/02/20/excel-to-r-part-1.html) 
+- [Excel to R, Part 1 - The 10X Productivity Boost](/business/2019/02/20/excel-to-r-part-1.html) 
 
 - __[Excel to R, Part 2 - Speed Up Exploratory Data Analysis 100X](/business/2019/07/08/excel-to-r-part-2.html)__ __(You're here)__
 
-- Excel to R, Part 3 - Automated Business Reporting (Coming Soon)
+- [Excel to R, Part 3 - NEW Pivot Tables, VLOOKUPS in R!](/finance/2020/02/26/r-for-excel-users.html)
 
 
 ## What You Learn Today: Correlation Funnel for 100X EDA Speedup {#learn}

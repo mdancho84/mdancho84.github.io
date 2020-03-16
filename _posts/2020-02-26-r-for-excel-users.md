@@ -2,7 +2,7 @@
 layout: post
 title: "R for Excel Users: Pivot Tables, VLOOKUPs in R"
 date:   2020-02-26 09:12:01
-excerpt: "Learn about how the NEW tidyquant package (v1.0.0) makes popular Excel functions like Pivot Tables, VLOOKUP(), SUMIFS(), and much more possible in R."
+excerpt: "Learn how to use popular Excel functions in R like Pivot Tables, VLOOKUP(), SUMIFS(), and much more."
 author: "Matt Dancho"
 categories: [Finance]
 tags: [R-Bloggers, Learn-R, Learn-Finance, Learn-Business, tidyquant, tidyverse]
@@ -14,9 +14,17 @@ image_preview: 2020-02-26-r-for-excel/r-for-excel-users.jpg
 
 __New business and financial analysts are finding `R` every day.__ Most of these new _userRs_ (R users) are coming from a non-programming background. They have ample domain experience in functions like finance, marketing, and business, but their tool of choice is __<span style="color:green">Excel</span> (or more recently Tableau & PowerBI)__. 
 
-__Learning `R` can be a major hurdle.__ You need to learn data structures, algorithms, data science, machine learning, web applications with `Shiny` and more to be able to accomplish a basic dashboard. This is a _BIG ASK_ for non-coders. This is the problem I aim to begin solving with the _upcoming_ release of `tidyquant` v1.0.0. [Read the updated _'R for Excel Users'_ on Business Science](#). 
+__Learning `R` can be a major hurdle.__ You need to learn data structures, algorithms, data science, machine learning, web applications with `Shiny` and more to be able to accomplish a basic dashboard. This is a _BIG ASK_ for non-coders. This is the problem I aim to begin solving with the release of `tidyquant` v1.0.0. [Read the updated _'R for Excel Users'_ on Business Science](#). 
 
 Let's demo several of the new Excel features!
+
+#### Articles in Series
+
+- [Excel to R, Part 1 - The 10X Productivity Boost](/business/2019/02/20/excel-to-r-part-1.html) 
+
+- [Excel to R, Part 2 - Speed Up Exploratory Data Analysis 100X](/business/2019/07/08/excel-to-r-part-2.html) 
+
+- __[Excel to R, Part 3 - NEW Pivot Tables, VLOOKUPS in R!](/finance/2020/02/26/r-for-excel-users.html)__ __(You're here)__
 
 # Excel in R: Introducing tidyquant 1.0.0<br><small>Pivot Tables, VLOOKUPs, Sum-Ifs, and more</small> {#new-features}
 
@@ -43,14 +51,16 @@ In `tidyquant` version 1.0.0, I have added the following features to __support n
 ✅ [__NEW API Integrations (Implementation scheduled for March)__](#api-integrations)
 
 
-I'll showcase a __small portion__ of the new features in this post. [__Attend Learning Lab 30 (Register Here for Free)__](http://bit.ly/lab-30-shiny-tidyquant) for a real business example where I showcase `Shiny` and `tidyquant` together. You'll see how the new `tidyquant` features streamline development of __Financial and Business `Shiny` Apps__.  
+I'll showcase a __small portion__ of the new features in this post. [__Register Here for new Learning Labs (Free)__](http://bit.ly/learning_labs) - I go through real business examples where I showcase packages like using `Shiny` and `tidyquant` together (did this in Learning Lab 30). 
+
+{% include cta_learning_labs.html %}
 
 <br>
 
 <iframe class="logo-shadow" width="100%" height="500" src="https://www.youtube.com/embed/6H8q6UAFVpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p class="text-center date">Shiny App with Pivot Table using tidyquant <br>
-  <a href="http://bit.ly/lab-30-shiny-tidyquant" >Register for Learning Lab 30 Here</a>
+  <a href="http://bit.ly/learning_labs" >Register for New Learning Labs Here</a>
 </p>
 
 
@@ -297,7 +307,7 @@ FANG %>%
 
 ### What I'm Most Excited About Using VLOOKUP for
 
-I actually can't wait to use `VLOOKUP()` in `Shiny` apps. There are many times when I want the user to input a variable (a Key), and internally on the Shiny Server convert it to something more useful in a table (a Value). I'll showcase this technique LIVE in [Learning Lab 30 - Shiny + Tidyquant Apps (Register Here for FREE)](http://bit.ly/lab-30-shiny-tidyquant).
+I actually can't wait to use `VLOOKUP()` in `Shiny` apps. There are many times when I want the user to input a variable (a Key), and internally on the Shiny Server convert it to something more useful in a table (a Value). I showcased this technique LIVE in Learning Lab 30 - Shiny + Tidyquant Apps. [Register Here to attend new Learning Labs (FREE)](http://bit.ly/learning_labs).
 
 
 ## ✅ Summarizing "IFS" Functions {#sum-ifs}
@@ -526,7 +536,7 @@ FANG %>%
 
 ### What I'm Most Excited About
 
-I can use `summarise_by_time()` in Shiny Apps to make common summarization plots. In fact, I'm teaching it: [Learning Lab 30 - Shiny + Tidyquant for Finance Apps (Register Here, It's Free)](http://bit.ly/lab-30-shiny-tidyquant)
+I can use `summarise_by_time()` in Shiny Apps to make common summarization plots. In fact, I'm taught it: Learning Lab 30 - Shiny + Tidyquant for Finance Apps. [Register Here to attend new Learning Labs, It's Free)](http://bit.ly/learning_labs)
 
 ![Summarize by Time - Shiny App](/assets/2020-02-26-r-for-excel/summarise_by_time_shiny.jpg)
 
@@ -588,21 +598,14 @@ Learn more by visiting the help documentation for `?tq_get`.
 
 There's a ton to learn. So much that I couldn't possibly go over all of the new features in `tidyquant v1.0.0` in this article. __And, most importantly, you haven't seen `tidyquant` tackle some real messy business problems.__
 
-I have good news. In [Learning Lab 30 - Shiny + Tidyquant for Finance Apps (Register Here, It's Free)](http://bit.ly/lab-30-shiny-tidyquant), I'm going to be tackling some real financial data and showing how we can do really important things like:
+I have good news. I taught all the Excel Features in Learning Lab 30 - Shiny + Tidyquant for Finance Apps [(Register Here to attend new Learning Labs, It's Free)](http://bit.ly/learning_labs), I tackled some real financial data, showing how we can do really important things like:
 
 - Perform Portfolio Analysis
 - Use NEW Excel Features
 - __Build Shiny Apps with Pivot Tables, VLOOKUPs and SUMIFS.__
 
-# Experience Shiny + tidyquant  <br><small>Financial Modeling App with Shiny &amp; tidyquant</small>
+# Register for Learning Labs (FREE)<br><small>Learn amazing tools like Shiny &amp; tidyquant</small>
 
-Learn how to make a __Shiny Finance App__ using `Shiny` + `tidyquant` for financial modeling automation - __FOR FREE.__ Plus, I'll be showing off my `tidyquant 1.0.0` <span style="color:green">NEW Excel in R Features</span> and how they make it super easy to leverage `Shiny`. Registration is a no-brainer. Sign up here. 👇
+I give away a ton of free R training. It's a program called Learing Labs. Sign up here. 👇
 
-<p class = "text-center">
-    <a class="btn btn-lg btn-success" href="http://bit.ly/lab-30-shiny-tidyquant" target="_blank">Register for Learning Lab 30 Here</a>
-    <p class="text-center" style="color:red;">Registration closes March 11th (Day of the event).</p>
-    <p class="text-center">Lab 30 - Shiny + Tidyquant starts in...</p>
-    <div style="text-align: center!important"><img align="center" src="http://i.countdownmail.com/f5zxs.gif" style="display:inline-block!important;width:90%!important;max-width:416px!important;border:0px!important;" alt="countdownmail.com"/></div>
-    
-</p>
-<hr>
+{% include cta_learning_labs.html %}

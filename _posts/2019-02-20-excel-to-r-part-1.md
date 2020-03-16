@@ -43,9 +43,9 @@ Read this article series, to see how you can gain a <strong>10X productivity boo
 
 - [__Excel to R, Part 1 - The 10X Productivity Boost__](/business/2019/02/20/excel-to-r-part-1.html) __(You're here)__
 
-- [__Excel to R, Part 2 - Speed Up Exploratory Data Analysis 100X__](/business/2019/07/08/excel-to-r-part-2.html)
+- [Excel to R, Part 2 - Speed Up Exploratory Data Analysis 100X](/business/2019/07/08/excel-to-r-part-2.html)
 
-- Excel to R, Part 3 - Automated Business Reporting (Coming Soon)
+- [Excel to R, Part 3 - NEW Pivot Tables, VLOOKUPS in R!](/finance/2020/02/26/r-for-excel-users.html)
 
 
 <br>
