@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Part 5 - 5 Reasons to Learn H2O for High-Performance Machine Learning"
+title: "Part 5 - Five Reasons to Learn H2O for High-Performance Machine Learning"
 date: 2020-01-13 10:30:01
 excerpt: "H2O is the scalable, open-source ML library that features AutoML. Here's why it's an essential library for me (and you)."
 author: "Matt Dancho"

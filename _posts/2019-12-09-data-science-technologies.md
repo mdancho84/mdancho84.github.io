@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Part 1 - 5 Full Stack Data Science Technologies for 2020 (and Beyond)"
+title: "Part 1 - Five Full Stack Data Science Technologies for 2020 (and Beyond)"
 date: 2019-12-09 11:30:01
 excerpt: "Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. Here are the essential skills for Data Scientists that need to build and deploy applications in 2020 and beyond."
 author: "Matt Dancho"
