@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Time Series Machine Learning in R"
+title: "Time Series Machine Learning (and Feature Engineering) in R"
 date:   2020-03-18 10:04:01
-excerpt: "Machine learning is a powerful way to forecast Time Series. Feature Engineering is critical. A new innovation is coming in timetk - to help generate time series features."
+excerpt: "Machine learning is a powerful way to forecast Time Series. Feature Engineering is critical. A new innovation is coming in timetk - to help generate 200+ time-series features."
 author: "Matt Dancho"
 categories: [Time-Series]
 tags: [R-Bloggers, Learn-R, Learn-Timeseries, timetk, recipes, workflows, tidymodels]
@@ -12,9 +12,11 @@ image_preview: 2020-03-18-timeseries-ml/time-series-machine-learning-in-r.jpg
 
 
 
-__Machine learning is a powerful way to analyze Time Series.__ With innovations in the `tidyverse` modeling infrastructure (`tidymodels`), we now have a common set of packages to perform machine learning in R. These packages include `parsnip`, `recipes`, `tune`, and `workflows`. __But what about Machine Learning with Time Series Data? The key is using Feature Engineering.__ 
+__Machine learning is a powerful way to analyze Time Series.__ With innovations in the `tidyverse` modeling infrastructure (`tidymodels`), we now have a common set of packages to perform machine learning in R. These packages include `parsnip`, `recipes`, `tune`, and `workflows`. __But what about Machine Learning with Time Series Data? The key is Feature Engineering.__ 
 
-The `timetk` package has a _feature engineering innovation_ in version 0.1.3. A recipe step called `step_timeseries_signature()` for __Time Series Feature Engineering__ that is designed to fit right into the `tidymodels` workflow for machine learning with timeseries data. The small innovation creates ___25+ time series features___ has a big impact in improving our machine learning models. Let's see how to do __Time Series Machine Learning in R.__ 
+The `timetk` package has a _feature engineering innovation_ in version 0.1.3. A recipe step called `step_timeseries_signature()` for __Time Series Feature Engineering__ that is designed to fit right into the `tidymodels` workflow for machine learning with timeseries data. 
+
+The small innovation creates ___25+ time series features___ has a big impact in improving our machine learning models. Further, these new features are the basis for creating ___200+ time-series features___ to improve forecasting performance. Let's see how to do __Time Series Machine Learning in R.__ 
 
 # Time Series Feature Engineering <br><small>with the Time Series Signature</small>
 
@@ -37,6 +39,7 @@ __The time series signature is a collection of useful engineered features__ that
 
 - ✅ __Weekly Cyclic Patterns:__ 2 weeks, 3 weeks, 4 weeks
 
+___We can then build 200+ of new features___ from these core 25+ features by applying well-thought-out time series feature engineering strategies. 
 
 # Time Series Forecast Strategy <br><small>6-Month Forecast of Bike Transaction Counts</small>
 
@@ -44,7 +47,7 @@ In this tutorial, the user will learn methods to implement machine learning to p
 
 ### Feature Engineering Strategy
 
-We'll use `timetk` to build a basic ___Machine Learning Feature Set___ using the new `step_timeseries_signature()` function that is part of preprocessing specification via the `recipes` package. We'll show how you can add interaction terms and build on-top of the pre-packaged feature set. 
+I'll use `timetk` to build a basic ___Machine Learning Feature Set___ using the new `step_timeseries_signature()` function that is part of preprocessing specification via the `recipes` package. I'll show how you can add interaction terms, dummy variables, and more to __build 200+ new features from the pre-packaged feature set.__ 
 
 ### Machine Learning Strategy
 
