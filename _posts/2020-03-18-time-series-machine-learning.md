@@ -2,7 +2,7 @@
 layout: post
 title: "Time Series Machine Learning in R"
 date:   2020-03-18 10:04:01
-excerpt: "TODO"
+excerpt: "Machine learning is a powerful way to forecast Time Series. Feature Engineering is critical. A new innovation is coming in timetk - to help generate time series features."
 author: "Matt Dancho"
 categories: [Time-Series]
 tags: [R-Bloggers, Learn-R, Learn-Timeseries, timetk, recipes, workflows, tidymodels]
@@ -14,7 +14,7 @@ image_preview: 2020-03-18-timeseries-ml/time-series-machine-learning-in-r.jpg
 
 __Machine learning is a powerful way to analyze Time Series.__ With innovations in the `tidyverse` modeling infrastructure (`tidymodels`), we now have a common set of packages to perform machine learning in R. These packages include `parsnip`, `recipes`, `tune`, and `workflows`. __But what about Machine Learning with Time Series Data? The key is using Feature Engineering.__ 
 
-The `timetk` package has a _feature engineering innovation_ in version 0.1.3. A recipe called `step_timeseries_signature()` for __Time Series Feature Engineering__ that is designed to fit right into the `tidymodels` workflow for machine learning with timeseries data. The small innovation has a big impact in streamlining our workflow. Let's see how to do __Time Series Machine Learning in R.__ 
+The `timetk` package has a _feature engineering innovation_ in version 0.1.3. A recipe step called `step_timeseries_signature()` for __Time Series Feature Engineering__ that is designed to fit right into the `tidymodels` workflow for machine learning with timeseries data. The small innovation creates 25+ time series features has a big impact in improving our machine learning models. Let's see how to do __Time Series Machine Learning in R.__ 
 
 # Time Series Feature Engineering <br><small>with the Time Series Signature</small>
 
@@ -49,6 +49,9 @@ We'll use `timetk` to build a basic ___Machine Learning Feature Set___ using the
 ### Machine Learning Strategy
 
 We'll then perform __Time Series Machine Learning__ using `parsnip` and `workflows` to construct and train a GLM-based time series machine learning model. The model is evaluated on out-of-sample data. A final model is trained on the full dataset, and extended to a _future dataset_ containing 6-months to daily timestamp data.
+
+![Time Series Forecast using Feature Engineering](/assets/2020-03-18-timeseries-ml/forecast-with-machine-learning-features.png)
+<p class="date text-center">Time Series Forecast using Feature Engineering</p>
 
 ### How to Learn Forecasting Beyond this Tutorial
 
