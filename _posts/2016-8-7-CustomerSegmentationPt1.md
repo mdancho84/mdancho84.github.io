@@ -46,7 +46,7 @@ We have a cheat sheet that walks the user through the workflow for segmenting cu
 
 
 <br>
-{% include cta_201_learn_ml.html %}
+{% include cta_learning_labs.html %}
 
 
 ## How K-Means Works <a class="anchor" id="how-works"></a>
@@ -160,7 +160,7 @@ knitr::kable(head(customerTrends))
 
 
 <br>
-{% include cta_201_learn_ml.html %}
+{% include cta_learning_labs.html %}
 
 
 ## K-Means Clustering <a class="anchor" id="kmeans"></a>
@@ -403,4 +403,4 @@ You learn everything you need to know about how to apply data science in a busin
 
 
 <br>
-{% include cta_201_learn_ml.html %}
+{% include cta_learning_labs.html %}

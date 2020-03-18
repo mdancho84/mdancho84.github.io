@@ -29,6 +29,8 @@ I started learning R because of a change in my career. I'd recently been promote
 
 My conclusion was that I was good with data and analytics. I had just started taking my MBA at the time, and for every class assignment I was the team member doing the analysis. Typically in Excel.
 
+{% include cta_learning_labs.html %}
+
 In parallel, I had been managing a portfolio of my personal investments since 2007. I got my butt handed to me during the financial crisis of 2008. By 2011, I had bounced back and even grew my investments. However, I knew I needed to be smarter about what I was doing. I began performing investment analyses also in Excel.
 
 One day at work, I was trying to read all of our sales data into Excel. This was silly because Excel breaks at about 50MB. The data I was trying to read in was over 1M rows by 60 columns or so. Guess what happened.
@@ -148,7 +150,7 @@ To tackle this new problem (aka bridging the gap), we developed a plan for an ed
 
 In January 2017, I formed a small team of data scientists that I knew we could combine efforts to build an integrated program. The goal was to teach the aspiring data scientists being hired in droves to understand the needs of the enterprise and to learn how to apply our __systematic framework__ plus our __methods__ plus __advanced tools__ within a business context.
 
-{% include cta_rtrack.html%}
+{% include cta_learning_labs.html %}
 
 # Enter Business Science University
 
@@ -266,4 +268,3 @@ Founder of [Business Science](https://www.business-science.io)
 
 Lead Instructor at [Business Science University](https://university.business-science.io/)
 
-{% include cta_rtrack.html%}

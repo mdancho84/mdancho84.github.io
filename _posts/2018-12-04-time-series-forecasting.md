@@ -21,6 +21,8 @@ This is an __end-to-end analysis of a real-world project__ that a leading data s
 
 What I like most about this analysis is the process he uses to __create business value__ for his clients, which is the [__Business Science Problem Framework and CRISP-DM__](https://www.business-science.io/business/2018/06/19/business-science-problem-framework.html) taught in the [DS4B 201-R Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15). Blaine's focus is on generating business value in terms of [Return-On-Investment (ROI)](https://www.investopedia.com/terms/r/returnoninvestment.asp). This is how real-world data science is done.
 
+{% include cta_learning_labs.html %}
+
 ## Contents
 
 This is a detailed article that follows an end-to-end business problem. The article contains the following sections.
@@ -159,6 +161,8 @@ One of the things I wanted to accomplish was to incorporate business knowledge e
 One has to talk to a lot of stakeholders to get all the information I've discussed.  One thing I like to advise those in similar situations is to not assume you have all the relevant information.  Stakeholders may forget to tell you something important, or decide it's not relevant and omit it.  In addition, different stakeholders may use different data as the truth and you may get divergent answers to similar questions.  My approach is to just keep asking questions throughout the project, and engage as many stakeholders in the client as possible.
 
 > _"My approach is to just keep asking questions throughout the project, and engage as many stakeholders in the client as possible."_
+
+{% include cta_learning_labs.html %}
 
 ## 4. Data Understanding {#data-understanding}
 
@@ -349,6 +353,8 @@ I can now see some indication of recurring patterns; plotting the aggregated dat
 
 Note that in the right-hand chart, the dates are one year later than in the left hand; this is because earlier I lagged the historical sales data one year as part of initial analysis and understanding.
 
+
+{% include cta_learning_labs.html %}
 
 
 ## 5. Modeling {#modeling}

@@ -43,7 +43,7 @@ This is a longer analysis, and certain sections may be more interesting based on
 Others should just read the whole thing. ;)
 
 <br>
-{% include cta_201_learn_ml.html %}
+{% include cta_learning_labs.html %}
 
 
 # Background on Backorder Prediction <a class="anchor" id="background"></a>
@@ -449,7 +449,7 @@ train_df$went_on_backorder %>% table() %>% prop.table()
 
 
 <br>
-{% include cta_201_learn_ml.html %}
+{% include cta_learning_labs.html %}
 
 
 ### Modeling with h2o
@@ -1173,7 +1173,7 @@ You learn everything you need to know about how to apply data science in a busin
 
 
 <br>
-{% include cta_201_learn_ml.html %}
+{% include cta_learning_labs.html %}
 
 
 # About Business Science <a class="anchor" id="contact"></a>

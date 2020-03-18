@@ -35,6 +35,8 @@ library(tidyquant)  # Loads tidyverse, tidyquant, financial pkgs, xts/zoo
 library(cranlogs)   # For inspecting package downloads over time
 {% endhighlight %}
 
+{% include cta_learning_labs.html %}
+
 # CRAN tidyverse Downloads
 
 We'll be using the same "tidyverse" dataset as the last post. The script below gets the package downloads for the first half of 2017. The data is very __noisy__, meaning it's difficult to identify trends. We'll see how rolling functions can help shortly.
@@ -158,6 +160,8 @@ tq_mutate_fun_options() %>%
 ##  $ PerformanceAnalytics: chr [1:7] "Return.annualized" "Return.annualized.excess" "Return.clean" "Return.cumulative" ...
 {% endhighlight %}
 
+
+{% include cta_learning_labs.html %}
 
 
 # Tidy Application of Rolling Functions

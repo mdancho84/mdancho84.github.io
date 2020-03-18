@@ -46,7 +46,7 @@ The end result is a __high performance deep learning algorithm__ that does an ex
 
 
 <br>
-{% include cta_201.html %}
+{% include cta_learning_labs.html %}
 
 ## Applications in Business
 
@@ -497,7 +497,7 @@ We'll use this Backtesting Strategy (11 samples from one time series each with 5
 
 
 <br>
-{% include cta_101.html %}
+{% include cta_learning_labs.html %}
 
 
 ### 5.0 Modeling The Keras Stateful LSTM Model
@@ -1408,7 +1408,7 @@ You learn everything you need to know about how to apply data science in a busin
 
 
 <br>
-{% include cta_201.html %}
+{% include cta_learning_labs.html %}
 
 
 ## New R Package: Anomalize For Scalable Time Series Anomaly Detection
