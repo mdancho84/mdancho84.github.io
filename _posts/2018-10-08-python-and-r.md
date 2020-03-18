@@ -32,6 +32,8 @@ This idea of using multiple languages may seem crazy. In the short term, it requ
 
 3. __Increased capability__ - How limited (or unlimited) is your data science team's output?
 
+{% include cta_learning_labs.html %}
+
 ## Summary
 
 This article is split into two parts:
@@ -83,7 +85,7 @@ R is growing quickly with the emergence of the `tidyverse` ([tidyverse.org](http
 
 The strengths of `R` relate very well to business wherein organizations need to test theories, explain cause-and-effect relationships, iterate quickly, and make decisions. Further, communication utilities including business reporting, presentation slide decks, and web applications can be built using a reproducible workflow all within `R`. 
 
-{% include cta_101.html %}
+{% include cta_learning_labs.html %}
 
 
 ### Python Strengths
@@ -607,15 +609,4 @@ Both __R and Python__ are powerful languages. Much of the talk about R vs Python
 When data science teams go beyond being "R Shops" and "Python Shops", and start thinking in terms of being __"High Performance Data Science Teams"__, they begin a transition that improves efficiency, productivity, and capability. The challenge is learning multiple languages. But here's the secret - __it's not that difficult with _Business Science University_.__ 
 
 > The challenge is learning multiple languages. But here's the secret - __it's not difficult with Business Science University.__
-
-<br>
-{% include cta_101.html %}
-
-
-
-
-
-
-
-
 

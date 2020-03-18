@@ -25,6 +25,10 @@ An example of the visualization we can create using the `runCor` function with `
 
 <span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
 
+
+{% include cta_learning_labs.html %}
+
+
 # Libraries Needed
 
 We'll need to load four libraries today.
@@ -169,6 +173,8 @@ args(runCor)
 ## function (x, y, n = 10, use = "all.obs", sample = TRUE, cumulative = FALSE) 
 ## NULL
 {% endhighlight %}
+
+{% include cta_learning_labs.html %}
 
 
 # Static Correlations

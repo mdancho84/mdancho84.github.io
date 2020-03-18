@@ -37,7 +37,9 @@ In this article you will experience how to __implement Machine Learning for A/B 
 4. Develop a ___Story for what contributes to the goal___ of gaining Enrollments
     
 5. Get a ___Learning Recommendation___ for those that want to learn how to implement machine learning following best practices for any business problem.
-    
+
+<br>
+{% include cta_learning_labs.html %}
 
 
 # 1.0 What is A/B Testing?
@@ -475,6 +477,10 @@ test_tbl %>% glimpse()
 {% endhighlight %}
 
 
+<br>
+{% include cta_learning_labs.html %}
+
+
 ## 3.8 Implement Machine Learning Algorithms
 
 We'll implement the new `parsnip` R package. For those unfamiliar, here are some benefits:
@@ -484,8 +490,6 @@ We'll implement the new `parsnip` R package. For those unfamiliar, here are some
 - Works well with the `tidyverse` (i.e. `tibbles`)
 
 - Simple API makes Machine Learning easy
-
-{% include cta_101_learn_ml.html %}
 
 Our strategy will be to implement 3 modeling approaches:
 

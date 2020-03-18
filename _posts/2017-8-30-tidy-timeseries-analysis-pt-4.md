@@ -21,6 +21,10 @@ If you haven't checked out the previous tidy time series posts, you may want to 
 * [Part 3: Tidy Rolling Correlations](http://www.business-science.io/timeseries-analysis/2017/07/30/tidy-timeseries-analysis-pt-3.html)
 * [Part 4: Lags and Autocorrelations](http://www.business-science.io/timeseries-analysis/2017/08/30/tidy-timeseries-analysis-pt-4.html)
 
+<br>
+{% include cta_learning_labs.html %}
+<br>
+
 Here's an example of the autocorrelation plot we investigate as part of this post:
 
 ![tidyquant correlation over time](/assets/tidy-timeseries-part4.png)
@@ -293,6 +297,9 @@ my_time_series_tbl %>%
 {% endhighlight %}
 
 That's much easier. We get the value column returned in addition to the lags, which is the benefit of using `tq_mutate()`. If you use `tq_transmute()` instead, the result would be the lags only, which is what `lag.xts()` returns. 
+
+<br>
+{% include cta_learning_labs.html %}
 
 
 # Analyzing tidyverse Downloads: Lag and Autocorrelation Analysis

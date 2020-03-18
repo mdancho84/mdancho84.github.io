@@ -25,6 +25,9 @@ An example of the visualization we can create using the period apply functions w
 
 <span data-sumome-listbuilder-embed-id="6cf8523a01e2faac60392073d460d72402c5971ce4821a8a8e81b28cde43f056"></span>
 
+{% include cta_learning_labs.html %}
+
+
 # Libraries Needed
 
 We'll primarily be using two libraries today.
@@ -194,6 +197,10 @@ mean_tidyverse_downloads_w %>%
 ![plot of chunk unnamed-chunk-6](/figure/source/2017-7-2-tidy-timeseries-analysis/unnamed-chunk-6-1.png)
 
 There's one problem though, graphing the mean alone doesn't tell the full story. There's variability (or volatility) that can also influence trends especially the average, which is highly susceptible to outliers. Next, we'll see how to go beyond a single statistic.
+
+
+{% include cta_learning_labs.html %}
+
 
 ## Custom functions: Weekly aggregation beyond a single statistic
 
