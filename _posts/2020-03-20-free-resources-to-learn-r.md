@@ -23,7 +23,7 @@ I want you to know that during this challenging time, [Business Science is offer
   </a>
 </div>
 
-__I've opened [Jumpstart with R](https://university.business-science.io/p/jumpstart-with-r) to help you make your first steps learning Data Science For Business.__ Jumpstart will be open until Sunday evening to help manage the demand. Each offering gets 1000+ students, which is why I need to throttle to manage forum support. 
+I've opened [___Jumpstart with R___](https://university.business-science.io/p/jumpstart-with-r) to help you make your first steps learning Data Science For Business. Jumpstart will be open until Sunday evening to help manage the demand. Each offering gets 1000+ students, which is why I need to throttle to manage forum support. 
 
 I will offer more openings as well, but I encourage you to join with this cohort. 
 
@@ -41,12 +41,12 @@ I will offer more openings as well, but I encourage you to join with this cohort
   </a>
 </div>
 
-Learning Labs are webinars that teach intermediate and advanced topics on 2-week intervals. Live attendance is free of charge. 
+[___Learning Labs___](https://mailchi.mp/business-science/webinars) are webinars that teach intermediate and advanced topics on 2-week intervals. Live attendance is free of charge. 
 
 
-- [Attend Future Learning Labs](https://mailchi.mp/business-science/webinars) - Subscribe for notifications on future webinars. Live attendance is always completely free. 
+- [___Attend Learning Labs___](https://mailchi.mp/business-science/webinars) - Subscribe for notifications on upcoming learning labs. Live attendance is always completely free. 
 
-- [Lab 31 - Forecasting Website Traffic with Google Analytics API](http://bit.ly/lab-31-shiny-google-analytics) - Attend my my next lab for free.
+- [___Lab 31 - Forecasting Website Traffic with Google Analytics API___](http://bit.ly/lab-31-shiny-google-analytics) - Attend my my next lab live for free.
 
 <p class="text-center" style="font-size: 30px;">
 <a href="https://mailchi.mp/business-science/webinars">Join Learning Labs</a> 
@@ -62,7 +62,7 @@ Learning Labs are webinars that teach intermediate and advanced topics on 2-week
 
 As of this week, I have a brand new Newsletter called [___R-Tips Weekly___](https://mailchi.mp/business-science/r-tips-newsletter). With the speed that R is changing and improving, you need this to stay ahead of the curve.
 
-R-Tips and Learning Labs will really help you stay ahead of the curve as R continues its rapidly changing ecosystem of packages. There are over 15,000 publicly available R packages. I show you the most useful ones with techniques that get results.
+R-Tips and Learning Labs will really help you stay ahead of the curve as R continues its rapidly changing ecosystem of packages. There are over 15,000 publicly available R packages. You learn the most useful ones with techniques that get results.
 
 <p class="text-center" style="font-size: 30px;">
 <a href="https://mailchi.mp/business-science/r-tips-newsletter">Get R-Tips Weekly</a> 
