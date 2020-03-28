@@ -44,9 +44,9 @@ I will offer more openings as well, but I encourage you to join with this cohort
 [___Learning Labs___](https://mailchi.mp/business-science/webinars) are webinars that teach intermediate and advanced topics on 2-week intervals. Live attendance is free of charge. 
 
 
-- [___Attend Learning Labs___](https://mailchi.mp/business-science/webinars) - Subscribe for notifications on upcoming learning labs. Live attendance is always completely free. 
+- [Attend Learning Labs](https://mailchi.mp/business-science/webinars) - Subscribe for notifications on upcoming learning labs. Live attendance is always completely free. 
 
-- [___Lab 31 - Forecasting Website Traffic with Google Analytics API___](http://bit.ly/lab-31-shiny-google-analytics) - Attend my my next lab live for free.
+- [Excel to R - Marketing Analytics Case Study](https://youtu.be/VSjU_4XoMAM){target:_blank} - Here's an example of a Learning Lab that I've added to YouTube. 
 
 <p class="text-center" style="font-size: 30px;">
 <a href="https://mailchi.mp/business-science/webinars">Join Learning Labs</a> 
