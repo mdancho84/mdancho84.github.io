@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Increase Your Salaray With Data Science Skills"
+title: "Increase Your Salary With Data Science Skills"
 date: 2020-04-13 10:45:00
 excerpt: "The majority of us have experienced the average pay increase, because this is what most people receive. How would it feel to save your organization money or increase revenue for your organization and receive more compensation because of your work?"
 author: "Matt Dancho"
