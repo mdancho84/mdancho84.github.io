@@ -2,7 +2,7 @@
 layout: post
 title: "Apply Data Science to Improve Addiction Treatment"
 date:   2019-11-11 06:00:00
-excerpt: "Apply Data Science to Business using the Business Science Problem Frameowrk. Learn how one Business Science student created a data product that aims to help his organization improve the quality of care while reducing cost."
+excerpt: "Learn how one Business Science student created a data product that aims to help his organization improve the quality of care while reducing cost."
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R]
