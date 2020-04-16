@@ -516,11 +516,6 @@ Using the data, I was able to make and deploy a `Shiny` web application that use
 
 {% include cta_rtrack.html %}
 
+<br>
 
-# Other Student Articles You Might Enjoy
-
-Here are two more Student Success Tutorials related to scraping data and building `shiny` applications. 
-
-- __[PDF Scraping in R with tabulizer](https://www.business-science.io/code-tools/2019/09/23/tabulizer-pdf-scraping.html) - By Jennifer Cooper__
-
-- __[Build An R Shiny App - Wedding Risk Model](https://www.business-science.io/business/2019/06/09/Wedding-Risk-Model-App.html) - By Bryan Clark__
+{% include success_stories.md %}

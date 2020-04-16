@@ -546,13 +546,5 @@ If you would like to learn how to ___apply Data Science to Business Problems___,
 
 The full R code can be found on [my GitHub profile](https://github.com/DiegoUsaiUK/Classification_Churn_with_Parsnip).
 
-# Other Student Articles You Might Enjoy
-
-Here are more _Student Success Tutorials_ on data science for business and building `shiny` applications. 
-
-- __[Web Scraping Product Data in R with rvest and purrr](https://www.business-science.io/code-tools/2019/10/07/rvest-web-scraping.html) - By Joon Im__
-
-- __[PDF Scraping in R with tabulizer](https://www.business-science.io/code-tools/2019/09/23/tabulizer-pdf-scraping.html) - By Jennifer Cooper__
-
-- __[Build An R Shiny App - Wedding Risk Model](https://www.business-science.io/business/2019/06/09/Wedding-Risk-Model-App.html) - By Bryan Clark__
+{% include success_stories.md %}
 

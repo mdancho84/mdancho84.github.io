@@ -307,3 +307,6 @@ __If you'd like to join me__, I'm currently  learning Data Science for Business 
 
 {% include cta_rtrack.html %}
 
+<br>
+
+{% include success_stories.md %}

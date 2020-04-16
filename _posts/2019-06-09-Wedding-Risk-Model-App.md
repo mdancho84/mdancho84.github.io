@@ -742,7 +742,7 @@ I'd like to acknowledge the follow list of people/organizations for helping to i
 + [Business Science](https://www.business-science.io/) &amp; [Matt Dancho](https://www.linkedin.com/in/mattdancho/)
 + [Analytics Lifecycle Toolkit](https://www.wiley.com/en-us/The+Analytics+Lifecycle+Toolkit%3A+A+Practical+Guide+for+an+Effective+Analytics+Capability-p-9781119425069)
 
-
+{% include success_stories.md %}
 
 ### Related Reading
 
