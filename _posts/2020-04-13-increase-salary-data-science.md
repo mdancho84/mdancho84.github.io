@@ -18,12 +18,14 @@ Here's one Business Science Student who received a 40% pay increase in about a y
 
 Mohana Krishna Chittoor has experienced rapid career acceleration and a new found confidence in his ability to land new positions.
 
-This was similar to my own experience honing my ability to apply the skills that I teach.  When I was still in corporate I experience a growth in income from $100k to $150k in 2 years.  And now I teach these skills to my students.
-
 
 #### What did Mohana's experience look like?
 
 <img src="/assets/2020-04-13-increase-salary-data-science/Mohana-increse-salary-messages.png" align="center">
+
+Mohana explains that the key was leveraging my Data Science program to apply data science to his job. 
+
+__The reward? A 40% increase in about a year!__
 
 
 ## How Would A 40% Raise Impact Your Life?
@@ -32,12 +34,15 @@ The majority of us have experienced the average pay increase, because this is wh
 
 How would it feel to be confident that your skills are in high demand and that you would have zero difficulty finding your next data science role if you were desiring a new job?
 
+## You can do it. I will help. 
 
-I'm helping data scientists achieve their dreams and accelerate their career through becoming confident data science R coders for business. Take the system that Mohana and 1000+ students just like you are taking - the [__4-Course R-Track Program__](https://university.business-science.io/p/4-course-bundle-machine-learning-and-web-applications-r-track-101-102-201-202a/). 
+I'm helping data scientists achieve their dreams and accelerate their career through becoming confident data science R coders for business. Take the system that Mohana and 1000+ students just like you are taking - the [__4-Course R-Track Program__](https://university.business-science.io/p/4-course-bundle-machine-learning-and-web-applications-r-track-101-102-201-202a/?coupon_code=ds4b15). 
 
+<br>
 {% include cta_rtrack.html %}
+<br>
 
-You can do it. I will help.
+If you're ready to start, then let's get going. Your new career awaits. 
 
 Matt Dancho
 <br>
@@ -45,19 +50,19 @@ Founder, Business Science
 <br>
 Lead Data Science Instructor, Business Science University
 
+# See what our students are doing:
 
+### More Student Success Stories
 
-## Student Success Stories
-
-Real stories of success from our students.
+Real stories of success from our students applying their skills learned at [_Business Science University_](https://university.business-science.io/) to get jobs and help their organizations!
 
 - __[How I Landed My Data Science Job](https://www.business-science.io/business/2019/11/27/how_i_got_my_data_science_job.html) - Masatake Hirono, Cognitive Analyst at Deloitte__
 
 - __[Apply Data Science to Improve Addiction Treatment](https://www.business-science.io/business/2019/11/11/data-science-improve-addiction-treatment.html) - Z. Du, Senior Financial Analyst at Turning Point Clinic__
 
-## Student Code Tutorials
+### Amazing Student Code Tutorials
 
-Tutorials made by our students using data science for business and building `shiny` applications. 
+Tutorials made by our students using their new skills learned at [_Business Science University_](https://university.business-science.io/)! 
 
 - __[Customer Churn Modeling using Machine Learning with parsnip](https://www.business-science.io/code-tools/2019/11/18/parsnip-churn-classification-machine-learning.html) - By Diego Usai, Data Science Consultant__
 
