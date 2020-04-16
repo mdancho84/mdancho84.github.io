@@ -33,7 +33,9 @@ The majority of us have experienced the average pay increase, because this is wh
 How would it feel to be confident that your skills are in high demand and that you would have zero difficulty finding your next data science role if you were desiring a new job?
 
 
-I'm helping data scientists achieve their dreams and accelerate their career through becoming confident data science R coders for business.
+I'm helping data scientists achieve their dreams and accelerate their career through becoming confident data science R coders for business. Take the system that Mohana and 1000+ students just like you are taking - the [__4-Course R-Track Program__](https://university.business-science.io/p/4-course-bundle-machine-learning-and-web-applications-r-track-101-102-201-202a/). 
+
+You can do it. I will help.
 
 Matt Dancho
 <br>
