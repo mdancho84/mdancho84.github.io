@@ -100,3 +100,7 @@ Complete your transformation in 6-months or less with our **4-Course R-Track**.
 <br>
 
 {% include cta_rtrack.html %}
+
+<br>
+
+{% include success_stories.md %}
