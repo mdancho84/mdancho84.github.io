@@ -2,7 +2,7 @@
 layout: post
 title: "How to Run Python's Scikit-Learn in R in 5 minutes"
 date:   2020-04-20 08:24:01
-excerpt: "Python can be run from R to leverage to strengths of both langauges. Learn how to set up Python's Scikit-Learn Library in 5 minutes."
+excerpt: "Python can be run from R to leverage the strengths of both R and Python Data Science langauges. Learn how to set up Python's Scikit-Learn Library in 5 minutes."
 author: "Matt Dancho"
 categories: [Learn-R]
 tags: [R-Bloggers, Learn-R, Learn-Machine-Learning, Python, Scikit-Learn, reticulate]
