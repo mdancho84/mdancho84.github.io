@@ -34,6 +34,27 @@ This idea of using multiple languages may seem crazy. In the short term, it requ
 
 {% include cta_learning_labs.html %}
 
+## UPDATE
+
+<div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
+  <a href="https://www.business-science.io/learn-r/2020/04/20/setup-python-in-r-with-rmarkdown.html" target="_blank">
+  <img class="img-responsive" src="/assets/2020-04-20-python/python_in_r_in_5_min.jpg"> 
+  </a>
+  <p class="date text-center">Use feature engineering with timetk to forecast</p>
+</div>
+
+I have a [NEW Python + R Tutorial using Python 3.8](https://www.business-science.io/learn-r/2020/04/20/setup-python-in-r-with-rmarkdown.html) and setting up an Anaconda Environment for Scikit Learn, Pandas, Numpy and Matplotlib in 5 minutes! 
+
+The new tutorial goes through the essential setup tips of the PRO's - those that use Python from R via `reticulate`. 
+
+- Install the Anaconda Distribution 
+
+- Get Python Scikit Learn Setup in R
+
+- Do a Cluster Analysis with Affinity Propagation Algorithm to make sure Scikit Learn is running.
+
+
+
 ## Summary
 
 This article is split into two parts:
