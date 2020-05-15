@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Run Python's Scikit-Learn in R in 5 minutes"
+title: "How to Set Up Python's Scikit-Learn in R in 5 minutes"
 date:   2020-04-20 08:24:01
 excerpt: "Python can be run from R to leverage the strengths of both R and Python Data Science langauges. Learn how to set up Python's Scikit-Learn Library in 5 minutes."
 author: "Matt Dancho"
@@ -17,7 +17,13 @@ The 2 most popular data science languages - ___Python and R___ - are often pitte
 - __<span style="color:blue;">Machine Learning:</span>__ They can switch to Python to leverage `scikit learn` and `tensorflow`. 
 - __<span style="color:blue;">Data Wrangling, Visualization, Apps & Reporting:</span>__ They can quickly change to R to use `tidyverse`, `shiny` and `rmarkdown`.
 
-The bottom line is that knowing both `R` and `Python` makes you ___SUPER PRODUCTIVE.___ [This article has been updated. View the updated article at Business Science.](#) 
+The bottom line is that knowing both `R` and `Python` makes you ___SUPER PRODUCTIVE.___ 
+
+#### Article Updates:
+
+- This article has been updated. [View the updated Scikit-Learn Python 3.8 Environment set up article at Business Science.](#) 
+
+- Check out this _NEW_ article to set up [TensorFlow in a Python 3.6 Environment inside of R](https://www.business-science.io//learn-r/2020/05/15/setup-tensorflow-python-in-r.html). 
 
 # Have 5 minutes? <br><small>Then let's set up Python Scikit Learn</small>
 
@@ -42,7 +48,15 @@ We're going to go through the essential setup tips of the PRO's - those that use
 
 Setting up `Python` in `R` is an insane productivity booster, but you still need to _learn_ how to use Python and R together for ___real business projects.___ And, it's _impossible_ to teach you all the in's and out's in 1 short article. But, I have great news! 
 
-I just launched a [__NEW LEARNING LAB PYTHON + R SERIES (Register Here)__](https://mailchi.mp/business-science/webinars) that will show you how to use `Python` and `R` together on __Real Business Projects__  - Human Resources Employee Clustering, Sales and Marketing, Finance, Energy, Social Media, and more! __And it's FREE to attend live.__ 
+I just launched a [__NEW LEARNING LAB PYTHON + R SERIES (Register Here)__](https://mailchi.mp/business-science/webinars) that will show you how to use `Python` and `R` together on __Real Business Projects__:
+
+- _Lab 34:_ Human Resources Employee Clustering
+- _Lab 35:_ Advanced Customer Segmentation and Market Basket Analysis
+- _Lab 36:_ TensorFlow for Finance
+- _Lab 37:_ TensorFlow for Energy Demand Forecasting
+- _Lab 38:_ Social Media Text Analytics! 
+
+__And it's FREE to attend live.__ 
 
 [Register here to attend Python + R Learning Labs live for free.](https://mailchi.mp/business-science/webinars) I'll notify you in advance of the accelerated 1-hour courses that you can attend via webinar.
 
