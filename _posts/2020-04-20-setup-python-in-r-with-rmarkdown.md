@@ -50,11 +50,11 @@ Setting up `Python` in `R` is an insane productivity booster, but you still need
 
 I just launched a [__NEW LEARNING LAB PYTHON + R SERIES (Register Here)__](https://mailchi.mp/business-science/webinars) that will show you how to use `Python` and `R` together on __Real Business Projects__:
 
-- _Lab 34:_ Human Resources Employee Clustering
-- _Lab 35:_ Advanced Customer Segmentation and Market Basket Analysis
-- _Lab 36:_ TensorFlow for Finance
-- _Lab 37:_ TensorFlow for Energy Demand Forecasting
-- _Lab 38:_ Social Media Text Analytics! 
+- _Lab 33:_ Human Resources Employee Segmentation
+- _Lab 34:_ Advanced Customer Segmentation and Market Basket Analysis
+- _Lab 35:_ TensorFlow for Finance
+- _Lab 36:_ TensorFlow for Energy Demand Forecasting
+- _Lab 37:_ Social Media Text Analytics! 
 
 __And it's FREE to attend live.__ 
 
