@@ -94,6 +94,7 @@ If you don't have Conda installed, please install here: [Anaconda Installation](
 __Do this in R.__ Install and load `tidyverse`, `reticulate`, and `tensorflow`. 
 
 {% highlight r %}
+# R
 library(tidyverse)
 library(reticulate)
 library(tensorflow)
@@ -104,6 +105,7 @@ Next, run `install_tensorflow()` in your R environment. This will take about 3-5
 
 
 {% highlight r %}
+# R
 install_tensorflow(
     method               = "conda", 
     version              = "default", # Installs TF 2.0.0 (as of May 15, 2020)
@@ -120,6 +122,7 @@ We can check to see that `py3.6` conda environment has been created.
 
 
 {% highlight r %}
+# R
 conda_list()
 {% endhighlight %}
 
@@ -137,6 +140,7 @@ Next, we tell `reticulate` to use the `py3.6` conda environment.
 
 
 {% highlight r %}
+# R
 use_condaenv("py3.6", required = TRUE)
 {% endhighlight %}
 
@@ -165,6 +169,8 @@ Import the libraries needed:
 
 
 {% highlight python %}
+# Python
+
 # TensorFlow and tf.keras
 import tensorflow as tf
 from tensorflow import keras
@@ -179,6 +185,7 @@ Check the version of `tensorflow` to make sure we're using 2.0.0+.
 
 
 {% highlight python %}
+# Python
 print(tf.__version__)
 {% endhighlight %}
 
@@ -195,6 +202,7 @@ Load the `fashion_mnist` dataset from `keras`.
 
 
 {% highlight python %}
+# Python
 fashion_mnist = keras.datasets.fashion_mnist
 
 (train_images, train_labels), (test_images, test_labels) = fashion_mnist.load_data()
@@ -204,6 +212,7 @@ We have 60,000 training images that have been labeled.
 
 
 {% highlight python %}
+# Python
 train_images.shape
 {% endhighlight %}
 
@@ -217,6 +226,7 @@ We can check the unique labels to see what classifications the images belong to.
 
 
 {% highlight python %}
+# Python
 np.unique(train_labels)
 {% endhighlight %}
 
@@ -230,6 +240,7 @@ The corresponding labels are:
 
 
 {% highlight python %}
+# Python
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat',
                'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
 {% endhighlight %}
@@ -239,20 +250,10 @@ We can see what the first image looks like using `matplotlib`.
 
 
 {% highlight python %}
+# Python
 plt.figure()
 plt.imshow(train_images[0])
 plt.colorbar()
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## <matplotlib.colorbar.Colorbar object at 0x7fee0098f278>
-{% endhighlight %}
-
-
-
-{% highlight python %}
 plt.grid(False)
 plt.show()
 {% endhighlight %}
@@ -264,6 +265,7 @@ And we can also check out the first 25 images.
 
 
 {% highlight python %}
+# Python
 plt.figure(figsize=(10,10))
 for i in range(25):
     plt.subplot(5,5,i+1)
@@ -284,6 +286,7 @@ Make a `keras` model using the `Sequential()` with 3 steps: Flatten, Dense, and 
 
 
 {% highlight python %}
+# Python
 model = keras.Sequential([
     keras.layers.Flatten(input_shape=(28, 28)),
     keras.layers.Dense(128, activation='relu'),
@@ -295,6 +298,7 @@ Next, `compile` the model with the "adam" optimizer.
 
 
 {% highlight python %}
+# Python
 model.compile(
     optimizer = 'adam',
     loss      = tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
@@ -306,6 +310,7 @@ Inspect the model summary.
 
 
 {% highlight python %}
+# Python
 model.summary()
 {% endhighlight %}
 
@@ -335,6 +340,7 @@ model.summary()
 
 
 {% highlight python %}
+# Python
 model.fit(train_images, train_labels, epochs=10, verbose=1)
 {% endhighlight %}
 
@@ -398,6 +404,7 @@ The model produces linear outputs cakked "logits". The softmax layer to converts
 
 
 {% highlight python %}
+# Python
 probability_model = tf.keras.Sequential([model, tf.keras.layers.Softmax()])
 {% endhighlight %}
 
@@ -405,6 +412,7 @@ We can then classify all of the test images (held out)
 
 
 {% highlight python %}
+# Python
 predictions = probability_model.predict(test_images)
 {% endhighlight %}
 
@@ -412,6 +420,7 @@ We can make a prediction for the first image.
 
 
 {% highlight python %}
+# Python
 predictions[0]
 {% endhighlight %}
 
@@ -427,6 +436,7 @@ Use `np.argmax()` to determine which index has the highest probability.
 
 
 {% highlight python %}
+# Python
 np.argmax(predictions[0])
 {% endhighlight %}
 
@@ -440,6 +450,7 @@ The index value can be retrieved with `np.max()`.
 
 
 {% highlight python %}
+# Python
 np.max(predictions[0])
 {% endhighlight %}
 
@@ -453,6 +464,7 @@ Get the class name.
 
 
 {% highlight python %}
+# Python
 class_names[np.argmax(predictions[0])]
 {% endhighlight %}
 
@@ -466,6 +478,7 @@ And visualize the image.
 
 
 {% highlight python %}
+# Python
 plt.figure()
 plt.imshow(test_images[0])
 plt.colorbar()
@@ -480,6 +493,7 @@ plt.colorbar()
 
 
 {% highlight python %}
+# Python
 plt.grid(False)
 plt.show()
 {% endhighlight %}
