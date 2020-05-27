@@ -46,9 +46,9 @@ _For example, when I was concerned about taking R so soon after Python, Matt too
 
 ## What Did Jennifer Learn Through Business Science?
 
-<i>"Since then, I've taken <a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r">"DS4B 101"</a> and am currently taking <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover">"DS4B201"</a>. I'm not going to lie, it has been challenging, particularly with a full-time job, but it has been worth every penny and hour I've spent! Recently, I decided I wanted to pursue new job opportunities, that would allow me to continue to grow my analytical skills and allow me to put what I'm learning into practice, and I was asked to do a take home-test in R.
+<i>"Since then, I've taken <a href="https://university.business-science.io/p/ds4b-101-r-business-analysis-r">"DS4B 101-R"</a> and am currently taking <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover">"DS4B 201-R"</a>. I'm not going to lie, it has been challenging, particularly with a full-time job, but it has been worth every penny and hour I've spent! Recently, I decided I wanted to pursue new job opportunities, that would allow me to continue to grow my analytical skills and allow me to put what I'm learning into practice, and I was asked to do a take home-test in R.
 
-Thanks to Matt and what I've learned so far, I was able do do an in-depth analysis of Consumer Financial Protection Bureau (CFPB) data, following his Business Science Process Framework and complete the project using RMarkdown.
+Thanks to Matt and what I've learned so far, I was able do an in-depth analysis of Consumer Financial Protection Bureau (CFPB) data, following his Business Science Process Framework and complete the project using RMarkdown.
 
 The polished, finished product impressed the hiring manager so much, he was willing to fast-track an offer. In fact, as luck would have it, I ended up in a multiple-offer situation and have recently started a VP-level analytics role with a major bank.
 
