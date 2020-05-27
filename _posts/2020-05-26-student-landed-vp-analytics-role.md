@@ -53,7 +53,7 @@ Thanks to Matt and what I've learned so far, I was able do do an in-depth analys
 
 The polished, finished product impressed the hiring manager so much, he was willing to fast-track an offer. In fact, as luck would have it, I ended up in a multiple-offer situation and have recently started a VP-level analytics role with a major bank.
 
-Matt's courses have given me the self-confidence and inspiration to take my natural curiosity anywhere I want to go. I feel so blessed that I met him at DataScienceGo in 2018! His support and what he's taught me have had a major impact on my life! I really look forward to continuing to take other courses in his program!"</i>
+Matt's courses have given me the self-confidence and inspiration to take my natural curiosity anywhere I want to go. I feel so blessed that I met him at DataScienceGo in 2018! His support and what he's taught me have had a major impact on my life! I really look forward to continuing to take other courses in his program!"
 
 
 ## Learn to Apply Data Science to Business
