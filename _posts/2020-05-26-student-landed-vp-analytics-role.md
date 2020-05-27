@@ -13,7 +13,7 @@ image_preview: 2020-05-26-student-landed-vp-analytics-role/data-scientist-job-of
 
 
 <p class="lead">
-Data Science is the perfect field for those who are naturally curious and aspire to learn continuously throughout their career.
+Data Science is the perfect field for those who are naturally curious and aspire to learn continuously throughout their career. 
 </p>
 
 <br>
