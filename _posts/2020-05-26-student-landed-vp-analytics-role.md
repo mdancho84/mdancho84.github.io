@@ -42,7 +42,6 @@ _For example, when I was concerned about taking R so soon after Python, Matt too
 
 <br>
 
-{% include cta_rtrack.html %}
 
 
 ## What Did Jennifer Learn Through Business Science?
