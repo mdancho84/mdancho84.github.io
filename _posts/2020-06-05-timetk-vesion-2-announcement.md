@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "(JUST RELEASED) timetk 2.0.0: Visualize, Wrangle, and Preprocess Time Series Data"
+title: "(JUST RELEASED) timetk 2.0.0: Visualize Time Series Data"
 date:   2020-06-05 09:24:01
 excerpt: "Timetk Version 2.0.0 has just been released. Here's what's new for time series data analysis."
 author: "Matt Dancho"
