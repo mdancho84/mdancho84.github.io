@@ -36,7 +36,7 @@ I just released `timetk` 2.0.0 ([read the release announcement](https://www.busi
 - Part 4, Anomalies and Anomaly Detection
 - Part 5, Dealing with Missing Time Series Data
 
-👉 [Register for our blog](https://mailchi.mp/business-science/blog-registration) to get new articles as we release them. 
+👉 [__Register for our blog to get new articles as we release them.__](https://mailchi.mp/business-science/blog-registration)  
 
 # Have 5-Minutes? <br><small>Then let's learn the Time Plot</small>
 
