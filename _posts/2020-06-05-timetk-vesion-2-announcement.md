@@ -140,29 +140,9 @@ taylor_30_min %>%
 I have several more tutorials and a [full time series course](https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon) coming. [Visit the timetk website documentation](https://business-science.github.io/timetk/) for more information and a [complete list of function references](https://business-science.github.io/timetk/reference/index.html). 
 
 
-## Time Series Course <small>(Coming Soon)</small>
+{% include course_promo_time_series.md %}
 
-I teach `timetk` in my __Time Series Analysis & Forecasting Course__. If interested in learning Pro-Forecasting Strategies then [join my waitlist](https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon). The course is coming soon. 
-
-<div class="" style="width:100%; ">
-  <a href="#" target="_blank">
-  <img class="img-responsive" src="/assets/2020-06-05-timetk/time_series_course.jpg"> 
-  </a>
-</div>
-
-You will learn:
-
-- Time Series Preprocessing, Noise Reduction, & Anomaly Detection
-- Feature engineering using lagged variables & external regressors
-- Hyperparameter tuning
-- Time series cross-validation
-- Ensembling Multiple Machine Learning & Univariate Modeling Techniques (Competition Winner)
-- NEW - Deep Learning with RNNs (Competition Winner)
-- and more.
-
-<p class="text-center" style="font-size:30px;">
-<a href="https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon">Signup for the Time Series Course waitlist</a>
-</p>
+{% include cta_rtrack.html %}
 
 
 # Have questions on using Timetk for time series?
