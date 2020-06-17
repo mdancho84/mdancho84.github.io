@@ -3,11 +3,12 @@
 I teach Time Series (`timetk`, more) in my __Time Series Analysis & Forecasting Course__. If interested in learning Pro-Forecasting Strategies then [join my waitlist](https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon). The course is coming soon. 
 
 <div class="" style="width:100%; ">
-  <a href="#" target="_blank">
-  <img class="img-responsive" src="/assets/2020-06-05-timetk/time_series_course.jpg"> 
+  <a href="https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon" target="_blank">
+  <!--<img class="img-responsive" src="/assets/2020-06-05-timetk/time_series_course.jpg"> -->
+  <img class="img-responsive" src="/assets/2020-06-17-acf/time_series_course.jpg"> 
   </a>
 </div>
-
+<br>
 You will learn:
 
 - Time Series Preprocessing, Noise Reduction, & Anomaly Detection
