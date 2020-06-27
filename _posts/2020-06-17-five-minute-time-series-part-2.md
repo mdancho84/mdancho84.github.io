@@ -37,7 +37,7 @@ I just released `timetk` 2.0.0 ([read the release announcement](https://www.busi
 
 👉 [__Register for our blog to get new articles as we release them.__](https://mailchi.mp/business-science/blog-registration)  
 
-# Have 5-Minutes? <br><small>Then let's learn the Time Plot</small>
+# Have 5-Minutes? <br><small>Then let's learn Autocorrelation</small>
 
 This tutorial focuses on, `plot_acf_diagnostics()`, a workhorse time-series plotting function that makes interactive:
 

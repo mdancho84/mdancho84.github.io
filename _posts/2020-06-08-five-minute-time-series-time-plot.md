@@ -31,7 +31,7 @@ This article has been updated. [View the updated Time Series in 5-Minutes articl
 I just released `timetk` 2.0.0 ([read the release announcement](https://www.business-science.io/code-tools/2020/06/05/timetk-vesion-2-announcement.html)). A ton of new functionality has been added. We'll discuss some of the key pieces in this article series:
 
 - [Part 1, The Time Plot](/code-tools/2020/06/08/five-minute-time-series-time-plot.html)
-- Part 2, Autocorrelation
+- [Part 2, Autocorrelation](/code-tools/2020/06/17/five-minute-time-series-part-2.html)
 - Part 3, Seasonality
 - Part 4, Anomalies and Anomaly Detection
 - Part 5, Dealing with Missing Time Series Data
