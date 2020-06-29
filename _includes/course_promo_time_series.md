@@ -1,6 +1,8 @@
-## Time Series Course <small>(Coming Soon)</small>
+## Advanced Time Series Course<br><small>Become the times series domain expert in your organization.</small> {#time-series-course}
 
-I teach Time Series (`timetk`, more) in my __Time Series Analysis & Forecasting Course__. If interested in learning Pro-Forecasting Strategies then [join my waitlist](https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon). The course is coming soon. 
+Make sure you're notified when my new ___Advanced Time Series Forecasting in R course___ comes out. You'll learn `timetk` and `modeltime` plus the most powerful time series forecasting techiniques available. Become the times series domain expert in your organization. 
+
+👉 [__Get notified here: Advanced Time Series Course.__](https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon)  
 
 <div class="" style="width:100%; ">
   <a href="https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon" target="_blank">
