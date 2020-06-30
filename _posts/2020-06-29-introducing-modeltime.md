@@ -178,7 +178,7 @@ model_fit_arima
 {% highlight text %}
 ## parsnip model object
 ## 
-## Fit time:  336ms 
+## Fit time:  334ms 
 ## Series: outcome 
 ## ARIMA(0,1,3) with drift 
 ## 
@@ -210,7 +210,7 @@ model_fit_prophet
 {% highlight text %}
 ## parsnip model object
 ## 
-## Fit time:  161ms 
+## Fit time:  156ms 
 ## PROPHET Model
 ## - growth: 'linear'
 ## - n.changepoints: 25
@@ -347,7 +347,7 @@ workflow_fit_prophet_boost <- workflow() %>%
 
 
 {% highlight text %}
-## [05:22:38] WARNING: amalgamation/../src/learner.cc:480: 
+## [07:37:35] WARNING: amalgamation/../src/learner.cc:480: 
 ## Parameters: { validation } might not be used.
 ## 
 ##   This may not be accurate due to some parameters are only used in language bindings but
@@ -466,6 +466,7 @@ With calibrated data, we can visualize the testing predictions (forecast).
 - Use `plot_modeltime_forecast()` to visualize the results in interactive and static plot formats.
 
 
+
 {% highlight r %}
 calibration_table %>%
   modeltime_forecast(actual_data = bike_transactions_tbl) %>%
@@ -492,7 +493,7 @@ calibration_table %>%
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#kacvhowacr .gt_table {
+#reehzdasks .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -515,7 +516,7 @@ calibration_table %>%
   border-left-color: #D3D3D3;
 }
 
-#kacvhowacr .gt_heading {
+#reehzdasks .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -527,7 +528,7 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#kacvhowacr .gt_title {
+#reehzdasks .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -537,7 +538,7 @@ calibration_table %>%
   border-bottom-width: 0;
 }
 
-#kacvhowacr .gt_subtitle {
+#reehzdasks .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -547,13 +548,13 @@ calibration_table %>%
   border-top-width: 0;
 }
 
-#kacvhowacr .gt_bottom_border {
+#reehzdasks .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#kacvhowacr .gt_col_headings {
+#reehzdasks .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -568,7 +569,7 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#kacvhowacr .gt_col_heading {
+#reehzdasks .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -588,7 +589,7 @@ calibration_table %>%
   overflow-x: hidden;
 }
 
-#kacvhowacr .gt_column_spanner_outer {
+#reehzdasks .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -600,15 +601,15 @@ calibration_table %>%
   padding-right: 4px;
 }
 
-#kacvhowacr .gt_column_spanner_outer:first-child {
+#reehzdasks .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#kacvhowacr .gt_column_spanner_outer:last-child {
+#reehzdasks .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#kacvhowacr .gt_column_spanner {
+#reehzdasks .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -620,7 +621,7 @@ calibration_table %>%
   width: 100%;
 }
 
-#kacvhowacr .gt_group_heading {
+#reehzdasks .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -642,7 +643,7 @@ calibration_table %>%
   vertical-align: middle;
 }
 
-#kacvhowacr .gt_empty_group_heading {
+#reehzdasks .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -657,19 +658,19 @@ calibration_table %>%
   vertical-align: middle;
 }
 
-#kacvhowacr .gt_striped {
+#reehzdasks .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#kacvhowacr .gt_from_md > :first-child {
+#reehzdasks .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#kacvhowacr .gt_from_md > :last-child {
+#reehzdasks .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#kacvhowacr .gt_row {
+#reehzdasks .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -688,7 +689,7 @@ calibration_table %>%
   overflow-x: hidden;
 }
 
-#kacvhowacr .gt_stub {
+#reehzdasks .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -700,7 +701,7 @@ calibration_table %>%
   padding-left: 12px;
 }
 
-#kacvhowacr .gt_summary_row {
+#reehzdasks .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -710,7 +711,7 @@ calibration_table %>%
   padding-right: 5px;
 }
 
-#kacvhowacr .gt_first_summary_row {
+#reehzdasks .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -720,7 +721,7 @@ calibration_table %>%
   border-top-color: #D3D3D3;
 }
 
-#kacvhowacr .gt_grand_summary_row {
+#reehzdasks .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -730,7 +731,7 @@ calibration_table %>%
   padding-right: 5px;
 }
 
-#kacvhowacr .gt_first_grand_summary_row {
+#reehzdasks .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -740,7 +741,7 @@ calibration_table %>%
   border-top-color: #D3D3D3;
 }
 
-#kacvhowacr .gt_table_body {
+#reehzdasks .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -749,7 +750,7 @@ calibration_table %>%
   border-bottom-color: #D3D3D3;
 }
 
-#kacvhowacr .gt_footnotes {
+#reehzdasks .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -763,13 +764,13 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#kacvhowacr .gt_footnote {
+#reehzdasks .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#kacvhowacr .gt_sourcenotes {
+#reehzdasks .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -783,46 +784,46 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#kacvhowacr .gt_sourcenote {
+#reehzdasks .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#kacvhowacr .gt_left {
+#reehzdasks .gt_left {
   text-align: left;
 }
 
-#kacvhowacr .gt_center {
+#reehzdasks .gt_center {
   text-align: center;
 }
 
-#kacvhowacr .gt_right {
+#reehzdasks .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#kacvhowacr .gt_font_normal {
+#reehzdasks .gt_font_normal {
   font-weight: normal;
 }
 
-#kacvhowacr .gt_font_bold {
+#reehzdasks .gt_font_bold {
   font-weight: bold;
 }
 
-#kacvhowacr .gt_font_italic {
+#reehzdasks .gt_font_italic {
   font-style: italic;
 }
 
-#kacvhowacr .gt_super {
+#reehzdasks .gt_super {
   font-size: 65%;
 }
 
-#kacvhowacr .gt_footnote_marks {
+#reehzdasks .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="kacvhowacr" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="reehzdasks" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   <thead class="gt_header">
     <tr>
       <th colspan="9" class="gt_heading gt_title gt_font_normal" style>Accuracy Table</th>
@@ -882,12 +883,12 @@ calibration_table %>%
       <td class="gt_row gt_center">4</td>
       <td class="gt_row gt_left">RANDOMFOREST</td>
       <td class="gt_row gt_left">Test</td>
-      <td class="gt_row gt_right">1310.96</td>
-      <td class="gt_row gt_right">331.03</td>
-      <td class="gt_row gt_right">1.42</td>
-      <td class="gt_row gt_right">30.24</td>
-      <td class="gt_row gt_right">1814.04</td>
-      <td class="gt_row gt_right">0.49</td>
+      <td class="gt_row gt_right">1362.71</td>
+      <td class="gt_row gt_right">343.39</td>
+      <td class="gt_row gt_right">1.47</td>
+      <td class="gt_row gt_right">30.96</td>
+      <td class="gt_row gt_right">1889.24</td>
+      <td class="gt_row gt_right">0.46</td>
     </tr>
     <tr>
       <td class="gt_row gt_center">5</td>
@@ -936,7 +937,7 @@ calibration_table %>%
 
 
 {% highlight text %}
-## [05:22:45] WARNING: amalgamation/../src/learner.cc:480: 
+## [07:37:41] WARNING: amalgamation/../src/learner.cc:480: 
 ## Parameters: { validation } might not be used.
 ## 
 ##   This may not be accurate due to some parameters are only used in language bindings but
