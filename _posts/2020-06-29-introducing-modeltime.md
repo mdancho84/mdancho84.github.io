@@ -55,11 +55,11 @@ Load the following libraries.
 
 
 {% highlight r %}
-library(tidyverse)
 library(tidymodels)
 library(modeltime)
 library(timetk)   
 library(lubridate)
+library(tidyverse)
 {% endhighlight %}
 
 # Get Your Data <br><small>Forecasting daily bike transactions</small>
@@ -178,7 +178,7 @@ model_fit_arima
 {% highlight text %}
 ## parsnip model object
 ## 
-## Fit time:  334ms 
+## Fit time:  327ms 
 ## Series: outcome 
 ## ARIMA(0,1,3) with drift 
 ## 
@@ -210,7 +210,7 @@ model_fit_prophet
 {% highlight text %}
 ## parsnip model object
 ## 
-## Fit time:  156ms 
+## Fit time:  153ms 
 ## PROPHET Model
 ## - growth: 'linear'
 ## - n.changepoints: 25
@@ -347,7 +347,7 @@ workflow_fit_prophet_boost <- workflow() %>%
 
 
 {% highlight text %}
-## [07:37:35] WARNING: amalgamation/../src/learner.cc:480: 
+## [09:18:48] WARNING: amalgamation/../src/learner.cc:480: 
 ## Parameters: { validation } might not be used.
 ## 
 ##   This may not be accurate due to some parameters are only used in language bindings but
@@ -364,11 +364,11 @@ workflow_fit_prophet_boost
 
 
 {% highlight text %}
-## ══ Workflow [trained] ═════════════════════════════════════════════════════════════════════════════════════════════════════════
+## ══ Workflow [trained] ════════════════════════════════════════════════════════════════════════════════════════════════
 ## Preprocessor: Recipe
 ## Model: prophet_boost()
 ## 
-## ── Preprocessor ───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+## ── Preprocessor ──────────────────────────────────────────────────────────────────────────────────────────────────────
 ## 4 Recipe Steps
 ## 
 ## ● step_timeseries_signature()
@@ -376,7 +376,7 @@ workflow_fit_prophet_boost
 ## ● step_fourier()
 ## ● step_dummy()
 ## 
-## ── Model ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+## ── Model ─────────────────────────────────────────────────────────────────────────────────────────────────────────────
 ## PROPHET w/ XGBoost Errors
 ## ---
 ## Model 1: PROPHET
@@ -493,7 +493,7 @@ calibration_table %>%
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#reehzdasks .gt_table {
+#wswglunyrj .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -516,7 +516,7 @@ calibration_table %>%
   border-left-color: #D3D3D3;
 }
 
-#reehzdasks .gt_heading {
+#wswglunyrj .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -528,7 +528,7 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#reehzdasks .gt_title {
+#wswglunyrj .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -538,7 +538,7 @@ calibration_table %>%
   border-bottom-width: 0;
 }
 
-#reehzdasks .gt_subtitle {
+#wswglunyrj .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -548,13 +548,13 @@ calibration_table %>%
   border-top-width: 0;
 }
 
-#reehzdasks .gt_bottom_border {
+#wswglunyrj .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#reehzdasks .gt_col_headings {
+#wswglunyrj .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -569,7 +569,7 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#reehzdasks .gt_col_heading {
+#wswglunyrj .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -589,7 +589,7 @@ calibration_table %>%
   overflow-x: hidden;
 }
 
-#reehzdasks .gt_column_spanner_outer {
+#wswglunyrj .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -601,15 +601,15 @@ calibration_table %>%
   padding-right: 4px;
 }
 
-#reehzdasks .gt_column_spanner_outer:first-child {
+#wswglunyrj .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#reehzdasks .gt_column_spanner_outer:last-child {
+#wswglunyrj .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#reehzdasks .gt_column_spanner {
+#wswglunyrj .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -621,7 +621,7 @@ calibration_table %>%
   width: 100%;
 }
 
-#reehzdasks .gt_group_heading {
+#wswglunyrj .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -643,7 +643,7 @@ calibration_table %>%
   vertical-align: middle;
 }
 
-#reehzdasks .gt_empty_group_heading {
+#wswglunyrj .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -658,19 +658,19 @@ calibration_table %>%
   vertical-align: middle;
 }
 
-#reehzdasks .gt_striped {
+#wswglunyrj .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#reehzdasks .gt_from_md > :first-child {
+#wswglunyrj .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#reehzdasks .gt_from_md > :last-child {
+#wswglunyrj .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#reehzdasks .gt_row {
+#wswglunyrj .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -689,7 +689,7 @@ calibration_table %>%
   overflow-x: hidden;
 }
 
-#reehzdasks .gt_stub {
+#wswglunyrj .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -701,7 +701,7 @@ calibration_table %>%
   padding-left: 12px;
 }
 
-#reehzdasks .gt_summary_row {
+#wswglunyrj .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -711,7 +711,7 @@ calibration_table %>%
   padding-right: 5px;
 }
 
-#reehzdasks .gt_first_summary_row {
+#wswglunyrj .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -721,7 +721,7 @@ calibration_table %>%
   border-top-color: #D3D3D3;
 }
 
-#reehzdasks .gt_grand_summary_row {
+#wswglunyrj .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -731,7 +731,7 @@ calibration_table %>%
   padding-right: 5px;
 }
 
-#reehzdasks .gt_first_grand_summary_row {
+#wswglunyrj .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -741,7 +741,7 @@ calibration_table %>%
   border-top-color: #D3D3D3;
 }
 
-#reehzdasks .gt_table_body {
+#wswglunyrj .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -750,7 +750,7 @@ calibration_table %>%
   border-bottom-color: #D3D3D3;
 }
 
-#reehzdasks .gt_footnotes {
+#wswglunyrj .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -764,13 +764,13 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#reehzdasks .gt_footnote {
+#wswglunyrj .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#reehzdasks .gt_sourcenotes {
+#wswglunyrj .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -784,46 +784,46 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#reehzdasks .gt_sourcenote {
+#wswglunyrj .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#reehzdasks .gt_left {
+#wswglunyrj .gt_left {
   text-align: left;
 }
 
-#reehzdasks .gt_center {
+#wswglunyrj .gt_center {
   text-align: center;
 }
 
-#reehzdasks .gt_right {
+#wswglunyrj .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#reehzdasks .gt_font_normal {
+#wswglunyrj .gt_font_normal {
   font-weight: normal;
 }
 
-#reehzdasks .gt_font_bold {
+#wswglunyrj .gt_font_bold {
   font-weight: bold;
 }
 
-#reehzdasks .gt_font_italic {
+#wswglunyrj .gt_font_italic {
   font-style: italic;
 }
 
-#reehzdasks .gt_super {
+#wswglunyrj .gt_super {
   font-size: 65%;
 }
 
-#reehzdasks .gt_footnote_marks {
+#wswglunyrj .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="reehzdasks" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="wswglunyrj" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   <thead class="gt_header">
     <tr>
       <th colspan="9" class="gt_heading gt_title gt_font_normal" style>Accuracy Table</th>
@@ -883,12 +883,12 @@ calibration_table %>%
       <td class="gt_row gt_center">4</td>
       <td class="gt_row gt_left">RANDOMFOREST</td>
       <td class="gt_row gt_left">Test</td>
-      <td class="gt_row gt_right">1362.71</td>
-      <td class="gt_row gt_right">343.39</td>
-      <td class="gt_row gt_right">1.47</td>
-      <td class="gt_row gt_right">30.96</td>
-      <td class="gt_row gt_right">1889.24</td>
-      <td class="gt_row gt_right">0.46</td>
+      <td class="gt_row gt_right">1328.68</td>
+      <td class="gt_row gt_right">332.88</td>
+      <td class="gt_row gt_right">1.44</td>
+      <td class="gt_row gt_right">30.51</td>
+      <td class="gt_row gt_right">1839.60</td>
+      <td class="gt_row gt_right">0.42</td>
     </tr>
     <tr>
       <td class="gt_row gt_center">5</td>
@@ -937,7 +937,7 @@ calibration_table %>%
 
 
 {% highlight text %}
-## [07:37:41] WARNING: amalgamation/../src/learner.cc:480: 
+## [09:18:55] WARNING: amalgamation/../src/learner.cc:480: 
 ## Parameters: { validation } might not be used.
 ## 
 ##   This may not be accurate due to some parameters are only used in language bindings but
@@ -991,7 +991,7 @@ Comment on [GitHub Issue #5](https://github.com/business-science/modeltime/issue
 
 ### Improvements 
 
-__I have several improvements forthcoming.__ Probably the most important of which is the confidence interval calculations. I plan to use the method used by `earth::earth()`, which calculates prediction intervals by regressing the absolute errors vs the predictions. This should provide better approximation of forecast confidence.
+__Confidence interval calculations:__ I have several improvements forthcoming. Probably the most important of which is the confidence interval calculations. This will come in release `modeltime` 0.0.2.
 
 # Modeltime Resources
 
