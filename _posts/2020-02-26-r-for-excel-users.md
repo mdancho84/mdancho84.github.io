@@ -46,8 +46,6 @@ In `tidyquant` version 1.0.0, I have added the following features to __support n
 
 ✅ [__100 + New Excel Functions__](#excel-functions)
 
-✅ [__NEW Tidyverse Functions - Summarize By Time__](#tidyverse-functions)
-
 ✅ [__NEW API Integrations (Implementation scheduled for March)__](#api-integrations)
 
 
@@ -453,94 +451,7 @@ NET_WORKDAYS("2020-01-01", "2020-07-01",
 
 
 
-## ✅ NEW Tidyverse Functionality {#tidyverse-functions}
 
-`summarise_by_time()` is a new time-based variant of `dplyr::summarise()` that allows collapsing time-series data by "second", "minute", "hour", "day", "week", "month", "quarter", and "year". 
-
-### By Month 
-
-Here's a quick example summarizing by `"month"`.
-
-
-{% highlight r %}
-FANG %>%
-    group_by(symbol) %>%
-
-    # Collapse from daily to FIRST value by month
-    summarise_by_time(
-        .date_var  = date,
-        .by        = "month",
-        adjusted   = FIRST(adjusted)
-    )
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## # A tibble: 192 x 3
-## # Groups:   symbol [4]
-##    symbol date       adjusted
-##    <chr>  <date>        <dbl>
-##  1 AMZN   2013-01-01     257.
-##  2 AMZN   2013-02-01     265 
-##  3 AMZN   2013-03-01     266.
-##  4 AMZN   2013-04-01     262.
-##  5 AMZN   2013-05-01     248.
-##  6 AMZN   2013-06-01     267.
-##  7 AMZN   2013-07-01     282.
-##  8 AMZN   2013-08-01     306.
-##  9 AMZN   2013-09-01     289.
-## 10 AMZN   2013-10-01     321.
-## # … with 182 more rows
-{% endhighlight %}
-
-### By Year
-
-The benefit is that I can quickly switch periods. 
-
-
-{% highlight r %}
-FANG %>%
-    group_by(symbol) %>%
-    summarise_by_time(
-        .date_var  = date,
-        .by        = "year",
-        adjusted   = FIRST(adjusted)
-    )
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## # A tibble: 16 x 3
-## # Groups:   symbol [4]
-##    symbol date       adjusted
-##    <chr>  <date>        <dbl>
-##  1 AMZN   2013-01-01    257. 
-##  2 AMZN   2014-01-01    398. 
-##  3 AMZN   2015-01-01    309. 
-##  4 AMZN   2016-01-01    637. 
-##  5 FB     2013-01-01     28  
-##  6 FB     2014-01-01     54.7
-##  7 FB     2015-01-01     78.4
-##  8 FB     2016-01-01    102. 
-##  9 GOOG   2013-01-01    361. 
-## 10 GOOG   2014-01-01    556. 
-## 11 GOOG   2015-01-01    525. 
-## 12 GOOG   2016-01-01    742. 
-## 13 NFLX   2013-01-01     13.1
-## 14 NFLX   2014-01-01     51.8
-## 15 NFLX   2015-01-01     49.8
-## 16 NFLX   2016-01-01    110.
-{% endhighlight %}
-
-### What I'm Most Excited About
-
-I can use `summarise_by_time()` in Shiny Apps to make common summarization plots. In fact, I'm taught it: Learning Lab 30 - Shiny + Tidyquant for Finance Apps. [Register Here to attend new Learning Labs, It's Free)](http://bit.ly/learning_labs)
-
-![Summarize by Time - Shiny App](/assets/2020-02-26-r-for-excel/summarise_by_time_shiny.jpg)
-
-<p class="text-center date">Summarizing by Time in a Shiny App</p>
 
 ## ✅ NEW API Integration  {#api-integrations}
 
