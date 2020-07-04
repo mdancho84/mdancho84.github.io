@@ -12,7 +12,7 @@ image_preview: 2020-06-29-modeltime/forecast_plot.jpg
 
 
 
-I'm beyond excited to introduce `modeltime`, a new time series forecasting package designed to speed up model evaluation, selection, and forecasting. `modeltime` does this by integrating the `tidymodels` machine learning ecosystem of packages into a _streamlined workflow_ for `tidyverse` forecasting. Follow [this article](#) to get started with `modeltime`. If you like what you see, I have an [Advanced Time Series Course coming soon (join the waitlist)](https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon) where you will become a time-series expert for your organization by learning `modeltime` and `timetk`. 
+I'm beyond excited to introduce `modeltime`, a new time series forecasting package designed to speed up model evaluation, selection, and forecasting. `modeltime` does this by integrating the `tidymodels` machine learning ecosystem of packages into a _streamlined workflow_ for `tidyverse` forecasting. Follow [the updated modeltime article](#) to get started with `modeltime`. If you like what you see, I have an [Advanced Time Series Course coming soon (join the waitlist)](https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon) where you will become a time-series expert for your organization by learning `modeltime` and `timetk`. 
 
 
 # Modeltime <br><small>The forecasting framework for the tidymodels ecosystem</small>
@@ -31,10 +31,6 @@ I'm beyond excited to introduce `modeltime`, a new time series forecasting packa
 
 3. __New Time Series Boosted Models__ including Boosted ARIMA (`arima_boost()`) and Boosted Prophet (`prophet_boost()`) that can improve accuracy by applying XGBoost model to the errors  
 
-# Updates
-
-- `time_series_splits()`: I've added a note to install the development version of `timetk` until I release version 2.1.0 on CRAN. You will get an error saying the function is not found. The solution is to install the development version with `devtools::install_github("business-science/timetk")`. 
-
 # Getting Started <br><small>Let's kick the tires on modeltime</small>
 
 Install `modeltime`. 
@@ -42,13 +38,6 @@ Install `modeltime`.
 
 {% highlight r %}
 install.packages("modeltime")
-{% endhighlight %}
-
-Update: `timetk` to the development version until 2.1.0 is released. The `time_series_split()` function is not yet available in the CRAN version. 
-
-
-{% highlight r %}
-devtools::install_github("business-science/timetk")
 {% endhighlight %}
 
 Load the following libraries. 
@@ -102,7 +91,7 @@ bike_transactions_tbl %>%
   plot_time_series(date, value, .interactive = FALSE)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-5](/figure/source/2020-06-29-introducing-modeltime/unnamed-chunk-5-1.png)
+![plot of chunk unnamed-chunk-4](/figure/source/2020-06-29-introducing-modeltime/unnamed-chunk-4-1.png)
 
 # Train / Test <br><small>Split your time series into training and testing sets</small>
 
@@ -129,7 +118,7 @@ splits %>%
   plot_time_series_cv_plan(date, value, .interactive = FALSE)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-7](/figure/source/2020-06-29-introducing-modeltime/unnamed-chunk-7-1.png)
+![plot of chunk unnamed-chunk-6](/figure/source/2020-06-29-introducing-modeltime/unnamed-chunk-6-1.png)
 
 
 # Modeling <br><small>This is <strong>exciting.</strong></small>
@@ -178,7 +167,7 @@ model_fit_arima
 {% highlight text %}
 ## parsnip model object
 ## 
-## Fit time:  327ms 
+## Fit time:  313ms 
 ## Series: outcome 
 ## ARIMA(0,1,3) with drift 
 ## 
@@ -210,7 +199,7 @@ model_fit_prophet
 {% highlight text %}
 ## parsnip model object
 ## 
-## Fit time:  153ms 
+## Fit time:  145ms 
 ## PROPHET Model
 ## - growth: 'linear'
 ## - n.changepoints: 25
@@ -342,33 +331,18 @@ workflow_fit_prophet_boost <- workflow() %>%
   add_model(model_spec_prophet_boost) %>%
   add_recipe(recipe_spec) %>%
   fit(training(splits))
-{% endhighlight %}
 
-
-
-{% highlight text %}
-## [09:18:48] WARNING: amalgamation/../src/learner.cc:480: 
-## Parameters: { validation } might not be used.
-## 
-##   This may not be accurate due to some parameters are only used in language bindings but
-##   passed down to XGBoost core.  Or some parameters are not used but slip through this
-##   verification. Please open an issue if you find above cases.
-{% endhighlight %}
-
-
-
-{% highlight r %}
 workflow_fit_prophet_boost
 {% endhighlight %}
 
 
 
 {% highlight text %}
-## ══ Workflow [trained] ════════════════════════════════════════════════════════════════════════════════════════════════
+## ══ Workflow [trained] ═════════════════════════════════════════════════════════════════════════════════
 ## Preprocessor: Recipe
 ## Model: prophet_boost()
 ## 
-## ── Preprocessor ──────────────────────────────────────────────────────────────────────────────────────────────────────
+## ── Preprocessor ───────────────────────────────────────────────────────────────────────────────────────
 ## 4 Recipe Steps
 ## 
 ## ● step_timeseries_signature()
@@ -376,7 +350,7 @@ workflow_fit_prophet_boost
 ## ● step_fourier()
 ## ● step_dummy()
 ## 
-## ── Model ─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+## ── Model ──────────────────────────────────────────────────────────────────────────────────────────────
 ## PROPHET w/ XGBoost Errors
 ## ---
 ## Model 1: PROPHET
@@ -389,8 +363,8 @@ workflow_fit_prophet_boost
 ## 
 ## xgboost::xgb.train(params = list(eta = 0.3, max_depth = 6, gamma = 0, 
 ##     colsample_bytree = 1, min_child_weight = 1, subsample = 1), 
-##     data = x, nrounds = 15, verbose = 0, early_stopping_rounds = NULL, 
-##     objective = "reg:squarederror", validation = 0, nthread = 1)
+##     data = x, nrounds = 15, watchlist = wlist, verbose = 0, objective = "reg:squarederror", 
+##     nthread = 1)
 {% endhighlight %}
 
 
@@ -473,7 +447,7 @@ calibration_table %>%
   plot_modeltime_forecast(.interactive = FALSE)
 {% endhighlight %}
 
-![plot of chunk unnamed-chunk-17](/figure/source/2020-06-29-introducing-modeltime/unnamed-chunk-17-1.png)
+![plot of chunk unnamed-chunk-16](/figure/source/2020-06-29-introducing-modeltime/unnamed-chunk-16-1.png)
 
 ### Accuracy (Testing Set)
 
@@ -493,7 +467,7 @@ calibration_table %>%
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#wswglunyrj .gt_table {
+#jobwpqxmlh .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -516,7 +490,7 @@ calibration_table %>%
   border-left-color: #D3D3D3;
 }
 
-#wswglunyrj .gt_heading {
+#jobwpqxmlh .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -528,7 +502,7 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#wswglunyrj .gt_title {
+#jobwpqxmlh .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -538,7 +512,7 @@ calibration_table %>%
   border-bottom-width: 0;
 }
 
-#wswglunyrj .gt_subtitle {
+#jobwpqxmlh .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -548,13 +522,13 @@ calibration_table %>%
   border-top-width: 0;
 }
 
-#wswglunyrj .gt_bottom_border {
+#jobwpqxmlh .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#wswglunyrj .gt_col_headings {
+#jobwpqxmlh .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -569,7 +543,7 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#wswglunyrj .gt_col_heading {
+#jobwpqxmlh .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -589,7 +563,7 @@ calibration_table %>%
   overflow-x: hidden;
 }
 
-#wswglunyrj .gt_column_spanner_outer {
+#jobwpqxmlh .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -601,15 +575,15 @@ calibration_table %>%
   padding-right: 4px;
 }
 
-#wswglunyrj .gt_column_spanner_outer:first-child {
+#jobwpqxmlh .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#wswglunyrj .gt_column_spanner_outer:last-child {
+#jobwpqxmlh .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#wswglunyrj .gt_column_spanner {
+#jobwpqxmlh .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -621,7 +595,7 @@ calibration_table %>%
   width: 100%;
 }
 
-#wswglunyrj .gt_group_heading {
+#jobwpqxmlh .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -643,7 +617,7 @@ calibration_table %>%
   vertical-align: middle;
 }
 
-#wswglunyrj .gt_empty_group_heading {
+#jobwpqxmlh .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -658,19 +632,19 @@ calibration_table %>%
   vertical-align: middle;
 }
 
-#wswglunyrj .gt_striped {
+#jobwpqxmlh .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#wswglunyrj .gt_from_md > :first-child {
+#jobwpqxmlh .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#wswglunyrj .gt_from_md > :last-child {
+#jobwpqxmlh .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#wswglunyrj .gt_row {
+#jobwpqxmlh .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -689,7 +663,7 @@ calibration_table %>%
   overflow-x: hidden;
 }
 
-#wswglunyrj .gt_stub {
+#jobwpqxmlh .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -701,7 +675,7 @@ calibration_table %>%
   padding-left: 12px;
 }
 
-#wswglunyrj .gt_summary_row {
+#jobwpqxmlh .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -711,7 +685,7 @@ calibration_table %>%
   padding-right: 5px;
 }
 
-#wswglunyrj .gt_first_summary_row {
+#jobwpqxmlh .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -721,7 +695,7 @@ calibration_table %>%
   border-top-color: #D3D3D3;
 }
 
-#wswglunyrj .gt_grand_summary_row {
+#jobwpqxmlh .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -731,7 +705,7 @@ calibration_table %>%
   padding-right: 5px;
 }
 
-#wswglunyrj .gt_first_grand_summary_row {
+#jobwpqxmlh .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -741,7 +715,7 @@ calibration_table %>%
   border-top-color: #D3D3D3;
 }
 
-#wswglunyrj .gt_table_body {
+#jobwpqxmlh .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -750,7 +724,7 @@ calibration_table %>%
   border-bottom-color: #D3D3D3;
 }
 
-#wswglunyrj .gt_footnotes {
+#jobwpqxmlh .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -764,13 +738,13 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#wswglunyrj .gt_footnote {
+#jobwpqxmlh .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#wswglunyrj .gt_sourcenotes {
+#jobwpqxmlh .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -784,46 +758,46 @@ calibration_table %>%
   border-right-color: #D3D3D3;
 }
 
-#wswglunyrj .gt_sourcenote {
+#jobwpqxmlh .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#wswglunyrj .gt_left {
+#jobwpqxmlh .gt_left {
   text-align: left;
 }
 
-#wswglunyrj .gt_center {
+#jobwpqxmlh .gt_center {
   text-align: center;
 }
 
-#wswglunyrj .gt_right {
+#jobwpqxmlh .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#wswglunyrj .gt_font_normal {
+#jobwpqxmlh .gt_font_normal {
   font-weight: normal;
 }
 
-#wswglunyrj .gt_font_bold {
+#jobwpqxmlh .gt_font_bold {
   font-weight: bold;
 }
 
-#wswglunyrj .gt_font_italic {
+#jobwpqxmlh .gt_font_italic {
   font-style: italic;
 }
 
-#wswglunyrj .gt_super {
+#jobwpqxmlh .gt_super {
   font-size: 65%;
 }
 
-#wswglunyrj .gt_footnote_marks {
+#jobwpqxmlh .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="wswglunyrj" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="jobwpqxmlh" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   <thead class="gt_header">
     <tr>
       <th colspan="9" class="gt_heading gt_title gt_font_normal" style>Accuracy Table</th>
@@ -883,12 +857,12 @@ calibration_table %>%
       <td class="gt_row gt_center">4</td>
       <td class="gt_row gt_left">RANDOMFOREST</td>
       <td class="gt_row gt_left">Test</td>
-      <td class="gt_row gt_right">1328.68</td>
-      <td class="gt_row gt_right">332.88</td>
-      <td class="gt_row gt_right">1.44</td>
-      <td class="gt_row gt_right">30.51</td>
-      <td class="gt_row gt_right">1839.60</td>
-      <td class="gt_row gt_right">0.42</td>
+      <td class="gt_row gt_right">1309.79</td>
+      <td class="gt_row gt_right">327.88</td>
+      <td class="gt_row gt_right">1.42</td>
+      <td class="gt_row gt_right">30.24</td>
+      <td class="gt_row gt_right">1809.05</td>
+      <td class="gt_row gt_right">0.47</td>
     </tr>
     <tr>
       <td class="gt_row gt_center">5</td>
@@ -934,18 +908,7 @@ calibration_table %>%
   plot_modeltime_forecast(.interactive = FALSE)
 {% endhighlight %}
 
-
-
-{% highlight text %}
-## [09:18:55] WARNING: amalgamation/../src/learner.cc:480: 
-## Parameters: { validation } might not be used.
-## 
-##   This may not be accurate due to some parameters are only used in language bindings but
-##   passed down to XGBoost core.  Or some parameters are not used but slip through this
-##   verification. Please open an issue if you find above cases.
-{% endhighlight %}
-
-![plot of chunk unnamed-chunk-19](/figure/source/2020-06-29-introducing-modeltime/unnamed-chunk-19-1.png)
+![plot of chunk unnamed-chunk-18](/figure/source/2020-06-29-introducing-modeltime/unnamed-chunk-18-1.png)
 
 # It gets better<br><small>You've just scratched the surface, here's what's coming...</small>
 
@@ -989,11 +952,8 @@ It's critical to have a diverse set of algorithms included in `modeltime` or as 
 
 Comment on [GitHub Issue #5](https://github.com/business-science/modeltime/issues/5) to let me know what you would like to see or if you have plans to extend `modeltime`. 
 
-### Improvements 
 
-__Confidence interval calculations:__ I have several improvements forthcoming. Probably the most important of which is the confidence interval calculations. This will come in release `modeltime` 0.0.2.
-
-# Modeltime Resources
+# Modeling time Resources <br><small>With <strong>modeltime</strong></small>
 
 - [Modeltime Documentation](https://business-science.github.io/modeltime/index.html) - Learn about `modeltime` workflow and which models have been included
 - [Modeltime GitHub Page](https://github.com/business-science/modeltime) - Give it a Star if you like it!
