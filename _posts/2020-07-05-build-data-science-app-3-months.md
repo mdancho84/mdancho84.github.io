@@ -91,6 +91,8 @@ The 4-Course R-Track System will help you, just like it helped Herb McCalla deve
 Complete your transformation in 6-months or less with our [4-Course R-Track System](https://university.business-science.io/p/4-course-bundle-machine-learning-and-web-applications-r-track-101-102-201-202a/).
 
 
+{% include success_stories.md %}
+
 <br>
 
 {% include cta_rtrack.html %}
