@@ -94,7 +94,7 @@ Raj leveraged Bootstrap 3 to improve the user experience with cards and a UI com
 
 <br>
 
-Here's the **dynamic UI from the Application Library** that helped Raj extend his idea to a 2020 winning submission.
+Here's the **dynamic UI from the Application Library** that helped Raj extend his idea to a 2020 winning submission. The Application Library "meta application" is built in [Shiny Developer with AWS (DS4B 202A-R)](https://university.business-science.io/p/expert-shiny-developer-with-aws-course-ds4b-202a-r).
 
 <img src="/assets/2020-08-12-shiny-competition/dynamic_search.jpg" border = "0" />
 <div class="text-center"><small>Application Library with Dynamic UI</small></div>
