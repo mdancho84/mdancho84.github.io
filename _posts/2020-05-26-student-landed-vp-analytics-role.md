@@ -67,6 +67,8 @@ The <a href="https://university.business-science.io/p/4-course-bundle-machine-le
 
 Complete your transformation in 6-months or less with our 4-Course R-Track System.
 
+{% include success_stories.md %}
+
 <br>
 
 {% include cta_rtrack.html %}
