@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Time Series in 5-Minutes, Part 2: Autocorrelation and Cross Correlation"
+title: "Time Series in 5-Minutes, Part 3: Autocorrelation and Cross Correlation"
 date:   2020-06-17 08:01:01
 excerpt: "The 2nd part in our Time Series in 5-minutes article series. Learn how to visualize autocorrelations and cross correlation."
 author: "Matt Dancho"
@@ -16,7 +16,7 @@ __Have 5-minutes? Then let's learn time series.__ In this short articles series,
 
 ### Updates
 
-This article has been updated. [View the updated Time Series in 5-Minutes article at Business Science.](#) 
+This article has been updated. [View the updated Time Series in 5-Minutes article at Business Science.](https://www.business-science.io/code-tools/2020/06/17/five-minute-time-series-part-2.html) 
 
 ## Time Series in 5-Mintues <br><small>Articles in this Series</small>
 
@@ -29,11 +29,12 @@ This article has been updated. [View the updated Time Series in 5-Minutes articl
 
 I just released `timetk` 2.0.0 ([read the release announcement](https://www.business-science.io/code-tools/2020/06/05/timetk-vesion-2-announcement.html)). A ton of new functionality has been added. We'll discuss some of the key pieces in this article series:
 
-- [Part 1, The Time Plot](/code-tools/2020/06/08/five-minute-time-series-time-plot.html)
-- [Part 2, Autocorrelation](/code-tools/2020/06/17/five-minute-time-series-part-2.html)
-- Part 3, Seasonality
-- Part 4, Anomalies and Anomaly Detection
-- Part 5, Dealing with Missing Time Series Data
+- [Part 1, Data Wrangling and Rolling Calculations](https://www.business-science.io/code-tools/2020/08/19/five-minute-time-series-rolling-calculations.html)
+- [Part 2, The Time Plot](https://www.business-science.io/code-tools/2020/06/08/five-minute-time-series-time-plot.html)
+- [Part 3, Autocorrelation](https://www.business-science.io/code-tools/2020/06/17/five-minute-time-series-part-2.html)
+- Part 4, Seasonality
+- Part 5, Anomalies and Anomaly Detection
+- Part 6, Dealing with Missing Time Series Data
 
 👉 [__Register for our blog to get new articles as we release them.__](https://mailchi.mp/business-science/blog-registration)  
 
