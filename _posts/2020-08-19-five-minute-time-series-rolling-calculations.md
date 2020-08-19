@@ -56,7 +56,6 @@ Additional concepts covered:
 
 {% include course_promo_time_series.md %}
 
-<br>
 
 
 # Let's Get Started
