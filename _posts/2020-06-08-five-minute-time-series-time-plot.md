@@ -33,7 +33,7 @@ I just released `timetk` 2.0.0 ([read the release announcement](https://www.busi
 - [Part 1, Data Wrangling and Rolling Calculations](https://www.business-science.io/code-tools/2020/08/19/five-minute-time-series-rolling-calculations.html)
 - [Part 2, The Time Plot](https://www.business-science.io/code-tools/2020/06/08/five-minute-time-series-time-plot.html)
 - [Part 3, Autocorrelation](https://www.business-science.io/code-tools/2020/06/17/five-minute-time-series-part-2.html)
-- Part 4, Seasonality
+- [Part 4, Seasonality](https://www.business-science.io/code-tools/2020/08/26/five-minute-time-series-seasonality.html)
 - Part 5, Anomalies and Anomaly Detection
 - Part 6, Dealing with Missing Time Series Data
 
