@@ -168,6 +168,22 @@ li{font-size:20px;}
   line-height: 88px;
 }
 
+.ds-writer-cover {
+  min-height:500px; 
+  width: 100%;
+  background-image: url('/assets/data-science-writer.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.ds-writer-cover h1 {
+  font-size: 55px !important; 
+  font-weight: 300 !important;
+  line-height: 88px;
+}
+
 .journey-cover {
   min-height:500px; 
   width: 100%;

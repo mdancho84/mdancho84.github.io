@@ -71,8 +71,6 @@ interactive <- TRUE
 
 `plot_acf_diagnostics()` returns the ACF and PACF of a target and optionally CCF's of one or more lagged predictors in interactive plotly plots. We also scale to multiple time series using `group_by()`.
 
-<br>
-
 > - ACF = Autocorrelation between a target variable and lagged versions of itself.
 - PACF = Partial Autocorrelation removes the dependence of lags on other lags highlighting key seasonalities.
 - CCF = Shows how lagged predictors can be used for prediction of a target variable.
