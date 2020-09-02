@@ -12,7 +12,7 @@ image_preview: 2020-08-26-time-series-seasonality/time-series-5-minutes-seasonal
 
 
 
-__Have 5-minutes? Then let's learn time series.__ In this short articles series, I highlight how you can get up to speed quickly on important aspects of time series analysis. Today we are focusing preparing data for timeseries analysis rolling calculations.
+__Have 5-minutes? Then let's learn time series.__ In this short articles series, I highlight how you can get up to speed quickly on important aspects of time series analysis. Today we are focusing on seasonality in time series data.
 
 ### Updates
 
@@ -33,7 +33,7 @@ I just released `timetk` 2.0.0 ([read the release announcement](https://www.busi
 - [Part 2, The Time Plot](https://www.business-science.io/code-tools/2020/06/08/five-minute-time-series-time-plot.html)
 - [Part 3, Autocorrelation](https://www.business-science.io/code-tools/2020/06/17/five-minute-time-series-part-2.html)
 - [Part 4, Seasonality](https://www.business-science.io/code-tools/2020/08/26/five-minute-time-series-seasonality.html)
-- Part 5, Anomalies and Anomaly Detection
+- [Part 5, Anomalies and Anomaly Detection](/code-tools/2020/09/02/five-minute-time-series-anomaly-detection.html)
 - Part 6, Dealing with Missing Time Series Data
 
 👉 [__Register for our blog to get new articles as we release them.__](https://mailchi.mp/business-science/blog-registration)  
