@@ -7,7 +7,7 @@ author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, timetk]
 image: 2020-09-02-time-series-anomaly-detection/time_series_anomaly_detection_cover.png
-image_preview: 2020-09-02-time-series-anomaly-detection/time_series_anomaly_detection_preview.png
+image_preview: 2020-09-02-time-series-anomaly-detection/time_series_anomaly_detection_cover.png
 ---
 
 
