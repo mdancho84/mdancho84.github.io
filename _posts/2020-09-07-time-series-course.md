@@ -56,7 +56,7 @@ The <a href="https://university.business-science.io/p/ds4b-203-r-high-performanc
 
 <h1>How it works</h1>
 <hr>
-<p style="text-align: center;">Your path to become an <strong><a href="https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting/">Expert Forecaster</a></strong><strong> is simplified into 3 <em>streamlined</em> steps.</strong>
+<p style="text-align: center;">Your path to becoming an <strong><a href="https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting/">Expert Forecaster</a></strong><strong> is simplified into 3 <em>streamlined</em> steps.</strong>
 </p>
 <div class="row text-center" style="display:flex;">
 	<div class="col-sm-4">
@@ -127,7 +127,7 @@ The <a href="https://university.business-science.io/p/ds4b-203-r-high-performanc
 <h1>Part 3</h1>
 <h3>Deep Learning for Time Series</h3>
 <hr>
-<p>Next, we build your time series machine learning skills. You learn:
+<p>Next, we build your time series deep learning skills. You learn:
 </p>
 <ul>
 	<li><strong>GluonTS: A state-of-the-art forecasting package that's built on top of mxnet (made by Amazon)</strong></li>
