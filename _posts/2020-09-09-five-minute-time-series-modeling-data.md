@@ -395,8 +395,8 @@ More often than not refitting is a good idea. Refitting:
 {% include cta_rtrack.html %}
 
 
-# Have questions on using Timetk for time series?
+# Have questions on using Modeltime for time series?
 
 Make a comment in the chat below. 👇
 
-And, if you plan on using `timetk` for your business, it's a no-brainer - [Join the Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting). 
+And, if you plan on using `modeltime` for your business, it's a no-brainer - [Join the Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting). 
