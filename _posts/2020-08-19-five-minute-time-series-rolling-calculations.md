@@ -34,7 +34,7 @@ I just released `timetk` 2.0.0 ([read the release announcement](https://www.busi
 - [Part 3, Autocorrelation](https://www.business-science.io/code-tools/2020/06/17/five-minute-time-series-part-2.html)
 - [Part 4, Seasonality](https://www.business-science.io/code-tools/2020/08/26/five-minute-time-series-seasonality.html)
 - [Part 5, Anomalies and Anomaly Detection](/code-tools/2020/09/02/five-minute-time-series-anomaly-detection.html)
-- Part 6, Dealing with Missing Time Series Data
+- [Part 6, Modeling Time Series Data](/code-tools/2020/09/09/five-minute-time-series-modeling-data.html)
 
 👉 [__Register for our blog to get new articles as we release them.__](https://mailchi.mp/business-science/blog-registration)  
 
@@ -54,7 +54,7 @@ Additional concepts covered:
 - __Advanced Filtering__ - Using the new add time `%+time` infix operation (See _Padding Data: Low to High Frequency_)
 - __Visualization__ - `plot_time_series()` for all visualizations
 
-{% include course_promo_time_series.md %}
+{% include cta_rtrack.html %}
 
 
 
@@ -278,10 +278,6 @@ FANG %>%
 ![rolling regression](/assets/2020-08-19-time-series-rolling-calcuations/rolling-regression-table.png)
 
 
-{% include course_promo_time_series.md %}
-
-<br>
-
 {% include cta_rtrack.html %}
 
 
@@ -289,4 +285,4 @@ FANG %>%
 
 Make a comment in the chat below. 👇
 
-And, if you plan on using `timetk` for your business, it's a no-brainer - [Join my Time Series Course Waitlist](https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon) (It's coming, it's really insane). 
+And, if you plan on using `timetk` for your business, it's a no-brainer - [Join the Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting). 
