@@ -174,6 +174,10 @@ Now we have a well-organized work flow which can be easily updated as new OPM re
 We are also planning to an additional post on our observation that the lowest valued slice of properties in many towns are often systematically assessed more highly (relative to selling prices) than higher valued segments (hence carry an undue property tax burden). This can be seen in the Timeplot and Dotplot tabs of the Shiny app. Overall, we think there may be opportunities to combine other public data we have collected about income taxes, local government spending and public employment pensions, education and transportation as part of our [“Nutmeg Project”](https://redwallanalytics.com/2018/12/21/introduction-to-redwall-analytics-nutmeg-open-data-project/) to try to understand what has gone wrong to make one of the best educated and highest income states in the country, also the most financially fragile.
 
 
+<br>
+
+<strong>Author: David Lucy, Founder of [Redwall Analytics](https://redwallanalytics.com)</strong>
+<br>David spent 25 years working with institutional global equity research with several top investment banking firms.
 
 <br>
 
