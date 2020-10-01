@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Evaluating American Funds Portfolio"
+title: "Finance in R - Evaluating American Funds Portfolio"
 date: 2020-09-30 7:30:00
 excerpt: "Active funds have done poorly over the last ten years, and in most cases, struggled to justify their fees. In the post, there is a supporting chart showing a group of American Funds funds compared to the Vanguard Total Market index. "
 author: "David Lucey"
@@ -11,6 +11,11 @@ image_preview: 2020-09-30-evaluate-american-funds-portfolio/evaluating-american-
 canonical: https://redwallanalytics.com/2020/06/12/checking-up-on-american-funds-performance-through-cycle/
 ---
 
+
+
+<div style="background-color:whitesmoke; padding:14px;" class="text-center">
+  <h4>&#128073; &#128073; &#128073; <a href="https://mailchi.mp/business-science/blog-registration">Sign Up For More Blog Articles</a> &#128072; &#128072; &#128072;</h4>
+</div>
 
 
 # Introduction
