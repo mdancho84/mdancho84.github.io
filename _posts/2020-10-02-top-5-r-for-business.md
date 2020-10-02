@@ -12,6 +12,12 @@ image_preview: top-5/2020-10-02-top-5-september.jpg
 
 Each month, we release tons of great content on R for Business. These are the __5 Top Articles in R for Business__ over the past month. We have some great ones in September. Let's dive in. [View the updated Top 5 R for Business Article at Business Science.](#)
 
+<div class="pull-right hidden-xs" style="width:30%; margin-left:20px;">
+<a href="https://mailchi.mp/business-science/blog-registration" target="_blank">
+  <img class="img-responsive" src="/assets/top-5/2020-10-02-top-5-september.jpg">
+  </a>
+</div>
+
 👉 [__Register for our blog to get the Top 5 Best Articles on R for Business every month.__](https://mailchi.mp/business-science/blog-registration)
 
 ## No. 1: Using Drake for ETL  <br><small>Building A Shiny Real Estate App</small>
