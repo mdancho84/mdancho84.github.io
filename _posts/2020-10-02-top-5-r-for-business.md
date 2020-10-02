@@ -74,7 +74,7 @@ Each month, we release tons of great content on R for Business. These are the __
 
 
 
-## Learn R for Business
+## Finding it Difficult to Learn R for Business?
 
 __Finding it _difficult_ to learn R for Business?__ Here's the solution: [__My NEW 5-Course R-Track System__](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series/) that will take you from beginner to expert in months, not years. Learn what has taken me 10+ years to learn, the tools that connect data science with the business, and accelerate your career in the process. Here's what's included:
 
