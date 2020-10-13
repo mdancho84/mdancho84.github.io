@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "(JUST RELEASED) timetk 2.0.0: Visualize Time Series Data in 1-Line of Code"
+title: "timetk 2.0.0: Visualize Time Series Data in 1-Line of Code"
 date:   2020-06-05 09:24:01
 excerpt: "Timetk Version 2.0.0 has just been released. Here's what's new for time series data analysis."
 author: "Matt Dancho"
@@ -15,11 +15,14 @@ image_preview: 2020-06-05-timetk/timetk_version_2.jpg
 
 __I'm EXTACTIC 😃 to announce the release of `timetk` version 2.0.0.__ This is a monumental release that significantly expands the functionality of `timetk` to go WAY BEYOND the original goals of the package. Now, the package is a ___full-featured time series visualization, data wrangling, and preprocessing toolkit.___ 
 
-I'll go into detail about [what you can do in 1-line of code](#single-line-of-code), and I have several more articles coming on how to use several of the new features. 
+{% include forecasting-software-articles.md %}
 
-But first a little history...
+
+
 
 ## Background
+
+I'll go into detail about [what you can do in 1-line of code](#single-line-of-code), and I have several more articles coming on how to use several of the new features. __But first a little history...__
 
 Time series has been a passion project for me since my days of forecasting sales and economic data for a manufacturing company I worked for. My one gripe has always been that I had to use 50 different packages (`zoo`, `xts`, `dplyr`, etc) made by 50 different people to perform common data wrangling and visualization analyses. `timetk` solves this problem by making a consistent approach to visualize, wrangle, and preprocess time series data inside the `tidyverse` and `tidymodels` ecosystem. 
 
@@ -43,11 +46,13 @@ My needs are different. I need:
 So I created `timetk` version 2.0.0 to solve these needs. 
 
 
-Here's the new _mission_, and what you can do _in 1-line of code_ with `timetk` >= 2.0.0. 
+
 
 ## Mission
 
-To make it easy to <span style="color:blue;">___visualize, wrangle and preprocess time series data___</span> for forecasting and machine learning prediction. 
+Here's the new _mission_, and what you can do _in 1-line of code_ with `timetk` >= 2.0.0:
+
+> <span style="color:blue;">To make it easy to ___visualize, wrangle and preprocess time series data___ for forecasting and machine learning prediction. </span>
 
 ## What Can You Do in 1-Line of Code? {#single-line-of-code}
 

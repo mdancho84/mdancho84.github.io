@@ -14,21 +14,7 @@ image_preview: 2020-10-13-modeltime-ensemble/modeltime-ensemble.jpg
 
 I'm SUPER EXCITED to introduce `modeltime.ensemble`, the time series ensemble extension to `modeltime`. This tutorial [(view the original article here)](#) introduces our new R Package, Modeltime Ensemble. If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will become the time-series expert for your organization by learning `modeltime`, `modeltime.ensemble`, and `timetk`.
 
-<!--
-<hr>
-<center>
-<p>
-<strong>Like this article?</strong>
-<br>
-👉 <a href="https://mailchi.mp/business-science/blog-registration" target="_blank">Register to stay in the know </a> 
-👈
-<br>on new cutting-edge R software like <code>modeltime.ensemble</code>.
-</p>
-</center>
-<hr>
--->
-
-
+{% include forecasting-software-articles.md %}
 
 # Modeltime Ensemble <br><small>The time series ensemble extension to Modeltime</small>
 
@@ -1355,6 +1341,8 @@ ensemble_models_tbl %>%
 ![plot of chunk unnamed-chunk-22](/figure/source/2020-10-13-introducing-modeltime-ensemble/unnamed-chunk-22-1.png)
 
 
+
+
 # It gets better<br><small>You've just scratched the surface, here's what's coming...</small>
 
 The `modeltime.ensemble` package functionality is much more feature-rich than what we've covered here (I couldn't possibly cover everything in this post). 😀
@@ -1372,20 +1360,14 @@ I teach each of these techniques and strategies so you __become the time series 
 
 {% include course_promo_time_series.md %}
 
+{% include cta_rtrack.html %}
+
 <br>
 
+# Documentation
 
-
-
-# Modeltime Resources <br><small>Documentation</small>
-
-More information on the `modeltime` ecosystem can be found in the software documentation for `modeltime`, `modeltime.ensemble` and `timetk`. 
-
-- [Modeltime Documentation](https://business-science.github.io/modeltime/index.html)
-- [Modeltime Ensemble Documentation](https://business-science.github.io/modeltime.ensemble/index.html)
-- [Timetk Documentation](https://business-science.github.io/timetk/index.html)
-
-
+More information on the `modeltime` ecosystem can be found in the software documentation [Modeltime](https://business-science.github.io/modeltime/index.html), [Modeltime Ensemble](https://business-science.github.io/modeltime.ensemble/index.html), and
+[Timetk](https://business-science.github.io/timetk/index.html).
 
 # Have questions about Modeltime Ensemble?
 

@@ -14,16 +14,7 @@ image_preview: 2020-06-29-modeltime/forecast_plot.jpg
 
 I'm beyond excited to introduce `modeltime`, a new time series forecasting package designed to speed up model evaluation, selection, and forecasting. `modeltime` does this by integrating the `tidymodels` machine learning ecosystem of packages into a _streamlined workflow_ for `tidyverse` forecasting. Follow [the updated modeltime article](#) to get started with `modeltime`. If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will become the time-series expert for your organization by learning `modeltime` and `timetk`. 
 
-<center>
-<p>
-<strong>Like this article?</strong>
-<br>
-👉 <a href="https://mailchi.mp/business-science/blog-registration" target="_blank">Register to stay in the know </a> 
-👈
-<br>on new cutting-edge R software like <code>modeltime</code>.
-</p>
-</center>
-
+{% include forecasting-software-articles.md %}
 
 # Modeltime <br><small>The forecasting framework for the tidymodels ecosystem</small>
 
@@ -40,6 +31,8 @@ I'm beyond excited to introduce `modeltime`, a new time series forecasting packa
 2. __Unlocks Tidymodels for Forecasting.__ Gain the benefit of all or the `parsnip` models including `boost_tree()` (XGBoost, C5.0), `linear_reg()` (GLMnet, Stan, Linear Regression), `rand_forest()` (Random Forest), and more
 
 3. __New Time Series Boosted Models__ including Boosted ARIMA (`arima_boost()`) and Boosted Prophet (`prophet_boost()`) that can improve accuracy by applying XGBoost model to the errors  
+
+
 
 # Getting Started <br><small>Let's kick the tires on modeltime</small>
 
