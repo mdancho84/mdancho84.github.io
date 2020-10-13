@@ -12,7 +12,17 @@ image_preview: 2020-06-29-modeltime/forecast_plot.jpg
 
 
 
-I'm beyond excited to introduce `modeltime`, a new time series forecasting package designed to speed up model evaluation, selection, and forecasting. `modeltime` does this by integrating the `tidymodels` machine learning ecosystem of packages into a _streamlined workflow_ for `tidyverse` forecasting. Follow [the updated modeltime article](#) to get started with `modeltime`. If you like what you see, I have an [Advanced Time Series Course coming soon (join the waitlist)](https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon) where you will become a time-series expert for your organization by learning `modeltime` and `timetk`. 
+I'm beyond excited to introduce `modeltime`, a new time series forecasting package designed to speed up model evaluation, selection, and forecasting. `modeltime` does this by integrating the `tidymodels` machine learning ecosystem of packages into a _streamlined workflow_ for `tidyverse` forecasting. Follow [the updated modeltime article](#) to get started with `modeltime`. If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will become the time-series expert for your organization by learning `modeltime` and `timetk`. 
+
+<center>
+<p>
+<strong>Like this article?</strong>
+<br>
+👉 <a href="https://mailchi.mp/business-science/blog-registration" target="_blank">Register to stay in the know </a> 
+👈
+<br>on new cutting-edge R software like <code>modeltime</code>.
+</p>
+</center>
 
 
 # Modeltime <br><small>The forecasting framework for the tidymodels ecosystem</small>
