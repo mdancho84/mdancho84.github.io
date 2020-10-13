@@ -12,7 +12,7 @@ image_preview: 2020-10-13-modeltime-ensemble/modeltime-ensemble.jpg
 
 
 
-I'm SUPER EXCITED to introduce `modeltime.ensemble`, the time series ensemble extension to `modeltime`. This tutorial [(view the original article here)](#) introduces our new R Package, Modeltime Ensemble, which makes it easy to __perform stacked forecasts that improve forecast accuracy.__ If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will become the time-series expert for your organization by learning `modeltime`, `modeltime.ensemble`, and `timetk`.
+I'm SUPER EXCITED to introduce `modeltime.ensemble`, the time series ensemble extension to `modeltime`. This tutorial [(view original article)](#) introduces our new R Package, Modeltime Ensemble, which makes it easy to __perform stacked forecasts that improve forecast accuracy.__ If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will become the time-series expert for your organization by learning `modeltime`, `modeltime.ensemble`, and `timetk`.
 
 {% include forecasting-software-articles.md %}
 
