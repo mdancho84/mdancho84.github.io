@@ -13,7 +13,7 @@ image_preview: 2020-06-05-timetk/timetk_version_2.jpg
 
 
 
-__I'm EXTACTIC 😃 to announce the release of `timetk` version 2.0.0.__ This is a monumental release that significantly expands the functionality of `timetk` to go WAY BEYOND the original goals of the package. Now, the package is a ___full-featured time series visualization, data wrangling, and preprocessing toolkit.___ 
+__I'm ECSTATIC 😃 to announce the release of `timetk` version 2.0.0.__ This is a monumental release that significantly expands the functionality of `timetk` to go WAY BEYOND the original goals of the package. Now, the package is a ___full-featured time series visualization, data wrangling, and preprocessing toolkit.___ 
 
 {% include forecasting-software-articles.md %}
 
