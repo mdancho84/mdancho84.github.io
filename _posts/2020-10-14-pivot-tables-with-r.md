@@ -52,7 +52,7 @@ First, collect your data using `tidyquant`, an awesome package I created for imp
 
 <br>
 
-Next, make a `pivot_table(`) from the stock data. The resulting data summarized using a **percentage change from 1st to last** in each pivot cell. 
+Next, make a `pivot_table()` from the stock data. The resulting data summarized using a **percentage change from 1st to last** in each pivot cell. 
 
 ![Percent Change by Year](/assets/2020-10-14-pivot-tables-with-r/percent-change-by-year.jpg)
 
