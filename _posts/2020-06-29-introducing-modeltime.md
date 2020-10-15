@@ -327,8 +327,8 @@ We can set the model up using a workflow just like with the machine learning alg
 
 
 {% highlight r %}
-model_spec_prophet_boost <- prophet_boost() %>%
-  set_engine("prophet_xgboost", yearly.seasonality = TRUE) 
+model_spec_prophet_boost <- prophet_boost(seasonality_yearly = TRUE) %>%
+  set_engine("prophet_xgboost") 
 
 workflow_fit_prophet_boost <- workflow() %>%
   add_model(model_spec_prophet_boost) %>%
