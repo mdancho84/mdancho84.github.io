@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "10 Must-Know Tidyverse Featuers!"
+title: "10 Must-Know Tidyverse Features!"
 date:   2020-10-15 06:00:00
 excerpt: "There are new methods available in the tidyverse that some may not be aware of. The methods allow you to better transform your data directly to the way you want and to perform operations more flexibly..."
 author: "Jim Gruman"
