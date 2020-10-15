@@ -186,12 +186,12 @@ model_fit_arima
 
 ### Prophet
 
-Prophet is specified just like Auto ARIMA. Note that I've changed to `prophet_reg()`, and I'm passing an engine-specific parameter `yearly.seasonality = TRUE` using `set_engine()`. 
+Prophet is specified just like Auto ARIMA. Note that I've changed to `prophet_reg()` and I'm supplying `seasonality_yearly = TRUE)`. 
 
 
 {% highlight r %}
-model_fit_prophet <- prophet_reg() %>%
-  set_engine("prophet", yearly.seasonality = TRUE) %>%
+model_fit_prophet <- prophet_reg(seasonality_yearly = TRUE) %>%
+  set_engine("prophet") %>%
   fit(value ~ date, training(splits))
 
 model_fit_prophet
