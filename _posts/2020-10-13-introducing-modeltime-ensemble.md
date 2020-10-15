@@ -12,7 +12,7 @@ image_preview: 2020-10-13-modeltime-ensemble/modeltime-ensemble.jpg
 
 
 
-I'm SUPER EXCITED to introduce `modeltime.ensemble`, the time series ensemble extension to `modeltime`. This tutorial [(view original article)](#) introduces our new R Package, Modeltime Ensemble, which makes it easy to __perform stacked forecasts that improve forecast accuracy.__ If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will become the time-series expert for your organization by learning `modeltime`, `modeltime.ensemble`, and `timetk`.
+I'm SUPER EXCITED to introduce `modeltime.ensemble`, the time series ensemble extension to `modeltime`. [This tutorial](#) introduces our new R Package, Modeltime Ensemble, which makes it easy to __perform stacked forecasts that improve forecast accuracy.__ If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will become the time-series expert for your organization by learning `modeltime`, `modeltime.ensemble`, and `timetk`.
 
 {% include forecasting-software-articles.md %}
 
@@ -46,7 +46,7 @@ Using these `modeltime.ensemble`, you can build high-performance forecasting sta
 The Multi-Level Stacked Ensemble that won the Kaggle Grupo Bimbo Inventory Demand Challenge
 </p>
 
-# Ensemble Tutorial<br><small>Forecasting Product Sales with Average Ensembles</small>
+# Ensemble Tutorial<br><small>Forecasting Product Sales with Average Ensembles</small> 
 
 
 
