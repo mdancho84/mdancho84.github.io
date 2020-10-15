@@ -7,7 +7,7 @@ author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, Excel]
 image: 2020-10-14-pivot-tables-with-r/pivot-tables-r-cover.png
-image_preview: 2020-10-14-pivot-tables-with-r/pivot-tables-r-cover-preview.jpg
+image_preview: 2020-10-14-pivot-tables-with-r/pivot-tables-r-preview.jpg
 ---
 
 
