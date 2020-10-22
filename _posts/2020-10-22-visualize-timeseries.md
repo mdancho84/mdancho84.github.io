@@ -50,7 +50,7 @@ A few things to keep in mind:
 - All plots utilize the Business Science ggplot theme
 
 
-# 1.2 Load Libraries
+## 1.2 Load Libraries
 
 {% highlight r %}
 # Load libraries
