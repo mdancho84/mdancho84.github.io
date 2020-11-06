@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Top 5 Best Articles on R for Business [October 2020]"
-date:   2020-11-06 07:16:00
+date:   2020-11-06 05:00:00
 excerpt: "Each month, we release tons of great content on R for Business. These are the 5 Top Articles in R for Business over the past month. We have some great ones in October. Let's dive in."
 author: "Matt Dancho"
 categories: [Business]
