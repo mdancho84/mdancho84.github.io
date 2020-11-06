@@ -17,7 +17,7 @@ image_preview: 2020-11-06-top-5-articles/top_five_articles_preview.png
   </a>
 </div>
 
-Each month, we release tons of great content on R for Business. These are the __5 Top Articles in R for Business__ over the past month. We have some great ones in October. Let's dive in. [View the updated Top 5 R for Business Article at Business Science.](/business/2020/11/04/top-5-r-for-business-october.html)
+Each month, we release tons of great content on R for Business. These are the __5 Top Articles in R for Business__ over the past month. We have some great ones in October. Let's dive in. [View the updated Top 5 R for Business Article at Business Science.](/business/2020/11/06/top-5-r-for-business-october.html)
 
 
 👉 [__Register for our blog to get the Top 5 Best Articles on R for Business every month.__](https://mailchi.mp/business-science/blog-registration)
