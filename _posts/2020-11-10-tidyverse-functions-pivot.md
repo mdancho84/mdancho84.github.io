@@ -7,7 +7,7 @@ author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, Tidyverse]
 image: 2020-11-10-tidyverse-pivot/tidyverse_pivot_cover.png
-image_preview: 2020-11-10-tidyverse-pivot/tidyverse_pivot_cover.jpg
+image_preview: 2020-11-10-tidyverse-pivot/tidyverse_pivot_preview.jpg
 ---
 
 
