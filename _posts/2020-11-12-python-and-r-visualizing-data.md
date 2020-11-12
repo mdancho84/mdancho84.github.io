@@ -124,9 +124,13 @@ big_mt[:,'manufacturer'] = Frame([collapse_make(line[0]) for line in big_mt[:, '
 
 # Assign expressions to new variables
 vehicle_type, manufacturer = big_mt[:, ('vehicle_type', 'manufacturer')].export_names()
-
-
 {% endhighlight %}
+
+
+<br>
+
+{% include cta_rtrack.html %}
+
 
 <h2> Imports Started Ahead and Improved Efficency More </h2>
 
