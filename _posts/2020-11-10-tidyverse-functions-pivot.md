@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "10 Must-Know Tidyverse Functions: #3 - Pivot Wider & Longer"
+title: "10 Must-Know Tidyverse Functions: #3 - Pivot Wider and Longer"
 date:   2020-11-10 07:00:00
-excerpt: "Pivoting wider is essential for making summary tables that go into reports & help humans understand key information."
+excerpt: "Pivoting wider is essential for making summary tables that go into reports and help humans understand key information."
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, Tidyverse]
@@ -31,7 +31,7 @@ Learn how to use `pivot_wider()` and `pivot_longer()` to format data like a data
 
 # Why Pivot Wider?
 
-Pivoting wider is essential for **making summary tables** that go into reports & help humans (like you and me) understand key information. 
+Pivoting wider is essential for **making summary tables** that go into reports &amp; help humans (like you and me) understand key information. 
 
 ![](/assets/2020-11-10-tidyverse-pivot/pivot_wider_intro.jpg)
 
@@ -65,7 +65,7 @@ We can convert from wide to long with Pivot Longer, which gets it into the corre
 
 <br>
 
-**That was ridiculously easy.** Keep it up & you'll become a `tidyverse` rockstar. 
+**That was ridiculously easy.** Keep it up &amp; you'll become a `tidyverse` rockstar. 
 
 ![rockstar](/assets/2020-11-03-tidyverse-across/rockstar.gif)
 
