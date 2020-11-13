@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "10 Must-Know Tidyverse Functions: #3 - Pivot Wider and Longer"
-date:   2020-11-10 07:00:00
+date:   2020-11-13 06:30:00
 excerpt: "Pivoting wider is essential for making summary tables that go into reports and help humans understand key information."
 author: "Matt Dancho"
 categories: [Code-Tools]
