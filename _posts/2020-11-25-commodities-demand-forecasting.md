@@ -3,6 +3,7 @@ layout: post
 title: "Time Series Demand Forecasting"
 date:   2020-11-25 08:00:00
 excerpt: "Demand Forecasting is a technique for estimation of probable demand for a product or services. It is based on the analysis of past demand for that product or service in the present market condition."
+author: "Luciano Oliveira Batista"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, TimeSeries, Forecasting, modeltime]
 image: 2020-11-25-demand-forecasting/commodities-demand-cover.jpg
