@@ -13,7 +13,7 @@ canonical: https://www.business-science.io//business/2019/11/22/docker-for-data-
 
 # Data Science Technology Trends 
 
-A year ago I wrote about technologies Data Scientists should focus on based on industry trends. Moving into 2021, **these trends remain clear** - Organizations want ***Data Science, Cloud, and Apps***. Here's what's happening and how <strong>Docker</strong> plays a part in the essential skills of 2020 through 20201 and beyond. 
+A year ago I wrote about technologies Data Scientists should focus on based on industry trends. Moving into 2021, **these trends remain clear** - Organizations want ***Data Science, Cloud, and Apps***. Here's what's happening and how <strong>Docker</strong> plays a part in the essential skills of 2020-2021 and beyond. 
 
 
 #### Articles in Series
