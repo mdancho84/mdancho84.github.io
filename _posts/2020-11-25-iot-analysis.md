@@ -7,7 +7,7 @@ author: "Nathaniel Whitlock"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, IoT, Energy, Environmental]
 image: 2020-12-01-IoT-Analysis/solar_power_analysis_cover.jpg
-image_preview: 22020-12-01-IoT-Analysis/solar_power_analysis_preview.jpg
+image_preview: 2020-12-01-IoT-Analysis/solar_power_analysis_preview.jpg
 ---
 
 # R Tutorials Update
