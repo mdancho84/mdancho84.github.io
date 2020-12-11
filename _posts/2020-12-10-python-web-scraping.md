@@ -17,6 +17,12 @@ canonical: https://redwallanalytics.com/2020/06/07/scraping-long-beach-island-su
 
 # Introduction
 
+<div class="pull-right hidden-xs" style="width:30%; margin-left:20px;">
+<a href="/business/2020/12/11/python-web-scraping.html" target="_blank">
+  <img class="img-responsive" src="/assets/2020-12-10-python-web-scraping/python-scraping-cover.jpg">
+  </a>
+</div>
+
 This tutorial showcases how to use Python with R `reticulate`. 
 
 When I started this mini-project, I hoped to use `datatable` as our main data frame in conjunction with the Python libraries like `BeautifulSoup` and data structures not available in R, like dictionaries. I soon learned that `datatable` doesn’t support dates yet. In [Python and R - Part 1: Exploring Data with Datatable](/code-tools/2020/10/30/python-and-r-exploring-data.html), we noted that `datatable` is still in alpha stage, and worked around the lack of reshaping capability and the inability to pipe our data directly into plots, but this really a deal breaker for this project. As a result, though we were able to keep using `plotnine` and pandas.
