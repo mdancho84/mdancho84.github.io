@@ -1,19 +1,28 @@
 ---
 layout: post
 title: "Web Scraping and Analyzing Home Rentals (Python + R)"
-date: 2020-12-10 6:00:00
+date: 2020-12-11 6:30:00
 excerpt: "Scraping Long Beach Island Summer Rentals with Python and the R reticulate package."
 author: "David Lucey"
 categories: [Business]
-tags: [Learn-Python, Python, Scraping, reticulate]
+tags: [R-Blogger, Learn-Python, Python, Scraping, reticulate]
 image: 2020-12-10-python-web-scraping/python-scraping-cover.jpg
 image_preview: 2020-12-10-python-web-scraping/python-scraping-preview.jpg
 canonical: https://redwallanalytics.com/2020/06/07/scraping-long-beach-island-summer-rentals-with-python/
 ---
 
+
+👉 Each month, we release tons of great content on R for Business. [__Register for our blog to get fresh R Tips straight to your inbox.__](https://mailchi.mp/business-science/blog-registration)
+
+
 # Introduction
 
+This tutorial showcases how to use Python with R `reticulate`. 
+
 When I started this mini-project, I hoped to use `datatable` as our main data frame in conjunction with the Python libraries like `BeautifulSoup` and data structures not available in R, like dictionaries. I soon learned that `datatable` doesn’t support dates yet. In [Python and R - Part 1: Exploring Data with Datatable](/code-tools/2020/10/30/python-and-r-exploring-data.html), we noted that `datatable` is still in alpha stage, and worked around the lack of reshaping capability and the inability to pipe our data directly into plots, but this really a deal breaker for this project. As a result, though we were able to keep using `plotnine` and pandas.
+
+{% include cta_rtrack.html %}
+
 
 ## Code Setup
 
@@ -195,9 +204,7 @@ def get_dict(listing):
 When an element of a listing is not present, we were having breaks, so we put in exception handling for those cases. Although we think we have handled most of the likely errors in get_dict, the full scraping process takes a couple of hours, so we thought best to save to disc after each request. It took us a while how to figure this out, because it turns out not to be so straight-forward to save and append a json to disc. We were able to write to disc as txt as we do in `append_record` below.
 
 
-
 {% include cta_rtrack.html %}
-
 
 
 ## Scrape All Listings
