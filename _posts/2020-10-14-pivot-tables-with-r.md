@@ -108,3 +108,5 @@ Once you take these actions, you'll be set up to receive R-Tips with Code every 
 <br>
 
 {% include cta_rtrack.html %}
+
+{% include top_rtips.html %}
