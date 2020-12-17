@@ -18,8 +18,8 @@ This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailc
 
 Learn how to use `pivot_wider()` and `pivot_longer()` to format data like a data wizard:
 
-- Get the Code: [GitHub Link](https://github.com/business-science/free_r_tips)
-- Video Tutorial: [YouTube Tutorial](https://youtu.be/YWByrQIx-uQ)
+- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [YouTube Tutorial](https://youtu.be/YWByrQIx-uQ)
 
 <br>
 

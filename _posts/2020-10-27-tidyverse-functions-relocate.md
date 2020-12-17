@@ -17,8 +17,8 @@ This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailc
 
 Let's learn how `relocate`, **a new function that speeds up column arrangements**. 
 
-- Get the Code: [GitHub Link](https://github.com/business-science/free_r_tips)
-- Video Tutorial: [YouTube Tutorial](https://youtu.be/swm3smjU0RU)
+- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [YouTube Tutorial](https://youtu.be/swm3smjU0RU)
 
 <br>
 

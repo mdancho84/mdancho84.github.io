@@ -18,8 +18,8 @@ Your boss lives on PowerPoint decks. Do you need to create a Slide Deck every we
 
 Let's learn how to automate PowerPoint with R, using `officer` and `tidyverse`. 
 
-- Get the Code: [GitHub Link](https://github.com/business-science/free_r_tips)
-- Video Tutorial: [YouTube Tutorial](https://youtu.be/JJ5Ltw4PDn4)
+- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [YouTube Tutorial](https://youtu.be/JJ5Ltw4PDn4)
 
 <figure class="text-center">
   <a href="https://youtu.be/JJ5Ltw4PDn4"><img src="/assets/2020-09-22-automate-powerpoint/video_thumb.jpg" border="0" /></a>

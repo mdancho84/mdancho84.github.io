@@ -20,8 +20,8 @@ The `across()` function was just released in _dplyr 1.0.0_. It's a new tidyverse
 
 Learn how to use `across()` to summarize data like a data wizard:
 
-- Get the Code: [GitHub Link](https://github.com/business-science/free_r_tips)
-- Video Tutorial: [YouTube Tutorial](https://youtu.be/6fEowYTlNT8)
+- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [YouTube Tutorial](https://youtu.be/6fEowYTlNT8)
 
 <br>
 

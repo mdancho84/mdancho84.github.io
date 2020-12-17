@@ -18,8 +18,8 @@ This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailc
 
 Making multiple ARIMA Time Series models in R used to be difficult. But, with the `purrr` `nest()` function and `modeltime`, forecasting has never been easier. Learn how to make many ARIMA models in this tutorial. Here are the links to get set up. 👇
 
-- Get the Code: [GitHub Link](https://github.com/business-science/free_r_tips)
-- Video Tutorial: [YouTube Tutorial](https://youtu.be/3znQUrREUC8)
+- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [YouTube Tutorial](https://youtu.be/3znQUrREUC8)
 
 <br>
 

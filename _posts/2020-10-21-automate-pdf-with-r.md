@@ -17,8 +17,8 @@ This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailc
 
 Let's learn how to **automate PDFs with R**. 
 
-- Get the Code: [GitHub Link](https://github.com/business-science/free_r_tips)
-- Video Tutorial: [YouTube Tutorial](https://www.youtube.com/watch?v=N8qaLAundeI)
+- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [YouTube Tutorial](https://www.youtube.com/watch?v=N8qaLAundeI)
 
 <br>
 

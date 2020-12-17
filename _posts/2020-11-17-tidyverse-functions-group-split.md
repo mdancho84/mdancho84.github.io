@@ -18,8 +18,8 @@ This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailc
 
 Group Split and Map are SECRET TOOLS in my data science arsenal.  Combining them will help us scale up to 15 linear regression summaries to assess relationship strength & combine in a GT table. Here are the links to get set up 👇
 
-- Get the Code: [GitHub Link](https://github.com/business-science/free_r_tips)
-- Video Tutorial: [YouTube Tutorial](https://youtu.be/wj_AAs4VC8M)
+- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [YouTube Tutorial](https://youtu.be/wj_AAs4VC8M)
 
 <br>
 

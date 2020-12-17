@@ -15,8 +15,8 @@ This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailc
 
 Today we discuss an awesome skill for automating data collection from word documents:
 
-- Get the Code: [GitHub Link](https://github.com/business-science/free_r_tips)
-- Video Tutorial: [YouTube Tutorial](https://youtu.be/JXHVJCg10_c)
+- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [YouTube Tutorial](https://youtu.be/JXHVJCg10_c)
 
 <figure class="text-center">
   <a href="https://www.youtube.com/embed/JXHVJCg10_c"><img src="/assets/2020-09-17-scrape-word-docs/video_thumb.jpg" border="0" /></a>

@@ -1,20 +1,22 @@
 ---
 layout: post
-title: "6 Reasons To Learn R For Business"
+title: "6 Reasons To Learn R For Business [2021]"
 excerpt: "Learn R for business - Data science for business is the future of business analytics. Here are 6 reasons why R is the right choice."
 author: "Matt Dancho"
 categories: [Business]
-tags: [R-Project, R-Bloggers, R, Learning Data Science, Learn-R]
+tags: [R-Bloggers, R, Learning Data Science, Learn-R]
 image: 2017-12-27-six-reasons-to-learn-r/six_reasons_to_learn_r_for_business_retina.jpg
 image_preview: 2017-12-27-six-reasons-to-learn-r/six_reasons_to_learn_r_for_business_retina.jpg
 canonical: https://www.business-science.io/business/2020/12/17/six-reasons-to-use-R-for-business-2021.html
 ---
 
 
+_**Updated December 2020**_
 
 
-Data science for business (DS4B) is the future of business analytics yet __it is really difficult to figure out where to start__. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: <span>(1) selecting the right tool for the job, and</span> <span>(2) efficiently learning how to use the tool to return business value. This article focuses on the first part, __explaining why R is the right choice in six points
-__. If you'd like to tackle learning R efficiently, we have another article that covers the [80/20 Rule for Learning R](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html).
+Data science for business (DS4B) is the future of business analytics, yet __it is really difficult to figure out where to start__. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: <span>(1) selecting the right tool for the job, and</span> <span>(2) efficiently learning how to use the tool to return business value. This article focuses on the first part, <strong>explaining why R is the right choice in six points</strong>.
+
+If you'd like to tackle learning R efficiently, we have another article that covers the [80/20 Rule for Learning R](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html).
 
 
 
@@ -22,7 +24,7 @@ __. If you'd like to tackle learning R efficiently, we have another article that
 
 ![DS4B Tool Ratings](/assets/ds4b_rating.png)
 
-There are a number of tools available business analysis/business intelligence (with DS4B being a subset of this area). Each tool has its pros and cons, many of which are important in the business context. We can use these attributes to compare how each tool stacks up against the others! We did a qualitative assessment using several criteria: 
+There are a number of tools available for business analysis/intelligence (with DS4B being a subset of this area). Each tool has its pros and cons, many of which are important in the business context. We can use these attributes to compare how each tool stacks up against the others! We did a qualitative assessment using several criteria: 
 
 - Business Capability (1 = Low, 10 = High)
 - Ease of Learning (1 = Difficult, 10 = Easy)
@@ -33,7 +35,7 @@ Further discussion on the assessment is included in the [Appendix](#appendix-1) 
 
 What we saw was particularly interesting. A trendline developed exposing a tradeoff between learning curve and DS4B capability rating. The most flexible tools are more difficult to learn but tend to have higher business capability. Conversely, the "easy-to-learn" tools are often not the best long-term tools for business or data science capability. __Our opinion is go for capability over ease of use__. 
 
-Of the top tools in capability, __R has the best mix of desirable attributes__ including high data science for business capability, low cost, is growing very fast., and has __a massive ecosystem of powerful R libraries__. The only downside is the learning curve. The Cheat Sheet below showcases the powerful libraries that are at your fingertips - <a href="https://www.business-science.io/r-cheatsheet.html">Download our Ultimate R Cheat Sheet</a> to see what libraries are available to solve specific needs.
+Of the top tools in capability, __R has the best mix of desirable attributes__ including high data science for business capability, low cost, growth, and has __a massive ecosystem of powerful R libraries__. The only downside is the learning curve. The Cheat Sheet below showcases the powerful libraries that are at your fingertips - <a href="https://www.business-science.io/r-cheatsheet.html">Download our Ultimate R Cheat Sheet</a> to see what libraries are available to solve specific needs.
 
 
 <p><a href="https://www.business-science.io/r-cheatsheet.html"><img src="/assets/cheatsheets/r_cheatsheet.jpg" alt="R Cheat Sheet" style="width:100%;"></a></p>
@@ -44,9 +46,13 @@ Of the top tools in capability, __R has the best mix of desirable attributes__ i
 
 ## Reason 2: R Is Data Science For Non-Computer Scientists
 
-If you are seeking high-performance data science tools, you really have two options: __R or Python__. When starting out, you should pick one. It's a mistake to try to learn both. Your choice comes down to what's right for you. [The difference between R and Python](https://www.business-science.io/business/2018/10/08/python-and-r.html) has been described in numerous infographics and debates online, but __the most overlooked reason is person-programming language fit__. Don't understand what we mean? Let's break it down.
+If you are seeking high-performance data science tools, you really have two options: __R or Python__. When starting out, you should pick one. It's a mistake to try to learn both at the same time. Your choice comes down to what's right for you. [The difference between R and Python](https://www.business-science.io/business/2018/10/08/python-and-r.html) has been described in numerous infographics and debates online, but __the most overlooked reason is person-programming language fit__. Don't understand what we mean? Let's break it down.
+
+<br>
 
 __Fact 1: Most people interested in learning data science for business are not computer scientists.__ They are business professionals, non-software engineers (e.g. mechanical, chemical), and other technical-to-business converts. This is important because of where each language excels.  
+
+<br>
 
 __Fact 2: Most activities in business and finance involve communication.__ This comes in the form of reports, dashboards, and interactive web applications that allow decision makers to recognize when things are not going well and to make well-informed decisions that improve the business. 
 
@@ -75,6 +81,7 @@ Think about what you are trying to do:
 - __Are you trying to communicate business analytics throughout your organization?__ <span>If yes, learn R.</span>
 
 
+
 {% include cta_rtrack.html %}
 
 
@@ -82,7 +89,7 @@ Think about what you are trying to do:
 
 Learning R used to be a major challenge. Base R was a complex and inconsistent programming language. Structure and formality was not the top priority as in other programming languages. This all changed with the ["tidyverse"](https://www.tidyverse.org/), a set of packages and tools that have a consistently structured programming interface. 
 
-When tools such as `dplyr` and `ggplot2` came to fruition, it made the learning curve much easier by providing a consistent and structured approach to working with data. As [Hadley Wickham](https://twitter.com/hadleywickham) and many others continued to evolve R, the `tidyverse` came to be, which includes a series of commonly used packages for data manipulation, visualization, iteration, modeling, and communication. The end result is that R is now much easier to learn (we'll show you in our next article!). 
+When tools such as `dplyr` and `ggplot2` came to fruition, it made the learning curve much easier by providing a consistent and structured approach to working with data. As [Hadley Wickham](https://twitter.com/hadleywickham) and many others continued to evolve R, the `tidyverse` came to be, which includes **a series of commonly used packages for data manipulation, visualization, iteration, modeling, and communication**. The end result is that R is now much easier to learn - [Learn R From A Master Data Scientist's Code](/learning-r/2018/03/03/how_to_learn_R_pt1.html). 
 
 <img src="https://d33wubrfki0l68.cloudfront.net/434eec9816535e88953eb4fe1b38d4f3594440a3/c122c/images/tidyverse_1.2.0/tidyverse_1-2-0_pkg_load.gif">
 
@@ -101,18 +108,19 @@ Saying R is powerful is actually an understatement. From the business context, R
 
 
 
-### R has brains
+### 🧠 R has brains
 
 R implements cutting-edge algorithms including:
 
 - [H2O](https://www.h2o.ai/download/) (`h2o`) - <span>High-end machine learning package</span>
 - [Keras/TensorFlow](https://tensorflow.rstudio.com/) (`keras`, `tensorflow`) - <span>Go-to deep learning packages</span>
 - [xgboost](http://xgboost.readthedocs.io/en/latest/) - <span>Top Kaggle algorithm</span>
+- [Modeltime](/code-tools/2020/06/29/introducing-modeltime.html) - <span>Time Series forecasting</span>
 - And many more!
 
 These tools are used everywhere from AI products to Kaggle Competitions, and you can use them in your business analyses.
 
-### R has muscle
+### 💪 R has muscle
 
 R has powerful tools for:
 
@@ -126,7 +134,7 @@ R has powerful tools for:
 - And many more! 
 
 
-### R has heart 
+### ❤️ R has heart 
 
 We already talked about the infrastructure, the `tidyverse`, that enables the ecosystem of applications to be built using a consistent approach. It's this infrastructure that brings life into your data analysis. The `tidyverse` enables:
 
@@ -177,8 +185,7 @@ You begin learning R because of its capability, you stay with R because of its c
 
 #### Social/Web
 
-<blockquote class="twitter-tweet tw-align-center" data-lang="en"><p lang="en" dir="ltr">For your <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> holiday wish list consideration ????????<a href="https://t.co/dXYEAYXpzK">https://t.co/dXYEAYXpzK</a> <a href="https://t.co/caQu53Czy8">pic.twitter.com/caQu53Czy8</a></p>&mdash; R-Ladies DC (@RLadiesDC) <a href="https://twitter.com/RLadiesDC/status/936827553477672960?ref_src=twsrc%5Etfw">December 2, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://t.co/2F24TUHlO3">https://t.co/2F24TUHlO3</a> confuse and delight your family by hanging festive salt dough ornaments around the house ☃️ Only a few hours left in our campaign! <a href="https://twitter.com/hashtag/rstats?src=hash&amp;ref_src=twsrc%5Etfw">#rstats</a> deck the halls 🦌 <a href="https://t.co/kEBF5VEnw1">pic.twitter.com/kEBF5VEnw1</a></p>&mdash; Kelly O&#39;Briant (@kellrstats) <a href="https://twitter.com/kellrstats/status/1069641322846461953?ref_src=twsrc%5Etfw">December 3, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 R users can be found all over the web. A few of the popular hangouts are:
 
@@ -209,46 +216,11 @@ R-focused business conferences are gaining traction in a big way. Here are a few
 
 R has a wide range of benefits making it our obvious choice for Data Science for Busienss (DS4B). That's not to say that Python isn't a good choice as well, but, for the wide-range of needs for business, there's nothing that compares to R. In this article we saw why learning R is a great choice. In the next article we'll show you [how to learn R](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html)  using the 80/20 Rule. 
 
-<br>
-<hr>
-
-
-## Learn R with Business Science University  <a class="anchor" id="bsu"></a>
-
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15">
-<img src="/assets/2018-12-11-marketing-analysis-promotion-campaign/DS4B_201_R.png" class="img-rounded pull-right" alt="DS4B 201-R Course" style="width:30%;margin-left:20px"/></a>
-
-Enjoy data science for business? We do too. This is why we created [Business Science University](https://university.business-science.io/) where we teach you how to do __Data Science For Busines (#DS4B)__ just like us!
-
-Our first [DS4B course (HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15) is now available! 
-
-#### Who is this course for?
-
-- __Data Analysts & Data Scientists In Business:__ Data savvy people seeking to make the link between data science and the business objectives to drive ROI for their organization.
-
-- __Consultants:__ Data scientists working for companies in large consulting firms (e.g. Accenture, Deloitte, etc) and boutique consulting firms that are related to enterprise improvement and ROI.
-
-- __Students:__ Future data scientists seeking to gain skills beyond their current program offering. Leveraging Business Science University gets you trained on high-demand skills placing you ahead of your peers in the job market.
-
-#### What do you get it out of it?
-
-
-You learn everything you need to know about how to apply data science in a business context:
-
-- __Using ROI-driven data science taught from consulting experience!__
-
-- __Solve high-impact problems__ (e.g. $15M Employee Attrition Problem)
-
-- __Use advanced, bleeding-edge machine learning algorithms__ (e.g. H2O, LIME)
-
-- __Apply systematic data science frameworks__ (e.g. [Business Science Problem Framework](https://university.business-science.io/courses/246843/lectures/5029853))
-
->__"If you've been looking for a program like this, I'm happy to say it's finally here! This is what I needed when I first began data science years ago. It's why I created Business Science University."__
->
->__Matt Dancho, Founder of Business Science__
 
 <br>
+
 {% include cta_rtrack.html %}
+
 
 
 
@@ -394,8 +366,10 @@ data_apps %>%
 
 ![plot of chunk unnamed-chunk-1](/figure/source/2017-12-27-six-reasons-to-use-R-for-business/unnamed-chunk-1-1.png)
 
+
 ## R Resources
 
 - [How to Learn R Fast - Webinar](https://www.business-science.io/labs/episode1/)
 - [R Cheat Sheet](https://www.business-science.io/learning-r/2018/11/04/data-science-r-cheatsheet.html)
 - [How To Learn R, Part 1: Learn From A Master Data Scientist's Code](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html)
+- [Automate Excel in R](https://www.business-science.io/code-tools/2020/10/07/automate-excel.html)

@@ -20,8 +20,8 @@ If you are explaining data related to geography or just want to visualize by lat
 
 This tutorial will show you how to make a publication-quality visualization! Here are the links to get set up. 👇
 
-- Get the Code: [GitHub Link](https://github.com/business-science/free_r_tips)
-- Video Tutorial: [YouTube Tutorial](https://youtu.be/D5OBWBM5kwk)
+- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [YouTube Tutorial](https://youtu.be/D5OBWBM5kwk)
 
 <br>
 
