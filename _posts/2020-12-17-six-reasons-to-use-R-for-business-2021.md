@@ -167,9 +167,9 @@ Two major advantages of learning R versus every other programming language is th
 
 [Shiny](http://shiny.rstudio.com) is a framework for creating interactive web applications that are powered by R. Shiny is a major consulting area for us as four of five assignments involve building a web application using `shiny`. It's not only powerful, it enables non-data scientists to gain the benefit of data science via interactive decision making tools. Here's an example of a Google Trend app built with `shiny`.
 
-<p><a href="https://www.business-science.io/app-gallery.html" target="_blank"><img src="/assets/app_gallery/product_price_prediction_app.gif" alt="Product Price Prediction App" style="width:100%;box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);"></a></p>
+<p><a href="https://apps.business-science.io/" target="_blank"><img src="/assets/2017-12-27-six-reasons-to-learn-r/r-shiny-app-gallery.jpg" alt="Product Price Prediction App" style="width:100%;box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);"></a></p>
 
-<p class="text-center date">Explore the <a href="https://www.business-science.io/app-gallery.html">Web App Gallery</a> of predictive business apps</p>
+<p class="text-center date">Explore the <a href="https://apps.business-science.io/">Web App Gallery</a> of predictive business apps</p>
 
 ## Reason 6: R Community Support
 
