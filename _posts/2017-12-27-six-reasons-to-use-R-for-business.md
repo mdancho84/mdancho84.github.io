@@ -10,11 +10,16 @@ image_preview: 2017-12-27-six-reasons-to-learn-r/six_reasons_to_learn_r_for_busi
 canonical: https://www.business-science.io/business/2020/12/17/six-reasons-to-use-R-for-business-2021.html
 ---
 
+<div style="background-color:#fff1ce; padding:14px; text-align:center;">
+<p>
+This article has been updated. <a href="https://www.business-science.io/business/2020/12/17/six-reasons-to-use-R-for-business-2021.html">See the 2021 update</a>.
+</p>
+</div>
+
+<br>
 
 
-
-Data science for business (DS4B) is the future of business analytics yet __it is really difficult to figure out where to start__. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: <span>(1) selecting the right tool for the job, and</span> <span>(2) efficiently learning how to use the tool to return business value. This article focuses on the first part, __explaining why R is the right choice in six points
-__. If you'd like to tackle learning R efficiently, we have another article that covers the [80/20 Rule for Learning R](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html).
+Data science for business (DS4B) is the future of business analytics yet __it is really difficult to figure out where to start__. The last thing you want to do is waste time with the wrong tool. Making effective use of your time involves two pieces: <span>(1) selecting the right tool for the job, and</span> <span>(2) efficiently learning how to use the tool to return business value. This article focuses on the first part, <strong>explaining why R is the right choice in six points</strong>. If you'd like to tackle learning R efficiently, we have another article that covers the [80/20 Rule for Learning R](https://www.business-science.io/learning-r/2018/03/03/how_to_learn_R_pt1.html).
 
 
 
