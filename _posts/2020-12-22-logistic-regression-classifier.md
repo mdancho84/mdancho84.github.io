@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "Build and Evaluate A Logistic Regression Classifier"
-date:   2020-12-22 06:00:00
+date:   2020-12-22 07:00:00
 excerpt: "Logistic regression is a simple, yet powerful classification model. In this  tutorial, learn how to build a predictive classifier that classifies the age of a vehicle."
 author: "Matt Dancho"
 categories: [Code-Tools]
-tags: [R-Bloggers, Learn-R, R, R-Tips, PCA]
+tags: [R-Bloggers, Learn-R, R, R-Tips, Logistic Regression, Classification]
 image: 2020-12-22-logistic-regression-classifier/logistic_regression_cover.jpg
 image_preview: 2020-12-22-logistic-regression-classifier/logistic_regression_cover.jpg
 ---
