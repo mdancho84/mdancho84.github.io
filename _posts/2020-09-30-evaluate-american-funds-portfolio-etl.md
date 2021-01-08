@@ -12,12 +12,6 @@ canonical: https://redwallanalytics.com/2020/06/12/checking-up-on-american-funds
 ---
 
 
-
-<div style="background-color:whitesmoke; padding:14px;" class="text-center">
-  <h4>&#128073; &#128073; &#128073; <a href="https://mailchi.mp/business-science/blog-registration">Sign Up For More Blog Articles</a> &#128072; &#128072; &#128072;</h4>
-</div>
-
-
 # Introduction
 
 Active funds have done poorly over the last ten years, and in most cases, struggled to justify their fees. A growing list of commentators appropriately advocate for index funds, although sometimes go a little beyond what we believe to be fairly representing the facts. The inspiration for this article is this post by Asset Builder blog site [American Funds Says, “We Can Beat Index Funds”](https://assetbuilder.com/knowledge-center/articles/american-funds-says-we-can-beat-index-funds) scrutinizing claims by the fund group. Asset Builder asserts that “Even without this commission, the S&P 500 beat the aggregate returns of these (”American“) funds over the past 1-, 3-, 5-, 10- and 15-year periods”. In the post, there is a supporting chart showing a group of American Funds (“AF”) funds compared to the Vanguard Total Market (“TMI”) index. This analysis struck us in conflict with our own experience as actual holders of a core portfolio of eight AF over the last 20 years, so this post will be about exploring this data.
@@ -357,7 +351,7 @@ This has been a quick analysis to become accustomed to the `quantmod` and Perfor
 
 <br>
 
-<strong>Author: David Lucy, Founder of [Redwall Analytics](https://redwallanalytics.com)</strong>
+<strong>Author: David Lucey, Founder of [Redwall Analytics](https://redwallanalytics.com)</strong>
 <br>David spent 25 years working with institutional global equity research with several top investment banking firms.
 
 <br>

@@ -449,7 +449,7 @@ There is a lot of complexity in this system and more going on than we are likely
 
 <br>
 
-<strong>Author: David Lucy, Founder of [Redwall Analytics](https://redwallanalytics.com)</strong>
+<strong>Author: David Lucey, Founder of [Redwall Analytics](https://redwallanalytics.com)</strong>
 <br>David spent 25 years working with institutional global equity research with several top investment banking firms.
 
 

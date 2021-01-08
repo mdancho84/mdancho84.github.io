@@ -954,7 +954,7 @@ The purpose of this blog is to explore, learn and get better, faster and more ac
 
 <br>
 
-<strong>Author: David Lucy, Founder of [Redwall Analytics](https://redwallanalytics.com)</strong>
+<strong>Author: David Lucey, Founder of [Redwall Analytics](https://redwallanalytics.com)</strong>
 <br>David spent 25 years working with institutional global equity research with several top investment banking firms.
 
 

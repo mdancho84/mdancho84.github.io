@@ -176,7 +176,7 @@ We are also planning to an additional post on our observation that the lowest va
 
 <br>
 
-<strong>Author: David Lucy, Founder of [Redwall Analytics](https://redwallanalytics.com)</strong>
+<strong>Author: David Lucey, Founder of [Redwall Analytics](https://redwallanalytics.com)</strong>
 <br>David spent 25 years working with institutional global equity research with several top investment banking firms.
 
 <br>
