@@ -87,7 +87,7 @@ ac_dt &lt;- janitor::clean_names(ac_dt)</code></pre>
 <pre class="r">
   <code>
     # Summarize data.table
-    skimzr::skim(ac_dt)
+    skimr::skim(ac_dt)
   </code>
 </pre>
 
