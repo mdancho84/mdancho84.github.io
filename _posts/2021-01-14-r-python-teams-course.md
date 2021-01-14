@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R/Python Teams Course Accouncement"
+title: "R/Python Teams Course Announcement"
 date:   2021-01-14 07:00:00
 excerpt: "Add value as part of an R/Python Collaborative Team, be confident working with Python Users as part of a Team and working with Python."
 author: "Matt Dancho"
