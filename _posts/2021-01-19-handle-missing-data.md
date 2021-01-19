@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Handle Missing Data"
+title: "How to Handle Missing Data in R with simputation"
 date:   2021-01-19 07:00:00
 excerpt: "In 10-minutes, learn how to visualize and impute in R using ggplot dplyr and 3 more packages to simple imputation. Here are the links to get set up."
 author: "Matt Dancho"
