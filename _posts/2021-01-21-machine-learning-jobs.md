@@ -33,7 +33,7 @@ One reason interest in machine learning jobs will continue to grow is due to how
 Machine learning is grounded in the goal of prediction, using known characteristics and traits of a given object or target, and finding patterns to help determine what comes next. Some of the job titles most often related to this framework are **Data Scientists, Machine Learning Engineers, NLP Scientists, and Business Intelligence Developers**. 
 
 
-{% include cta_rtrack.html %}
+{% include cta_ds_beginner.html %}
 
 ## Machine Learning Job Tasks and Project Roles 
 
