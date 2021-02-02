@@ -2,7 +2,7 @@
 layout: post
 title: "Should you learn Python or R in 2021?"
 date:   2021-01-28 07:00:00
-excerpt: "or years Python and R have been pitted as mortal enemies in the world of data science, enticing its practitioners to choose a side and never look back - not anymore. It's time for these two titans to join forces through reticulate which allows us to use Python and R together!"
+excerpt: "For years Python and R have been pitted as mortal enemies in the world of data science, enticing its practitioners to choose a side and never look back - not anymore. It's time for these two titans to join forces through reticulate which allows us to use Python and R together!"
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Learn-Python, Teams]
