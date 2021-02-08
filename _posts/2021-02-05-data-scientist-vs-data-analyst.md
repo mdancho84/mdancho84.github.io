@@ -3,7 +3,7 @@ layout: post
 title: "Should I Become a Data Scientist or Data Analyst?"
 date: 2021-02-05 07:00:00
 excerpt: "In order to determine where you wish to set your career trajectory, you need to understand the grey area and differences between data scientists and data analysts. "
-author: "Matt Dancho"
+author: "Matt Dancho and Jarrell Chalmers"
 categories: [Business]
 tags: [Learn-R]
 image: 2021-02-05-data-scientist-vs-analyst/cover-image.png
