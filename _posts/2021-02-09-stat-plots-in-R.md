@@ -46,6 +46,8 @@ As you follow along, you can use <a href="https://www.business-science.io/r-chea
 <br>
 <a> <img src="/assets/2021-02-09-stat-plots-in-R/Plot_Example.jpg"> </a>
     
+
+
 <h2>Plot 1: Correlation Matrix Plot<br>
 <small>Make beautiful correlation plot that's great for reports</small></h2>
 
@@ -58,9 +60,9 @@ Correlation plots are must-know plots. <strong>Everyone understands correlations
 
 <p>Here's how easy it is to make an AWESOME Correlation Plot with 1 line of code.</p>
 
-<a> <img src="/assets/2021-02-09-stat-plots-in-R/code.jpg"> </a>
+<a> <img src="/assets/2021-02-09-stat-plots-in-R/Code.jpg"> </a>
 
-<a> <img src="/assets/2021-02-09-stat-plots-in-R/correlation_plot.jpg"> </a>
+<a> <img src="/assets/2021-02-09-stat-plots-in-R/Correlation_Plot.jpg"> </a>
 
 <h2>Plot 2: Between Stats Plot<br>
 <small>Between stats are used to compare categories to show differences between groups</small></h2>
