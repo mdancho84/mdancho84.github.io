@@ -44,7 +44,7 @@ We're going to kick the tires on 2 of the many awesome ggstatsplot functions:
 As you follow along, you can use <a href="https://www.business-science.io/r-cheatsheet">my Ultimate R Cheatsheet</a>. It consolidates the most important R packages (ones I use every day) into 1 cheatsheet.
 
 <br>
-<a> <img src="/assets/2021-02-09-stat-plots-in-R/Plot_Example.jpg"> </a>
+<div class="text-center"> <img src="/assets/2021-02-09-stat-plots-in-R/Plot_Example.jpg"> </div>
     
 
 
@@ -60,9 +60,9 @@ Correlation plots are must-know plots. <strong>Everyone understands correlations
 
 <p>Here's how easy it is to make an AWESOME Correlation Plot with 1 line of code.</p>
 
-<a> <img src="/assets/2021-02-09-stat-plots-in-R/Code.jpg"> </a>
+<div class="text-center"> <img src="/assets/2021-02-09-stat-plots-in-R/Code.jpg"> </div>
 
-<a> <img src="/assets/2021-02-09-stat-plots-in-R/Correlation_Plot.jpg"> </a>
+<div class="text-center"> <img src="/assets/2021-02-09-stat-plots-in-R/Correlation_Plot.jpg"> </div>
 
 <h2>Plot 2: Between Stats Plot<br>
 <small>Between stats are used to compare categories to show differences between groups</small></h2>
@@ -74,12 +74,12 @@ We need to do a little bit of data wrangling first to isolate the top 5 cities i
 Once we isolate the top 5 cities, we can make an awesome visualization (again in 1 line of code)!
 
 
-<a> <img src="/assets/2021-02-09-stat-plots-in-R/Code_2.jpg"> </a>
+<div class="text-center"> <img src="/assets/2021-02-09-stat-plots-in-R/Code_2.jpg"> </div>
 
 <br>
 The <code>ggbetweenstats()</code> function makes it super easy to compare groups and identify outliers.
 
-<a> <img src="/assets/2021-02-09-stat-plots-in-R/Plot_Example_2.jpg"></a>
+<div class="text-center"> <img src="/assets/2021-02-09-stat-plots-in-R/Plot_Example_2.jpg"></div>
 
 
 
