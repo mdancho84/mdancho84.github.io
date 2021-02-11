@@ -33,7 +33,7 @@ Learn about Customer Analytics & Tidymodels! In this 1.5-hour video, learn:
 
 <p class='text-center'>
 <a href="https://youtu.be/dVu7Ihk-XG0" class="btn btn-lg btn-success">Watch the FREE Learning Lab</a>
-<p>
+</p>
 
 
 ### Video Is Packed With Info
@@ -59,7 +59,7 @@ Learn about Customer Analytics & Tidymodels! In this 1.5-hour video, learn:
 
 <p class='text-center'>
 <a href="https://youtu.be/dVu7Ihk-XG0" class="btn btn-lg btn-success">Watch the FREE Learning Lab</a>
-<p>
+</p>
 
 
 <br>
