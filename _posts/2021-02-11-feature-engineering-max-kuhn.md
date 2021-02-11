@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Full Feature Engineering Tutorial with Max Kuhn"
+title: "Customer Analytics: Full Feature Engineering Tutorial with Max Kuhn"
 date:   2021-02-11 08:00:00
 excerpt: "Max Kuhn, from RStudio, discusses in-depth feature engineering for customer analytics. Watch Max and Matt tackle a tough feature engineering problem for customer analytics prediction. "
 author: "Matt Dancho"
