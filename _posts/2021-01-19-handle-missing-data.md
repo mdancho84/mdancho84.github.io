@@ -142,11 +142,9 @@ What happens after you learn R for Business.
 
 ### SETUP R-TIPS WEEKLY PROJECT
 
-1. Sign Up to Get the R-Tips Weekly (You'll get email notifications of NEW R-Tips as they are released): https://mailchi.mp/business-science/r-tips-newsletter
+1. [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
 
-2. Set Up the GitHub Repo: https://github.com/business-science/free_r_tips
-
-3. Check out the setup video (https://youtu.be/F7aYV0RPyD0). Or, Hit Pull in the Git Menu to get the R-Tips Code
+2. Check out the [R-Tips Setup Video](https://youtu.be/F7aYV0RPyD0).
 
 Once you take these actions, you'll be set up to receive R-Tips with Code every week. =)
 
