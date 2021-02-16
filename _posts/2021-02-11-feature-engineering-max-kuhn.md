@@ -31,7 +31,9 @@ Learn about Customer Analytics & Tidymodels! In this 1.5-hour video, learn:
 
 <br>
 
-<a href="https://youtu.be/dVu7Ihk-XG0" class="btn btn-md btn-success">Heck Yes! Watch the FREE Learning Lab</a>
+<p class='text-center'>
+<a href="https://youtu.be/dVu7Ihk-XG0" class="btn btn-lg btn-success">Watch the FREE Learning Lab</a>
+</p>
 
 
 ### Video Is Packed With Info
@@ -55,7 +57,9 @@ Learn about Customer Analytics & Tidymodels! In this 1.5-hour video, learn:
 
 <br>
 
-<a href="https://youtu.be/dVu7Ihk-XG0" class="btn btn-md btn-success">Watch the FREE Learning Lab</a>
+<p class='text-center'>
+<a href="https://youtu.be/dVu7Ihk-XG0" class="btn btn-lg btn-success">Watch the FREE Learning Lab</a>
+</p>
 
 
 <br>
