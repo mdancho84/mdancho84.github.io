@@ -7,7 +7,7 @@ author: "Matt Dancho and Jarrell Chalmers"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Learn-Python, Teams]
 image: 2021-02-18-R-is-for-research/Join_Forces_meme.png
-image_preview: 2021-02-18-R-is-for-research/Matt Dancho and Jarrell Chalmers
+image_preview: 2021-02-18-R-is-for-research/Join_Forces_meme.png
 ---
 
 
