@@ -5,7 +5,7 @@ date:   2021-02-16 08:00:00
 excerpt: "Exploratory Data Analysis is what every data scientist does to understand actionable insights from the data. This process used to take forever. Not anymore..."
 author: "Matt Dancho"
 categories: [Code-Tools]
-tags: [R-Bloggers, Learn-R, ggstatsplot, ggplot, visualization]
+tags: [R-Bloggers, Learn-R, correlation, visualization]
 image: 2021-02-16-power-score-vs-correlation-funnel/power_score_cover.png
 image_preview: 2021-02-16-power-score-vs-correlation-funnel/power_score_preview.png
 ---
