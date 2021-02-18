@@ -26,12 +26,16 @@ Both R and Python are great. We’ll showcase some of the strengths of each lang
 
 If I had to describe R in one word, it would be: `tidyverse`. It has made research tasks - wrangling data, visualizing outcomes, iterating from idea to code - painless. In fact, it’s a joy. I’ll explain <strong>why R is for Research</strong> using the <a href="https://www.business-science.io/r-cheatsheet">Ultimate R Cheat Sheet</a>, a one-stop shop for the R-ecosystem.
 
-<a href="https://www.business-science.io/r-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/R_Workflow.png" /></a>
+<p class="text-center">
+  <a href="https://www.business-science.io/r-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/R_Workflow.png" /></a>
+</p>
 <br>
 
 When starting with R, Tidyverse is an ideal place to begin your journey. This is the formalized set of packages and tools that have a consistently structured programming interface, as opposed to the base version of R that was notably more complex and less user friendly.
 
+<p class="text-center">
 <a href="https://www.business-science.io/r-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/R_Workflow_Detail.png" /></a>
+</p>
 
 We see many smaller packages that tackle specific problems. The following are the most important packages:
 
@@ -85,12 +89,16 @@ This is a real strength for the Python language because we can do crazy cool thi
 
 But, how much does this apply to my daily life? Around zero. Why? Because I’m a business analyst and data scientist that works with SQL databases. I’m more interested in how Python will help me better mine for information and productionalize the results.
 
+<p class="text-center">
 <a href="https://www.business-science.io/python-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/Python_Workflow.png"/></a>
+</p>
 <br>
 
 Let’s check out the Python Ecosystem using the <a href="https://www.business-science.io/python-cheatsheet">Ultimate Python Cheat Sheet</a> (note that this is different from the <a href="https://www.business-science.io/r-cheatsheet">R cheat sheet</a> shown earlier). 
 
+<p class="text-center">
 <a href="https://www.business-science.io/python-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/Python_Workflow_Detail.png"/></a>
+</p>
 <br>
 
 We see that there’s Pandas for essentially everything related to import, tidying and data wrangling. So what is Pandas? Pandas is an <strong>object-oriented tool</strong> for data wrangling in Python. 
@@ -99,15 +107,19 @@ We see that there’s Pandas for essentially everything related to import, tidyi
 
 While programmers love pandas, business analysts may initially struggle with the object-oriented (<em>pythonic</em>) way of having Data Frames with methods. 
 
-`customer_counts_df = df.group_by(‘customer_id’).value_counts()`
+```
+customer_counts_df = df.group_by(‘customer_id’).value_counts()
+```
 
 Everything in Python is an object, and we call these methods (e.g. group_by, and value_counts) on the object. This call doesn’t seem too bad. But we are normally trying to do many more wrangling operations. It gets very challenging, less readable, and more complex.
 
 Conversely, in R using the tidyverse we use a different syntax with a pipe (`%>%`). This is very similar to SQL and the flow of data wrangling how a user thinks.
 
-`customer_counts_tbl <- df %>%
+```
+customer_counts_tbl <- df %>%
     group_by(customer_id) %>%
-    summarize(count = n())`
+    summarize(count = n())
+```
 
 
 This tidyverse data wrangling workflow makes it often much easier for analysts to expand the set of operations into 10 or more data wrangling commands. Remember, the challenge isn’t typing code, it’s turning your thoughts into code. This is where the tidyverse is really powerful.
