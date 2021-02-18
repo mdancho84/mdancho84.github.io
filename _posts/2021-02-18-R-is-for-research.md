@@ -5,7 +5,7 @@ date: 2021-02-18 08:00:00
 excerpt: "Both R and Python are great. We’ll showcase some of the strengths of each language in this article by showcasing where the major development efforts are within each ecosystem."
 author: "Matt Dancho and Jarrell Chalmers"
 categories: [Business]
-tags: [Learn-R]
+tags: [R-Bloggers, Learn-R, Learn-Python, Teams]
 image: 2021-02-18-R-is-for-research/Join_Forces_meme.png
 image_preview: 2021-02-18-R-is-for-research/Matt Dancho and Jarrell Chalmers
 ---
