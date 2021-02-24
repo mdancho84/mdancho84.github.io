@@ -17,7 +17,7 @@ image_preview: 2021-02-18-R-is-for-research/Join_Forces_meme_preview.png
 
 <br>
 
-Both R and Python are great. We’ll showcase some of the strengths of each language in this article by showcasing where the major development efforts are within each ecosystem. 
+Both R and Python are great. We’ll showcase some of the strengths of each language in this article by showcasing where the major development efforts are within each ecosystem.
 
 <h2>R is for Research</h2>
 
@@ -26,22 +26,26 @@ Both R and Python are great. We’ll showcase some of the strengths of each lang
 
 If I had to describe R in one word, it would be: `tidyverse`. It has made research tasks - wrangling data, visualizing outcomes, iterating from idea to code - painless. In fact, it’s a joy. I’ll explain <strong>why R is for Research</strong> using the <a href="https://www.business-science.io/r-cheatsheet">Ultimate R Cheat Sheet</a>, a one-stop shop for the R-ecosystem.
 
-<a href="https://www.business-science.io/r-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/R_Workflow.png" /></a>
+<p class="text-center">
+  <a href="https://www.business-science.io/r-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/R_Workflow.png"  style="max-width:100%;"/></a>
+</p>
 <br>
 
 When starting with R, Tidyverse is an ideal place to begin your journey. This is the formalized set of packages and tools that have a consistently structured programming interface, as opposed to the base version of R that was notably more complex and less user friendly.
 
-<a href="https://www.business-science.io/r-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/R_Workflow_Detail.png" /></a>
+<p class="text-center">
+<a href="https://www.business-science.io/r-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/R_Workflow_Detail.png"  style="max-width:100%;"/></a>
+</p>
 
 We see many smaller packages that tackle specific problems. The following are the most important packages:
 
 <h3>Dplyr &amp; ggplot2</h3>
 
-Two great packages in R that you’ll make daily decisions from are dplyr and ggplot2, which amongst other things, are great for <strong>data manipulation and visualization</strong>. These are the two most important skills a data scientist or data analyst can have. 
+Two great packages in R that you’ll make daily decisions from are dplyr and ggplot2, which amongst other things, are great for <strong>data manipulation and visualization</strong>. These are the two most important skills a data scientist or data analyst can have.
 
 <h3>Rmarkdown</h3>
 
-One of the most exceptional aspects of R is without a doubt Rmarkdown, which is a framework for creating <strong>reproducible reports</strong>, presentations, blogs, journals and more! Imagine having a report that runs itself, and creates an easily shareable HTML page or PDF to share with your team. Definitely a more streamlined approach than hundreds of clicks in Excel every Monday morning. 
+One of the most exceptional aspects of R is without a doubt Rmarkdown, which is a framework for creating <strong>reproducible reports</strong>, presentations, blogs, journals and more! Imagine having a report that runs itself, and creates an easily shareable HTML page or PDF to share with your team. Definitely a more streamlined approach than hundreds of clicks in Excel every Monday morning.
 
 <h3>Shiny</h3>
 
@@ -49,7 +53,7 @@ Shiny is another framework within R that is used to create <strong>interactive w
 
 <h3>Where R is Growing</h3>
 
-Next, if we scroll through to the “Special Topics Page”, we can see the R ecosystem is growing. This is a key feature that distinguishes the R Ecosystem from the Python Ecosystem. 
+Next, if we scroll through to the “Special Topics Page”, we can see the R ecosystem is growing. This is a key feature that distinguishes the R Ecosystem from the Python Ecosystem.
 
 <img src="/assets/2021-02-18-R-is-for-research/Special_Topics.png">
 
@@ -64,11 +68,11 @@ We can see that R has expanded into:
 
 <h3>What is R missing?</h3>
 
-There is noticeably a gap in the Production. R has `Shiny` (Apps) and `Plumber` (APIs, not shown), but Automation Tools like Airflow and Cloud Software Development Kits (SDKs) are primarily available in Python. 
+There is noticeably a gap in the Production. R has `Shiny` (Apps) and `Plumber` (APIs, not shown), but Automation Tools like Airflow and Cloud Software Development Kits (SDKs) are primarily available in Python.
 
 <h3>R Overall</h3>
 
-R is really something special when doing research because of the tidyverse, which streamlines data wrangling and visualization. Honestly, you’ll be 3-5X more productive doing data wrangling in R once you become proficient with the tidyverse. 
+R is really something special when doing research because of the tidyverse, which streamlines data wrangling and visualization. Honestly, you’ll be 3-5X more productive doing data wrangling in R once you become proficient with the tidyverse.
 
 
 
@@ -78,36 +82,44 @@ Python is amazing too, but for different reasons. Let’s take a Python Package 
 
 <img src="/assets/2021-02-18-R-is-for-research/OpenCV_Meme.png"/>
 
-This is a real strength for the Python language because we can do crazy cool things like Object Detection with OpenCV. 
+This is a real strength for the Python language because we can do crazy cool things like Object Detection with OpenCV.
 
 <img src="/assets/2021-02-18-R-is-for-research/Object_Detection.png"/>
 <br>
 
 But, how much does this apply to my daily life? Around zero. Why? Because I’m a business analyst and data scientist that works with SQL databases. I’m more interested in how Python will help me better mine for information and productionalize the results.
 
-<a href="https://www.business-science.io/python-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/Python_Workflow.png"/></a>
+<p class="text-center">
+<a href="https://www.business-science.io/python-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/Python_Workflow.png" style="max-width:100%;"/></a>
+</p>
 <br>
 
-Let’s check out the Python Ecosystem using the <a href="https://www.business-science.io/python-cheatsheet">Ultimate Python Cheat Sheet</a> (note that this is different from the <a href="https://www.business-science.io/r-cheatsheet">R cheat sheet</a> shown earlier). 
+Let’s check out the Python Ecosystem using the <a href="https://www.business-science.io/python-cheatsheet">Ultimate Python Cheat Sheet</a> (note that this is different from the <a href="https://www.business-science.io/r-cheatsheet">R cheat sheet</a> shown earlier).
 
-<a href="https://www.business-science.io/python-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/Python_Workflow_Detail.png"/></a>
+<p class="text-center">
+<a href="https://www.business-science.io/python-cheatsheet"><img src="/assets/2021-02-18-R-is-for-research/Python_Workflow_Detail.png"  style="max-width:100%;"/></a>
+</p>
 <br>
 
-We see that there’s Pandas for essentially everything related to import, tidying and data wrangling. So what is Pandas? Pandas is an <strong>object-oriented tool</strong> for data wrangling in Python. 
+We see that there’s Pandas for essentially everything related to import, tidying and data wrangling. So what is Pandas? Pandas is an <strong>object-oriented tool</strong> for data wrangling in Python.
 
 <h3>Pandas vs Tidyverse</h3>
 
-While programmers love pandas, business analysts may initially struggle with the object-oriented (<em>pythonic</em>) way of having Data Frames with methods. 
+While programmers love pandas, business analysts may initially struggle with the object-oriented (<em>pythonic</em>) way of having Data Frames with methods.
 
-`customer_counts_df = df.group_by(‘customer_id’).value_counts()`
+```
+customer_counts_df = df.group_by(‘customer_id’).value_counts()
+```
 
 Everything in Python is an object, and we call these methods (e.g. group_by, and value_counts) on the object. This call doesn’t seem too bad. But we are normally trying to do many more wrangling operations. It gets very challenging, less readable, and more complex.
 
 Conversely, in R using the tidyverse we use a different syntax with a pipe (`%>%`). This is very similar to SQL and the flow of data wrangling how a user thinks.
 
-`customer_counts_tbl <- df %>%
+```
+customer_counts_tbl <- df %>%
     group_by(customer_id) %>%
-    summarize(count = n())`
+    summarize(count = n())
+```
 
 
 This tidyverse data wrangling workflow makes it often much easier for analysts to expand the set of operations into 10 or more data wrangling commands. Remember, the challenge isn’t typing code, it’s turning your thoughts into code. This is where the tidyverse is really powerful.
@@ -126,7 +138,7 @@ We can see that Python has well-developed Production ML-oriented tools:
 - Deep Learning and Computer Vision - `PyTorch`, `TensorFlow`, `MXNet`, `OpenCV`
 - NLP - `spaCy`, `NLTK`
 
-These production-oriented tools make it easier to work with others that interact with cloud and operations as part of a larger IT team because they are already in Python. No need to include R and any extra dependencies into a production system. 
+These production-oriented tools make it easier to work with others that interact with cloud and operations as part of a larger IT team because they are already in Python. No need to include R and any extra dependencies into a production system.
 
 <h3>Python Overall</h3>
 
@@ -150,7 +162,7 @@ The decision can be challenging because they <strong>both Python and R have clea
 
 <img src="/assets/2021-02-18-R-is-for-research/Work_Together_meme.png"/>
 
-One thing I haven’t mentioned is that <strong>I’m building a course</strong> that teaches Python from an R-users perspective. The core idea is that Python can be a tremendous asset, and being able to use tools like R’s reticulate to communicate between R and Python can make you a real asset to a data science team. 
+One thing I haven’t mentioned is that <strong>I’m building a course</strong> that teaches Python from an R-users perspective. The core idea is that Python can be a tremendous asset, and being able to use tools like R’s reticulate to communicate between R and Python can make you a real asset to a data science team.
 <a href="https://mailchi.mp/business-science/r-python-teams">Join the R/Python Teams course waitlist</a>.
 
 <strong>This waitlist is for:</strong>
