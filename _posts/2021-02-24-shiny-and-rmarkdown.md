@@ -2,7 +2,7 @@
 layout: post
 title: "Add Shiny to Rmarkdown"
 date:   2021-02-24 08:00:00
-excerpt: "Exploratory Data Analysis is what every data scientist does to understand actionable insights from the data. This process used to take forever. Not anymore..."
+excerpt: "An R web framework with a HUGE ECOSYSTEM of interactive widgets, themes, and customizable user interfaces called the Shinyverse. We use Shiny to make our R Markdown Report interactive."
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Shiny, Rmarkdown, Reports]
