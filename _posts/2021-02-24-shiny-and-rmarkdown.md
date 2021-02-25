@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Add Shiny to Rmarkdown"
+title: "How to Add Shiny to Rmarkdown"
 date:   2021-02-24 08:00:00
-excerpt: "An R web framework with a HUGE ECOSYSTEM of interactive widgets, themes, and customizable user interfaces called the Shinyverse. We use Shiny to make our R Markdown Report interactive."
+excerpt: "Shiny is an R web framework with a HUGE ECOSYSTEM of interactive widgets, themes, and customizable user interfaces called the Shinyverse. In this article, we use Shiny to make our R Markdown Report interactive."
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Shiny, Rmarkdown, Reports]
