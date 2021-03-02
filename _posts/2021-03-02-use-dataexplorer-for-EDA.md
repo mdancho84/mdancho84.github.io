@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Use DataExplorer for EDA"
+title: "Super-FAST EDA with DataExplorer"
 date:   2021-03-02 07:00:00
-excerpt: "Did you know most Data Scientists spend 80% of their time just trying to understand and prepare data for analysis? R has an Insane Exploratory Data Analysis productivity-enhancer. It's called DataExplorer​."
+excerpt: "Did you know most Data Scientists spend 80% of their time just trying to understand and prepare data for analysis? R has an Insane Exploratory Data Analysis productivity-enhancer. It's called DataExplorer."
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, DataExplorer]
