@@ -106,7 +106,6 @@ Here's the low-down on which functions you'll need to learn to implement differe
 3. __Average Ensembles__: Use `ensemble_average()` to build simple average and median ensembles. No decisions necessary, but accuracy may be sub-optimal.
 
 <br>
-{% include cta_rtrack.html %}
 
 
 # Ensemble Tutorial<br><small>Forecasting with Weighted Ensembles</small> {#ensemble-tutorial}

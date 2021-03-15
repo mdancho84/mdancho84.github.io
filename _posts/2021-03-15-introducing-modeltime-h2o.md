@@ -46,18 +46,9 @@ Modeltime H2O is part of a __growing ecosystem__ of Modeltime forecasting packag
 
 # Modeltime H2O <br><small>The <strong>H2O AutoML</strong> backend for Modeltime</small>
 
-Modeltime H2O provides an H2O backend to the Modeltime Forecasting Ecosystem. The main algorithm is __H2O AutoML__, an automatic machine learning library that is built for speed and scale. The `modeltime.h2o` package is not on CRAN yet (though it should be sometime in the next 2 weeks). Until then, you can install it with this:
+Modeltime H2O provides an H2O backend to the Modeltime Forecasting Ecosystem. The main algorithm is __H2O AutoML__, an automatic machine learning library that is built for speed and scale. 
 
-``` r
-# Install Modeltime H2O Development Version
-devtools::install_github("business-science/modeltime.h2o")
-```
-
-
-
-# What's Possible <br><small>This is <strong>exciting</strong></small>
-
-With the Modeltime Ecosystem, it's easy to forecast at scale. This forecast was created with __H2O AutoML__. We'll make this forecast in our short tutorial. 
+This forecast was created with __H2O AutoML__. We'll make this forecast in our short tutorial. 
 
 ![H2O AutoML Forecast](/assets/2021-03-15-modeltime-h2o/h2o_forecast_plot.png)
 
@@ -65,15 +56,12 @@ With the Modeltime Ecosystem, it's easy to forecast at scale. This forecast was 
 
 # Getting Started with Modeltime H2O {#modeltime-h2o-tutorial}
 
-<img src="/assets/2021-03-15-modeltime-h2o/logo.png" width="147" height="170" align="right"/>
-
 Forecasting with `modeltime.h2o` made easy! This short tutorial shows how you can use:
 
 -   **H2O AutoML** for forecasting implemented via `automl_reg()`. This function trains and cross-validates multiple machine learning and deep learning models (XGBoost GBM, GLMs, Random Forest, GBMs...) and then trains two Stacked Ensembled models, one of all the models, and one of only the best models of each kind. Finally, the best model is selected based on a stopping metric. And we take care of all this for you!
 
 -   **Save & Load Models** functionality to ensure the persistence of your models.
 
-{% include cta_rtrack.html %}
 
 ## Get the Cheat Sheet
 
@@ -88,8 +76,14 @@ As you go through this tutorial, it may help to use the [Ultimate R Cheat Sheet]
 
 ## Libraries
 
-Load the following libraries:
+The `modeltime.h2o` package is not on CRAN yet (though it should be sometime in the next 2 weeks). Until then, you can install it with this:
 
+{% highlight r %}
+# Install Modeltime H2O Development Version
+devtools::install_github("business-science/modeltime.h2o")
+{% endhighlight %}
+
+Load the following libraries:
 
 {% highlight r %}
 library(tidymodels)
