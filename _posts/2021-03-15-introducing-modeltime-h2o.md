@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introducing Modeltime H2O: Forecasting with H2O AutoML"
+title: "Introducing Modeltime H2O: Automatic Forecasting with H2O AutoML"
 date:   2021-03-15 06:20:01
 excerpt: "I'm super excited to introduce modeltime.h2o, an H2O AutoML backend for forecasting"
 author: "Matt Dancho and Alberto González Almuiña"
