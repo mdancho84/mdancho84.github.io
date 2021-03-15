@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Assess Your DATA QUALITY in R"
+title: "Assess Your DATA QUALITY in R with skimr"
 date:   2021-03-09 07:00:00
 excerpt: "Skimr is my go-to R package for fast data quality assessment, and Skimr is my first step in exploratory data analysis. Before I do anything else, I check data quality with skimr."
 author: "Matt Dancho"

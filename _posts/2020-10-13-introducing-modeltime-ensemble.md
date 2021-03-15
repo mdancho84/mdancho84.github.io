@@ -12,11 +12,39 @@ image_preview: 2020-10-13-modeltime-ensemble/modeltime-ensemble.jpg
 
 
 
-I'm SUPER EXCITED to introduce `modeltime.ensemble`, the time series ensemble extension to `modeltime`. [This tutorial](#) introduces our new R Package, Modeltime Ensemble, which makes it easy to __perform stacked forecasts that improve forecast accuracy.__ If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will become the time-series expert for your organization by learning `modeltime`, `modeltime.ensemble`, and `timetk`.
+I'm SUPER EXCITED to introduce `modeltime.ensemble`. Modeltime Ensemble implements __three competition-winning forecasting strategies.__ [This article (recently updated)](#) introduces Modeltime Ensemble, which makes it easy to perform blended and stacked forecasts that improve forecast accuracy. 
+
+- We'll quickly introduce you to the __growing modeltime ecosystem.__ 
+- We'll explain __what Modeltime Ensemble does.__
+- Then, we'll do a [Modeltime Ensemble Forecast Tutorial](#ensemble-tutorial) using the `modeltime.ensemble` 
+
+If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will become the time-series expert for your organization by learning `modeltime`, `modeltime.ensemble`, and `timetk`.
 
 {% include forecasting-software-articles.md %}
 
-# Modeltime Ensemble <br><small>The time series ensemble extension to Modeltime</small>
+# Meet the Modeltime Ecosystem <br><small>A <strong>growing</strong> ecosystem for tidymodels forecasting</small>
+
+<div class="pull-right" style="width:60%; margin-left:20px; margin-bottom:20px;">
+  <a href="#" target="_blank">
+  <img class="img-responsive" style="border:none !important;" src="/assets/2021-03-15-modeltime-h2o/modeltime_ecosystem.jpg">
+  </a>
+</div>
+
+Modeltime Ensemble is part of a __growing ecosystem__ of Modeltime forecasting packages. The main purpose of the Modeltime Ecosystem is to develop scalable forecasting systems. 
+
+- [Modeltime (Machine Learning, Forecasting Workflow)](https://business-science.github.io/modeltime/)
+
+- [Modeltime H2O (AutoML)](https://business-science.github.io/modeltime.h2o/)
+
+- [Modeltime GluonTS (Deep Learning)](https://business-science.github.io/modeltime.gluonts/)
+
+- [Modeltime Ensemble (Blending Forecasts)](https://business-science.github.io/modeltime.ensemble/)
+
+- [Modeltime Resample (Backtesting)](https://business-science.github.io/modeltime.resample/)
+
+- [Timetk (Data Transformation, Feature Engineering, Time Series Visualization)](https://business-science.github.io/timetk/)
+
+# Modeltime Ensemble <br><small>The time series <strong>ensemble API</strong> for Modeltime</small>
 
 <div class="pull-right" style="width:25%; margin-left:20px; margin-bottom:20px;">
   <a href="#" target="_blank">
@@ -24,21 +52,32 @@ I'm SUPER EXCITED to introduce `modeltime.ensemble`, the time series ensemble ex
   </a>
 </div>
 
-Three months ago I introduced `modeltime`, a new R package that [___speeds up forecasting experimentation and model selection with Machine Learning___](/code-tools/2020/06/29/introducing-modeltime.html) (e.g. XGBoost, GLMNET, Prophet, Prophet Boost, ARIMA, and ARIMA Boost). 
+Three months ago I introduced `modeltime`, a new R package that [speeds up forecasting experimentation and model selection with Machine Learning](/code-tools/2020/06/29/introducing-modeltime.html) (XGBoost, GLMNET, Prophet, Prophet Boost, ARIMA, and ARIMA Boost). Fast-forward to now. I'm thrilled to announce the first expansion to the Modeltime Ecosystem: `modeltime.ensemble`.
 
-<span style="color:blue">Fast-forward to now.</span> I'm thrilled to announce the first extension to Modeltime: `modeltime.ensemble`.
+Modeltime Ensemble is a cutting-edge package that integrates __competition-winning__ time series ensembling strategies:
 
-Modeltime Ensemble is a cutting-edge package that integrates ___3 competition-winning time series ensembling strategies___:
+1. Stacked Meta-Learners
 
-1. __Super Learners (Meta-Learners):__ Use `modeltime_fit_resamples()` and `ensemble_model_spec()` to create super learners (models that learn from the predictions of sub-models)
+2. Weighted Ensembles 
 
-2. __Weighted Ensembles__: Use `ensemble_weighted()` to create weighted ensembles. 
+3. Average Ensembles 
 
-3. __Average Ensembles__: Use `ensemble_average()` to build simple average and median ensembles. 
 
-#### High-Performance Forecasting Stacks
 
-Using these `modeltime.ensemble`, you can build high-performance forecasting stacks. Here's a __Multi-Level Stack__, which won the [_Kaggle Grupo Bimbo Inventory Demand Forecasting Competition_](https://www.kaggle.com/c/grupo-bimbo-inventory-demand) (I teach this technique in my [High-Performance Time Series Forecasting Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting)). 
+## What is a Stacked Ensemble?
+
+Using `modeltime.ensemble`, you can build something called a Stacked Ensemble. Let's break this down:
+
+- __An ensemble__ is just a combination of models. We can combine them in many ways. 
+
+- One method is __stacking__, which typically uses a "meta-learning algorithm" to learn how to combine "sub-models" (the lower level models used as inputs to the stacking algorithm)
+
+<iframe width="100%" height="455" src="https://www.youtube.com/embed/6YdYMvclOV0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Stacking Diagram
+
+Here's a __Multi-Level Stack__, which won the [_Kaggle Grupo Bimbo Inventory Demand Forecasting Competition_](https://www.kaggle.com/c/grupo-bimbo-inventory-demand).  
 
 ![Time Series Forecast Stacking](/assets/2020-10-13-modeltime-ensemble/modeltime-ensemble.jpg)
 
@@ -46,29 +85,66 @@ Using these `modeltime.ensemble`, you can build high-performance forecasting sta
 The Multi-Level Stacked Ensemble that won the Kaggle Grupo Bimbo Inventory Demand Challenge
 </p>
 
-# Ensemble Tutorial<br><small>Forecasting Product Sales with Average Ensembles</small> 
+The __multi-level stack__ can be broken down:
+
+1. __Level 1 - Sub-Models.__ Includes models like ARIMA, Elastic Net, Support Vector Machines, or XGBoost. These models each predict independently on the time series data. 
+
+2. __Level 2 - Stacking Algorithms.__ Stacking algorithms learn how to combine each of the sub-models by training a "meta-model" on the predictions from the sub-models. 
+
+3. __Level 3 - Weighted Stacking.__ Weighted stacking is a simple approach that is fast and effective. It's a very simple approach where we apply a weighting and average the predictions of the incoming models. We can use this approach on sub-models, stacked models, or even a combination of stacked and sub-models. We decide the weighting. 
+
+I teach how to do a Multi-Level Stack in Module 14 of my [High-Performance Time Series Forecasting Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting). 
+
+## What Modeltime Ensemble Functions do I need to know?
+
+Here's the low-down on which functions you'll need to learn to implement different strategies. I teach these in in Module 14 of my [High-Performance Time Series Forecasting Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting).
+
+1. __Stacked Meta-Learners:__ Use `modeltime_fit_resamples()` to create sub-model predictions. Use `ensemble_model_spec()` to create super learners (models that learn from the predictions of sub-models).
+
+2. __Weighted Ensembles__: Use `ensemble_weighted()` to create weighted ensemble blends. You choose the weights.
+
+3. __Average Ensembles__: Use `ensemble_average()` to build simple average and median ensembles. No decisions necessary, but accuracy may be sub-optimal.
+
+<br>
+{% include cta_rtrack.html %}
 
 
+# Ensemble Tutorial<br><small>Forecasting with Weighted Ensembles</small> {#ensemble-tutorial}
 
-__Today, I'll cover forecasting Product Sales with Average and Weighted Ensembles__, which are fast to implement and can have good performance (although super-learner's tend to have better performance).
+Today, I'll cover forecasting Product Sales Demand with __Average and Weighted Ensembles__, which are fast to implement and can have good performance (although stacked ensembles tend to have better performance). 
+
+## Get the Cheat Sheet
+
+As you go through this tutorial, it may help to use the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html). Page 3 Covers the Modeltime Forecasting Ecosystem with links to key documentation. 
+
+<a href="https://www.business-science.io/r-cheatsheet.html" target="_blank">
+<img src="/assets/2021-03-15-modeltime-h2o/cheatsheet_forecasting.jpg" style="width:100%;">
+</a>
+<a href="https://www.business-science.io/r-cheatsheet.html" target="_blank">
+<p class="date text-center">Forecasting Ecosystem Links (Ultimate R Cheat Sheet)</p>
+</a>
+
+## Modeltime Ensemble Diagram
+
+Here's an ensemble diagram of what we are going to accomplish. 
 
 ![Weighted Stacking with Modeltime Ensemble](/assets/2020-10-13-modeltime-ensemble/weighted_stacking.jpg)
 
 <p class="text-center date">
-Weighted Stacking with Modeltime Ensemble
+Weighted Stacking, Modeltime Ensemble Diagram
 </p>
 
-__Ensemble Key Concepts:__
+## Modeltime Ensemble Functions used in this Tutorial
 
-The idea is that we have several sub-models (Level 1) that make predictions. We can then take these predictions and combine them using a simple average (mean), median average, or a weighted average:
+The idea is that we have several sub-models (Level 1) that make predictions. We can then take these predictions and blend them using weighting and averaging techniques (Level 2):
 
 - __Simple Average:__ Weights all models with the same proportion. Selects the average for each timestamp. Use `ensemble_average(type = "mean")`. 
 - __Median Average__: No weighting. Selects prediction using the centered value for each time stamp. Use `ensemble_average(type = "median")`. 
 - __Weighted Average:__ User defines the weights (loadings). Applies a weighted average at each of the timestamps. Use `ensemble_weighted(loadings = c(1, 2, 3, 4))`.
 
-__More Advanced Ensembles:__
+__More Advanced Ensembles: Stacked Meta-Learners__
 
-The average and weighted ensembles are the simplest approaches to ensembling. One method that Modeltime Ensemble has integrated is ___Super Learners.___ We won't cover these in this tutorial. But, I teach them in my [__High-Performance Time Series Course__](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting). 💪
+The average and weighted ensembles are the simplest approaches to ensembling. One method that Modeltime Ensemble has integrated is ___Stacked Meta-Learners___, which learn from the predictions of sub-models. We won't cover stacked meta-learners in this tutorial. But, I teach them in my [__High-Performance Time Series Course__](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting). 💪
 
 
 
@@ -97,9 +173,11 @@ library(tidyverse)
 
 # Get Your Data <br><small>Forecasting Product Sales</small>
 
-<span style="color:blue;">Our Business objective is to forecast the next 12-weeks of Product Sales given 2-year sales history.</span>
+Start with our __Business Objective:__
 
-We'll start with a `walmart_sales_weekly` time series data set that includes Walmart Product Transactions from several stores, which is a small sample of the dataset from [Kaggle Walmart Recruiting - Store Sales Forecasting](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). We'll simplify the data set to a univariate time series with columns, "Date" and "Weekly_Sales" from Store 1 and Department 1.
+> <span style="color:blue;">Our Business objective is to forecast the next 12-weeks of Product Sales Demandgiven 2-year sales history.</span>
+
+We'll use the `walmart_sales_weekly` time series data set that includes Walmart Product Transactions from several stores, which is a small sample of the dataset from [Kaggle Walmart Recruiting - Store Sales Forecasting](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). We'll simplify the data set to a univariate time series with columns, "Date" and "Weekly_Sales" from Store 1 and Department 1.
 
 
 {% highlight r %}
@@ -1349,28 +1427,44 @@ The `modeltime.ensemble` package functionality is much more feature-rich than wh
 
 Here's what I didn't cover:
 
-- __Super-Learners:__ We can make use resample predictions from our sub-models as inputs to a meta-learner. This can result is significantly better accuracy (5% improvement is what we achieve in my Time Series Course).   
+- __Scalable Forecasting with Ensembles__: What happens when your data has more than one time series. This is called scalable forecasting, and we need to use special techniques to ensemble these models. 
 
-- __Multi-Level Modeling:__ This is the strategy that won the Grupo Bimbo Inventory Demand Forecasting Challenge where multiple layers of esembles are used.
+- __Stacked Super-Learners:__ We can make use resample predictions from our sub-models as inputs to a meta-learner. This can result is significantly better accuracy (5% improvement is what we achieve in my Time Series Course).   
+
+- __Multi-Level Stacking:__ This is the strategy that won the Grupo Bimbo Inventory Demand Forecasting Challenge where multiple layers of ensembles are used.
 
 - __Refitting Sub-Models and Meta-Learners:__ Refitting is special task that is needed prior to forecasting future data. Refitting requires careful attention to control the sub-model and meta-learner retraining process. 
 
-I teach each of these techniques and strategies so you __become the time series expert for your organization.__ [Here's how.](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) 👇
+### So how are you ever going to <span style='color:#18bc9c'>learn time series analysis and forecasting?</span>
+
+You're probably thinking:
+
+- There's so much to learn
+- My time is precious
+- I'll never learn time series
+
+I have good news that will put those doubts behind you. 
+
+You can learn time series analysis and forecasting in hours with my [state-of-the-art time series forecasting course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting/). 👇
 
 
 {% include course_promo_time_series.md %}
 
-{% include cta_rtrack.html %}
 
-<br>
+# Project Roadmap, Future Work, and Contributing to Modeltime
 
-# Documentation
+Modeltime is a growing ecosystem of packages that work together for forecasting and time series analysis. Here are several useful links:
 
-More information on the `modeltime` ecosystem can be found in the software documentation [Modeltime](https://business-science.github.io/modeltime/index.html), [Modeltime Ensemble](https://business-science.github.io/modeltime.ensemble/index.html), and
-[Timetk](https://business-science.github.io/timetk/index.html).
+- [Modeltime Ecosystem Roadmap on GitHub](https://github.com/business-science/modeltime/issues/5) - See the past development and future trajectory. Did we miss something? Make a suggestion. 
+
+- [Business Science data science blog](https://mailchi.mp/business-science/blog-registration) - I announce all Modeltime Software happenings
 
 # Have questions about Modeltime Ensemble?
 
 Make a comment in the chat below. 👇
 
 And, if you plan on using `modeltime.ensemble` for your business, it's a no-brainer - [Take my Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting). 
+
+{% include cta_rtrack.html %}
+
+<br>

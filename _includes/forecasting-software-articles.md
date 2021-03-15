@@ -1,13 +1,19 @@
 
 <br>
 
-#### Forecasting and Time Series Software Announcements
+#### Time Series Forecasting Article Guide:
 
-Articles on the `modeltime` and `timetk` forecasting and time series ecosystem. 
+This article is part of a series of software announcements on the Modeltime Forecasting Ecosystem. 
 
-- [_Introducing Modeltime Ensemble: Time Series Forecast Stacking_](/code-tools/2020/10/13/introducing-modeltime-ensemble.html)
-- [_Introducing Modeltime: Tidy Time Series Forecasting using Tidymodels_](/code-tools/2020/06/29/introducing-modeltime.html) 
-- [_Timetk 2.0.0: Visualize Time Series Data in 1-Line of Code_](/code-tools/2020/06/05/timetk-vesion-2-announcement.html)
+1. [(__Start Here__) Modeltime: Tidy Time Series Forecasting using Tidymodels](/code-tools/2020/06/29/introducing-modeltime.html) 
+
+2. [Modeltime H2O: Forecasting with H2O AutoML](/code-tools/2021/03/15/introducing-modeltime-h2o.html)
+
+3. [Modeltime Ensemble: Time Series Forecast Stacking](/code-tools/2020/10/13/introducing-modeltime-ensemble.html)
+
+4. [Timetk: Time Series Visualization](/code-tools/2020/06/05/timetk-vesion-2-announcement.html)
+
+5. [Time Series Forecasting Course: Now Available](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting)
 
 <hr>
 <center>
@@ -20,3 +26,4 @@ Articles on the `modeltime` and `timetk` forecasting and time series ecosystem.
 </p>
 </center>
 <hr>
+

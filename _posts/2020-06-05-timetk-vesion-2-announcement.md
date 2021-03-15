@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "timetk 2.0.0: Visualize Time Series Data in 1-Line of Code"
+title: "Timetk: Visualize Time Series Data (in 1-Line of Code)"
 date:   2020-06-05 09:24:01
 excerpt: "Timetk Version 2.0.0 has just been released. Here's what's new for time series data analysis."
 author: "Matt Dancho"
@@ -13,22 +13,31 @@ image_preview: 2020-06-05-timetk/timetk_version_2.jpg
 
 
 
-__I'm ECSTATIC 😃 to announce the release of `timetk` version 2.0.0.__ This is a monumental release that significantly expands the functionality of `timetk` to go WAY BEYOND the original goals of the package. Now, the package is a ___full-featured time series visualization, data wrangling, and preprocessing toolkit.___ 
+__I'm ECSTATIC 😃 to announce the release of `timetk` version 2.0.0.__ This is a monumental release that significantly expands the functionality of `timetk` to go way beyond the original goals of the package. Now, the package is a full-featured time series visualization, data wrangling, and feature engineering toolkit.
+
+- We'll first give you a little background on why `timetk` exists
+- Then we'll do a short demo of what you can do with `timetk` (in 1-line of code)
+
+If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will learn High-Performance Time Series Analysis and Forecasting.
 
 {% include forecasting-software-articles.md %}
 
 
 
 
-## Background
+# Why timetk for time series? 
 
-I'll go into detail about [what you can do in 1-line of code](#single-line-of-code), and I have several more articles coming on how to use several of the new features. __But first a little history...__
+I'll go into detail about [what you can do in 1-line of code](#single-line-of-code), and I have several more articles on how to use a [forecasting tool called Modeltime](/code-tools/2020/06/29/introducing-modeltime.html)... __But, first a little history.__
+
+## Fixing the inconsistency problem
 
 Time series has been a passion project for me since my days of forecasting sales and economic data for a manufacturing company I worked for. My one gripe has always been that I had to use 50 different packages (`zoo`, `xts`, `dplyr`, etc) made by 50 different people to perform common data wrangling and visualization analyses. `timetk` solves this problem by making a consistent approach to visualize, wrangle, and preprocess time series data inside the `tidyverse` and `tidymodels` ecosystem. 
 
 With advancements in tidy-time series, the combination of the `tidyverse` and time series is an amazingly powerful concept. I'm not the first one to think of this idea. In fact, Davis Vaughan created `tibbletime` and the "tidyverts" (Rob Hyndman, Earo Wang, and Mitchell O'Hara-Wild) have created a whole forecasting and data wrangling system using a `tsibble` data structure. 
 
-These are amazing packages, but they solve different needs. `tibbletime` focused on data wrangling. The `tidyverts` focused on forecasting at scale using ARIMA and company. 
+These are amazing packages, but they solve different needs. `tibbletime` focused on data wrangling. The `tidyverts` focused on forecasting at scale using ARIMA.
+
+## The timetk difference
 
 <div class="pull-right hidden-xs" style="width:50%; margin-left:20px;">
   <a href="#" target="_blank">
@@ -37,24 +46,24 @@ These are amazing packages, but they solve different needs. `tibbletime` focused
   <p class="date text-center">Visualize, wrangle, and preprocess time series data</p>
 </div>
 
-My needs are different. I need:
+Timetk is different. It's designed for:
 
-- __Interactive visualizations__ for easy data exploration
-- __Time series data wrangling__ for doing time series summarization, filtering, padding, and simple date-based arithmetic
-- __Transformations and preprocessing__ that fit into the NEW `tidymodels` ecosystem (so I can do _Time Series Machine Learning_ in addition to ARIMA forecasting)
+- __Quick interactive visualizations__ for easy data exploration
+- __Time series data wrangling transformations__ for doing time series summarization, filtering, padding, and simple date-based arithmetic inside the `tidyverse` 
+- __Feature engineering and preprocessing__ that work in the `tidymodels` ecosystem so we can do [_Time Series Machine Learning with Modeltime_](/code-tools/2020/06/29/introducing-modeltime.html)
 
 So I created `timetk` version 2.0.0 to solve these needs. 
 
 
 
 
-## Mission
+# The timetk mission
 
 Here's the new _mission_, and what you can do _in 1-line of code_ with `timetk` >= 2.0.0:
 
-> <span style="color:blue;">To make it easy to ___visualize, wrangle and preprocess time series data___ for forecasting and machine learning prediction. </span>
+> <span style="color:blue;">To make it easy to __visualize, wrangle, and feature engineer time series data__ for forecasting and machine learning prediction. </span>
 
-## What Can You Do in 1-Line of Code? {#single-line-of-code}
+# Time Series Visualization <br><small>What can you do in one-line of Code?</small> {#single-line-of-code}
 
 First step, load these R packages.
 
@@ -65,7 +74,7 @@ library(lubridate)
 library(timetk)
 {% endhighlight %}
 
-### Investigate a time series...
+### 1. Investigate a time series
 
 This is fun! In 1 line of code we can visualize a dataset. 
 
@@ -99,7 +108,7 @@ taylor_30_min %>%
 
 Let's pick up the pace. Here's some more amazing visualization capabilities!
 
-### Visualize anomalies...
+### 2. Visualize anomalies
 
 We can visualize anomalies for multiple time series groups. Here we use `group_by()` to group the time series. Note this is a different dataset, `walmart_sales_weekly`.
 
@@ -113,7 +122,7 @@ walmart_sales_weekly %>%
 
 ![plot of chunk unnamed-chunk-4](/figure/source/2020-06-05-timetk-vesion-2-announcement/unnamed-chunk-4-1.png)
 
-### Make a seasonality plot...
+### 3. Make a seasonality plot
 
 We can get seasonality plots. 
 
@@ -125,7 +134,7 @@ taylor_30_min %>%
 
 ![plot of chunk unnamed-chunk-5](/figure/source/2020-06-05-timetk-vesion-2-announcement/unnamed-chunk-5-1.png)
 
-### Inspect autocorrelation, partial autocorrelation (and cross correlations too)...
+### 4. Inspect autocorrelation, partial autocorrelation (and cross correlations too)
 
 And we can search the Autocorrelation and Partial Autocorrelation. 
 
@@ -140,14 +149,22 @@ taylor_30_min %>%
 
 
 
-## Documentation
+## Learning More
 
-I have several more tutorials and a [full time series course](https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon) coming. [Visit the timetk website documentation](https://business-science.github.io/timetk/) for more information and a [complete list of function references](https://business-science.github.io/timetk/reference/index.html). 
+Like `timetk` for time series? We just scratched the surface. Believe me, [the timetk API is extensive.](https://business-science.github.io/timetk/reference/index.html) 
+
+So how are you ever going to __learn time series analysis and forecasting?__ You're probably thinking:
+
+- There's so much to learn
+- My time is precious
+- I'll never learn time series
+
+I have good news that will put those doubts behind you. 
+
+You can learn time series analysis and forecasting in hours with my [state-of-the-art time series forecasting course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting/). 👇
 
 
 {% include course_promo_time_series.md %}
-
-{% include cta_rtrack.html %}
 
 
 # Have questions on using Timetk for time series?
@@ -155,3 +172,6 @@ I have several more tutorials and a [full time series course](https://mailchi.mp
 Make a comment in the chat below. 👇
 
 And, if you plan on using `timetk` for your business, it's a no-brainer - [Join my Time Series Course Waitlist](https://mailchi.mp/business-science/webinars) (It's coming, it's really insane). 
+
+{% include cta_rtrack.html %}
+

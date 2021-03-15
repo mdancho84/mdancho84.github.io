@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Introducing Modeltime H2O: Forecasting with H2O AutoML"
-date:   2021-03-14 06:01:01
+date:   2021-03-15 06:20:01
 excerpt: "I'm super excited to introduce modeltime.h2o, an H2O AutoML backend for forecasting"
-author: "Matt Dancho"
+author: "Matt Dancho and Alberto González Almuiña"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, modeltime, modeltime.h2o]
 image: 2021-03-15-modeltime-h2o/modeltime_ecosystem.jpg
@@ -14,13 +14,14 @@ image_preview: 2021-03-15-modeltime-h2o/modeltime_ecosystem.jpg
 
 I'm SUPER EXCITED to introduce `modeltime.h2o`, the time series forecasting extension to `modeltime` that integrates H2O AutoML (Automatic Machine Learning) as a Modeltime Forecasting Backend. This tutorial [(view the original article here)](#) introduces our new R Package, Modeltime H2O. 
 
-- We'll quickly introduce you to the growing modeltime ecosystem. 
-- Then, we'll forecast with H2O AutoML using the `modeltime.h2o` backend 
+- We'll quickly introduce you to the __growing modeltime ecosystem.__ 
+- Then, we'll [forecast with __H2O AutoML__](#modeltime-h2o-tutorial) using the `modeltime.h2o` backend 
 
 If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will learn the foundations of the growing Modeltime Ecosystem.
 
+{% include forecasting-software-articles.md %}
 
-# Meet the Modeltime Ecosystem
+# Meet the Modeltime Ecosystem <br><small>A <strong>growing</strong> ecosystem for tidymodels forecasting</small>
 
 <div class="pull-right" style="width:60%; margin-left:20px; margin-bottom:20px;">
   <a href="#" target="_blank">
@@ -28,11 +29,9 @@ If you like what you see, I have an [Advanced Time Series Course](https://univer
   </a>
 </div>
 
-Modeltime H2O is part of a __growing ecosystem__ of Modeltime forecasting packages. The main purpose of the Modeltime Ecosystem is to develop scalable forecasting systems. The core packages in the modeltime ecosystem are: 
+Modeltime H2O is part of a __growing ecosystem__ of Modeltime forecasting packages. The main purpose of the Modeltime Ecosystem is to develop scalable forecasting systems. 
 
 - [Modeltime (Machine Learning, Forecasting Workflow)](https://business-science.github.io/modeltime/)
-
-- [Timetk (Data Transformation, Feature Engineering, Time Series Visualization)](https://business-science.github.io/timetk/)
 
 - [Modeltime H2O (AutoML)](https://business-science.github.io/modeltime.h2o/)
 
@@ -42,10 +41,12 @@ Modeltime H2O is part of a __growing ecosystem__ of Modeltime forecasting packag
 
 - [Modeltime Resample (Backtesting)](https://business-science.github.io/modeltime.resample/)
 
+- [Timetk (Data Transformation, Feature Engineering, Time Series Visualization)](https://business-science.github.io/timetk/)
 
-# Modeltime H2O <br><small>The H2O AutoML backend for Modeltime</small>
 
-Modeltime H2O provides an H2O backend to the Modeltime Forecasting Ecosystem. The main algorithm is __H2O AutoML__, and automatic machine learning library that is built for speed and scale. The `modeltime.h2o` package is not on CRAN yet (though it should be sometime in the next 2 weeks). Until then, you can install it with this:
+# Modeltime H2O <br><small>The <strong>H2O AutoML</strong> backend for Modeltime</small>
+
+Modeltime H2O provides an H2O backend to the Modeltime Forecasting Ecosystem. The main algorithm is __H2O AutoML__, an automatic machine learning library that is built for speed and scale. The `modeltime.h2o` package is not on CRAN yet (though it should be sometime in the next 2 weeks). Until then, you can install it with this:
 
 ``` r
 # Install Modeltime H2O Development Version
@@ -60,7 +61,9 @@ With the Modeltime Ecosystem, it's easy to forecast at scale. This forecast was 
 
 ![H2O AutoML Forecast](/assets/2021-03-15-modeltime-h2o/h2o_forecast_plot.png)
 
-# Getting Started with Modeltime H2O 
+
+
+# Getting Started with Modeltime H2O {#modeltime-h2o-tutorial}
 
 <img src="/assets/2021-03-15-modeltime-h2o/logo.png" width="147" height="170" align="right"/>
 
@@ -69,6 +72,19 @@ Forecasting with `modeltime.h2o` made easy! This short tutorial shows how you ca
 -   **H2O AutoML** for forecasting implemented via `automl_reg()`. This function trains and cross-validates multiple machine learning and deep learning models (XGBoost GBM, GLMs, Random Forest, GBMs...) and then trains two Stacked Ensembled models, one of all the models, and one of only the best models of each kind. Finally, the best model is selected based on a stopping metric. And we take care of all this for you!
 
 -   **Save & Load Models** functionality to ensure the persistence of your models.
+
+{% include cta_rtrack.html %}
+
+## Get the Cheat Sheet
+
+As you go through this tutorial, it may help to use the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html). Page 3 Covers the Modeltime Forecasting Ecosystem with links to key documentation. 
+
+<a href="https://www.business-science.io/r-cheatsheet.html" target="_blank">
+<img src="/assets/2021-03-15-modeltime-h2o/cheatsheet_forecasting.jpg" style="width:100%;">
+</a>
+<a href="https://www.business-science.io/r-cheatsheet.html" target="_blank">
+<p class="date text-center">Forecasting Ecosystem Links (Ultimate R Cheat Sheet)</p>
+</a>
 
 ## Libraries
 
@@ -435,7 +451,7 @@ future_tbl <- data_prepared_tbl %>%
 future_prepared_tbl <- bake(prep(recipe_spec), future_tbl)
 {% endhighlight %}
 
-Finally, we use forecast in our future dataset and visualize the results once we had reffited.
+Finally, we use `modeltime_refit()` to re-train our model on the entire dataset. This is a best-practice for improving forecast results. 
 
 
 {% highlight r %}
@@ -481,7 +497,9 @@ refit_tbl <- modeltime_tbl %>%
 ## [4 rows x 6 columns]
 {% endhighlight %}
 
-Let's visualize the final forecast!
+### Let's visualize the final forecast
+
+We can quickly visualize the final forecast with `modeltime_forecast()` and it's plotting utility function, `plot_modeltime_forecast()`.
 
 {% highlight r %}
 refit_tbl %>%
@@ -571,3 +589,6 @@ I'd like to acknowledge several __Business Science University students__ that ar
 Make a comment in the chat below. 👇
 
 And, if you plan on using `modeltime.h2o` for your business, it's a no-brainer - [Join my Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting). 
+
+{% include cta_rtrack.html %}
+

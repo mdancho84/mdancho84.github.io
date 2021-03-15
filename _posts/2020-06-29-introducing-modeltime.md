@@ -12,11 +12,39 @@ image_preview: 2020-06-29-modeltime/forecast_plot.jpg
 
 
 
-I'm beyond excited to introduce `modeltime`, a new time series forecasting package designed to speed up model evaluation, selection, and forecasting. `modeltime` does this by integrating the `tidymodels` machine learning ecosystem of packages into a _streamlined workflow_ for `tidyverse` forecasting. Follow [the updated modeltime article](#) to get started with `modeltime`. If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will become the time-series expert for your organization by learning `modeltime` and `timetk`. 
+I'm beyond excited to introduce `modeltime`, a new time series forecasting package designed to speed up model evaluation, selection, and forecasting. `modeltime` does this by integrating the `tidymodels` machine learning ecosystem of packages into a _streamlined workflow_ for `tidyverse` forecasting. Follow [the updated modeltime article](#) to get started with `modeltime`. 
+
+- We'll first showcase the __Modeltime Ecosystem__ at a glance
+- We'll then explain the benefits of `modeltime`
+- Then we'll go through a full __Modeltime Workflow__ where you'll build Automatic (Prophet, ARIMA), Machine Learning (Elastic Net, Random Forest), and Hybrid (Prophet-XGBoost) Models with Modeltime
+
+If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will become the time-series expert for your organization by learning `modeltime` and `timetk`. 
 
 {% include forecasting-software-articles.md %}
 
-# Modeltime <br><small>The forecasting framework for the tidymodels ecosystem</small>
+# Meet the Modeltime Ecosystem <br><small>A <strong>growing</strong> ecosystem for tidymodels forecasting</small>
+
+<div class="pull-right" style="width:60%; margin-left:20px; margin-bottom:20px;">
+  <a href="#" target="_blank">
+  <img class="img-responsive" style="border:none !important;" src="/assets/2021-03-15-modeltime-h2o/modeltime_ecosystem.jpg">
+  </a>
+</div>
+
+Modeltime is part of a __growing ecosystem__ of Modeltime forecasting packages. The main purpose of the Modeltime Ecosystem is to develop scalable forecasting systems. 
+
+- [Modeltime (Machine Learning, Forecasting Workflow)](https://business-science.github.io/modeltime/)
+
+- [Modeltime H2O (AutoML)](https://business-science.github.io/modeltime.h2o/)
+
+- [Modeltime GluonTS (Deep Learning)](https://business-science.github.io/modeltime.gluonts/)
+
+- [Modeltime Ensemble (Blending Forecasts)](https://business-science.github.io/modeltime.ensemble/)
+
+- [Modeltime Resample (Backtesting)](https://business-science.github.io/modeltime.resample/)
+
+- [Timetk (Data Transformation, Feature Engineering, Time Series Visualization)](https://business-science.github.io/timetk/)
+
+# Modeltime <br><small>The <strong>forecasting framework</strong> for the tidymodels ecosystem</small>
 
 <div class="pull-right" style="width:25%; margin-left:20px; margin-bottom:20px;">
   <a href="#" target="_blank">
@@ -32,7 +60,16 @@ I'm beyond excited to introduce `modeltime`, a new time series forecasting packa
 
 3. __New Time Series Boosted Models__ including Boosted ARIMA (`arima_boost()`) and Boosted Prophet (`prophet_boost()`) that can improve accuracy by applying XGBoost model to the errors  
 
+# Get the Cheat Sheet
 
+As you go through this tutorial, it may help to use the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html). Page 3 Covers the Modeltime Forecasting Ecosystem with links to key documentation. 
+
+<a href="https://www.business-science.io/r-cheatsheet.html" target="_blank">
+<img src="/assets/2021-03-15-modeltime-h2o/cheatsheet_forecasting.jpg" style="width:100%;">
+</a>
+<a href="https://www.business-science.io/r-cheatsheet.html" target="_blank">
+<p class="date text-center">Forecasting Ecosystem Links (Ultimate R Cheat Sheet)</p>
+</a>
 
 # Getting Started <br><small>Let's kick the tires on modeltime</small>
 
@@ -128,7 +165,7 @@ splits %>%
 
 Now for the fun part! Let's make some models using functions from `modeltime` and `parsnip`. 
 
-## Automatic Models
+## 1. Automatic Models
 
 Automatic models are generally modeling approaches that have been automated. This includes "Auto ARIMA" and "Auto ETS" functions from `forecast` and the "Prophet" algorithm from `prophet`. These algorithms have been integrated into `modeltime`. The process is simple to set up:
 
@@ -212,7 +249,7 @@ model_fit_prophet
 
 
 
-## Machine Learning Models
+## 2. Machine Learning Models
 
 Machine learning models are more complex than the automated models. This complexity typically requires a ___workflow___ (sometimes called a _pipeline_ in other languages). The general process goes like this:
 
@@ -312,7 +349,7 @@ workflow_fit_rf <- workflow() %>%
 {% endhighlight %}
 
 
-## New Hybrid Models
+## 3. Hybrid ML Models
 
 I've included several hybrid models (e.g. `arima_boost()` and `prophet_boost()`) that combine both automated algorithms with machine learning. I'll showcase `prophet_boost()` next!
 
@@ -371,7 +408,7 @@ workflow_fit_prophet_boost
 {% endhighlight %}
 
 
-# The Modeltime Workflow <br><small>Speed up model evaluation and selection with modeltime</small>
+# The Modeltime Workflow <br><small><strong>Speed up</strong> model evaluation and selection with modeltime</small>
 
 
 ![Modeltime Workflow](/assets/2020-06-29-modeltime/modeltime_workflow.jpg)
@@ -919,17 +956,27 @@ The `modeltime` package functionality is much more feature-rich than what we've 
 
 Here's what I didn't cover:
 
-- __Feature engineering:__ The art of time series analysis is feature engineering. Modeltime works with cutting-edge time-series preprocessing tools including those in `recipes` and `timetk` packages.  
+- __Feature Engineering:__ The art of time series analysis is feature engineering. Modeltime works with cutting-edge time-series preprocessing tools including those in `recipes` and `timetk` packages.  
 
-- __Hyper parameter tuning:__ ARIMA models and Machine Learning models can be tuned. There's a right and a wrong way (and it's not the same for both types). 
+- __Hyper Parameter Tuning:__ ARIMA models and Machine Learning models can be tuned. There's a right and a wrong way (and it's not the same for both types). 
 
 - __Scalability:__ Training multiple time series groups and automation is a huge need area in organizations. You need to know how to scale your analyses to thousands of time series. 
 
-- __Strengths and weaknesses:__ Did you know certain machine learning models are better for trend, seasonality, but not both? Why is ARIMA way better for certain datasets? When will Random Forest and XGBoost fail?
+- __Strengths and Weaknesses:__ Did you know certain machine learning models are better for trend, seasonality, but not both? Why is ARIMA way better for certain datasets? When will Random Forest and XGBoost fail?
 
-- __Advanced machine learning and deep learning:__ Recurrent Neural Networks (RRNs) have been crushing time series competitions. Will they work for business data? How can you implement them?
+- __Deep Learning:__ Recurrent Neural Networks (RRNs) have been crushing time series competitions. Will they work for business data? How can you implement them?
 
-I teach each of these techniques and strategies so you __become the time series expert for your organization.__ [Here's how.](#time-series-course) 👇
+### So how are you ever going to <span style='color:#18bc9c'>learn time series analysis and forecasting?</span>
+
+You're probably thinking:
+
+- There's so much to learn
+- My time is precious
+- I'll never learn time series
+
+I have good news that will put those doubts behind you. 
+
+You can learn time series analysis and forecasting in hours with my [state-of-the-art time series forecasting course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting/). 👇
 
 
 {% include course_promo_time_series.md %}
@@ -938,34 +985,21 @@ I teach each of these techniques and strategies so you __become the time series 
 
 
 
-# Future Work
+# Project Roadmap, Future Work, and Contributing to Modeltime
 
-I'm just getting started with `modeltime`. The main functionality should not change so you can begin using. Let me know of any issues via [GitHub](https://github.com/business-science/modeltime/issues). Regarding future work, here's a short list of what's coming over the next few months.
+Modeltime is a growing ecosystem of packages that work together for forecasting and time series analysis. Here are several useful links:
 
-### Ensembles and Model Stacking
+- [Modeltime Ecosystem Roadmap on GitHub](https://github.com/business-science/modeltime/issues/5) - See the past development and future trajectory. Did we miss something? Make a suggestion. 
 
-__A top priority on the software roadmap is to include model ensembling__, various techniques for combining models to improve forecast results. The plan is to collaborate with the `tidymodels` team to develop ensembling tools. 
+- [Business Science data science blog](https://mailchi.mp/business-science/blog-registration) - I announce all Modeltime Software happenings
 
-### More Time Series Algorithms
-
-It's critical to have a diverse set of algorithms included in `modeltime` or as extensions to `modeltime` because this improves the speed of experimentation, model selections, and moving into production. To support extensibility:
-
-- I have [Model Roadmap here](https://github.com/business-science/modeltime/issues/5) for additional models. 
-- I also have a [vignette with instructions to help developers extend `modeltime`](https://business-science.github.io/modeltime/articles/extending-modeltime.html), creating R packages that leverage the forecasting workflow. 
-
-Comment on [GitHub Issue #5](https://github.com/business-science/modeltime/issues/5) to let me know what you would like to see or if you have plans to extend `modeltime`. 
+- [Extending Modeltime](https://business-science.github.io/modeltime/articles/extending-modeltime.html) - For Developers that want to extend modeltime. 
 
 
-# Modeling time Resources <br><small>With <strong>modeltime</strong></small>
-
-- [Modeltime Documentation](https://business-science.github.io/modeltime/index.html) - Learn about `modeltime` workflow and which models have been included
-- [Modeltime GitHub Page](https://github.com/business-science/modeltime) - Give it a Star if you like it!
-- [Timetk Documentation](https://business-science.github.io/timetk/) - Data wrangling, visualization, and preprocessing for time series.
-- [Tidymodels.org](https://www.tidymodels.org/) - The `tidymodels` framework is a collection of packages for modeling and machine learning using `tidyverse` principles.
 
 
 # Have questions about modeltime?
 
 Make a comment in the chat below. 👇
 
-And, if you plan on using `modeltime` for your business, it's a no-brainer - [Join my Time Series Course Waitlist](https://mailchi.mp/business-science/time-series-forecasting-course-coming-soon) (It's coming, it's really insane). 
+And, if you plan on using `modeltime` for your business, it's a no-brainer - [Join my Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting/) (it's really insane). 
