@@ -12,7 +12,7 @@ image_preview: 2021-03-15-modeltime-h2o/modeltime_ecosystem.jpg
 
 
 
-I'm SUPER EXCITED to introduce `modeltime.h2o`, the time series forecasting extension to `modeltime` that integrates H2O AutoML (Automatic Machine Learning) as a Modeltime Forecasting Backend. This tutorial [(view the original article here)](#) introduces our new R Package, Modeltime H2O. 
+I'm beyond excited to introduce `modeltime.h2o`, the time series forecasting package that integrates H2O AutoML (Automatic Machine Learning) as a Modeltime Forecasting Backend. This tutorial [(view the original article here)](#) introduces our new R Package, Modeltime H2O. 
 
 - We'll quickly introduce you to the __growing modeltime ecosystem.__ 
 - Then, we'll [forecast with __H2O AutoML__](#modeltime-h2o-tutorial) using the `modeltime.h2o` backend 
