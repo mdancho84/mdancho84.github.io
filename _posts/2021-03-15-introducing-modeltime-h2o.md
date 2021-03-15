@@ -82,13 +82,13 @@ As you go through this tutorial, it may help to use the [Ultimate R Cheat Sheet]
 <a href="https://www.business-science.io/r-cheatsheet.html" target="_blank">
 <img src="/assets/2021-03-15-modeltime-h2o/cheatsheet_forecasting.jpg" style="width:100%;">
 </a>
-<a href="https://www.business-science.io/r-cheatsheet.html" target="_blank">
-<p class="date text-center">Forecasting Ecosystem Links (Ultimate R Cheat Sheet)</p>
-</a>
+
+<p class="date text-center"><a href="https://www.business-science.io/r-cheatsheet.html" target="_blank">Forecasting Ecosystem Links (Ultimate R Cheat Sheet)</a></p>
+
 
 ## Libraries
 
-Load the following librearies:
+Load the following libraries:
 
 
 {% highlight r %}
