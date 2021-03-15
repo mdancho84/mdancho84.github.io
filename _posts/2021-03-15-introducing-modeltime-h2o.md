@@ -562,12 +562,29 @@ Here's what I didn't cover:
 
 - __Deep Learning:__ We can use GluonTS Deep Learning for developing high-performance, scalable forecasts.
 
-I teach each of these techniques and strategies so you __become the time series expert for your organization.__ [Here's how.](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) 👇
+### So how are you ever going to <span style='color:#18bc9c'>learn time series analysis and forecasting?</span>
+
+You're probably thinking:
+
+- There's so much to learn
+- My time is precious
+- I'll never learn time series
+
+I have good news that will put those doubts behind you. 
+
+You can learn time series analysis and forecasting in hours with my [state-of-the-art time series forecasting course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting/). 👇
 
 
 {% include course_promo_time_series.md %}
 
-<br>
+
+# Project Roadmap, Future Work, and Contributing to Modeltime
+
+Modeltime is a growing ecosystem of packages that work together for forecasting and time series analysis. Here are several useful links:
+
+- [Modeltime Ecosystem Roadmap on GitHub](https://github.com/business-science/modeltime/issues/5) - See the past development and future trajectory. Did we miss something? Make a suggestion. 
+
+- [Business Science data science blog](https://mailchi.mp/business-science/blog-registration) - I announce all Modeltime Software happenings
 
 # Acknowledgements
 
