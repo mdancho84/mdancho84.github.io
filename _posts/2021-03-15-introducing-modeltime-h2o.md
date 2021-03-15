@@ -46,6 +46,8 @@ Modeltime H2O is part of a __growing ecosystem__ of Modeltime forecasting packag
 
 # Modeltime H2O <br><small>The <strong>H2O AutoML</strong> backend for Modeltime</small>
 
+<img src="/assets/2021-03-15-modeltime-h2o/logo.png" width="147" height="170" align="right"/>
+
 Modeltime H2O provides an H2O backend to the Modeltime Forecasting Ecosystem. The main algorithm is __H2O AutoML__, an automatic machine learning library that is built for speed and scale. 
 
 This forecast was created with __H2O AutoML__. We'll make this forecast in our short tutorial. 
