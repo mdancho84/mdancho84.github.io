@@ -78,11 +78,11 @@ As you go through this tutorial, it may help to use the [Ultimate R Cheat Sheet]
 
 ## Libraries
 
-The `modeltime.h2o` package is not on CRAN yet (though it should be sometime in the next 2 weeks). Until then, you can install it with this:
+The `modeltime.h2o` package is now on CRAN:
 
 {% highlight r %}
-# Install Modeltime H2O Development Version
-devtools::install_github("business-science/modeltime.h2o")
+# Install Modeltime H2O from CRAN
+install.packages("modeltime.h2o")
 {% endhighlight %}
 
 Load the following libraries:
