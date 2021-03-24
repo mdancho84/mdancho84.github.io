@@ -41,7 +41,7 @@ Esquisse is the R-package for building ggplots with a Drag-and-Drop interface. T
 2. Get Data
 3. Run `esquisser()`
 
-<img src="/assets/2021-03-23-ggplot-code/get_started.jpg" width="100%" />
+<img src="/assets/2021-03-23-ggplot-code/get_started.jpg" />
 
 <br>
 
@@ -50,7 +50,7 @@ Esquisse is the R-package for building ggplots with a Drag-and-Drop interface. T
 - Just load the dataset you want to explore
 - Then drag-and-drop
 
-<img src="/assets/2021-03-23-ggplot-code/ggplot_builder_meme.gif" width="100%" />
+<img src="/assets/2021-03-23-ggplot-code/ggplot_builder_meme.gif"/>
 
 <br>
 
@@ -58,7 +58,7 @@ Esquisse is the R-package for building ggplots with a Drag-and-Drop interface. T
 
 Once you are happy with your ggplot, you can get the code used to produce it!
 
-<img src="/assets/2021-03-23-ggplot-code/code.jpg" width="100%" />
+<img src="/assets/2021-03-23-ggplot-code/code.jpg"/>
 
 
 # Learning ggplot2
