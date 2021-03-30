@@ -17,7 +17,7 @@ This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-
 <br/>
 
 
-Let's make a professional business report in 5-minutes in HTML and PDF formats, and incorporates your data analysis in `R`​. Reporting used to take me much longer and is now faster with the new `Rmarkdown`​ Visual Editor. 
+Let's make a professional business report in 5 minutes in HTML and PDF formats, and incorporates your data analysis in `R`​. Reporting used to take me much longer and is now faster with the new `Rmarkdown`​ Visual Editor. 
 
 
 Here are the links to get set up. 👇
