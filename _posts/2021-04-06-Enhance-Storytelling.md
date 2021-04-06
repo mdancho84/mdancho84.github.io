@@ -6,8 +6,8 @@ excerpt: "Slide Decks are so important for storytelling in business. We can use 
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Rmarkdown, Xaringan, Leaflet, Timetk]
-image: 2021-04-06-Enhance-Storytelling/cover_image.PNG
-image_preview: 2021-04-06-Enhance-Storytelling/cover_image.PNG
+image: 2021-04-06-Enhance-Storytelling/cover_image.png
+image_preview: 2021-04-06-Enhance-Storytelling/cover_image.png
 ---
 
 
