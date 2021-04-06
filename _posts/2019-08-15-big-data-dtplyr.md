@@ -95,23 +95,32 @@ The most powerful tool in my arsenal is NOT my knowledge of the key R packages, 
 
 The [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) consolidates the documentation on every package I use frequently (including `dplyr`, `data.table`, and `dtplyr`).  
 
-![Cheat Sheet Data Wrangling](/assets/2019-08-15-dtplyr/cheat-sheet-dplyr.jpeg)
+<a href='https://www.business-science.io/r-cheatsheet.html' target='_blank'>
+  <img src='/assets/2019-08-15-dtplyr/cheat-sheet-dplyr.jpeg' style="width:100%;">
+</a>
+
 <p class="text-center date">
   <a href='https://www.business-science.io/r-cheatsheet.html' target='_blank'>Download the Ultimate R Cheat Sheet</a>
 </p>
 
 If you tab through to page 3, you'll see a section called [__"Speed and Scale"__](https://www.business-science.io/r-cheatsheet.html). You can quickly see options to help including `data.table`, `dtplyr`, `furrr`, `sparklyr`, and `disk.frame`. Enjoy.
 
-![Cheat Sheet Dtplyr](/assets/2019-08-15-dtplyr/cheatsheet-dtplyr.jpg)
+<a href='https://www.business-science.io/r-cheatsheet.html' target='_blank'>
+  <img src='/assets/2019-08-15-dtplyr/cheatsheet-dtplyr.jpg' style="max-width:100%;margin-right:auto;margin-left:auto;display:block;">
+</a>
+
 <p class="text-center date">
   <a href='https://www.business-science.io/r-cheatsheet.html' target='_blank'>Speed and Scale (page 3)</a>
 </p>
 
 If you click the "CS" (stands for cheat sheet) next to `data.table`, you'll automagically get the DataTable Cheat Sheet. (And you can do this for every R package).
 
-![Cheat Sheet Dtplyr](/assets/2019-08-15-dtplyr/cheatsheet-datatable.jpg)
+<a href='https://www.business-science.io/r-cheatsheet.html' target='_blank'>
+  <img src='/assets/2019-08-15-dtplyr/cheatsheet-datatable.jpg' style="max-width:100%;margin-right:auto;margin-left:auto;display:block;">
+</a>
+
 <p class="text-center date">
-  <a href='https://www.business-science.io/r-cheatsheet.html' target='_blank'>Clicking 'CS' gets the Data.Table Transformation Cheat Sheet</a>
+  <a href='https://www.business-science.io/r-cheatsheet.html' target='_blank'>Clicking 'CS' gets the data.table Transformation Cheat Sheet</a>
 </p>
 
 
