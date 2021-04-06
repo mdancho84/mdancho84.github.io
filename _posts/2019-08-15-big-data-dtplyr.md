@@ -51,7 +51,6 @@ If you like this article, we have more just like it in our [Machine Learning Sec
 
 8. [Recognizing the Developers](#section8)
 
-9. [Expert Shiny Apps Course - Coming Soon!](#section9)
 
 
 ## 1.0 The 30-Second Summary {#summary}
@@ -88,6 +87,32 @@ ___Just starting out?___ Our recommendation is to learn `dplyr` first, then lear
 - Use `dtplyr` as a translation tool to help ___bridge the gap___ between `dplyr` and `data.table`.
 
 ___At a bare minimum___ - Learning `dplyr` is essential. Learn more about a system for learning `dplyr` in the [Conclusions and Recommendations](#section6). 
+
+
+# Before we get started, get the Cheat Sheet 
+
+The most powerful tool in my arsenal is NOT my knowledge of the key R packages, but it's __knowing where to find R packages and documentation.__
+
+The [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) consolidates the documentation on every package I use frequently (including `dplyr`, `data.table`, and `dtplyr`).  
+
+![Cheat Sheet Data Wrangling](/assets/2019-08-15-dtplyr/cheat-sheet-dplyr.jpeg)
+<p class="text-center date">
+  <a href='https://www.business-science.io/r-cheatsheet.html' target='_blank'>Download the Ultimate R Cheat Sheet</a>
+</p>
+
+If you tab through to page 3, you'll see a section called [__"Speed and Scale"__](https://www.business-science.io/r-cheatsheet.html). You can quickly see options to help including `data.table`, `dtplyr`, `furrr`, `sparklyr`, and `disk.frame`. Enjoy.
+
+![Cheat Sheet Dtplyr](/assets/2019-08-15-dtplyr/cheatsheet-dtplyr.jpg)
+<p class="text-center date">
+  <a href='https://www.business-science.io/r-cheatsheet.html' target='_blank'>Speed and Scale (page 3)</a>
+</p>
+
+If you click the "CS" (stands for cheat sheet) next to `data.table`, you'll automagically get the DataTable Cheat Sheet. (And you can do this for every R package).
+
+![Cheat Sheet Dtplyr](/assets/2019-08-15-dtplyr/cheatsheet-datatable.jpg)
+<p class="text-center date">
+  <a href='https://www.business-science.io/r-cheatsheet.html' target='_blank'>Clicking 'CS' gets the Data.Table Transformation Cheat Sheet</a>
+</p>
 
 
 ## 2.0 Big Data Ecosystem {#section2}
@@ -704,7 +729,7 @@ ___My recommendation is to start by learning `dplyr`___ - The popular data manip
 
 Once you get to an intermediate level, learn `data.table`. This is where you gain the benefits of scaling data science to Big Data. The `data.table` package has a steeper learning curve, but learning it will help you leverage its full performance and scalability.
 
-___If you need to learn `dplyr` as fast as possible___ - I recommend beginning with our ___Data Science Foundations DS4B 101-R Course___. The 101 Course is available as part of the [___3-Course R-Track Bundle___](https://university.business-science.io/p/machine-learning-web-apps-level-1-bundle-r-track-courses-101-102-201/?coupon_code=ds4b15), a _complete learning system_ designed to transform you from beginner to advanced in under 6-months. You will learn everything you need to ___become an expert data scientist___.  
+___If you need to learn `dplyr` as fast as possible___ - I recommend beginning with our ___Data Science Foundations DS4B 101-R Course___. The 101 Course is available as part of the [___R-Track System___](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series), a _complete learning system_ designed to transform you from beginner to advanced in under 6-months. You will learn everything you need to ___become an expert data scientist___.  
 
 <br>
 {% include cta_rtrack.html %}
@@ -726,9 +751,4 @@ I'd like to take a quick moment to thank the developers of `data.table` and `dpl
 
 - [__Hadley Wickham__](https://twitter.com/hadleywickham) - Creator of `dplyr` and `dtplyr`. Check out the [dplyr website](https://dplyr.tidyverse.org/) and the new [dtplyr website](https://github.com/tidyverse/dtplyr).
 
-## 9.0 Coming Soon - Expert Shiny Apps Course! {#section9}
 
-I'm very excited to announce that Business Science has an __Expert Shiny Course - Coming soon!__ [Head over to Business Science University and create a free account.](https://university.business-science.io/) I will update you with the details shortly. 
-
-<br>
-{% include cta_expert_shiny.html %}
