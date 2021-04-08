@@ -11,7 +11,7 @@ This article is part of a series of software announcements on the Modeltime Fore
 
 3. [Modeltime Ensemble: Time Series Forecast Stacking](/code-tools/2020/10/13/introducing-modeltime-ensemble.html)
 
-4. [Timetk: Time Series Visualization](/code-tools/2020/06/05/timetk-vesion-2-announcement.html)
+4. [Modeltime Recursive: Tidy Autoregressive Forecasting](/code-tools/2021/04/08/autoregressive-machine-learning.html)
 
 5. [Time Series Forecasting Course: Now Available](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting)
 
