@@ -10,7 +10,7 @@ image: "/2021-04-20-datapasta-webscrape/cover_image.JPG"
 image_preview: "/2021-04-20-datapasta-webscrape/cover_image.JPG"
 ---
 
-This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
@@ -106,7 +106,7 @@ This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-
 
 <h1>In Summary</h1>
 
-<p>You just quickly scraped HTML tables using the copy-and-paster Rstudio Add-In known as <strong> datapasta </strong>. This is an amazing productivity boost!! This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks. Join today.</p> 
+<p>You just quickly scraped HTML tables using the copy-and-paster Rstudio Add-In known as <strong> datapasta </strong>. This is an amazing productivity boost!! This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks. Join today.</p> 
 
 <!-- This is markdown code. It wont look formatted in your browser, 
     but will be fine when published. to the website -->
