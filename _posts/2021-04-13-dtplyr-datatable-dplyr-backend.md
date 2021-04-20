@@ -10,7 +10,7 @@ image: "/2021-04-13-dtplyr-datatable-dplyr-backend/cover_image.JPG"
 image_preview: "/2021-04-13-dtplyr-datatable-dplyr-backend/cover_image.JPG"
 ---
 
-This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
@@ -135,7 +135,7 @@ leveraging data.table with dtplyr then quickly visualize your summaries with ggp
 
 <p>You should be proud.</p>
 
-
+<p>This article is part of <strong>R-Tips Weekly</strong>, a weekly video tutorial that shows you step-by-step how to do common R coding tasks. <a href="https://mailchi.mp/business-science/r-tips-newsletter">Join today.</a></p> 
 
 
 <!-- 3. End your code -->
