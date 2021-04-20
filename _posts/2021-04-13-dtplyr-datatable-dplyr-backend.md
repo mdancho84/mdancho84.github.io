@@ -152,7 +152,3 @@ leveraging data.table with dtplyr then quickly visualize your summaries with ggp
 
 {% include top_rtips.html %}
 
-
-
-</body>
-</html>
