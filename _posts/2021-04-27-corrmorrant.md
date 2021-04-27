@@ -44,7 +44,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
     <li><strong>Extend ggplot with the grammar for correlation plotting</strong></li>
 </ol>
 
-<img src="/assets/2021-04-27-corrmorrant/correlation_plots.jpg" max-width="100%">
+<img src="/assets/2021-04-27-corrmorrant/correlation_plots.jpg" style="max-width:100%;">
 
 <p>Make Correlation Plots in 1 Line of Code</p>
 
@@ -54,11 +54,11 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 
 <p><strong>Quick example - Clicking the "CS" next to "ggplot2"</strong> opens the Data Transformation with Dplyr Cheat Sheet.</p>
 
-<a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-04-27-corrmorrant/workflow.jpg" max-width="100%">
+<a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-04-27-corrmorrant/workflow.jpg" style="max-width:100%;">
 
 <p>Now you're ready to quickly reference <code>ggplot2</code> functions.  Ok, onto the tutorial. </p>
 
-<a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-04-27-corrmorrant/cheatsheet.jpg" max-width="100%"></a>
+<a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-04-27-corrmorrant/cheatsheet.jpg" style="max-width:100%;"></a>
 
 <h1>Make correlation plots in 1 line of code</h1>
 
@@ -66,7 +66,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 
 <p>Using the <code>corrmorrant::corrmorrant()</code> function, we generate a correlation plot in 1 line of code. </p>
 
-<img src="/assets/2021-04-27-corrmorrant/code.jpg" max-width="100%">
+<img src="/assets/2021-04-27-corrmorrant/code.jpg" style="max-width:100%;">
 
 <p>The correlation plot includes:</p>
 
@@ -76,7 +76,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
     <li><strong>Diagonal</strong>: Density plot, <code>ggplot2::geom_density()</code></li>
 </ul>
 
-<img src="/assets/2021-04-27-corrmorrant/correlation_plot_2.jpg" max-width="100%">
+<img src="/assets/2021-04-27-corrmorrant/correlation_plot_2.jpg" style="max-width:100%;">
 
 <h1>Correlation Plot Customization</h1>
 
@@ -90,7 +90,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 </ul>
 
 <figure class="text-center">
-    <img src="/assets/2021-04-27-corrmorrant/code2.jpg" max-width="100%">
+    <img src="/assets/2021-04-27-corrmorrant/code2.jpg" style="max-width:100%;">
   <figcaption><a href="https://github.com/business-science/free_r_tips"> Get the Code</a></figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 
 
 <figure class="text-center">
-    <img src="/assets/2021-04-27-corrmorrant/correlation_plot_3.jpg" max-width="100%">
+    <img src="/assets/2021-04-27-corrmorrant/correlation_plot_3.jpg" style="max-width:100%;">
   <figcaption>Code available in our <a href="https://github.com/business-science/free_r_tips"> Free R-Tips Github Repository</a></figcaption>
 </figure>
 
@@ -110,7 +110,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 <p>Here's a test if you've been following along and want to test your ggplot2 skills. Make this plot that applies "cyl" column as groups to the geoms. Note that you'll need to do a trick to get the grouped correlations in the upper triangle. Solution is available in our <a href="https://github.com/business-science/free_r_tips"> Free R-Tips Github Repository</a>.  </p>
 
 <figure class="text-center">
-    <img src="/assets/2021-04-27-corrmorrant/correlation_plot_4.jpg" max-width="100%">
+    <img src="/assets/2021-04-27-corrmorrant/correlation_plot_4.jpg" style="max-width:100%;">
   <figcaption>Code available in our <a href="https://github.com/business-science/free_r_tips"> Free R-Tips Github Repository</a></figcaption>
 </figure>
 
