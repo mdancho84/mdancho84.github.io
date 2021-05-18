@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "DataEditR: The GUI for Interactive Dataframe Editing in R"
-date:   2021-05-18 06:30:00
+date:   2021-05-18 08:30:00
 excerpt: "Now you can edit data in R using a GUI that is reminiscent of Excel."
 author: "Matt Dancho"
 categories: [Code-Tools]
