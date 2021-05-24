@@ -26,12 +26,12 @@ __Start Here:__ Before you go any further, create a free account at [Business Sc
 
 <div class="text-center" style="max-width:70%; margin-left:auto; margin-right:auto;">
     <h4>Course Launches in:</h4>
-  <a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1" target="_blank">
+  <a href="https://university.business-science.io/" target="_blank">
   <img class="img-responsive" src="http://i.countdownmail.com/127di0.gif" style="display:block;margin-left:auto;margin-right:auto">
   </a>
 </div>
 
-<p class="text-center" style="font-size:40px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1" target="_blank"><strong>Sign Up Here</strong></a></p>
+<p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/" target="_blank"><strong>Sign Up Here</strong></a></p>
 
 <hr>
 
@@ -271,7 +271,7 @@ We've designed Python for Data Science Automation to be __prerequisite-free.__ A
 
 __Career Acceleration Begins in 7-Days:__ I'm super excited to help you learn Python for Data Science Automation. Create a free account at [Business Science University](https://university.business-science.io/). 
 
-<p class="text-center" style="font-size:40px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1" target="_blank"><strong>Sign Up Here!</strong></a></p>
+<p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/" target="_blank"><strong>Sign Up Here!</strong></a></p>
 
 
 
