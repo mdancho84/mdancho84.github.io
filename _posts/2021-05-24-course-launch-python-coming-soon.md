@@ -20,7 +20,7 @@ __Python for Data Science Automation__ is an innovative course designed to teach
 
 <hr>
 
-## Create a free account to get the launch discount in 7 Days!
+## Join the Course Waitlist to get the launch discount in 7 Days!
 
 __Start Here:__ Before you go any further, [join the Course Waitlist](https://mailchi.mp/business-science/python-data-science-automation-waitlist). We will send you a __special promotion link in 7-days__ at Course Launch. 👇
 
@@ -261,7 +261,7 @@ We've designed Python for Data Science Automation to be __prerequisite-free.__ A
 <br>
 <br>
 
-## Next Steps - Create a free account to get the launch discount in 7 Days!
+## Next Steps - Join the Course Waitlist to get the launch discount in 7 Days!
 
 <div class="pull-right" style="width:35%;margin-left:20px;">
 <a href="https://mailchi.mp/business-science/python-data-science-automation-waitlist" target="_blank">
