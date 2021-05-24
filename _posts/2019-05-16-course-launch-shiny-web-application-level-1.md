@@ -259,16 +259,16 @@ The doors are OPEN!. Get access to our ___NEW Predictive Web Applications for Bu
 <!--
 <div class="well">
 <ul>
-  <li><strong>Step 1</strong> - <a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Sign up here for Business Science University.</strong></a> Signup is FREE. This gains you access to the university programs and course list.</li>
+  <li><strong>Step 1</strong> - <a href="https://university.business-science.io/"><strong>Sign up here for Business Science University.</strong></a> Signup is FREE. This gains you access to the university programs and course list.</li>
 </ul>
 
-<p class="text-center" style="font-size:30px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Sign Up Here!</strong></a></p>
+<p class="text-center" style="font-size:30px"><a href="https://university.business-science.io/"><strong>Sign Up Here!</strong></a></p>
 
 <ul>
   <li><strong>Step 2</strong> - <strong>Look out for our launch email on June 1st.</strong> This will have details and exclusive benefits for those that sign up.</li>
 </ul>
 
-<p class="text-center" style="font-size:30px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Look Out For Course Launch Email - June 1st</strong></a></p>
+<p class="text-center" style="font-size:30px"><a href="https://university.business-science.io/"><strong>Look Out For Course Launch Email - June 1st</strong></a></p>
 
 </div>
 -->
@@ -276,14 +276,14 @@ The doors are OPEN!. Get access to our ___NEW Predictive Web Applications for Bu
 <!-- 
 Interested? Here's what you need to do:
 
-- __Step 1__ - [Sign up here for Business Science University.](https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1) Signup is FREE. This gains you access to the university programs and course list.
+- __Step 1__ - [Sign up here for Business Science University.](https://university.business-science.io/) Signup is FREE. This gains you access to the university programs and course list.
 
-<p class="text-center" style="font-size:30px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Sign Up Here!</strong></a></p>
+<p class="text-center" style="font-size:30px"><a href="https://university.business-science.io/"><strong>Sign Up Here!</strong></a></p>
 
 
 - __Step 2__ - __Look out for our launch email on June 1st.__ This will have details and exclusive benefits for those that sign up. 
 
-<p class="text-center" style="font-size:30px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Look Out For Course Launch Email - June 1st</strong></a></p>
+<p class="text-center" style="font-size:30px"><a href="https://university.business-science.io/"><strong>Look Out For Course Launch Email - June 1st</strong></a></p>
 -->
 
 > _"I look forward to having you in my program. I will do everything in my power to help you succeed!"_

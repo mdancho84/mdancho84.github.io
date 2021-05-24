@@ -20,7 +20,7 @@ image_preview: 2019-10-14-shiny-course/202_build_deploy_expert_shiny.jpg
 
 __Start Here:__ Before you go any further, create a free account at [Business Science University - Our online educational platform](https://university.business-science.io/). We will send you a __discount link in 7-days__ (at Course Launch).
 
-<p class="text-center" style="font-size:40px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1" target="_blank"><strong>Sign Up Here!</strong></a></p>
+<p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/" target="_blank"><strong>Sign Up Here!</strong></a></p>
 
 <hr>
 
@@ -164,7 +164,7 @@ You learn how to take your application into Production with `AWS`:
 
 __Career Acceleration Begins in 7-Days:__ I'm super excited to help you take Data Science Applications into Production. Create a free account at [Business Science University - Our online educational platform](https://university.business-science.io/). 
 
-<p class="text-center" style="font-size:40px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1" target="_blank"><strong>Sign Up Here!</strong></a></p>
+<p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/" target="_blank"><strong>Sign Up Here!</strong></a></p>
 
 
 

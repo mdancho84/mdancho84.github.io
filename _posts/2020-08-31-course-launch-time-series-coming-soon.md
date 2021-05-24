@@ -25,12 +25,12 @@ image_preview: 2020-08-31-course-launch-preview/forecast-competitions.jpg
 __Start Here:__ Before you go any further, create a free account at [Business Science University - Our online educational platform](https://university.business-science.io/). We will send you a __discount link in 7-days__ (at Course Launch).
 
 <div class="text-center" style="width:50%; margin-left:auto; margin-right:auto;">
-  <a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1" target="_blank">
+  <a href="https://university.business-science.io/" target="_blank">
   <img class="img-responsive" src="http://i.countdownmail.com/mxwkf.gif" style="display:block;margin-left:auto;margin-right:auto">
   </a>
 </div>
 
-<p class="text-center" style="font-size:40px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1" target="_blank"><strong>Sign Up Here</strong></a></p>
+<p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/" target="_blank"><strong>Sign Up Here</strong></a></p>
 
 <hr>
 
@@ -190,7 +190,7 @@ You learn how to perform deep learning for time series:
 
 __Career Acceleration Begins in 7-Days:__ I'm super excited to help you apply the most advanced business forecasting techinques in your organization. Create a free account at [Business Science University - Our online educational platform](https://university.business-science.io/). 
 
-<p class="text-center" style="font-size:40px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1" target="_blank"><strong>Sign Up Here!</strong></a></p>
+<p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/" target="_blank"><strong>Sign Up Here!</strong></a></p>
 
 
 

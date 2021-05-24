@@ -13,7 +13,7 @@ image_preview: 2018-12-24-course-launch/thumbnail.png
 
 We've crafted an amazing course for those seeking to break into data science for business! We've combined a revolutionary system with a clear-cut path, a cheat sheet that connects every resource learned in the course, two end-to-end projects, and 50 plus tools into one 7 -week course! __The perfect data science education program to kick off 2019!__
 
-<p class="text-center" style="font-size:40px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Sign Up Here!</strong></a></p>
+<p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/"><strong>Sign Up Here!</strong></a></p>
 
 
 ## Course Overview
@@ -124,14 +124,14 @@ We provide you:
 
 Interested? Here's what you need to do and what you need to know.
 
-- __Step 1__ - [Sign up here for Business Science University.](https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1) Signup is FREE. This gains you access to the university programs and course list.
+- __Step 1__ - [Sign up here for Business Science University.](https://university.business-science.io/) Signup is FREE. This gains you access to the university programs and course list.
 
-<p class="text-center" style="font-size:30px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Sign Up Here!</strong></a></p>
+<p class="text-center" style="font-size:30px"><a href="https://university.business-science.io/"><strong>Sign Up Here!</strong></a></p>
 
 
 - __Step 2__ - __Look out for our launch email on January 1st.__ This will have details and exclusive benefits for those that sign up. 
 
-<p class="text-center" style="font-size:30px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Look Out For Course Launch Email - January 1st</strong></a></p>
+<p class="text-center" style="font-size:30px"><a href="https://university.business-science.io/"><strong>Look Out For Course Launch Email - January 1st</strong></a></p>
 
 > Trust us, you don't want to miss this opportunity. The perks are amazing.
 
@@ -143,7 +143,7 @@ That's what we do.
 
 We make learning data science integrated, simplified, and efficient __saving you time__!
 
-<p class="text-center" style="font-size:40px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Sign Up Now!</strong></a></p>
+<p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/"><strong>Sign Up Now!</strong></a></p>
 
 ## Get ready to crush 2019!
 
@@ -151,6 +151,6 @@ We make learning data science integrated, simplified, and efficient __saving you
 
 ![Business Science University](/img/business-science-logo.png)
 
-<p class="text-center" style="font-size:40px"><a href="https://sso.teachable.com/secure/173166/users/sign_up?reset_purchase_session=1"><strong>Business Science University</strong></a></p>
+<p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/"><strong>Business Science University</strong></a></p>
 
 
