@@ -13,7 +13,9 @@ This article is part of a series of software announcements on the Modeltime Fore
 
 4. [Modeltime Recursive: Tidy Autoregressive Forecasting](/code-tools/2021/04/08/autoregressive-machine-learning.html)
 
-5. [Time Series Forecasting Course: Now Available](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting)
+5. [Hyperparameter Tuning Forecasts in Parallel with Modeltime](/code-tools/2021/06/17/modeltime-tune-parallel-processing.html)
+
+6. [Time Series Forecasting Course: Now Available](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting)
 
 <hr>
 <center>
