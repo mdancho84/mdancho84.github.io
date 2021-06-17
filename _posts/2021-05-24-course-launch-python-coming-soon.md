@@ -20,18 +20,18 @@ __Python for Data Science Automation__ is an innovative course designed to teach
 
 <hr>
 
-## Join the Course Waitlist to get the launch discount in 7 Days!
+## Join the Business Science University to get the launch discount in 7 Days!
 
-__Start Here:__ Before you go any further, [join the Course Waitlist](https://mailchi.mp/business-science/python-data-science-automation-waitlist). We will send you a __special promotion link in 7-days__ at Course Launch. 👇
+__Start Here:__ Before you go any further, [create a free account at Business Science University](https://university.business-science.io/). We will send you a __special promotion link in 7-days__ at Course Launch. 👇
 
 <div class="text-center" style="max-width:70%; margin-left:auto; margin-right:auto;">
     <h4>Course Launches in:</h4>
-  <a href="https://mailchi.mp/business-science/python-data-science-automation-waitlist" target="_blank">
+  <a href="https://university.business-science.io/" target="_blank">
   <img class="img-responsive" src="http://i.countdownmail.com/127di0.gif" style="display:block;margin-left:auto;margin-right:auto">
   </a>
 </div>
 
-<p class="text-center" style="font-size:40px"><a href="https://mailchi.mp/business-science/python-data-science-automation-waitlist" target="_blank"><strong>Sign Up Here</strong></a></p>
+<p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/" target="_blank"><strong>Sign Up Here</strong></a></p>
 
 <hr>
 
@@ -261,17 +261,17 @@ We've designed Python for Data Science Automation to be __prerequisite-free.__ A
 <br>
 <br>
 
-## Next Steps - Join the Course Waitlist to get the launch discount in 7 Days!
+## Next Steps - Join the Business Science University to get the launch discount in 7 Days!
 
 <div class="pull-right" style="width:35%;margin-left:20px;">
-<a href="https://mailchi.mp/business-science/python-data-science-automation-waitlist" target="_blank">
+<a href="https://university.business-science.io/" target="_blank">
 <img class="img-circle" style="width:100%" src="/img/Portrait.jpg">
 </a>
 </div>
 
-__Career Acceleration Begins in 7-Days:__ I'm super excited to help you learn Python for Data Science Automation. Create a free account at [Business Science University](https://mailchi.mp/business-science/python-data-science-automation-waitlist). 
+__Career Acceleration Begins in 7-Days:__ I'm super excited to help you learn Python for Data Science Automation. Create a free account at [Business Science University](https://university.business-science.io/). 
 
-<p class="text-center" style="font-size:40px"><a href="https://mailchi.mp/business-science/python-data-science-automation-waitlist" target="_blank"><strong>Sign Up Here!</strong></a></p>
+<p class="text-center" style="font-size:40px"><a href="https://university.business-science.io/" target="_blank"><strong>Sign Up Here!</strong></a></p>
 
 
 
