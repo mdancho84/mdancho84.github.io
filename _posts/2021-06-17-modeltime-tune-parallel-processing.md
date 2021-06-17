@@ -22,7 +22,7 @@ Fitting many time series models can be an expensive process. To help speed up co
 
 - With 2-cores we got an immediate __30%-40% boost__ in performance. With more expensive processes and more CPU cores we get even more performance.
 
-- It's perfect for __hyperparameter tuning__: See `create_model_grid()` for filling model specs with hyperparameters.
+- It's perfect for __hyperparameter tuning.__ See `create_model_grid()` for filling model specs with hyperparameters.
 
 - The workflow is __simple.__ Just use `parallel_start(6)` to fire up 6-cores. Just use `control_fit_workflowsets(allow_par = TRUE)` to tell the `modeltime_fit_workflowset()` to run in parallel.
 
