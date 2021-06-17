@@ -16,6 +16,16 @@ image_preview: 2021-06-17-modeltime-parallel/modeltime_parallel.jpg
 
 Fitting many time series models can be an expensive process. To help speed up computation, `modeltime` now includes __parallel processing__, which is support for high-performance computing by spreading the model fitting steps across multiple CPUs or clusters. 
 
+# Highlights
+
+- We now have a new workflow for forecast model fitting with parallel processing that is __much faster__ when creating many forecast models.
+
+- With 2-cores we got an immediate __30%-40% boost__ in performance. With more expensive processes and more CPU cores we get even more performance.
+
+- It's perfect for __hyperparameter tuning__: See `create_model_grid()` for filling model specs with hyperparameters.
+
+- The workflow is __simple.__ Just use `parallel_start(6)` to fire up 6-cores. Just use `control_fit_workflowsets(allow_par = TRUE)` to tell the `modeltime_fit_workflowset()` to run in parallel.
+
 # Forecast Hyperparameter Tuning Tutorial <br><small>Speed up forecasting</small>
 
 <p style="text-align:center">
