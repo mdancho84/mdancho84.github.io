@@ -29,7 +29,7 @@ Fitting many time series models can be an expensive process. To help speed up co
 # Forecast Hyperparameter Tuning Tutorial <br><small>Speed up forecasting</small>
 
 <p style="text-align:center">
-<img src="/assets/2021-06-17-modeltime-parallel/modeltime_parallel.jpg" style="width:60%;">
+<img src="/assets/2021-06-17-modeltime-parallel/modeltime_parallel.jpg" style="width:100%;">
 </p>
 <p class="date text-center">Speed up forecasting using multiple processors</p>
 
