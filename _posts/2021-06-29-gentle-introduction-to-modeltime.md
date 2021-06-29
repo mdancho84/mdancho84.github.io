@@ -35,9 +35,7 @@ Learn how to use `modeltime` in our 10-minute YouTube video tutorial.
   <figcaption>(Click image to play tutorial)</figcaption>
 </figure>
 
-<p class='text-center date'>
-  <a href='https://youtu.be/j2LT8L5mIa4' target='_blank'> Watch our full YouTube Tutorial</a>
-</p>
+
 
 
 # Get the Code
