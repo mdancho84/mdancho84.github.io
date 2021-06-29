@@ -48,10 +48,12 @@ The video tutorial comes with [__100-lines of code__](https://mailchi.mp/busines
 
 - __Linear Regression (Penalized)__: A machine learning approach to time series forecasting that is made available with `tidymodels`. 
 
-<a href="https://mailchi.mp/business-science/r-tips-newsletter"> 
-  <img src="/assets/2021-06-29-modeltime/modeltime-code-torn.jpg" style='max-width:100%;margin:auto;display:box;'>
+<a href="https://mailchi.mp/business-science/r-tips-newsletter" target="_blank"> 
+  <img src="/assets/2021-06-29-modeltime/modeltime-code-torn.jpg"  style='max-width:100%;margin:auto;display:box;'>
 </a>
-<figcaption class="text-center">(Click image to Get the Code)</figcaption>
+<figcaption class="text-center">
+  <a href="https://mailchi.mp/business-science/r-tips-newsletter" target="_blank">(Get the Code)</a>
+</figcaption>
 
 <br>
 
