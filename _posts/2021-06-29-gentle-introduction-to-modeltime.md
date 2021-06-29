@@ -20,7 +20,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 
 <ul>
     <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
-    <li><a href="https://youtu.be/j2LT8L5mIa4">YouTube Tutorial</a></li> 
+    <li><a href="https://youtu.be/-bCelif-ENY">YouTube Tutorial</a></li> 
 </ul>
 
 
