@@ -12,15 +12,15 @@ image_preview: "/2021-06-29-modeltime/modeltime-workflow-thumb.jpg"
 
 > A gentle introduction to our forecasting package, `modeltime`. Modeltime extends the Tidymodels ecosystem for time series forecasting. Learn how to forecast with ARIMA, Prophet, and linear regression time series models in this short video tutorial.
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter" target="_blank">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
-    <li><a href="https://youtu.be/-bCelif-ENY">YouTube Tutorial</a></li> 
+    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter" target="_blank">Get the Code</a></li>
+    <li><a href="https://youtu.be/-bCelif-ENY" target="_blank">YouTube Tutorial</a></li> 
 </ul>
 
 
