@@ -19,7 +19,7 @@ The new Autoregressive Machine Learning (AR-ML) Forecasting Solution handles lag
 - We'll quickly introduce you to the __challenges__ with Autoregressive Modeling. 
 - Then, we'll showcase __`modeltime::recursive()`__ in the [Tidy Autoregressive Forecast Tutorial](#forecast-tutorial). 
 
-
+<!--
 <div class='well' style='margin-top:30px;'>
 <h3 class='text-center'>Free Training on Modeltime Recursive</h3>
 
@@ -30,6 +30,7 @@ If you are interested in learning more, I have an <strong><a href= 'https://bit.
 <p class='text-center' style='font-size:32px;'><a href='https://bit.ly/lab54-recursive'>Register now</a></p>
 
 </div>
+-->
 
 
 
