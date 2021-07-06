@@ -18,7 +18,8 @@ In this short tutorial, you'll make a Linear Regression Trendline Plot with Skle
 
 This article is part of Python-Tips Weekly, a <a href="https://mailchi.mp/business-science/python_tips_newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.
 
-<br/>
+
+## Get the code
 
 <p>Here are the links to get set up. 👇</p>
 
@@ -26,6 +27,7 @@ This article is part of Python-Tips Weekly, a <a href="https://mailchi.mp/busine
     <li><a href="https://mailchi.mp/business-science/python_tips_newsletter" target='_blank'>Get the Code</a></li>
     <li><a href="https://youtu.be/A2zlm3NkeDk" target='_blank'>YouTube Tutorial</a></li> 
 </ul>
+
 
 
 
@@ -42,7 +44,7 @@ Learn how to use `sklearn` to make a __linear regression model__ and plot with a
 
 # Before we get started, get the Python Cheat Sheet
 
-`Scikit Learn` is great for data visualization in Python if you are coming from an R background. But, you might want to explore documentation for the entire Python Ecosystem (`pandas`, `Scikit Learn`, `plotly`, and many more libraries). I'll use the [Ultimate Python Cheat Sheet](https://www.business-science.io/python-cheatsheet.html).
+I'll use the [Ultimate Python Cheat Sheet](https://www.business-science.io/python-cheatsheet.html) to access `scikit learn` documentation in this tutorial.
 
 ### Ultimate Python Cheat Sheet:
 
@@ -72,11 +74,6 @@ Now, you have access to the __Scikit Learn Documentation__ at your fingertips.
 
 Onto the tutorial. 
 
-# How Scikit Learn Works
-
-From the _Scikit Learn Documentation_, we can navigate to the __Ordinary Least Square (OLS)__ under Regression Linear Models. It includes a short-code instruction. We'll use this as a template for our project task: making a regression trendline plot. 
-
-![Scikit Learn Ordinary Least Squares](/assets/2021-07-06-sklearn/ols_regression.jpg)
 
 
 # Project: Making a Regression Trendline Plot
