@@ -6,8 +6,8 @@ excerpt: "A gentle introduction to our forecasting package, Modeltime. Modeltime
 author: "Matt Dancho"
 categories: [R]
 tags: [R-Bloggers, Learn-R, Learn-Timeseries, modeltime, tidymodels, timetk]
-image: "/2021-06-29-modeltime/modeltime-workflow-thumb.jpg"
-image_preview: "/2021-06-29-modeltime/modeltime-workflow-thumb.jpg"
+image: "/2021-06-29-modeltime/modeltime_time_series.jpg"
+image_preview: "/2021-06-29-modeltime/modeltime_time_series.jpg"
 ---
 
 > A gentle introduction to our forecasting package, `modeltime`. Modeltime extends the Tidymodels ecosystem for time series forecasting. Learn how to forecast with ARIMA, Prophet, and linear regression time series models in this short video tutorial.
