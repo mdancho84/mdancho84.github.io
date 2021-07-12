@@ -15,7 +15,9 @@ image_preview: 2021-02-18-R-is-for-research/Join_Forces_meme_preview.png
   <h4>&#128073; <a href="https://mailchi.mp/business-science/blog-registration">Sign Up For More Blog Articles</a> &#128072;</h4>
 </div>
 
+
 <br>
+_**Updated July 2021**_
 
 Both R and Python are great. We’ll showcase some of the strengths of each language in this article by showcasing where the major development efforts are within each ecosystem.
 
@@ -49,9 +51,9 @@ One of the most exceptional aspects of R is without a doubt Rmarkdown, which is 
 
 <h3>Shiny</h3>
 
-Shiny is another framework within R that is used to create <strong>interactive web applications</strong>. One of the best features of Shiny is providing the non data focused members of your team with the data science tools they need for decision making through an easy to use GUI (graphical user interface). Imagine your team getting together for a Monday afternoon planning session, having already reviewed the previous week’s report created in Rmarkdown, and running simulations using your collaborative Shiny web application to determine where the data is guiding you next.
+Shiny is a framework within R that is used to create <strong>interactive web applications</strong>. One of the best features of Shiny is providing the non data focused members of your team with the data science tools they need for decision making through an easy to use GUI (graphical user interface). Imagine your team getting together for a Monday afternoon planning session, having already reviewed the previous week’s report created in Rmarkdown, and running simulations using your collaborative Shiny web application to determine where the data is guiding you next.
 
-<h3>Where R is Growing</h3>
+<h3>Where is R Growing?</h3>
 
 Next, if we scroll through to the “Special Topics Page”, we can see the R ecosystem is growing. This is a key feature that distinguishes the R Ecosystem from the Python Ecosystem.
 
@@ -62,7 +64,7 @@ We can see that R has expanded into:
 - Time Series and Forecasting: `Modeltime` and `Timetk`
 - Financial Analysis (and other domains): `Tidyquant`, `Quantmod`
 - Network Analysis and Visualization: `Tidygraph` and `ggraph`
-- Text Analysis: `Tidytext` and Text `Recipes`
+- Text Analysis: `Tidytext` and `Text Recipes`
 - Geospatial Analysis and Visualization: Thematic Maps
 - Machine Learning: `H2O`, `Tidymodels`, and `MLR3`
 
@@ -107,19 +109,21 @@ We see that there’s Pandas for essentially everything related to import, tidyi
 
 While programmers love pandas, business analysts may initially struggle with the object-oriented (<em>pythonic</em>) way of having Data Frames with methods.
 
-```
-customer_counts_df = df.group_by(‘customer_id’).value_counts()
-```
+{% highlight python %}
+customer_counts_df = df.groupby('customer_id').value_counts()
+{% endhighlight %}
 
-Everything in Python is an object, and we call these methods (e.g. group_by, and value_counts) on the object. This call doesn’t seem too bad. But we are normally trying to do many more wrangling operations. It gets very challenging, less readable, and more complex.
+
+Everything in Python is an object, and we call these methods (e.g. `df.groupby()`, and `df.value_counts()`) on the object. This call doesn’t seem too bad. But we are normally trying to do many more wrangling operations. It gets very challenging, less readable, and more complex.
 
 Conversely, in R using the tidyverse we use a different syntax with a pipe (`%>%`). This is very similar to SQL and the flow of data wrangling how a user thinks.
 
-```
+{% highlight r %}
 customer_counts_tbl <- df %>%
     group_by(customer_id) %>%
     summarize(count = n())
-```
+{% endhighlight %}
+
 
 
 This tidyverse data wrangling workflow makes it often much easier for analysts to expand the set of operations into 10 or more data wrangling commands. Remember, the challenge isn’t typing code, it’s turning your thoughts into code. This is where the tidyverse is really powerful.
@@ -151,17 +155,63 @@ If you can get over the Pandas learning curve, then Python becomes a great tool.
 The decision can be challenging because they <strong>both Python and R have clear strengths</strong>.
 
 <ul>
-    <li><strong>R is exceptional for Research</strong> - Making visualizations, telling the story, producing reports, and making MVP apps with Shiny. From concept (idea) to execution (code), R users tend to be able to accomplish these tasks 3X to 5X faster than Python users, making them very productive for research. </li>
-    <li><strong>Python is exceptional for Production ML</strong> - Integrating machine learning models into production systems where your IT infrastructure relies on automation tools like Airflow or Luigi.</li>
+    <li><strong>R is exceptional for Research:</strong> Making visualizations, telling the story, producing reports, and making MVP apps with Shiny. From concept (idea) to execution (code), R users tend to be able to accomplish these tasks 3X to 5X faster than Python users, making them very productive for research. </li>
+    <li><strong>Python is exceptional for Production ML:</strong> Integrating machine learning models into production systems where your IT infrastructure relies on automation tools like Airflow or Luigi.</li>
 </ul>
 
 
-<br>
-
-<h2>Why Not Learn Both Python and R?</h2>
+## Why Not Learn Both R and Python?
 
 <img src="/assets/2021-02-18-R-is-for-research/Work_Together_meme.png"/>
 
+Both R and Python are amazing with different strengths. If you know both, you become more valuable to a team. And, with the development of __two key technologies__, it now possible to use both languages together. What technologies am I talking about? `reticulate` and `rpy2`.
+
+__What is `reticulate`?__ Reticulate is an R package that makes it easy to connect to Python libraries. For example, the Google Adwords API is written in Python, but your research is in R. Now you can use reticulate to connect to adwords using the Python API right from R. 
+
+__What is `rpy2`?__ Rpy2 is a Python package that makes it easy to connect to R libraries. For example, if you need the `modeltime` forecasting library in R, you can connect up to it allowing you to run Panel Data forecasts from inside of your Python workflow. 
+
+__Learning to leverage both R and Python means you are <span style='color:blue'>immediately valuable to a data science team.</span>__
+
+So how should you go about learning to integrate R and Python? Well, it starts by learning both R and python. 
+
+## Learning Both R and Python
+
+To leverage both R and Python together, you need to know both R and Python. That's why over the past 3-years, we have been developing a full system of courses. The __Course Development Roadmap__ looks like this. Both the Python and R-Tracks follow parallel paths that lead to using both together with `reticulate` and `py2`. 
+
+![R Python Tracks](/assets/2021-02-18-R-is-for-research/r_python_tracks.jpg)
+
+
+Course Status:
+
+- 6 of the courses are completed, with more coming soon.
+- [5 R-Track Courses are completed](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series)
+- [1 Python-Track Course is completed](https://university.business-science.io/p/python-for-data-science-automation-ds4b-101p)
+- __Next Course: Machine Learning for Business with Python (Coming Q3 2021)__
+- __R/Python Teams: Expected in Q1 2022__
+
+### Join the Waitlist: Machine Learning for Business with Python (201-P) 
+
+The next course in our system teaches Python with `scikit learn` and a host of powerful tools for __Production Machine Learning.__ [Join the Machine Learning for Business with Python Course Waitlist](https://mailchi.mp/business-science/machine-learning-python-waitlist). 
+
+<strong>This waitlist is for:</strong>
+
+<ul>
+    <li>People that want to learn Machine Learning with the Python Ecosystem</li>
+    <li>R users that want to learn Python</li>
+    <li>Python users that want to learn data science for business</li>
+</ul>
+
+The course pre-requisite is:
+
+- [Python for Data Science Automation (DS4B 101-P)](https://university.business-science.io/p/python-for-data-science-automation-ds4b-101p).
+
+<span style='font-size:36px;text-align:center;'>
+<a href='https://mailchi.mp/business-science/machine-learning-python-waitlist' target='_blank'>
+Join the Machine Learning for Business with Python Course Waitlist
+</a>
+</span>
+
+<!--
 One thing I haven’t mentioned is that <strong>I’m building a course</strong> that teaches Python from an R-users perspective. The core idea is that Python can be a tremendous asset, and being able to use tools like R’s reticulate to communicate between R and Python can make you a real asset to a data science team.
 <a href="https://mailchi.mp/business-science/r-python-teams">Join the R/Python Teams course waitlist</a>.
 
@@ -179,10 +229,46 @@ One thing I haven’t mentioned is that <strong>I’m building a course</strong>
 </p>
 
 
+### Course Development Roadmap
+
+The __Course Development Roadmap__ looks like this:
+
+![R Python Tracks](/assets/2021-02-18-R-is-for-research/r_python_tracks.jpg)
+
+This system contains two tracks: __R-Track and a Python Track.__ Each track develops core skills that leverage the strengths:
+
+- R for Research
+- Python for Automation and Production
+
+### Development Progress.
+
+- The Python track is currently under development ([The 1st Python Course is available now](https://university.business-science.io/p/python-for-data-science-automation-ds4b-101p)). 
+- [The 5-Course R-Track is completely available now.](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series/) 
+
+### What's Coming Next?
+
+The upcoming course is the [Join the Machine Learning for Business with Python](https://mailchi.mp/business-science/machine-learning-python-waitlist)
 
 
+<strong>This waitlist is for:</strong>
 
+<ul>
+    <li>People that want to learn the machine learning ecosystem in Python</li>
+    <li>R users that want to learn Python</li>
+    <li>Python users that want to learn advanced tools</li>
+</ul>
 
-<br>
+The course pre-requisite is the [Python for Data Science Automation Course](). 
+
+## What If I specifically want to learn R?
+
+I have you covered too. Just
 
 {% include cta_rtrack.html %}
+
+-->
+
+
+
+
+
