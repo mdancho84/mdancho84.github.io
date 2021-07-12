@@ -9,7 +9,7 @@ tags: [Learn-R, Learn-Business, Consulting]
 image: 2019-07-22-how-i-started-my-data-science-business/obsessed-with-r.png
 ---
 
-
+**Updated July 2021**
 
 This is a true story based on how I created my data science company from scratch. It's a detailed documentation of my personal journey along with the company I founded, [Business Science](https://www.business-science.io/), and the data science educational university I started, [Business Science University](https://university.business-science.io/).
 
@@ -29,7 +29,7 @@ I started learning R because of a change in my career. I'd recently been promote
 
 My conclusion was that I was good with data and analytics. I had just started taking my MBA at the time, and for every class assignment I was the team member doing the analysis. Typically in Excel.
 
-{% include cta_learning_labs.html %}
+{% include cta_rtrack.html %}
 
 In parallel, I had been managing a portfolio of my personal investments since 2007. I got my butt handed to me during the financial crisis of 2008. By 2011, I had bounced back and even grew my investments. However, I knew I needed to be smarter about what I was doing. I began performing investment analyses also in Excel.
 
@@ -150,7 +150,7 @@ To tackle this new problem (aka bridging the gap), we developed a plan for an ed
 
 In January 2017, I formed a small team of data scientists that I knew we could combine efforts to build an integrated program. The goal was to teach the aspiring data scientists being hired in droves to understand the needs of the enterprise and to learn how to apply our __systematic framework__ plus our __methods__ plus __advanced tools__ within a business context.
 
-{% include cta_learning_labs.html %}
+{% include cta_rtrack.html %}
 
 # Enter Business Science University
 
@@ -192,17 +192,7 @@ At the moment we are averaging 8.9 / 10.0. This is very good, and with room for 
 
 <img src="/assets/2019-07-22-how-i-started-my-data-science-business/course-satisfaction.jpg" alt="Course Satisfaction"/>
 
-A lot has changed in the year since starting __Business Science University__. 
 
-- Our first course remains a great product for [Advanced Machine Learning and Business Consulting (DS4B 201-R)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/?coupon_code=DS4B15)
-
-- We now have [Data Science Foundations (DS4B 101-R) Course](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon_code=DS4B15) for beginners that are ready to make the transition into data science
-
-- I just launched my 3rd Course - [Building Predictive Web Applications with R Shiny (DS4B 102-R)](https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1/?coupon_code=DS4B15)
-
-- And there's now a Continuous Education Program called [Learning Labs PRO](https://university.business-science.io/p/learning-labs-pro) for Data Scientists to go beyond the tools learned in the courses. 
-
-And I have a lot more coming! 
 
 
 
@@ -216,6 +206,22 @@ On the other hand, if I went full-time Business Science, I could focus and creat
 
 The decision for me was based on how much impact I could have.
 
+
+# Growing the Business
+
+A lot has changed in the year since starting __Business Science University__. 
+
+- __We have since grown to 2000+ students__ that are taking courses in R and Python. We've learned a ton through the process by specifically focusing on [student transformations](https://www.business-science.io/testimonials.html) (how to transform a student from no-prior experience to high proficiency as fast as possible). This focus has helped us change the game for students that have previously struggled learning data science for business.  
+
+- __We now have a [full 5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series/)__ that is streamlined, integrated, and has resulted in many amazing accomplishments for my students (Don't believe me, [check out the testimonials.](https://www.business-science.io/testimonials.html))
+
+- __I have rekindled my relationship with Python.__ In fact, I've been studying python extensively beginning in late 2020. Why? Because of the strengths that each language has and they can now work together. Read about the [strengths of R and Python here](https://www.business-science.io/business/2018/10/08/python-and-r.html) and [why R is for Research, Python is for Production here](https://www.business-science.io/business/2021/07/12/R-is-for-research-Python-is-for-production.html). 
+
+- __I've even launched my first Python Course:__ [Python for Data Science Automation](https://university.business-science.io/p/python-for-data-science-automation-ds4b-101p). It's helped many R users learn Python and beginners alike.  
+
+- __And there's now a Continuous Education Program__ called [Learning Labs PRO](https://university.business-science.io/p/learning-labs-pro) for Data Scientists to go beyond the tools learned in the courses. 
+
+And we have a lot more coming! 
 
 # The Importance Of The Data Science Community
 
