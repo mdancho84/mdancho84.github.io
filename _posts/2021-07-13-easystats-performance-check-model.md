@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "easystats performance: Quickly investigate model performance"
+title: "easystats: Quickly investigate model performance"
 date:   2021-07-13 11:37:00
 excerpt: "The easystats performance R package makes it easy to investigate the relevant assumptions for regression models. Simply use the check_model() function to produce a visualization that combines 6 tests for model performance."
 author: "Matt Dancho"
