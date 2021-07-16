@@ -2,7 +2,7 @@
 layout: post
 title: "Hierarchical Time Series Forecasting [Full Code Tutorial]"
 date: 2021-03-04 06:00:00
-excerpt: "In Learning Labs PRO Episode 50, Matt tackles an in-depth tutorial on Hierarchical Forecasting using the M5 Forecasting​ Competition."
+excerpt: "In Learning Labs PRO Episode 50, Matt tackles an in-depth tutorial on Hierarchical Forecasting using the M5 Forecasting Competition."
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Time Series, Forecasting, Tidymodels]
@@ -17,7 +17,7 @@ image_preview: 2021-03-04-hierarchical-timeseries-forecasting/preview.jpg
 
 ## Hierarchical Forecasting Tutorial
 
-In Learning Labs PRO Episode 50, Matt tackles an in-depth tutorial on H**ierarchical Forecasting using the M5 Forecasting​ Competition**. 
+In Learning Labs PRO Episode 50, Matt tackles an in-depth tutorial on **Hierarchical Forecasting using the M5 Forecasting Competition**. 
 
 Learn about Hierarchical Forecasting with Tidymodels! In this 1.5-hour video, learn:
 
