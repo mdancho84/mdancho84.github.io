@@ -10,7 +10,7 @@ image: 2021-07-19-panel-data/say_no_to_for_loops.jpg
 image_preview: 2021-07-19-panel-data/say_no_to_for_loops.jpg
 ---
 
-I'm __super excited__ to introduce the new panel data forecasting functionality in `modeltime`. It's perfect for forecasting many time series at once without for-loops saving you time ⏱️ and aggravation 😞. <span style="color:red">__Just say NO to for-loops.__</span>
+Spending too much time on making iterative forecasts? I'm __super excited__ to introduce the new panel data forecasting functionality in `modeltime`. It's perfect for forecasting many time series at once without for-loops saving you time ⏱️ and aggravation 😞.  <span style="color:red">__Just say NO to for-loops for forecasting.__</span>
 
 <div class="pull-right" style="width:60%; margin-left:20px; margin-bottom:20px;">
   <a href="#" target="_blank">
@@ -36,7 +36,8 @@ I can't possibly go over all of the new modeltime features released in 0.7.0 in 
 
 - Deep Learning (Torch Integration)
 - Global Models
-- New Features
+- Panel Data Forecasting
+- New Modeltime Features
 - And, a lot of `code` 
 
 <p style="font-size:36px;text-align:center;">
@@ -67,9 +68,9 @@ Modeltime is part of a __growing ecosystem__ of forecasting packages. Modeltime 
 
 And several new community-contributed `modeltime` extension packages have emerged including: [boostime](https://github.com/AlbertoAlmuinha/boostime), [bayesmodels](https://albertoalmuinha.github.io/bayesmodels/), [garchmodels](https://albertoalmuinha.github.io/garchmodels/), and [sknifedatar](https://rafzamb.github.io/sknifedatar/)
 
-# Problem: Forecast Iteration is <span style='color:red'>Not Scalable</span>
+# Problem: Forecasting with For-Loops is <span style='color:red'>Not Scalable</span>
 
-__Time series are increasing at an exponential rate.__ Organization-wide forecasting demands have changed from top-level to bottom-level forecasting, which has increased the number of forecasts that need to be made from the range of 1-100 to the range of 1,000-10,000. 
+__Time series data is increasing at an exponential rate.__ Organization-wide forecasting demands have changed from top-level to bottom-level forecasting, which has increased the number of forecasts that need to be made from the range of 1-100 to the range of 1,000-10,000. 
 
 Think of forecasting by customer for an organization that has __10,000 customers__. It becomes a _challenge_ to make these forecasts one at a time in an iterative approach. As that organization grows, moving from 10,000 to 100,000 customers, <span style='color:red;'>__forecasting with an iterative approach is not scalable.__</span>
 
@@ -109,8 +110,11 @@ The downside is that an global model approach can be less accurate than the iter
 
 # Say No to For-Loops
 
+If you're tired of waiting for ARIMA models to finish, then maybe it's time to __say NO to for-loops__ and give `modeltime` a try. 
+
 ![Forecasting without For-Loops](/assets/2021-07-19-panel-data/say_no_to_for_loops.jpg)
-<p class="text-center date">Forecasting Panel Data with Modeltime</p>
+
+<p class="text-center date">Forecast using Global Models and Panel Data with Modeltime for a 1000X Speed-up</p>
 
 While Modeltime [can perform iterative modeling](https://rafzamb.github.io/sknifedatar/articles/workflowsets_multi_times.html), Modeltime excels at __forecasting at scale without For-Loops__ using:
 
@@ -126,7 +130,7 @@ While Modeltime [can perform iterative modeling](https://rafzamb.github.io/sknif
 
 - __Global and Localized Confidence Intervals Reporting__: Generating out-of-sample confidence intervals both globally and at a local level by time series identifier (available in `modeltime` >= 0.7.0)
 
-We'll showcase several of these features in our tutorial on forecasting many time series without for-loops. 
+Once you learn these concepts, you can achieve __speed-ups of 1000X or more.__ We'll showcase several of these features in our tutorial on forecasting many time series without for-loops. 
 
 # Tutorial on Forecasting Many Time Series (Without For-Loops)
 
