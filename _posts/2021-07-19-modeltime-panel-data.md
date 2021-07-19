@@ -18,6 +18,7 @@ Spending too much time on making iterative forecasts? I'm __super excited__ to i
   </a>
 </div>
 
+
 __Fitting many time series can be an expensive process.__ The most widely-accepted technique is to iteratively run an ARIMA model on each time series in a for-loop. 
 
 __Times are changing.__ Organizations now need 1000's of forecasts. Think 1000s of customers, products, and complex hierarchical data. 
