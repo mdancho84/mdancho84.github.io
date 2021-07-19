@@ -6,15 +6,15 @@ excerpt: "I'm super excited to introduce the new panel data forecasting function
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, modeltime, parallel processing]
-image: 2021-07-19-panel-data/say_no_to_for_loops.jpg
-image_preview: 2021-07-19-panel-data/say_no_to_for_loops.jpg
+image: 2021-07-19-panel-data/say_no_to_for_loops_forecasting.jpg
+image_preview: 2021-07-19-panel-data/say_no_to_for_loops_forecasting.jpg
 ---
 
 Spending too much time on making iterative forecasts? I'm __super excited__ to introduce the new panel data forecasting functionality in `modeltime`. It's perfect for forecasting many time series at once without for-loops saving you time ⏱️ and aggravation 😞.  <span style="color:red">__Just say NO to for-loops for forecasting.__</span>
 
 <div class="pull-right" style="width:60%; margin-left:20px; margin-bottom:20px;">
   <a href="#" target="_blank">
-  <img class="img-responsive" style="border:none !important;" src="/assets/2021-07-19-panel-data/say_no_to_for_loops.jpg">
+  <img class="img-responsive" style="border:none !important;" src="/assets/2021-07-19-panel-data/say_no_to_for_loops_forecasting.jpg">
   </a>
 </div>
 
@@ -113,7 +113,7 @@ The downside is that an global model approach can be less accurate than the iter
 
 If you're tired of waiting for ARIMA models to finish, then maybe it's time to __say NO to for-loops__ and give `modeltime` a try. 
 
-![Forecasting without For-Loops](/assets/2021-07-19-panel-data/say_no_to_for_loops.jpg)
+![Forecasting without For-Loops](/assets/2021-07-19-panel-data/say_no_to_for_loops_forecasting.jpg)
 
 <p class="text-center date">Forecast using Global Models and Panel Data with Modeltime for a 1000X Speed-up</p>
 
