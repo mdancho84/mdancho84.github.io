@@ -101,7 +101,7 @@ The first step is to make the scatter plot using `ggplot2`. We:
 
 2. __Map the columns:__ Using `ggplot()`, we map the displ and hwy column. 
 
-3. __Make the scatter points__: Using `geom_point()`, we add scatter plot points to our base plot. 
+3. __Make the scatter points__: Using `geom_point()`, we add scatter plot points to our base plot. Refer to the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) and ggplot2 "CS" for more geoms. 
 
 
 <img src="/assets/2021-07-27-ggforce-hull-plots/01_scatterplot.jpg" style='max-width:100%;margin-bottom:5px;'>
@@ -128,7 +128,7 @@ And here's the output. We can see that the hull plot shows the cylinder class me
 
 ### Step 3: Make the plot look professional
 
-It's a good idea to spruce up our plot, especially if we are going to present to business stakeholders in a presentation or report. We'll leverage `tidyquant` and `ggplot` for theme customization. 
+It's a good idea to spruce up our plot, especially if we are going to present to business stakeholders in a presentation or report. We'll leverage `tidyquant` and `ggplot` for theme customization. Refer to the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) and `ggplot2` documentation for more customizations.
 
 <img src="/assets/2021-07-27-ggforce-hull-plots/03_ggplot_theme_customization.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
