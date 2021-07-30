@@ -29,7 +29,11 @@ In this tutorial:
 
 2. We'll then provide an __introductory tutorial__ using `modeltime` 0.7.0 new features (now available on CRAN 🎉) for modeling time series as Panel Data to make forecasts without for-loops. 
 
+First, here's a quick overview of the Modeltime Forecasting Ecosystem that unlocks `tidymodels` (similar to scikit learn but in R). 
+
+<!--
 Before we move on, what if I want to __learn more__ in-depth forecasting training with Modeltime? 👇
+
 
 # Free Forecasting Training!
 
@@ -44,6 +48,7 @@ I can't possibly go over all of the new modeltime features released in 0.7.0 in 
 <p style="font-size:36px;text-align:center;">
 <a href="https://bit.ly/lab60-torch" target="_blank">👉 Register Here.</a>
 </p>
+-->
 
 # What is Modeltime? <br><small>A <strong>growing</strong> ecosystem for tidymodels forecasting</small>
 
