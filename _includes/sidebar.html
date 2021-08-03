@@ -1,31 +1,31 @@
 <nav class="bs-docs-sidebar ">
 	<ul class="nav bs-docs-sidenav">
-        
+
         <!-- Search -->
 		<li>
 		    <div class="row">
 		        <div class="col-xs-12">
 		            <h5>Get Articles in Your Inbox</h5>
-		            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">	        
-                    <style type="text/css">	                      
+		            <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
                     	#mc_embed_signup{ width:100%;}
-                    </style>	
-            
-                    <div id="mc_embed_signup">	
-						<form action="https://business-science.us17.list-manage.com/subscribe/post?u=cc36813ecec32f8e7b5088961&amp;id=a4e5b7c52f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>	
-                            <div class = "row">	
-                                <div id="mc_embed_signup_scroll">	
-    
-                                    <div class="col-md-12">	
-                                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" style="width:100%; color: #2c3e50; text-align:center;" placeholder="email" required>	
-                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cc36813ecec32f8e7b5088961_a4e5b7c52f" tabindex="-1" value=""></div>	
-                                    </div>	
-    
-                                    <div class="col-sm-12 col-md-12 text-center">	
-                                        <input type="submit" value="Get Articles" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-md" style="margin-bottom: 8px;">	
-                                    </div>	
-                                </div>	
-                            </div>	
+                    </style>
+
+                    <div id="mc_embed_signup">
+						<form action="https://business-science.us17.list-manage.com/subscribe/post?u=cc36813ecec32f8e7b5088961&amp;id=a4e5b7c52f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div class = "row">
+                                <div id="mc_embed_signup_scroll">
+
+                                    <div class="col-md-12">
+                                        <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" style="width:100%; color: #2c3e50; text-align:center;" placeholder="email" required>
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cc36813ecec32f8e7b5088961_a4e5b7c52f" tabindex="-1" value=""></div>
+                                    </div>
+
+                                    <div class="col-sm-12 col-md-12 text-center">
+                                        <input type="submit" value="Get Articles" name="subscribe" id="mc-embedded-subscribe" class="btn btn-success btn-md" style="margin-bottom: 8px;">
+                                    </div>
+                                </div>
+                            </div>
 
                         </form>
 		        </div>
@@ -45,7 +45,7 @@
             </form>
 		</li>
 		<li><hr></li>
-		
+
 		<!-- Learning Hub -->
 		<li>
 		    <div class="row">
@@ -81,7 +81,7 @@
 		{% endif %}
 		-->
 
-		
+
         <!-- Cheat Sheets -->
 		<li>
 		    <div class="row">
@@ -98,11 +98,11 @@
 		    </div>
 		</li>
 		<li><hr></li>
-		
+
 		<!-- Popular Content -->
 		<li>
 			<h5>Popular Content</h5>
-					
+
 			<div class="list-group">
 				{% for post in site.posts %}
 				<!-- 6 Reasons To Learn R For Business -->
@@ -120,11 +120,11 @@
 				{% endif %}
 				{% endfor %}
 			</div>
-			
+
 		</li>
 		<li><hr></li>
-		
-		
+
+
 
 		<!-- Recent Posts -->
 		<li>
@@ -146,7 +146,7 @@
 		</li>
 		<li><hr></li>
 
-        
+
         <!-- Social -->
         <li><h4 class="text-center">Follow Us</h4></li>
         <li>
@@ -164,14 +164,26 @@
 				<a class="twitter-timeline" data-width="220" data-height="750" data-theme="light" href="https://twitter.com/bizScienc">Tweets by bizScienc</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 			</div>
 		</li>
-		
+
+		<li><hr></li>
+		<li>
+			<h5>Featured on:</h5>
+			<div class="list-group">
+    		    <a href="https://R-bloggers.com" target = "_blank" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="R Bloggers">R-Bloggers</a>
+    			<a href="https://Python-bloggers.com" target = "_blank" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="Python Bloggers">Python-Bloggers</a>
+
+    		</div>
+
+
+
+
 
 		<!-- Resources -->
 		<!--
 		<li><hr></li>
 		<li>
 			<h5>Resources</h5>
-			
+
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#R" aria-expanded="false" aria-controls="R">
 				  R: <span class="badge">{{ site.data.resources-R | size }}</span>
@@ -185,7 +197,7 @@
 				</div>
 			</div>
 
-			
+
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Python" aria-expanded="false" aria-controls="Python">
 				  Python: <span class="badge">{{ site.data.resources-python | size }}</span>
@@ -199,7 +211,7 @@
 				</div>
 			</div>
 
-			
+
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#PowerBI" aria-expanded="false" aria-controls="PowerBI">
 				  Power BI: <span class="badge">{{ site.data.resources-powerbi | size }}</span>
@@ -213,7 +225,7 @@
 				</div>
 			</div>
 
-			
+
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#Tableau" aria-expanded="false" aria-controls="Tableau">
 				  Tableau: <span class="badge">{{ site.data.resources-tableau | size }}</span>
@@ -227,7 +239,7 @@
 				</div>
 			</div>
 
-			
+
 			<div class = "button-margin">
 				<button class="btn btn-primary" style="width: 100%;" type="button" data-toggle="collapse" data-target="#Excel" aria-expanded="false" aria-controls="Excel">
 				  Excel: <span class="badge">{{ site.data.resources-excel | size }}</span>
@@ -241,7 +253,7 @@
 				</div>
 			</div>
 
-			
+
 			<div class = "button-margin">
 				<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#opensource" aria-expanded="false" aria-controls="opensource">
 				  Other Tools: <span class="badge">{{ site.data.resources-opensource | size }}</span>
