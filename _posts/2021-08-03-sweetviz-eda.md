@@ -148,9 +148,9 @@ It's that easy to explore your dataset!
 
 Exploratory data analysis can be automated with the python SweetViz reporting package. SweetViz makes it fast and easy to explore features and determine relationships to a target. In our case, we saw that 4 cylinder engines have the highest average MPG while 8 cylinder engines have the lowest average MPG.
 
-# Learn More
+# Learn More: Business Process Automation with Python
 
-Businesses are transitioning manual processes to Python for automation. Learn how in our new course, [Python for Data Science Automation](https://university.business-science.io/p/python-for-data-science-automation-ds4b-101p). Perform and end-to-end business forecast automation using `pandas`, `sktime`, and `papermill`, and learn Python in the process. 
+__Businesses are transitioning manual processes to Python for automation.__ Learn how in our new course, [Python for Data Science Automation](https://university.business-science.io/p/python-for-data-science-automation-ds4b-101p). Perform and end-to-end business forecast automation using `pandas`, `sktime`, and `papermill`, and learn Python in the process. 
 
 {% include cta_101P.html %}
 
