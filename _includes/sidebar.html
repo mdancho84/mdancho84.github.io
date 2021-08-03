@@ -49,16 +49,19 @@
 		<!-- R Courses -->
 		<li>
 		    <div class="row">
-		        <div class="col-xs-12 list-group-item">
-		            <h5>R Courses <i class="fab fa-r-project"></i></h5>
-		            <p>5-Course System. Learn faster. Accelerate your career.</p>
-		            <a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series" target="_blank">
+		        <div class="col-xs-12 list-group">
+		            <a class='list-group-item' href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series" target="_blank">
+		                <h5>R Courses <i class="fab fa-r-project"></i></h5>
+    		            <p>5-Course System. Learn faster. Accelerate your career.</p>
+
 		                <img src="/img/courses/5_course_r_track.jpg" alt="5-Course R Track" class="" style="width:100%"/>
+
+                        <br><br>
+    		            <div class="text-center">
+    		                <div class="btn btn-md btn-success ">5-Course R-Track</div>
+    		            </div>
 		            </a>
-		            <br /><br />
-		            <div class="text-center">
-		                <a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series" target="_blank" class="btn btn-md btn-success">5-Course R-Track</a>
-		            </div>
+
 		        </div>
 		    </div>
 		</li>
@@ -68,21 +71,98 @@
         <!-- Python Courses -->
 		<li>
 		    <div class="row">
-		        <div class="col-xs-12 list-group-item">
-		            <h5>Python Courses <i class="fab fa-python"></i></h5>
-		            <p>Automate Business Processes.</p>
-		            <a href="https://university.business-science.io/p/python-for-data-science-automation-ds4b-101p" target="_blank">
-		                <img src="/img/courses/course_101_p.jpg" alt="Python for Data Science Automation" class="" style="width:100%"/>
-		            </a>
-		            <br /><br />
-		            <div class="text-center">
-		                <a href="https://university.business-science.io/p/python-for-data-science-automation-ds4b-101p" target="_blank" class="btn btn-md btn-success">Python for DS Automation</a>
-		            </div>
+		        <div class="col-xs-12 list-group">
+		            <a class='list-group-item' href="https://university.business-science.io/p/python-for-data-science-automation-ds4b-101p" target="_blank">
+    		            <h5>Python Courses <i class="fab fa-python"></i></h5>
+    		            <p>Automate Business Processes with Python.</p>
+    		            <img src="/img/courses/course_101_p.jpg" alt="Python for Data Science Automation" class="" style="width:100%"/>
+    		            <br><br>
+    		            <div class="text-center">
+    		                <div class="btn btn-md btn-success ">Python for DS Automation</div>
+    		            </div>
+    		        </a>
 		        </div>
 		    </div>
 		</li>
 		<li><hr></li>
-		<!-- Learning Hub -->
+
+
+		<!-- Popular Content -->
+		<li>
+			<h5>Popular Articles</h5>
+
+			<div class="list-group">
+				{% for post in site.posts %}
+				<!-- 6 Reasons To Learn R For Business -->
+				{% if post.title == '6 Reasons To Learn R For Business' %}
+				<a href="{{ post.url }}" class="list-group-item">
+					<h6 class="list-group-item-heading">{{ post.title }}</h6>
+				    {% if post.image_preview %}
+							<img src="{{ site.baseurl }}/assets/{{ post.image_preview }}" alt="..." style="width: 100%;">
+						{% elsif post.image %}
+							<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
+	          {% else %}
+	            <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
+	      	  {% endif %}
+				</a>
+				{% endif %}
+				{% endfor %}
+			</div>
+
+		</li>
+		<li><hr></li>
+
+
+		<!-- Recent Posts -->
+		<li>
+			<h5>Recent Posts</h5>
+			<div class="list-group">
+				{% for post in site.posts limit:3 %}
+				<a href="{{ post.url }}" class="list-group-item">
+					<h6 class="list-group-item-heading">{{ post.title }}</h6>
+						{% if post.image_preview %}
+							<img src="{{ site.baseurl }}/assets/{{ post.image_preview }}" alt="..." style="width: 100%;">
+						{% elsif post.image %}
+							<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
+						{% else %}
+							<img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
+						{% endif %}
+				</a>
+				{% endfor %}
+			</div>
+		</li>
+		<li><hr></li>
+
+
+        <!-- Social -->
+        <li><h4 class="text-center">Follow Us</h4></li>
+        <li>
+		    <h5 class="text-center">DS Newsletter <small><a href="http://bit.ly/data-fundamentals" target="_blank">(Read Us)</a></small></h5>
+		</li>
+        <li>
+		    <h5 class="text-center">LinkedIn <small><a href="https://www.linkedin.com/company/business.science" target="_blank">(Follow Us)</a></small></h5>
+		</li>
+		<li>
+		    <h5 class="text-center">GitHub <small><a href="https://github.com/business-science" target="_blank">(Star Us)</a></small></h5>
+		</li>
+		<li>
+		    <h5 class="text-center">Twitter <small><a href="https://twitter.com/bizScienc" target="_blank">(Tweet At Us)</a></small></h5>
+			<div class = "container">
+				<a class="twitter-timeline" data-width="220" data-height="750" data-theme="light" href="https://twitter.com/bizScienc">Tweets by bizScienc</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+			</div>
+		</li>
+
+		<li><hr></li>
+		<li>
+			<h5>Featured on:</h5>
+			<div class="list-group">
+    		    <a href="https://R-bloggers.com" target = "_blank" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="R Bloggers">R-Bloggers</a>
+    			<a href="https://Python-bloggers.com" target = "_blank" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="Python Bloggers">Python-Bloggers</a>
+
+    		</div>
+
+
+        <!-- Learning Hub -->
 		<!--
 		<li>
 		    <div class="row">
@@ -138,84 +218,6 @@
 		</li>
 		<li><hr></li>
 		-->
-
-		<!-- Popular Content -->
-		<li>
-			<h5>Popular Content</h5>
-
-			<div class="list-group">
-				{% for post in site.posts %}
-				<!-- 6 Reasons To Learn R For Business -->
-				{% if post.title == '6 Reasons To Learn R For Business' %}
-				<a href="{{ post.url }}" class="list-group-item">
-					<h6 class="list-group-item-heading">{{ post.title }}</h6>
-				    {% if post.image_preview %}
-							<img src="{{ site.baseurl }}/assets/{{ post.image_preview }}" alt="..." style="width: 100%;">
-						{% elsif post.image %}
-							<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
-	          {% else %}
-	            <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
-	      	  {% endif %}
-				</a>
-				{% endif %}
-				{% endfor %}
-			</div>
-
-		</li>
-		<li><hr></li>
-
-
-
-		<!-- Recent Posts -->
-		<li>
-			<h5>Recent Posts</h5>
-			<div class="list-group">
-				{% for post in site.posts limit:3 %}
-				<a href="{{ post.url }}" class="list-group-item">
-					<h6 class="list-group-item-heading">{{ post.title }}</h6>
-						{% if post.image_preview %}
-							<img src="{{ site.baseurl }}/assets/{{ post.image_preview }}" alt="..." style="width: 100%;">
-						{% elsif post.image %}
-							<img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="..." style="width: 100%;">
-						{% else %}
-							<img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
-						{% endif %}
-				</a>
-				{% endfor %}
-			</div>
-		</li>
-		<li><hr></li>
-
-
-        <!-- Social -->
-        <li><h4 class="text-center">Follow Us</h4></li>
-        <li>
-		    <h5 class="text-center">DS Newsletter <small><a href="http://bit.ly/data-fundamentals" target="_blank">(Read Us)</a></small></h5>
-		</li>
-        <li>
-		    <h5 class="text-center">LinkedIn <small><a href="https://www.linkedin.com/company/business.science" target="_blank">(Follow Us)</a></small></h5>
-		</li>
-		<li>
-		    <h5 class="text-center">GitHub <small><a href="https://github.com/business-science" target="_blank">(Star Us)</a></small></h5>
-		</li>
-		<li>
-		    <h5 class="text-center">Twitter <small><a href="https://twitter.com/bizScienc" target="_blank">(Tweet At Us)</a></small></h5>
-			<div class = "container">
-				<a class="twitter-timeline" data-width="220" data-height="750" data-theme="light" href="https://twitter.com/bizScienc">Tweets by bizScienc</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-			</div>
-		</li>
-
-		<li><hr></li>
-		<li>
-			<h5>Featured on:</h5>
-			<div class="list-group">
-    		    <a href="https://R-bloggers.com" target = "_blank" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="R Bloggers">R-Bloggers</a>
-    			<a href="https://Python-bloggers.com" target = "_blank" class="list-group-item" data-toggle="tooltip" data-placement="bottom" title="Python Bloggers">Python-Bloggers</a>
-
-    		</div>
-
-
-
 
 
 		<!-- Resources -->
