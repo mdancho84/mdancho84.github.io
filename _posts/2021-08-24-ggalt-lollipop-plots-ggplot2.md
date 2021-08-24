@@ -162,17 +162,17 @@ Awesome work! The lollipop plot looks amazing.
 
 We learned how to make lollipop plots with `ggalt`. But, there's a lot more to visualization. __And, if you are just starting out, then this tutorial was probably difficult. That's OK because I have a solution.__ 
 
-If you'd like to learn `ggplot2`, data visualizations, data wrangling, and data science for business with R, then read on. 👇
+If you'd like to learn `ggplot2`, data visualizations, data wrangling, `shiny` apps, and data science for business with R, then read on. 👇
 
 
 
 # My Struggles with Learning Data Science
 
-It took me a long time to learn data science. And I made a lot of mistakes as I fumbled through learning R.  I specifically had a tough time navigating the ever increasing landscape of tools and packages, trying to pick between R and Python, and getting lost along the way.
+__It took me a long time to learn data science.__ And I made a lot of mistakes as I fumbled through learning R.  I specifically had a tough time navigating the ever increasing landscape of tools and packages, trying to pick between R and Python, and getting lost along the way.
 
 __If you feel like this, you're not alone.__
 
-The good news is that after years of learning, I was able to become a highly-rated business consultant working with Fortune 500 clients, I even helped others in the community by developing open source software that has been downloaded over 1,000,000 times, and I found a real passion for coding. 
+__The good news__ is that, after years of learning, I was able to become a highly-rated business consultant working with Fortune 500 clients and my career advanced rapidly. More than that, I was able to help others in the community by developing open source software that has been downloaded over 1,000,000 times, and I found a real passion for coding. 
 
 In fact, that's the driving reason that I created Business Science to help people like you and me that are struggling to learn data science for business ([You can read about my personal journey here](https://www.business-science.io/business/2019/07/22/how-i-started-my-data-science-business.html)).
 
