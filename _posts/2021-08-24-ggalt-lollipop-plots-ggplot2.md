@@ -168,9 +168,11 @@ If you'd like to learn `ggplot2`, data visualizations, data wrangling, `shiny` a
 
 # My Struggles with Learning Data Science
 
-__It took me a long time to learn data science.__ And I made a lot of mistakes as I fumbled through learning R.  I specifically had a tough time navigating the ever increasing landscape of tools and packages, trying to pick between R and Python, and getting lost along the way.
+__It took me a long time to learn data science.__ I made a lot of mistakes as I fumbled through learning R.  I specifically had a tough time navigating the ever increasing landscape of tools and packages, trying to pick between R and Python, and getting lost along the way. 
 
-__If you feel like this, you're not alone.__
+__If you feel like this, you're not alone.__ Coding is tough, data science is tough, and connecting it all with the business is tough. 
+
+# If you feel like this, you're not alone.
 
 __The good news__ is that, after years of learning, I was able to become a highly-rated business consultant working with Fortune 500 clients and my career advanced rapidly. More than that, I was able to help others in the community by developing open source software that has been downloaded over 1,000,000 times, and I found a real passion for coding. 
 
