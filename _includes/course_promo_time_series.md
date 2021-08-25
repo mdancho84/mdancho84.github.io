@@ -1,8 +1,8 @@
-## Advanced Time Series Course<br><small>Become the times series expert in your organization.</small> {#time-series-course}
+## High-Performance Time Series Course<br><small>Become the times series expert in your organization.</small> {#time-series-course}
 
-My ___Advanced Time Series Forecasting in R course___ is available now. You'll learn `timetk` and `modeltime` plus the most powerful time series forecasting techniques available like GluonTS Deep Learning. Become the times series domain expert in your organization. 
+My ___High-Performance Time Series Forecasting in R course___ is available now. You'll learn `timetk` and `modeltime` plus the most powerful time series forecasting techniques available like GluonTS Deep Learning. Become the times series domain expert in your organization. 
 
-👉 [__Advanced Time Series Course.__](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting/)  
+👉 [__High-Performance Time Series Course.__](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting/)  
 
 <div class="" style="width:100%; ">
   <a href="https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting/" target="_blank">
