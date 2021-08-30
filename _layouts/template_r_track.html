@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	{% include analytics.html %}
+		
+    <title>
+	  {% if page.title %}
+	    {{ page.title }}
+	  {% else %}
+	    Default Page Title
+	  {% endif %}
+	</title>
+		
+    {% include meta.html %}
+
+    {% include atom_feed.html %}
+
+    {% include head.html %}
+
+</head>
+
+<body id="page-top" class="index">
+	
+	{% include google_tag_manager_body.html %}
+
+	{% include nav_r_track.html %}
+
+	{{ content }}
+
+	{% include footer.html %}
+
+	{% include sumo_head.html %}
+
+	{% include mailchimp_head.html %}
+
+	{% include script.html %}
+
+</body>
+
+</html>
