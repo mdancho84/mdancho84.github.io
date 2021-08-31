@@ -184,6 +184,21 @@ li{font-size:20px;}
   line-height: 88px;
 }
 
+.blank-cover {
+  /* min-height:500px; */
+  width: 100%;
+  background-color: #000000;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.blank-cover h1 {
+  font-size: 55px !important; 
+  font-weight: 300 !important;
+  line-height: 88px;
+}
+
 .journey-cover {
   min-height:500px; 
   width: 100%;
