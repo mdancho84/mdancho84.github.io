@@ -384,3 +384,22 @@ li{font-size:20px;}
 .shadow2 {
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, .5);
 }
+
+.btn-lg-red {
+  padding: 18px 27px;
+  line-height: 1.3333333;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: x-large;
+  border-radius: 100px;
+  color: white;
+  background-color: red;
+  border-color: red;
+  transition-duration: 0.3s;
+}
+
+.btn-lg-red:hover {
+  background-color: #b90101; 
+  border-color: #b90101;
+  color: white;
+}
