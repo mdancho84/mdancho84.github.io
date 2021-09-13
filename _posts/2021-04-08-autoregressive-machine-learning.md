@@ -34,9 +34,8 @@ If you are interested in learning more, I have an <strong><a href= 'https://bit.
 
 
 
-<!-- 
 If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will learn the foundations of the growing Modeltime Ecosystem.
---> 
+
 
 {% include forecasting-software-articles.md %}
 

@@ -29,6 +29,8 @@ In this tutorial:
 
 2. We'll then provide an __introductory tutorial__ using `modeltime` 0.7.0 new features (now available on CRAN 🎉) for modeling time series as Panel Data to make forecasts without for-loops. 
 
+If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will learn the foundations of the growing Modeltime Ecosystem.
+
 First, here's a quick overview of the Modeltime Forecasting Ecosystem that unlocks `tidymodels` (similar to scikit learn but in R). 
 
 <!--

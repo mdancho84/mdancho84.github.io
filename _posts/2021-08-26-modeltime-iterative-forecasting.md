@@ -29,11 +29,12 @@ Two methods exist for forecasting many time series that get results:
 
 2. __Iterative Forecasting:__ Best for accuracy using a Nested Data Structure. Takes longer than global model (more resources due to for-loop iteration), but can yield great results. (Discussed Here) 
 
-We've incorporated a new approach called ___"Nested Forecasting"___ to help perform _Iterative Forecasting_. In this tutorial, we'll forecast iteratively using`prophet` and `XGBoost` models.
+We've incorporated a new approach called ___"Nested Forecasting"___ to help perform _Iterative Forecasting_ inside of a __tidyverse nested data structure.__ You'll scalably create 7 `prophet` and 7 `xgboost` models.
 
-<!-- CTA -->
+If you like what you see, I have an [Advanced Time Series Course](https://university.business-science.io/p/ds4b-203-r-high-performance-time-series-forecasting) where you will learn the foundations of the growing Modeltime Ecosystem.
+
+<!-- CTA 
 Before we move on, what if I want to __learn more__ in-depth forecasting training with Modeltime? 👇
-
 
 # Free Forecasting Training!
 
@@ -274,11 +275,11 @@ First, we create `tidymodels` workflows for the various models that you intend t
 
 #### Prophet
 
-A common modeling method is prophet, that can be created using `prophet_reg()`. We'll create a workflow. Note that we use the first `nested_data_tbl$.splits[[1]])` to help us determine how to build features.
+A common modeling method is prophet, that can be created using `prophet_reg()`. We’ll create a workflow. Note that we use the `extract_nested_train_split(nested_data_tbl)` to help us build preprocessing features.
 
 
 {% highlight r %}
-rec_prophet <- recipe(value ~ date, training(nested_data_tbl$.splits[[1]])) 
+rec_prophet <- recipe(value ~ date,  extract_nested_train_split(nested_data_tbl)) 
 
 wflw_prophet <- workflow() %>%
     add_model(
@@ -291,11 +292,11 @@ wflw_prophet <- workflow() %>%
 
 #### XGBoost
 
-Next, we can use a machine learning method that can get good results: XGBoost. We will add a few extra features in the recipe feature engineering step to generate features that tend to get better modeling results. Note that we use the first `nested_data_tbl$.splits[[1]])` to help us determine how to build features.
+Next, we can use a machine learning method that can get good results: XGBoost. We will add a few extra features in the recipe feature engineering step to generate features that tend to get better modeling results. Note that we use the `extract_nested_train_split(nested_data_tbl)` to help us build preprocessing features.
 
 
 {% highlight r %}
-rec_xgb <- recipe(value ~ ., training(nested_data_tbl$.splits[[1]])) %>%
+rec_xgb <- recipe(value ~ .,  extract_nested_train_split(nested_data_tbl)) %>%
     step_timeseries_signature(date) %>%
     step_rm(date) %>%
     step_zv(all_predictors()) %>%
