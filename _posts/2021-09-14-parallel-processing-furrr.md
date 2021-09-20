@@ -47,6 +47,9 @@ This tutorial showcases the awesome power of `furrr` for parallel processing. We
 
 This tutorial wouldn't be possible without the excellent work of [Davis Vaughan](https://twitter.com/dvaughan32), creator of `furrr`. For more information beyond the tutorial, check out the [furrr package here](https://furrr.futureverse.org/).
 
+<img src="/assets/2021-09-14-furrr/logo-furrr.png" style='max-width:50%;margin-bottom:5px;display:block;margin-left:auto;margin-right:auto' alt='Furrr Logo'>
+
+
 ## Before we get started, get the R Cheat Sheet
 
 `furrr` is great for parallel processing. But, you'll need to learn `purrr` to take full advantage. For these topics, I'll use the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) to refer to `purrr` code in my workflow.
