@@ -403,3 +403,22 @@ li{font-size:20px;}
   border-color: #b90101;
   color: white;
 }
+
+.btn-lg-green {
+  padding: 18px 27px;
+  line-height: 1.3333333;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: x-large;
+  border-radius: 100px;
+  color: white;
+  background-color: #13d3ad;
+  border-color: #13d3ad;
+  transition-duration: 0.3s;
+}
+
+.btn-lg-green:hover {
+  background-color: #18bc9c; 
+  border-color: #18bc9c;
+  color: white;
+}
