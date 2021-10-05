@@ -3,7 +3,7 @@
 
 <head>
 
-		{% include analytics.html %}
+	{% include analytics.html %}
 		
     <title>
 	  {% if page.title %}
@@ -11,18 +11,13 @@
 	  {% else %}
 	    Default Page Title
 	  {% endif %}
-	  </title>
+	</title>
 		
     {% include meta.html %}
 
     {% include atom_feed.html %}
 
-		{% include head.html %}
-		<link href="/css/hub.css" rel="stylesheet">
-    
-    {% include mailchimp_head.html %}
-    
-    <!-- {% include sumo_head.html %} -->
+    {% include head.html %}
 
 </head>
 
@@ -32,15 +27,15 @@
 	
 	<div style="padding-bottom: 50px;"><!-- spacer--></div>
 
-	{% include nav.html %}
-
-	<br/><br/>
+	{% include nav_r_track.html %}
 
 	{{ content }}
 
-	<br/><br/>
-
 	{% include footer.html %}
+
+	{% include sumo_head.html %}
+
+	{% include mailchimp_head.html %}
 
 	{% include script.html %}
 
