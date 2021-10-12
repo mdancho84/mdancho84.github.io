@@ -12,6 +12,7 @@ image_preview: "/2021-10-12-customer-heatmap/047-customer-heatmap-thumb.jpg"
 
 The `ggplot2` package is an essential tool in every data scientists toolkit. Today we show you how to use `ggplot2` to make a professional heatmap that organizes customers by their sales purchasing habits.   
 
+
 ## R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
