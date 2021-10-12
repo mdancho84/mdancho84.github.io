@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Make a Heatmap of Customers in R [Video]"
-date:   2021-10-12 09:40:00
+date:   2021-10-12 08:40:00
 excerpt: "The ggplot2 package is an essential tool in every data scientists toolkit. Today we show you how to use ggplot2 to make a professional heatmap that organizes customers by their sales purchasing habits."
 author: "Matt Dancho"
 categories: [R]
