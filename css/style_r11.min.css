@@ -469,3 +469,36 @@ li{font-size:20px;}
   border-color: #18bc9c;
   color: white;
 }
+
+.btn-xxl-wide-green {
+  padding: 18px 27px;
+  line-height: 1.3333333;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  border-radius: 100px;
+  color: white;
+  background-color: #13d3ad;
+  border-color: #13d3ad;
+  transition-duration: 0.3s;
+}
+@media (max-width: 685px) {
+  .btn-xxl-wide-green {
+    padding: 18px 27px;
+    line-height: 1.3333333;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    border-radius: 100px;
+    color: white;
+    background-color: #13d3ad;
+    border-color: #13d3ad;
+    transition-duration: 0.3s;
+  }
+}
+
+.btn-xxl-wide-green:hover {
+  background-color: #18bc9c;
+  border-color: #18bc9c;
+  color: white;
+}
