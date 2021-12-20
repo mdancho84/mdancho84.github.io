@@ -22,7 +22,9 @@ For those that want to learn more about __launching your career in data science 
 
 # What is `portfoliodown`?
 
-`portfoliodown` is the __Data Science Portfolio Website Builder.__ In as little as 15-minutes, you can get a professional website created that is designed to get you a job interview. The website is streamlined with a focus on the two questions Hiring Managers need to know: 
+`portfoliodown` is the __Data Science Portfolio Website Builder.__ In as little as 15-minutes, you can get a professional website created that is designed to get you a job interview. 
+
+The website is streamlined with a focus on the __two questions Hiring Managers need to know:__ 
 
 1. What have you done? 
 
