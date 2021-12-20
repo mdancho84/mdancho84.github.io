@@ -153,7 +153,7 @@ Deployment takes two steps:
 
 Great! You now have a functioning portfolio website. 
 
-__What next? How do you gain that elusive data science career?!__
+<span style='font-size:30px;color:blue;'>What next? How do you gain that elusive data science career?!</span>
 
 ## 🚀 Launching a Career in Data Science
 
