@@ -141,11 +141,13 @@ The remaining sections can be modified in the same way.
 
 ## Deployment
 
-Once you've designed your Data Science Project Portfolio, __you're now ready to deploy.__ Deployment takes two steps:
+Once you've designed your Data Science Project Portfolio, __you're now ready to deploy.__ 
 
-1. Push to Github. 
+Deployment takes two steps:
 
-2. Create a Netlify account and connect it to your github repo containing your Data Science Portfolio Website. 
+1. __Push to Github.__ 
+
+2. __Create a Netlify account__ and connect it to your github repo containing your Data Science Portfolio Website. 
 
 Great! You now have a functioning portfolio website. 
 
@@ -153,13 +155,13 @@ __What next? How do you gain that elusive data science career?!__
 
 ## 🚀 Launching a Career in Data Science
 
-I'll have detailed training coming soon on how to build professional profiles in 2022 as part of an upcoming module on __"Launching a Data Science Career in 30-days".__ 
+I'll have detailed training coming soon on how to launch a data science career in 2022: __"Launching a Data Science Career in 30-Days".__ 
 
-- You'll need to take the [__5-Course R-Track Courses__](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series) first to gain the prerequisite knowledge needed. Note that this will take several months to complete, but will set you up for insane performance on the job (and wow everyone in the interview). 
+- You'll need to take the [__5-Course R-Track Courses__](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series) first to gain the prerequisite knowledge needed. Note that this will take several months to complete, but the R-Track system will set you up for insane performance on the job (and wow everyone in the technical interview). 
 
 - __The Career Module__ will cover what to do to land data science interviews, gain recommendations from me, and get promotion after promotion on the job to accelerate your career. 
 
-If you are interested, then please [__watch my Free Webinar: 10 Secrets to becoming a Data Scientist with R.__](https://mailchi.mp/business-science/rtrack-master-class-signup-3)
+If you are interested in learning more, then please [__watch my Free Webinar: 10 Secrets to becoming a Data Scientist with R.__](https://mailchi.mp/business-science/rtrack-master-class-signup-3)
 
 <p class="text-center">
   <a class="btn btn-xxl-wide-green" href="https://mailchi.mp/business-science/rtrack-master-class-signup-3">
