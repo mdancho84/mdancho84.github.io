@@ -14,6 +14,12 @@ I'm super excited to introduce `portfoliodown`, a new R package that makes it __
 
 For those that want to learn more about __launching your career in data science with `R`__, I have a [__FREE 40-minute webinar__](https://mailchi.mp/business-science/rtrack-master-class-signup-3) on what skills are needed (these are the 10 skills that helped me launch my career in data science).
 
+<p class="text-center">
+  <a class="btn btn-xxl-wide-green" href="https://mailchi.mp/business-science/rtrack-master-class-signup-3">
+  Watch Free Career Training
+  </a>
+</p>
+
 # What is `portfoliodown`?
 
 `portfoliodown` is the __Data Science Portfolio Website Builder.__ In as little as 15-minutes, you can get a professional website created that is designed to get you a job interview. The website is streamlined with a focus on the two questions Hiring Managers need to know: 
@@ -28,11 +34,13 @@ In summary,`portfoliodown` takes care of __communicating your value in as few wo
 
 <p class="text-center date">Portfoliodown: The Data Science Portfolio Builder</p>
 
-# Example: Data Science Portfolio
+# Example: Matt's Data Science Portfolio
 
-__Check out an example data science portfolio__ at [https://mattdancho.netlify.app](https://mattdancho.netlify.app){:target='_blank'}. It took 15-minutes to make this with `portfoliodown`. 
+__Check out an example data science portfolio__ at [https://mattdancho.netlify.app](https://mattdancho.netlify.app){:target='_blank'}. It took me 15-minutes to make this with `portfoliodown`. 
 
 ![Example Data Science Portfolio](/assets/2021-12-20-portfoliodown/example_portfolio.gif)
+
+<p class="text-center date">Matt's Data Science Portfolio</p>
 
 # Make Your First Portfolio
 
@@ -143,7 +151,7 @@ Great! You now have a functioning portfolio website.
 
 __What next? How do you gain that elusive data science career?!__
 
-## Getting a Career in Data Science
+## 🚀 Launching a Career in Data Science
 
 I'll have detailed training coming soon on how to build professional profiles in 2022 as part of an upcoming module on __"Launching a Data Science Career in 30-days".__ 
 
@@ -152,5 +160,11 @@ I'll have detailed training coming soon on how to build professional profiles in
 - __The Career Module__ will cover what to do to land data science interviews, gain recommendations from me, and get promotion after promotion on the job to accelerate your career. 
 
 If you are interested, then please [__watch my Free Webinar: 10 Secrets to becoming a Data Scientist with R.__](https://mailchi.mp/business-science/rtrack-master-class-signup-3)
+
+<p class="text-center">
+  <a class="btn btn-xxl-wide-green" href="https://mailchi.mp/business-science/rtrack-master-class-signup-3">
+  Watch Free Career Training
+  </a>
+</p>
 
 {% include cta_rtrack.html %}
