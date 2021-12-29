@@ -20,3 +20,5 @@ So you want to become a data scientist but are unsure of...
 ## Title
 
 Something cool
+
+![](/assets/2021-09-22-python-csv/01-csv-for-loop.jpg)
