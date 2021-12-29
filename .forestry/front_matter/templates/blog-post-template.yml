@@ -6,6 +6,7 @@ fields:
   name: layout
   label: layout
   description: post
+  default: post
 - type: text
   name: title
   label: title
@@ -19,12 +20,15 @@ fields:
   name: author
   label: author
   description: Matt Dancho
+  default: Matt Dancho
 - type: list
   name: categories
   label: categories
+  default: [Code-Tools]
 - type: list
   name: tags
   label: tags
+  default: [R-Bloggers, Learn-R, R]
 - type: file
   name: image
   label: image
