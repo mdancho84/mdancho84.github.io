@@ -1,8 +1,8 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: ''
-webhook_url: 
+admin_path: '/admin'
+webhook_url:
 sections:
 - type: jekyll-posts
   label: Posts
@@ -11,7 +11,7 @@ upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: ":year:-:month:-:day:-:filename:"
 build:
   preview_env:
   - JEKYLL_ENV=staging
