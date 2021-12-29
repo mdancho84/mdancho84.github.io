@@ -31,3 +31,5 @@ fields:
 - type: file
   name: image_preview
   label: image_preview
+pages:
+- _posts/data-scientist-vs-mlops.md
