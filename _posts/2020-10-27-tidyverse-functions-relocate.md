@@ -6,8 +6,8 @@ excerpt: "relocate() is like arrange() for columns. It keeps all of the columns,
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, Tidyverse]
-image: 2020-10-27-tidyverse-functions-relocate/relocate_cover.jpg
-image_preview: 2020-10-27-tidyverse-functions-relocate/relocate_preview.jpg
+image: /assets/2020-10-27-tidyverse-functions-relocate/relocate_cover.jpg
+image_preview: /assets/2020-10-27-tidyverse-functions-relocate/relocate_preview.jpg
 ---
 
 

@@ -6,8 +6,8 @@ excerpt: "The top 5 best articles on R for Business from last month."
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, R, R-Tips]
-image: top-5/2020-10-02-top-5-september.jpg
-image_preview: top-5/2020-10-02-top-5-september.jpg
+image: /assets/top-5/2020-10-02-top-5-september.jpg
+image_preview: /assets/top-5/2020-10-02-top-5-september.jpg
 ---
 
 Each month, we release tons of great content on R for Business. These are the __5 Top Articles in R for Business__ over the past month. We have some great ones in September. Let's dive in. [View the updated Top 5 R for Business Article at Business Science.](#)

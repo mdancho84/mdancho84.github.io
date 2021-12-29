@@ -6,8 +6,8 @@ excerpt: "The secret to accelerating your career - SHOW THAT YOU CAN PROVIDE BUS
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R]
-image: 2020-08-12-shiny-competition/win-shiny-app-competition.png
-image_preview: 2020-08-12-shiny-competition/win-shiny-app-competition-preview.png
+image: /assets/2020-08-12-shiny-competition/win-shiny-app-competition.png
+image_preview: /assets/2020-08-12-shiny-competition/win-shiny-app-competition-preview.png
 ---
 
 

@@ -6,8 +6,8 @@ excerpt: "Both R and Python are great. We’ll showcase some of the strengths of
 author: "Matt Dancho and Jarrell Chalmers"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Learn-Python, Teams]
-image: 2021-02-18-R-is-for-research/Join_Forces_meme.png
-image_preview: 2021-02-18-R-is-for-research/Join_Forces_meme_preview.png
+image: /assets/2021-02-18-R-is-for-research/Join_Forces_meme.png
+image_preview: /assets/2021-02-18-R-is-for-research/Join_Forces_meme_preview.png
 canonical: https://www.business-science.io/business/2021/02/18/R-is-for-research.html
 ---
 

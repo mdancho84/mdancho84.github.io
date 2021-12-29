@@ -4,7 +4,7 @@ title:  "Demo Week: class(Monday) &lt;- tidyquant"
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, tidyquant, Learn-R]
-image: demo-week-tidyquant.png
+image: /assets/demo-week-tidyquant.png
 ---
 
 

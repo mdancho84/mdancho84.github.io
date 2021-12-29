@@ -6,8 +6,8 @@ excerpt: "I'm super excited to introduce modeltime.h2o, an H2O AutoML backend fo
 author: "Matt Dancho and Alberto González Almuiña"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, modeltime, modeltime.h2o]
-image: 2021-03-15-modeltime-h2o/modeltime_ecosystem.jpg
-image_preview: 2021-03-15-modeltime-h2o/modeltime_ecosystem.jpg
+image: /assets/2021-03-15-modeltime-h2o/modeltime_ecosystem.jpg
+image_preview: /assets/2021-03-15-modeltime-h2o/modeltime_ecosystem.jpg
 ---
 
 

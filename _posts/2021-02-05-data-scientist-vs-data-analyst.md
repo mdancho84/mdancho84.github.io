@@ -6,8 +6,8 @@ excerpt: "In order to determine where you wish to set your career trajectory, yo
 author: "Matt Dancho and Jarrell Chalmers"
 categories: [Business]
 tags: [Learn-R]
-image: 2021-02-05-data-scientist-vs-analyst/cover-image.png
-image_preview: 2021-02-05-data-scientist-vs-analyst/preview-image.png
+image: /assets/2021-02-05-data-scientist-vs-analyst/cover-image.png
+image_preview: /assets/2021-02-05-data-scientist-vs-analyst/preview-image.png
 ---
 
 

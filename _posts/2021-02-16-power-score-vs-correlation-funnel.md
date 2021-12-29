@@ -6,8 +6,8 @@ excerpt: "Exploratory Data Analysis is what every data scientist does to underst
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, correlation, visualization]
-image: 2021-02-16-power-score-vs-correlation-funnel/power_score_cover.png
-image_preview: 2021-02-16-power-score-vs-correlation-funnel/power_score_preview.png
+image: /assets/2021-02-16-power-score-vs-correlation-funnel/power_score_cover.png
+image_preview: /assets/2021-02-16-power-score-vs-correlation-funnel/power_score_preview.png
 ---
 
 This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.

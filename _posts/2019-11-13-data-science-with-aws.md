@@ -6,8 +6,8 @@ excerpt: "Organizations depend on the Data Science team to build distributed app
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R, Learn-Business]
-image: 2019-11-13-data-science-with-aws/amazon-web-services.jpg
-image_preview: 2019-11-13-data-science-with-aws/amazon-web-services-preview.jpg
+image: /assets/2019-11-13-data-science-with-aws/amazon-web-services.jpg
+image_preview: /assets/2019-11-13-data-science-with-aws/amazon-web-services-preview.jpg
 ---
 
 <p class="lead">Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. Here's what's happening and how <strong>AWS Cloud Services</strong> play a part in the essential skills of 2020.</p>

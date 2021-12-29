@@ -6,8 +6,8 @@ author: "David Curry"
 date: 2019-05-10 7:00:00 -0400
 categories: [Business]
 tags: [R-Project, R, Data Science, Business Understanding, Marketing, Learn-Marketing]
-image: 2019-05-10-customer-segmentation-rfm-analysis-kmeans-clustering/customer-segmentation-rfm-analysis-k-means-cover.jpg
-image_preview: 2019-05-10-customer-segmentation-rfm-analysis-kmeans-clustering/customer-segmentation-rfm-analysis-k-means-preview.jpg
+image: /assets/2019-05-10-customer-segmentation-rfm-analysis-kmeans-clustering/customer-segmentation-rfm-analysis-k-means-cover.jpg
+image_preview: /assets/2019-05-10-customer-segmentation-rfm-analysis-kmeans-clustering/customer-segmentation-rfm-analysis-k-means-preview.jpg
 canonical: https://sureoptimize.com/customer-segmentation-and-rfm-analysis-kmeans-clustering-part-2
 ---
 

@@ -6,8 +6,8 @@ excerpt: "The 2nd part in our Time Series in 5-minutes article series. Learn how
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, timetk]
-image: 2020-06-17-acf/autocorrelation.jpg
-image_preview: 2020-06-17-acf/autocorrelation.jpg
+image: /assets/2020-06-17-acf/autocorrelation.jpg
+image_preview: /assets/2020-06-17-acf/autocorrelation.jpg
 ---
 
 

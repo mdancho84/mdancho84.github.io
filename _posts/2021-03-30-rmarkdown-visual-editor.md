@@ -2,12 +2,12 @@
 layout: post
 title: "Make PDF Data Analysis Reports with R | Rmarkdown Visual Editor"
 date:   2021-03-30 08:00:00
-excerpt: "Let's make a professional business report in 5-minutes in HTML and PDF formats, and incorporates your data analysis in R​. Reporting used to take me much longer and is now faster with the new Rmarkdown Visual Editor. "
+excerpt: "Let's make a professional business report in 5-minutes in HTML and PDF formats, and incorporates your data analysis in R. Reporting used to take me much longer and is now faster with the new Rmarkdown Visual Editor. "
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Rmarkdown, ggplot, PDF, reports, R Studio]
-image: 2021-03-30-rmarkdown-visual-editor/cover.jpg
-image_preview: 2021-03-30-rmarkdown-visual-editor/preview.jpg
+image: /assets/2021-03-30-rmarkdown-visual-editor/cover.jpg
+image_preview: /assets/2021-03-30-rmarkdown-visual-editor/preview.jpg
 ---
 
 
@@ -17,7 +17,7 @@ This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-
 <br/>
 
 
-Let's make a professional business report in 5 minutes in HTML and PDF formats, and incorporates your data analysis in `R`​. Reporting used to take me much longer and is now faster with the new `Rmarkdown`​ Visual Editor. 
+Let's make a professional business report in 5 minutes in HTML and PDF formats, and incorporates your data analysis in `R`. Reporting used to take me much longer and is now faster with the new `Rmarkdown` Visual Editor. 
 
 
 Here are the links to get set up. 👇

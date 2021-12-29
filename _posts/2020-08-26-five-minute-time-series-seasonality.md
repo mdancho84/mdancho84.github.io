@@ -6,8 +6,8 @@ excerpt: "Seasonality is the presence of variations that occur at specific regul
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, timetk]
-image: 2020-08-26-time-series-seasonality/time-series-5-minutes-seasonality.png
-image_preview: 2020-08-26-time-series-seasonality/time-series-5-minutes-seasonality-preview.png
+image: /assets/2020-08-26-time-series-seasonality/time-series-5-minutes-seasonality.png
+image_preview: /assets/2020-08-26-time-series-seasonality/time-series-5-minutes-seasonality-preview.png
 ---
 
 

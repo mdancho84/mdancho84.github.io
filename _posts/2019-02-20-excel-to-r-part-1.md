@@ -6,8 +6,8 @@ excerpt: "The first article in a 3-part series on Excel to R, this article walks
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Learn-Business, Learn-Marketing, Excel, dplyr, purrr]
-image: 2019-02-20-excel-to-r/excel_to_r_pt1.jpg
-image_preview: 2019-02-20-excel-to-r/excel_to_r_pt1.jpg
+image: /assets/2019-02-20-excel-to-r/excel_to_r_pt1.jpg
+image_preview: /assets/2019-02-20-excel-to-r/excel_to_r_pt1.jpg
 ---
 
 

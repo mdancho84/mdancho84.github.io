@@ -6,8 +6,8 @@ excerpt: "Productivity is essential in data science. Businesses need value quick
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R]
-image: "/2021-04-27-corrmorrant/cover_image.JPG"
-image_preview: "/2021-04-27-corrmorrant/cover_image.JPG"
+image: "/assets/2021-04-27-corrmorrant/cover_image.JPG"
+image_preview: "/assets/2021-04-27-corrmorrant/cover_image.JPG"
 ---
 
 This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.

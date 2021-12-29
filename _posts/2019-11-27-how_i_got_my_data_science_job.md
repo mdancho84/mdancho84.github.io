@@ -6,8 +6,8 @@ excerpt: "Getting a job in Data Science is difficult. Here's how one Business Sc
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R]
-image: 2019-11-27-data-science-job/landed_data_science_job.jpg
-image_preview: 2019-11-27-data-science-job/landed_data_science_job.jpg
+image: /assets/2019-11-27-data-science-job/landed_data_science_job.jpg
+image_preview: /assets/2019-11-27-data-science-job/landed_data_science_job.jpg
 ---
 
 

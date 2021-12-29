@@ -6,8 +6,8 @@ excerpt: "Here's a common situation, you have to make a Monday Morning Slide Dec
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips]
-image: 2020-09-22-automate-powerpoint/automate-powerpoint-cover.jpeg
-image_preview: 2020-09-22-automate-powerpoint/automate-powerpoint-preview.jpeg
+image: /assets/2020-09-22-automate-powerpoint/automate-powerpoint-cover.jpeg
+image_preview: /assets/2020-09-22-automate-powerpoint/automate-powerpoint-preview.jpeg
 ---
 
 

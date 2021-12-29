@@ -6,8 +6,8 @@ excerpt: "Scikit Learn is a powerful package for making machine learning models.
 author: "Matt Dancho"
 categories: [python]
 tags: [Learn-Python, sklearn, scikit-learn]
-image: "/2021-07-06-sklearn/000_sklearn_thumb.jpg"
-image_preview: "/2021-07-06-sklearn/000_sklearn_thumb.jpg"
+image: "/assets/2021-07-06-sklearn/000_sklearn_thumb.jpg"
+image_preview: "/assets/2021-07-06-sklearn/000_sklearn_thumb.jpg"
 ---
 
 > `Scikit Learn` is a powerful package for making machine learning models. In this Python Tip, we cover how to make your first <span style='color:blue;'>__Linear Regression Model__</span> that adds a trendline to a plot.

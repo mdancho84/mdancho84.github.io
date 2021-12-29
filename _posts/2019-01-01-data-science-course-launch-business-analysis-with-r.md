@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-01-01 9:30:00
 categories: [University]
 tags: [R-Project, R, Data Science, DS4B 101-R, Business Analysis]
-image: 2019-01-01-course-launch/course_image.png
-image_preview: 2019-01-01-course-launch/course_image.png
+image: /assets/2019-01-01-course-launch/course_image.png
+image_preview: /assets/2019-01-01-course-launch/course_image.png
 ---
 
 __Are you looking to break into data science? Are you finding it difficult to apply the tools and techniques to business? Then look no further. [Business Analysis with R](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon_code=DS4B15) is the course for you.__ 

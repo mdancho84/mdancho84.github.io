@@ -6,8 +6,8 @@ excerpt: "A eatter way to do your EDA, and with less unnecessary coding and more
 author: "Luciano Oliveira Batista"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, GGplot, Purrr]
-image: 2020-10-08-automate-plots/automate-analysis-plots-cover.png
-image_preview: 2020-10-08-automate-plots/automate-analysis-plots-preview.jpg
+image: /assets/2020-10-08-automate-plots/automate-analysis-plots-cover.png
+image_preview: /assets/2020-10-08-automate-plots/automate-analysis-plots-preview.jpg
 canonical: https://www.lobdata.com.br/post/automate_plot_ggplot2_purrr
 ---
 

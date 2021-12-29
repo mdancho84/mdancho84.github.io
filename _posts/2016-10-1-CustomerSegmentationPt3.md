@@ -3,7 +3,7 @@ layout: post
 title:  "Customer Segmentation Part 3: Network Visualization"
 categories: [Business]
 tags: [R-Project, R, R-Bloggers, Customer Segmentation, Community Detection, igraph, networkD3, bikes data set, Learn-Marketing, Learn-Machine-Learning]
-image: custSegments3.png
+image: /assets/custSegments3.png
 ---
 
 

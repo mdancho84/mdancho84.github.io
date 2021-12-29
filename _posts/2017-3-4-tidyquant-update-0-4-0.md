@@ -4,7 +4,7 @@ title:  "tidyquant 0.4.0: PerformanceAnalytics, Improved Documentation, ggplot2 
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, Stock Analysis, Trading Strategy, tidyverse, tidyquant, quantmod, xts, TTR, zoo, dplyr, tidyr, ggplot2, PerformanceAnalytics, Learn-R, Learn-Finance]
-image: tidyquant-040.png
+image: /assets/tidyquant-040.png
 ---
 
 

@@ -43,7 +43,7 @@
     {% endif %}
 
     {% if page.image %}
-      <meta content="{{ site.url }}/assets/{{ page.image }}" property="og:image">
+      <meta content="{{ site.url }}{{ page.image }}" property="og:image">
     {% else %}
       <meta content="{{ site.url }}/img/homepage/data_science_team.jpg" property="og:image">
     {% endif %}
@@ -78,13 +78,13 @@
   {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
-  
+
   {% if page.image %}
-    <meta name="twitter:image" content="{{ site.url }}/assets/{{ page.image }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   {% else %}
     <meta name="twitter:image" content="{{ site.url }}/img/homepage/data_science_team.jpg">
-  {% endif %} 
-  
+  {% endif %}
+
 
 
   <meta name="ahrefs-site-verification" content="39784abd74b760b0fef1717d33306c64efeebaebf8d12e008b7e3234cc9cebcb">

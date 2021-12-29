@@ -6,8 +6,8 @@ excerpt: "Learn how going from Excel to R can speed up Exploratory Data Analysis
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Learn-Business, Learn-Marketing, Excel, dplyr, purrr. correlationfunnel]
-image: 2019-07-08-excel-to-r-pt2/excel-to-r-pt2-eda-boost.jpg
-image_preview: 2019-07-08-excel-to-r-pt2/excel-to-r-pt2-eda-boost.jpg
+image: /assets/2019-07-08-excel-to-r-pt2/excel-to-r-pt2-eda-boost.jpg
+image_preview: /assets/2019-07-08-excel-to-r-pt2/excel-to-r-pt2-eda-boost.jpg
 ---
 
 

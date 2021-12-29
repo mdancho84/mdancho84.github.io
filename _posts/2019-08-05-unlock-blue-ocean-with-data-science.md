@@ -6,8 +6,8 @@ excerpt: "In this article, we'll examine how Blue Oceans are created and how you
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-Business, Blue Ocean Strategy]
-image: 2019-08-05-blue-ocean/data_science_insights_and_web_technology_large.jpg
-image_preview: 2019-08-05-blue-ocean/data_science_insights_and_web_technology_large.jpg
+image: /assets/2019-08-05-blue-ocean/data_science_insights_and_web_technology_large.jpg
+image_preview: /assets/2019-08-05-blue-ocean/data_science_insights_and_web_technology_large.jpg
 ---
 
 

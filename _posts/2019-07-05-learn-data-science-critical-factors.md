@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-07-05 8:00:00
 categories: [Business]
 tags: [R-Project, R, Data Science, Business Analysis, Learn-Business, CRISP-DM, BSPF]
-image: 2019-07-06-learn-data-science/learn-data-science-differentiator.jpg
-image_preview: 2019-07-06-learn-data-science/learn-data-science-differentiator.jpg
+image: /assets/2019-07-06-learn-data-science/learn-data-science-differentiator.jpg
+image_preview: /assets/2019-07-06-learn-data-science/learn-data-science-differentiator.jpg
 ---
 
 

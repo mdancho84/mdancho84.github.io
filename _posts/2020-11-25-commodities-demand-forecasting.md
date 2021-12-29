@@ -6,8 +6,8 @@ excerpt: "Demand Forecasting is a technique for estimation of probable demand fo
 author: "Luciano Oliveira Batista"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, TimeSeries, Forecasting, modeltime]
-image: 2020-11-25-demand-forecasting/commodities-demand-cover.jpg
-image_preview: 2020-11-25-demand-forecasting/commodities-demand-preview.jpg
+image: /assets/2020-11-25-demand-forecasting/commodities-demand-cover.jpg
+image_preview: /assets/2020-11-25-demand-forecasting/commodities-demand-preview.jpg
 canonical: https://www.lobdata.com.br/post/demand_forecasting_brazilian_commodities/
 ---
 

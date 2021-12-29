@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-04-26 6:30:00
 categories: [University]
 tags: [R, Data Science, R for Business, Business Analysis, Webscraping, rvest]
-image: 2019-04-26-web-scraping-course/web_scraping_course.jpg
-image_preview: 2019-04-26-web-scraping-course/web_scraping_course.jpg
+image: /assets/2019-04-26-web-scraping-course/web_scraping_course.jpg
+image_preview: /assets/2019-04-26-web-scraping-course/web_scraping_course.jpg
 ---
 
 We have just released a NEW Learning Lab "1-Hour Course" - ___Build a Strategic Database with Web Scraping___ - Through [__Learning Labs PRO__ (Limited Time 15% OFF DISCOUNT HERE)](https://university.business-science.io/p/learning-labs-pro/?coupon_code=LLPROLAUNCH). Learn how to implement web-scraping to give your organization a <mark>Competitive Advantage</mark>. 

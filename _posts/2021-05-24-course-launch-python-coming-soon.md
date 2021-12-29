@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2021-05-24 8:04:08
 categories: [University]
 tags: [Python, Data Science, DS4B 101-P, Learn-Python]
-image: 2021-05-24-python-course/python_for_data_science_automation.jpg
-image_preview: 2021-05-24-python-course/python_for_data_science_automation.jpg
+image: /assets/2021-05-24-python-course/python_for_data_science_automation.jpg
+image_preview: /assets/2021-05-24-python-course/python_for_data_science_automation.jpg
 ---
 
 __Python for Data Science Automation__ is an innovative course designed to teach business analysts how to convert business processes to python-based data science automations. The course is founded on two driving principles:

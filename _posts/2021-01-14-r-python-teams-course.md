@@ -6,8 +6,8 @@ excerpt: "Add value as part of an R/Python Collaborative Team, be confident work
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Learn-Python, Teams]
-image: 2021-01-14-r-python-teams-course/python_r_teams_cover.jpg
-image_preview: 2021-01-14-r-python-teams-course/python_r_teams_preview.jpg
+image: /assets/2021-01-14-r-python-teams-course/python_r_teams_cover.jpg
+image_preview: /assets/2021-01-14-r-python-teams-course/python_r_teams_preview.jpg
 ---
 
 

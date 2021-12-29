@@ -5,7 +5,7 @@ author: "David Curry"
 date: 2018-10-10 6:00:00 -0400
 categories: [University]
 tags: [R-Project, R, Data Science, DS4B 201-R, Business Understanding]
-image: 2018-10-10-data-science-with-R-4/system_week4.png
+image: /assets/2018-10-10-data-science-with-R-4/system_week4.png
 ---
 
 This week in the Data Science With R Course Series we’ll cover [Data Preparation](#week4), where we structure the data in preparation for modeling. This week’s modules will teach you:

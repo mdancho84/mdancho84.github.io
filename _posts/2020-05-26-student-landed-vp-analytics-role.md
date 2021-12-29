@@ -6,8 +6,8 @@ excerpt: "Data Science is the perfect field for those who are naturally curious 
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R]
-image: 2020-05-26-student-landed-vp-analytics-role/data-scientist-job-offer.jpg
-image_preview: 2020-05-26-student-landed-vp-analytics-role/data-scientist-job-offer-preview.jpg
+image: /assets/2020-05-26-student-landed-vp-analytics-role/data-scientist-job-offer.jpg
+image_preview: /assets/2020-05-26-student-landed-vp-analytics-role/data-scientist-job-offer-preview.jpg
 ---
 
 

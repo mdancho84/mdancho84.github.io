@@ -6,8 +6,8 @@ excerpt: "I'm super excited to introduce the new autoregressive forecast functio
 author: "Matt Dancho and Alberto González Almuiña"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, modeltime, modeltime.ensemble]
-image: 2021-04-08-modeltime-recursive/modeltime-recursive.jpg
-image_preview: 2021-04-08-modeltime-recursive/modeltime-recursive.jpg
+image: /assets/2021-04-08-modeltime-recursive/modeltime-recursive.jpg
+image_preview: /assets/2021-04-08-modeltime-recursive/modeltime-recursive.jpg
 ---
 
 

@@ -6,8 +6,8 @@ excerpt: "H2O is the scalable, open-source ML library that features AutoML. Here
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Learn-Business, H2O]
-image: 2020-01-13-h2o/h2o_machine_learning.jpg
-image_preview: 2020-01-13-h2o/h2o_machine_learning.jpg
+image: /assets/2020-01-13-h2o/h2o_machine_learning.jpg
+image_preview: /assets/2020-01-13-h2o/h2o_machine_learning.jpg
 ---
 
 <p class="lead"><strong>H2O</strong> is the scalable, open-source Machine Learning library that features <code>AutoML</code>. Here are 5 Reasons why it's an essential library for creating production data science code.</p>

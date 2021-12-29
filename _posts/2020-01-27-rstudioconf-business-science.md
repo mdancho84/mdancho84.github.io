@@ -6,8 +6,8 @@ excerpt: "I can't tell you how excited I am to be a sponsor at rstudio::conf thi
 author: "Matt Dancho"
 categories: [University]
 tags: [R-Bloggers, rstudioconf]
-image: 2020-01-27-rstudioconf/meet_the_team.jpg
-image_preview: 2020-01-27-rstudioconf/meet_the_team.jpg
+image: /assets/2020-01-27-rstudioconf/meet_the_team.jpg
+image_preview: /assets/2020-01-27-rstudioconf/meet_the_team.jpg
 ---
 
 I can't tell you how excited I am to be a sponsor at `rstudio::conf(2020)` this year. This is my 2nd year attending, and my 1st time as a sponsor. It's an amazing honor. And, my team and I are here for 1 Reason: __To help you accelerate your career.__ Learn about our R-Track Program, RStudio Conf 20% OFF Course Sale, and ___Prize Giveaways!___

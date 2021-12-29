@@ -3,7 +3,7 @@ layout: post
 title:  "Speed Up Your Code Part 2: Parallel Processing Financial Data with multidplyr + tidyquant"
 categories: [Code-Tools]
 tags: [R-Project, R, Parallel Processing, Multiple Cores, tidyverse, multidplyr, dplyr, tidyquant, parallel, Learn-R]
-image: multidplyr.png
+image: /assets/multidplyr.png
 ---
 
 

@@ -4,7 +4,7 @@ title:  "Tidy Time Series Analysis, Part 2: Rolling Functions"
 author: "Matt Dancho"
 categories: [Timeseries-Analysis]
 tags: [R-Project, R, tidyquant, zoo, TTR, cranlogs, corrr, Learn-Timeseries]
-image: tidy-timeseries-part2.png
+image: /assets/tidy-timeseries-part2.png
 ---
 
 

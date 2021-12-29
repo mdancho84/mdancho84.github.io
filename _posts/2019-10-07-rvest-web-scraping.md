@@ -6,8 +6,8 @@ excerpt: "Learn how to web scrape HTML, wangle JSON, and visualize product data 
 author: "Joon Im"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, rvest, tidyverse, jsonlite, purrr]
-image: 2019-10-07-rvest/web_scrape_rvest_workflow.jpg
-image_preview: 2019-10-07-rvest/web_scrape_rvest_workflow.jpg
+image: /assets/2019-10-07-rvest/web_scrape_rvest_workflow.jpg
+image_preview: /assets/2019-10-07-rvest/web_scrape_rvest_workflow.jpg
 ---
 
 

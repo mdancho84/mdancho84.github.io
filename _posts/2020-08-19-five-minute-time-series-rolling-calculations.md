@@ -6,8 +6,8 @@ excerpt: "A collection of tools for working with time series in R Time series da
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, timetk]
-image: 2020-08-19-time-series-rolling-calcuations/time-series-rolling-calculations.png
-image_preview: 2020-08-19-time-series-rolling-calcuations/time-series-rolling-calculations-preview.png
+image: /assets/2020-08-19-time-series-rolling-calcuations/time-series-rolling-calculations.png
+image_preview: /assets/2020-08-19-time-series-rolling-calcuations/time-series-rolling-calculations-preview.png
 ---
 
 

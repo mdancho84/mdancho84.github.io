@@ -4,7 +4,7 @@ title:  "alphavantager: An R interface to the Free Alpha Vantage Financial Data 
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, alphavantager, Learn-R]
-image: alphavantager-0-1-0.png
+image: /assets/alphavantager-0-1-0.png
 ---
 
 

@@ -6,8 +6,8 @@ excerpt: "Python’s datatable was launched by h2o two years ago and is still in
 author: "David Lucey"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Python, R, Python, data.table, datatable, plotnine, reticulate]
-image: 2020-10-30-python-and-r-exploring-data/python-and-r-part1-cover.jpg
-image_preview: 2020-10-30-python-and-r-exploring-data/python-and-r-part1-preview.jpg
+image: /assets/2020-10-30-python-and-r-exploring-data/python-and-r-part1-cover.jpg
+image_preview: /assets/2020-10-30-python-and-r-exploring-data/python-and-r-part1-preview.jpg
 canonical: https://redwallanalytics.com/2020/05/07/exploring-big-mt-cars-with-python-datatable-and-plotnine-part-1/
 ---
 

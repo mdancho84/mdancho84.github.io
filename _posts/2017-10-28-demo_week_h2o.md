@@ -5,7 +5,7 @@ excerpt: "Learn R in this time series using H2O machine learning demonstration."
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, h2o, timetk, Learn-R, Learn-Machine-Learning]
-image: demo-week-h2o.png
+image: /assets/demo-week-h2o.png
 ---
 
 

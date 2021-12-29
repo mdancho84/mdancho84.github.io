@@ -6,8 +6,8 @@ excerpt: "Learn how to model product prices using the tune library for hyperpara
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Learn-Machine-Learning, Learn-Marketing, tune, parsnip, rsample, recipes, yardstick, dials, correlationfunnel, DataExplorer, skimr]
-image: 2020-01-21-tune/tune_corvette.jpg
-image_preview: 2020-01-21-tune/tune_corvette.jpg
+image: /assets/2020-01-21-tune/tune_corvette.jpg
+image_preview: /assets/2020-01-21-tune/tune_corvette.jpg
 ---
 
 

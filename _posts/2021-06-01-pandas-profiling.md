@@ -6,8 +6,8 @@ excerpt: "Pandas Profiling is an awesome python package for Exploratory Data Ana
 author: "Matt Dancho"
 categories: [python]
 tags: [Learn-Python, pandas, pandas profiling, plotnine]
-image: "/2021-06-01-pandas-profiling/000_pandas_profiling_thumb_2.jpg"
-image_preview: "/2021-06-01-pandas-profiling/000_pandas_profiling_thumb_2.jpg"
+image: "/assets/2021-06-01-pandas-profiling/000_pandas_profiling_thumb_2.jpg"
+image_preview: "/assets/2021-06-01-pandas-profiling/000_pandas_profiling_thumb_2.jpg"
 ---
 
 This article is part of Python-Tips Weekly, a <a href="https://mailchi.mp/business-science/python_tips_newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.

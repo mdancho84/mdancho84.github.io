@@ -6,8 +6,8 @@ excerpt: "I'm pleased to announce the introduction of correlationfunnel version 
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Learn-Marketing, Learn-Machine-Learning, correlationfunnel]
-image: 2019-08-07-correlationfunnel/correlationfunnel_website.jpg
-image_preview: 2019-08-07-correlationfunnel/correlationfunnel_website.jpg
+image: /assets/2019-08-07-correlationfunnel/correlationfunnel_website.jpg
+image_preview: /assets/2019-08-07-correlationfunnel/correlationfunnel_website.jpg
 ---
 
 

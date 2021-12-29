@@ -6,8 +6,8 @@ excerpt: "Logistic regression is a simple, yet powerful classification model. In
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, Logistic Regression, Classification]
-image: 2020-12-22-logistic-regression-classifier/logistic_regression_cover.jpg
-image_preview: 2020-12-22-logistic-regression-classifier/logistic_regression_cover.jpg
+image: /assets/2020-12-22-logistic-regression-classifier/logistic_regression_cover.jpg
+image_preview: /assets/2020-12-22-logistic-regression-classifier/logistic_regression_cover.jpg
 ---
 
 

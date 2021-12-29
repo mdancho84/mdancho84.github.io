@@ -6,8 +6,8 @@ excerpt: "Learn how to perform a tidy approach to classification problem with th
 author: "Diego Usai"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Learn-Machine-Learning, Learn-Marketing, parsnip, rsample, recipes, yardstick, ranger, skimr]
-image: 2019-11-18-parsnip/parsnip_workflow.jpg
-image_preview: 2019-11-18-parsnip/parsnip_workflow.jpg
+image: /assets/2019-11-18-parsnip/parsnip_workflow.jpg
+image_preview: /assets/2019-11-18-parsnip/parsnip_workflow.jpg
 ---
 
 

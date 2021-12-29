@@ -6,8 +6,8 @@ excerpt: "Many data scientists struggle with distributing their work, however, y
 author: "Matt Dancho and Jarrell Chalmers"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, R, Data Science, DS4B 202-R, Shiny, AWS, MongoDB, Bootstrap]
-image: 2021-02-25-5-reasons-to-learn-shiny/learn_shiny_cover.jpg
-image_preview: 2021-02-25-5-reasons-to-learn-shiny/learn_shiny_preview.jpg
+image: /assets/2021-02-25-5-reasons-to-learn-shiny/learn_shiny_cover.jpg
+image_preview: /assets/2021-02-25-5-reasons-to-learn-shiny/learn_shiny_preview.jpg
 ---
 
 

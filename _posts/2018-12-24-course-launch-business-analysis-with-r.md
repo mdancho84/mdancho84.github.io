@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2018-12-24 6:00:00
 categories: [University]
 tags: [R-Project, R, Data Science, DS4B 101-R, Business Analysis]
-image: 2018-12-24-course-launch/thumbnail.png
-image_preview: 2018-12-24-course-launch/thumbnail.png
+image: /assets/2018-12-24-course-launch/thumbnail.png
+image_preview: /assets/2018-12-24-course-launch/thumbnail.png
 ---
 
 

@@ -4,7 +4,7 @@ title:  "tidyquant: New Tools for Performing Financial Analysis within the Tidy 
 author: "Matt Dancho"
 categories: [Technical-Papers]
 tags: [R-Project, R, tidyquant, tidyverse, quantmod, TTR, xts, zoo, PerformanceAnalytics, Learn-Finance, Learn-R]
-image: new_tools_report_cover.PNG
+image: /assets/new_tools_report_cover.PNG
 ---
 
 

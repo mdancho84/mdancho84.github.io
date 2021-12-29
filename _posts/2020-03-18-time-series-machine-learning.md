@@ -6,8 +6,8 @@ excerpt: "Machine learning is a powerful way to forecast Time Series. Feature En
 author: "Matt Dancho"
 categories: [Time-Series]
 tags: [R-Bloggers, Learn-R, Learn-Timeseries, timetk, recipes, workflows, tidymodels]
-image: 2020-03-18-timeseries-ml/time-series-machine-learning-in-r.jpg
-image_preview: 2020-03-18-timeseries-ml/time-series-machine-learning-in-r.jpg
+image: /assets/2020-03-18-timeseries-ml/time-series-machine-learning-in-r.jpg
+image_preview: /assets/2020-03-18-timeseries-ml/time-series-machine-learning-in-r.jpg
 ---
 
 

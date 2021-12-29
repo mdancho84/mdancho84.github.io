@@ -6,8 +6,8 @@ excerpt: "Why create PDF's manually when you can automate PDFs with R? That's ex
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, PDF, Rmarkdown]
-image: 2020-10-21-automate-pdf-with-r/automate-pdf-cover.png
-image_preview: 2020-10-21-automate-pdf-with-r/automate-pdf-preview.png
+image: /assets/2020-10-21-automate-pdf-with-r/automate-pdf-cover.png
+image_preview: /assets/2020-10-21-automate-pdf-with-r/automate-pdf-preview.png
 ---
 
 

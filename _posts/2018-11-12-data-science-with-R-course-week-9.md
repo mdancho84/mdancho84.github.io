@@ -6,8 +6,8 @@ author: "David Curry"
 date: 2018-11-12 4:45:00 -0500
 categories: [University]
 tags: [R-Project, R, Data Science, DS4B 201-R, Business Understanding]
-image: 2018-11-12-data-science-with-R-9/system_week9.png
-image_preview: 2018-11-12-data-science-with-R-9/system_week9_preview.png
+image: /assets/2018-11-12-data-science-with-R-9/system_week9.png
+image_preview: /assets/2018-11-12-data-science-with-R-9/system_week9_preview.png
 ---
 
 

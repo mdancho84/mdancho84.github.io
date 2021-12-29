@@ -6,8 +6,8 @@ excerpt: "Marginal distributions can now be made in R using ggside, a new ggplot
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R]
-image: "/2021-05-18-marginal_distributions/cover_image.JPG"
-image_preview: "/2021-05-18-marginal_distributions/cover_image.JPG"
+image: "/assets/2021-05-18-marginal_distributions/cover_image.JPG"
+image_preview: "/assets/2021-05-18-marginal_distributions/cover_image.JPG"
 ---
 
 This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.

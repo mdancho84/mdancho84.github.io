@@ -6,8 +6,8 @@ excerpt: "I'm super excited to introduce modeltime.ensemble, a new time series f
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, modeltime, modeltime.ensemble]
-image: 2020-10-13-modeltime-ensemble/modeltime-ensemble.jpg
-image_preview: 2020-10-13-modeltime-ensemble/modeltime-ensemble.jpg
+image: /assets/2020-10-13-modeltime-ensemble/modeltime-ensemble.jpg
+image_preview: /assets/2020-10-13-modeltime-ensemble/modeltime-ensemble.jpg
 ---
 
 

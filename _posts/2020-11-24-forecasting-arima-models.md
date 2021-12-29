@@ -6,8 +6,8 @@ excerpt: "Making multiple ARIMA Time Series models in R used to be difficult. Bu
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, Tidyverse, TimeSeries, ARIMA]
-image: 2020-11-24-forecasting-arima-models/forecast-arima-models-cover.png
-image_preview: 2020-11-24-forecasting-arima-models/forecast-arima-models-preview.jpg
+image: /assets/2020-11-24-forecasting-arima-models/forecast-arima-models-cover.png
+image_preview: /assets/2020-11-24-forecasting-arima-models/forecast-arima-models-preview.jpg
 ---
 
 

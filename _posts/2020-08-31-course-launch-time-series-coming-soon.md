@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2020-08-31 8:04:08
 categories: [University]
 tags: [R, Data Science, DS4B 203-R, R-Bloggers, Time Series, Learn-Timeseries]
-image: 2020-08-31-course-launch-preview/forecast-competitions.jpg
-image_preview: 2020-08-31-course-launch-preview/forecast-competitions.jpg
+image: /assets/2020-08-31-course-launch-preview/forecast-competitions.jpg
+image_preview: /assets/2020-08-31-course-launch-preview/forecast-competitions.jpg
 ---
 
 <p class="lead">

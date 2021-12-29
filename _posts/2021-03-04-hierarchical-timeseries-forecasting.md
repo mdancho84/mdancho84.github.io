@@ -6,8 +6,8 @@ excerpt: "In Learning Labs PRO Episode 50, Matt tackles an in-depth tutorial on 
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Time Series, Forecasting, Tidymodels]
-image: 2021-03-04-hierarchical-timeseries-forecasting/cover.jpg
-image_preview: 2021-03-04-hierarchical-timeseries-forecasting/preview.jpg
+image: /assets/2021-03-04-hierarchical-timeseries-forecasting/cover.jpg
+image_preview: /assets/2021-03-04-hierarchical-timeseries-forecasting/preview.jpg
 ---
 
 

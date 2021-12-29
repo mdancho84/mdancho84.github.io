@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-06-03 8:45:00
 categories: [Learning-R]
 tags: [R-Project, R, Data Science, DS4B 102-R, Web Applications, shiny, Learn-R]
-image: 2019-05-30-r-cheat-sheet/ultimate_r_cheat_sheet_version_2_pages.jpg
-image_preview: 2019-05-30-r-cheat-sheet/ultimate_r_cheat_sheet_version_2_pages.jpg
+image: /assets/2019-05-30-r-cheat-sheet/ultimate_r_cheat_sheet_version_2_pages.jpg
+image_preview: /assets/2019-05-30-r-cheat-sheet/ultimate_r_cheat_sheet_version_2_pages.jpg
 ---
 
 The ___Ultimate R Cheat Sheet___ now covers the `Shinyverse` - An Ecosystem of R Packages for `Shiny` Web Application Development, Deployment, and putting __Machine Learning into Production__. The cheat sheet was created as a teaching tool for our NEW COURSE [___Predictive Web Applications for Business with R Shiny___](https://university.business-science.io/p/ds4b-102-r-shiny-web-application-business-level-1). You can [__download the Cheat Sheet for FREE__](https://www.business-science.io/r-cheatsheet.html), but please read on to learn how to use it ___to streamline your learning___. 

@@ -15,11 +15,11 @@ title: Data Science in Business
 
       <div class="row">
           <div class="col-md-1"> <!-- spacer --> </div>
-          
+
           <!-- Main -->
           <div class="col-md-10" role="main">
             <ul style="list-style-position: inside">
-               
+
                {% for post in site.tags.Learn-Business %}
                 <article style="padding-bottom:20px;">
                     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
@@ -32,7 +32,7 @@ title: Data Science in Business
                         <div class="col-xs-8 col-md-6" style="padding-top:15px;">
                           <a href="{{ site.baseurl }}{{ post.url }}" class="thumbnail" style="margin-bottom:0px">
                             {% if post.image %}
-                              <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="...">
+                              <img src="{{ site.baseurl }}{{ post.image }}" alt="...">
                             {% else %}
                               <img src="{{ site.baseurl }}/img/header-sm-crpd.jpg" alt="...">
                             {% endif %}
@@ -47,7 +47,7 @@ title: Data Science in Business
                     <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More...</a>
                 </article>
                 {% endfor %}
-                
+
             </ul>
           </div>
       </div>

@@ -6,8 +6,8 @@ excerpt: "Organizations want Data Science, Cloud, and Apps. Here's how Docker pl
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, AWS, Docker, Machine Learning]
-image: 2019-11-22-docker/docker_for_data_science_cover.jpg
-image_preview: 2019-11-22-docker/docker_for_data_science_preview.jpg
+image: /assets/2019-11-22-docker/docker_for_data_science_cover.jpg
+image_preview: /assets/2019-11-22-docker/docker_for_data_science_preview.jpg
 canonical: https://www.business-science.io//business/2019/11/22/docker-for-data-science.html
 ---
 

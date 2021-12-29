@@ -6,8 +6,8 @@ excerpt: "Reading many CSV files is a common task for a data scientist. In this 
 author: "Matt Dancho"
 categories: [python]
 tags: [Learn-Python, Python-Bloggers, For-Loop]
-image: "/2021-09-22-python-csv/006_read_csv_thumb.jpg"
-image_preview: "/2021-09-22-python-csv/006_read_csv_thumb.jpg"
+image: "/assets/2021-09-22-python-csv/006_read_csv_thumb.jpg"
+image_preview: "/assets/2021-09-22-python-csv/006_read_csv_thumb.jpg"
 ---
 
 Reading many CSV files is a common task for a data scientist. In this free tutorial, we show you 3 ways to streamline reading CSV files in Python. __You'll read and combine 15 CSV Files using the top 3 methods for iteration.__ 

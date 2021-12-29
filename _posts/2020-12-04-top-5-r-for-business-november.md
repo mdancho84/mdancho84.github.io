@@ -6,8 +6,8 @@ excerpt: "Each month, we release tons of great content on R for Business. These 
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, R, R-Tips]
-image: 2020-12-04-top-5-articles/top5-cover.png
-image_preview: 2020-12-04-top-5-articles/top5-preview.png
+image: /assets/2020-12-04-top-5-articles/top5-cover.png
+image_preview: /assets/2020-12-04-top-5-articles/top5-preview.png
 ---
 
 

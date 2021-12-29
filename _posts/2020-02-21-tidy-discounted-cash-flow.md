@@ -6,8 +6,8 @@ excerpt: "Learn how to use the Tidy Data Principles to perform a discounted cash
 author: "Rafael Nicolas Fermin Cota"
 categories: [Finance]
 tags: [R-Bloggers, Learn-R, Learn-Finance, tabulizer, fuzzyjoin, rvest, tidyverse]
-image: 2020-02-21-dcf/tidy-discounted-cash-flow.jpg
-image_preview: 2020-02-21-dcf/tidy-discounted-cash-flow.jpg
+image: /assets/2020-02-21-dcf/tidy-discounted-cash-flow.jpg
+image_preview: /assets/2020-02-21-dcf/tidy-discounted-cash-flow.jpg
 ---
 
 

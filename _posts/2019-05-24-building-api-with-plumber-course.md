@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-05-24 7:05:00
 categories: [University]
 tags: [R, Data Science, R for Business, Business Analysis, postman, plumber]
-image: 2019-05-24-plumber-api/learning_lab_10_plumber.png
-image_preview: 2019-05-24-plumber-api/learning_lab_10_plumber.png
+image: /assets/2019-05-24-plumber-api/learning_lab_10_plumber.png
+image_preview: /assets/2019-05-24-plumber-api/learning_lab_10_plumber.png
 ---
 
 We've just added a _new course_ to our __Learning Labs PRO__ service: [__Building API's with `plumber` and `Postman`__](https://university.business-science.io/p/learning-labs-pro). You learn how to build API's from 2 Real World examples:

@@ -4,7 +4,7 @@ title:  "Demo Week: Tidy Forecasting with sweep"
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, sweep, Learn-R]
-image: demo-week-sweep.png
+image: /assets/demo-week-sweep.png
 ---
 
 

@@ -6,8 +6,8 @@ excerpt: "Python can be run from R to leverage the strengths of both R and Pytho
 author: "Matt Dancho"
 categories: [Learn-R]
 tags: [R-Bloggers, Learn-R, Learn-Machine-Learning, Python, TensorFlow, Keras, reticulate]
-image: 2020-05-15-tensorflow-in-r/tensorflow_in_r_in_5_min.jpg
-image_preview: 2020-05-15-tensorflow-in-r/tensorflow_in_r_in_5_min.jpg
+image: /assets/2020-05-15-tensorflow-in-r/tensorflow_in_r_in_5_min.jpg
+image_preview: /assets/2020-05-15-tensorflow-in-r/tensorflow_in_r_in_5_min.jpg
 ---
 
 

@@ -6,8 +6,8 @@ author: "David Curry"
 date: 2018-10-26 7:00:00 -0400
 categories: [Business]
 tags: [R-Project, R, Data Science, Business Understanding, Marketing, Learn-Marketing]
-image: 2018-10-26-marketing-analytics-data-science/marketing-analytics-data-science.png
-image_preview: 2018-10-26-marketing-analytics-data-science/marketing-analytics-data-science-preview.png
+image: /assets/2018-10-26-marketing-analytics-data-science/marketing-analytics-data-science.png
+image_preview: /assets/2018-10-26-marketing-analytics-data-science/marketing-analytics-data-science-preview.png
 canonical: https://sureoptimize.com/marketing-analytics-data-science
 ---
 

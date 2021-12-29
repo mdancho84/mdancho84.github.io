@@ -6,8 +6,8 @@ excerpt: "Group Split and Map are SECRET TOOLS in my data science arsenal.  Comb
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, Tidyverse]
-image: 2020-11-17-tidyverse-functions-group-split/group_split_cover.png
-image_preview: 2020-11-17-tidyverse-functions-group-split/group_split_preview.jpg
+image: /assets/2020-11-17-tidyverse-functions-group-split/group_split_cover.png
+image_preview: /assets/2020-11-17-tidyverse-functions-group-split/group_split_preview.jpg
 ---
 
 

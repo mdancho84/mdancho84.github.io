@@ -6,8 +6,8 @@ excerpt: "Make insanely fast grouped summaries by leveraging data.table with dtp
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, dtplyr, dplyr, tidyverse, datatable]
-image: "/2021-04-13-dtplyr-datatable-dplyr-backend/cover_image.JPG"
-image_preview: "/2021-04-13-dtplyr-datatable-dplyr-backend/cover_image.JPG"
+image: "/assets/2021-04-13-dtplyr-datatable-dplyr-backend/cover_image.JPG"
+image_preview: "/assets/2021-04-13-dtplyr-datatable-dplyr-backend/cover_image.JPG"
 ---
 
 This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.

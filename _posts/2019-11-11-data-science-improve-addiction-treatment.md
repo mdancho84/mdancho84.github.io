@@ -6,8 +6,8 @@ excerpt: "Learn how one Business Science student created a data product that aim
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R]
-image: 2019-11-11-data-science-improve-addiction-treatment/data-science-improve-addiction-treatment-cover-image.jpg
-image_preview: 2019-11-11-data-science-improve-addiction-treatment/data-science-improve-addiction-treatment-preview-image.jpg
+image: /assets/2019-11-11-data-science-improve-addiction-treatment/data-science-improve-addiction-treatment-cover-image.jpg
+image_preview: /assets/2019-11-11-data-science-improve-addiction-treatment/data-science-improve-addiction-treatment-preview-image.jpg
 ---
 
 

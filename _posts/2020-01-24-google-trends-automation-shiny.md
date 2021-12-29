@@ -6,8 +6,8 @@ excerpt: "Google Trends is a FREE tool to gain insights about Google Search Term
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Learn-Marketing, gtrendsR, gmailr, shiny]
-image: 2020-01-24-gtrends/google_trends_email_app.jpg
-image_preview: 2020-01-24-gtrends/google_trends_email_app.jpg
+image: /assets/2020-01-24-gtrends/google_trends_email_app.jpg
+image_preview: /assets/2020-01-24-gtrends/google_trends_email_app.jpg
 ---
 
 

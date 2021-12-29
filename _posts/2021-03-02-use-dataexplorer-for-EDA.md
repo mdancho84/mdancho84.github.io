@@ -6,8 +6,8 @@ excerpt: "Did you know most Data Scientists spend 80% of their time just trying 
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, DataExplorer]
-image: 2021-03-02_Use_DataExplorer_for_EDA/dataexplorer_cover.jpg
-image_preview: 2021-03-02_Use_DataExplorer_for_EDA/dataexplorer_preview.jpg
+image: /assets/2021-03-02_Use_DataExplorer_for_EDA/dataexplorer_cover.jpg
+image_preview: /assets/2021-03-02_Use_DataExplorer_for_EDA/dataexplorer_preview.jpg
 ---
 
 

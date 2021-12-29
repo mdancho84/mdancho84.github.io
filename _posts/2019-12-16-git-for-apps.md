@@ -6,8 +6,8 @@ excerpt: "Moving into 2020, three things are clear - Organizations want Data Sci
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Learn-Business, Git, Shiny]
-image: 2019-12-16-git/git.jpg
-image_preview: 2019-12-16-git/git.jpg
+image: /assets/2019-12-16-git/git.jpg
+image_preview: /assets/2019-12-16-git/git.jpg
 ---
 
 <p class="lead">Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. <strong>A key skill that companies need is <code>Git</code> for application development (I call this Full Stack Data Science). Here's what is driving Git's growth, and why you should learn Git for data science application development.</strong></p>

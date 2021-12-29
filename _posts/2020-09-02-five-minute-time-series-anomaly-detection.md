@@ -6,8 +6,8 @@ excerpt: "Anomaly detection is the process of identifying items or events in dat
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, timetk]
-image: 2020-09-02-time-series-anomaly-detection/time_series_anomaly_detection_cover.png
-image_preview: 2020-09-02-time-series-anomaly-detection/time_series_anomaly_detection_cover.png
+image: /assets/2020-09-02-time-series-anomaly-detection/time_series_anomaly_detection_cover.png
+image_preview: /assets/2020-09-02-time-series-anomaly-detection/time_series_anomaly_detection_cover.png
 ---
 
 

@@ -6,8 +6,8 @@ excerpt: ""
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R]
-image: 2019-10-24-course-benefits-manager-negotiation/manager-negotiation.jpg
-image_preview: 2019-10-24-course-benefits-manager-negotiation/manager-negotiation-preview.jpg
+image: /assets/2019-10-24-course-benefits-manager-negotiation/manager-negotiation.jpg
+image_preview: /assets/2019-10-24-course-benefits-manager-negotiation/manager-negotiation-preview.jpg
 ---
 
 

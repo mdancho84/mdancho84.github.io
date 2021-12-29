@@ -6,8 +6,8 @@ excerpt: "The majority of us have experienced the average pay increase, because 
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R]
-image: 2020-04-13-increase-salary-data-science/data-science-job-offer.jpg
-image_preview: 2020-04-13-increase-salary-data-science/data-science-job-offer-preview.jpg
+image: /assets/2020-04-13-increase-salary-data-science/data-science-job-offer.jpg
+image_preview: /assets/2020-04-13-increase-salary-data-science/data-science-job-offer-preview.jpg
 ---
 
 The Majority of People Get the Standard 3.5% Raise.

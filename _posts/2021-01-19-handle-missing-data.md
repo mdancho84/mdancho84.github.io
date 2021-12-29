@@ -6,8 +6,8 @@ excerpt: "In 10-minutes, learn how to visualize and impute in R using ggplot dpl
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips]
-image: 2021-01-19-handle-missing-data/missing_data_cover.jpg
-image_preview: 2021-01-19-handle-missing-data/missing_data_preview.jpg
+image: /assets/2021-01-19-handle-missing-data/missing_data_cover.jpg
+image_preview: /assets/2021-01-19-handle-missing-data/missing_data_preview.jpg
 ---
 
 

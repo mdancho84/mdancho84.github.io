@@ -5,8 +5,8 @@ excerpt: "Predict customer churn using deep Learning Keras in R, with a 82% mode
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Project, R, keras, lime, recipes, yardstick, rsample, corrr, Customer Analytics, Churn, Learn-Marketing, Learn-Machine-Learning]
-image: customer_churn_analysis.png
-image_preview: customer_churn_analysis_preview.png
+image: /assets/customer_churn_analysis.png
+image_preview: /assets/customer_churn_analysis_preview.png
 ---
 
 

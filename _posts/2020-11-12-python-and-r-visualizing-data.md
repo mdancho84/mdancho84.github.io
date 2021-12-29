@@ -6,8 +6,8 @@ excerpt: "In this post, we start out where we left off in 'Python and R - Part 1
 author: "David Lucey"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Python, R, Python, data.table, datatable, plotnine, reticulate]
-image: 2020-11-12-python-and-r-visualizing-data/python-and-r-part2-cover.jpg
-image_preview: 2020-11-12-python-and-r-visualizing-data/python-and-r-part2-preview.jpg
+image: /assets/2020-11-12-python-and-r-visualizing-data/python-and-r-part2-cover.jpg
+image_preview: /assets/2020-11-12-python-and-r-visualizing-data/python-and-r-part2-preview.jpg
 canonical: https://redwallanalytics.com/2020/05/12/exploring-big-mt-cars-with-python-datatable-and-plotnine-part-2/
 ---
 

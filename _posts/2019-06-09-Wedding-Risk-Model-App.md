@@ -6,8 +6,8 @@ excerpt: "Learn step-by-step how to built a wedding risk model Shiny app."
 author: "Bryan Clark"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Learn-Shiny, shiny, BSPF]
-image: 2019-06-09-wedding-app/data_science_wedding_risk_model.jpg
-image_preview: 2019-06-09-wedding-app/data_science_wedding_risk_model.jpg
+image: /assets/2019-06-09-wedding-app/data_science_wedding_risk_model.jpg
+image_preview: /assets/2019-06-09-wedding-app/data_science_wedding_risk_model.jpg
 ---
 
 

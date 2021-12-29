@@ -6,8 +6,8 @@ excerpt: "One of the most common data science visualization is a Time Series plo
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, ggplot, timeseries, timetk, plotly]
-image: 2020-12-30-ggplot-theme/plotting_timeseries_cover.jpg
-image_preview: 2020-12-30-ggplot-theme/plotting_timeseries_preview.jpg
+image: /assets/2020-12-30-ggplot-theme/plotting_timeseries_cover.jpg
+image_preview: /assets/2020-12-30-ggplot-theme/plotting_timeseries_preview.jpg
 ---
 
 

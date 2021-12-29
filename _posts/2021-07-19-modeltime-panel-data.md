@@ -6,8 +6,8 @@ excerpt: "I'm super excited to introduce the new panel data forecasting function
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, modeltime, parallel processing]
-image: 2021-07-19-panel-data/say_no_to_for_loops_forecasting.jpg
-image_preview: 2021-07-19-panel-data/say_no_to_for_loops_forecasting.jpg
+image: /assets/2021-07-19-panel-data/say_no_to_for_loops_forecasting.jpg
+image_preview: /assets/2021-07-19-panel-data/say_no_to_for_loops_forecasting.jpg
 ---
 
 Spending too much time on making iterative forecasts? I'm __super excited__ to introduce the new panel data forecasting functionality in `modeltime`. It's perfect for forecasting many time series at once without for-loops saving you time ⏱️ and aggravation 😞.  <span style="color:red">__Just say NO to for-loops for forecasting.__</span>

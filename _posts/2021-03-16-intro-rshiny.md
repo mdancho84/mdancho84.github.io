@@ -2,12 +2,12 @@
 layout: post
 title: "A Gentle Introduction to R Shiny"
 date:   2021-03-16 09:00:00
-excerpt: "What if you could turn your #datascience​ analysis into a web application? You can do exactly that with R​ Shiny​. R Shiny is an amazing framework built to convert your data analysis into a web app - FAST! Create amazing applications your business can use in hours (not months!)."
+excerpt: "What if you could turn your #datascience analysis into a web application? You can do exactly that with R Shiny. R Shiny is an amazing framework built to convert your data analysis into a web app - FAST! Create amazing applications your business can use in hours (not months!)."
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Shiny]
-image: 2021-03-16-Intro-R-Shiny/cover_image.jpg
-image_preview: 2021-03-16-Intro-R-Shiny/cover_preview.jpg
+image: /assets/2021-03-16-Intro-R-Shiny/cover_image.jpg
+image_preview: /assets/2021-03-16-Intro-R-Shiny/cover_preview.jpg
 ---
 
 
@@ -17,7 +17,7 @@ This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-
 
 <br/>
 
-What if you could turn your #datascience​ analysis into a web application? You can do EXACTLY that with `R​ Shiny​`. 
+What if you could turn your #datascience analysis into a web application? You can do EXACTLY that with `R Shiny`. 
 
 R Shiny is an amazing framework built to convert your data analysis into a web app - FAST! Create amazing applications your business can use in hours (not months!).
 

@@ -6,8 +6,8 @@ excerpt: "Business Science is offering free educational resources as a response 
 author: "Matt Dancho"
 categories: [Learning-R]
 tags: [R-Bloggers, Learn-R, Coronavirus, COVID-19]
-image: new_products/jumpstart_with_r.jpg
-image_preview: new_products/jumpstart_with_r.jpg
+image: /assets/new_products/jumpstart_with_r.jpg
+image_preview: /assets/new_products/jumpstart_with_r.jpg
 ---
 
 

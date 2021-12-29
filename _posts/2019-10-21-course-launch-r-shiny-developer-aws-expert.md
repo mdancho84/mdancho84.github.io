@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-10-21 11:45:08
 categories: [University]
 tags: [R, Data Science, DS4B 202-R, R, Shiny, AWS, MongoDB, Bootstrap]
-image: 2019-10-21-shiny-developer-course/202_expert_shiny_developer.jpg
-image_preview: 2019-10-21-shiny-developer-course/202_expert_shiny_developer.jpg
+image: /assets/2019-10-21-shiny-developer-course/202_expert_shiny_developer.jpg
+image_preview: /assets/2019-10-21-shiny-developer-course/202_expert_shiny_developer.jpg
 ---
 
 <div class="pull-right" style="width:50%;margin-left:20px;">

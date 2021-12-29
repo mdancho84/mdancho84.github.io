@@ -6,8 +6,8 @@ excerpt: "For years Python and R have been pitted as mortal enemies in the world
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Learn-Python, Teams]
-image: 2021-01-28-python-or-r/data_science_workflow_cover.png
-image_preview: 2021-01-28-python-or-r/data_science_workflow_preview.png
+image: /assets/2021-01-28-python-or-r/data_science_workflow_cover.png
+image_preview: /assets/2021-01-28-python-or-r/data_science_workflow_preview.png
 ---
 
 👉 Each month, we release tons of great content on R for Business. [__Register to get fresh R Tips straight to your inbox.__](https://mailchi.mp/business-science/blog-registration)

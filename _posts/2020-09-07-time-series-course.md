@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2020-09-07 6:04:08
 categories: [University]
 tags: [R, Data Science, DS4B 203-R, R-Bloggers, Time Series, Learn-Timeseries]
-image: 2020-09-07-time-series-course/time_series_course.jpg
-image_preview: 2020-09-07-time-series-course/time_series_course.jpg
+image: /assets/2020-09-07-time-series-course/time_series_course.jpg
+image_preview: /assets/2020-09-07-time-series-course/time_series_course.jpg
 ---
 
 <div class="pull-right" style="width:50%;margin-left:20px;">

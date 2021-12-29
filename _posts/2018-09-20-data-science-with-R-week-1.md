@@ -5,7 +5,7 @@ author: "Matt Dancho"
 date:   2018-09-20 6:04:01
 categories: [University]
 tags: [R-Project, R, Data Science, DS4B 201-R, Getting Started, BSPF]
-image: 2018-09-20-data-science-with-R-1/system_week1.png
+image: /assets/2018-09-20-data-science-with-R-1/system_week1.png
 ---
 
 

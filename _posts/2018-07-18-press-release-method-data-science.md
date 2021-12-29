@@ -5,7 +5,7 @@ author: "Matt Dancho"
 date:   2018-07-18 11:11:01
 categories: [Press-Releases]
 tags: [R-Project, R, Python, Data Science, Education, Partnerships]
-image: 2018-07-18-press-release-method/press_release_method_data_science.png
+image: /assets/2018-07-18-press-release-method/press_release_method_data_science.png
 ---
 
 

@@ -6,8 +6,8 @@ excerpt: "One reason interest in machine learning jobs will continue to grow is 
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R, Learn-Business, Machine Learning]
-image: 2021-01-21-machine-learning-jobs/machine-learning-job-roles-cover.png
-image_preview: 2021-01-21-machine-learning-jobs/machine-learning-job-roles-preview.png
+image: /assets/2021-01-21-machine-learning-jobs/machine-learning-job-roles-cover.png
+image_preview: /assets/2021-01-21-machine-learning-jobs/machine-learning-job-roles-preview.png
 ---
 
 

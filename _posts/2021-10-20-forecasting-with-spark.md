@@ -6,8 +6,8 @@ excerpt: "I'm super excited to introduce the new Modeltime Backend for Spark. Le
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, modeltime, spark]
-image: 2021-10-20-forecasting-spark/tidy-forecasting-with-spark.jpg
-image_preview: 2021-10-20-forecasting-spark/tidy-forecasting-with-spark.jpg
+image: /assets/2021-10-20-forecasting-spark/tidy-forecasting-with-spark.jpg
+image_preview: /assets/2021-10-20-forecasting-spark/tidy-forecasting-with-spark.jpg
 ---
 
 

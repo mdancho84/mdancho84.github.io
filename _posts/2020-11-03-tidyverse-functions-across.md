@@ -6,8 +6,8 @@ excerpt: "The across() function was released in dplyr 1.0.0. It's a new tidyvers
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, Tidyverse]
-image: 2020-11-03-tidyverse-across/tidyverse_across_cover.png
-image_preview: 2020-11-03-tidyverse-across/tidyverse_across_preview.jpg
+image: /assets/2020-11-03-tidyverse-across/tidyverse_across_cover.png
+image_preview: /assets/2020-11-03-tidyverse-across/tidyverse_across_preview.jpg
 ---
 
 

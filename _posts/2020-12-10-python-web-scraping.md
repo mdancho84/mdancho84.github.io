@@ -6,8 +6,8 @@ excerpt: "Scraping Long Beach Island Summer Rentals with Python and the R reticu
 author: "David Lucey"
 categories: [Business]
 tags: [R-Blogger, Learn-Python, Python, Scraping, reticulate]
-image: 2020-12-10-python-web-scraping/python-scraping-cover.jpg
-image_preview: 2020-12-10-python-web-scraping/python-scraping-preview.jpg
+image: /assets/2020-12-10-python-web-scraping/python-scraping-cover.jpg
+image_preview: /assets/2020-12-10-python-web-scraping/python-scraping-preview.jpg
 canonical: https://redwallanalytics.com/2020/06/07/scraping-long-beach-island-summer-rentals-with-python/
 ---
 

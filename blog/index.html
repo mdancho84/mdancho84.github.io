@@ -6,7 +6,7 @@ title: Blog
 <!-- Body -->
 <section id="blog">
   <div class="container">
-      
+
       <div class="row">
           <!-- Sidebar -->
           <div class="col-md-3 well well-lg bs-component hidden-print hidden-sm hidden-xs" role="complimentary">
@@ -27,7 +27,7 @@ title: Blog
                         <div class="col-xs-8 col-md-6" style="padding-top:15px;">
                           <a href="{{ site.baseurl }}{{ post.url }}" class="thumbnail" style="margin-bottom:0px">
                             {% if post.image %}
-                              <img src="{{ site.baseurl }}/assets/{{ post.image }}" alt="...">
+                              <img src="{{ site.baseurl }}{{ post.image }}" alt="...">
                             {% else %}
                               <img src="{{ site.baseurl }}/img/header-sm-crpd.jpg" alt="...">
                             {% endif %}

@@ -6,8 +6,8 @@ excerpt: "Timetk Version 2.0.0 has just been released. Here's what's new for tim
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, timetk]
-image: 2020-06-05-timetk/timetk_version_2.jpg
-image_preview: 2020-06-05-timetk/timetk_version_2.jpg
+image: /assets/2020-06-05-timetk/timetk_version_2.jpg
+image_preview: /assets/2020-06-05-timetk/timetk_version_2.jpg
 ---
 
 

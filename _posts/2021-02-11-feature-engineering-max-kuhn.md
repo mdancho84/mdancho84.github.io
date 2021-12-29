@@ -6,8 +6,8 @@ excerpt: "Max Kuhn, from RStudio, discusses in-depth feature engineering for cus
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Feature Engineering, Machine Learning]
-image: 2021-02-11-feature-engineering/feature_engineering_cover.jpg
-image_preview: 2021-02-11-feature-engineering/feature_engineering_preview.jpg
+image: /assets/2021-02-11-feature-engineering/feature_engineering_cover.jpg
+image_preview: /assets/2021-02-11-feature-engineering/feature_engineering_preview.jpg
 ---
 
 👉 Each month, we release tons of great content on R for Business. [__Register to get fresh R Tips straight to your inbox.__](https://mailchi.mp/business-science/blog-registration)

@@ -6,8 +6,8 @@ excerpt: "The RStudio IDE is amazing. You can enhance your R productivity even m
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, RSTudio]
-image: 2021-01-05-rstudio-shortcuts/rstudio_shortcuts_cover.jpg
-image_preview: 2021-01-05-rstudio-shortcuts/rstudio_shortcuts_preview.jpg
+image: /assets/2021-01-05-rstudio-shortcuts/rstudio_shortcuts_cover.jpg
+image_preview: /assets/2021-01-05-rstudio-shortcuts/rstudio_shortcuts_preview.jpg
 ---
 
 

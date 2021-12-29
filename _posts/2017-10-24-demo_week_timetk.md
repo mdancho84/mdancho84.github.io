@@ -4,7 +4,7 @@ title:  "Demo Week: Time Series Machine Learning with timetk"
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, timetk, Learn-R]
-image: demo-week-timetk.png
+image: /assets/demo-week-timetk.png
 ---
 
 

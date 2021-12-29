@@ -5,8 +5,8 @@ excerpt: "Predictive sales analytics to predict product backorders can increase 
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Project, R, R-Bloggers, h2o, Sales Analytics, Product Backorders, Learn-Machine-Learning]
-image: sales_backorder_prediction.png
-image_preview: sales_backorder_prediction_preview.png
+image: /assets/sales_backorder_prediction.png
+image_preview: /assets/sales_backorder_prediction_preview.png
 ---
 
 

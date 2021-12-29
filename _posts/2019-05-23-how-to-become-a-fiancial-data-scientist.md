@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-05-23 6:00:00
 categories: [Business]
 tags: [Learn-Finance, Learn-R, shiny]
-image: 2019-05-23-financial-data-scientist/how-to-become-a-financial-data-scientist.jpg
-image_preview: 2019-05-23-financial-data-scientist/how-to-become-a-financial-data-scientist.jpg
+image: /assets/2019-05-23-financial-data-scientist/how-to-become-a-financial-data-scientist.jpg
+image_preview: /assets/2019-05-23-financial-data-scientist/how-to-become-a-financial-data-scientist.jpg
 ---
 
 Becoming a data scientist in Finance can be a lofty challenge... unless you know how to streamline the path. Instead of asking "what skills do I need?", ___we need to ask a different question___. We need to first learn to see ___what the organization values___. Then apply the __80/20 Rule__ to get there. 

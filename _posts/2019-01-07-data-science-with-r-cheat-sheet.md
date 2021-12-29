@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-01-07 5:30:00
 categories: [Learning-R]
 tags: [R-Project, R, Cheatsheet, Tidyverse, RMarkdown, Shiny, dplyr, ggplot2, Learn-R]
-image: 2019-01-07-r-cheat-sheet/r_cheat_sheet_pages.png
-image_preview: 2019-01-07-r-cheat-sheet/r_cheat_sheet_pages.png
+image: /assets/2019-01-07-r-cheat-sheet/r_cheat_sheet_pages.png
+image_preview: /assets/2019-01-07-r-cheat-sheet/r_cheat_sheet_pages.png
 ---
 
 The __Ultimate R Cheat Sheet__ simply put makes it easy to learn R. The Ultimate R Cheat Sheet saves you time by providing hyperlinks to the documentation and package-level cheat sheets for the most important packages in R. The latest update doubles its ultimateness by providing a _second page_ that includes __Special Topics__: 

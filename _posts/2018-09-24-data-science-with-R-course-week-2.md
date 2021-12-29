@@ -5,7 +5,7 @@ author: "Matt Dancho"
 date:   2018-09-24 6:04:01
 categories: [University]
 tags: [R-Project, R, Data Science, DS4B 201-R, Business Understanding]
-image: 2018-09-24-data-science-with-R-2/system_week2.png
+image: /assets/2018-09-24-data-science-with-R-2/system_week2.png
 ---
 
 

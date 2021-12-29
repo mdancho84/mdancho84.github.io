@@ -3,7 +3,7 @@ layout: post
 title:  "orderSimulatoR: Simulate Orders for Business Analytics"
 categories: [Business]
 tags: [R-Project, R, Simulation, Data Mining, orderSimulatoR, bikes data set]
-image: cannondale_bike.jpg
+image: /assets/cannondale_bike.jpg
 ---
 
 In this post, we will be discussing `orderSimulatoR`, which enables __fast and easy `R` order simulation for customer and product learning__. The basic premise is to simulate data that you'd retrieve from a `SQL` query of an ERP system. The data can then be merged with products and customers tables to data mine. I'll go through the basic steps to create an order data set that combines customers and products, and I'll wrap up with some visualizations to show how you can use order data to expose trends. You can get the scripts and the Cannondale `bikes data set` at the `orderSimulatoR` [GitHub repository](https://github.com/mdancho84/orderSimulatoR). In case you are wondering what simulated orders look like, click [here](#joining-orders) to scroll to the end result.

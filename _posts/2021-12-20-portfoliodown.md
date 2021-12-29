@@ -6,8 +6,8 @@ excerpt: "I'm super excited to introduce a new R package that makes it painless 
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, portfoliodown]
-image: 2021-12-20-portfoliodown/introducing_portfoliodown.jpg
-image_preview: 2021-12-20-portfoliodown/introducing_portfoliodown.jpg
+image: /assets/2021-12-20-portfoliodown/introducing_portfoliodown.jpg
+image_preview: /assets/2021-12-20-portfoliodown/introducing_portfoliodown.jpg
 ---
 
 I'm super excited to introduce `portfoliodown`, a new R package that makes it __painless for data scientists__ to create a polished professional website so they can host their project portfolios, get great job interviews, and launch their data science careers. I'll show of a short demo in this article. 

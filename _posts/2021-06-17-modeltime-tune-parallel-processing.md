@@ -6,8 +6,8 @@ excerpt: "I'm super excited to introduce the new parallel processing functionali
 author: "Matt Dancho and Alberto González Almuiña"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, modeltime, parallel processing]
-image: 2021-06-17-modeltime-parallel/modeltime_parallel.jpg
-image_preview: 2021-06-17-modeltime-parallel/modeltime_parallel.jpg
+image: /assets/2021-06-17-modeltime-parallel/modeltime_parallel.jpg
+image_preview: /assets/2021-06-17-modeltime-parallel/modeltime_parallel.jpg
 ---
 
 

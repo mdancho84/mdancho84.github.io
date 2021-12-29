@@ -6,8 +6,8 @@ excerpt: "If you are explaining data related to geography or just want to visual
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, Tidyverse, Geo Mapping]
-image: 2020-12-08-geographic-map-visualization/geo_maps_cover.jpg
-image_preview: 2020-12-08-geographic-map-visualization/geo_maps_preview.jpg
+image: /assets/2020-12-08-geographic-map-visualization/geo_maps_cover.jpg
+image_preview: /assets/2020-12-08-geographic-map-visualization/geo_maps_preview.jpg
 ---
 
 

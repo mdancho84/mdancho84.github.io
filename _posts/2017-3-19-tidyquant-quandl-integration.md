@@ -4,7 +4,7 @@ title:  "tidyquant Integrates Quandl: Getting Data Just Got Easier"
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, Stock Analysis, tidyverse, tidyquant, Quandl, broom, corrr, Learn-R, Learn-Finance, Learn-Timeseries]
-image: tidyquant-quandl.PNG
+image: /assets/tidyquant-quandl.PNG
 ---
 
 

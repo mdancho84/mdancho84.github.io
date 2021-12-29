@@ -6,8 +6,8 @@ author: "Blaine Bateman"
 date:   2018-12-04 05:00:01 
 categories: [Business]
 tags: [R-Project, R, R-Bloggers, Neural Network, Deep Learning, keras, Learn-Machine-Learning, Learn-R, Learn-Timeseries]
-image: 2018-12-04-time-series/time_series_deep_learning.png
-image_preview: 2018-12-04-time-series/time_series_deep_learning_preview.png
+image: /assets/2018-12-04-time-series/time_series_deep_learning.png
+image_preview: /assets/2018-12-04-time-series/time_series_deep_learning_preview.png
 canonical: https://www.business-science.io/business/2018/12/04/time-series-forecasting.html
 ---
 

@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date:   2018-11-18 8:01:01
 categories: [Learning-Python]
 tags: [R-Project, Python, Cheatsheet, pandas, matplotlib, seaborn, scikit-learn, Learn-Python]
-image: 2018-11-18-data-science-with-python-cheatsheet/Data_Science_With_Python_Workflow.png
-image_preview: 2018-11-18-data-science-with-python-cheatsheet/Data_Science_With_Python_Workflow.png
+image: /assets/2018-11-18-data-science-with-python-cheatsheet/Data_Science_With_Python_Workflow.png
+image_preview: /assets/2018-11-18-data-science-with-python-cheatsheet/Data_Science_With_Python_Workflow.png
 canonical: https://www.business-science.io/learning-python/2018/11/18/data-science-python-cheatsheet.html
 ---
 

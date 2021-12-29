@@ -6,8 +6,8 @@ excerpt: "I never thought I'd be able to make publication-ready statistical plot
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, ggstatsplot, ggplot, visualization]
-image: 2021-02-09-stat-plots-in-R/stats_plots_cover.jpg
-image_preview: 2021-02-09-stat-plots-in-R/stats_plots_preview.jpg
+image: /assets/2021-02-09-stat-plots-in-R/stats_plots_cover.jpg
+image_preview: /assets/2021-02-09-stat-plots-in-R/stats_plots_preview.jpg
 ---
 
 This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.

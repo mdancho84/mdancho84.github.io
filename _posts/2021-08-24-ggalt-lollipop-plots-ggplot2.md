@@ -6,8 +6,8 @@ excerpt: "ggalt is a ggplot2 extension that adds many new ggplot geometries. In 
 author: "Matt Dancho"
 categories: [R]
 tags: [R-Bloggers, Learn-R, ggplot, ggplot2, ggalt]
-image: "/2021-08-24-lollipop/lollipop_plot.jpg"
-image_preview: "/2021-08-24-lollipop/lollipop_plot.jpg"
+image: "/assets/2021-08-24-lollipop/lollipop_plot.jpg"
+image_preview: "/assets/2021-08-24-lollipop/lollipop_plot.jpg"
 ---
 
 __A Lollipop Plot__ shows the relationship between categories using a dot and a line that connects to a baseline (similar to a Bar Plot). In this short tutorial, we use `ggalt` to create a Lollipop Plot with the `geom_lollipop()` function.  

@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-06-27 7:00:00
 categories: [Business]
 tags: [R-Project, R, Data Science, Business Analysis, Learn-Business, CRISP-DM, BSPF]
-image: 2019-06-27-data-science-workflow/the-data-science-workflow.jpeg
-image_preview: 2019-06-27-data-science-workflow/the-data-science-workflow-preview.jpeg
+image: /assets/2019-06-27-data-science-workflow/the-data-science-workflow.jpeg
+image_preview: /assets/2019-06-27-data-science-workflow/the-data-science-workflow-preview.jpeg
 ---
 
 Data Science is often misunderstood by students seeking to enter the field, business analysts seeking to add data science as a new skill, and executives seeking to implement a data science practice. This article aims to clear up the mystery behind data science by illustrating the sequence of steps to go from a business problem to generating business value using a data science workflow. __Once data science is understood, we can take steps to learn data science skills that will generate the most value and/or better make strategic investments in building a data science practice.__

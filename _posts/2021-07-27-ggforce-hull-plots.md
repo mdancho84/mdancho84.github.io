@@ -6,8 +6,8 @@ excerpt: "ggforce is a ggplot2 extension that adds many exploratory data analysi
 author: "Matt Dancho"
 categories: [R]
 tags: [R-Bloggers, Learn-R, ggplot, ggplot2, ggforce ]
-image: "/2021-07-27-ggforce-hull-plots/043_ggforce_hull_plots.jpg"
-image_preview: "/2021-07-27-ggforce-hull-plots/043_ggforce_hull_plots.jpg"
+image: "/assets/2021-07-27-ggforce-hull-plots/043_ggforce_hull_plots.jpg"
+image_preview: "/assets/2021-07-27-ggforce-hull-plots/043_ggforce_hull_plots.jpg"
 ---
 
 The `ggforce` package is a `ggplot2` extension that adds many exploratory data analysis features. In this tutorial, we'll learn how to make __hull plots for visualizing clusters__ or groups within our data. 

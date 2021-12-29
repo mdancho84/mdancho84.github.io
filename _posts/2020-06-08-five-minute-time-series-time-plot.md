@@ -6,8 +6,8 @@ excerpt: "The 1st part in our Time Series in 5-minutes article series. Learn how
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, timetk]
-image: 2020-06-08-time-plot/time_series_plot.jpg
-image_preview: 2020-06-08-time-plot/time_series_plot.jpg
+image: /assets/2020-06-08-time-plot/time_series_plot.jpg
+image_preview: /assets/2020-06-08-time-plot/time_series_plot.jpg
 ---
 
 

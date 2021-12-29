@@ -5,8 +5,8 @@ excerpt: "Tidy Time Series Analysis, investigate lags and autocorrelation to und
 author: "Matt Dancho"
 categories: [Timeseries-Analysis]
 tags: [R-Project, R, tidyquant, xts, cranlogs, Learn-Timeseries]
-image: tidy-timeseries-part4.png
-image_preview: tidy-timeseries-part4_preview.png
+image: /assets/tidy-timeseries-part4.png
+image_preview: /assets/tidy-timeseries-part4_preview.png
 ---
 
 

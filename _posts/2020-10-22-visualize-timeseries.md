@@ -6,8 +6,8 @@ excerpt: "Plot time series data using the fpp2, fpp3, and timetik forecasting fr
 author: "Joon Im"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, TimeSeries, timetk, ggplot]
-image: 2020-10-22-visualize-timeseries/visualize-timeseries-cover.png
-image_preview: 2020-10-22-visualize-timeseries/visualize-timeseries-preview.png
+image: /assets/2020-10-22-visualize-timeseries/visualize-timeseries-cover.png
+image_preview: /assets/2020-10-22-visualize-timeseries/visualize-timeseries-preview.png
 canonical: https://medium.com/@JoonSF/moving-to-tidy-forecasting-in-r-how-to-visualize-time-series-data-1d0e42aef11a
 ---
 

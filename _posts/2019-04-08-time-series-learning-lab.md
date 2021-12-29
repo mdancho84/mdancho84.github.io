@@ -6,8 +6,8 @@ excerpt: "Learn the strategies that have improved our forecasting upwards of 50%
 author: "Matt Dancho"
 categories: [Time-Series]
 tags: [learning-lab]
-image: 2019-04-08-lab-time-series/learning_lab_time_series.jpg
-image_preview: 2019-04-08-lab-time-series/learning_lab_time_series.jpg
+image: /assets/2019-04-08-lab-time-series/learning_lab_time_series.jpg
+image_preview: /assets/2019-04-08-lab-time-series/learning_lab_time_series.jpg
 ---
 
 __Business Forecasting__ (the process of forecasting demand for a business) affects every part of the business from how many people to maintain, how much raw materials to purchase, which suppliers to expedite, and more! Improving your forecasting abilities will save your company a lot of money. In this [__Learning Lab__](http://bit.ly/learning-lab-07), we'll provide strategies that you can implement quickly to improve your forecasts 25%, 50%, 75% or more!

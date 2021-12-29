@@ -6,8 +6,8 @@ excerpt: "Data science doesnt have to take years to learn. Here's an inspiring u
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R]
-image: 2020-08-05-build-data-science-app/build-r-shiny-app.png
-image_preview: 2020-08-05-build-data-science-app/build-r-shiny-app-preview.jpg
+image: /assets/2020-08-05-build-data-science-app/build-r-shiny-app.png
+image_preview: /assets/2020-08-05-build-data-science-app/build-r-shiny-app-preview.jpg
 ---
 
 

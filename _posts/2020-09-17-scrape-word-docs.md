@@ -6,8 +6,8 @@ excerpt: "Your company has tons of them - Microsoft Word Documents! Scraping wor
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips]
-image: 2020-09-17-scrape-word-docs/scrape_word_docs_cover.jpeg
-image_preview: 2020-09-17-scrape-word-docs/scrape_word_docs_cover_preview.jpg
+image: /assets/2020-09-17-scrape-word-docs/scrape_word_docs_cover.jpeg
+image_preview: /assets/2020-09-17-scrape-word-docs/scrape_word_docs_cover_preview.jpg
 ---
 
 

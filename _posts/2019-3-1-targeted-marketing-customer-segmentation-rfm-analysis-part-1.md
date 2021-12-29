@@ -6,8 +6,8 @@ author: "David Curry"
 date: 2019-3-1 10:00:00 -0400
 categories: [Business]
 tags: [R, Data Science, Business Understanding, Marketing, Learn-Marketing]
-image: 2019-3-1-targeted-marketing-customer-segmentation-rfm-analysis-part-1/targeted-marketing-customer-segmentation-rfm-analysis-cover.jpg
-image_preview: 2019-3-1-targeted-marketing-customer-segmentation-rfm-analysis-part-1/targeted-marketing-customer-segmentation-rfm-analysis-preview.jpg
+image: /assets/2019-3-1-targeted-marketing-customer-segmentation-rfm-analysis-part-1/targeted-marketing-customer-segmentation-rfm-analysis-cover.jpg
+image_preview: /assets/2019-3-1-targeted-marketing-customer-segmentation-rfm-analysis-part-1/targeted-marketing-customer-segmentation-rfm-analysis-preview.jpg
 canonical: https://sureoptimize.com/targeted-marketing-with-customer-segmentation-and-rfm-analysis-part-1
 ---
 

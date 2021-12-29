@@ -6,8 +6,8 @@ excerpt: "Quickly learn how to analyze weather data. This is a code-based articl
 author: "David Lucey"
 categories: [Code-Tools]
 tags: [R-Bloggers, IoT]
-image: 2021-01-07-analyzing-weather-data/weather_analysis_cover.jpg
-image_preview: 2021-01-07-analyzing-weather-data/weather_analysis_preview.jpg
+image: /assets/2021-01-07-analyzing-weather-data/weather_analysis_cover.jpg
+image_preview: /assets/2021-01-07-analyzing-weather-data/weather_analysis_preview.jpg
 canonical: https://redwallanalytics.com/2020/09/22/exploring-30-years-of-local-ct-weather-history-with-r/
 ---
 

@@ -4,7 +4,7 @@ title: "A Data Scientist's Resources"
 author: Matt Dancho
 category: [Technology]
 tags: [Code, R, Python, Excel, SQL]
-image: sextant.jpg
+image: /assets/sextant.jpg
 ---
 
 

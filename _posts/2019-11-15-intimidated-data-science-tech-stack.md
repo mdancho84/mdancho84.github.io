@@ -6,8 +6,8 @@ excerpt: "A data science team has many tools that all need to be integrated. And
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R]
-image: 2019-11-15-intimidated-data-science-tech-stack/data-science-tech-stack-cover.jpg
-image_preview: 2019-11-15-intimidated-data-science-tech-stack/data-science-tech-stack-preview.jpg
+image: /assets/2019-11-15-intimidated-data-science-tech-stack/data-science-tech-stack-cover.jpg
+image_preview: /assets/2019-11-15-intimidated-data-science-tech-stack/data-science-tech-stack-preview.jpg
 ---
 
 <p class="text-center small">So many tools to worry about. So few you'll actually use.

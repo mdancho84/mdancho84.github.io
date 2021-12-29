@@ -6,8 +6,8 @@ excerpt: "I'm so excited to introduce modeltime, a new time series forecasting p
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, modeltime]
-image: 2020-06-29-modeltime/forecast_plot.jpg
-image_preview: 2020-06-29-modeltime/forecast_plot.jpg
+image: /assets/2020-06-29-modeltime/forecast_plot.jpg
+image_preview: /assets/2020-06-29-modeltime/forecast_plot.jpg
 ---
 
 

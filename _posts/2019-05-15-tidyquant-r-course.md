@@ -6,8 +6,8 @@ author: "Matt Dancho"
 date: 2019-05-15 6:30:00
 categories: [University]
 tags: [R, Data Science, R for Business, Business Analysis, Learn-Finance, tidyquant]
-image: 2019-05-15-tidyquant-course/finance_tidyquant_thumb.jpg
-image_preview: 2019-05-15-tidyquant-course/finance_tidyquant_thumb.jpg
+image: /assets/2019-05-15-tidyquant-course/finance_tidyquant_thumb.jpg
+image_preview: /assets/2019-05-15-tidyquant-course/finance_tidyquant_thumb.jpg
 ---
 
 We have 2 announcements:

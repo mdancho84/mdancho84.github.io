@@ -6,8 +6,8 @@ excerpt: "Your company lives off them... Excel files.  Why not automate them & s
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips]
-image: 2020-10-07-automate-excel/automate-excel-cover.png
-image_preview: 2020-10-07-automate-excel/automate-excel-preview.png
+image: /assets/2020-10-07-automate-excel/automate-excel-cover.png
+image_preview: /assets/2020-10-07-automate-excel/automate-excel-preview.png
 ---
 
 

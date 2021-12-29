@@ -4,7 +4,7 @@ title: "Information Security: Anomaly Detection and Threat Hunting with Anomaliz
 author: "Russ McRee"
 categories: [Business]
 tags: [R-Project, R, InfoSec, Anomaly Detection, Time Series, anomalize, tibbletime, Learn-Timeseries]
-image: 2018-06-10-infosec-anomalize/security_event_anomalies.png
+image: /assets/2018-06-10-infosec-anomalize/security_event_anomalies.png
 ---
 
 

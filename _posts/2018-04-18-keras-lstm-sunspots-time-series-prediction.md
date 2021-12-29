@@ -5,8 +5,8 @@ excerpt: "Learn time series analysis with Keras LSTM deep learning. Learn to pre
 author: "Matt Dancho"
 categories: [Timeseries-Analysis]
 tags: [R-Project, R, R-Bloggers, Time Series, Deep Learning, Keras, TensorFlow, Backtesting, tidyverse, tibbletime, timetk, keras, rsample, recipes, yardstick, Learn-Machine-Learning, Learn-Timeseries]
-image: 2018-04-18-keras-lstm-sunspots/keras_stateful_lstm.png
-image_preview: 2018-04-18-keras-lstm-sunspots/keras_stateful_lstm_preview.png
+image: /assets/2018-04-18-keras-lstm-sunspots/keras_stateful_lstm.png
+image_preview: /assets/2018-04-18-keras-lstm-sunspots/keras_stateful_lstm_preview.png
 ---
 
 

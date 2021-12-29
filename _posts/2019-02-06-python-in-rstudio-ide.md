@@ -6,8 +6,8 @@ excerpt: "With the latest integration of Python into the RStudio IDE, RStudio is
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Python, RStudio, IDE, pandas, numpy, matplotlib, seaborn, Learn-Python]
-image: 2019-02-05-python-rstudio-ide/python_in_rstudio_ide.jpg
-image_preview: 2019-02-05-python-rstudio-ide/python_in_rstudio_ide.jpg
+image: /assets/2019-02-05-python-rstudio-ide/python_in_rstudio_ide.jpg
+image_preview: /assets/2019-02-05-python-rstudio-ide/python_in_rstudio_ide.jpg
 ---
 
 

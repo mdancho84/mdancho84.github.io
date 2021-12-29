@@ -6,8 +6,8 @@ excerpt: "SweetViz is a Python library that makes exploratory data analysis (EDA
 author: "Matt Dancho"
 categories: [python]
 tags: [Learn-Python, Python-Bloggers, SweetViz]
-image: "/2021-08-03-sweetviz/005_sweetviz_thumb.jpg"
-image_preview: "/2021-08-03-sweetviz/005_sweetviz_thumb.jpg"
+image: "/assets/2021-08-03-sweetviz/005_sweetviz_thumb.jpg"
+image_preview: "/assets/2021-08-03-sweetviz/005_sweetviz_thumb.jpg"
 ---
 
 `SweetViz` is a Python library that makes exploratory data analysis (EDA) fast and effective. Learn how to investigate feature relationships using correlation and associations in the __automated SweetViz report.__

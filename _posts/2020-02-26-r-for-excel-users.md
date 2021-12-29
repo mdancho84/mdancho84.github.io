@@ -6,8 +6,8 @@ excerpt: "Learn how to use popular Excel functions in R like Pivot Tables, VLOOK
 author: "Matt Dancho"
 categories: [Finance]
 tags: [R-Bloggers, Learn-R, Learn-Finance, Learn-Business, tidyquant, tidyverse]
-image: 2020-02-26-r-for-excel/r-for-excel-users.jpg
-image_preview: 2020-02-26-r-for-excel/r-for-excel-users.jpg
+image: /assets/2020-02-26-r-for-excel/r-for-excel-users.jpg
+image_preview: /assets/2020-02-26-r-for-excel/r-for-excel-users.jpg
 ---
 
 

@@ -6,8 +6,8 @@ excerpt: "The drake plan organizes the project work flow according to targets, w
 author: "David Lucey"
 categories: [Business]
 tags: [Learn-R, Drake, Shiny, Real Estate]
-image: 2020-09-24-using-drake-etl/drake-etl-cover.png
-image_preview: 2020-09-24-using-drake-etl/drake-etl-preview.png
+image: /assets/2020-09-24-using-drake-etl/drake-etl-cover.png
+image_preview: /assets/2020-09-24-using-drake-etl/drake-etl-preview.png
 canonical: https://redwallanalytics.com/2020/07/22/using-drake-for-etl-to-build-shiny-app-for-900k-ct-real-estate-sales/
 ---
 

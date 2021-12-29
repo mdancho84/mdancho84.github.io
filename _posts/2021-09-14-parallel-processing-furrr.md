@@ -13,11 +13,11 @@ tags:
 - ggplot
 - ggplot2
 - ggalt
-image: /2021-09-14-furrr/046_furrr_thumb.jpg
-image_preview: /2021-09-14-furrr/046_furrr_thumb.jpg
+image: /assets/2021-09-14-furrr/046_furrr_thumb.jpg
+image_preview: /assets/2021-09-14-furrr/046_furrr_thumb.jpg
 
 ---
-I’m super excited to introduce `furrr`, an R package that makes it **painless** to speed up your R-code. I’ll show a **short demo** of furrr in this article.
+I'm super excited to introduce `furrr`, an R package that makes it **painless** to speed up your R-code. I’ll show a **short demo** of furrr in this article.
 
 * Parallel processing in the `tidyverse` couldn't be easier with the `furrr` package. 
 * If you are familiar with the `purrr::map()` function, then you'll love `furrr::future_map()`.

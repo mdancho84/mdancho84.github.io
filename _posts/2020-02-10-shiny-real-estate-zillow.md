@@ -6,8 +6,8 @@ excerpt: "Zillow is a FREE TOOL with an API that allows Data Scientists to conne
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Learn-Marketing, shiny, zillow, crosstalk, dalex, xgboost]
-image: 2020-02-10-shiny-zillow/lab_28_shiny_zillow_app_6.jpg
-image_preview: 2020-02-10-shiny-zillow/lab_28_shiny_zillow_app_6.jpg
+image: /assets/2020-02-10-shiny-zillow/lab_28_shiny_zillow_app_6.jpg
+image_preview: /assets/2020-02-10-shiny-zillow/lab_28_shiny_zillow_app_6.jpg
 ---
 
 

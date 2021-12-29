@@ -5,7 +5,7 @@ excerpt: "Predict employee turnover using the H2O machine learning and Lime."
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Project, R, R-Bloggers, h2o, lime, Employee Turnover, Learn-Business, Learn-Machine-Learning]
-image: hr_employee_attrition.png
+image: /assets/hr_employee_attrition.png
 ---
 
 

@@ -6,8 +6,8 @@ excerpt: "Learn how to scrape and wrangle PDF tables of a Report on Endangered S
 author: "Jennifer Cooper"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, tabulizer, tidyverse, dplyr, ggplot2]
-image: 2019-09-23-tabulizer/tabulizer_pdf_scrape_workflow.png
-image_preview: 2019-09-23-tabulizer/tabulizer_pdf_scrape_workflow.png
+image: /assets/2019-09-23-tabulizer/tabulizer_pdf_scrape_workflow.png
+image_preview: /assets/2019-09-23-tabulizer/tabulizer_pdf_scrape_workflow.png
 ---
 
 

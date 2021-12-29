@@ -6,8 +6,8 @@ excerpt: "Moving into 2020, three things are clear - Organizations want Data Sci
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Learn-Business, Shiny, H2O, AWS, Docker, Git]
-image: 2020-01-13-h2o/full_stack_data_science_technologies.jpg
-image_preview: 2020-01-13-h2o/full_stack_data_science_technologies.jpg
+image: /assets/2020-01-13-h2o/full_stack_data_science_technologies.jpg
+image_preview: /assets/2020-01-13-h2o/full_stack_data_science_technologies.jpg
 ---
 
 <p class="lead">Moving into 2020, three things are clear - Organizations want Data Science, Cloud, and Apps. <strong>Here are the Top 5 essential skills for Data Scientists that need to build and deploy applications in 2020 and beyond.</strong></p>

@@ -2,12 +2,12 @@
 layout: post
 title: "4 Ways to make Data Frames in R!"
 date:   2021-02-02 07:00:00
-excerpt: "Data frames (like Excel​ tables) are the main way for storing, organizing, and analyzing data in R​. Here are 4 ways using the tidyverse."
+excerpt: "Data frames (like Excel tables) are the main way for storing, organizing, and analyzing data in R. Here are 4 ways using the tidyverse."
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, R, R-Tips, tidyverse, dataframe]
-image: 2021-02-01-dataframes-in-r/dataframe_cover.png
-image_preview: 2021-02-01-dataframes-in-r/dataframe_preview.png
+image: /assets/2021-02-01-dataframes-in-r/dataframe_cover.png
+image_preview: /assets/2021-02-01-dataframes-in-r/dataframe_preview.png
 ---
 
 
@@ -17,7 +17,7 @@ This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailc
 <br/>
 
 
-Data frames (like Excel​ tables) are the main way for storing, organizing, and analyzing data in R​. Here are 4 ways using the tidyverse​: `tibble`, `as_tibble()`, `read_excel()`, and `enframe()`/`deframe()`.
+Data frames (like Excel tables) are the main way for storing, organizing, and analyzing data in R. Here are 4 ways using the tidyverse: `tibble`, `as_tibble()`, `read_excel()`, and `enframe()`/`deframe()`.
 
 <br>
 

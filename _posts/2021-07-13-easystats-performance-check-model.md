@@ -6,8 +6,8 @@ excerpt: "The easystats performance R package makes it easy to investigate the r
 author: "Matt Dancho"
 categories: [R]
 tags: [R-Bloggers, Learn-R, easystats, performance ]
-image: "/2021-07-13-easystats/000-easystats-performance-thumb.jpg"
-image_preview: "/2021-07-13-easystats/000-easystats-performance-thumb.jpg"
+image: "/assets/2021-07-13-easystats/000-easystats-performance-thumb.jpg"
+image_preview: "/assets/2021-07-13-easystats/000-easystats-performance-thumb.jpg"
 ---
 
 Easystats `performance` is an R package that makes it easy to investigate the relevant assumptions for regression models. Simply use the `check_model()` function to produce a visualization that combines 6 tests for model performance. We'll quickly:

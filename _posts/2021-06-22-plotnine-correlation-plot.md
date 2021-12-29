@@ -6,8 +6,8 @@ excerpt: "The plotnine library is a powerful python visualization library based 
 author: "Matt Dancho"
 categories: [python]
 tags: [R-Bloggers, Learn-Python, pandas, plotnine]
-image: "/2021-06-22-plotnine-corr/000_correlation_plots_thumb.jpg"
-image_preview: "/2021-06-22-plotnine-corr/000_correlation_plots_thumb.jpg"
+image: "/assets/2021-06-22-plotnine-corr/000_correlation_plots_thumb.jpg"
+image_preview: "/assets/2021-06-22-plotnine-corr/000_correlation_plots_thumb.jpg"
 ---
 
 > The `plotnine` library is a powerful python visualization library based on R's `ggplot2` package. In this tutorial, we show you how to make a great-looking correlation plot using `pandas` and `plotnine`.

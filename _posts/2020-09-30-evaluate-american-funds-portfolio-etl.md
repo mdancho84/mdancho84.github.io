@@ -6,8 +6,8 @@ excerpt: "Active funds have done poorly over the last ten years, and in most cas
 author: "David Lucey"
 categories: [Finance]
 tags: [R-Bloggers, Learn-R, Learn-Finance, PerformanceAnalytics]
-image: 2020-09-30-evaluate-american-funds-portfolio/evaluating-american-portfolio-cover.png
-image_preview: 2020-09-30-evaluate-american-funds-portfolio/evaluating-american-portfolio-preview.png
+image: /assets/2020-09-30-evaluate-american-funds-portfolio/evaluating-american-portfolio-cover.png
+image_preview: /assets/2020-09-30-evaluate-american-funds-portfolio/evaluating-american-portfolio-preview.png
 canonical: https://redwallanalytics.com/2020/06/12/checking-up-on-american-funds-performance-through-cycle/
 ---
 

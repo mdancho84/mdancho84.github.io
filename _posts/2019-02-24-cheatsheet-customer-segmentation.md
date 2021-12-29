@@ -6,8 +6,8 @@ excerpt: "Student feedback led to a BRAND NEW CHEAT SHEET on customer segmentati
 author: "Matt Dancho"
 categories: [Business]
 tags: [Learn-R, Learn-Business, Learn-Marketing, K-Means, UMAP, kmeans, umap]
-image: 2019-02-25-cheatsheet-customer-segmentation/segmentation_clustering_page2.jpg
-image_preview: 2019-02-25-cheatsheet-customer-segmentation/segmentation_clustering_page2.jpg
+image: /assets/2019-02-25-cheatsheet-customer-segmentation/segmentation_clustering_page2.jpg
+image_preview: /assets/2019-02-25-cheatsheet-customer-segmentation/segmentation_clustering_page2.jpg
 ---
 
 __Quite often our student feedback leads to BIG IMPROVEMENTS in our courses and big developments that help everyone!__ This is a perfect example. Based on student feedback, we've completely upgraded the Week 6 materials in our foundational [Business Analysis with R Course](https://university.business-science.io/p/ds4b-101-r-business-analysis-r/?coupon=ds4b15) creating a __BRAND NEW CHEAT SHEET on Customer Segmentation__ in the process. We've open sourced the NEW CHEAT SHEET,  which is available for [download below](#cheatsheet). __Read on__ to find out why we created the cheat sheet, how it works, and how it helps you.

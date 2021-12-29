@@ -6,8 +6,8 @@ excerpt: "ggalt is a ggplot2 extension that adds many new ggplot geometries. In 
 author: "Matt Dancho"
 categories: [R]
 tags: [R-Bloggers, Learn-R, ggplot, ggplot2, ggalt]
-image: "/2021-08-12-ggalt-dumbbell-plots/000-ggalt-dumbbell-thumb.jpg"
-image_preview: "/2021-08-12-ggalt-dumbbell-plots/000-ggalt-dumbbell-thumb.jpg"
+image: "/assets/2021-08-12-ggalt-dumbbell-plots/000-ggalt-dumbbell-thumb.jpg"
+image_preview: "/assets/2021-08-12-ggalt-dumbbell-plots/000-ggalt-dumbbell-thumb.jpg"
 ---
 
 `ggalt` is a `ggplot2` extension that adds many new ggplot geometries. In this tutorial, we'll learn how to make __dumbbell plots for visualizing change__ within our data using `geom_dumbbell()`. 

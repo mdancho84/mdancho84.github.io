@@ -6,8 +6,8 @@ excerpt: "I'm super excited to introduce the experimental feature for performing
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, modeltime, iterative forecasting]
-image: 2021-08-26-modeltime-nested/modeltime-nested.jpg
-image_preview: 2021-08-26-modeltime-nested/modeltime-nested.jpg
+image: /assets/2021-08-26-modeltime-nested/modeltime-nested.jpg
+image_preview: /assets/2021-08-26-modeltime-nested/modeltime-nested.jpg
 ---
 
 

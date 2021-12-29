@@ -6,8 +6,8 @@ excerpt: "Modeltime unlocks time series models and machine learning in one frame
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-Timeseries, Learn-Machine-Learning, R, timetk]
-image: 2020-09-09-time-series-modeling-data/time_series_modeling_cover.png
-image_preview: 2020-09-09-time-series-modeling-data/time_series_modeling_preview.png
+image: /assets/2020-09-09-time-series-modeling-data/time_series_modeling_cover.png
+image_preview: /assets/2020-09-09-time-series-modeling-data/time_series_modeling_preview.png
 ---
 
 

@@ -2,12 +2,12 @@
 layout: post
 title: "Build GGPLOT Code with Tableau Drag-and-Drop (R esquisse)"
 date:   2021-03-23 07:00:00
-excerpt: "Tableau-users rejoice! The esquisse R package is here to make you life much easier - make ggplot2​ plot code using a drag-and-drop Tableau interface. Here's what you need to do."
+excerpt: "Tableau-users rejoice! The esquisse R package is here to make you life much easier - make ggplot2 plot code using a drag-and-drop Tableau interface. Here's what you need to do."
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, esquisse, ggplot]
-image: 2021-03-23-ggplot-code/cover.jpg
-image_preview: 2021-03-23-ggplot-code/preview.jpg
+image: /assets/2021-03-23-ggplot-code/cover.jpg
+image_preview: /assets/2021-03-23-ggplot-code/preview.jpg
 ---
 
 

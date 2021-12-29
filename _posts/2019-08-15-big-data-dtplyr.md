@@ -6,8 +6,8 @@ excerpt: "Wrangling Big Data is one of the best features of the R programming la
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Bloggers, Learn-R, Learn-Finance, Learn-Machine-Learning, data.table, dplyr, dtplyr]
-image: 2019-08-15-dtplyr/dtplyr_bridging_the_big_data_gap.jpg
-image_preview: 2019-08-15-dtplyr/dtplyr_bridging_the_big_data_gap.jpg
+image: /assets/2019-08-15-dtplyr/dtplyr_bridging_the_big_data_gap.jpg
+image_preview: /assets/2019-08-15-dtplyr/dtplyr_bridging_the_big_data_gap.jpg
 ---
 
 

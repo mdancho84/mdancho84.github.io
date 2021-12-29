@@ -5,7 +5,7 @@ excerpt: "Anomaly detection algorithm using Anomolize: an open-source tidy anoma
 author: "Matt Dancho"
 categories: [Code-Tools]
 tags: [R-Project, R, R-Bloggers, Time Series, tidyverse, anomalize, Learn-Machine-Learning]
-image: anomalize-intro.png
+image: /assets/anomalize-intro.png
 ---
 
 

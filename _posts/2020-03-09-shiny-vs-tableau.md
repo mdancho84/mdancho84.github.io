@@ -6,8 +6,8 @@ excerpt: "Shiny is much more than just a dashboarding tool. Here we illustrate 3
 author: "Matt Dancho"
 categories: [Business]
 tags: [R-Bloggers, Learn-R, Learn-Business, Learn-Shiny, shiny, tidyverse]
-image: 2020-03-09-shiny-vs-tableau/shiny-vs-tableau.jpg
-image_preview: 2020-03-09-shiny-vs-tableau/shiny-vs-tableau.jpg
+image: /assets/2020-03-09-shiny-vs-tableau/shiny-vs-tableau.jpg
+image_preview: /assets/2020-03-09-shiny-vs-tableau/shiny-vs-tableau.jpg
 ---
 
 
