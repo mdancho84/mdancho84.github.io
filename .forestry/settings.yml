@@ -7,14 +7,6 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
-- type: jekyll-pages
-  label: Pages
-  create: all
-- type: directory
-  path: _lab-episodes
-  label: Lab episodes
-  create: all
-  match: "**/*"
 upload_dir: assets
 public_path: "/assets"
 front_matter_path: ''
