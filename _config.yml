@@ -63,7 +63,7 @@ plugins:
 exclude:
   - vendor/bundle
   # - Gemfile
-  - Gemfile.lock
+  # - Gemfile.lock
   - LICENSE
   - README.md
   - CNAME
