@@ -24,11 +24,15 @@ fields:
 - type: list
   name: categories
   label: categories
-  default: [Code-Tools]
+  default:
+  - Code-Tools
 - type: list
   name: tags
   label: tags
-  default: [R-Bloggers, Learn-R, R]
+  default:
+  - R-Bloggers
+  - Learn-R
+  - R
 - type: file
   name: image
   label: image
@@ -36,4 +40,5 @@ fields:
   name: image_preview
   label: image_preview
 pages:
+- _posts/business-analytics-radiant.md
 - _posts/data-scientist-vs-mlops.md

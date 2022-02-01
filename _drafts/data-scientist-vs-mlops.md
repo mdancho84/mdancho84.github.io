@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Scientist vs MLOps
-date: 2021-12-29 00:00:00 -0500
+date: 2021-12-29T00:00:00.000-05:00
 excerpt: 'Data Scientists and MLOps are both in high demand. Here''s what you need
   to know. '
 author: Matt Dancho
@@ -22,3 +22,5 @@ So you want to become a data scientist but are unsure of...
 Something cool
 
 ![](/assets/2021-09-22-python-csv/01-csv-for-loop.jpg)
+
+This is a test
