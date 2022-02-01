@@ -31,4 +31,4 @@ Here are the links to get set up. 👇
 
 See how in 10-minutes I made a quick business analytics report with `radiant`.
 
-<iframe width="100%" height="450" src="[https://www.youtube.com/embed/n27qWulZl1c](https://www.youtube.com/embed/n27qWulZl1c "https://www.youtube.com/embed/n27qWulZl1c")" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{<iframe width="100%" height="450" src="[https://www.youtube.com/embed/n27qWulZl1c](https://www.youtube.com/embed/n27qWulZl1c "https://www.youtube.com/embed/n27qWulZl1c")" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>}
