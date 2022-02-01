@@ -9,7 +9,7 @@ tags:
 - Learn-R
 - R
 title: A new R package for Business Analytics... radiant
-date: 2022-02-01 09:00:00 -0500
+date: 2022-02-01 11:00:00 -0500
 excerpt: 'I''m super impressed by the radiant R package. With no prior exposure to
   radiant, I was able to complete a short business analytics report in under 10-minutes. '
 image: "/assets/048-radiant.jpg"
@@ -135,7 +135,7 @@ On the reporting tab:
 
 The report is saved as an HTML document (assuming you switched from Notebook to HTML like I did in the video.)
 
-# Summary
+## Recap
 
 You just created a report using `radiant`. But there's a lot more to data science. 
 
@@ -149,13 +149,13 @@ AND, I don't want it to take that long for you.
 
 So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) that provides a roadmap for what worked for me. 
 
-Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I promise. 
+Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.  
 
 ## Step 2: Take action
 
 For my action-takers, if you are ready to take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you'd like someone to help you do this in UNDER  6-MONTHS or less....
 
-Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a special price (because you are special!) and that will kickstart your journey with me in your corner.
+Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
 
 Get ready. The ride is while. And the destination is AMAZING! 
 

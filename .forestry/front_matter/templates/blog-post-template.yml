@@ -40,5 +40,5 @@ fields:
   name: image_preview
   label: image_preview
 pages:
-- _posts/business-analytics-radiant.md
+- _posts/2022-02-01-business-analytics-radiant.md
 - _posts/data-scientist-vs-mlops.md
