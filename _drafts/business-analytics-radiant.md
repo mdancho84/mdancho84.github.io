@@ -22,6 +22,13 @@ I'm super impressed by the `radiant` R package. With no prior experience with ra
 
 This article is part of R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
 
-<p>Here are the links to get set up. 👇</p>
+Here are the links to get set up. 👇
 
-<ul> <li><a href="[https://mailchi.mp/business-science/r-tips-newsletter](https://mailchi.mp/business-science/r-tips-newsletter "https://mailchi.mp/business-science/r-tips-newsletter")" target='_blank'>Get the Code</a></li> <li><a href="[https://youtu.be/TP8vjWiIpgI](https://youtu.be/TP8vjWiIpgI "https://youtu.be/TP8vjWiIpgI")" target='_blank'>YouTube Tutorial</a></li> </ul>
+* [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+* [Watch the YouTube Tutorial](https://youtu.be/n27qWulZl1c)
+
+## Video Tutorial
+
+See how in 10-minutes I made a quick business analytics report with `radiant`.
+
+<iframe width="100%" height="450" src="[https://www.youtube.com/embed/n27qWulZl1c](https://www.youtube.com/embed/n27qWulZl1c "https://www.youtube.com/embed/n27qWulZl1c")" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
