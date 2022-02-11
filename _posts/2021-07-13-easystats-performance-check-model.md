@@ -56,7 +56,7 @@ Before we move on, please recognize that the `easystats`-verse of R packages is 
 
 # Model `performance` tutorial
 
-Let's get up and running with the `performance` package using `check_model()` with the `tidymodels` integration so we can assess **Model Performance**.
+Let's get up and running with the `performance` package so we can assess **Model Performance**.
 
 ## Step 1: Load the Libraries and Data
 
