@@ -38,7 +38,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 
 # Video Tutorial
 
-Learn how to use `performance::check_model()` in our 7-minute YouTube video tutorial.
+Learn how to use easystats's `performance` package in our 7-minute YouTube video tutorial.
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/Bi8sHIo3s1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -54,17 +54,7 @@ By the end of this tutorial, you'll make a helpful plot for analyzing the model 
 
 Before we move on, please recognize that the `easystats`-verse of R packages is developed by [Daniel Lüdecke](https://github.com/strengejacke), [Dominique Makowski](https://dominiquemakowski.github.io/), [Mattan S. Ben-Shachar](https://github.com/mattansb), [Indrajeet Patil](https://sites.google.com/site/indrajeetspatilmorality/), and [Brenton M. Wiernik](https://wiernik.org/). Thank you for all that you do!
 
-# Tidymodels help.
-
-We will use  `tidymodels`, an ecosystem of R packages for modeling. While we can't go in-depth here (too much to talk about), I have a [FREE resource for learning tidymodels](https://www.business-science.io/r-cheatsheet.html). 
-
-You can use the Ultimate R Cheat Sheet to refer to `tidymodels` code in my workflow. The link to tidymodels under the modeling section (1st page), which will link you to the important R packages like `parsnip`, `recipes`, `workflows`, and more. 
-
-<a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-07-13-easystats/cheatsheet_tidymodels.jpg" style='max-width:80%;display:block;margin:auto;'>
-
-<br>
-
-# Model Performance Tutorial
+# Model `performance` tutorial
 
 Let's get up and running with the `performance` package using `check_model()` with the `tidymodels` integration so we can assess **Model Performance**.
 
@@ -107,11 +97,11 @@ Here is the output of `check_model()`, which returns a **Model Performance Plot*
 
 Let's go through the plots, analyzing our model performance.
 
-## BONUS: Analyzing the 6 Model Performance Plots
+# BONUS: Analyzing the 6 Model Performance Plots
 
 Let's step through the 6-plots that were returned.
 
-### Plots 1 & 2: Residual Linearity
+## Plots 1 & 2: Residual Linearity
 
 The first two plots analyze the linearity of the residuals (in-sample model error) versus the fitted values. We want to make sure that our model is error is relatively flat.
 
@@ -121,7 +111,7 @@ Quick Assessment:
 
 * We can see that when our model predictions are around 30, **our model has larger error compared to below 30.** We may want to inspect these points to see what could be contributing to the lower predictions than actuals.
 
-### Plots 3 & 4: Collinearity and High Leverage Points
+## Plots 3 & 4: Collinearity and High Leverage Points
 
 The next two plots analyze for collinearity and high leverage points. 
 
@@ -135,7 +125,7 @@ Quick Assessment:
 * **Collinearity**: We can see that both of the features have low collinearity (green bars). No model adjustments are necessary.
 * **Influential Observations**: None of the predictins are outside of the contour lines indicating we don't have high leverage points. No model adjustments are necessary.
 
-### Plots 5& 6: Normality of Residuals
+## Plots 5& 6: Normality of Residuals
 
 The last two plots analyze for the **normality of residuals**, which is how the model error is distributed. If the distributions are skewed, this can indicate problems with the model.
 
