@@ -48,7 +48,7 @@ By the end of this tutorial, you'll make a helpful plot for analyzing the model 
 
 <img src="/assets/2021-07-13-easystats/performance_check_model_plot.jpg" style='max-width:80%'>
 
-<p class="text-center date">Model Performance Plot (made with <code>easystats</code></p>
+<p class="text-center date">Model Performance Plot (made with <code>easystats</code>)</p>
 
 # Thank You Developers.
 
@@ -79,8 +79,8 @@ Load the data. We're using the `mpg` dataset.
 Next, we'll quickly make a Linear Regression model with `tidymodels`. Then I'll cover more specifics on what we are doing. Here's the code. We follow 3-Steps:
 
 1. **Load Tidymodels**: This loads `parsnip` (the modeling package in the tidymodels ecosystem)
-2. **Make Linear Regression Model**: We set up a model specification using `linear_reg()`. 
-   * We then select an engine with `set_engine()`. In our case we want "lm", which connects to `stats::lm()`. 
+2. **Make Linear Regression Model**: We set up a model specification using `linear_reg()`.
+   * We then select an engine with `set_engine()`. In our case we want "lm", which connects to `stats::lm()`.
    * We then `fit()` the model. We use a formula `hwy ~ displ + class` to make highway fuel economy our target and displacement and vehicle class our predictors. This creates a trained model.
 3. **Run Check Model**: With a fitted model in hand, we can run `performance::check_model()`, which generates the **Model Performance Plot**.
 
@@ -113,9 +113,9 @@ Quick Assessment:
 
 ## Plots 3 & 4: Collinearity and High Leverage Points
 
-The next two plots analyze for collinearity and high leverage points. 
+The next two plots analyze for collinearity and high leverage points.
 
-* **Collinearity** is when features are highly correlated, which can throw off simple regression models (more advanced models use a concept called regularization and hyperparameter tuning to control for collinearity). 
+* **Collinearity** is when features are highly correlated, which can throw off simple regression models (more advanced models use a concept called regularization and hyperparameter tuning to control for collinearity).
 * **High Leverage Points** are observations that deviate far from the average. These can skew the predictions for linear models, and removal or model adjustment may be necessary to control model performance.
 
 ![Collinearity and High Leverage Points](/assets/2021-07-13-easystats/02B_collinearity_leverage.jpg)
@@ -158,6 +158,6 @@ For my action-takers, if you are ready to take your skills to the next level and
 
 Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
 
-Get ready. The ride is while. And the destination is AMAZING!
+Get ready. The ride is wild. And the destination is AMAZING!
 
 {% include top_rtips.html %}
