@@ -40,43 +40,27 @@ Learn how to use `performance::check_model()` in our 7-minute YouTube video tuto
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/Bi8sHIo3s1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Before we go any further. Let's say thanks to the creators.
+# What you make in this R-Tip
 
-Before we move on, please recognize that the `easystats`-verse of R packages is developed by [Daniel Lüdecke](https://github.com/strengejacke), [Dominique Makowski](https://dominiquemakowski.github.io/), [Mattan S. Ben-Shachar](https://github.com/mattansb), [Indrajeet Patil](https://sites.google.com/site/indrajeetspatilmorality/), and [Brenton M. Wiernik](https://wiernik.org/). Thank you for all that you do!
-
-# What is Model Performance?
-
-**Model performance** is the ability to understand the quality of our model predictions. This means both understanding if we have a good model and where our model is susceptible to poor predictions. We'll see how with `performance::check_model()`.
-
-**About the performance package**:
-
-`performance` is a new R package for evaluating statistical models in R. It provides a suite of tools to measure and evaluate model performance. We'll focus on the `check_model()` function, which makes a helpful plot for analyzing the model quality of regression models.
+By the end of this tutorial, you'll make a helpful plot for analyzing the model quality of regression models.
 
 <img src="/assets/2021-07-13-easystats/performance_check_model_plot.jpg" style='max-width:80%'>
 
-<p class='text-center date'>
-<a href='https://github.com/easystats/performance' target='_blank'> The performance package (GitHub)</a>
-</p>
+<p class="text-center date">Model Performance Plot (made with <code>easystats</code></p>
 
-We'll go through a short tutorial to get you up and running with `performance::check_model()`.
+# Thank You Developers.
 
-# Before we get started, get the R Cheat Sheet
+Before we move on, please recognize that the `easystats`-verse of R packages is developed by [Daniel Lüdecke](https://github.com/strengejacke), [Dominique Makowski](https://dominiquemakowski.github.io/), [Mattan S. Ben-Shachar](https://github.com/mattansb), [Indrajeet Patil](https://sites.google.com/site/indrajeetspatilmorality/), and [Brenton M. Wiernik](https://wiernik.org/). Thank you for all that you do!
+
+# Get the R Cheat Sheet
 
 `performance` is great for making quick plots of model performance. But, you'll still need to learn how to model data with `tidymodels`. For those topics, I'll use the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) to refer to `tidymodels` code in my workflow.
 
-### Quick Example:
-
-[Download the Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html). Then **Click the hyperlink** to "tidymodels".
+[Download the Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html). 
 
 <a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-07-13-easystats/cheatsheet_tidymodels.jpg" style='max-width:80%;display:block;margin:auto;'>
 
 <br>
-
-Now you're ready to quickly reference the `tidymodels` ecosystem and functions.
-
-![tidymodels ecosystem](/assets/2021-07-13-easystats/tidymodels_org.jpg)
-
-Onto the tutorial.
 
 # Model Performance Tutorial
 
@@ -100,14 +84,16 @@ Load the data. We're using the `mpg` dataset.
 
 ## Linear Regression: Make and Check Models
 
-Next, we'll quickly make a Linear Regression model with `tidymodels`. Then I'll cover more specifics on what we are doing. Refer to the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) for more on Tidymodels beyond what we cover here. Alternatively, check out my [R for Business Analysis Course (DS4B 101-R)](https://university.business-science.io/p/ds4b-101-r-business-analysis-r) to learn Tidymodels in-depth.
+Next, we'll quickly make a Linear Regression model with `tidymodels`. Then I'll cover more specifics on what we are doing. 
 
 ### Modeling: Making and Checking the Tidymodels Linear Regression Model
 
 Here's the code. We follow 3-Steps:
 
 1. **Load Tidymodels**: This loads `parsnip` (the modeling package in the tidymodels ecosystem)
-2. **Make Linear Regression Model**: We set up a model specification using `linear_reg()`. We then select an engine with `set_engine()`. In our case we want "lm", which connects to `stats::lm()`. We then `fit()` the model. We use a formula `hwy ~ displ + class` to make highway fuel economy our target and displacement and vehicle class our predictors. This creates a trained model.
+2. **Make Linear Regression Model**: We set up a model specification using `linear_reg()`. 
+   * We then select an engine with `set_engine()`. In our case we want "lm", which connects to `stats::lm()`. 
+   * We then `fit()` the model. We use a formula `hwy ~ displ + class` to make highway fuel economy our target and displacement and vehicle class our predictors. This creates a trained model.
 3. **Run Check Model**: With a fitted model in hand, we can run `performance::check_model()`, which generates the **Model Performance Plot**.
 
 <img src="/assets/2021-07-13-easystats/01_code.jpg" style='max-width:100%;margin-bottom:5px;'>
@@ -115,7 +101,7 @@ Here's the code. We follow 3-Steps:
 <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
-### Model Performance Plot
+## 6-Model Performance Plots!
 
 Here is the output of `check_model()`, which returns a **Model Performance Plot**. This is actually 6-plots in one. We'll go through them next.
 
