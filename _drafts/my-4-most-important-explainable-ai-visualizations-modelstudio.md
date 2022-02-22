@@ -16,7 +16,7 @@ image: "/assets/modelstudio-thumb.jpg"
 image_preview: "/assets/modelstudio-thumb.jpg"
 
 ---
-The `modelStudio` package is a new R package that makes it easy to interactively explain models using state-of-the-art techniques like Shapley Values, Break Down plots, and Partial Dependence. I was **_shocked_** at how quickly I could get up and running.  In the **next 10-minutes**, we'll learn how to make my **4 most important Explainable AI plots**:
+The `modelStudio` package is a new R package that makes it easy to interactively explain machine learning models using state-of-the-art techniques like Shapley Values, Break Down plots, and Partial Dependence. I was **_shocked_** at how quickly I could get up and running!  In the **next 10-minutes**, we'll learn how to make my **4 most important Explainable AI plots**:
 
 * 1: Feature Importance
 * 2: Break Down Plot
@@ -37,3 +37,65 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 Learn how to use the `modelStudio` package in our 10-minute YouTube video tutorial.
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/XW1ZeJKVnZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# What you make in this R-Tip
+
+By the end of this tutorial, you'll make the **4 most helpful plots** for explaining machine learning models.
+
+![](/assets/modelstudio-app.jpg)
+
+<p class="text-center date">Explain your machine learning models (made with <code>modelStudio</code>)</p>
+
+# Thank You Developers.
+
+Before we move on, please recognize that `modelStudio` was developed by [Hubert Baniecki](https://github.com/hbaniecki) and [Przemyslaw Biecek](https://github.com/pbiecek), and is part of the [Dr. Why ecosystem](https://modeloriented.github.io/DrWhy/) of R packages, which are a collection of tools for Visual Exploration, Explanation and Debugging of Predictive Models. Thank you for everything you do!
+
+# `modelStudio` Tutorial
+
+Let's get up and running with `modelStudio` so we can interactively **explain a predictive model.** 
+
+## Step 1: Load the Libraries and Data
+
+First, run this code to:
+
+1. **Load Libraries:** Load `modelStudio` , `DALEX`, `tidyverse` and `tidymodels`.
+2. **Import Data:** We're using the `mpg` dataset that comes with `ggplot2`.
+
+![](/assets/modelstudio_01_libraries_data.jpg)
+
+<p class='text-center date'> <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+Our data looks like this. We want to understand how Highway Fuel Economy (miles per gallon, `hwy`) can be estimated based on the remaining 9 columns `manufacturer:class`.
+
+  
+![](/assets/modelstudio_02_data.jpg)
+
+## Step 2: Make a Predictive Model
+
+The best way to understand what affects `hwy` is to build a predictive model (and then explain it).  Let's build an `xgboost` model using the `tidymodels` ecosystem. If you've never heard of Tidymodels, it's like Scikit Learn for R (and easier to use if I may be so bold).
+
+* **Select Model Type:** We use the `boost_tree()` function to establish that we are making a Boosted Tree
+* **Set the Mode:** Using `set_mode()` we select "regression" because we are predicting a numeric value `hwy`.
+* **Set the Engine:** Next we use `set_engine()` to tell Tidymodels to use the "xgboost" library. 
+* **Fit the Model:** This performs a simple training of the model to fit each of the 9 predictors to the target `hwy`. _Note that we did not perform cross-validation, hyperparameter tuning, or any advanced concepts as they are beyond the scope of this tutorial._ 
+
+![](/assets/modelstudio_03_xgboost.jpg)
+
+<p class='text-center date'> <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+## Step 3: Make an Explainer
+
+With a predictive model in hand, we are ready to create an **explainer**. In basic terms, an explainer is a consistent and unified way to explain predictive models. The explainer can accept many different model types like:
+
+* Tidymodels
+* mlr3
+* H2O
+* Python Scikit Learn Models
+
+And it returns the explanation results from the model in a consistent format for investigation.
+
+OK, here's the code to create the explainer. 
+
+![](/assets/modelstudio_04_dalex.jpg)
+
+<p class='text-center date'> <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
