@@ -41,5 +41,5 @@ fields:
   label: image_preview
 pages:
 - _posts/2022-02-01-business-analytics-radiant.md
+- _posts/2022-02-22-my-4-most-important-explainable-ai-visualizations-modelstudio.md
 - _posts/data-scientist-vs-mlops.md
-- _posts/my-4-most-important-explainable-ai-visualizations-modelstudio.md

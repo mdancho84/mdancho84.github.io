@@ -171,4 +171,60 @@ When I switch to ID = 222, I get a totally different vehicle (VW New Beetle). Ac
 
 ![](/assets/modelstudio_07_plot2b.jpg)
 
-\##
+## Plot 3: Shapley Values
+
+The third most important plot I look at is the shapley values. 
+
+![](/assets/modelstudio_07_plot3.jpg)
+
+### What is it?
+
+Shapley values are a **local representation** of the feature importance. Instead of being global, the shapley values will change by observation telling you again the contribution. 
+
+The shapley values are related closely to the **Breakdown plot**, however you may seem slight differences in the feature contributions. The order of the shapley plot is always in the most important magnitude contribution. We also get positive and negative indicating if the feature decreases or increases the prediction. 
+
+### How do I interpret it?
+
+* The **centerline** is again the intercept (23.28 MPG)
+* The `displ` feature is the **most important** for the observation (ID = 38). The `displ` increases the prediction by 2.728 MPG. 
+* We can keep going for the rest of the features. 
+
+## Plot 4: Partial Dependence Plot
+
+The last plot is super powerful!
+
+![](/assets/modelstudio_07_plot4.jpg)
+
+### What is it?
+
+The partial dependence plot helps us examine one feature at a time. Above we are only looking at Displacement. The partial dependence is a global representation, meaning it will not change by observation, but rather helps us see how the model predicts over a range of values for the feature being examined. 
+
+### How do I interpret it?
+
+We are investigating only `displ`. As values go from low (smaller engines are 1.6 liter) to high (larger engines are 7 liter), the average prediction for highway fuel becomes lower going from 30-ish Highway MPG to under 20 Highway MPG.  
+
+# Recap
+
+We learned how to use the `modelStudio` to not only create explainable models but also interpret the plots. Great work! **But, there's a lot more to becoming a data scientist.**
+
+If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
+
+## Step 1: Watch my Free 40-Minute Webinar
+
+Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.**
+
+AND, I don't want it to take that long for you.
+
+So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) that provides a roadmap for what worked for me.
+
+Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
+
+## Step 2: Take action
+
+For my action-takers, if you are ready to take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you'd like someone to help you do this in UNDER  6-MONTHS or less....
+
+Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
+
+Get ready. The ride is wild. And the destination is AMAZING!
+
+{% include top_rtips.html %}
