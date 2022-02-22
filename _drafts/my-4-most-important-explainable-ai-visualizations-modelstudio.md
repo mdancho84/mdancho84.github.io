@@ -18,8 +18,8 @@ image_preview: "/assets/049-modelstudio-thumb.jpg"
 ---
 The `modelStudio` package is a new R package that makes it easy to interactively explain models using state-of-the-art techniques like Shapley Values, Break Down plots, and Partial Dependence. I was **_shocked_** at how quickly I could get up and running.  In the **next 10-minutes**, we'll learn how to make my **4 most important Explainable AI plots**:
 
-* Plot 1: Feature Importance
-* Plot 2: Break Down Plot
-* Plot 3: Shapley Values
-* Plot 4: Partial Dependence
-* **BONUS:** I'll not only show you how to make the plots, but I'll explain exactly **how to read them to generate business insights!**
+* 1: Feature Importance
+* 2: Break Down Plot
+* 3: Shapley Values
+* 4: Partial Dependence
+* **BONUS:** I'll not only show you how to make the plots, but I'll explain exactly **how to read each plot to generate business insights!**
