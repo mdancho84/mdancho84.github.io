@@ -22,7 +22,7 @@ The `modelStudio` package is a new R package that makes it easy to interactively
 * 2: Break Down Plot
 * 3: Shapley Values
 * 4: Partial Dependence
-* **BONUS:** I'll not only show you how to make the plots in under 10-minutes, but I'll explain exactly **how to discover insights from each plot!**
+* **BONUS: I'll _not only_ show you how to make the plots in under 10-minutes, but I'll explain exactly** **how to discover insights from each plot!**
 
 ## R-Tips Weekly
 
@@ -112,11 +112,11 @@ This opens up the `modelStudio` app - **an interactive tool for exploring predic
 
 # BONUS: My 4 Most Important Explainable AI Plots
 
-OK, it would be pretty **_silly_** to end the tutorial here. 
+OK, it would be **_pretty_** **_silly_** to end the tutorial here. 
 
 Well... I mean, you can pull up the tool. 
 
-BUT, you can't use it (yet). 
+BUT, you can't use it to generate anything meaningful (yet). 
 
 The good news is I'm going to keep going with a **MEGA-BONUS**. 
 
@@ -128,14 +128,35 @@ Alright, let's go.
 
 ![](/assets/modelstudio_07_plot1.jpg)
 
+### What is it?
+
 The feature importance plot is a **global representation**. This means that it looks all of your observations and tells you which features (columns that help you predict) have in-general the most predictive value for your model. 
 
-So here's how I'd review this plot:
+### How do I interpret it?
 
-1. `displ` - The Engine Displacement (Volume) has the most predictive value in general for this dataset. It's an important feature. In fact, it's 5X more important than the `model` feature. And 100X more important than `cyl`. So I should DEFINITELY investigate it more. 
-2. `drv` is the second most important feature. Definitely want to review the Drive Train too. 
-3. Other features - The Feature importance plot shows the the other features have some importance, but the 80/20 rule tells me to focus on `displ` and `drv`. 
+So here's how I read this plot:
+
+1. `displ` - The Engine Displacement (Volume) has the **most predictive value** in general for this dataset. It's an important feature. In fact, it's 5X more important than the `model` feature. And 100X more important than `cyl`. So I should DEFINITELY investigate it more. 
+2. `drv` is the **second most** important feature. Definitely want to review the Drive Train too. 
+3. Other features - The Feature importance plot shows the the other features have some importance, but the **80/20 rule** tells me to focus on `displ` and `drv`. 
 
 ## Plot 2: Break Down Plot
 
 ![](/assets/modelstudio_07_plot2.jpg)
+
+Next, an incredibly valuable plot is the **Break Down Plot**. The Breakdown plot is a **local representation** that explains one specific observation. The plot then shows a intercept (starting value) and the positive or negative contribution that each feature has to developing the prediction. 
+
+So here's how I read this breakdown plot:
+
+1. For Observation ID 70 (Dodge Caravan), that has an actual `hwy` of 12 Miles Per Gallon (MPG)
+2. The starting point for all observations is 23.281 MPG. 
+3. The `displ = 2.4` which boosts the model's prediction by +3.165 MPG. 
+4. The `drv = 'f'` which increases the model's prediction another +1.398 MPG
+5. The `manufacturer = 'dodge'` which decreases the MPG prediction by -1.973
+6. And we keep going until we reach the prediction. Notice that the first features tend to be the most important because they move the prediction the most.
+
+**Important Note: Global Versus Local Explanations**
+
+I can select a different observation, and we get a completely different Break Down plot. This is what happens with **local explainers**. _They change telling us different insights by each observation._ When I switch to ID = 222, I get a totally different vehicle (VW New Beetle). Accordingly the Local Break Down Plot changes (but the global Feature Importance Plot does not!)
+
+![](/assets/modelstudio_07_plot2b.jpg)
