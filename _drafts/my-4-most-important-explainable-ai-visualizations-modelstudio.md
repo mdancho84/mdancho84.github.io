@@ -99,3 +99,43 @@ OK, here's the code to create the explainer.
 ![](/assets/modelstudio_04_dalex.jpg)
 
 <p class='text-center date'> <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+## Step 4: Run `modelStudio`
+
+The last step is to run `modelStudio`. Now you are ready to explore your predictive model. 
+
+![](/assets/modelstudio_05_modelstudio.jpg)
+
+This opens up the `modelStudio` app - **an interactive tool for exploring predictive models!**
+
+![](/assets/modelstudio_06_modelstudio_app.jpg)
+
+# BONUS: My 4 Most Important Explainable AI Plots
+
+OK, it would be pretty **_silly_** to end the tutorial here. 
+
+Well... I mean, you can pull up the tool. 
+
+BUT, you can't use it (yet). 
+
+The good news is I'm going to keep going with a **MEGA-BONUS**. 
+
+I'm going to show you **which 4 plots I use the most**, and **explain them** in detail so you can use them (and understand them) to generate **MASSIVE INSIGHTS** for your business. 
+
+Alright, let's go. 
+
+## Plot 1: Feature Importance
+
+![](/assets/modelstudio_07_plot1.jpg)
+
+The feature importance plot is a **global representation**. This means that it looks all of your observations and tells you which features (columns that help you predict) have in-general the most predictive value for your model. 
+
+So here's how I'd review this plot:
+
+1. `displ` - The Engine Displacement (Volume) has the most predictive value in general for this dataset. It's an important feature. In fact, it's 5X more important than the `model` feature. And 100X more important than `cyl`. So I should DEFINITELY investigate it more. 
+2. `drv` is the second most important feature. Definitely want to review the Drive Train too. 
+3. Other features - The Feature importance plot shows the the other features have some importance, but the 80/20 rule tells me to focus on `displ` and `drv`. 
+
+## Plot 2: Break Down Plot
+
+![](/assets/modelstudio_07_plot2.jpg)
