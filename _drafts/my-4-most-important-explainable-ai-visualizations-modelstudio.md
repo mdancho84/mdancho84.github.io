@@ -142,21 +142,33 @@ So here's how I read this plot:
 
 ## Plot 2: Break Down Plot
 
+Next, an incredibly valuable plot is the **Break Down Plot**. 
+
 ![](/assets/modelstudio_07_plot2.jpg)
 
-Next, an incredibly valuable plot is the **Break Down Plot**. The Breakdown plot is a **local representation** that explains one specific observation. The plot then shows a intercept (starting value) and the positive or negative contribution that each feature has to developing the prediction. 
+### What is it?
+
+The Breakdown plot is a **local representation** that explains one specific observation. The plot then shows a intercept (starting value) and the positive or negative contribution that each feature has to developing the prediction. 
+
+### How do I interpret it?
 
 So here's how I read this breakdown plot:
 
 1. For Observation ID 70 (Dodge Caravan), that has an actual `hwy` of 12 Miles Per Gallon (MPG)
-2. The starting point for all observations is 23.281 MPG. 
-3. The `displ = 2.4` which boosts the model's prediction by +3.165 MPG. 
-4. The `drv = 'f'` which increases the model's prediction another +1.398 MPG
-5. The `manufacturer = 'dodge'` which decreases the MPG prediction by -1.973
-6. And we keep going until we reach the prediction. Notice that the first features tend to be the most important because they move the prediction the most.
+2. The **starting point (intercept)** for all observations is 23.281 MPG. 
+3. The `displ = 2.4` which **boosts** the model's prediction by +3.165 MPG. 
+4. The `drv = 'f'` which **increases** the model's prediction another +1.398 MPG
+5. The `manufacturer = 'dodge'` which **decreases** the MPG prediction by -1.973
+6. And we **keep going** until we reach the prediction. Notice that the first features tend to be the most important because they move the prediction the most.
+
+### Careful: Global vs Local Explanations
 
 **Important Note: Global Versus Local Explanations**
 
-I can select a different observation, and we get a completely different Break Down plot. This is what happens with **local explainers**. _They change telling us different insights by each observation._ When I switch to ID = 222, I get a totally different vehicle (VW New Beetle). Accordingly the Local Break Down Plot changes (but the global Feature Importance Plot does not!)
+I can select a different observation, and we get a completely different Break Down plot. This is what happens with **local explainers**. They _change telling us different insights by each observation._ 
+
+When I switch to ID = 222, I get a totally different vehicle (VW New Beetle). Accordingly the Local Break Down Plot changes (but the global Feature Importance Plot does not!)
 
 ![](/assets/modelstudio_07_plot2b.jpg)
+
+\##
