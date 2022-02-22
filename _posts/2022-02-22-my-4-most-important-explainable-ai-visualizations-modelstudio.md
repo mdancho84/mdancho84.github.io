@@ -16,7 +16,11 @@ image: "/assets/modelstudio-thumb.jpg"
 image_preview: "/assets/modelstudio-thumb.jpg"
 
 ---
-The `modelStudio` package is a new R package that makes it easy to interactively explain machine learning models using state-of-the-art techniques like Shapley Values, Break Down plots, and Partial Dependence. I was **_shocked_** at how quickly I could get up and running!  In the **next 10-minutes**, we'll learn how to make my **4 most important Explainable AI plots**:
+**Machine learning is great, until you have to explain it.** Thank god for `modelStudio`.
+
+`modelStudio` is a new R package that makes it easy to interactively explain machine learning models using state-of-the-art techniques like Shapley Values, Break Down plots, and Partial Dependence. I was **_shocked_** at how quickly I could get up and running!  
+
+In the **next 10-minutes**, we'll learn how to make my **4 most important Explainable AI plots**:
 
 * 1: Feature Importance
 * 2: Break Down Plot
