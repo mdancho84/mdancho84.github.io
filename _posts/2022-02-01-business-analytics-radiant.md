@@ -20,11 +20,11 @@ I'm super impressed by the `radiant` R package. With no prior experience with ra
 
 ## R-Tips Weekly
 
-This article is part of R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
 
 Here are the links to get set up. 👇
 
-* [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+* [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 * [Watch the YouTube Tutorial](https://youtu.be/n27qWulZl1c)
 
 ## Video Tutorial

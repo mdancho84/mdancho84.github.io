@@ -10,14 +10,14 @@ image: "/assets/2021-04-13-dtplyr-datatable-dplyr-backend/cover_image.JPG"
 image_preview: "/assets/2021-04-13-dtplyr-datatable-dplyr-backend/cover_image.JPG"
 ---
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li>
     <li><a href="https://youtu.be/r0ricexnF6A">YouTube Tutorial</a></li> 
 </ul>
 
@@ -135,7 +135,7 @@ leveraging data.table with dtplyr then quickly visualize your summaries with ggp
 
 <p>You should be proud.</p>
 
-<p>This article is part of <strong>R-Tips Weekly</strong>, a weekly video tutorial that shows you step-by-step how to do common R coding tasks. <a href="https://mailchi.mp/business-science/r-tips-newsletter">Join today.</a></p> 
+<p>This article is part of <strong>R-Tips Weekly</strong>, a weekly video tutorial that shows you step-by-step how to do common R coding tasks. <a href="https://learn.business-science.io/r-tips-newsletter">Join today.</a></p> 
 
 
 <!-- 3. End your code -->

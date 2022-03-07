@@ -10,14 +10,14 @@ image: /assets/2021-02-16-power-score-vs-correlation-funnel/power_score_cover.pn
 image_preview: /assets/2021-02-16-power-score-vs-correlation-funnel/power_score_preview.png
 ---
 
-This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
 
 Here are the links to get set up. 👇
 
-- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 - [YouTube Tutorial](https://youtu.be/D5cGYBop8zw)
 
 
@@ -179,7 +179,7 @@ determine which one reigns supreme.
 <h3>SETUP R-TIPS WEEKLY PROJECT</h3>
 
 <ol>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li>
     <li>Check out the <a href="https://youtu.be/F7aYV0RPyD0">R-Tips Setup Video</a></li>
 </ol>
 

@@ -12,13 +12,13 @@ image_preview: /assets/2020-11-10-tidyverse-pivot/tidyverse_pivot_preview.jpg
 
 
 
-This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
 Learn how to use `pivot_wider()` and `pivot_longer()` to format data like a data wizard:
 
-- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 - [YouTube Tutorial](https://youtu.be/YWByrQIx-uQ)
 
 <br>
@@ -96,7 +96,7 @@ What happens after you learn R for Business from Matt 👇
 
 ### SETUP R-TIPS WEEKLY PROJECT
 
-1. [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+1. [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 
 2. Check out the [R-Tips Setup Video](https://youtu.be/F7aYV0RPyD0).
 

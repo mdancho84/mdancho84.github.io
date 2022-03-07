@@ -14,12 +14,12 @@ __A Lollipop Plot__ shows the relationship between categories using a dot and a 
 
 ## R-Tips Weekly
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter" target='_blank'>Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter" target='_blank'>Get the Code</a></li>
     <li><a href="https://youtu.be/OhTEJuWyNyk" target='_blank'>YouTube Tutorial</a></li> 
 </ul>
 
@@ -82,7 +82,7 @@ First, run this code to:
 
 <img src="/assets/2021-08-12-ggalt-dumbbell-plots/00_libraries.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 Here's the `mpg` dataset. We'll focus on "hwy" (fuel economy in Miles Per Gallon) and "class" (the standardized vehicle category the vehicle model falls into).
@@ -107,7 +107,7 @@ To make a Lollipop Plot with `geom_lollipop()`, we need to first get the data in
 
 <img src="/assets/2021-08-24-lollipop/01_data_wrangling_dplyr.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 
@@ -126,7 +126,7 @@ We start by making a basic lollipop plot with `geom_lollipop()`. The trick is to
 
 <img src="/assets/2021-08-24-lollipop/02_ggplot_lollipop.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 This produces our base plot, which is a lollipop plot of highway fuel economy for each vehicle class.
@@ -149,7 +149,7 @@ Refer to the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatshe
 
 <img src="/assets/2021-08-24-lollipop/03_adjust_theme.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 And here's the final Lollipop Plot that tells the story of how highway fuel economy varies with the vehicle class. Compact, Subcompact, and Midsize are the most fuel efficient while SUV and Pickup are the least. 

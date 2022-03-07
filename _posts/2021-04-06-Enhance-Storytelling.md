@@ -12,7 +12,7 @@ image_preview: /assets/2021-04-06-Enhance-Storytelling/cover_image.png
 
 
 
-This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
@@ -21,7 +21,7 @@ Slide Decks are so important for storytelling in business. We can use `Rmarkdown
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li>
     <li><a href="https://youtu.be/5ZeA-E-XIE0">YouTube Tutorial</a></li>
 </ul>
 

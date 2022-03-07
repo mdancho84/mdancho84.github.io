@@ -12,7 +12,7 @@ image_preview: /assets/2021-03-23-ggplot-code/preview.jpg
 
 
 
-This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
@@ -22,7 +22,7 @@ Tableau-users rejoice! The `esquisse` R package is here to make you life much ea
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li>
     <li><a href="https://www.youtube.com/watch?v=6LV_p3Zi-LM">YouTube Tutorial</a></li>
 </ul>
 

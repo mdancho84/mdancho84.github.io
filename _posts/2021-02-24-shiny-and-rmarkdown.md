@@ -10,7 +10,7 @@ image: /assets/2021-02-24-shiny-and-rmarkdown/cover.jpg
 image_preview: /assets/2021-02-24-shiny-and-rmarkdown/preview.jpg
 ---
 
-This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
@@ -18,7 +18,7 @@ This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-
 Here are the links to get set up. 👇
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li>
     <li><a href="https://youtu.be/qGyHZG6ZqwA">YouTube Tutorial</a></li>
 </ul>
 
@@ -32,7 +32,7 @@ Here are the links to get set up. 👇
 
 <h1>Powering Rmarkdown Reports with Shiny</h1>
 
-In this weekly <a href="https://mailchi.mp/business-science/r-tips-newsletter"> R-Tip</a>, we're making a "<strong>Customer Churn Report</strong>" that uses both `Rmarkdown` (R Report Generator) and `Shiny` (Interactive Web Framework) to SPICE UP our business reports. 
+In this weekly <a href="https://learn.business-science.io/r-tips-newsletter"> R-Tip</a>, we're making a "<strong>Customer Churn Report</strong>" that uses both `Rmarkdown` (R Report Generator) and `Shiny` (Interactive Web Framework) to SPICE UP our business reports. 
 
 <img src="/assets/2021-02-24-shiny-and-rmarkdown/shiny_markdown.gif" style='width:100%;'>
 
@@ -65,7 +65,7 @@ Shiny can be added to Rmarkdown's HTML report. We just simply need to add `runti
 
 <img src="/assets/2021-02-24-shiny-and-rmarkdown/add_shiny.jpg" style='width:100%;'>
 
-<a href="https://mailchi.mp/business-science/r-tips-newsletter"> Get the Full GitHubCode</a>
+<a href="https://learn.business-science.io/r-tips-newsletter"> Get the Full GitHubCode</a>
 
 When we click "Run Document", <strong>a shiny server will run the document</strong> instead of a static HTML page is generated. This has a BIG ADVANTAGE - We can use Shiny in our Report. 
 
@@ -81,7 +81,7 @@ Here's a snapshot of the code that powers this section of the report. We can see
 
 <img src="/assets/2021-02-24-shiny-and-rmarkdown/shiny_slider_widget.jpg" style='width:100%;'>
 
-<a href="https://mailchi.mp/business-science/r-tips-newsletter"> Get the Full GitHub Code</a>
+<a href="https://learn.business-science.io/r-tips-newsletter"> Get the Full GitHub Code</a>
 
 
 <br>

@@ -12,14 +12,14 @@ image_preview: "/assets/2021-06-29-modeltime/modeltime_time_series.jpg"
 
 > A gentle introduction to our forecasting package, `modeltime`. Modeltime extends the Tidymodels ecosystem for time series forecasting. Learn how to forecast with ARIMA, Prophet, and linear regression time series models in this short video tutorial.
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter" target="_blank">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter" target="_blank">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter" target="_blank">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter" target="_blank">Get the Code</a></li>
     <li><a href="https://youtu.be/-bCelif-ENY" target="_blank">YouTube Tutorial</a></li> 
 </ul>
 
@@ -40,7 +40,7 @@ Learn how to use `modeltime` in our 10-minute YouTube video tutorial.
 
 # Get the Code
 
-The video tutorial comes with [__100-lines of code__](https://mailchi.mp/business-science/r-tips-newsletter) that takes you step-by-step through a introductory forecasting with:
+The video tutorial comes with [__100-lines of code__](https://learn.business-science.io/r-tips-newsletter) that takes you step-by-step through a introductory forecasting with:
 
 - __Auto ARIMA__: An automatic forecasting algorithm that ships with `modeltime`.
 
@@ -48,11 +48,11 @@ The video tutorial comes with [__100-lines of code__](https://mailchi.mp/busines
 
 - __Linear Regression (Penalized)__: A machine learning approach to time series forecasting that is made available with `tidymodels`. 
 
-<a href="https://mailchi.mp/business-science/r-tips-newsletter" target="_blank"> 
+<a href="https://learn.business-science.io/r-tips-newsletter" target="_blank"> 
   <img src="/assets/2021-06-29-modeltime/modeltime-code-torn.jpg"  style='max-width:100%;margin:auto;display:box;'>
 </a>
 <figcaption class="text-center">
-  <a href="https://mailchi.mp/business-science/r-tips-newsletter" target="_blank">(Get the Code)</a>
+  <a href="https://learn.business-science.io/r-tips-newsletter" target="_blank">(Get the Code)</a>
 </figcaption>
 
 <br>

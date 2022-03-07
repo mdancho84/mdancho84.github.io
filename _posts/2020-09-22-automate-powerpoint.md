@@ -11,14 +11,14 @@ image_preview: /assets/2020-09-22-automate-powerpoint/automate-powerpoint-previe
 ---
 
 
-This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
 
 
 Your boss lives on PowerPoint decks. Do you need to create a Slide Deck every week? 
 
 Let's learn how to automate PowerPoint with R, using `officer` and `tidyverse`. 
 
-- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 - [YouTube Tutorial](https://youtu.be/JJ5Ltw4PDn4)
 
 <figure class="text-center">
@@ -74,7 +74,7 @@ You've just **automated your Monday Morning PowerPoint in R**. BOOM! 💥💥�
 
 ### SETUP R-TIPS WEEKLY PROJECT
 
-1. [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+1. [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 
 2. Check out the [R-Tips Setup Video](https://youtu.be/F7aYV0RPyD0).
 

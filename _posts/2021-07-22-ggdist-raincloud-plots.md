@@ -14,12 +14,12 @@ The `ggdist` package is a `ggplot2` extension that is made for visualizing distr
 
 ## R-Tips Weekly
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li>
     <li><a href="https://youtu.be/nz2gHnaqX2w">YouTube Tutorial</a></li> 
 </ul>
 
@@ -82,7 +82,7 @@ First, run this code to:
 
 <img src="/assets/2021-07-22-ggdist-raincloud-plots/00_libraries.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 
@@ -102,7 +102,7 @@ The first step is to make the `ggplot2` canvas. We:
 
 <img src="/assets/2021-07-22-ggdist-raincloud-plots/01_ggplot_canvas.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 This produces a blank plot, which is the first layer. You can see that the x-axis is labeled "factor(cyl)" and the y-axis is "hwy" indicating the data has been mapped to the visualization.
@@ -115,7 +115,7 @@ Next, we add our first geometry layer using `ggdist::stat_halfeye()`. This produ
 
 <img src="/assets/2021-07-22-ggdist-raincloud-plots/02_stat_halfeye.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 And here's the output. We can see the half-denisty distributions for fuel economy (hwy) by engine size (cyl).
@@ -128,7 +128,7 @@ Next, add the second geometry layer using `ggplot2::geom_boxplot()`. This produc
 
 <img src="/assets/2021-07-22-ggdist-raincloud-plots/03_boxplot.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 And here's the output. We now have a boxplot and half-density. We can see how the distributions vary compared to the median and inner-quartile range. 
@@ -141,7 +141,7 @@ Next, add the third geometry layer using `ggdist::stat_dots()`. This produces a 
 
 <img src="/assets/2021-07-22-ggdist-raincloud-plots/04_dotplot.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 And here's the output. We now have the three main geometries completed.  
@@ -157,10 +157,10 @@ We can clean up our plot with a professional-looking theme using `tidyquant::the
 
 <img src="/assets/2021-07-22-ggdist-raincloud-plots/05_adjust_theme.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
-We've just finalized our plot. We can see clearly that the distribution of the 6-cylinder is bi-modal, something you can't tell with an ordinary boxplot. We should investigate why there are so many dots in 6-cylinder with low highway-fuel economy. We'll save that for another [R-Tip](https://mailchi.mp/business-science/r-tips-newsletter).   
+We've just finalized our plot. We can see clearly that the distribution of the 6-cylinder is bi-modal, something you can't tell with an ordinary boxplot. We should investigate why there are so many dots in 6-cylinder with low highway-fuel economy. We'll save that for another [R-Tip](https://learn.business-science.io/r-tips-newsletter).   
 
 ![Boxplot](/assets/2021-07-22-ggdist-raincloud-plots/05_plot_output.jpg)
 

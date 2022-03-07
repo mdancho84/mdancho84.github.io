@@ -30,11 +30,11 @@ In the **next 10-minutes**, we'll learn how to make my **4 most important Explai
 
 ## R-Tips Weekly
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
-<ul> <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/Bi8sHIo3s1Y">YouTube Tutorial</a></li> </ul>
+<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/Bi8sHIo3s1Y">YouTube Tutorial</a></li> </ul>
 
 # Video Tutorial
 
@@ -67,7 +67,7 @@ First, run this code to:
 
 ![](/assets/modelstudio_01_libraries_data.jpg)
 
-<p class='text-center date'> <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 Our data looks like this. We want to understand how Highway Fuel Economy (miles per gallon, `hwy`) can be estimated based on the remaining 9 columns `manufacturer:class`.
 
@@ -85,7 +85,7 @@ The best way to understand what affects `hwy` is to build a predictive model (an
 
 ![](/assets/modelstudio_03_xgboost.jpg)
 
-<p class='text-center date'> <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 ## Step 3: Make an Explainer
 
@@ -102,7 +102,7 @@ OK, here's the code to create the explainer.
 
 ![](/assets/modelstudio_04_dalex.jpg)
 
-<p class='text-center date'> <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 ## Step 4: Run `modelStudio`
 

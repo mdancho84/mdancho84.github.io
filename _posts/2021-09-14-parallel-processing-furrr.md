@@ -25,12 +25,12 @@ I'm super excited to introduce `furrr`, an R package that makes it **painless** 
 
 ## R-Tips Weekly
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-<li><a href="https://mailchi.mp/business-science/r-tips-newsletter" target='_blank'>Get the Code</a></li>
+<li><a href="https://learn.business-science.io/r-tips-newsletter" target='_blank'>Get the Code</a></li>
 <li><a href="https://youtu.be/yoX1-xzsGUc" target='_blank'>YouTube Tutorial</a></li>
 </ul>
 
@@ -80,7 +80,7 @@ Onto the tutorial.
 
 <img src="/assets/2021-09-14-furrr/00_libraries.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'>
-<a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+<a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Get the Data
@@ -92,7 +92,7 @@ We'll use the `walmart_sales_weekly` dataset from `timetk`. We will do a bit of 
 
 <img src="/assets/2021-09-14-furrr/00_data_code.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'>
-<a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+<a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 The output is a "tidy" dataset in long format where there are:
@@ -102,7 +102,7 @@ The output is a "tidy" dataset in long format where there are:
 
 <img src="/assets/2021-09-14-furrr/00_data_output.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'>
-<a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+<a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Purrr: Nest + Mutate + Map
@@ -117,7 +117,7 @@ Next, we'll use a common sequence of operations to iteratively apply an "expensi
 
 <img src="/assets/2021-09-14-furrr/01_purrr_nest_map.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'>
-<a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+<a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 We'll first perform our "expensive modeling" with `purrr`, which runs each operation sequentially:
@@ -132,7 +132,7 @@ The output is our nested data now with a column called "model" that contains the
 
 <img src="/assets/2021-09-14-furrr/01_purrr_nested_models.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'>
-<a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+<a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 Purrr operations can be expensive. In our case the operation **took 7.14 seconds**, mainly because we told the "Expensive Function" to sleep for 1-second before making the model.
@@ -150,7 +150,7 @@ The `furrr` code is the same as before using `purrr` with two important changes:
 
 <img src="/assets/2021-09-14-furrr/02_furrr_future_map.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'>
-<a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+<a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ### Furrr Nested Models and Timing
@@ -159,7 +159,7 @@ The output is the same nested data structure as previously. But we got a 2.6X Sp
 
 <img src="/assets/2021-09-14-furrr/02_furrr_nested_models.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'>
-<a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+<a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 # Summary

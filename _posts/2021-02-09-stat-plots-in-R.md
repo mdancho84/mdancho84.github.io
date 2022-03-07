@@ -10,14 +10,14 @@ image: /assets/2021-02-09-stat-plots-in-R/stats_plots_cover.jpg
 image_preview: /assets/2021-02-09-stat-plots-in-R/stats_plots_preview.jpg
 ---
 
-This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
 
 Here are the links to get set up. 👇
 
-- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 - [YouTube Tutorial](https://youtu.be/8Em1bCFBMWg)
 
 
@@ -108,7 +108,7 @@ The <code>ggbetweenstats()</code> function makes it super easy to compare groups
 
 ### SETUP R-TIPS WEEKLY PROJECT
 
-1. [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+1. [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 
 2. Check out the [R-Tips Setup Video](https://youtu.be/F7aYV0RPyD0).
 

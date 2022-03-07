@@ -14,12 +14,12 @@ image_preview: "/assets/2021-08-12-ggalt-dumbbell-plots/000-ggalt-dumbbell-thumb
 
 ## R-Tips Weekly
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter" target='_blank'>Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter" target='_blank'>Get the Code</a></li>
     <li><a href="https://youtu.be/USNOB-5ou8k" target='_blank'>YouTube Tutorial</a></li> 
 </ul>
 
@@ -82,7 +82,7 @@ First, run this code to:
 
 <img src="/assets/2021-08-12-ggalt-dumbbell-plots/00_libraries.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 Here's the `mpg` dataset. We'll focus on "hwy" (fuel economy in Miles Per Gallon), "year" (the vehicle model year), and "model" (the manufacturer's vehicle description).
@@ -103,7 +103,7 @@ To make a Dumbbell Plot with `geom_dumbbell()`, we need to first get the data in
 
 <img src="/assets/2021-08-12-ggalt-dumbbell-plots/01_data_wrangling_dplyr.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 
@@ -122,7 +122,7 @@ We start by making a basic dumbbell plot with `geom_dumbbell()`. The trick is to
 
 <img src="/assets/2021-08-12-ggalt-dumbbell-plots/02_ggplot_dumbell.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 This produces our base plot, which is a dumbbell plot of highway fuel economy for each vehicle model.
@@ -139,7 +139,7 @@ It's a good idea to adjust our plot `theme()`, especially if we are going to pre
 
 <img src="/assets/2021-08-12-ggalt-dumbbell-plots/03_adjust_theme.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 And here's the output. We have our final plot that tells the story of how highway fuel economy varies with the vehicle's number of cylinders and engine displacement volume. 

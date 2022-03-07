@@ -12,13 +12,13 @@ image_preview: /assets/2020-11-17-tidyverse-functions-group-split/group_split_pr
 
 
 
-This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
 Group Split and Map are SECRET TOOLS in my data science arsenal.  Combining them will help us scale up to 15 linear regression summaries to assess relationship strength & combine in a GT table. Here are the links to get set up 👇
 
-- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 - [YouTube Tutorial](https://youtu.be/wj_AAs4VC8M)
 
 <br>
@@ -107,7 +107,7 @@ Here's how to master R programming & save the world Harry Potter Style.  👇
 
 ### SETUP R-TIPS WEEKLY PROJECT
 
-1. [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+1. [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 
 2. Check out the [R-Tips Setup Video](https://youtu.be/F7aYV0RPyD0).
 

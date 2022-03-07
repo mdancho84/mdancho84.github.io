@@ -12,7 +12,7 @@ image_preview: /assets/2021-01-19-handle-missing-data/missing_data_preview.jpg
 
 
 
-This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
@@ -20,7 +20,7 @@ Missing values used to drive me nuts... until I learned how to impute them! In 1
 
 Here are the links to get set up. 👇
 
-- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 - [YouTube Tutorial](https://youtu.be/gY12FJryF7k)
 
 
@@ -142,7 +142,7 @@ What happens after you learn R for Business.
 
 ### SETUP R-TIPS WEEKLY PROJECT
 
-1. [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+1. [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 
 2. Check out the [R-Tips Setup Video](https://youtu.be/F7aYV0RPyD0).
 

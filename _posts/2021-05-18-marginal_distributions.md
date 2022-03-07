@@ -10,14 +10,14 @@ image: "/assets/2021-05-18-marginal_distributions/cover_image.JPG"
 image_preview: "/assets/2021-05-18-marginal_distributions/cover_image.JPG"
 ---
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter?rfsn=4810182.eff115&subid=koivs2aicj015e9h0ntyp">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter?rfsn=4810182.eff115&subid=koivs2aicj015e9h0ntyp">Get the Code</a></li>
     <li><a href="https://youtu.be/uojdfPZZBUE">YouTube Tutorial</a></li> 
 </ul>
 
@@ -120,7 +120,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 
 <figure class="text-center">
     <img src="/assets/2021-05-18-marginal_distributions/code.jpg" style='max-width:100%;'>
-  <figcaption> <a href="https://mailchi.mp/business-science/r-tips-newsletter"> Get the Code </a></figcaption>
+  <figcaption> <a href="https://learn.business-science.io/r-tips-newsletter"> Get the Code </a></figcaption>
 </figure>
 
 <h3>Loess Regression w/ Marginal Density</h3>
@@ -156,7 +156,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 
 <figure class="text-center">
     <img src="/assets/2021-05-18-marginal_distributions/code2.jpg" style='max-width:100%;'>
-  <figcaption><a href="https://mailchi.mp/business-science/r-tips-newsletter"> Get the Code</a></figcaption>
+  <figcaption><a href="https://learn.business-science.io/r-tips-newsletter"> Get the Code</a></figcaption>
 </figure>
 
 <h3>Faceted Side Panels? No problem.</h3>

@@ -12,7 +12,7 @@ image_preview: /assets/2021-03-02_Use_DataExplorer_for_EDA/dataexplorer_preview.
 
 
 
-This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
@@ -22,7 +22,7 @@ Did you know most **Data Scientists spend 80% of their time just trying to under
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li>
     <li><a href="https://youtu.be/ssVEoj54rx4">YouTube Tutorial</a></li>
 </ul>
 
@@ -42,7 +42,7 @@ Did you know most **Data Scientists spend 80% of their time just trying to under
 
 <h1>Super-FAST Exploratory Data Analysis (EDA) in R</h1>
 
-<p>In this weekly <a href="https://mailchi.mp/business-science/r-tips-newsletter">R-Tip</a>, we're making an <strong>"EDA Report", created with the DataExplorer R package</strong>. The DataExplorer Package is an excellent package for <strong>Exploratory Data Analysis</strong>. In fact, it's one of my top 3 EDA Packages.</p>
+<p>In this weekly <a href="https://learn.business-science.io/r-tips-newsletter">R-Tip</a>, we're making an <strong>"EDA Report", created with the DataExplorer R package</strong>. The DataExplorer Package is an excellent package for <strong>Exploratory Data Analysis</strong>. In fact, it's one of my top 3 EDA Packages.</p>
 
 <p><strong>PRO TIP</strong>: I've added EDA on Page 3 of <a href="https://www.business-science.io/r-cheatsheet">my Ultimate R Cheatsheet</a>. 👇</p>
 

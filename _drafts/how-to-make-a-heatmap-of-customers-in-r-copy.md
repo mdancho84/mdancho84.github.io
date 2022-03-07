@@ -22,12 +22,12 @@ The `ggplot2` package is an essential tool in every data scientists toolkit. Tod
 
 ## R-Tips Weekly
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter" target='_blank'>Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter" target='_blank'>Get the Code</a></li>
     <li><a href="https://youtu.be/TP8vjWiIpgI" target='_blank'>YouTube Tutorial</a></li> 
 </ul>
 

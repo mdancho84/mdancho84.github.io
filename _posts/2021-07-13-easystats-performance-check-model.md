@@ -27,12 +27,12 @@ This article was last updated on: February 11th, 2022.
 
 ## R-Tips Weekly
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-<li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
+<li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li>
 <li><a href="https://youtu.be/Bi8sHIo3s1Y">YouTube Tutorial</a></li>
 </ul>
 
@@ -67,7 +67,7 @@ First, run this code to:
 
 <img src="/assets/2021-07-13-easystats/00_libraries.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'>
-<a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+<a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 Load the data. We're using the `mpg` dataset.
@@ -86,7 +86,7 @@ Next, we'll quickly make a Linear Regression model with `tidymodels`. Then I'll 
 
 <img src="/assets/2021-07-13-easystats/01_code.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'>
-<a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+<a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Step 3: Check out the 6-Model Performance Plots!

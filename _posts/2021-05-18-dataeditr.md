@@ -10,14 +10,14 @@ image: "/assets/2021-05-18-dataeditr/dataeditr_thumb.jpg"
 image_preview: "/assets/2021-05-18-dataeditr/dataeditr_thumb.jpg"
 ---
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter?rfsn=4810182.eff115&subid=koivs2aicj015e9h0ntyp">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter?rfsn=4810182.eff115&subid=koivs2aicj015e9h0ntyp">Get the Code</a></li>
     <li><a href="https://youtu.be/_lEwfZbyu48">YouTube Tutorial</a></li> 
 </ul>
 
@@ -90,7 +90,7 @@ It's super-simple. Just run this code to:
 
 <img src="/assets/2021-05-18-dataeditr/data_editing_process.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 This launches the __Data Editor.__
@@ -131,7 +131,7 @@ Say that you wanted to make a visualization that shows the differences in vehicl
 
 <img src="/assets/2021-05-18-dataeditr/code_dplyr_ggplot2.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Visualization and Insights

@@ -11,12 +11,12 @@ image_preview: /assets/2020-10-07-automate-excel/automate-excel-preview.png
 ---
 
 
-This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
 
 
 Let's learn how to **automate Excel with R**, using `openxlsx` and `tidyquant`. 
 
-- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 - [YouTube Tutorial](https://youtu.be/EMSkZOF-ZG8)
 
 <br>
@@ -85,7 +85,7 @@ It's magic! &#128165; &#128165; &#128165;
 
 ### SETUP R-TIPS WEEKLY PROJECT
 
-1. Sign Up to Get the R-Tips Weekly (You'll get email notifications of NEW R-Tips as they are released): https://mailchi.mp/business-science/r-tips-newsletter
+1. Sign Up to Get the R-Tips Weekly (You'll get email notifications of NEW R-Tips as they are released): https://learn.business-science.io/r-tips-newsletter
 
 2. Set Up the GitHub Repo: https://github.com/business-science/free_r_tips
 

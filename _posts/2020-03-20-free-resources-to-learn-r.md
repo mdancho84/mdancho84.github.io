@@ -55,17 +55,17 @@ I will offer more openings as well, but I encourage you to join with this cohort
 ## 3. NEW R-Tips Newsletter
 
 <div class="pull-right hidden-xs" style="width:40%; margin-left:20px;">
-  <a href="https://mailchi.mp/business-science/r-tips-newsletter" target="_blank">
+  <a href="https://learn.business-science.io/r-tips-newsletter" target="_blank">
   <img class="img-responsive" src="/assets/new_products/r_tips_weekly.jpg"> 
   </a>
 </div>
 
-As of this week, I have a brand new Newsletter called [___R-Tips Weekly___](https://mailchi.mp/business-science/r-tips-newsletter). With the speed that R is changing and improving, you need this to stay ahead of the curve.
+As of this week, I have a brand new Newsletter called [___R-Tips Weekly___](https://learn.business-science.io/r-tips-newsletter). With the speed that R is changing and improving, you need this to stay ahead of the curve.
 
 R-Tips and Learning Labs will really help you stay ahead of the curve as R continues its rapidly changing ecosystem of packages. There are over 15,000 publicly available R packages. You learn the most useful ones with techniques that get results.
 
 <p class="text-center" style="font-size: 30px;">
-<a href="https://mailchi.mp/business-science/r-tips-newsletter">Get R-Tips Weekly</a> 
+<a href="https://learn.business-science.io/r-tips-newsletter">Get R-Tips Weekly</a> 
 </p>
 
 <br><br><br>

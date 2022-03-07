@@ -10,14 +10,14 @@ image: "/assets/2021-05-11-patchwork/cover_image.JPG"
 image_preview: "/assets/2021-05-11-patchwork/cover_image.JPG"
 ---
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter?rfsn=4810182.eff115&subid=koivs2aicj015e9h0ntyp">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter?rfsn=4810182.eff115&subid=koivs2aicj015e9h0ntyp">Get the Code</a></li>
     <li><a href="https://youtu.be/_lEwfZbyu48">YouTube Tutorial</a></li> 
 </ul>
 
@@ -117,7 +117,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 
 <figure class="text-center">
     <img src="/assets/2021-05-11-patchwork/time_series.jpg" style='max-width:100%;'>
-  <figcaption> <a href="https://mailchi.mp/business-science/r-tips-newsletter"> Get the Code </a></figcaption>
+  <figcaption> <a href="https://learn.business-science.io/r-tips-newsletter"> Get the Code </a></figcaption>
 </figure>
 
 <img src="/assets/2021-05-11-patchwork/median.jpg" style='max-width:100%;'>
@@ -128,7 +128,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 
 <figure class="text-center">
     <img src="/assets/2021-05-11-patchwork/gg_tx_ridge.jpg" style='max-width:100%;'>
-  <figcaption><a href="https://mailchi.mp/business-science/r-tips-newsletter"> Get the Code</a></figcaption>
+  <figcaption><a href="https://learn.business-science.io/r-tips-newsletter"> Get the Code</a></figcaption>
 </figure>
 
 <img src="/assets/2021-05-11-patchwork/top_10.jpg" style='max-width:100%;'>
@@ -139,7 +139,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 
 <figure class="text-center">
     <img src="/assets/2021-05-11-patchwork/txhousing2.jpg" style='max-width:100%;'>
-  <figcaption><a href="https://mailchi.mp/business-science/r-tips-newsletter"> Get the Code</a></figcaption>
+  <figcaption><a href="https://learn.business-science.io/r-tips-newsletter"> Get the Code</a></figcaption>
 </figure>
 
 <img src="/assets/2021-05-11-patchwork/city_price.jpg" style='max-width:100%;'>
@@ -150,7 +150,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 
 <figure class="text-center">
     <img src="/assets/2021-05-11-patchwork/gg_tx_map.jpg" style='max-width:100%;'>
-  <figcaption><a href="https://mailchi.mp/business-science/r-tips-newsletter"> Get the Code</a></figcaption>
+  <figcaption><a href="https://learn.business-science.io/r-tips-newsletter"> Get the Code</a></figcaption>
 </figure>
 
 <img src="/assets/2021-05-11-patchwork/stats.jpg" style='max-width:100%;'>
@@ -163,7 +163,7 @@ This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-sc
 <br>
 <br>
 <br>
-<p>This article is part of <strong>R-Tips Weekly</strong>, a weekly video tutorial that shows you step-by-step how to do common R coding tasks. <a href="https://mailchi.mp/business-science/r-tips-newsletter">Join today.</a></p> 
+<p>This article is part of <strong>R-Tips Weekly</strong>, a weekly video tutorial that shows you step-by-step how to do common R coding tasks. <a href="https://learn.business-science.io/r-tips-newsletter">Join today.</a></p> 
 
 <!-- This is markdown code. It wont look formatted in your browser, 
     but will be fine when published. to the website -->

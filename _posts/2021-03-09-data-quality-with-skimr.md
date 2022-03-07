@@ -10,7 +10,7 @@ image: /assets/2021-03-09_Skmr_for_Data_Quality/cover.jpg
 image_preview: /assets/2021-03-09_Skmr_for_Data_Quality/preview.jpg
 ---
 
-This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
@@ -19,7 +19,7 @@ Skimr is my go-to R package for fast data quality assessment, and Skimr is my fi
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li>
     <li><a href="https://youtu.be/x23Lrn8smHk">YouTube Tutorial</a></li>
 </ul>
 

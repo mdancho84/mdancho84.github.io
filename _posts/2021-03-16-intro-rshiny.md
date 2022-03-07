@@ -13,7 +13,7 @@ image_preview: /assets/2021-03-16-Intro-R-Shiny/cover_preview.jpg
 
 
 
-This article is part of a R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
@@ -24,7 +24,7 @@ R Shiny is an amazing framework built to convert your data analysis into a web a
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter">Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li>
     <li><a href="https://youtu.be/jxsKUxkiaLI">YouTube Tutorial</a></li>
 </ul>
 

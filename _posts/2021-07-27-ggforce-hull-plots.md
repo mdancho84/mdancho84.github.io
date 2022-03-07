@@ -14,12 +14,12 @@ The `ggforce` package is a `ggplot2` extension that adds many exploratory data a
 
 ## R-Tips Weekly
 
-This article is part of R-Tips Weekly, a <a href="https://mailchi.mp/business-science/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/r-tips-newsletter" target='_blank'>Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/r-tips-newsletter" target='_blank'>Get the Code</a></li>
     <li><a href="https://youtu.be/LbJIcLWvJcc" target='_blank'>YouTube Tutorial</a></li> 
 </ul>
 
@@ -82,7 +82,7 @@ First, run this code to:
 
 <img src="/assets/2021-07-27-ggforce-hull-plots/00_libraries.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 Here's the `mpg` dataset. We'll focus on "hwy" (fuel economy in Miles Per Gallon), "displ" (engine displacement volume in liters), and "cyl" (number of engine cylinders).
@@ -106,7 +106,7 @@ The first step is to make the scatter plot using `ggplot2`. We:
 
 <img src="/assets/2021-07-27-ggforce-hull-plots/01_scatterplot.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 This produces our base plot, which is a scatter plot of displacement vs highway fuel economy.
@@ -119,7 +119,7 @@ Next, we add our hull plot geometry layer using `ggforce::geom_mark_hull()`. Thi
 
 <img src="/assets/2021-07-27-ggforce-hull-plots/02_hull_plot_code.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 And here's the output. We can see that the hull plot shows the cylinder class membership for the vehicles scatter points.
@@ -132,7 +132,7 @@ It's a good idea to spruce up our plot, especially if we are going to present to
 
 <img src="/assets/2021-07-27-ggforce-hull-plots/03_ggplot_theme_customization.jpg" style='max-width:100%;margin-bottom:5px;'>
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/r-tips-newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 And here's the output. We have our final plot that tells the story of how highway fuel economy varies with the vehicle's number of cylinders and engine displacement volume. 

@@ -12,7 +12,7 @@ image_preview: /assets/2021-01-05-rstudio-shortcuts/rstudio_shortcuts_preview.jp
 
 
 
-This article is part of a R-Tips Weekly, a [weekly video tutorial](https://mailchi.mp/business-science/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
+This article is part of a R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
 
 <br/>
 
@@ -20,7 +20,7 @@ The RStudio IDE is amazing. You can enhance your R productivity even more with t
 
 Here are the links to get set up. 👇
 
-- [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+- [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 - [YouTube Tutorial](https://youtu.be/U373PGg8Y_0)
 
 
@@ -179,7 +179,7 @@ The look on your boss's face after you've launched [your first Shiny App](https:
 
 ### SETUP R-TIPS WEEKLY PROJECT
 
-1. [Get the Code](https://mailchi.mp/business-science/r-tips-newsletter)
+1. [Get the Code](https://learn.business-science.io/r-tips-newsletter)
 
 2. Check out the [R-Tips Setup Video](https://youtu.be/F7aYV0RPyD0).
 
