@@ -10,14 +10,14 @@ image: "/assets/2021-06-01-pandas-profiling/000_pandas_profiling_thumb_2.jpg"
 image_preview: "/assets/2021-06-01-pandas-profiling/000_pandas_profiling_thumb_2.jpg"
 ---
 
-This article is part of Python-Tips Weekly, a <a href="https://mailchi.mp/business-science/python_tips_newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.
+This article is part of Python-Tips Weekly, a <a href="https://learn.business-science.io/python-tips-newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.
 
 <br/>
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/python_tips_newsletter" target='_blank'>Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/python-tips-newsletter" target='_blank'>Get the Code</a></li>
     <li><a href="https://youtu.be/-Cdv9C9hLeE" target='_blank'>YouTube Tutorial</a></li> 
 </ul>
 
@@ -75,7 +75,7 @@ Pandas profiling is super simple to run. Simply:
 
 ![Pandas Profiling Code](/assets/2021-06-01-pandas-profiling/pandas_profiling_code.jpg)
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 
@@ -90,7 +90,7 @@ Let's quickly pan to the "Correlation" Report Section. We can see that there is 
 
 ![Pandas Profiling Report](/assets/2021-06-01-pandas-profiling/correlation_insights.jpg)
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 
@@ -100,7 +100,7 @@ We can use `plotnine` to quickly make a visualization using `geom_point()` and `
 
 ![Horsepower vs Fuel Economy](/assets/2021-06-01-pandas-profiling/plotnine_plot.jpg)
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 

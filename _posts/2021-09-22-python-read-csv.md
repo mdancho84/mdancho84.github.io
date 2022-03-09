@@ -14,12 +14,12 @@ Reading many CSV files is a common task for a data scientist. In this free tutor
 
 ## Python Tips Weekly
 
-This article is part of Python-Tips Weekly, a <a href="https://mailchi.mp/business-science/python_tips_newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.
+This article is part of Python-Tips Weekly, a <a href="https://learn.business-science.io/python-tips-newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/python_tips_newsletter" target='_blank'>Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/python-tips-newsletter" target='_blank'>Get the Code</a></li>
     <li><a href="https://youtu.be/TN_Cvyq_rxE" target='_blank'>YouTube Tutorial</a></li> 
 </ul>
 
@@ -75,7 +75,7 @@ Second, use `glob` to extract a list of the file paths for each of the 15 CSV fi
 ![Libraries](/assets/2021-09-22-python-csv/00-libraries.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 
@@ -88,7 +88,7 @@ The most common way to repetitively read files is with a for-loop. It's a great 
 ![Python For-Loop for Reading CSV Files](/assets/2021-09-22-python-csv/01-csv-for-loop.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 We can see that this involves 3-steps:
@@ -120,7 +120,7 @@ Map takes in two general arguments:
 ![How Map Works (Python)](/assets/2021-09-22-python-csv/02-how-map-works.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Let's use it. 
@@ -130,7 +130,7 @@ Ok, so let's try `map()`.
 ![Python Map for Reading CSV Files](/assets/2021-09-22-python-csv/02-using-map.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 We use 3-steps:
@@ -150,7 +150,7 @@ Because we are returning a list, even easier than `map()`, we can use a __List C
 ![Python List Comprehension for Reading CSV Files](/assets/2021-09-22-python-csv/03-list-comprehension.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 1. __Do this__: Add the function that you want to iterate. The parameter must match your looping variable name (next).

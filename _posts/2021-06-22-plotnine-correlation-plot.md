@@ -12,14 +12,14 @@ image_preview: "/assets/2021-06-22-plotnine-corr/000_correlation_plots_thumb.jpg
 
 > The `plotnine` library is a powerful python visualization library based on R's `ggplot2` package. In this tutorial, we show you how to make a great-looking correlation plot using `pandas` and `plotnine`.
 
-This article is part of Python-Tips Weekly, a <a href="https://mailchi.mp/business-science/python_tips_newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.
+This article is part of Python-Tips Weekly, a <a href="https://learn.business-science.io/python-tips-newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.
 
 <br/>
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/python_tips_newsletter" target='_blank'>Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/python-tips-newsletter" target='_blank'>Get the Code</a></li>
     <li><a href="https://youtu.be/3uO8JmjuLUg" target='_blank'>YouTube Tutorial</a></li> 
 </ul>
 
@@ -99,7 +99,7 @@ Let's check out how to make a professional __correlation matrix plot__ with `plo
 ![Plotnine Correlation Plot](/assets/2021-06-22-plotnine-corr/plotnine-correlation-plot.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Step 1: Load Libraries and Data
@@ -109,7 +109,7 @@ First, let's load the libraries and data. From the libraries, we'll import `nump
 ![Libraries](/assets/2021-06-22-plotnine-corr/01_libraries.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 We'll also load the `mpg_df` data set. 
@@ -138,7 +138,7 @@ The `plotnine` data visualization API requires data to be in the "tidy" or long 
 ![Pandas Tidy Data](/assets/2021-06-22-plotnine-corr/03_data_wrangling_pandas.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 The trick here is to use:

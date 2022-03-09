@@ -14,12 +14,12 @@ image_preview: "/assets/2021-08-03-sweetviz/005_sweetviz_thumb.jpg"
 
 ## Python Tips Weekly
 
-This article is part of Python-Tips Weekly, a <a href="https://mailchi.mp/business-science/python_tips_newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.
+This article is part of Python-Tips Weekly, a <a href="https://learn.business-science.io/python-tips-newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/python_tips_newsletter" target='_blank'>Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/python-tips-newsletter" target='_blank'>Get the Code</a></li>
     <li><a href="https://youtu.be/CCy0JAB_fbo" target='_blank'>YouTube Tutorial</a></li> 
 </ul>
 
@@ -60,7 +60,7 @@ Let's check out how to __automate__ an exploratory data analysis report with `Sw
 ![SweetViz EDA Report](/assets/2021-08-03-sweetviz/sweetviz_report.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Step 1: Load Libraries and Data
@@ -70,7 +70,7 @@ First, let's load the libraries and data. From the libraries, we'll import `pand
 ![Libraries](/assets/2021-08-03-sweetviz/00_libraries.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 The `mpg_df` data set contains information on fuel efficiency (mpg) along with important vehicle attributes for 398 vehicles. 
@@ -78,7 +78,7 @@ The `mpg_df` data set contains information on fuel efficiency (mpg) along with i
 ![MPG Data](/assets/2021-08-03-sweetviz/00_data.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Step 2: Make the SweetViz EDA Report in 2 Lines of Code
@@ -90,7 +90,7 @@ We can assess the relationship between vehicle fuel economy and the explanatory 
 ![SweetViz Report Code](/assets/2021-08-03-sweetviz/01_sweetviz_report_code.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 This creates the SweetViz EDA Report. 

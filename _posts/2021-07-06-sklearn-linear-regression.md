@@ -16,7 +16,7 @@ In this short tutorial, you'll make a Linear Regression Trendline Plot with Skle
 
 ![Linear Regression Trendline](/assets/2021-07-06-sklearn/regression_trendline_plot.jpg)
 
-This article is part of Python-Tips Weekly, a <a href="https://mailchi.mp/business-science/python_tips_newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.
+This article is part of Python-Tips Weekly, a <a href="https://learn.business-science.io/python-tips-newsletter" target="_blank">bi-weekly video tutorial</a> that shows you step-by-step how to do common Python coding tasks.
 
 
 ## Get the code
@@ -24,7 +24,7 @@ This article is part of Python-Tips Weekly, a <a href="https://mailchi.mp/busine
 <p>Here are the links to get set up. 👇</p>
 
 <ul>
-    <li><a href="https://mailchi.mp/business-science/python_tips_newsletter" target='_blank'>Get the Code</a></li>
+    <li><a href="https://learn.business-science.io/python-tips-newsletter" target='_blank'>Get the Code</a></li>
     <li><a href="https://youtu.be/A2zlm3NkeDk" target='_blank'>YouTube Tutorial</a></li> 
 </ul>
 
@@ -83,7 +83,7 @@ Let's check out how to make a professional __regression trendline plot__ with `S
 ![Scikit Learn Correlation Plot](/assets/2021-07-06-sklearn/regression_trendline_plot.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Step 1: Load Libraries and Data
@@ -93,7 +93,7 @@ First, let's load the libraries and data. From the libraries, we'll import `nump
 ![Libraries](/assets/2021-07-06-sklearn/00_libraries.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 We'll also load the `mpg_df` data set. 
@@ -101,7 +101,7 @@ We'll also load the `mpg_df` data set.
 ![MPG Data](/assets/2021-07-06-sklearn/mpg_data.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Step 2: Fit the Linear Regression Model
@@ -117,7 +117,7 @@ We'll use the `LinearRegression()` method from `sklearn.linear_model` to train a
 ![Linear Regression Fit Model](/assets/2021-07-06-sklearn/01_sklearn_linear_regression.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Step 3: Making Predictions
@@ -127,7 +127,7 @@ We can use the trained (fitted) Linear Regression Model to make predictions. Sim
 ![Making Predictions](/assets/2021-07-06-sklearn/02_predictions.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 ## Step 4: Visualize with Plotnine
@@ -137,7 +137,7 @@ The last step is to visualize the relationship between fuel economy and vehicle 
 ![Making Predictions](/assets/2021-07-06-sklearn/03_plotnine_code.jpg)
 
 <p class='text-center date'> 
-  <a href='https://mailchi.mp/business-science/python_tips_newsletter' target ='_blank'>Get the code.</a>
+  <a href='https://learn.business-science.io/python-tips-newsletter' target ='_blank'>Get the code.</a>
 </p>
 
 The visualization that is return clearly shows an inverse trend between vehicle fuel economy and weight. 
