@@ -15,7 +15,7 @@ image: "/assets/2019-05-23-financial-data-scientist/how-to-become-a-financial-da
 image_preview: "/assets/2019-05-23-financial-data-scientist/how-to-become-a-financial-data-scientist.jpg"
 
 ---
-Becoming a data scientist in Finance can be a lofty challenge... unless you know how to streamline the path. Instead of asking "what skills do I need?", **_we need to ask a different question_**.
+Becoming a data scientist in Finance (Or ANY domain) can be a lofty challenge... unless you know how to streamline the path. Instead of asking "what skills do I need?", **_we need to ask a different question_**.
 
 We need to ASK, "**_What does the organization value?"_**
 
@@ -136,7 +136,7 @@ To be effective in a Financial Organization, you need to generate value for the 
 
 Solving problems that address KPI's (Key Performance Indicators) is a great place to start. Anything to do with customers, quality, service, performance, and so forth.
 
-# How do you (the Data Scientist) generate balue?
+# How do you (the Data Scientist) generate value?
 
 <mark><strong>It's Simple:</strong> By taking applications into production.</mark>
 
@@ -314,7 +314,7 @@ Literally 5-years of learning, consolidated into 40-minutes. It’s jammed packe
 
 For my action-takers, if you are ready to take your skills to the next level and DON’T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you’d like someone to help you do this in UNDER 6-MONTHS or less….
 
-Then I can help with that too. If you simply want to get started today, [**join my 5-Course R-Track system here**](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series). 
+Then I can help with that too. If you simply want to get started today, [**join my 5-Course R-Track system here**](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
 
 Get ready. The ride is wild. And the destination is AMAZING!
 
