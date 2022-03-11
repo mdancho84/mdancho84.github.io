@@ -173,10 +173,26 @@ R is a solid choice, and it's one of the reasons that students like David are ab
 
 # 2. Pick a Development Tool
 
-Next, we need to pick an integrated development environment. This is a fancy term for the thing you will type your code into. 
+Next, we need to pick an integrated development environment (IDE). This is a fancy term for the thing you will type your code into. 
 
 ![](/assets/rstudio_ide.jpg)
 
+<p class="date text-center">The RStudio IDE</p>
+
 I ran a poll to see what everyone's using for R (and I did the same thing for Python too if you want to see those results).
 
-## Their favorite way to code in R
+## What's their favorite way to code in R?
+
+Here's the results. It's a landslide victory for RStudio. If you are going to learn R, pick RStudio. 
+
+![](/assets/r_poll.jpg)
+
+## What's their favorite way to code in Python?
+
+I ran the same poll for python. And here's where it gets more complicated. About half enjoy coding in Jupyter but a third like VSCode, and some are even using RStudio to code in Python! So it becomes much tricker to pick the right one. 
+
+![](/assets/python_poll.jpg)
+
+Keep in mind of my 61,000+ followers, many are likely to be people who follow my content and therefore are interested in R programming in addition to python. But still, it's not an easy decision for python users. 
+
+# 3. Learn the skills
