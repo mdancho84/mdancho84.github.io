@@ -187,12 +187,26 @@ Here's the results. It's a landslide victory for RStudio. If you are going to le
 
 ![](/assets/r_poll.jpg)
 
+<p class="date text-center">R Poll Results</p>
+
 ## What's their favorite way to code in Python?
 
 I ran the same poll for python. And here's where it gets more complicated. About half enjoy coding in Jupyter but a third like VSCode, and some are even using RStudio to code in Python! So it becomes much tricker to pick the right one. 
 
 ![](/assets/python_poll.jpg)
 
+<p class="date text-center">Python Poll Results</p>
+
 Keep in mind of my 61,000+ followers, many are likely to be people who follow my content and therefore are interested in R programming in addition to python. But still, it's not an easy decision for python users. 
 
 # 3. Learn the skills
+
+Once you settle on a language and IDE, you're ready to begin the fun process of learning the skills to become a data scientist. At this point you need a plan. Why? 
+
+Your goal should be to get a data science job as fast as possible. The market is crazy right now. But, eventually the market will cool and you'll be outa-luck.  
+
+There are 3 types of data science learning paths:
+
+1. **Those that have a solid plan.** They are likely to be successful and can complete the transition in under 6-months. 
+2. **Those that have a crappy plan.** They will take 5-years. But will eventually learn data science. They will also lose out financially because it took them sooo long to learn data science. 5-years at $125,000 per year when factoring in a low 3-percent raise = **loss of $664,000**. Ouch!
+3. **Those that have no plan**. These are hobbyists. They usually quit. This **costs them $8,000,000** over a 35 year career when factoring in a measly 3-percent annual raise. 
