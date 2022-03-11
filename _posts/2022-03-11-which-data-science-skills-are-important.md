@@ -13,8 +13,8 @@ title: Which data science skills are important ($50,000 increase in salary in 6-
 date: 2022-03-11 13:57:00 -0500
 excerpt: 'Which skills are important to becoming a data scientist? How to pick a language?
   How to learn the skills? These questions and many more are answered in this post. '
-image: "/assets/data_science_plan.jpg"
-image_preview: "/assets/data_science_plan.jpg"
+image: "/assets/data_science_skills-1.jpg"
+image_preview: "/assets/data_science_skills-1.jpg"
 
 ---
 In late September 2021, David was a Research Analyst with Texas A&M University.
@@ -36,13 +36,13 @@ The rest of this post will show you how David did it. This post includes researc
 * What skills separate data scientists like David from everyone else
 * How to pick a language (and your choice may surprise you)
 * How to learn the skills
-* Why this approach to learning skills works 
+* Why this approach to learning skills works
 
 # 1. The skills that separated David from everyone else
 
 If you want to become a data scientist, you'll need to learn how to generate value for your organizations. I've written about [how data scientists create value for organizations here](https://www.business-science.io/business/2019/05/23/how-to-become-a-fiancial-data-scientist.html). But, in general, you complete a process (called the data science process), which involves learning these data science skills.
 
-![](/assets/data_science_plan.jpg)
+![](/assets/data_science_skills-1.jpg)
 
 <p class="date text-center">The skills needed to become a data scientist</p>
 
@@ -250,7 +250,7 @@ Once you settle on a language and IDE, you're ready to begin the fun process of 
 
 At this point you need a plan. Why?
 
-![](/assets/data_science_plan.jpg)
+![](/assets/data_science_skills-1.jpg)
 
 <p class="date text-center">Data Science Skills</p>
 
@@ -366,6 +366,10 @@ I'm a big fan of two packages (or ecosystems):
 1. **Tidymodels:** I use this for making adhoc models and then explaining
 2. **H2O:** I use this for automatic machine learning and in production
 
+Another (extremely important) skill is feature engineering.
+
+* **Recipes:** Has preprocessing tools to transform numeric data and create features from date, time, and text data. 
+
 ## Time series is a money saver
 
 Next, if you are interested in becoming _insanely_ valuable to your organization.
@@ -384,7 +388,7 @@ So Walmart will pay an arm and a leg for someone that can help them improve that
 
 ## What time series tools should I learn?
 
-Let's head back to the cheat sheet, and check out page 3 the "Time Series Analysis" and "Forecasting" section. 
+Let's head back to the cheat sheet, and check out page 3 the "Time Series Analysis" and "Forecasting" section.
 
 ![](/assets/cheatsheet_timeseries.jpg)
 
@@ -399,7 +403,7 @@ Once you have those skills in the bank, then it's time to move onto production.
 
 Your model is worthless...
 
-Until someone can use it to do something productive like... 
+Until someone can use it to do something productive like...
 
 **Examples:**
 
@@ -420,23 +424,23 @@ This is putting applications into production.
 
 One of the truly amazing things is the ability to integrate models in to applications.
 
-We can use applications to automate the analysis process. 
+We can use applications to automate the analysis process.
 
-And users can simply click buttons, use drop-downs, and get information, all without ever knowing that R (or Python) is truly running code behind the scenes. 
+And users can simply click buttons, use drop-downs, and get information, all without ever knowing that R (or Python) is truly running code behind the scenes.
 
-The particular application shown above was made with a tool called `shiny`. 
+The particular application shown above was made with a tool called `shiny`.
 
 ## How to learn shiny
 
-If we take a look at the cheat sheet, we can see on page 2 the "Shinyverse", an ecosystem of R packages that can be used to create powerful applications that run R or Python behind them. 
+If we take a look at the cheat sheet, we can see on page 2 the "Shinyverse", an ecosystem of R packages that can be used to create powerful applications that run R or Python behind them.
 
 ![](/assets/cheatsheet_shinyverse.jpg)
 
 # 5. How to earn a $50,000 salary bump in 6-months
 
-With everything we've covered in this post, you have all of the information you need to learn data science. 
+With everything we've covered in this post, you have all of the information you need to learn data science.
 
-But you still **don't** have a plan to do it fast. 
+But you still **don't** have a plan to do it fast.
 
 In fact, it will still take a minimum of 2 years (or longer) to learn on your own.
 
@@ -444,17 +448,17 @@ But what if you could do it 6-months?
 
 How amazing would it be to have a 6-figure career that you love?
 
-And in the process earn $125,000 per year or more until you retire and have the financial freedom to do the things you enjoy. 
+And in the process earn $125,000 per year or more until you retire and have the financial freedom to do the things you enjoy.
 
-Remember David's story - How he just increased his salary $50,000. 
+Remember David's story - How he just increased his salary $50,000.
 
-How did David accomplish the impossible in under 6-months? 
+How did David accomplish the impossible in under 6-months?
 
-Here's what he is doing. 
+Here's what he is doing.
 
-David is learning data science in [my R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series). 
+David is learning data science in [my R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
 
 If you are ready to learn. I am ready to teach.
 
 <p class="text-center" style="font-size:36px;">
-  <a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join the 5-Course R-Track Today</a></p>
+<a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join the 5-Course R-Track Today</a></p>
