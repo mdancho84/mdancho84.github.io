@@ -238,7 +238,7 @@ Your goal should be to get a data science job as fast as possible. The market is
 
 ## The 3 learning paths (choose wisely)
 
-![](/assets/two_paths.jpg)
+![](/assets/two_paths-1.jpg)
 
 There are 3 types of data science learning paths:
 
@@ -248,17 +248,25 @@ There are 3 types of data science learning paths:
 
 Now, keep in mind, I actually had a pretty crappy plan. And it seriously took me 5-years. And it cost me a lot financially too. But whatever. At least I made it. 
 
+But, students like David have an exceptional plan. It involves cheating. 
+
 ## It's OK to cheat...
 
 And in the real world, to learn data science fast you need to cheat. What I mean is use a cheat sheet. [Here's my R-Cheat Sheet](https://www.business-science.io/r-cheatsheet) that will help you learn the skills you need. 
 
 ![](/assets/r_cheat_sheet.jpg)
 
-<p class="date text-center"><a href="<p class="date text-center">Data Science Skills</p>">Ultimate R Cheat Sheet</a></p>
+<p class="date text-center"><a href = "https://www.business-science.io/r-cheatsheet">The Ultimate R Cheat Sheet. It's OK to cheat. </a></p>
+
+Here's how to cheat. 
 
 ## 1. Learn the foundational skills first (save Machine learning for later)
 
-It's a BIG mistake to jump into machine learning. (I know that's what at least half of you are going to do).
+Now I know what half of you are going to do. 
+
+You're going to jump right into Machine Learning. It's A BIG MISTAKE. Don't do that. 
+
+Instead learn these skills.
 
 Rather, learn the foundations. 
 
