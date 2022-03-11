@@ -210,3 +210,34 @@ There are 3 types of data science learning paths:
 1. **Those that have a solid plan.** They are likely to be successful and can complete the transition in under 6-months. 
 2. **Those that have a crappy plan.** They will take 5-years. But will eventually learn data science. They will also lose out financially because it took them sooo long to learn data science. 5-years at $125,000 per year when factoring in a low 3-percent raise = **loss of $664,000**. Ouch!
 3. **Those that have no plan**. These are hobbyists. They usually quit. This **costs them $8,000,000** over a 35 year career when factoring in a measly 3-percent annual raise. 
+
+Now, keep in mind, I actually had a pretty crappy plan. And it seriously took me 5-years. And it cost me a lot financially too. But whatever. At least I made it. 
+
+Conversely, students like David. They have a plan. Here's what they learn.
+
+![](/assets/data_science_plan.jpg)
+
+<p class="date text-center">Data Science Skills</p>
+
+But more important is how they learn it. You see this graphic is just a smattering of skills. 
+
+We really need a plan to learn these skills.  
+
+## It's OK to cheat...
+
+And in the real world, to learn data science fast you need to cheat. What I mean is use a cheat sheet. [Here's my R-Cheat Sheet](https://www.business-science.io/r-cheatsheet) that will help you learn the skills you need. 
+
+[![](/assets/r_cheat_sheet.jpg)](https://www.business-science.io/r-cheatsheet)
+
+<p class="date text-center"><a href="<p class="date text-center">Data Science Skills</p>">Ultimate R Cheat Sheet</a></p>
+
+## 1. Learn foundational skills
+
+These are the skills you are going to use every day. I call them 80/20 skills. 
+
+They are the skills that help you early on in your process.
+
+Things like:
+
+* Importing data: Working with databases, connecting to SQL
+* Transforming data: 
