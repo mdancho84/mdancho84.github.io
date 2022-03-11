@@ -175,6 +175,8 @@ R is a solid choice, and it's one of the reasons that students like David are ab
 
 At this point I always get a question, "what about excel?"
 
+![](/assets/excel.png)
+
 And my thought is this:
 
 You can use any tool you'd like if it gets the organization results - R, Python, Excel, Tableau, PowerBI. All are great. BUT each has strengths and weaknesses. 
