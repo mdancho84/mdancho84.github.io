@@ -30,12 +30,12 @@ How was David able to get a job at an elite company like Microsoft?
 
 What skills was David learning that he could transition so quickly?
 
-The rest of this post will show you how David did it. This post includes 4 case studies, research and 2 surveys all to answer questions like...
+The rest of this post will show you how David did it. This post includes a ton of research and 2 surveys all to answer questions like...
 
 * What skills separate data scientists like David from everyone else
 * How to pick a language (and your choice may surprise you)
 * How to learn the skills
-* Why this approach to learning skills works (based on examining 4 case studies)
+* Why this approach to learning skills works 
 
 # 1. The skills that separated David from everyone else
 
@@ -398,7 +398,7 @@ Once you have those skills in the bank, then it's time to move onto production.
 
 Your model is worthless...
 
-Until someone can use it to do something. 
+Until someone can use it to do something productive like... 
 
 **Examples:**
 
@@ -411,7 +411,7 @@ But how do you give the decision-makers the help they critically need?
 
 This is putting applications into production.
 
-## The Shiny App
+## The Application
 
 ![](/assets/app_sales_forecast.jpeg)
 
@@ -421,4 +421,32 @@ One of the truly amazing things is the ability to integrate models in to applica
 
 We can use applications to automate the analysis process. 
 
-And users can simply click buttons, use dropdowns, and get information, all without ever knowing that R is truly running code behind the scenes. 
+And users can simply click buttons, use drop-downs, and get information, all without ever knowing that R (or Python) is truly running code behind the scenes. 
+
+The particular application shown above was made with a tool called `shiny`. 
+
+## How to learn shiny
+
+If we take a look at the cheat sheet, we can see on page 2 the "Shinyverse", an ecosystem of R packages that can be used to create powerful applications that run R or Python behind them. 
+
+![](/assets/cheatsheet_shinyverse.jpg)
+
+# 5. How to learn data science faster
+
+With everything we've covered in this post, you have all of the information you need to learn data science. 
+
+But you still don't have a plan to do it fast. 
+
+In fact, it will still take a minimum of 2 years to learn on your own.
+
+But what if you could do it 6-months?
+
+How amazing would it be to have a 6-figure career that you love?
+
+And in the process earn $125,000 and have the financial freedom to do the things you love. 
+
+Remember David from the beginning that just increased his salary $50,000. 
+
+David is my student. He is learning data science in [my R-Track Program](). 
+
+If you are ready to learn. I am ready to teach. 
