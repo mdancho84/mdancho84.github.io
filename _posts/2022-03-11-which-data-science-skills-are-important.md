@@ -10,8 +10,9 @@ tags:
 - Learn-R
 - R
 title: Which data science skills are important ($50,000 increase in salary in 6-months)
-date: 2022-03-14 09:00:00 -0400
-excerpt: ''
+date: 2022-03-11 13:57:00 -0500
+excerpt: 'Which skills are important to becoming a data scientist? How to pick a language?
+  How to learn the skills? These questions and many more are answered in this post. '
 image: "/assets/data_science_plan.jpg"
 image_preview: "/assets/data_science_plan.jpg"
 
