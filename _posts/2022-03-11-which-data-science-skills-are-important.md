@@ -452,6 +452,9 @@ How did David accomplish the impossible in under 6-months?
 
 Here's what he is doing. 
 
-David is learning data science in [my R-Track Program](). 
+David is learning data science in [my R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series). 
 
 If you are ready to learn. I am ready to teach.
+
+<p class="text-center" style="font-size:36px;">
+  <a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join the 5-Course R-Track Today</a></p>
