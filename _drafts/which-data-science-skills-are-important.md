@@ -171,17 +171,44 @@ R is a solid choice, and it's one of the reasons that students like David are ab
 
 ![](/assets/python_vs_r_results.jpg)
 
+## What about Excel?
+
+At this point I always get a question, "what about excel?"
+
+And my thought is this:
+
+You can use any tool you'd like if it gets the organization results - R, Python, Excel, Tableau, PowerBI. All are great. BUT each has strengths and weaknesses. 
+
+**Excel is great as a communication tool:**
+
+* Everyone has it
+* Business people like it. 
+
+**Excel has the following limitations:**
+
+* Cannot do machine learning well. Machine learning is essential for modeling and explanations. 
+* Cannot handle large data well (maximum data size is 1-million rows, which is not very big) 
+* Functions are buried in cells, which leads to errors and difficult debugging. 
+
+So you will most likely need to use R or Python, which is where I will spend my focusSo with this in mind, use Excel wisely. 
+
+And yes, this is the **Blue Screen of Death**, and I used to get this constantly when doing data analysis. 
+
+![](/assets/blue_screen_of_death.jpg)
+
+So please use Excel wisely. 
+
 # 2. Pick a Development Tool
 
-Next, we need to pick an integrated development environment (IDE). This is a fancy term for the thing you will type your code into. 
+Next, it's time to pick an integrated development environment (IDE), which is just a fancy term for the thing I type code into. 
 
 ![](/assets/rstudio_ide.jpg)
 
-<p class="date text-center">The RStudio IDE</p>
+<p class="date text-center">The RStudio IDE: The thing I type code into</p>
 
 I ran a poll to see what everyone's using for R (and I did the same thing for Python too if you want to see those results).
 
-## What's their favorite way to code in R?
+## Survey 1: What's your favorite way to code in R?
 
 Here's the results. It's a landslide victory for RStudio. If you are going to learn R, pick RStudio. 
 
@@ -189,7 +216,7 @@ Here's the results. It's a landslide victory for RStudio. If you are going to le
 
 <p class="date text-center">R Poll Results</p>
 
-## What's their favorite way to code in Python?
+## Survey 2: What's your favorite way to code in Python?
 
 I ran the same poll for python. And here's where it gets more complicated. About half enjoy coding in Jupyter but a third like VSCode, and some are even using RStudio to code in Python! So it becomes much tricker to pick the right one. 
 
@@ -205,6 +232,8 @@ Once you settle on a language and IDE, you're ready to begin the fun process of 
 
 Your goal should be to get a data science job as fast as possible. The market is crazy right now. But, eventually the market will cool and you'll be outa-luck.  
 
+## The 3 learning paths (choose wisely)
+
 There are 3 types of data science learning paths:
 
 1. **Those that have a solid plan.** They are likely to be successful and can complete the transition in under 6-months. 
@@ -212,6 +241,8 @@ There are 3 types of data science learning paths:
 3. **Those that have no plan**. These are hobbyists. They usually quit. This **costs them $8,000,000** over a 35 year career when factoring in a measly 3-percent annual raise. 
 
 Now, keep in mind, I actually had a pretty crappy plan. And it seriously took me 5-years. And it cost me a lot financially too. But whatever. At least I made it. 
+
+## The skills revisited (what you need to learn)
 
 Conversely, students like David. They have a plan. Here's what they learn.
 
@@ -227,17 +258,35 @@ We really need a plan to learn these skills.
 
 And in the real world, to learn data science fast you need to cheat. What I mean is use a cheat sheet. [Here's my R-Cheat Sheet](https://www.business-science.io/r-cheatsheet) that will help you learn the skills you need. 
 
-[![](/assets/r_cheat_sheet.jpg)](https://www.business-science.io/r-cheatsheet)
+![](/assets/r_cheat_sheet.jpg)
 
 <p class="date text-center"><a href="<p class="date text-center">Data Science Skills</p>">Ultimate R Cheat Sheet</a></p>
 
-## 1. Learn foundational skills
+## 1. Learn the foundational skills first (save Machine learning for later)
 
-These are the skills you are going to use every day. I call them 80/20 skills. 
+It's a BIG mistake to jump into machine learning. (I know that's what at least half of you are going to do).
+
+Rather, learn the foundations. 
+
+![](/assets/foundational_skills.jpg)
+
+These are the skills you are going to use every day. I call them **80/20 skills.** 
 
 They are the skills that help you early on in your process.
 
 Things like:
 
-* Importing data: Working with databases, connecting to SQL
-* Transforming data: 
+* **Importing data:** Working with databases, connecting to SQL, `readr`, `readxl`
+* **Transforming data:** Working with outliers, missing data, reshaping data, aggregation, filtering, selecting, calculating, and many more critical operations, `dplyr` and `tidyr` packages
+* **Visualizing Data:** Communicating through Interactive and Static Visualizations, `ggplot2` and `plotly`
+* **Time Series:** Working with date/datetime data, aggregating, transforming, visualizing time series, `timetk` package
+* **Text:** Working with text data, `stringr`
+* **Categorical data:** Working with categories, `forcats` package
+* **Functional Programming:** Making reusable functions, sourcing code
+* **Reporting:** Making reports in interactive HTML and staticPDF formats
+
+It' the honest truth. Listen, if you focus on these core foundational skills, it will make machine learning so much easier. 
+
+* 
+
+## 2. Learn modeling
