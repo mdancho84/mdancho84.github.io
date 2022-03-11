@@ -34,7 +34,6 @@ The rest of this post will show you how David did it. This post includes 4 case 
 
 * What skills separate data scientists like David from everyone else
 * How to pick a language (and your choice may surprise you)
-* How to pick a development environment
 * How to learn the skills
 * Why this approach to learning skills works (based on examining 4 case studies)
 
@@ -313,19 +312,27 @@ Now you're probably thinking...
 
 ## What about maths, stats, and algorithms?
 
-We need to learn math, stats, and algorithms in tandem.
+At this point, a logical question is - "What about maths, stats, and algorithms?"
 
-**Popular Opinion:** Take 5-years and study theory, maths, learn how to code algorithms from scratch. 
+Here are my two cents. 
 
-**The Smart (Fast) Way:** Just experiment.  
+**The Popular Opinion:** Take 5-years and study theory, maths, learn how to code algorithms from scratch. 
 
-The only way I've ever been successful with learning new algorithms is by experimenting. 
+**The Smart (Fast) Way:** Learn in tandem why you apply machine learning in projects  
 
-I'm talking actually applying data science to projects I'm working on. 
+The only way I've ever been successful with learning new algorithms is by experimenting and applying. 
 
-The process applying machine learning to problems, experimenting with different algorithms, and seeing the results on real applications. 
+I'm talking about _actually_ applying data science to projects I'm working on. 
 
-## What machine learning tools?
+The process involves:
+
+1. applying machine learning to problems, 
+2. experimenting with different algorithms, and 
+3. seeing the results on real applications. 
+
+If you do this on real projects then you will in fact learn maths, stats, and algorithms. 
+
+## What machine learning tools should I learn?
 
 If we head on back to my cheat sheet, on page 3 you'll find links to my goto-machine learning tools. 
 
@@ -338,13 +345,17 @@ I'm a big fan of two packages (or ecosystems):
 
 ## 3.5 Time series is a money saver
 
+Next, if you are interested in becoming _insanely_ valuable to your organization. 
+
+Then learn time series. 
+
 Organizations are fans of saving money. An if you can predict the future, then chances are you are going to be very valuable to your company. 
 
 Enter Time Series. 
 
 ![](/assets/forecasting_modeltime.jpg)
 
-Time series analysis and forecasting are two of the most in demand skills. Why? A 5% improvement in a forecast can save a company like Walmart $50,000,000 each years. 
+Time series analysis and forecasting are two of the most in demand skills. Why? A 5% improvement in a forecast can save a company like **Walmart $50,000,000 each years**. 
 
 So Walmart will pay an arm and a leg for someone that can help them improve that area. 
 
@@ -352,5 +363,7 @@ Here's what you need to learn:
 
 * **Time Series Analysis:** Working with date/datetime data, aggregating, transforming, visualizing time series, `timetk` package
 * **Forecasting:** ARIMA, Exponential Smoothing, Prophet, Machine Learning (XGBoost, Random Forest, GLMnet, etc), Deep Learning (GluonTS), Ensembles, Hyperparameter Tuning, Scaling to 1000s of forecasts, `modeltime` package
+
+Once you have those skills in the bank, then it's time to move onto production. 
 
 ## 3.6 Taking models into production (what the heck is this?)
