@@ -37,15 +37,17 @@ The rest of this post will show you how David did it. This post includes 4 case 
 * How to learn the skills
 * Why this approach to learning skills works (based on examining 4 case studies)
 
-# Why you should learn these skills
+# 1. The skills that separated David from everyone else
 
-If you want to become a data scientist, you'll need to learn how to generate value for your organizations. I've written about [how data scientists create value for organizations here](https://www.business-science.io/business/2019/05/23/how-to-become-a-fiancial-data-scientist.html). But, in general, you complete a process (called the data science process), which involves learning these skills.
+If you want to become a data scientist, you'll need to learn how to generate value for your organizations. I've written about [how data scientists create value for organizations here](https://www.business-science.io/business/2019/05/23/how-to-become-a-fiancial-data-scientist.html). But, in general, you complete a process (called the data science process), which involves learning these data science skills.
 
 ![](/assets/data_science_plan.jpg)
 
-Data scientists that learn these skills can convince employers to hire them. And that's really important. Here's why.
+<p class="date text-center">The skills needed to become a data scientist</p>
 
-According to Glassdoor, learning these data science skills [can have this effect on your salary](https://www.glassdoor.com/Salaries/pittsburgh-data-scientist-salary-SRCH_IL.0,10_IM684_KO11,25.htm?clickSource=searchBtn) (if you live in Pittsburgh PA like I do, I encourage you to check your own locale).
+David learned these skills and was able to convince employers to hire him. The result was an instant $50,000 increase to his salary and not to mention is in a career that he's super excited about.
+
+Further to my point, according to Glassdoor, learning these data science skills [can turn into a $126,722 career](https://www.glassdoor.com/Salaries/pittsburgh-data-scientist-salary-SRCH_IL.0,10_IM684_KO11,25.htm?clickSource=searchBtn) (if you live in Pittsburgh PA like I do, I encourage you to check your own locale).
 
 ![](/assets/glassdoor_data_scientist_salary.jpg)
 
@@ -54,6 +56,10 @@ According to Glassdoor, learning these data science skills [can have this effect
 But that's just the start.
 
 Like I told David, your career will accelerate.
+
+## What's after data scientist?
+
+After data scientist comes senior data scientist.
 
 Here's what the career path looks like for a [Senior data scientist in Pittsburgh PA](https://www.glassdoor.com/Career/senior-data-scientist-career_KO0,21.htm).
 
@@ -76,7 +82,7 @@ Mastering data science isn't hard. It just requires:
 
 You'll need to start by picking a language.
 
-# 1. How to pick a language
+# 2. How to pick a language
 
 Who do you think is going to win this battle?
 
@@ -102,7 +108,7 @@ But, if we want to really answer this question, we should tackle this like data 
 
 So, let's tackle this like data scientists.
 
-## How to pick a language
+## Here's how to pick a language
 
 If I were picking a language for the first time, I would consider a few things:
 
@@ -110,7 +116,7 @@ If I were picking a language for the first time, I would consider a few things:
 2. The demand for the job market
 3. The competition in the job market
 
-## 1.1 How useful is the language for data science?
+## How useful is the language for data science?
 
 So if you look at [the history of python](https://www.geeksforgeeks.org/history-of-python/), it clearly says it is a general purpose, high level programming language. It has an emphasis on code readability and to express concepts in fewer lines of code.
 
@@ -135,7 +141,7 @@ But I wasn't satisfied with that, so I dug a little deeper. Here's what I've fou
 
 So I'm going to give this one to R.
 
-## 1.2 The demand for the job market
+## The demand for the job market
 
 Next is demand for the job market for Python and R. Currently there are 21,271 Data Scientist jobs for Python. A
 
@@ -149,7 +155,7 @@ So for every 1 R data science job there are 2.4 for Python.
 
 I'll give this one to Python.
 
-## 1.3 The competition in the job market
+## The competition in the job market
 
 Next, what we need to consider is how many people you will be competing against to get these jobs.
 
@@ -197,7 +203,7 @@ And yes, this is the **Blue Screen of Death**, and I used to get this constantly
 
 So please use Excel wisely.
 
-# 2. How to pick a development tool
+# 3. How to pick a development tool
 
 Next, it's time to pick an integrated development environment (IDE), which is just a fancy term for the thing I type code into.
 
@@ -209,15 +215,15 @@ I ran a poll to see what everyone's using for R (and I did the same thing for Py
 
 ## Survey 1: What's your favorite way to code in R?
 
-Here are the results. 
-
-It's a landslide victory for RStudio. 
-
-So, if you are going to learn R, pick RStudio. Easy peasy. 
-
 ![](/assets/r_poll-1.jpg)
 
 <p class="date text-center">R Poll Results</p>
+
+Here are the results.
+
+It's a landslide victory for RStudio.
+
+So, if you are going to learn R, pick RStudio. Easy peasy.
 
 ## Survey 2: What's your favorite way to code in Python?
 
@@ -225,21 +231,21 @@ So, if you are going to learn R, pick RStudio. Easy peasy.
 
 <p class="date text-center">Python Poll Results</p>
 
-I ran the same poll for python. And here's where it gets more complicated. 
+I ran the same poll for python. And here's where it gets more complicated.
 
-* About half enjoy coding in Jupyter 
-* A third like VSCode, and 
-* Some are even using RStudio to code in Python! 
+* About half enjoy coding in Jupyter
+* A third like VSCode, and
+* Some are even using RStudio to code in Python!
 
-Keep in mind of my 61,000+ followers on LinkedIn, many are likely to be people who follow my content and therefore are interested in R programming in addition to python. 
+Keep in mind of my 61,000+ followers on LinkedIn, many are likely to be people who follow my content and therefore are interested in R programming in addition to python.
 
 But still, it's not an easy decision for python users to pick an IDE.
 
-In fact, I got a ton of comments for Spyder and half a dozen other random IDEs. 
+In fact, I got a ton of comments for Spyder and half a dozen other random IDEs.
 
-# 3. How to learn the data science skills
+# 4. How to learn the data science skills
 
-Once you settle on a language and IDE, you're ready to begin the fun process of learning the skills to become a data scientist. 
+Once you settle on a language and IDE, you're ready to begin the fun process of learning the skills to become a data scientist.
 
 At this point you need a plan. Why?
 
@@ -255,15 +261,17 @@ I always get this question at this point. I can hear it now.
 
 _"Matt, everything you've shown is technical skills. What about communication skills?"_
 
-Yes - you absolutely need those too. But you've also been learning those all your life. And if you haven't definitely add these 3 things to your arsenal:
+Yes - you absolutely need those too. But you've also been learning those all your life. And if you haven't, then add these 3 things to your arsenal:
 
-1. Making a slide deck 
+1. Making a slide deck
 2. Presenting your findings in a report
-3. Being nice when you talk to people. 
+3. Being nice when you talk to people.
 
-If you do those 3 things consistently, you will be promotable. And people will want to work with you. Especially focus on #3. 
+If you do those 3 things consistently, you will be promotable. And people will want to work with you.
 
-## 3.1 The 3 learning paths (choose wisely)
+Especially focus on #3 (Being nice).
+
+## The 3 learning paths (choose wisely)
 
 ![](/assets/two_paths-1.jpg)
 
@@ -277,7 +285,7 @@ Now, keep in mind, I actually had a pretty crappy plan. And it seriously took me
 
 But, students like David have an exceptional plan. They made it in 6-months. And, it **involves cheating.**
 
-## 3.2 It's OK to cheat...
+## It's OK to cheat...
 
 And in the real world, to learn data science fast you need to cheat. What I mean is use a cheat sheet. [Here's my R-Cheat Sheet](https://www.business-science.io/r-cheatsheet) that will help you learn the skills you need.
 
@@ -287,7 +295,7 @@ And in the real world, to learn data science fast you need to cheat. What I mean
 
 Here's how to cheat.
 
-## 3.3 Learn the foundational skills first (save Machine learning for later)
+## Learn the foundational skills first (save Machine learning for later)
 
 Now I know what half of you are going to do.
 
@@ -316,7 +324,7 @@ Things like:
 
 It' the honest truth. Listen, if you focus on these core foundational skills, it will make machine learning so much easier.
 
-## 3.4. Learn modeling (and machine learning)
+## How to learn modeling (and machine learning)
 
 Now it's time to take the training wheels off. Machine Learning!
 
@@ -328,56 +336,89 @@ Now you're probably thinking...
 
 At this point, a logical question is - "What about maths, stats, and algorithms?"
 
-Here are my two cents. 
+Here are my two cents.
 
-**The Popular Opinion:** Take 5-years and study theory, maths, learn how to code algorithms from scratch. 
+**The Popular Opinion:** Take 5-years and study theory, maths, learn how to code algorithms from scratch.
 
-**The Smart (Fast) Way:** Learn in tandem why you apply machine learning in projects  
+**The Smart (Fast) Way:** Learn in tandem why you apply machine learning in projects
 
-The only way I've ever been successful with learning new algorithms is by experimenting and applying. 
+The only way I've ever been successful with learning new algorithms is by experimenting and applying.
 
-I'm talking about _actually_ applying data science to projects I'm working on. 
+I'm talking about _actually_ applying data science to projects I'm working on.
 
 The process involves:
 
-1. applying machine learning to problems, 
-2. experimenting with different algorithms, and 
-3. seeing the results on real applications. 
+1. applying machine learning to problems,
+2. experimenting with different algorithms, and
+3. seeing the results on real applications.
 
-If you do this on real projects then you will in fact learn maths, stats, and algorithms. 
+If you do this on real projects then you will in fact learn maths, stats, and algorithms.
 
 ## What machine learning tools should I learn?
 
-If we head on back to my cheat sheet, on page 3 you'll find links to my goto-machine learning tools. 
+If we head on back to my cheat sheet, on page 3 you'll find links to my goto-machine learning tools.
 
 ![](/assets/cheatsheet_machine_learning.jpg)
 
 I'm a big fan of two packages (or ecosystems):
 
-1. **Tidymodels:** I use this for making adhoc models and then explaining 
+1. **Tidymodels:** I use this for making adhoc models and then explaining
 2. **H2O:** I use this for automatic machine learning and in production
 
-## 3.5 Time series is a money saver
+## Time series is a money saver
 
-Next, if you are interested in becoming _insanely_ valuable to your organization. 
+Next, if you are interested in becoming _insanely_ valuable to your organization.
 
-Then learn time series. 
+Then learn time series.
 
 ![](/assets/money.jpg)
 
-Organizations are fans of saving money. An if you can predict the future, then chances are you are going to be very valuable to your company. 
+Organizations are fans of saving money. An if you can predict the future, then chances are you are going to be very valuable to your company.
 
 ![](/assets/forecasting_modeltime.jpg)
 
-Time series analysis and forecasting are two of the most in demand skills. Why? A 5% improvement in a forecast can save a company like **Walmart $50,000,000 each years**. 
+Time series analysis and forecasting are two of the most in demand skills. Why? A 5% improvement in a forecast can save a company like **Walmart $50,000,000 each years**.
 
-So Walmart will pay an arm and a leg for someone that can help them improve that area. 
+So Walmart will pay an arm and a leg for someone that can help them improve that area.
+
+## What time series tools should I learn?
+
+Let's head back to the cheat sheet, and check out page 3 the "Time Series Analysis" and "Forecasting" section. 
+
+![](/assets/cheatsheet_timeseries.jpg)
 
 Here's what you need to learn:
 
 * **Time Series Analysis:** Working with date/datetime data, aggregating, transforming, visualizing time series, `timetk` package
 * **Forecasting:** ARIMA, Exponential Smoothing, Prophet, Machine Learning (XGBoost, Random Forest, GLMnet, etc), Deep Learning (GluonTS), Ensembles, Hyperparameter Tuning, Scaling to 1000s of forecasts, `modeltime` package
 
-Once you have those skills in the bank, then it's time to move onto production. 
+Once you have those skills in the bank, then it's time to move onto production.
 
-## 3.6 Taking models into production (what the heck is this?)
+## How to take models into production (what the heck is this?)
+
+Your model is worthless...
+
+Until someone can use it to do something. 
+
+**Examples:**
+
+* Call a customer that is on the bleeding edge of unsubscribing because of high complaint volume
+* Review more accurate forecast information before placing an $1,000,000 order for parts that could be unnecessary
+
+It's at this point that your hard work pays off. And you provide value.
+
+But how do you give the decision-makers the help they critically need?
+
+This is putting applications into production.
+
+## The Shiny App
+
+![](/assets/app_sales_forecast.jpeg)
+
+<p class="date text-center">A Shiny Application</p>
+
+One of the truly amazing things is the ability to integrate models in to applications.
+
+We can use applications to automate the analysis process. 
+
+And users can simply click buttons, use dropdowns, and get information, all without ever knowing that R is truly running code behind the scenes. 
