@@ -71,12 +71,12 @@ Here's how.
 
 Mastering data science isn't hard. It just requires:
 
-* Motivation: You'll need to dedicate about 10-hours per week
-* A plan: You'll learn from David and several others in this
+* **Motivation:** You'll need to dedicate about 10-hours per week
+* **A plan:** You'll learn from David and several others in this
 
 You'll need to start by picking a language.
 
-# 1. Pick a language
+# 1. How to pick a language
 
 Who do you think is going to win this battle?
 
@@ -191,13 +191,13 @@ You can use any tool you'd like if it gets the organization results - R, Python,
 * Cannot handle large data well (maximum data size is 1-million rows, which is not very big)
 * Functions are buried in cells, which leads to errors and difficult debugging.
 
-And yes, this is the **Blue Screen of Death**, and I used to get this constantly when doing data analysis.
+And yes, this is the **Blue Screen of Death**, and I used to get this constantly when doing data analysis in Excel.
 
 ![](/assets/blue_screen_of_death.jpg)
 
 So please use Excel wisely.
 
-# 2. Pick a Development Tool
+# 2. How to pick a development tool
 
 Next, it's time to pick an integrated development environment (IDE), which is just a fancy term for the thing I type code into.
 
@@ -209,31 +209,45 @@ I ran a poll to see what everyone's using for R (and I did the same thing for Py
 
 ## Survey 1: What's your favorite way to code in R?
 
-Here's the results. It's a landslide victory for RStudio. If you are going to learn R, pick RStudio.
+Here are the results. 
 
-![](/assets/r_poll.jpg)
+It's a landslide victory for RStudio. 
+
+So, if you are going to learn R, pick RStudio. Easy peasy. 
+
+![](/assets/r_poll-1.jpg)
 
 <p class="date text-center">R Poll Results</p>
 
 ## Survey 2: What's your favorite way to code in Python?
 
-I ran the same poll for python. And here's where it gets more complicated. About half enjoy coding in Jupyter but a third like VSCode, and some are even using RStudio to code in Python! So it becomes much tricker to pick the right one.
-
-![](/assets/python_poll.jpg)
+![](/assets/python_poll-1.jpg)
 
 <p class="date text-center">Python Poll Results</p>
 
-Keep in mind of my 61,000+ followers, many are likely to be people who follow my content and therefore are interested in R programming in addition to python. But still, it's not an easy decision for python users.
+I ran the same poll for python. And here's where it gets more complicated. 
 
-# 3. Learn the data science skills
+* About half enjoy coding in Jupyter 
+* A third like VSCode, and 
+* Some are even using RStudio to code in Python! 
 
-Once you settle on a language and IDE, you're ready to begin the fun process of learning the skills to become a data scientist. At this point you need a plan. Why?
+Keep in mind of my 61,000+ followers on LinkedIn, many are likely to be people who follow my content and therefore are interested in R programming in addition to python. 
+
+But still, it's not an easy decision for python users to pick an IDE.
+
+In fact, I got a ton of comments for Spyder and half a dozen other random IDEs. 
+
+# 3. How to learn the data science skills
+
+Once you settle on a language and IDE, you're ready to begin the fun process of learning the skills to become a data scientist. 
+
+At this point you need a plan. Why?
 
 ![](/assets/data_science_plan.jpg)
 
 <p class="date text-center">Data Science Skills</p>
 
-Your goal should be to get a data science job as fast as possible. The market is crazy right now. But, eventually the market will cool and you'll be outa-luck.
+...Because your goal should be to get a data science job **as fast as possible.** The market is crazy right now. But, eventually the market will cool and you'll be outa-luck.
 
 ### What about soft skills?
 
@@ -247,7 +261,7 @@ Yes - you absolutely need those too. But you've also been learning those all you
 2. Presenting your findings in a report
 3. Being nice when you talk to people. 
 
-If you do those 3 things consistently, you will be promotable. And people will want to work with you. 
+If you do those 3 things consistently, you will be promotable. And people will want to work with you. Especially focus on #3. 
 
 ## 3.1 The 3 learning paths (choose wisely)
 
@@ -261,7 +275,7 @@ There are 3 types of data science learning paths:
 
 Now, keep in mind, I actually had a pretty crappy plan. And it seriously took me 5-years. And it cost me a lot financially too. But whatever. At least I made it.
 
-But, students like David have an exceptional plan. They made it in 6-months. And, it involves cheating.
+But, students like David have an exceptional plan. They made it in 6-months. And, it **involves cheating.**
 
 ## 3.2 It's OK to cheat...
 
@@ -349,9 +363,9 @@ Next, if you are interested in becoming _insanely_ valuable to your organization
 
 Then learn time series. 
 
-Organizations are fans of saving money. An if you can predict the future, then chances are you are going to be very valuable to your company. 
+![](/assets/money.jpg)
 
-Enter Time Series. 
+Organizations are fans of saving money. An if you can predict the future, then chances are you are going to be very valuable to your company. 
 
 ![](/assets/forecasting_modeltime.jpg)
 
