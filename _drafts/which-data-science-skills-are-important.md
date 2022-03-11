@@ -60,6 +60,8 @@ Here's what the career path looks like for a [Senior data scientist in Pittsburg
 
 ![](/assets/data_scientist_career_path.jpg)
 
+<p class="date text-center">Glassdoor: Senior Data Scientist Earnings in Pittsburgh, PA</p>
+
 Now I know what you're thinking: _"That salary is great. BUT, I'll never be able to master this list of skills. Especially not in 6-months."_
 
 Actually you can. 
@@ -111,14 +113,23 @@ If I were picking a language for the first time, I would consider a few things:
 
 ## 1.1 How useful is the language for data science?
 
-So if you look at [the history of python](https://www.geeksforgeeks.org/history-of-python/#:\~:text=Python%20is%20a%20widely%20used,in%20fewer%20lines%20of%20code.), it clearly says it is a general purpose, high level programming language. It has an emphasis on code readability and to express concepts in fewer lines of code.
+So if you look at [the history of python](https://www.geeksforgeeks.org/history-of-python/), it clearly says it is a general purpose, high level programming language. It has an emphasis on code readability and to express concepts in fewer lines of code.
 
 ![](/assets/history_of_python.jpg)
 
-<p class="date text-center">GeeksforGeeks: History of Python</p>
+<p class="date text-center"><a href="https://www.geeksforgeeks.org/history-of-python/">GeeksforGeeks: History of Python</a></p>
 
 Meanwhile if you look at R, it was closely modeled on the S language for statistical computing and graphics.
 
 ![](/assets/what_is_r.jpg)
 
 <p class="date text-center"><a href="https://www.r-project.org/about.html">R-project: What is R?</a></p> 
+
+So Python is a general purpose language (but has been adapted for many tasks like data science) while R has been developed for the sole purpose of statistics. 
+
+But I wasn't satisfied with that, so I dug a little deeper. Here's what I've found. 
+
+![](/assets/data_science_language_strengths.jpg)
+
+* **Python:** Great for Machine Learning and Deep Learning but misses the mark on reporting (very important) and has fewer libraries for important analyses like econometrics. 
+* **R:** Has well developed tools for business analysis and data science. Strong in everything except deep learning. But, deep learning is rarely used. 
