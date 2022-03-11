@@ -34,5 +34,13 @@ The rest of this post will show you how David did it. This post includes 4 case 
 
 * What skills separate data scientists like David from everyone else
 * Why picking R or Python matters (and the choice depends on where you are coming from)
-* Which skills people like David learned to transition into data science in under 6-months
+* Which tools exist (and which will help you become a data science in under 6-months)
 * Why this approach to learning skills works (based on examining 4 case studies)
+
+# Why you should learn these skills
+
+If you want to become a data scientist, you'll need to learn how to generate value for your organizations. I've written about [how data scientists create value for organizations here](https://www.business-science.io/business/2019/05/23/how-to-become-a-fiancial-data-scientist.html). But, in general, you complete a process (called the data science process), which involves the following plan with skills you need to learn to cover the plan. 
+
+![](/assets/data_science_plan.jpg)
+
+Now
