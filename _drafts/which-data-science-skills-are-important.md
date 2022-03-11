@@ -30,7 +30,7 @@ How was David able to get a job at an elite company like Microsoft?
 
 What skills was David learning that he could transition so quickly?
 
-The rest of this post will show you how David did it. This post includes a ton of research and 2 surveys all to answer questions like...
+The rest of this post will show you how David did it. This post includes research and 2 surveys all to answer questions like...
 
 * What skills separate data scientists like David from everyone else
 * How to pick a language (and your choice may surprise you)
@@ -443,11 +443,13 @@ But what if you could do it 6-months?
 
 How amazing would it be to have a 6-figure career that you love?
 
-And in the process earn $125,000 per year or more until you retire and have the financial freedom to do the things you love. 
+And in the process earn $125,000 per year or more until you retire and have the financial freedom to do the things you enjoy. 
 
-Remember David from the beginning that just increased his salary $50,000. 
+Remember David's story - How he just increased his salary $50,000. 
 
-David is my student. He did it in under 6-months. Here's what he is doing. 
+How did David accomplish the impossible in under 6-months? 
+
+Here's what he is doing. 
 
 David is learning data science in [my R-Track Program](). 
 
