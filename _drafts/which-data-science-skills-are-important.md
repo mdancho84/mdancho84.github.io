@@ -43,4 +43,8 @@ If you want to become a data scientist, you'll need to learn how to generate val
 
 ![](/assets/data_science_plan.jpg)
 
-Now
+Now I know what you're thinking. "I'll never be able to master this list."
+
+I'm here to say that you don't need to become a master. You just need to become good enough at the data science process. And that will involve many of these skills. 
+
+# What's the data science process?
