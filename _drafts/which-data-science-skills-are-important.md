@@ -75,6 +75,8 @@ Mastering data science isn't hard. It just requires:
 * Motivation: You'll need to dedicate about 10-hours per week 
 * A plan: You'll learn from David and several others in this 
 
+You'll need to start by picking a language. 
+
 # 1. Pick a language
 
 Who do you think is going to win this battle?
@@ -108,8 +110,6 @@ If I were picking a language for the first time, I would consider a few things:
 1. How useful is the language for data science
 2. The demand for the job market
 3. The competition in the job market
-4. How quickly I can master the language and become skilled labor
-5. The difficulty of the language
 
 ## 1.1 How useful is the language for data science?
 
@@ -132,4 +132,51 @@ But I wasn't satisfied with that, so I dug a little deeper. Here's what I've fou
 ![](/assets/data_science_language_strengths.jpg)
 
 * **Python:** Great for Machine Learning and Deep Learning but misses the mark on reporting (very important) and has fewer libraries for important analyses like econometrics. 
-* **R:** Has well developed tools for business analysis and data science. Strong in everything except deep learning. But, deep learning is rarely used. 
+* **R:** Has well developed tools for business analysis and data science. Strong in everything except deep learning. But, deep learning is rarely used. And when you need deep learning or extra APIs, you can integrate R with Python. 
+
+So I'm going to give this one to R. 
+
+## 1.2 The demand for the job market
+
+Next is demand for the job market for Python and R. Currently there are 21,271 Data Scientist jobs for Python. A
+
+![](/assets/data_science_jobs_python.jpg)
+
+And, there are 8,713 Data Scientist Jobs for R. 
+
+![](/assets/data_science_jobs_r.jpg)
+
+So for every 1 R data science job there are 2.4 for Python.
+
+I'll give this one to Python.  
+
+## 1.3 The competition in the job market
+
+Next, what we need to consider is how many people you will be competing against to get these jobs. 
+
+* **Python:** There are over 8,000,000 people that know python (and that number is growing fast)
+* **R:** It's estimated that 250,000 to 2,000,000 people that know R and that number is also growing fast. 
+
+So for every 1 R user there are potentially 4 to 32 more python users. 
+
+![](/assets/python_r_competition.jpg)
+
+So R positions are going to less competitive by 10X or more. Dang!
+
+This one clearly goes to R. 
+
+## R is a solid choice
+
+R is a solid choice, and it's one of the reasons that students like David are able to quickly transition into a data science role. And keep in mind, you can always pick up Python later.
+
+![](/assets/python_vs_r_results.jpg)
+
+# 2. Pick a Development Tool
+
+Next, we need to pick an integrated development environment. This is a fancy term for the thing you will type your code into. 
+
+![](/assets/rstudio_ide.jpg)
+
+I ran a poll to see what everyone's using for R (and I did the same thing for Python too if you want to see those results).
+
+## Their favorite way to code in R
