@@ -431,22 +431,24 @@ If we take a look at the cheat sheet, we can see on page 2 the "Shinyverse", an 
 
 ![](/assets/cheatsheet_shinyverse.jpg)
 
-# 5. How to learn data science faster
+# 5. How to earn a $50,000 salary bump in 6-months
 
 With everything we've covered in this post, you have all of the information you need to learn data science. 
 
-But you still don't have a plan to do it fast. 
+But you still **don't** have a plan to do it fast. 
 
-In fact, it will still take a minimum of 2 years to learn on your own.
+In fact, it will still take a minimum of 2 years (or longer) to learn on your own.
 
 But what if you could do it 6-months?
 
 How amazing would it be to have a 6-figure career that you love?
 
-And in the process earn $125,000 and have the financial freedom to do the things you love. 
+And in the process earn $125,000 per year or more until you retire and have the financial freedom to do the things you love. 
 
 Remember David from the beginning that just increased his salary $50,000. 
 
-David is my student. He is learning data science in [my R-Track Program](). 
+David is my student. He did it in under 6-months. Here's what he is doing. 
 
-If you are ready to learn. I am ready to teach. 
+David is learning data science in [my R-Track Program](). 
+
+If you are ready to learn. I am ready to teach.
