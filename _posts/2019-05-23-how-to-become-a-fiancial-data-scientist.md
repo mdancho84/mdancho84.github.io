@@ -15,20 +15,26 @@ image: "/assets/2019-05-23-financial-data-scientist/how-to-become-a-financial-da
 image_preview: "/assets/2019-05-23-financial-data-scientist/how-to-become-a-financial-data-scientist.jpg"
 
 ---
-Becoming a data scientist in Finance (Or ANY domain) can be a lofty challenge... unless you know how to streamline the path. Instead of asking "what skills do I need?", **_we need to ask a different question_**.
+Becoming a data scientist in Finance (Or ANY domain) can be a lofty challenge... unless you know how to streamline the path. Instead of asking, _"what skills do I need?"_, we need to ask a different question.
 
-We need to ASK, "**_What does the organization value?"_**
+We need to ASK, "**_What does the business value?"_**
 
-# How to learn what the organization values.
+# What does the business value?
 
-Your goal is NOT to learn skills. Your goal IS to learn how to generate value for your organization. This process has 2-steps.
+Your goal is NOT to learn skills. Your goal IS to learn how to generate value for your business. This process has 2-steps.
 
 1. Figure out what creates value.
 2. Then make a learning plan by applying the [**80/20 Rule**](https://www.investopedia.com/terms/1/80-20-rule.asp) to get there as fast as possible.
 
 SPEED IS CRITICAL.
 
-<mark><strong>Why is speed critical?</strong> Lack of speed will cost you your dreams, and even worse, your dream will die a slow, agonizing death until you QUIT. And no one wants this. So this is why we ALWAYS apply the 80/20 rule when learning ANY new or complex task like learning to code, learning guitar, speaking a foreign language, etc. Learning data science is no different.</mark>
+# Why is speed critical? 
+
+![](/assets/need_for_speed.jpg)
+
+Lack of speed will cost you your dreams, and even worse, your dream will die a slow, agonizing death until you QUIT. And no one wants this. 
+
+So this is why we ALWAYS apply the 80/20 rule when learning ANY new or complex task like learning to code, learning guitar, speaking a foreign language, etc. Learning data science is no different.
 
 # For financial people
 
@@ -82,7 +88,11 @@ Learning _everything_ is a costly strategy issue, but an easy one to make. With 
 
 Add to it that every misstep costs us time, and it's easy to see why many data scientists struggle (and many don't succeed).
 
-<mark><strong>Time is our enemy.</strong> The longer we take on this journey, the more competitive it gets and the more likely we are to fail.</mark>
+**Time is our enemy.**
+
+The longer we take on this journey, the more competitive it gets and the more likely we are to fail.
+
+Use time wisely. Be efficient. Be effective. 
 
 # We Grow By Building Skills That Add Value
 
@@ -90,7 +100,7 @@ One thing I learned along my own journey was how to sell my value.
 
 It was an incredibly important lesson that I learned through my experience consulting. Every initial client engagement was a sales pitch. I had to sell myself.
 
-<mark>How did I do it?</mark>
+**How did I do it?**
 
 When I'd begin any consulting engagement, I'd never go in saying I know something. Rather, I'd ask how I can help and **listen** for opportunity.
 
@@ -108,9 +118,9 @@ We need to change our beliefs.
 
 Most of us feel that to get a job in data science, you need to learn data science inside and out. Machine Learning, Deep Learning, Neural Networks, Graph Theory - the list goes on.
 
-<mark>This is not correct.</mark>
+**This is not correct. You don't need to master everything.** 
 
-Further, this "learn everything" strategy will cost you time, and likely won't result in your desired outcome: **to begin a career as a Data Scientist in Finance (or in any domain).**
+Further, this "learn everything" strategy will cost you time, and likely won't result in your desired outcome: to begin a career as a Data Scientist in Finance (or in any domain).
 
 When we adopt a new mindset, one of value over skills, we begin seeking skills that add value _incrementally_ to the larger goal. This is a step in the right direction, one that many data scientists miss.
 
@@ -138,7 +148,7 @@ Solving problems that address KPI's (Key Performance Indicators) is a great plac
 
 # How do you (the Data Scientist) generate value?
 
-<mark><strong>It's Simple:</strong> By taking applications into production.</mark>
+<strong>It's Simple:</strong> By taking applications into production.
 
 ### What is an application?
 
@@ -152,7 +162,7 @@ The application is the THING that non-data scientists (normal people) can use to
 
 We know that applications can help improve decision making. But applications are worthless, unless people can use them. Production is the process for giving people access to your applications.
 
-<mark>Production generates MASSIVE VALUE. In fact, applications that embed data science can save organizations $15,000,000 per year or more!</mark>
+**Production generates MASSIVE VALUE. In fact, applications that embed data science can save organizations $15,000,000 per year or more!**
 
 Don't believe me? Here's an expert application that I built that can easily result in _multi-million-dollar-per-year savings_.
 
@@ -255,7 +265,7 @@ The problem is that you don't have a plan. I'm here to help. Here's exactly what
 
 But skills alone won't help you.
 
-<mark><strong>You need a plan.</strong> And the best plan is doing data science projects.</mark>
+<strong>You need a plan.</strong> And the best plan is doing data science projects.
 
 # Why project-based learning helps.
 
