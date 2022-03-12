@@ -15,32 +15,83 @@ image: "/assets/2019-05-23-financial-data-scientist/how-to-become-a-financial-da
 image_preview: "/assets/2019-05-23-financial-data-scientist/how-to-become-a-financial-data-scientist.jpg"
 
 ---
-Becoming a data scientist in Finance (Or ANY domain) can be a lofty challenge... unless you know how to streamline the path. Instead of asking, _"what skills do I need?"_, we need to ask a different question.
+It was December of 2020. Justin was a working in academia at the University of Southern Mississippi doing sports analysis. But he was longing for more. 
 
-We need to ASK, "**_What does the business value?"_**
+By June of 2021 (exactly 6 months later), Justin told me that he had just got his dream job - Lead Data Scientist at Northwestern Mutual (one of the biggest insurance firms in the US).
 
-# What does the business value?
+![](/assets/success_justin_kurland.jpg)
 
-Your goal is NOT to learn skills. Your goal IS to learn how to generate value for your business. This process has 2-steps.
+I was ecstatic for him. I knew he was destined for great things. But I also wanted to know more.
 
-1. Figure out what creates value.
-2. Then make a learning plan by applying the [**80/20 Rule**](https://www.investopedia.com/terms/1/80-20-rule.asp) to get there as fast as possible.
+How did Justin do it?
 
-SPEED IS CRITICAL.
+So I set out to answer exactly this question. I dove into researching his path and the paths of other data scientists that transitioned in a short period of time. In this article, you will learn what I found out:
+
+* The 80/20 rule (how it helps you provide business value)
+* Why becoming a unicorn is slowing you down
+* The big mistake you're making (I made this too)
+* The 3 things organizations value (and how to deliver each with data science)
+
+First, let's talk about the 80/20 rule. 
+
+# 1. The 80/20 rule for business value
+
+As I began researching what sepearated the fast learners from the slow learners, I found out quickly a big difference. 
+
+The slow learners were learning everything. And trying to become masters. 
+
+But the fast learners were doing something different. Something unique. 
+
+They were learning by applying the [**80/20 Rule**](https://www.investopedia.com/terms/1/80-20-rule.asp). 
+
+More specifically they were doing a 2-step process that delivered unheard of results:
+
+1. They figured out what creates value for the business.
+2. Then they made a learning plan by applying the [**80/20 Rule**](https://www.investopedia.com/terms/1/80-20-rule.asp) to get there as fast as possible.
+
+Do you see the difference?
+
+The fast learners understood that speed is critical.
 
 # Why is speed critical? 
 
+I dove a little deeper to understand why speed was critical. Here's what I discovered. 
+
 ![](/assets/need_for_speed.jpg)
 
-Lack of speed will cost you your dreams, and even worse, your dream will die a slow, agonizing death until you QUIT. And no one wants this. 
+For the slow learners, lack of speed was costing these unsuspecting data scientists their dreams. 
 
-So this is why we ALWAYS apply the 80/20 rule when learning ANY new or complex task like learning to code, learning guitar, speaking a foreign language, etc. Learning data science is no different.
+Even worse, their dreams were dying a **slow, agonizing death** until they simply QUIT. 
 
-# For financial people
+And no one wants this. 
 
-If you are a financial professional (or any other professional) _seeking to learn data science_, then **this is what you've been waiting for.**
+Most slow learners never see it coming. And they don't realize the HUGE financial cost. 
 
-The opportunity to understand what organizations in Finance (or any Domain) value from the data science practice.
+I wrote about the [3 paths to learning data science here](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html). And the cost of each. Just to recap, there are 3 types of data science learning paths:
+
+1. **Those that have no plan**. These are hobbyists. They usually quit. This **costs them $8,000,000** over a 35 year career when factoring in a measly 3-percent annual raise.
+2. **Those that have a crappy plan.** They will take 5-years. But will eventually learn data science. They will also lose out financially because it took them sooo long to learn data science. 5-years at $125,000 per year when factoring in a low 3-percent raise = **loss of $664,000**. Ouch!
+3. **Those that have an exceptional plan.** They are likely to be successful and can complete the transition in under 6-months.
+
+So this is why the fast learners always apply the 80/20 rule when learning ANY new or complex task like learning to code, learning guitar, speaking a foreign language, etc. 
+
+Learning data science was simply no different.
+
+So let's dive into how we can become a data scientist with the 80/20 Rule. And focus on generating business value at the same time. 
+
+# How to become a data scientist
+
+I'm a big fan of context. So in uncovering how to become a data scientist, I took a specific domain: Finance. 
+
+But don't worry - if you are not a financial person, the process is the same for other domains. 
+
+Let me explain. 
+
+# For financial people 
+
+If you are a financial professional (or any other professional) seeking to learn data science, then **this is what you've been waiting for.**
+
+The opportunity to understand what organizations in Finance value from the data science practice.
 
 If you understand what they value, you then know what skills to learn to streamline your path from where you are now to being a productive member of a Financial organization (or any organization).
 
@@ -49,9 +100,11 @@ If you understand what they value, you then know what skills to learn to streaml
 
 # For non-financial people
 
-What I'm covering here is focused on finance, but the same strategies can be applied broadly to **ANY domain**, as wide-ranging as Marketing, Research & Development, Medicine, and more.
+What I'm covering here is focused on finance (because I needed a specific example to drive this point home). 
 
-I'll assume that if you are reading this, then you have _some_ knowledge on [_Portfolio Theory_](https://www.investopedia.com/terms/m/modernportfoliotheory.asp) and [_Risk Management_](https://www.investopedia.com/terms/r/riskmanagement.asp), which are required knowledge for the finance domain. BUT, even if you don't just replace those terms with **"Bubble Gum"** (or any silly object) and keep moving on.
+BUT, the same strategies I cover can be applied broadly to **ANY domain**, as wide-ranging as Marketing, Research & Development, Medicine, and more.
+
+If you are reading this, and don't have knowledge on [_Portfolio Theory_](https://www.investopedia.com/terms/m/modernportfoliotheory.asp) and [_Risk Management_](https://www.investopedia.com/terms/r/riskmanagement.asp), then just replace those terms with **"Bubble Gum"** (or any silly object) and keep moving on.
 
 Key point: The strategies for learning what organizations value are most important. Not the BUZZ WORDS or domain jargon.
 
@@ -59,7 +112,7 @@ Key point: The strategies for learning what organizations value are most importa
 
 But, first, the cold hard reality...
 
-# Learning skills that you don't use is a massive waste of time.
+# 2. Why becoming a unicorn is slowing you down.
 
 Most financial (or non-financial) people that want to break into Data Science make a **major a mistake** that costs them a career in data science. It starts with their first step.
 
@@ -112,9 +165,13 @@ This showed them value. I exposed problems they didn't even know they had, and I
 
 **BUT, skills alone don't sell. It's solutions, results, and value that sells.**
 
-# Marketing 101: Skills Don't Sell; Solutions Sell, Results Sell, Value Sells
+# 3. The big mistake you're making
+
+Quite simply skills don't sell. So why are you marketing them?
 
 We need to change our beliefs.
+
+**Here's your mistake.** 
 
 Most of us feel that to get a job in data science, you need to learn data science inside and out. Machine Learning, Deep Learning, Neural Networks, Graph Theory - the list goes on.
 
@@ -129,16 +186,18 @@ When we adopt a new mindset, one of value over skills, we begin seeking skills t
 ![Stop Modern Data Scientist](/assets/2019-05-23-financial-data-scientist/stop_modern_data_scientist.jpg)
 <p class="text-center date">Bad Strategy: Learn Skills That Every Data Scientist "Should" Have</p>
 
-**Rather, learn how to create value by incrementally adding skills to your toolkit.** Focus on addressing what financial organizations want. Then learn tools that will deliver it.
+# The importance of creating value
+
+Rather than learning everything. A better strategy is learning how to create value by incrementally adding skills to your toolkit. Focus on addressing what financial organizations want. Then learn tools that will deliver it.
 
 ![Create Value](/assets/2019-05-23-financial-data-scientist/create_value.jpg)
 <p class="text-center date">Good Strategy: Learn How To Create Value</p>
 
 The next logical questions is...
 
-# What do financial organizations value?
+# 3. The 3 things organizations value.
 
-To be effective in a Financial Organization, you need to generate value for the organization. You do this by:
+To be effective in a Financial Organization (or any company), you need to generate value for the business. You do this by:
 
 1. Reducing **Cost**
 2. Increasing **Revenue**
@@ -300,34 +359,26 @@ Justin another student of mine was able to transition into a career as the Lead 
 
 ![](/assets/success_justin_kurland.jpeg)
 
-# How do you become a financial data scientist (or a data scientist in any domain)?
+# How to earn a $125,000 salary in 6-months
 
-If you've read this article and decided that **_you're more excited than ever to start this journey_**, then I am here to help.
+With everything we've covered in this post, you have all of the information you need to learn data science.
 
-If you’d like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
+But you still **don't** have a plan to do it fast.
 
-I will commit to you if you are ready to commit to learning. If so, the tools can be learned in under 6-months, not years.
+In fact, it will still take a minimum of 2 years (or longer) to learn on your own.
 
-Here's the plan that integrates the **_80/20 Rule, Project-Based Learning, Business Value Generation._**
+**But what if you could do it 6-months?**
 
-## Step 1: Watch my Free 40-Minute Webinar
+How amazing would it be to have a 6-figure career that you love?
 
-Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.**
+And in the process earn $125,000 per year or more until you retire and have the financial freedom to do the things you enjoy.
 
-AND, I don’t want it to take that long for you.
+Here's what he is doing.
 
-So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) that provides a roadmap for what worked for me.
+David is learning data science in [my R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
 
-Literally 5-years of learning, consolidated into 40-minutes. It’s jammed packed with value. I wish I saw this when I was starting… It would have made a huge difference.
+If you are ready to learn. I am ready to teach.
 
-## Step 2: Take action
+![](/assets/rtrack_what_they_are_doing.jpeg)
 
-For my action-takers, if you are ready to take your skills to the next level and DON’T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you’d like someone to help you do this in UNDER 6-MONTHS or less….
-
-Then I can help with that too. If you simply want to get started today, [**join my 5-Course R-Track system here**](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
-
-Get ready. The ride is wild. And the destination is AMAZING!
-
-I look forward to helping you learn data science for business. I will do everything in my power to help you succeed.
-
-\-Matt Dancho, Founder of Business Science and Data Science Instructor at Business Science University
+<p class="text-center" style="font-size:36px;"> <a href="[https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series "https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series")">Join the 5-Course R-Track Today</a></p>
