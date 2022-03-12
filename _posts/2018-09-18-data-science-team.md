@@ -205,7 +205,7 @@ We have built a best-in-class educational program that incorporates learnings:
 * Through our own **_applied consulting experiences_** that have successfully generated ROI for organizations
 * Through **_experience building the tools and software_** needed to solve business problems
 
-**The next-generation Business Science education offers two options that integrate this knowledge**:
+**The next-generation Business Science education offers two options that integrate this knowledge**.
 
 ## Building A Data Science Team? Business Science Can Help.
 
