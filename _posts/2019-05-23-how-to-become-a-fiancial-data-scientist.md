@@ -39,11 +39,11 @@ First, let's talk about the 80/20 rule.
 
 # 1. The 80/20 rule for business value
 
-As I began researching what separated the fast learners from the slow learners, I found out quickly a big difference. 
+As I began researching what separated the those that were becoming data scientists from those that weren't, I quickly found out a big difference. 
 
-The slow learners were learning everything. And trying to become masters. 
+The ones that were NOT making it were trying to learn everything. And trying to become masters. 
 
-But the fast learners were doing something different. Something unique. 
+But the ones that WERE making it were doing something different. Something unique. 
 
 They were learning by applying the [**80/20 Rule**](https://www.investopedia.com/terms/1/80-20-rule.asp). 
 
@@ -54,15 +54,17 @@ More specifically they were doing a 2-step process that delivered unheard of res
 
 Do you see the difference?
 
-The fast learners understood that speed is critical. 
+The ones that WERE becoming data scientists understood that speed is critical. 
 
-# Why is speed critical? 
+# Why is speed critical? (The plateau effect)
 
 I dove a little deeper to understand why speed was critical. Here's what I discovered. 
 
 ![](/assets/need_for_speed.jpg)
 
-For the slow learners, they were never actually applying anything. Progress was slow because they had no focus. And they plateaued. 
+The ones that were NOT making it were never actually applying anything. 
+
+Progress was slow because they had no focus. And they plateaued. 
 
 The **plateau-effect** was costing these unsuspecting data scientists their dreams. 
 
