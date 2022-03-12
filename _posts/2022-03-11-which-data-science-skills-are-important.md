@@ -19,7 +19,7 @@ image_preview: "/assets/data_science_skills-1.jpg"
 ---
 In late September 2021, David was a Research Analyst with Texas A&M University.
 
-In March of 2022, less than 6-months later, he has accepted a position with Microsoft as a Machine Learning Support Engineer. In one of my webinars, David explained that he had just increased his salary by $50,000.
+In March of 2022, less than 6-months later, he has accepted a position with Microsoft as a Machine Learning Support Engineer. In one of my webinars, David explained that he had just increased his salary by $50,000. 
 
 ![](/assets/david_espinola_review.jpg)
 
