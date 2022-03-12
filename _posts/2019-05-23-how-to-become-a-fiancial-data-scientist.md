@@ -210,6 +210,8 @@ Rather than learning everything. A better strategy is learning how to create val
 
 The next logical questions is...
 
+What do organizations value?
+
 # 4. The 3 things organizations value.
 
 To be effective in a Financial Organization (or any company), you need to generate value for the business. You do this by:
@@ -361,7 +363,7 @@ And in 6-months from starting my program, Justin landed his Lead Data Scientist 
 
 And to date I've helped over 3,000 students become world-class data scientists at companies including Apple, Microsoft, S&P Global, and more. 
 
-I'd like the opportunity to help you. 
+**I'd like to help you.** 
 
 If you are ready to learn. I am ready to teach. 
 
@@ -369,4 +371,4 @@ Here's how.
 
 ![](/assets/rtrack_what_they_are_doing.jpeg)
 
-<p class="text-center" style="font-size:36px;"> <a href="[https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series "https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series")">Join the 5-Course R-Track Today</a></p>
+<p class="text-center" style="font-size:36px;"> <a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join the 5-Course R-Track Today</a></p>
