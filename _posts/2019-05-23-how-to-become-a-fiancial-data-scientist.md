@@ -70,6 +70,8 @@ Even worse, their dreams were dying a **slow, agonizing death** until they simpl
 
 And these slow learners don't realize the HUGE financial cost. 
 
+# The huge financial cost
+
 I wrote about this financial cost in the [3 paths to learning data science here](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html). Just to recap, there are 3 types of data science learning paths:
 
 1. **Those that have no plan**. These are hobbyists. They usually quit. This **costs them $8,000,000** over a 35 year career when factoring in a measly 3-percent annual raise.
@@ -84,7 +86,9 @@ So let's dive into how we can become a data scientist with the 80/20 Rule. And f
 
 # How to become a data scientist
 
-I'm a big fan of context and case studies. So in uncovering how to become a data scientist, I took a specific domain: Finance. One that I'm very familiar with. 
+I'm a big fan of context and case studies. 
+
+So in uncovering how to become a data scientist, I analyzed a specific domain: Finance. One that I'm very familiar with. 
 
 But don't worry - if you are not a financial person, the process for creating business value is the same for other domains. 
 
@@ -337,13 +341,15 @@ Do you remember Justin?
 
 ![](/assets/success_justin_kurland.jpg)
 
-Justin was student that in less than 6-months transitioned from academia to the Lead Data Scientist of Northewestern Mutual (Top 10 Insurance Firm).
+Justin was student that in less than 6-months transitioned from academia to the Lead Data Scientist of Northwestern Mutual (Top 10 Insurance Firm).
 
 Here's what he is doing.
 
 Justin is my student. 
 
-He learned data science in [my R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
+He learned data science in [my R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series). 
+
+And in 6-months from starting my program, Justin landed his Lead Data Scientist position making 6-figures in the process (not to mention having an awesome career he loves).
 
 And to date I've helped over 3,000 students become world-class data scientists at companies including Apple, Microsoft, S&P Global, and more. 
 
