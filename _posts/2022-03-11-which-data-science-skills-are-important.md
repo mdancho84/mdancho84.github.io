@@ -9,7 +9,7 @@ tags:
 - R-Bloggers
 - Learn-R
 - R
-title: Which data science skills are important ($50,000 increase in salary in 6-months)
+title: The 14 data science skills (To get a $50,000 increase in salary in 6-months)
 date: 2022-03-11 13:57:00 -0500
 excerpt: 'Which skills are important to becoming a data scientist? How to pick a language?
   How to learn the skills? These questions and many more are answered in this post. '
@@ -48,6 +48,8 @@ If you want to become a data scientist, you'll need to learn how to generate val
 
 David learned these skills and was able to convince employers to hire him. The result was an instant $50,000 increase to his salary and not to mention is in a career that he's super excited about.
 
+# The data science dream
+
 Further to my point, according to Glassdoor, learning these data science skills [can turn into a $126,722 career](https://www.glassdoor.com/Salaries/pittsburgh-data-scientist-salary-SRCH_IL.0,10_IM684_KO11,25.htm?clickSource=searchBtn) (if you live in Pittsburgh PA like I do, I encourage you to check your own locale).
 
 ![](/assets/glassdoor_data_scientist_salary.jpg)
@@ -58,7 +60,7 @@ But that's just the start.
 
 Like I told David, your career will accelerate.
 
-## What's after data scientist?
+# What's after data scientist?
 
 After data scientist comes senior data scientist.
 
@@ -167,7 +169,7 @@ So for every 1 R user there are potentially 4 to 32 more python users.
 
 ![](/assets/python_r_competition.jpg)
 
-So R positions are going to less competitive by 10X or more. Dang!
+So R positions are **less competitive by 10X or more**. Dang!
 
 This one clearly goes to R.
 
@@ -177,7 +179,7 @@ R is a solid choice, and it's one of the reasons that students like David are ab
 
 ![](/assets/python_vs_r_results.jpg)
 
-## What about Excel?
+# What about Excel?
 
 At this point I always get a question, "what about excel?"
 
@@ -244,7 +246,7 @@ But still, it's not an easy decision for python users to pick an IDE.
 
 In fact, I got a ton of comments for Spyder and half a dozen other random IDEs.
 
-# 4. How to learn the data science skills
+# 4. How to learn the 14 data science skills
 
 Once you settle on a language and IDE, you're ready to begin the fun process of learning the skills to become a data scientist.
 
@@ -256,7 +258,7 @@ At this point you need a plan. Why?
 
 ...Because your goal should be to get a data science job **as fast as possible.** The market is crazy right now. But, eventually the market will cool and you'll be outa-luck.
 
-### What about soft skills?
+# What about soft skills?
 
 I always get this question at this point. I can hear it now.
 
@@ -272,7 +274,7 @@ If you do those 3 things consistently, you will be promotable. And people will w
 
 Especially focus on #3 (Being nice).
 
-## The 3 learning paths (choose wisely)
+# The 3 learning paths (choose wisely)
 
 ![](/assets/two_paths-1.jpg)
 
@@ -286,7 +288,7 @@ Now, keep in mind, I actually had a pretty crappy plan. And it seriously took me
 
 But, students like David have an exceptional plan. They made it in 6-months. And, it **involves cheating.**
 
-## It's OK to cheat...
+# It's OK to cheat...
 
 And in the real world, to learn data science fast you need to cheat. What I mean is use a cheat sheet. [Here's my R-Cheat Sheet](https://www.business-science.io/r-cheatsheet) that will help you learn the skills you need.
 
@@ -296,7 +298,7 @@ And in the real world, to learn data science fast you need to cheat. What I mean
 
 Here's how to cheat.
 
-## Learn the foundational skills first (save Machine learning for later)
+# Learn the foundational skills first (save Machine learning for later)
 
 Now I know what half of you are going to do.
 
@@ -325,7 +327,7 @@ Things like:
 
 It' the honest truth. Listen, if you focus on these core foundational skills, it will make machine learning so much easier.
 
-## How to learn modeling (and machine learning)
+# How to learn modeling (and machine learning)
 
 Now it's time to take the training wheels off. Machine Learning!
 
@@ -333,7 +335,7 @@ Now it's time to take the training wheels off. Machine Learning!
 
 Now you're probably thinking...
 
-## What about maths, stats, and algorithms?
+# What about maths, stats, and algorithms?
 
 At this point, a logical question is - "What about maths, stats, and algorithms?"
 
@@ -355,7 +357,7 @@ The process involves:
 
 If you do this on real projects then you will in fact learn maths, stats, and algorithms.
 
-## What machine learning tools should I learn?
+# What machine learning tools should I learn?
 
 If we head on back to my cheat sheet, on page 3 you'll find links to my goto-machine learning tools.
 
@@ -368,9 +370,9 @@ I'm a big fan of two packages (or ecosystems):
 
 Another (extremely important) skill is feature engineering.
 
-* **Recipes:** Has preprocessing tools to transform numeric data and create features from date, time, and text data. 
+* **Recipes:** Has preprocessing tools to transform numeric data and create features from date, time, and text data.
 
-## Time series is a money saver
+# Time series is a money saver
 
 Next, if you are interested in becoming _insanely_ valuable to your organization.
 
@@ -378,15 +380,15 @@ Then learn time series.
 
 ![](/assets/money.jpg)
 
-Organizations are fans of saving money. An if you can predict the future, then chances are you are going to be very valuable to your company.
+Organizations are fans of saving money. An if you can predict the future, then chances are you are going to be very valuable to your company. Why?
 
 ![](/assets/forecasting_modeltime.jpg)
 
-Time series analysis and forecasting are two of the most in demand skills. Why? A 5% improvement in a forecast can save a company like **Walmart $50,000,000 each years**.
+A 5% improvement in a forecast can save a company like **Walmart $50,000,000 each years**.
 
 So Walmart will pay an arm and a leg for someone that can help them improve that area.
 
-## What time series tools should I learn?
+# What time series tools should I learn?
 
 Let's head back to the cheat sheet, and check out page 3 the "Time Series Analysis" and "Forecasting" section.
 
@@ -399,7 +401,7 @@ Here's what you need to learn:
 
 Once you have those skills in the bank, then it's time to move onto production.
 
-## How to take models into production (what the heck is this?)
+# How to take models into production (what the heck is production?)
 
 Your model is worthless...
 
@@ -444,7 +446,7 @@ But you still **don't** have a plan to do it fast.
 
 In fact, it will still take a minimum of 2 years (or longer) to learn on your own.
 
-But what if you could do it 6-months?
+**But what if you could do it 6-months?**
 
 How amazing would it be to have a 6-figure career that you love?
 
@@ -459,6 +461,8 @@ Here's what he is doing.
 David is learning data science in [my R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
 
 If you are ready to learn. I am ready to teach.
+
+![](/assets/rtrack_what_they_are_doing.jpeg)
 
 <p class="text-center" style="font-size:36px;">
 <a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join the 5-Course R-Track Today</a></p>
