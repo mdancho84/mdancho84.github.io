@@ -80,7 +80,11 @@ I wrote about this financial cost in the [3 paths to learning data science here]
 2. **Those that have a crappy plan.** They will take 5-years. But will eventually learn data science. They will also lose out financially because it took them sooo long to learn data science. 5-years at $125,000 per year when factoring in a low 3-percent raise = **loss of $664,000**. Ouch!
 3. **Those that have an exceptional plan.** They are likely to be successful and can complete the transition in under 6-months.
 
-So this is why the fast learners (the ones with an exceptional plan) always apply the 80/20 rule when learning ANY new or complex task like learning to code, learning guitar, speaking a foreign language, etc. 
+You see there's a natural phenomenon that happens when learning ANY new or complex task like learning to code, learning guitar, speaking a foreign language, etc. 
+
+We learn by first mastering a small subset of the most frequently used tools. 
+
+We then build on those over time. 
 
 Learning data science was simply no different.
 
@@ -347,7 +351,7 @@ Do you remember Justin?
 
 Justin was student that in less than 6-months transitioned from academia to the Lead Data Scientist of Northwestern Mutual (Top 10 Insurance Firm).
 
-Here's what he is doing.
+**Here's what Justin did.**
 
 Justin is my student. 
 
