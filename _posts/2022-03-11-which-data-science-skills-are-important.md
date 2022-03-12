@@ -9,7 +9,7 @@ tags:
 - R-Bloggers
 - Learn-R
 - R
-title: The 14 data science skills (To get a $50,000 increase in salary)
+title: Which data science skills are important (To get a $50,000 increase in salary)
 date: 2022-03-11 13:57:00 -0500
 excerpt: 'Which skills are important to becoming a data scientist? How to pick a language?
   How to learn the skills? These questions and many more are answered in this post. '
