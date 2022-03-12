@@ -297,11 +297,13 @@ Here is the same graphic with a set of tools that can be used as part of the _"D
 
 # Value comes from tool integration
 
-Value comes from using a **specific set of tools** that **incrementally add value** along the _"Data Science Workflow"_. This allows us start with a business problem and end with a predictive web application that **delivers business value** that is tracked with reports and **measured for ROI (Return on Investment)**.
+Value comes from using **a** **specific set of tools** that **incrementally add value** along the _"Data Science Workflow"_. 
+
+This allows us start with a business problem and end with a web application that **delivers massive business value** that is tracked with reports and **measured for ROI (Return on Investment)**.
 
 Let's break this down.
 
-### **Specific set of tools...**
+### **A specific set of tools...**
 
 Focusing on this specific set of tools cuts the time to learn data science dramatically. This is the **_80/20 Rule in Full Effect!_**
 
@@ -309,21 +311,21 @@ Focusing on this specific set of tools cuts the time to learn data science drama
 
 The tools combine into an integrated approach to solving problems. Therefore, we can't just read a book on each tool independently. **_We need to learn the tools together to harness their power._**
 
-### **...that end with a web application that delivers business value...**
+### **...that end with a web application that delivers massive business value...**
 
 The Application is the Value-Generator. Without it, the data science team adds little value to the organization.
 
-### ...and we can measure this with Return On Investment (ROI).
+### **...and we can measure this with Return On Investment (ROI).**
 
 Any business improvement should be tracked, reported on, and measured for return on investment. Changes in KPI's converted to financial value.
 
 # 7. How to earn a $125,000 salary in 6-months
 
-With everything we've covered in this post, you have all of the information you need to learn data science.
+With everything we've covered in this post, you now know what businesses value and what you need to deliver (an application) so they get massive value.
 
-But you still **don't** have a plan to do it fast.
+But you have no plan that incorporates the 80/20 philosophy. 
 
-In fact, it will still take a minimum of 2 years (or longer) to learn on your own.
+In fact it will still take you a minimum of 5 years to learn. (I know because this is how long it took me. Ugh.)
 
 **But what if you could do it 6-months?**
 
@@ -331,11 +333,25 @@ How amazing would it be to have a 6-figure career that you love?
 
 And in the process earn $125,000 per year or more until you retire and have the financial freedom to do the things you enjoy.
 
+Do you remember Justin?
+
+![](/assets/success_justin_kurland.jpg)
+
+Justin was student that in less than 6-months transitioned from academia to the Lead Data Scientist of Northewestern Mutual (Top 10 Insurance Firm).
+
 Here's what he is doing.
 
-David is learning data science in [my R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
+Justin is my student. 
 
-If you are ready to learn. I am ready to teach.
+He learned data science in [my R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
+
+And to date I've helped over 3,000 students become world-class data scientists at companies including Apple, Microsoft, S&P Global, and more. 
+
+I'd like the opportunity to help you. 
+
+If you are ready to learn. I am ready to teach. 
+
+Here's how.
 
 ![](/assets/rtrack_what_they_are_doing.jpeg)
 
