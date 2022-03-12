@@ -19,7 +19,7 @@ image_preview: "/assets/data_science_skills-1.jpg"
 ---
 In late September 2021, David was a Research Analyst with Texas A&M University.
 
-In March of 2022, less than 6-months later, he has accepted a position with Microsoft as a Machine Learning Support Engineer. In one of my webinars, David explained that he had just increased his salary by $50,000. 
+In March of 2022, less than 6-months later, he has accepted a position with Microsoft as a Machine Learning Support Engineer. In one of my webinars, David explained that he had just increased his salary by $50,000.
 
 ![](/assets/david_espinola_review.jpg)
 
@@ -452,15 +452,23 @@ How amazing would it be to have a 6-figure career that you love?
 
 And in the process earn $125,000 per year or more until you retire and have the financial freedom to do the things you enjoy.
 
-Remember David's story - How he just increased his salary $50,000.
+**Remember David's story - How he just increased his salary $50,000.**
+
+![](/assets/david_espinola_review.jpg)
 
 How did David accomplish the impossible in under 6-months?
 
-Here's what he is doing.
+**Here's what he is doing.**
+
+David is my student. 
 
 David is learning data science in [my R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
 
+**I want to help you too.** 
+
 If you are ready to learn. I am ready to teach.
+
+Here's how. 
 
 ![](/assets/rtrack_what_they_are_doing.jpeg)
 
