@@ -113,7 +113,9 @@ BUT, the same strategies I cover can be applied broadly to **ANY domain**, as wi
 
 If you are reading this, and don't have knowledge on [_Portfolio Theory_](https://www.investopedia.com/terms/m/modernportfoliotheory.asp) and [_Risk Management_](https://www.investopedia.com/terms/r/riskmanagement.asp), then just replace those terms with **"Bubble Gum"** (or any silly object) and keep moving on.
 
-Key point: The strategies for learning what organizations value are most important. Not the BUZZ WORDS or domain jargon.
+![](/assets/bubble_gum.jpeg)
+
+The strategies for learning what organizations value are most important. Not the BUZZ WORDS or domain jargon.
 
 **What I will show you is how you can take domain knowledge and** **extend it to value-creating activities for the business using data science tools**.
 
