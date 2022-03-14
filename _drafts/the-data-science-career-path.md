@@ -157,7 +157,11 @@ Now that you know data science is right for you, let's show you how to get promo
 
 # 3. How to get promoted to Senior & Lead Data Scientist (Make $150,000/yr)
 
-Now that 
+First, let's cover the career path for a data scientist, which for 85% of organizations looks like this:
+
+![](/assets/data_science_career_path-2.jpg)
+
+I've done the hardwork of doing all the research on each of the positions. Here's what it looks like in table form:
 
 # 4. How one data scientist saved his company $5M per year
 
