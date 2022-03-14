@@ -114,9 +114,50 @@ Let me make this point to conclude: **Data Engineers are valuable (if not essent
 
 But since we are focused on the Data Science career path, it's more important to focus on downstream activities like production and business results rather than upstream tasks like data processing. 
 
-# 2. The career path of a data scientist
+## Why you must avoid a business analyst position?
 
-# 3. How to get promoted to Senior & Lead Data Scientist
+**Popular Opinion:** People should start as a business analyst, work there 2-4 years, and then migrated into data scientist positions. 
+
+**Matt's Opinion:** People are regularly getting 50% raises by snatching up data scientist positions. You should do that. 
+
+We are in a once in a lifetime generational disparity between the number of data scientists available (supply) and the number of positions needed (demand).
+
+![](/assets/massive_labor_shortage.jpg)
+
+<p class="text-center date">Massive Labor Shortage!</p>
+
+Because of COVID, there's a bullwhip-effect in the US labor market. Let me explain. 
+
+In response to COVID, governments enforced a shutdown, forcing labor to decline swiftly and without notice. 
+
+Upon reopening, not all workers came back. This created a supply imbalance forcing companies to fill spots any way they could. 
+
+## Poaching insanity
+
+![](/assets/buzzfeed_poaching.jpeg)
+
+So what happened next is a once in a lifetime generational supply/demand imbalance that is working in your favor. 
+
+Companies began poaching data scientists from other companies stealing their highest value assets: their employees. 
+
+And the training time for most new hires is 1-2 years, so companies either had to offer higher salaries and benefits or be at risk of data scientists being poached. 
+
+Now you benefit. 
+
+Because you can SKIP the whole "business analyst -> data scientist" game and...
+
+**Jump right into data scientist roles!**
+
+If you want to do so, check out these 2 articles:
+
+1. [Which data science skills are important (To get a $50,000 increase in salary)](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html)
+2. [How To Become A Financial Data Scientist (Or A Data Scientist In Any Domain)](https://www.business-science.io/business/2019/05/23/how-to-become-a-fiancial-data-scientist.html)
+
+Now that you know data science is right for you, let's show you how to get promoted to Senior and Lead Data Scientist (to make $150,000/yr).
+
+# 3. How to get promoted to Senior & Lead Data Scientist (Make $150,000/yr)
+
+Now that 
 
 # 4. How one data scientist saved his company $5M per year
 
