@@ -228,6 +228,10 @@ Mohana enrolled in my [5-Course R-Track Program](https://university.business-sci
 
 That's when the flood of raises started. 
 
+Mohana exlaims, _"After your entry into my life, I got a 10% hike, and then a 26% hike, and then a 40% hike"._ 
+
+Let's dive into how Mohana increased his productivity. 
+
 ## 3X-ing his productivity with my R-courses
 
 Here's the scoop. Mohana was working with a bunch of Python coders. 
@@ -238,7 +242,7 @@ But Mohana isn't like them. He's motivated.
 
 Mohana just needs a little edge. 
 
-And, Mohana got that when he met Matt Dancho (me). 
+And, Mohana got that when he met Matt Dancho (me). :)
 
 You see I gave him the edge he needed to tripple (yes, tripple!) his productivity. 
 
@@ -250,8 +254,20 @@ I taught him how to make hundreds of machine learning models in minutes.
 
 I taught him the secrets to unlocking shiny web apps that his organization can use. 
 
-And, I taught him the hidden way to scale time series to 1,000's of forecasts in minutes. 
+And, I taught him the hidden way to scale time series to 1000's of forecasts in minutes. 
 
-Then, 
+Then, Mohana simply applied what I taught him to his company. 
+
+## Now he's a Lead Data Scientist
+
+Mohana kept repeating. He kept growing. 
+
+Today he's now the Lead Data Scientist at Money View, one of the fastest growing startups in India. And they are about to grow even faster with the [$75-Million Series D round](https://www.crunchbase.com/organization/money-view/company_financials) of investment they just received. 
+
+And, this is what I live for. Seeing my students succeed like this. 
+
+But that's just one case. I couldn't possibly duplicate it could I?
+
+Let's see. 
 
 # 5. Case Study: How one data scientist saved his company $5M per year
