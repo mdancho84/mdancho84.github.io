@@ -285,9 +285,9 @@ So it would be a mistake not to explain to you the ins-and-outs of the entire da
 
 Not just simply how to double your salary... capisce?!
 
-## Two ways to getting promotions (FAST)
+## Three ways to getting promotions (FAST)
 
-The 2-ways to getting promotions fast are:
+The 3-ways to getting promotions fast are:
 
 1. Be more productive than everyone else around you
 2. Do something big!! (and repeat)
@@ -297,9 +297,13 @@ I'm a big fan of case-studies (it's what we do in MBA school), and they work. So
 
 Note, I'm not going to discuss job-hopping. I'll have a different article soon on **how to get a job in data science** (with interview hacks and back-office secrets guaranteed to land you a job). Stay tuned. 
 
+Onto our first case-study. 
+
 # 4. Case Study: How one data scientist 2X'ed his salary in 1-year
 
-People are lazy.
+People are lazy. (I'm just going to say it.) 
+
+![](/assets/lazy_people.jpeg)
 
 You can take advantage of the simple fact that people get comfortable. It's easy to do.
 
@@ -317,17 +321,17 @@ Well, here's his testimonial. A case study in investing in yourself.
 
 Mohana says, _"I just wanted to thank you again. You are my career saviour."_
 
-He continues, _"Before when I had no idea abot you and your courses, my growth as an analyst just sucked! I got a hike of 3.5% \[per year\]."_
+He continues, _"Before when I had no idea about you and your courses, my growth as an analyst just sucked! I got a hike of 3.5% \[per year\]."_
 
-So what changed?
+**So what changed?**
 
 Mohana enrolled in my [5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
 
 That's when the flood of raises started.
 
-Mohana exlaims, _"After your entry into my life, I got a 10% hike, and then a 26% hike, and then a 40% hike"._
+Mohana exclaims, _"After your entry into my life, I got a 10% hike, and then a 26% hike, and then a 40% hike"._
 
-Let's dive into how Mohana increased his productivity.
+Let's dive into how Mohana trippled (yes 3x-ed) his productivity.
 
 ## 3X-ing his productivity with my R-courses
 
@@ -341,19 +345,21 @@ Mohana just needs a little edge.
 
 And, Mohana got that when he met Matt Dancho (me). :)
 
-You see I gave him the edge he needed to tripple (yes, tripple!) his productivity.
+You see I gave him the edge he needed to tripple (yes, tripple!) his productivity versus his peers.
 
-How did I do this?
+![](/assets/power_up.png)
 
-I taught him the way I code in R.
+How did I 3X Mohana's productivity?
 
-I taught him how to make hundreds of machine learning models in minutes.
+**I taught him the way I code in R.** He was able to write half the code and get twice as much done versus his python counterparts. 
 
-I taught him the secrets to unlocking shiny web apps that his organization can use.
+**I taught him how to make hundreds of machine learning models in minutes.** I gave him my playbook for consulting with the secrets I used to spend less time on machine learning and more time on feature engineering. 
 
-And, I taught him the hidden way to scale time series to 1000's of forecasts in minutes.
+**I taught him the secrets to unlocking shiny web apps that his organization can use.** You see while his python counterparts were trying to get their first app launched, Mohana already had three done. 
 
-Then, Mohana simply applied what I taught him to his company.
+**And, I taught him the hidden way to scale time series to 1000's of forecasts in minutes.** This gave him a skill that no one... I mean no one had in his company. 
+
+Then, Mohana simply applied what I taught him to his business. And...
 
 ## Now he's a Lead Data Scientist
 
