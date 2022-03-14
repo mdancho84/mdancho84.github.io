@@ -114,19 +114,23 @@ Let me make this point to conclude: **Data Engineers are valuable (if not essent
 
 But since we are focused on the Data Science career path, it's more important to focus on downstream activities like production and business results rather than upstream tasks like data processing.
 
-## Why you should not go for NLP or Machine Learning Engineering
+## It's a mistake to go for NLP or Machine Learning Engineering (right away)
 
-If you want to migrate into these specialized roles from a Data Scientist position, then I'm all for that.
+If you want to migrate into specialized roles like ML Ops or NLP Engineering from a Data Scientist position, then I'm all for that.
 
-But, you're best served learning data science first before moving into the more specialized fields.
+But, when you are just starting out, you're best served learning data science first before moving into the more specialized fields.
 
-Remember, you can always learn more later (become specialized), but in the beginning it's important to gain general business and data science experience.
+Remember, you can always learn more later (become specialized), but in the beginning it's important to gain general business domain and data science experience.
 
-## Why you must avoid a business analyst position RIGHT NOW
+Then make your key moves after learning the business.
+
+## You must avoid a business analyst position RIGHT NOW
 
 **Popular Opinion:** People should start as a business analyst, work there 2-4 years, and then migrated into data scientist positions.
 
-**Matt's Opinion:** People are regularly getting 50% raises by snatching up data scientist positions. You should do that.
+**Matt's Opinion:** People are regularly getting 50% raises by snatching up lucrative data scientist positions. You should do that.
+
+Here's why.
 
 We are in a once-in-a-lifetime generational disparity between the number of data scientists available (supply) and the number of positions needed (demand).
 
@@ -223,38 +227,75 @@ If you really want to compare these 3 job general job roles, then I'll make it e
 
 ## The Technical Path vs Strategic Path
 
-Next, we need to consider where you go over that. You see, there are two paths... so choose wisely.
+Next, we need to consider where you go after you become a Lead Data Scientist.
+
+![](/assets/technical_vs_strategic_path.jpg)
+
+<p class="text-center date">Technical vs Strategic Career Path</p>
+
+You see, there are two paths... so choose wisely. 
 
 ![](/assets/strategic_vs_technical.jpg)
 
-Listen, I'll give you my perspective and how I chose when it was my time.
+Don't worry, I'll help make this decision crystal clear. 
 
-You see back in the day, before I was this fancy educator. I was a data scientist without a title (it was before "data scientist" existed in my previous employer).
+I'll share my perspective and how I chose when it was my time.
 
- I worked at a small company called Bonney Forge. I went into Management.
+You see back in the day, before I was this amazing data science educator, I was a data scientist without a title (it was before "data scientist" existed in my previous employer).
 
-Why? Because I loved the idea of influencing the direction of the company. 
+I worked at a small company called Bonney Forge.
 
-I was entrepreneurial, and enjoyed working with people. And I loved strategy. 
+And, more than anything I loved the idea of influencing the direction of the company.
+
+I was entrepreneurial, and enjoyed working with people. 
 
 ![](/assets/chess_game.jpg)
 
-Business was like a game of chess and I wanted to master it. My customers were my unsuspecting opponent. And I used data science to **checkmate** them into more revenue. 
+Business was like a game of chess and I wanted to master it.
 
-## How do we get there?
+My customers were my unsuspecting opponent. And I used data science to **checkmate** them into more revenue.
 
-Alright, so let's dive in.
+### Can anyone guess the path I chose?
 
-Here's the playbook. Monday-morning quarterback-style.
+If you guessed "STRATEGIC" you are 100% correct!
 
-# Two ways to getting promotions (FAST)
+![](/assets/thats-right-brother.jpeg)
 
-The 2-ways to getting promotions fast:
+### What about technical?
 
-1. Be more productive than everyone else.
+Even though I chose the strategic path, I don't recommend it for everyone. Especially if you don't like dealing with personnel issues as a manager. 
+
+I actually didn't like this aspect one bit, but learned to be good with it, then busted my butt to get promoted out of a line manager position as fast as possible. 
+
+I eventually became a director, and my life was once again in harmony (like 38% of the time).
+
+So what's my point?
+
+Well, if you can stand personnel issues for a year or two then don't go into the strategic path. 
+
+## Directors & chiefs are great, but I'm no where near that level
+
+Listen, I get it. 
+
+But if you are reading this, you're probably also highly motivated. 
+
+And guess what, those highly motivated people are the ones that eventually become directors and chiefs. 
+
+So it would be a mistake not to explain to you the ins-and-outs of the entire data science career path. 
+
+Not just simply how to double your salary... capisce?!
+
+## Two ways to getting promotions (FAST)
+
+The 2-ways to getting promotions fast are:
+
+1. Be more productive than everyone else around you
 2. Do something big!! (and repeat)
+3. Job hopping
 
 I'm a big fan of case-studies (it's what we do in MBA school), and they work. So let's cover some case studies of how to get promoted.
+
+Note, I'm not going to discuss job-hopping. I'll have a different article soon on **how to get a job in data science** (with interview hacks and back-office secrets guaranteed to land you a job). Stay tuned. 
 
 # 4. Case Study: How one data scientist 2X'ed his salary in 1-year
 
