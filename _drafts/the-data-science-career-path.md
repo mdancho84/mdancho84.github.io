@@ -195,27 +195,27 @@ Most organizations have a general track which will take you to a Lead Data Scien
 
 ### You start as a data scientist
 
-You'll start at data scientist making around $125,000 per year in total compensation. All you need to do is [get the skills listed here](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html). 
+You'll start at data scientist making around $125,000 per year in total compensation. All you need to do is [get the skills listed here](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html).
 
 In fact, I even made a convenient cheat sheet to make it even easier ([which you can download for free here](https://www.business-science.io/r-cheatsheet)).
 
 **And a Pro-Tip:** Skip the Business Analyst position. Companies NEED YOU right now. Get the skills and go for it!
 
-### Next, you'll become a Senior Data Scientist. 
+### Next, you'll become a Senior Data Scientist.
 
-These guys and gals make $150,000 per year in total compensation. And they are more experienced, probably have some cloud experience (AWS, Docker, Git), and can do more advanced analyses when compared to the regular data scientists. 
+These guys and gals make $150,000 per year in total compensation. And they are more experienced, probably have some cloud experience (AWS, Docker, Git), and can do more advanced analyses when compared to the regular data scientists.
 
-So learn cloud. Learn Docker and Git. And learn to do more advanced analyses: Time Series, NLP, and Web Applications. 
+So learn cloud. Learn Docker and Git. And learn to do more advanced analyses: Time Series, NLP, and Web Applications.
 
 ### Next, you'll become a Lead Data Scientist
 
-These fellas make $160,000 per year in total compensation. And what really separates the Leads from the Seniors is their ability to work with Management, craft persuasive arguments, deliver insights (in the face of scrutiny), and they have [well developed EQ](https://en.wikipedia.org/wiki/Emotional_intelligence) (not just IQ). 
+These fellas make $160,000 per year in total compensation. And what really separates the Leads from the Seniors is their ability to work with Management, craft persuasive arguments, deliver insights (in the face of scrutiny), and they have [well developed EQ](https://en.wikipedia.org/wiki/Emotional_intelligence) (not just IQ).
 
-So learn to make and deliver presentations, work with others well, and build persuasive arguments. 
+So learn to make and deliver presentations, work with others well, and build persuasive arguments.
 
 ### Let's put this ALL together (comparing Senior/Lead vs Data Scientist)
 
-If you really want to compare these 3 job general job roles, then I'll make it even simpler for you. Just learn these skills. 
+If you really want to compare these 3 job general job roles, then I'll make it even simpler for you. Just learn these skills.
 
 ![](/assets/data_scientist_vs_senior_vs_lead.jpg)
 
@@ -223,40 +223,54 @@ If you really want to compare these 3 job general job roles, then I'll make it e
 
 ## The Technical Path vs Strategic Path
 
-Next, we need to consider where you go over that. You see, there are two paths... so choose wisely. 
+Next, we need to consider where you go over that. You see, there are two paths... so choose wisely.
 
-[Download File]( "Download File")
+![](/assets/strategic_vs_technical.jpg)
+
+Listen, I'll give you my perspective and how I chose when it was my time.
+
+You see back in the day, before I was this fancy educator. I was a data scientist without a title (it was before "data scientist" existed in my previous employer).
+
+ I worked at a small company called Bonney Forge. I went into Management.
+
+Why? Because I loved the idea of influencing the direction of the company. 
+
+I was entrepreneurial, and enjoyed working with people. And I loved strategy. 
+
+![](/assets/chess_game.jpg)
+
+Business was like a game of chess and I wanted to master it. My customers were my unsuspecting opponent. And I used data science to **checkmate** them into more revenue. 
 
 ## How do we get there?
 
-Alright, so let's dive in. 
+Alright, so let's dive in.
 
-Here's the playbook. Monday-morning quarterback-style. 
+Here's the playbook. Monday-morning quarterback-style.
 
-# Two ways to getting promotions (FAST) 
+# Two ways to getting promotions (FAST)
 
 The 2-ways to getting promotions fast:
 
-1. Be more productive than everyone else. 
+1. Be more productive than everyone else.
 2. Do something big!! (and repeat)
 
-I'm a big fan of case-studies (it's what we do in MBA school), and they work. So let's cover some case studies of how to get promoted. 
+I'm a big fan of case-studies (it's what we do in MBA school), and they work. So let's cover some case studies of how to get promoted.
 
 # 4. Case Study: How one data scientist 2X'ed his salary in 1-year
 
-People are lazy. 
+People are lazy.
 
-You can take advantage of the simple fact that people get comfortable. It's easy to do. 
+You can take advantage of the simple fact that people get comfortable. It's easy to do.
 
 In fact, here's the story of how Mohana did it (remember Mohana from the beginning of this article?).
 
-Mohana got 3 raises in the span of a year totaling a 94% increase. 
+Mohana got 3 raises in the span of a year totaling a 94% increase.
 
 So if his salary was $75,000 starting out. By the end of the year his salary was $150,000.
 
 ## So, how did he do it?
 
-Well, here's his testimonial. A case study in investing in yourself. 
+Well, here's his testimonial. A case study in investing in yourself.
 
 ![](/assets/mohana-increase-salary-messages.png)
 
@@ -266,50 +280,50 @@ He continues, _"Before when I had no idea abot you and your courses, my growth a
 
 So what changed?
 
-Mohana enrolled in my [5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series). 
+Mohana enrolled in my [5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
 
-That's when the flood of raises started. 
+That's when the flood of raises started.
 
-Mohana exlaims, _"After your entry into my life, I got a 10% hike, and then a 26% hike, and then a 40% hike"._ 
+Mohana exlaims, _"After your entry into my life, I got a 10% hike, and then a 26% hike, and then a 40% hike"._
 
-Let's dive into how Mohana increased his productivity. 
+Let's dive into how Mohana increased his productivity.
 
 ## 3X-ing his productivity with my R-courses
 
-Here's the scoop. Mohana was working with a bunch of Python coders. 
+Here's the scoop. Mohana was working with a bunch of Python coders.
 
-These guys are slow and comfortable. 
+These guys are slow and comfortable.
 
-But Mohana isn't like them. He's motivated. 
+But Mohana isn't like them. He's motivated.
 
-Mohana just needs a little edge. 
+Mohana just needs a little edge.
 
 And, Mohana got that when he met Matt Dancho (me). :)
 
-You see I gave him the edge he needed to tripple (yes, tripple!) his productivity. 
+You see I gave him the edge he needed to tripple (yes, tripple!) his productivity.
 
 How did I do this?
 
-I taught him the way I code in R. 
+I taught him the way I code in R.
 
-I taught him how to make hundreds of machine learning models in minutes. 
+I taught him how to make hundreds of machine learning models in minutes.
 
-I taught him the secrets to unlocking shiny web apps that his organization can use. 
+I taught him the secrets to unlocking shiny web apps that his organization can use.
 
-And, I taught him the hidden way to scale time series to 1000's of forecasts in minutes. 
+And, I taught him the hidden way to scale time series to 1000's of forecasts in minutes.
 
-Then, Mohana simply applied what I taught him to his company. 
+Then, Mohana simply applied what I taught him to his company.
 
 ## Now he's a Lead Data Scientist
 
-Mohana kept repeating. He kept growing. 
+Mohana kept repeating. He kept growing.
 
-Today he's now the Lead Data Scientist at Money View, one of the fastest growing startups in India. And they are about to grow even faster with the [$75-Million Series D round](https://www.crunchbase.com/organization/money-view/company_financials) of investment they just received. 
+Today he's now the Lead Data Scientist at Money View, one of the fastest growing startups in India. And they are about to grow even faster with the [$75-Million Series D round](https://www.crunchbase.com/organization/money-view/company_financials) of investment they just received.
 
-And, this is what I live for. Seeing my students succeed like this. 
+And, this is what I live for. Seeing my students succeed like this.
 
 But that's just one case. I couldn't possibly duplicate it could I?
 
-Let's see. 
+Let's see.
 
 # 5. Case Study: How one data scientist saved his company $5M per year
