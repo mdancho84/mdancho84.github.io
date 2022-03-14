@@ -6,7 +6,7 @@ categories:
 tags:
 - Learn-R
 - R
-title: What is Career Path for a Data Scientist? (From $75,000 to $150,000 salary
+title: What is the Career Path for a Data Scientist? (From $75,000 to $150,000 salary
   in 1-year)
 date: 2022-03-15 06:00:00 -0400
 excerpt: ''
@@ -36,7 +36,7 @@ I told Mohana how happy I was of him.
 
 ![](/assets/so_happy.jpg)
 
-But how was Mohana able to double (2X) his salary in under 12-months?
+#### But how was Mohana able to double (2X) his salary in under 12-months?
 
 What did he do to climb the career latter so quickly and land a job where ever he wanted?
 
@@ -64,11 +64,13 @@ There are 4 main categories:
 
 ![](/assets/job_salaries_by_role.jpg)
 
+<p class="text-center date">Data Science Job Salaries (Glassdoor 2022)</p>
+
 We can see from the table that in general Data Science, Machine Learning, and NLP (Natural Language Processing) being compensated 40% more than Business Analyst positions.
 
-So it's clear that you want to avoid Business Analyst (more on this in a minute). 
+So it's clear that you want to _avoid_ Business Analyst (more on this in a minute). 
 
-We can also see that depending on your interest (general data science vs specialized NLP) that there tends to be more pay for more specialization. 
+We can also see that depending on your interest (general data science vs specialized NLP) that there tends to be _more pay_ _for more specialization_. 
 
 But, we'll also see that pay will increase as your position changes from entry-level to senior/lead data scientist (coming shortly, hang in there).
 
@@ -76,12 +78,41 @@ But first, what do each of these data science roles do?
 
 ## What do each of the data science roles do?
 
-I've written extensively about [the differences between each of the data science and analytics job roles here](https://www.business-science.io/business/2021/01/21/machine-learning-jobs.html), but I'll briefly recap:
+I've written extensively about [the differences between each of the data science and analytics job roles here](https://www.business-science.io/business/2021/01/21/machine-learning-jobs.html), but I'll briefly recap in this table:
 
-* **Data Scientists** are focused on experimentation, research, statistical analysis, and generating business insights through machine learning models and predictive applications. Their tool of choice is code in R or Python. 
-* **Machine Learning Engineers** are needed for taking models into production, supporting and maintaining models, and keeping the business automations running. 
+![](/assets/data_science_job_roles_description-1.jpg)
 
-With that said, in the past,
+<p class="text-center date">Data Science Job Roles Uncovered</p>
+
+We can see that it's more typical for the hard-core engineering disciplines to use Python versus the more business analytical disciplines to use R/Python and Excel/PowerBI/Tableau.
+
+If you are looking to move from Business Analysis to Data Science, we can see from the chart that you should add: R or Python to your skillset. 
+
+I explain in-depth exactly [which skills are important to become a data scientist here](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html).  
+
+## What about Data Engineering?
+
+The question I always get at this point is what about Data Engineering?
+
+Well, that's a great question. Let me explain why Data Engineering is not in the table. 
+
+Here's a typical conversation between a Business Analyst and a Data Engineer.
+
+![](/assets/business_analyst_data_engineer.jpeg)
+
+<p class="text-center date">Typical conversation between a Business Analyst and a Data Engineer (<a href="https://towardsdatascience.com/a-day-in-the-life-of-a-data-engineer-d65293272121">Day in the Life of a Data Engineer</a>)</p>
+
+So, Data Engineering is really a support role. And what Data Engineers do is give data to the Business Analysts and Data Scientists in a nice tidy looking format that comes from what they call a "data pipeline". 
+
+Data Engineers regularly deal with:
+
+* Development of a data pipeline/API/microservice.
+* Setup/Maintenance infrastructure
+* Fixing bugs, improving code base, documentation
+
+Let me make this point to conclude: **Data Engineers are valuable (if not essential to data science success).** 
+
+But since we are focused on the Data Science career path, it's more important to focus on downstream activities like production and business results rather than upstream tasks like data processing. 
 
 # 2. The career path of a data scientist
 
