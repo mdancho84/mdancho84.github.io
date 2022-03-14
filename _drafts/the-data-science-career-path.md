@@ -114,13 +114,21 @@ Let me make this point to conclude: **Data Engineers are valuable (if not essent
 
 But since we are focused on the Data Science career path, it's more important to focus on downstream activities like production and business results rather than upstream tasks like data processing.
 
-## Why you must avoid a business analyst position?
+## Why you should not go for NLP or Machine Learning Engineering
+
+If you want to migrate into these specialized roles from a Data Scientist position, then I'm all for that.
+
+But, you're best served learning data science first before moving into the more specialized fields.
+
+Remember, you can always learn more later (become specialized), but in the beginning it's important to gain general business and data science experience.
+
+## Why you must avoid a business analyst position RIGHT NOW
 
 **Popular Opinion:** People should start as a business analyst, work there 2-4 years, and then migrated into data scientist positions.
 
 **Matt's Opinion:** People are regularly getting 50% raises by snatching up data scientist positions. You should do that.
 
-We are in a once in a lifetime generational disparity between the number of data scientists available (supply) and the number of positions needed (demand).
+We are in a once-in-a-lifetime generational disparity between the number of data scientists available (supply) and the number of positions needed (demand).
 
 ![](/assets/massive_labor_shortage.jpg)
 
@@ -150,7 +158,7 @@ Jump right into Data Scientist roles.
 
 ## **How to jump right into data scientist roles**
 
-If you want to do so, check out these 2 articles:
+If you want to jump right into data scientist roles, check out these 2 articles:
 
 1. [Which data science skills are important (To get a $50,000 increase in salary)](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html)
 2. [How To Become A Financial Data Scientist (Or A Data Scientist In Any Domain)](https://www.business-science.io/business/2019/05/23/how-to-become-a-fiancial-data-scientist.html)
@@ -163,10 +171,87 @@ First, let's cover the career path for a data scientist, which for 85% of organi
 
 ![](/assets/data_science_career_path-2.jpg)
 
-I've done the hardwork of doing all the research on each of the positions. Here's what it looks like in table form:
+<p class="text-center date">Data Science Career Path - Flow Chart</p>
 
-# 4. How one data scientist saved his company $5M per year
+I've done the hard work of doing all the research on each of the positions. Here's what it looks like in table form:
 
-# 5. How to 2X your salary in 1-year
+![](/assets/data_science_career_path_table.jpg)
+
+<p class="text-center date">Data Science Career Path - Compensation</p>
+
+The things you need to think about are:
+
+1. How to get to Senior / Lead Data Scientist as fast as possible ($150,000 - $160,000)
+2. Pick a path - Strategic or Technical
+3. Then keep repeating until you get to the top
+
+Alright, so let's dive in. 
+
+Here's the playbook. Monday-morning quarterback-style. 
+
+# Two ways to getting promotions (FAST) 
+
+The 2-ways to getting promotions fast:
+
+1. Be more productive than everyone else. 
+2. Do something big!! (and repeat)
+
+I'm a big fan of case-studies (it's what we do in MBA school), and they work. So let's cover some case studies of how to get promoted. 
+
+Fir
+
+# 4. Case Study: How one data scientist 2X'ed his salary in 1-year
+
+People are lazy. 
+
+You can take advantage of the simple fact that people get comfortable. It's easy to do. 
+
+In fact, here's the story of how Mohana did it (remember Mohana from the beginning of this article?).
+
+Mohana got 3 raises in the span of a year totaling a 94% increase. 
+
+So if his salary was $75,000 starting out. By the end of the year his salary was $150,000.
+
+## So, how did he do it?
+
+Well, here's his testimonial. A case study in investing in yourself. 
 
 ![](/assets/mohana-increase-salary-messages.png)
+
+Mohana says, _"I just wanted to thank you again. You are my career saviour."_
+
+He continues, _"Before when I had no idea abot you and your courses, my growth as an analyst just sucked! I got a hike of 3.5% \[per year\]."_
+
+So what changed?
+
+Mohana enrolled in my [5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series). 
+
+That's when the flood of raises started. 
+
+## 3X-ing his productivity with my R-courses
+
+Here's the scoop. Mohana was working with a bunch of Python coders. 
+
+These guys are slow and comfortable. 
+
+But Mohana isn't like them. He's motivated. 
+
+Mohana just needs a little edge. 
+
+And, Mohana got that when he met Matt Dancho (me). 
+
+You see I gave him the edge he needed to tripple (yes, tripple!) his productivity. 
+
+How did I do this?
+
+I taught him the way I code in R. 
+
+I taught him how to make hundreds of machine learning models in minutes. 
+
+I taught him the secrets to unlocking shiny web apps that his organization can use. 
+
+And, I taught him the hidden way to scale time series to 1,000's of forecasts in minutes. 
+
+Then, 
+
+# 5. Case Study: How one data scientist saved his company $5M per year
