@@ -68,9 +68,9 @@ There are 4 main categories:
 
 We can see from the table that in general Data Science, Machine Learning, and NLP (Natural Language Processing) being compensated 40% more than Business Analyst positions.
 
-So it's clear that you want to _avoid_ Business Analyst (more on this in a minute). 
+So it's clear that you want to _avoid_ Business Analyst (more on this in a minute).
 
-We can also see that depending on your interest (general data science vs specialized NLP) that there tends to be _more pay_ _for more specialization_. 
+We can also see that depending on your interest (general data science vs specialized NLP) that there tends to be _more pay_ _for more specialization_.
 
 But, we'll also see that pay will increase as your position changes from entry-level to senior/lead data scientist (coming shortly, hang in there).
 
@@ -86,15 +86,15 @@ I've written extensively about [the differences between each of the data science
 
 We can see that it's more typical for the hard-core engineering disciplines to use Python versus the more business analytical disciplines to use R/Python and Excel/PowerBI/Tableau.
 
-If you are looking to move from Business Analysis to Data Science, we can see from the chart that you should add: R or Python to your skillset. 
+If you are looking to move from Business Analysis to Data Science, we can see from the chart that you should add: R or Python to your skillset.
 
-I explain in-depth exactly [which skills are important to become a data scientist here](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html).  
+I explain in-depth exactly [which skills are important to become a data scientist here](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html).
 
 ## What about Data Engineering?
 
 The question I always get at this point is what about Data Engineering?
 
-Well, that's a great question. Let me explain why Data Engineering is not in the table. 
+Well, that's a great question. Let me explain why Data Engineering is not in the table.
 
 Here's a typical conversation between a Business Analyst and a Data Engineer.
 
@@ -102,7 +102,7 @@ Here's a typical conversation between a Business Analyst and a Data Engineer.
 
 <p class="text-center date">Typical conversation between a Business Analyst and a Data Engineer (<a href="https://towardsdatascience.com/a-day-in-the-life-of-a-data-engineer-d65293272121">Day in the Life of a Data Engineer</a>)</p>
 
-So, Data Engineering is really a support role. And what Data Engineers do is give data to the Business Analysts and Data Scientists in a nice tidy looking format that comes from what they call a "data pipeline". 
+So, Data Engineering is really a support role. And what Data Engineers do is give data to the Business Analysts and Data Scientists in a nice tidy looking format that comes from what they call a "data pipeline".
 
 Data Engineers regularly deal with:
 
@@ -110,15 +110,15 @@ Data Engineers regularly deal with:
 * Setup/Maintenance infrastructure
 * Fixing bugs, improving code base, documentation
 
-Let me make this point to conclude: **Data Engineers are valuable (if not essential to data science success).** 
+Let me make this point to conclude: **Data Engineers are valuable (if not essential to data science success).**
 
-But since we are focused on the Data Science career path, it's more important to focus on downstream activities like production and business results rather than upstream tasks like data processing. 
+But since we are focused on the Data Science career path, it's more important to focus on downstream activities like production and business results rather than upstream tasks like data processing.
 
 ## Why you must avoid a business analyst position?
 
-**Popular Opinion:** People should start as a business analyst, work there 2-4 years, and then migrated into data scientist positions. 
+**Popular Opinion:** People should start as a business analyst, work there 2-4 years, and then migrated into data scientist positions.
 
-**Matt's Opinion:** People are regularly getting 50% raises by snatching up data scientist positions. You should do that. 
+**Matt's Opinion:** People are regularly getting 50% raises by snatching up data scientist positions. You should do that.
 
 We are in a once in a lifetime generational disparity between the number of data scientists available (supply) and the number of positions needed (demand).
 
@@ -126,27 +126,29 @@ We are in a once in a lifetime generational disparity between the number of data
 
 <p class="text-center date">Massive Labor Shortage!</p>
 
-Because of COVID, there's a bullwhip-effect in the US labor market. Let me explain. 
+Because of COVID, there's a bullwhip-effect in the US labor market. Let me explain.
 
-In response to COVID, governments enforced a shutdown, forcing labor to decline swiftly and without notice. 
+In response to COVID, governments enforced a shutdown, forcing labor to decline swiftly and without notice.
 
-Upon reopening, not all workers came back. This created a supply imbalance forcing companies to fill spots any way they could. 
+Upon reopening, not all workers came back. This created a supply imbalance forcing companies to fill spots any way they could.
 
 ## Poaching insanity
 
+So what happened next is a once in a lifetime generational supply/demand imbalance that is working in your favor.
+
+Companies began poaching data scientists from other companies stealing their highest value assets: their employees.
+
 ![](/assets/buzzfeed_poaching.jpeg)
 
-So what happened next is a once in a lifetime generational supply/demand imbalance that is working in your favor. 
+And the training time for most new hires is 1-2 years, so companies either had to offer higher salaries and benefits or be at risk of data scientists being poached.
 
-Companies began poaching data scientists from other companies stealing their highest value assets: their employees. 
-
-And the training time for most new hires is 1-2 years, so companies either had to offer higher salaries and benefits or be at risk of data scientists being poached. 
-
-Now you benefit. 
+Now you benefit.
 
 Because you can SKIP the whole "business analyst -> data scientist" game and...
 
-**Jump right into data scientist roles!**
+Jump right into Data Scientist roles.
+
+## **How to jump right into data scientist roles**
 
 If you want to do so, check out these 2 articles:
 
