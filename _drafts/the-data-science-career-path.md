@@ -185,6 +185,50 @@ The things you need to think about are:
 2. Pick a path - Strategic or Technical
 3. Then keep repeating until you get to the top
 
+## The General Path
+
+Most organizations have a general track which will take you to a Lead Data Scientist. The path looks like this:
+
+![](/assets/general_path.jpg)
+
+<p class="text-center date">The General Path</p>
+
+### You start as a data scientist
+
+You'll start at data scientist making around $125,000 per year in total compensation. All you need to do is [get the skills listed here](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html). 
+
+In fact, I even made a convenient cheat sheet to make it even easier ([which you can download for free here](https://www.business-science.io/r-cheatsheet)).
+
+**And a Pro-Tip:** Skip the Business Analyst position. Companies NEED YOU right now. Get the skills and go for it!
+
+### Next, you'll become a Senior Data Scientist. 
+
+These guys and gals make $150,000 per year in total compensation. And they are more experienced, probably have some cloud experience (AWS, Docker, Git), and can do more advanced analyses when compared to the regular data scientists. 
+
+So learn cloud. Learn Docker and Git. And learn to do more advanced analyses: Time Series, NLP, and Web Applications. 
+
+### Next, you'll become a Lead Data Scientist
+
+These fellas make $160,000 per year in total compensation. And what really separates the Leads from the Seniors is their ability to work with Management, craft persuasive arguments, deliver insights (in the face of scrutiny), and they have [well developed EQ](https://en.wikipedia.org/wiki/Emotional_intelligence) (not just IQ). 
+
+So learn to make and deliver presentations, work with others well, and build persuasive arguments. 
+
+### Let's put this ALL together (comparing Senior/Lead vs Data Scientist)
+
+If you really want to compare these 3 job general job roles, then I'll make it even simpler for you. Just learn these skills. 
+
+![](/assets/data_scientist_vs_senior_vs_lead.jpg)
+
+<p class="text-center date">Comparing Senior/Lead vs Data Scientist</p>
+
+## The Technical Path vs Strategic Path
+
+Next, we need to consider where you go over that. You see, there are two paths... so choose wisely. 
+
+[Download File]( "Download File")
+
+## How do we get there?
+
 Alright, so let's dive in. 
 
 Here's the playbook. Monday-morning quarterback-style. 
@@ -197,8 +241,6 @@ The 2-ways to getting promotions fast:
 2. Do something big!! (and repeat)
 
 I'm a big fan of case-studies (it's what we do in MBA school), and they work. So let's cover some case studies of how to get promoted. 
-
-Fir
 
 # 4. Case Study: How one data scientist 2X'ed his salary in 1-year
 
