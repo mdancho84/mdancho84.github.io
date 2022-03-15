@@ -22,7 +22,7 @@ In 6-months Mohana got another raise (this time 26%)...
 
 And, then in just another 2 months (40% hike).
 
-#### **In total, in under one year Mohana got a total of 94% increase in his salary!**
+### **In total, in under one year Mohana got a total of 94% increase in his salary!**
 
 ![](/assets/mohana_linkedin.jpg)
 
@@ -32,11 +32,11 @@ Mohana is kicking butt, this time in a different capacity.
 
 As Lead Data Scientist, he's helping Money View grow their talented and high-productivity team as the move into a new phase of startup growth.
 
-I told Mohana how happy I was of him.
-
 ![](/assets/so_happy.jpg)
 
-#### But how was Mohana able to double (2X) his salary in under 12-months?
+I told Mohana how happy I was of him.
+
+### But how was Mohana able to double (2X) his salary in under 12-months?
 
 What did he do to climb the career latter so quickly and land a job where ever he wanted?
 
@@ -48,9 +48,9 @@ This post includes [career research from Glassdoor](https://www.glassdoor.com/ab
 
 * What data science roles exist? (and which to steer clear of)
 * The career path for a data scientist (you start at $125,000)
-* How to get promoted to Senior and Lead Data Scientist (you start at $150,000)
-* How to make a splash (How one data scientist saved his company $5 Million per year annually)
-* How to 2X your salary in 1-year
+* The skills needed to get promoted to Senior and Lead Data Scientist (you start at $150,000)
+* Case Study 1: How to 2X your salary in 1-year
+* Case Study 2: How to make a splash (How one data scientist saved his company $5 Million per year annually)
 
 # 1. What data science roles exist? (and which to steer clear of)
 
@@ -104,7 +104,7 @@ Here's a typical conversation between a Business Analyst and a Data Engineer.
 
 So, Data Engineering is really a support role. And what Data Engineers do is give data to the Business Analysts and Data Scientists in a nice tidy looking format that comes from what they call a "data pipeline".
 
-Data Engineers regularly deal with:
+According to the article, [_"A day in the life of a data engineer"_](),  Data Engineers regularly deal with:
 
 * Development of a data pipeline/API/microservice.
 * Setup/Maintenance infrastructure
@@ -169,7 +169,7 @@ If you want to jump right into data scientist roles, check out these 2 articles:
 
 Now that you know data science is right for you, let's show you how to get promoted to Senior and Lead Data Scientist (to make $150,000/yr).
 
-# 3. How to get promoted to Senior & Lead Data Scientist (Make $150,000/yr)
+# 2. The career path from Data Scientist (Start at $125,000/yr)
 
 First, let's cover the career path for a data scientist, which for 85% of organizations looks like this:
 
@@ -207,9 +207,9 @@ In fact, I even made a convenient cheat sheet to make it even easier ([which you
 
 ### Next, you'll become a Senior Data Scientist.
 
-These guys and gals make $150,000 per year in total compensation. And they are more experienced, probably have some cloud experience (AWS, Docker, Git), and can do more advanced analyses when compared to the regular data scientists.
+These guys and gals make $150,000 per year in total compensation. And they are more experienced, probably have some big data experience, cloud experience (AWS, Docker, Git), and can do more advanced analyses when compared to the regular data scientists.
 
-So learn cloud. Learn Docker and Git. And learn to do more advanced analyses: Time Series, NLP, and Web Applications.
+So learn big data and cloud. And learn to do more advanced analyses: Time Series, NLP, and Web Applications.
 
 ### Next, you'll become a Lead Data Scientist
 
@@ -221,13 +221,13 @@ So learn to make and deliver presentations, work with others well, and build per
 
 If you really want to compare these 3 job general job roles, then I'll make it even simpler for you. Just learn these skills.
 
-![](/assets/data_scientist_vs_senior_vs_lead.jpg)
+![](/assets/data_scientist_vs_senior_vs_lead-1.jpg)
 
 <p class="text-center date">Comparing Senior/Lead vs Data Scientist</p>
 
 Now you are probably thinking...
 
-# How do I learn the advanced skills?
+# 3. What skills do I need to become a Senior/Lead Data Scientist ($150,000+ year)?
 
 The easiest way is to cheat!
 
@@ -237,9 +237,9 @@ What I mean is use a cheat sheet. [Here's my R-Cheat Sheet](https://www.business
 
 <p class="date text-center"><a href = "https://www.business-science.io/r-cheatsheet">The Ultimate R Cheat Sheet. It's OK to cheat. </a></p>
 
-# Here's how to cheat.
+# Here's how to cheat to become a Senior/Lead Data Scientist.
 
-If we head on back to my cheat sheet, on page 3 you'll find links to my goto-advanced tools.
+If we head to my cheat sheet (page 3) you'll find links to my goto-advanced tools for Senior/Lead Data Scientists. (PS- [Check out this article](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html) for the tools for Data Scientists if you are becoming a Data Scientist.)
 
 ![](/assets/cheatsheet_page3.jpg)
 
@@ -316,7 +316,7 @@ Head over to Speed & Scale (Page 3). Then click the links to sparklyr and Disk F
 
 ### Spark in R
 
-* **sparklyr**: Spark is a tool that runs on a cloud cluster and allows you to do all of your big data analysis in the cloud! And even better, sparklyr allows you to run all of the computations using `dplyr` translations, which makes you **10X more productive** than your python counterparts.
+* **sparklyr**: Spark is a tool that runs on _cloud clusters_ and allows you to do all of your big data analysis in the cloud! And even better, sparklyr allows you to run all of the computations using `dplyr` translations, which makes you **10X more productive** than your python counterparts.
 
 But you're probably thinking, _"But Matt, I don't know how to do Spark from R. Can you help me?"_
 
@@ -345,7 +345,7 @@ This is the most mind-blowing thing about R. And, it's a super-power that will:
 1. **Empower** **you** to work collaboratively with Python teams (even though your an R user)
 2. **Give** **you** the key ingredient to make R packages that connect to python package. [Here's an R+Python Package that I created](https://business-science.github.io/modeltime.gluonts/) called `modeltime.gluonts` that connects to the GluonTS Python package for forecasting. Pretty sweet!!
 
-Ok, now that you have the skills to become a Lead Data Scientist, we need to consider where you go _after_ you become a Lead Data Scientist...
+Ok, now that you have the skills to become a Senior / Lead Data Scientist, we need to consider where you go _after_ you become a Lead Data Scientist...
 
 # The Technical Path vs Strategic Path
 
@@ -419,7 +419,7 @@ Note, I'm not going to discuss job-hopping. I'll have a different article soon o
 
 Onto our first case-study.
 
-# 4. Case Study: How one data scientist 2X'ed his salary in 1-year
+# 4. Case Study 1: How one data scientist 2X'ed his salary in 1-year
 
 People are lazy. (I'm just going to say it.)
 
@@ -493,4 +493,4 @@ But that's just one case. I couldn't possibly duplicate it could I?
 
 Let's see.
 
-# 5. Case Study: How one data scientist saved his company $5M per year
+# 5. Case Study 2: How one data scientist saved his company $5M per year
