@@ -8,7 +8,7 @@ tags:
 - R
 title: What is the Career Path for a Data Scientist? (From $75,000 to $150,000 salary
   in 1-year)
-date: 2022-03-15 14:00:00 -0400
+date: 2022-03-15T14:00:00.000-04:00
 excerpt: 'The data science career path is demystified in this article showing you
   2 case studies and a ton of research on how to set your career up for going from
   $75,000 to $150,000 in 1-year. '
@@ -18,7 +18,7 @@ image_preview: "/assets/data_science_career_path-1.jpg"
 ---
 It was 2018 and Mohana was a struggling business analyst. He'd been getting a measly 3.5% raise since he joined his company.
 
-Then in 2019 he got 1 raise (10%)... 
+Then in 2019 he got 1 raise (10%)...
 
 In 6-months Mohana got another raise (this time 26%)...
 
@@ -104,7 +104,7 @@ Here's a typical conversation between a Business Analyst and a Data Engineer...
 
 <p class="text-center date">Typical conversation between a Business Analyst and a Data Engineer (<a href="https://towardsdatascience.com/a-day-in-the-life-of-a-data-engineer-d65293272121">Day in the Life of a Data Engineer</a>)</p>
 
-So, what Data Engineers do is make the jobs of the Business Analysts and Data Scientists much easier.
+So, what Data Engineers do is make the jobs of the Business Analysts and Data Scientists much easier. 
 
 They do this by giving data scientists access to data in a nice tidy looking format that comes from what they call a **"data pipeline"**.
 
