@@ -225,21 +225,141 @@ If you really want to compare these 3 job general job roles, then I'll make it e
 
 <p class="text-center date">Comparing Senior/Lead vs Data Scientist</p>
 
-## The Technical Path vs Strategic Path
+Now you are probably thinking...
 
-Next, we need to consider where you go after you become a Lead Data Scientist.
+# How do I learn the advanced skills?
+
+The easiest way is to cheat!
+
+What I mean is use a cheat sheet. [Here's my R-Cheat Sheet](https://www.business-science.io/r-cheatsheet) that will help you learn the skills you need to go from Data Scientist to Senior Data Scientist.
+
+![](/assets/r_cheat_sheet.jpg)
+
+<p class="date text-center"><a href = "https://www.business-science.io/r-cheatsheet">The Ultimate R Cheat Sheet. It's OK to cheat. </a></p>
+
+# Here's how to cheat.
+
+If we head on back to my cheat sheet, on page 3 you'll find links to my goto-advanced tools.
+
+![](/assets/cheatsheet_page3.jpg)
+
+<p class="date text-center">Matt's Goto Advanced Tools for Senior Data Scientists</p>
+
+Listen, I'm going to give you a little secret. THIS is how the Senior and Lead Data Scientists separate themselves from the novice Data Scientists.
+
+## Advanced Machine Learning, Feature Engineering, and Cross Validation
+
+In the section titled, "Machine Learning", you have all of the most powerful tools used for advanced machine learning, feature engineering, and cross-validation/hyperparameter tuning. THIS is a goldmine!
+
+![](/assets/cheatsheet_machine_learning.jpg)
+
+<p class="date text-center">Advanced Machine Learning</p>
+
+Here's my personal favorites. I'm a big fan of two machine learning packages (or ecosystems):
+
+1. **Tidymodels:** I use this for making adhoc models and then explaining
+2. **H2O:** I use this for automatic machine learning and in production
+
+Another (extremely important) skill is feature engineering. I'm always using THIS package to create features:
+
+* **Recipes:** Has preprocessing tools to transform numeric data and create features from date, time, and text data.
+
+Next is hyperparameter tuning / cross validation. Here are my goto packages:
+
+* **Tune:** Fore Hyperparameter tuning
+* **Rsample:** For resampling and cross-validation sets that are inputs to `tune`
+* **Yardstick:** For using pre-built accuracy metrics to minimize/maximize your loss during cross-validation.
+
+## Data Engineering (Big Data)
+
+Another key skill of the "big dogs" is "big data". This is where you work with data that is very large, sometimes SO large that it doesn't fit inside your computer's memory.
+
+But don't worry, I've got you covered here with some AMAZING packages.
+
+![](/assets/big_data-1.jpg)
+
+<p class="date text-center">Data Engineering in R (Big Data Tools)</p>
+
+If we head on down a little further on Page 3 of the cheat sheet, we find a section called "Speed & Scale" and "Integrating Python".
+
+## First up is Data.Table.
+
+* **data.table:** This is the premier package for blazing speed. You can see how fast this is by exploring the [Data Table Benchmarks here](https://h2oai.github.io/db-benchmark/). It's faster than Spark, dplyr, pandas, dask, and most major data engineering and database softwares.
+
+![](/assets/datatable_benchmarks.jpg)
+
+<p class="date text-center"><a href="https://h2oai.github.io/db-benchmark/">Data Table Speed Benchmarks</a></p>
+
+* **dtplyr:** Now the big knock from tidyverse people (like me) that are used to dplyr is that the `data.table` syntax is weird. I eventually learned it, but people that want to skip the pain can use `dtplyr`. Dtplyr is the data table translator for dplyr. And, if you want to get up to speed quickly, I wrote a [comprehensive dtplyr tutorial here](https://www.business-science.io/code-tools/2019/08/15/big-data-dtplyr.html).
+
+## Next is databases
+
+* **dbplyr:** This stands for "database" dplyr and allows us to run dplyr scripts on your database, which is mindblowing! Why? Because databases are built for speed and scale (RAM is normally 1000X more than your puny macbook pro) and we don't need to transfer the data to our macbook until it's been chopped down, aggregated and summarized. I wanted to help you get up to speed, so I made a [free dbplyr tutorial here](https://www.business-science.io/code-tools/2021/01/26/sql-from-r.html).
+
+## Out-of-memory errors 😰
+
+Now sometimes you're going to run out of memory right before a presentation.
+
+![](/assets/out_of_memory_error.jpg)
+
+This is what happened to _young_ Matt. Before I knew about the next 2 package.
+
+I'd run code for _my presentation tomorrow,_ and I'd get an error 2-hours in saying something like "out-of-memory" or "vector can't be allocated." 😰
+
+Fortunately, I'll help save your job (the way I eventually learned how to save mine). Here's how.
+
+![](/assets/spark_and_diskframe.jpg)
+
+<p class="date text-center">Spark and Disk Frame (Fix Out of Memory Errors)</p>
+
+Head over to Speed & Scale (Page 3). Then click the links to sparklyr and Disk Frame.
+
+### Spark in R
+
+* **sparklyr**: Spark is a tool that runs on a cloud cluster and allows you to do all of your big data analysis in the cloud! And even better, sparklyr allows you to run all of the computations using `dplyr` translations, which makes you **10X more productive** than your python counterparts.
+
+But you're probably thinking, _"But Matt, I don't know how to do Spark from R. Can you help me?"_
+
+Yes... I'll help. [Here's my Spark in R Masterclass](https://youtu.be/rJawNrD3xlU) that I opened up for free. Normally these are only available through my Learning Labs PRO membership program, but I can't let you lose your job over an out-of-memory error. I wouldn't be able to live with myself.
+
+### Disk Frame (R's little big data secret)
+
+Now, what happens if you don't have access to a Spark Cluster? Well, another AWESOME package is the little known `disk.frame`.
+
+* **disk.frame**: Disk frame allows you to chunk your datasets into blazingly fast `fst` files, which can then be treated as a single dataset. Disk frame integrates with data.table and dplyr, meaning you can write translators no matter if you are data.table person OR a tidyverse person.
+
+## Finally, there's Python in R
+
+The last thing that separates Senior/Lead Data Scientists from the entry level is the ability to use Python with R.
+
+Wait, what?!
+
+Yep, you CAN use Python in R. Here's how. 
+
+![](/assets/reticulate.jpg)
+
+<p class="date text-center">Reticulate: R's Python Connector</p>
+
+This is the most mind-blowing thing about R. And, it's a super-power that will:
+
+1. **Empower** **you** to work collaboratively with Python teams (even though your an R user)
+2. **Give** **you** the key ingredient to make R packages that connect to python package. [Here's an R+Python Package that I created](https://business-science.github.io/modeltime.gluonts/) called `modeltime.gluonts` that connects to the GluonTS Python package for forecasting. Pretty sweet!!
+
+Ok, now that you have the skills to become a Lead Data Scientist, we need to consider where you go _after_ you become a Lead Data Scientist...
+
+# The Technical Path vs Strategic Path
 
 ![](/assets/technical_vs_strategic_path.jpg)
 
 <p class="text-center date">Technical vs Strategic Career Path</p>
 
-You see, there are two paths... so choose wisely. 
+You see, there are two paths... so choose wisely.
 
 ![](/assets/strategic_vs_technical.jpg)
 
-Don't worry, I'll help make this decision crystal clear. 
+Don't worry, I'll help make this decision crystal clear.
 
-I'll share my perspective and how I chose when it was my time.
+## I'll share my perspective and how I chose when it was my time.
 
 You see back in the day, before I was this amazing data science educator, I was a data scientist without a title (it was before "data scientist" existed in my previous employer).
 
@@ -247,7 +367,7 @@ I worked at a small company called Bonney Forge.
 
 And, more than anything I loved the idea of influencing the direction of the company.
 
-I was entrepreneurial, and enjoyed working with people. 
+I was entrepreneurial, and enjoyed working with people.
 
 ![](/assets/chess_game.jpg)
 
@@ -263,25 +383,25 @@ If you guessed "STRATEGIC" you are 100% correct!
 
 ### What about technical?
 
-Even though I chose the strategic path, I don't recommend it for everyone. Especially if you don't like dealing with personnel issues as a manager. 
+Even though I chose the strategic path, I don't recommend it for everyone. Especially if you don't like dealing with personnel issues as a manager.
 
-I actually didn't like this aspect one bit, but learned to be good with it, then busted my butt to get promoted out of a line manager position as fast as possible. 
+I actually didn't like this aspect one bit, but learned to be good with it, then busted my butt to get promoted out of a line manager position as fast as possible.
 
 I eventually became a director, and my life was once again in harmony (like 38% of the time).
 
 So what's my point?
 
-Well, if you can stand personnel issues for a year or two then don't go into the strategic path. 
+Well, if you can stand personnel issues for a year or two then don't go into the strategic path.
 
 ## Directors & chiefs are great, but I'm no where near that level
 
-Listen, I get it. 
+Listen, I get it.
 
-But if you are reading this, you're probably also highly motivated. 
+But if you are reading this, you're probably also highly motivated.
 
-And guess what, those highly motivated people are the ones that eventually become directors and chiefs. 
+And guess what, those highly motivated people are the ones that eventually become directors and chiefs.
 
-So it would be a mistake not to explain to you the ins-and-outs of the entire data science career path. 
+So it would be a mistake not to explain to you the ins-and-outs of the entire data science career path.
 
 Not just simply how to double your salary... capisce?!
 
@@ -295,13 +415,13 @@ The 3-ways to getting promotions fast are:
 
 I'm a big fan of case-studies (it's what we do in MBA school), and they work. So let's cover some case studies of how to get promoted.
 
-Note, I'm not going to discuss job-hopping. I'll have a different article soon on **how to get a job in data science** (with interview hacks and back-office secrets guaranteed to land you a job). Stay tuned. 
+Note, I'm not going to discuss job-hopping. I'll have a different article soon on **how to get a job in data science** (with interview hacks and back-office secrets guaranteed to land you a job). Stay tuned.
 
-Onto our first case-study. 
+Onto our first case-study.
 
 # 4. Case Study: How one data scientist 2X'ed his salary in 1-year
 
-People are lazy. (I'm just going to say it.) 
+People are lazy. (I'm just going to say it.)
 
 ![](/assets/lazy_people.jpeg)
 
@@ -351,13 +471,13 @@ You see I gave him the edge he needed to tripple (yes, tripple!) his productivit
 
 How did I 3X Mohana's productivity?
 
-**I taught him the way I code in R.** He was able to write half the code and get twice as much done versus his python counterparts. 
+**I taught him the way I code in R.** He was able to write half the code and get twice as much done versus his python counterparts.
 
-**I taught him how to make hundreds of machine learning models in minutes.** I gave him my playbook for consulting with the secrets I used to spend less time on machine learning and more time on feature engineering. 
+**I taught him how to make hundreds of machine learning models in minutes.** I gave him my playbook for consulting with the secrets I used to spend less time on machine learning and more time on feature engineering.
 
-**I taught him the secrets to unlocking shiny web apps that his organization can use.** You see while his python counterparts were trying to get their first app launched, Mohana already had three done. 
+**I taught him the secrets to unlocking shiny web apps that his organization can use.** You see while his python counterparts were trying to get their first app launched, Mohana already had three done.
 
-**And, I taught him the hidden way to scale time series to 1000's of forecasts in minutes.** This gave him a skill that no one... I mean no one had in his company. 
+**And, I taught him the hidden way to scale time series to 1000's of forecasts in minutes.** This gave him a skill that no one... I mean no one had in his company.
 
 Then, Mohana simply applied what I taught him to his business. And...
 
