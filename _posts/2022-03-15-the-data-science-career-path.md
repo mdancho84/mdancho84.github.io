@@ -104,7 +104,7 @@ Here's a typical conversation between a Business Analyst and a Data Engineer...
 
 <p class="text-center date">Typical conversation between a Business Analyst and a Data Engineer (<a href="https://towardsdatascience.com/a-day-in-the-life-of-a-data-engineer-d65293272121">Day in the Life of a Data Engineer</a>)</p>
 
-So, what Data Engineers do is make the jobs of the Business Analysts and Data Scientists much easier. 
+So, what Data Engineers do is make the jobs of the Business Analysts and Data Scientists much easier.
 
 They do this by giving data scientists access to data in a nice tidy looking format that comes from what they call a **"data pipeline"**.
 
@@ -525,7 +525,7 @@ Well, this is exactly what happened to another one of my students.
 
 Here's what Auggie did...
 
-![](/assets/auggie_1.jpg)
+![](/assets/auggie_1-1.jpg)
 
 Through my [R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series), Auggie learned the necessary skills to build complex attrition models.
 
@@ -547,7 +547,7 @@ Auggie says, _"The project was a huge success. I got a personal message from the
 
 He exclaims, _"The skills displayed during the project were a major consideration factor in my promotion to Analytics Manager a few months later. And it was all thanks to the skills I picked up in your R-Track courses."_
 
-![](/assets/auggie_2.jpg)
+![](/assets/auggie_2-1.jpg)
 
 This is why organizations everywhere will value you if you learn data science.
 
@@ -585,11 +585,11 @@ He's now a Lead Data Scientist at Money View, one of India's fastest growing sta
 
 He says, "I just want to thank you again. You are my career savior."
 
-![](/assets/mohana_career_savior.jpg)
+![](/assets/mohana_career_savior-1.jpg)
 
 I replied, "Congratulations. You are seeing what happens when you invest in yourself."
 
-![](/assets/matt_response_mohana.jpg)
+![](/assets/matt_response_mohana-1.jpg)
 
 ## If you are ready to learn. I'm ready to teach.
 
