@@ -8,15 +8,17 @@ tags:
 - R
 title: What is the Career Path for a Data Scientist? (From $75,000 to $150,000 salary
   in 1-year)
-date: 2022-03-15 06:00:00 -0400
-excerpt: ''
+date: 2022-03-15 14:00:00 -0400
+excerpt: 'The data science career path is demystified in this article showing you
+  2 case studies and a ton of research on how to set your career up for going from
+  $75,000 to $150,000 in 1-year. '
 image: "/assets/data_science_career_path-1.jpg"
 image_preview: "/assets/data_science_career_path-1.jpg"
 
 ---
 It was 2018 and Mohana was a struggling business analyst. He'd been getting a measly 3.5% raise since he joined his company.
 
-Then in 2019 he got 1 raise (10%)...
+Then in 2019 he got 1 raise (10%)... 
 
 In 6-months Mohana got another raise (this time 26%)...
 
@@ -49,8 +51,8 @@ This post includes [career research from Glassdoor](https://www.glassdoor.com/ab
 * What data science roles exist? (and which to steer clear of)
 * The career path for a data scientist (you start at $125,000)
 * The skills needed to get promoted to Senior and Lead Data Scientist (you start at $150,000)
-* Case Study 1: How to 2X your salary in 1-year
-* Case Study 2: How to make a splash (How one data scientist saved his company $5 Million per year annually)
+* Case Study 1: How to 2X your salary in 1-year ($75,000 -> $150,000)
+* Case Study 2: How to make a splash (How one data scientist saved his company $5,000,000 each year)
 
 # 1. What data science roles exist? (and which to steer clear of)
 
@@ -92,17 +94,19 @@ I explain in-depth exactly [which skills are important to become a data scientis
 
 ## What about Data Engineering?
 
-The question I always get at this point is what about Data Engineering?
+The question I always get at this point is: _What about Data Engineering?_
 
 Well, that's a great question. Let me explain why Data Engineering is not in the table.
 
-Here's a typical conversation between a Business Analyst and a Data Engineer.
+Here's a typical conversation between a Business Analyst and a Data Engineer...
 
 ![](/assets/business_analyst_data_engineer.jpeg)
 
 <p class="text-center date">Typical conversation between a Business Analyst and a Data Engineer (<a href="https://towardsdatascience.com/a-day-in-the-life-of-a-data-engineer-d65293272121">Day in the Life of a Data Engineer</a>)</p>
 
-So, Data Engineering is really a support role. And what Data Engineers do is give data to the Business Analysts and Data Scientists in a nice tidy looking format that comes from what they call a "data pipeline".
+So, what Data Engineers do is make the jobs of the Business Analysts and Data Scientists much easier.
+
+They do this by giving data scientists access to data in a nice tidy looking format that comes from what they call a **"data pipeline"**.
 
 According to the article, [_"A day in the life of a data engineer"_](),  Data Engineers regularly deal with:
 
@@ -110,9 +114,15 @@ According to the article, [_"A day in the life of a data engineer"_](),  Data En
 * Setup/Maintenance infrastructure
 * Fixing bugs, improving code base, documentation
 
-Let me make this point to conclude: **Data Engineers are valuable (if not essential to data science success).**
+## **Data Engineers are valuable (if not essential) to data science program success**
 
-But since we are focused on the Data Science career path, it's more important to focus on downstream activities like production and business results rather than upstream tasks like data processing.
+No question - Data Engineers are valuable.
+
+But, since we are focused on the _Data Science Career Path_, it's more important to focus on downstream tasks like production and business results rather than upstream tasks like data engineering, which is why I'm excluding Data Engineering career path from the conversation.
+
+And quite honestly, I'm not the person to give you the pros and cons about data engineering.
+
+This is why I'll point you to a [data engineering guru like Andreas Kretz](https://www.youtube.com/c/andreaskayy).
 
 ## It's a mistake to go for NLP or Machine Learning Engineering (right away)
 
@@ -124,7 +134,7 @@ Remember, you can always learn more later (become specialized), but in the begin
 
 Then make your key moves after learning the business.
 
-## You must avoid a business analyst position RIGHT NOW
+## Avoid the business analyst position (RIGHT NOW!)
 
 **Popular Opinion:** People should start as a business analyst, work there 2-4 years, and then migrated into data scientist positions.
 
@@ -237,7 +247,7 @@ What I mean is use a cheat sheet. [Here's my R-Cheat Sheet](https://www.business
 
 <p class="date text-center"><a href = "https://www.business-science.io/r-cheatsheet">The Ultimate R Cheat Sheet. It's OK to cheat. </a></p>
 
-# Here's how to cheat to become a Senior/Lead Data Scientist.
+# How to cheat to become a Senior/Lead Data Scientist.
 
 If we head to my cheat sheet (page 3) you'll find links to my goto-advanced tools for Senior/Lead Data Scientists. (PS- [Check out this article](https://www.business-science.io/careers/2022/03/11/which-data-science-skills-are-important.html) for the tools for Data Scientists if you are becoming a Data Scientist.)
 
@@ -280,9 +290,9 @@ But don't worry, I've got you covered here with some AMAZING packages.
 
 <p class="date text-center">Data Engineering in R (Big Data Tools)</p>
 
-If we head on down a little further on Page 3 of the cheat sheet, we find a section called "Speed & Scale" and "Integrating Python".
+If we head on down a little further on Page 3 of the cheat sheet, we find a section called "Speed and Scale" and "Integrating Python".
 
-## First up is Data.Table.
+## First up is Data.Table
 
 * **data.table:** This is the premier package for blazing speed. You can see how fast this is by exploring the [Data Table Benchmarks here](https://h2oai.github.io/db-benchmark/). It's faster than Spark, dplyr, pandas, dask, and most major data engineering and database softwares.
 
@@ -312,7 +322,7 @@ Fortunately, I'll help save your job (the way I eventually learned how to save m
 
 <p class="date text-center">Spark and Disk Frame (Fix Out of Memory Errors)</p>
 
-Head over to Speed & Scale (Page 3). Then click the links to sparklyr and Disk Frame.
+Head over to Speed and Scale (Page 3). Then click the links to sparklyr and Disk Frame.
 
 ### Spark in R
 
@@ -334,7 +344,7 @@ The last thing that separates Senior/Lead Data Scientists from the entry level i
 
 Wait, what?!
 
-Yep, you CAN use Python in R. Here's how. 
+Yep, you CAN use Python in R. Here's how.
 
 ![](/assets/reticulate.jpg)
 
@@ -375,13 +385,13 @@ Business was like a game of chess and I wanted to master it.
 
 My customers were my unsuspecting opponent. And I used data science to **checkmate** them into more revenue.
 
-### Can anyone guess the path I chose?
+## Can anyone guess the path I chose?
 
 If you guessed "STRATEGIC" you are 100% correct!
 
 ![](/assets/thats-right-brother.jpeg)
 
-### What about technical?
+## What about technical?
 
 Even though I chose the strategic path, I don't recommend it for everyone. Especially if you don't like dealing with personnel issues as a manager.
 
@@ -393,7 +403,7 @@ So what's my point?
 
 Well, if you can stand personnel issues for a year or two then don't go into the strategic path.
 
-## Directors & chiefs are great, but I'm no where near that level
+## Directors and chiefs are great, but I'm no where near that level
 
 Listen, I get it.
 
@@ -425,31 +435,39 @@ People are lazy. (I'm just going to say it.)
 
 ![](/assets/lazy_people.jpeg)
 
-You can take advantage of the simple fact that people get comfortable. It's easy to do.
+The simple fact is that people get comfortable.
+
+But you don't have to. In fact, the comfort of others CAN be something you can exploit.
+
+An edge (if you're smart).
+
+Surely, you can't be serious?
+
+![](/assets/airplane_meme.jpeg)
+
+It am serious!
 
 In fact, here's the story of how Mohana did it (remember Mohana from the beginning of this article?).
 
-Mohana got 3 raises in the span of a year totaling a 94% increase.
+Mohana was the analyst that got 3 raises in the span of a year totaling a 94% increase.
 
 So if his salary was $75,000 starting out. By the end of the year his salary was $150,000.
 
-## So, how did he do it?
+## So, how did Mohana do it?
 
-Well, here's his testimonial. A case study in investing in yourself.
+Mohana says, _"I just wanted to thank you again. You are my career savior."_
 
 ![](/assets/mohana-increase-salary-messages.png)
 
-Mohana says, _"I just wanted to thank you again. You are my career saviour."_
-
 He continues, _"Before when I had no idea about you and your courses, my growth as an analyst just sucked! I got a hike of 3.5% \[per year\]."_
+
+Mohana exclaims, **_"After your entry into my life, I got a 10% hike, and then a 26% hike, and then a 40% hike"_**_._
 
 **So what changed?**
 
 Mohana enrolled in my [5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
 
 That's when the flood of raises started.
-
-Mohana exclaims, _"After your entry into my life, I got a 10% hike, and then a 26% hike, and then a 40% hike"._
 
 Let's dive into how Mohana trippled (yes 3x-ed) his productivity.
 
@@ -465,11 +483,11 @@ Mohana just needs a little edge.
 
 And, Mohana got that when he met Matt Dancho (me). :)
 
-You see I gave him the edge he needed to tripple (yes, tripple!) his productivity versus his peers.
+You see I gave him the edge he needed to triple (yes, 3X!) his productivity versus his peers.
 
 ![](/assets/power_up.png)
 
-How did I 3X Mohana's productivity?
+## How did I _3X_ Mohana's productivity?
 
 **I taught him the way I code in R.** He was able to write half the code and get twice as much done versus his python counterparts.
 
@@ -491,6 +509,94 @@ And, this is what I live for. Seeing my students succeed like this.
 
 But that's just one case. I couldn't possibly duplicate it could I?
 
-Let's see.
+Let's see...
 
-# 5. Case Study 2: How one data scientist saved his company $5M per year
+# 5. Case Study 2: How one data scientist saved his company $5,000,000 per year
+
+What if you could save your company $5,000,000 every year in perpetuity?
+
+Would your company value you?
+
+Would you be promoted?
+
+Well, this is exactly what happened to another one of my students.
+
+## Auggie learned how to make attrition models
+
+Here's what Auggie did...
+
+![](/assets/auggie_1.jpg)
+
+Through my [R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series), Auggie learned the necessary skills to build complex attrition models.
+
+Auggie was then able to apply the course framework to his business problem.
+
+In the car insurance industry, his company needs to make assessments of whether or not vehicles were totaled in collisions. An incorrect assessment can be very _costly_ to the car insurance firm.
+
+Using my coursework, Auggie made a better model. In fact so much better that...
+
+## Auggie's model saved the organization $400,000 every month
+
+A quick math check means that Auggie saved his organization $4,800,000 per year. And these estimates may actually be low (meaning the model is likely saving more).
+
+**Auggie was recognized.**
+
+Auggie says, _"The project was a huge success. I got a personal message from the CTO and the CEO mentioned the model in our most recent investor call."_
+
+**Auggie was rewarded with a promotion.**
+
+He exclaims, _"The skills displayed during the project were a major consideration factor in my promotion to Analytics Manager a few months later. And it was all thanks to the skills I picked up in your R-Track courses."_
+
+![](/assets/auggie_2.jpg)
+
+This is why organizations everywhere will value you if you learn data science.
+
+And, I can help.
+
+# How to go from a $75,000 to a $150,000 salary
+
+If you've read this article, you now have all of the information that is needed to take you from a $75,000 salary to a $150,000 salary.
+
+But, you still **don't** have a plan to do it fast.
+
+## It will take 2-years (or longer) on your own.
+
+In fact, it actually took me 5-years of struggle to learn data science on my own. I took  bootcamps, read books, research paper after paper, and nothing worked.
+
+But that's why I created my R-Track Program. To help people like me, struggling to get the 6-figure career they deserve.
+
+## Imagine what earning $125,000+ in 6-months from now could do for you
+
+How amazing would it be to know you have the financial freedom to do anything you want.
+
+You can take a vacation.
+
+Spend more time with family.
+
+Have financial stability and less stress.
+
+And this is why an investment in yourself will unlock those dreams.
+
+## Remember Mohana? (3.5% raise to 94% raise in under 1-year)
+
+Mohana was getting 3.5% raises.
+
+He's now a Lead Data Scientist at Money View, one of India's fastest growing start-ups.
+
+He says, "I just want to thank you again. You are my career savior."
+
+![](/assets/mohana_career_savior.jpg)
+
+I replied, "Congratulations. You are seeing what happens when you invest in yourself."
+
+![](/assets/matt_response_mohana.jpg)
+
+## If you are ready to learn. I'm ready to teach.
+
+If you are ready to learn. Then, I'm ready to teach.
+
+Here's how.
+
+![](/assets/rtrack_what_they_are_doing.jpeg)
+
+<p class="text-center" style="font-size:36px;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join the 5-Course R-Track Today</a></p>
