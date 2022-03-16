@@ -168,6 +168,20 @@ li{font-size:20px;}
   line-height: 88px;
 }
 
+.arena-cover {
+  min-height:500px;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('/img/colosseum.jpg');
+
+  /*background-image: url('/img/colosseum.jpg');*/
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
 .ds-writer-cover {
   min-height:500px;
   width: 100%;
