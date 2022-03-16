@@ -57,8 +57,8 @@
 
         <!-- Courses -->
         <div class="row">
-            <h4 class="text-center" style="color:#2c3e50;">Need to learn Data Science for Business?</h4>
-            <p class='text-center'>Our courses will accelerate your career. Get started today!</p>
+            <h4 class="text-center" style="color:#2c3e50;">Has your data science progress stopped?</h4>
+            <p class='text-center'><small>Let Matt help.</small></p>
         </div>
 
 		<li>
@@ -67,9 +67,9 @@
 		        <div class="col-xs-12 list-group">
 		            <a class='list-group-item' href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series" target="_blank">
 		                <h5 class="list-group-item-heading">5-Course R-Track <i class="fab fa-r-project"></i></h5>
-    		            <p>5-Courses. One streamlined system. Master R in under 6-months.</p>
+    		            <p>Become a data scientist ($125,000 salary) in under 6-months.</p>
 
-		                <img src="/img/courses/5_course_r_track.jpg" alt="5-Course R Track" class="" style="width:100%"/>
+		                <img src="/img/courses/5_course_r_track.jpg" alt="5-Course R Track" class="" style="width:100%;-webkit-filter: drop-shadow(5px 5px 5px #222);"/>
 
                         <br><br>
     		            <div class="text-center">
@@ -85,8 +85,8 @@
 		        <div class="col-xs-12 list-group">
 		            <a class='list-group-item' href="https://university.business-science.io/p/python-for-data-science-automation-ds4b-101p" target="_blank">
     		            <h5 class="list-group-item-heading">Python Automation <i class="fab fa-python"></i></h5>
-    		            <p>Learn how to automate business processes with Python.</p>
-    		            <img src="/img/courses/course_101_p.jpg" alt="Python for Data Science Automation" class="" style="width:100%"/>
+    		            <p>Start your career in python.</p>
+    		            <img src="/img/courses/course_101_p.jpg" alt="Python for Data Science Automation" class="" style="width:100%;-webkit-filter: drop-shadow(5px 5px 5px #222);"/>
     		            <br><br>
     		            <div class="text-center">
     		                <div class="btn btn-md btn-success ">Python for DS Automation</div>
@@ -100,8 +100,8 @@
 		        <div class="col-xs-12 list-group">
 		            <a class='list-group-item' href="https://university.business-science.io/" target="_blank">
     		            <h5 class="list-group-item-heading">All Courses </h5>
-    		            <p>View all of our courses.</p>
-    		            <img src="/img/courses/university.jpg" alt="Python for Data Science Automation" class="" style="width:100%"/>
+    		            <p>View all of our programs.</p>
+    		            <img src="/img/courses/university.jpg" alt="Python for Data Science Automation" class="" style="width:100%;-webkit-filter: drop-shadow(5px 5px 5px #222);"/>
     		            <br><br>
     		            <div class="text-center">
     		                <div class="btn btn-md btn-success ">View Course Catalog</div>
@@ -113,7 +113,7 @@
 		<li><hr></li>
 
 		<!-- Newsletters -->
-		<li><h5 class="text-center">Get R &amp; Python Tips</h5></li>
+		<li><h5 class="text-center">Free Tips</h5></li>
 
 		<li>
 		    <!-- R Tips -->
@@ -123,7 +123,7 @@
 		                <h5 class="list-group-item-heading">Free R-Tips <i class="fab fa-r-project"></i></h5>
     		            <p>Get R code every 2-weeks.</p>
 
-		                <img src="/img/logo-r.png" alt="Free R-Tips Newsletter" class="" style="width:100%"/>
+		                <img src="/img/logo-r.png" alt="Free R-Tips Newsletter" class="" style="width:50%;margin-left:auto;margin-right:auto;display:block;-webkit-filter: drop-shadow(5px 5px 5px #222);"/>
 
                         <br><br>
     		            <div class="text-center">
@@ -141,7 +141,7 @@
 		                <h5 class="list-group-item-heading">Free Python-Tips <i class="fab fa-python"></i></h5>
     		            <p>Get Python code every 2-weeks.</p>
 
-		                <img src="/img/logo-python.png" alt="Free Python-Tips Newsletter" class="" style="width:100%"/>
+		                <img src="/img/logo-python.png" alt="Free Python-Tips Newsletter" class="" style="width:50%;margin-left:auto;margin-right:auto;display:block;-webkit-filter: drop-shadow(5px 5px 5px #222);"/>
 
                         <br><br>
     		            <div class="text-center">
@@ -168,11 +168,11 @@
 				<a href="{{ post.url }}" class="list-group-item">
 					<h6 class="list-group-item-heading">{{ post.title }}</h6>
 				    {% if post.image_preview %}
-							<img src="{{ site.baseurl }}{{ post.image_preview }}" alt="..." style="width: 100%;">
+							<img src="{{ site.baseurl }}{{ post.image_preview }}" alt="..." style="width: 100%;-webkit-filter: drop-shadow(5px 5px 5px #222);">
 						{% elsif post.image %}
-							<img src="{{ site.baseurl }}{{ post.image }}" alt="..." style="width: 100%;">
+							<img src="{{ site.baseurl }}{{ post.image }}" alt="..." style="width: 100%;-webkit-filter: drop-shadow(5px 5px 5px #222);">
 	          {% else %}
-	            <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
+	            <img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;-webkit-filter: drop-shadow(5px 5px 5px #222);">
 	      	  {% endif %}
 				</a>
 				{% endif %}
@@ -181,21 +181,6 @@
 
 		</li>
 		<li><hr></li>
-
-		<!-- Search -->
-		<li>
-		    <form class="navbar-form" role="search" method="get" action="https://google.com/search">
-              <div class="row">
-                  <div class="col-xs-12">
-                      <h5>Search for Articles</h5>
-                  </div>
-                  {% include search_google.html %}
-              </div>
-            </form>
-		</li>
-		<li><hr></li>
-
-
 
 
 		<!-- Recent Posts -->
@@ -206,11 +191,11 @@
 				<a href="{{ post.url }}" class="list-group-item">
 					<h6 class="list-group-item-heading">{{ post.title }}</h6>
 						{% if post.image_preview %}
-							<img src="{{ site.baseurl }}{{ post.image_preview }}" alt="..." style="width: 100%;">
+							<img src="{{ site.baseurl }}{{ post.image_preview }}" alt="..." style="width: 100%;-webkit-filter: drop-shadow(5px 5px 5px #222);">
 						{% elsif post.image %}
-							<img src="{{ site.baseurl }}{{ post.image }}" alt="..." style="width: 100%;">
+							<img src="{{ site.baseurl }}{{ post.image }}" alt="..." style="width: 100%;-webkit-filter: drop-shadow(5px 5px 5px #222);">
 						{% else %}
-							<img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;">
+							<img src="{{ site.baseurl }}/img/header-sm-crpd.png" alt="..." style="width: 100%;-webkit-filter: drop-shadow(5px 5px 5px #222);">
 						{% endif %}
 				</a>
 				{% endfor %}
