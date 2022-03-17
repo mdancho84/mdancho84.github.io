@@ -17,7 +17,7 @@ image: "/assets/2021-07-22-ggdist-raincloud-plots/ggdist_raincloud_thumb.jpg"
 image_preview: "/assets/2021-07-22-ggdist-raincloud-plots/ggdist_raincloud_thumb.jpg"
 
 ---
-The `ggdist` package is a `ggplot2` extension that is made for visualizing distributions and uncertainty. We'll show see how `ggdist` can be used to make a **raincloud plot.** 
+The `ggdist` package is a `ggplot2` extension that is made for visualizing distributions and uncertainty. We'll show see how `ggdist` can be used to make a **raincloud plot.**  
 
 ## R-Tips Weekly
 
