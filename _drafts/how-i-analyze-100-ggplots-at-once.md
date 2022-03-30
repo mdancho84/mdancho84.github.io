@@ -36,4 +36,10 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 Learn how to use the `trelliscopejs` package in my 5-minute YouTube video tutorial.
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embedx6GL9Y3t2Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/x6GL9Y3t2Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# What you make in this R-Tip
+
+By the end of this tutorial, you'll make the **20+ ggplots** for exposing insights in your big data.
+
+![](/assets/trelliscopejs_thumb.jpg)
