@@ -18,8 +18,8 @@ image_preview: "/assets/000-dataexplorer-thumb2.jpg"
 ---
 **Data Scientists spend 80% of their time** just trying to understand and prepare data for analysis! This process is called Exploratory Data Analysis (EDA). R has an Insane EDA​ productivity-enhancer. It's called `DataExplorer​`. And I'm going to get you up and running with `DataExplorer` in **under 5-minutes:**
 
-1. How to make an Automatic EDA Report in seconds.
-2. **BONUS: How to use the Automatic EDA Report to get insights.**
+1. How to make an Automatic EDA Report in seconds with DataExplorer.
+2. **BONUS: How to use the 7 most important EDA Plots to get exploratory insights.**
 
 # R-Tips Weekly
 
@@ -85,11 +85,11 @@ This produces an automatic EDA report that covers all of the important aspects t
 
 ![](/assets/data_explorer_gif.gif)
 
-# BONUS: How to use the DataExplorer report
+# BONUS: How to use the 7 Most Important DataExplorer Plots
 
 As an extra special bonus, I figured I'd teach you not only how to make the report BUT how to use the report too. I know, I'm too kind.
 
-Here's how to get the most out of your automatic EDA report. If you'd like the code to produce the individual plots, simply sign up for our [free R-tips codebase](https://learn.business-science.io/r-tips-newsletter). 
+Here's how to get the most out of your automatic EDA report. If you'd like the code to produce the individual plots, simply sign up for our [free R-tips codebase](https://learn.business-science.io/r-tips-newsletter).
 
 ## 1. Basic Statistics
 
@@ -122,7 +122,7 @@ Next, we can examine each of the columns specifically learning about what data t
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-The missing data profile report helps us understand which columns have missing data. 
+The missing data profile report helps us understand which columns have missing data.
 
 * We can start to think about **missing data treatment** - imputation strategies or if we will need to remove columns
 * We can see if columns have **hardly any or no missing data** - which will be easier to use
@@ -137,17 +137,17 @@ We have a bunch of options here, which can be used to dive into the columns. I'l
 
 ### 4A. Continuous Features (Histogram)
 
-We can check out the distribution within the numeric data to quickly see what we are dealing with. 
+We can check out the distribution within the numeric data to quickly see what we are dealing with.
 
 ![](/assets/04-dataexplorer-continuous-features.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-We can get a sense of the **distribution** of the numeric data. 
+We can get a sense of the **distribution** of the numeric data.
 
 * **Skewed data:** TV Hours is very skewed with a few outliers (e.g. watching 24-hours of TV per day)
 * **Non-normal data:** Age tends to be more 25-50 year old respondents than over 50
-* **Data Range:** We can see the survey results go from year 200 to 2014. It looks like every 2-years. 
+* **Data Range:** We can see the survey results go from year 200 to 2014. It looks like every 2-years.
 
 ### 4.B Categorical Features (Bar Plots)
 
@@ -158,7 +158,7 @@ We can get a sense of the **distribution** of the numeric data.
 The categorical feature distributions are frequency counts by category shown as a box plot. This helps us:
 
 * **Understand categorical distribution:** Categories tend to have some levels that are highly present and others that are much more rare.
-* **Start thinking about categorical treatment:** We may need to lump some categories together before modeling. 
+* **Start thinking about categorical treatment:** We may need to lump some categories together before modeling.
 
 ## 5. Correlation Analysis
 
@@ -166,25 +166,25 @@ The categorical feature distributions are frequency counts by category shown as 
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-* Correlation helps us tell whether **we should move onto modeling**. 
-* **Warning! The correlation can be a bit misleading.** Many correlations of numeric variables are non-linear. For example, middle-aged people may be more likely to watch less TV. But young and older people may be more likely to watch more TV. The correlation could be low because of the nonlinear relationship. 
+* Correlation helps us tell whether **we should move onto modeling**.
+* **Warning! The correlation can be a bit misleading.** Many correlations of numeric variables are non-linear. For example, middle-aged people may be more likely to watch less TV. But young and older people may be more likely to watch more TV. The correlation could be low because of the nonlinear relationship.
 
 ## 6. Principal Components
 
-Plotting principal components can help you determine if the data can be compressed. I'll explain what I mean by this. 
+Plotting principal components can help you determine if the data can be compressed. I'll explain what I mean by this.
 
 ![](/assets/06-dataexplorer-pca.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-Data that is very wide (many columns) can be computationally expensive to model. 
+Data that is very wide (many columns) can be computationally expensive to model.
 
-* By applying PCA (Principal Component Analysis), we can **determine if compressing** using an algorithm like PCA or UMAP is appropriate. 
-* Here I can see about 37% of the **variance explained** is contained in the first 20 principal components. 
+* By applying PCA (Principal Component Analysis), we can **determine if compressing** using an algorithm like PCA or UMAP is appropriate.
+* Here I can see about 37% of the **variance explained** is contained in the first 20 principal components.
 
 ## 7. Bivariate Distributions
 
-Now we are going to focus on how each feature varies with the target (rincome - how much each person/household makes in annual income). 
+Now we are going to focus on how each feature varies with the target (rincome - how much each person/household makes in annual income).
 
 * **Box Plot:** For analyzing numeric vs categorical
 * **Scatter Plot:** For analyzing numeric vs numeric (not shown)
@@ -197,7 +197,7 @@ Now we are going to focus on how each feature varies with the target (rincome - 
 
 With the box plot, we can:
 
-* Begin to **visualize relationships**. 
+* Begin to **visualize relationships**.
 * See how each numeric feature (age, tv hours, year) has a relationship with rincome
 * $250,000 (high income earners) tend to be in their early 40's while low income earners are in their late 20's
 
