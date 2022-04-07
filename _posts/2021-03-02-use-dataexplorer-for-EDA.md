@@ -1,107 +1,228 @@
 ---
 layout: post
-title: "Super-FAST EDA in R with DataExplorer"
-date:   2021-03-02 07:00:00
-excerpt: "Did you know most Data Scientists spend 80% of their time just trying to understand and prepare data for analysis? R has an Insane Exploratory Data Analysis productivity-enhancer. It's called DataExplorer."
-author: "Matt Dancho"
-categories: [Code-Tools]
-tags: [R-Bloggers, Learn-R, DataExplorer]
-image: /assets/2021-03-02_Use_DataExplorer_for_EDA/dataexplorer_cover.jpg
-image_preview: /assets/2021-03-02_Use_DataExplorer_for_EDA/dataexplorer_preview.jpg
+title: Automatic Exploratory Data Analysis in R with DataExplorer
+date: 2021-03-02 02:00:00 -0500
+excerpt: Did you know most Data Scientists spend 80% of their time just trying to
+  understand and prepare data for analysis? R has an Insane Exploratory Data Analysis
+  productivity-enhancer. It's called DataExplorer.
+author: Matt Dancho
+categories:
+- Code-Tools
+tags:
+- R-Bloggers
+- Learn-R
+- DataExplorer
+image: "/assets/000-dataexplorer-thumb2.jpg"
+image_preview: "/assets/000-dataexplorer-thumb2.jpg"
+
 ---
+**Data Scientists spend 80% of their time** just trying to understand and prepare data for analysis! This process is called Exploratory Data Analysis (EDA). R has an Insane EDA​ productivity-enhancer. It's called `DataExplorer​`. And I'm going to get you up and running with `DataExplorer` in **under 5-minutes:**
 
+1. How to make an Automatic EDA Report in seconds.
+2. **BONUS: How to use the Automatic EDA Report to get insights.**
 
+# R-Tips Weekly
 
-This article is part of a R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
-
-<br/>
-
-
-Did you know most **Data Scientists spend 80% of their time just trying to understand and prepare data for analysis?!** This process is called Exploratory Data Analysis (EDA). R has an Insane EDA​ productivity-enhancer. It's called `DataExplorer​`.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
-<ul>
-    <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li>
-    <li><a href="https://youtu.be/ssVEoj54rx4">YouTube Tutorial</a></li>
-</ul>
+<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/ssVEoj54rx4">YouTube Tutorial</a></li> </ul>
 
-<br/>
+# Video Tutorial
 
-<figure class="text-center">
-    <a href="https://youtu.be/ssVEoj54rx4"><img src="/assets/2021-03-02_Use_DataExplorer_for_EDA/video.png" border="0" width="100%" /></a>
-  <figcaption>(Click image to play tutorial)</figcaption>
-</figure>
+Learn how to use the `trelliscopejs` package in my 5-minute YouTube video tutorial.
 
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/ssVEoj54rx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<h1>Use DataExplorer for EDA <br/> <small>Exploratory Data Analysis</small></h1>
+# What you make in this R-Tip
 
-<img src="/assets/2021-03-02_Use_DataExplorer_for_EDA/chart_scroll.gif" width="100%">
+By the end of this R-Tip, you'll make this exploratory data analysis report. Perfect for impressing your boss and coworkers! (Nice EDA skills)
 
-<p>You're making this DataExplorer EDA Report!</p>
+![](/assets/data_explorer_gif.gif)
 
-<h1>Super-FAST Exploratory Data Analysis (EDA) in R</h1>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-<p>In this weekly <a href="https://learn.business-science.io/r-tips-newsletter">R-Tip</a>, we're making an <strong>"EDA Report", created with the DataExplorer R package</strong>. The DataExplorer Package is an excellent package for <strong>Exploratory Data Analysis</strong>. In fact, it's one of my top 3 EDA Packages.</p>
+# Thank you developers.
 
-<p><strong>PRO TIP</strong>: I've added EDA on Page 3 of <a href="https://www.business-science.io/r-cheatsheet">my Ultimate R Cheatsheet</a>. 👇</p>
+Before we dive into `DataExplorer`, I want to take a moment to thank the developer, [Boxuan Cui](https://www.linkedin.com/in/boxuancui/). He's currently working as a Senior Data Science Manager at Tripadvisor. In his spare time, Boxuan has built and maintains one of the most useful R packages on the planet: `DataExplorer`. Thank you!
 
-<a href="https://www.business-science.io/r-cheatsheet"><img src="/assets/2021-03-02_Use_DataExplorer_for_EDA/special_topics.jpg" width="100%"></a>
+# Automatic Exploratory Data Analysis with `DataExplorer`
 
-<p>As you follow along, you can use <a href="https://www.business-science.io/r-cheatsheet">my Ultimate R Cheatsheet</a>. It consolidates the most important R packages (ones I use every day) into one cheatsheet. </p>
+One of the coolest features of DataExplorer is the ability to **create an EDA Report in 1 line of code**. This automates:
 
-<h1>EDA Report with Data Explorer <br> <small>Automatic Exploratory Reporting</small></h1>
+* **Basic Statistics**
+* **Data Structure**
+* **Missing Data Profiling**
+* **Continuous and Categorical Distribution Profiling (Histograms, Bar Charts)**
+* **Relationships (Correlation)**
 
-<p>One of the coolest features of DataExplorer is the ability to <strong>create an EDA Report in 1 line of code</strong>. This automates:</p>
+Ultimately, this saves the analyst/data scientist SO MUCH TIME.
 
-<ul>
-    <li>Basic Statistics</li>
-    <li>Data Structure</li>
-    <li>Missing Data Profiling</li>
-    <li>Continuous and Categorical Distribution Profiling (Histograms, Bar Charts)</li>
-    <li>Relationships (Correlation)</li>
-</ul>
+## Step 1: Load the libraries and data
 
-<p>Ultimately, this saves the analyst/data scientist SO MUCH TIME. 🚀</p>
+To get set up, all we need to do is load the following libraries and data.
 
-<img src="/assets/2021-03-02_Use_DataExplorer_for_EDA/code.jpg" width="100%">
+![](/assets/00-dataexplorer-libraries.jpg)
 
-<img src="/assets/2021-03-02_Use_DataExplorer_for_EDA/chart_scroll_2.gif" width="100%">
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-<h1>DataExplorer EDA Plots<br><small>Add the important DataExplorer report plots to your R-Code</small></h1>
+We'll use the `gss_cat` dataset, which has income levels for people by various factors including marital status, age, race, religion, ....
 
-<p>DataExplorer just makes EVERYTHING SO EASY. Here's an example of the output of <code>plot_correlations()</code>. In one line of code, we get a <strong>correlation heatmap</strong> correlation heatmap with categorical data dummied. </p>
+![](/assets/00-dataexplorer-data.jpg)
 
-<img src="/assets/2021-03-02_Use_DataExplorer_for_EDA/correlation_heatmap.jpg" width="100%">
+With data in hand, we are ready to create the automatic EDA report. Let's go!
 
-<p>It gets better. Everything is one line of code:</p>
+## Step 2: Create the Automatic EDA Report
 
-<ul>
-    <li><code>plot_intro()</code>: Plots the introduction to the dataset</li>
-    <li><code>plot_missing()</code>: Plots the missing data</li>
-    <li><code>plot_density()</code> and <code>plot_histogram()</code>: Plots the continuous feature distributions.</li>
-    <li><code>plot_bar()</code>: Plots bar charts for categorical distributions</li>
-    <li><code>plot_correlation()</code>: Plots relationships</li>
-</ul>
+Next, use `create_report()` to make our EDA report. Be sure to specify the output file, output directory, target variable (y), and give it a report title.
 
-<img src="/assets/2021-03-02_Use_DataExplorer_for_EDA/code_2.jpg" width="60%">
+![](/assets/01-eda-report-code.jpg)
 
-<p>Here's the output of <code>plot_bar()</code>. Wow - DataExplorer makes it that easy to make TIME-SAVING EDA VISUALIZATIONS. </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-<img src="/assets/2021-03-02_Use_DataExplorer_for_EDA/plot_bar.jpg" width="100%">
+This produces an automatic EDA report that covers all of the important aspects that we need to analyze in our data! It's that simple folks.
 
-<p>You don't need to be Bruce Almighty to do EDA fast anymore.<br>
-<strong>Just.Use.DataExplorer.</strong></p>
+![](/assets/data_explorer_gif.gif)
 
-<img src="/assets/2021-03-02_Use_DataExplorer_for_EDA/EDA_fast_meme.gif">
+# BONUS: How to use the DataExplorer report
 
+As an extra special bonus, I figured I'd teach you not only how to make the report BUT how to use the report too. I know, I'm too kind.
 
+Here's how to get the most out of your automatic EDA report. If you'd like the code to produce the individual plots, simply sign up for our [free R-tips codebase](https://learn.business-science.io/r-tips-newsletter). 
 
+## 1. Basic Statistics
 
+![](/assets/02-dataexplorer-basic-stats-1.jpg)
 
-<br><br>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-{% include cta_rtrack.html %}
+The basic statistics is where we first start understanding our data. We can see information about our columns including:
+
+* **Discrete columns:** Columns with categorical data
+* **Continuous columns:** Columns with numeric data
+* **All missing columns:** Columns that have 100% missing data
+* **Complete rows:** Percentage of rows that are complete (no missing data)
+* **Missing observations:** Of all of the data, this is the percentage of missing
+
+## 2. Data Structure
+
+![](/assets/03-dataexplorer-data-structure.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+Next, we can examine each of the columns specifically learning about what data types are contained inside each of the columns.
+
+* This is really important when we need to **know a bit more detail** about our data.
+* We can **begin to hypothesize** what we should do to get it into the correct structure for analysis.
+
+## 3. Missing Data Profile
+
+![](/assets/04-dataexplorer-missing-data.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+The missing data profile report helps us understand which columns have missing data. 
+
+* We can start to think about **missing data treatment** - imputation strategies or if we will need to remove columns
+* We can see if columns have **hardly any or no missing data** - which will be easier to use
+* We can see if columns have **a lot of missing data** - which may need to be removed or heavily treated
+
+## 4. Univariate Distributions
+
+We have a bunch of options here, which can be used to dive into the columns. I'll focus on the 2 most important:
+
+* **Continuous Features: Histogram**
+* **Categorical Features: Bar Plot**
+
+### 4A. Continuous Features (Histogram)
+
+We can check out the distribution within the numeric data to quickly see what we are dealing with. 
+
+![](/assets/04-dataexplorer-continuous-features.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+We can get a sense of the **distribution** of the numeric data. 
+
+* **Skewed data:** TV Hours is very skewed with a few outliers (e.g. watching 24-hours of TV per day)
+* **Non-normal data:** Age tends to be more 25-50 year old respondents than over 50
+* **Data Range:** We can see the survey results go from year 200 to 2014. It looks like every 2-years. 
+
+### 4.B Categorical Features (Bar Plots)
+
+![](/assets/04-dataexplorer-categorical-features.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+The categorical feature distributions are frequency counts by category shown as a box plot. This helps us:
+
+* **Understand categorical distribution:** Categories tend to have some levels that are highly present and others that are much more rare.
+* **Start thinking about categorical treatment:** We may need to lump some categories together before modeling. 
+
+## 5. Correlation Analysis
+
+![](/assets/05-dataexplorer-correlation.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+* Correlation helps us tell whether **we should move onto modeling**. 
+* **Warning! The correlation can be a bit misleading.** Many correlations of numeric variables are non-linear. For example, middle-aged people may be more likely to watch less TV. But young and older people may be more likely to watch more TV. The correlation could be low because of the nonlinear relationship. 
+
+## 6. Principal Components
+
+Plotting principal components can help you determine if the data can be compressed. I'll explain what I mean by this. 
+
+![](/assets/06-dataexplorer-pca.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+Data that is very wide (many columns) can be computationally expensive to model. 
+
+* By applying PCA (Principal Component Analysis), we can **determine if compressing** using an algorithm like PCA or UMAP is appropriate. 
+* Here I can see about 37% of the **variance explained** is contained in the first 20 principal components. 
+
+## 7. Bivariate Distributions
+
+Now we are going to focus on how each feature varies with the target (rincome - how much each person/household makes in annual income). 
+
+* **Box Plot:** For analyzing numeric vs categorical
+* **Scatter Plot:** For analyzing numeric vs numeric (not shown)
+
+### Box Plot: Numeric vs Categorical
+
+![](/assets/07-dataexplorer-boxplot.jpg)
+
+With the box plot, we can:
+
+* Begin to **visualize relationships**. 
+* See how each numeric feature (age, tv hours, year) has a relationship with rincome
+* $250,000 (high income earners) tend to be in their early 40's while low income earners are in their late 20's
+
+# Recap
+
+We learned how to use the `DataExplorer` library to automatically create an exploratory data analysis report. Great work! **But, there's a lot more to becoming a data scientist.**
+
+If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
+
+## Step 1: Watch my Free 40-Minute Webinar
+
+Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.**
+
+AND, I don't want it to take that long for you.
+
+So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) that provides a roadmap for what worked for me.
+
+Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
+
+## Step 2: Take action
+
+For my action-takers, if you are ready to take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you'd like someone to help you do this in UNDER  6-MONTHS or less....
+
+Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
+
+Get ready. The ride is wild. And the destination is AMAZING!
+
+![](/assets/rtrack_what_they_are_doing.jpeg)
 
 {% include top_rtips.html %}
-
