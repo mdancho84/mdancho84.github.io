@@ -93,7 +93,7 @@ Here's how to get the most out of your automatic EDA report. If you'd like the c
 
 ## 1. Basic Statistics
 
-![](/assets/02-dataexplorer-basic-stats-1.jpg)
+![](/assets/02-dataexplorer-basic-stats-2.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
@@ -107,7 +107,7 @@ The basic statistics is where we first start understanding our data. We can see 
 
 ## 2. Data Structure
 
-![](/assets/03-dataexplorer-data-structure.jpg)
+![](/assets/03-dataexplorer-data-structure-1.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
@@ -192,6 +192,8 @@ Now we are going to focus on how each feature varies with the target (rincome - 
 ### Box Plot: Numeric vs Categorical
 
 ![](/assets/07-dataexplorer-boxplot.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 With the box plot, we can:
 
