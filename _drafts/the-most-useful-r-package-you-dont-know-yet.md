@@ -233,3 +233,31 @@ You guessed it. I have a full section in my R Cheat Sheet.
 Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet).
 
 ![](/assets/cheatsheet_exploratory.jpg)
+
+# Recap
+
+We learned how to use the `correlationfunnel` library to automatically create an exploratory data analysis that is useful in job interviews and when you don't know much about your data. Great work! **But, there's a lot more to becoming a data scientist.**
+
+If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
+
+## Step 1: Watch my Free 40-Minute Webinar
+
+Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.**
+
+AND, I don't want it to take that long for you.
+
+So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) that provides a roadmap for what worked for me.
+
+Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
+
+## Step 2: Take action
+
+For my action-takers, if you are ready to take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you'd like someone to help you do this in UNDER  6-MONTHS or less....
+
+Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
+
+Get ready. The ride is wild. And the destination is AMAZING!
+
+![](/assets/rtrack_what_they_are_doing.jpeg)
+
+{% include top_rtips.html %}
