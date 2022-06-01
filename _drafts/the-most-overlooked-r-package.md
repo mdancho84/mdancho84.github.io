@@ -7,7 +7,7 @@ tags:
 - R-Bloggers
 - Learn-R
 - R
-title: The Overlooked R Package (To Help You Get Through A Job Interview)
+title: The Overlooked R Package (That Can Get You Through A Job Interview)
 date: 2022-06-02 06:00:00 -0400
 excerpt: 'This is the most useful R package that I''ve ever made that can help you
   tremendously AND you probably don''t know it yet. '
