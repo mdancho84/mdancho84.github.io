@@ -45,7 +45,7 @@ Tidyquant is an incredibly useful R package for downloading and working with Fin
 
 But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance you've heard of it or possibly even used it.
 
-## Getting started (R Cheat Sheet)
+#### Getting started with tidyquant (R Cheat Sheet)
 
 **Want to get started with `tidyquant`**? (perfect if you want to get a job in Financial Analysis using R.) 
 
@@ -57,13 +57,18 @@ Then I have a special R Cheat Sheet that links to all of the important documenta
 
 #### Financial Analysis (Page 3)
 
-On page 3 you can check out the Financial Analysis Section. You'll see Tidyquant and several other R packages. The links will take you to the tidyquant documentation.
+To get started with Financial Analysis in R, head to Page 3 of the cheat sheet, and you can check out the Financial Analysis Section. 
+
+* You'll see Tidyquant and several other R packages. 
+* The links will take you to the `tidyquant` & financial software documentation.
 
 ![](/assets/cheatsheet_tidyquant.jpg)
 
 <p class="date text-center">Cheat Sheet (Page 3): Financial Analysis</p>
 
 But, I'm NOT covering `tidyquant` today. It's just too popular. Check out the Cheat Sheet for the tidyquant doc's and tutorials.
+
+Onto the next R package...
 
 ## It's _not_ timetk
 
@@ -73,10 +78,12 @@ Timetk is a fantastic R package that helps bring time series analysis to the tid
 
 <p class="date text-center">It's not timetk</p>
 
-**Want to get started with Timetk?** (perfect if you have to solve time series projects for your company.) 
+But timetk is just _too_ popular. Timetk has been downloaded 1,400,000 times. 
 
 #### Time Series Analysis (Page 3)
 
-Then check out the Time Series Analysis section on [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet).
+**Want to get started with Timetk?** (perfect if you have to solve time series projects for your company.) 
+
+Check out the Time Series Analysis section on [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet).
 
 ![](/assets/cheatsheet_timetk.jpg)
