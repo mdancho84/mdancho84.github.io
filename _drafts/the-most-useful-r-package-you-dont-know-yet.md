@@ -153,6 +153,8 @@ Imagine a world where you're given a dataset that you've never seen before (such
 
 **_"You have 2 hours to give me some insights."_**
 
-Well, this actually happened to my friend Danny Ma.
+Well, this actually happened to my friend Danny Ma in one of his first data science job interviews. Here's his interview story...
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6937725065761337345" height="600" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6937725065761337345" height="450" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+## What if Danny had `correlationfunnel`?
