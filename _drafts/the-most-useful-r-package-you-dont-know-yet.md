@@ -19,7 +19,7 @@ If you are looking to learn about the most useful R package that I've ever made 
 
 But, I'm going to have some fun today too (I'll tell you why in a second)! So buckle up and get ready for some fun along the way.
 
-## What's _this_ fun that Matt speaks of?
+# What's _this_ fun that Matt speaks of?
 
 I've been learning R for the better part of a decade and for 7 of those years I've been building R packages many of which are open source (free for everyone to use). 
 
@@ -29,4 +29,24 @@ Here's a short list of many of my open source R packages, AND I want you to gues
 
 <p class="date text-center">My R Packages (Which one am I teaching you today?)</p>
 
-## Which R Package do you think I'm going to cover (that you're probably not using AND is tremendously useful)?
+# Here's what _it's_ not
+
+I love guessing games. You get to see why I picked what I picked (and I get to introduce you to my R packages at the same time). 
+
+## It's not tidyquant
+
+[Tidyquant is an incredibly useful R package](https://business-science.github.io/tidyquant/) for downloading and working with Financial Data (stocks, investments, and investment portfolios). 
+
+![](/assets/tidyquant.jpg)
+
+<p class="date text-center">It's not tidyquant</p>
+
+But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance you've heard of it or possibly even used it. 
+
+And, if you want to learn it, I have a [short 2-minute YouTube Video here](https://youtu.be/woxJZTL2hok).
+
+But, I'm NOT covering tidyquant today. It's just too popular. 
+
+## It's _not_ timetk
+
+[Timetk is a fantastic R package](https://business-science.github.io/timetk/) that helps bring time series analysis to the tidyverse. If you love dplyr and ggplot2, imagine being able to wrangle and visualize time series data the SAME way. That's what `timetk` does. 
