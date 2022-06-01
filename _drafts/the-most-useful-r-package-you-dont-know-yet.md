@@ -19,12 +19,14 @@ If you are looking to learn about the most useful R package that I've ever made 
 
 But, I'm going to have some fun today too (I'll tell you why in a second)! So buckle up and get ready for some fun along the way.
 
-## What's this fun that Matt speaks of?
+## What's _this_ fun that Matt speaks of?
 
 I've been learning R for the better part of a decade and for 7 of those years I've been building R packages many of which are open source (free for everyone to use). 
 
 Here's a short list of many of my open source R packages, AND I want you to guess which one I'm covering today. I've sorted by GitHub stars (We'll use this as a proxy for popularity).
 
 ![](/assets/r_package_stars.jpg)
+
+<p class="date text-center">My R Packages (Which one am I teaching you today?)</p>
 
 ## Which R Package do you think I'm going to cover (that you're probably not using AND is tremendously useful)?
