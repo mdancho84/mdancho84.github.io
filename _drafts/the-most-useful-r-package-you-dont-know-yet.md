@@ -43,9 +43,15 @@ I love guessing games. You get to see why I picked what I picked (and I get to i
 
 But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance you've heard of it or possibly even used it. 
 
-And, if you want to learn it, I have a [short 2-minute YouTube Video here](https://youtu.be/woxJZTL2hok).
+And, if you want to get started with it, I have a special R Cheat Sheet that links to all of the important documentation.  You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet). 
 
-But, I'm NOT covering tidyquant today. It's just too popular. 
+On page 3 you can check out the Financial Analysis Section. You'll see Tidyquant and several other R packages. The links will take you to the tidyquant documentation. 
+
+![](/assets/cheatsheet_tidyquant.jpg)
+
+<p class="date text-center">Cheat Sheet (Page 3): Financial Analysis</p>
+
+But, I'm NOT covering `tidyquant` today. It's just too popular. 
 
 ## It's _not_ timetk
 
