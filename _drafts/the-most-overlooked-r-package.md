@@ -20,9 +20,11 @@ image_preview: "/assets/most_overlooked_r_package.jpg"
 ---
 If you are looking to learn about **the most useful R package that can help you get through a data science job interview AND you don't know it yet**, you've come to the right place, my friend!
 
-And, if you want a job in data science, I'm going to show you **how _THIS_ R package can help you get through an interview with 5 lines of code.**
+And, if you want a job in data science, I'm going to show you **how _THIS_ R package can help you get through an interview with 5 lines of code.** 
 
-But, I'm going to have some fun today too (I'll tell you why in a second)! So buckle up and get ready for some fun along the way.
+Plus, as a **BONUS I'm going to share 3 other R packages** that can help get you the skills to get a data science job using R in finance and time series. 
+
+But, I'm going to have **some _fun_ today too** (I'll tell you why in a second)! So buckle up and get ready for some fun along the way.
 
 # What's _this_ fun that Matt speaks of?
 
@@ -42,11 +44,13 @@ I have a question...
 
 ![](/assets/most_overlooked_r_package-1.jpg)
 
+Let me help you...
+
 # Here are 3 hints:
 
 1. **It can help you get _through_ a Job Interview**
-2. **It's not super popular (meaning it's overlooked by many)**
-3. **It's listed in Table 1: Matt's R Packages**
+2. **It's _not_ super popular (meaning it's overlooked by many)**
+3. **It's listed in _Table 1: Matt's R Packages_**
 
 What do you think it is?
 
