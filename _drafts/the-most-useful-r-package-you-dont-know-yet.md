@@ -15,7 +15,7 @@ image: "/assets/best_r_package_ever.jpg"
 image_preview: "/assets/best_r_package_ever.jpg"
 
 ---
-If you are looking to learn about the most useful R package that I've ever made that can help you tremendously THAT you probably don't know yet, you've come to the right place, my friend!
+If you are looking to learn about **the most useful R package that can help you tremendously AND you don't know yet**, you've come to the right place, my friend!
 
 But, I'm going to have some fun today too (I'll tell you why in a second)! So buckle up and get ready for some fun along the way.
 
@@ -23,19 +23,25 @@ But, I'm going to have some fun today too (I'll tell you why in a second)! So bu
 
 I've been learning R for the better part of a decade and for 7 of those years I've been building R packages many of which are open source (free for everyone to use).
 
-Here's a short list of many of my open source R packages, AND I want you to guess which one I'm covering today. I've sorted by GitHub stars (We'll use this as a proxy for popularity).
+Here's a short list of my open source R packages, AND I want you to guess which one I'm covering today. I've sorted by GitHub stars (We'll use this as a proxy for popularity).
 
 ![](/assets/r_package_stars.jpg)
 
 <p class="date text-center">My R Packages (Which one am I teaching you today?)</p>
 
+# Guess which R package
+
+**Simple Question:** Which R package do you think I'm about to cover?
+
+![](/assets/best_r_package_ever.jpg)
+
 # Here's what _it's_ not
 
-**I _love_ guessing games.** You get to see why I picked what I picked (and I get to introduce you to my R packages at the same time).
+Every R package I cover here **IS** **super valuable**. But just not the one that IS both valuable AND few know if it. 
 
-As a bonus, every R package I cover here **IS** **super valuable**. But just not the one that IS both valuable AND few know if it. 
+If you don't know if these R packages yet, then I highly suggest learning them first. They will help you get jobs and develop your skills in important domains like finance and time series.
 
-If you don't know if these R packages yet, then I highly suggest learning them. They are life-savers for tasks like financial analysis and time series analysis. 
+So let's first show you what it's not... 
 
 ## 1. It's _not_ tidyquant
 
@@ -51,13 +57,13 @@ But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance y
 
 **Want to get started with Financial Analysis in R?** 
 
-Then I have a special R Cheat Sheet that links to all of the important documentation.  You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet).
+Then I have a special R Cheat Sheet that links to all of the important documentation.  You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet). It consolidates 20,000 R packages into the 100 best. So when you want to work in domains like finance, it has all of the R packages you need to get started. 
 
 ![](/assets/free_cheatsheet.jpg)
 
 <p class="date text-center">Free R Cheat Sheet (<a href="https://www.business-science.io/r-cheatsheet">Download Here</a>)</p>
 
-### Learning Financial Analysis
+### Learning Financial Analysis in R
 
 To get started with Financial Analysis in R, head to **Page 3 of the cheat sheet**, and you can check out the Financial Analysis Section. 
 
@@ -161,4 +167,53 @@ Well, this actually happened to my friend Danny Ma in one of his first data scie
 
 ![](/assets/interview_story_danny.jpg)
 
+## What happened is super common (in fact I've done it too).
+
+Danny was overthinking the problem in a time-constrained interview. And the result was ZERO insights (in 2-hours).
+
+Danny felt so embarrassed. BUT, I've been there too (and I'm sure a ton of other people have as well). 
+
+* Overthinking the problem. 
+* Using the wrong tools (Excel and VBA). 
+* Pressured for time
+
+It happens. But it didn't need to. 
+
 ## What if Danny had `correlationfunnel`?
+
+I developed `correlationfunnel` to help people like Danny (and myself) find insights super fast!
+
+It's called **automated exploratory data analysis**, and `correlationfunnel` makes it simple to pick out insights from data automatically. 
+
+Here's how. 
+
+## How to automate exploratory data analysis
+
+So let's say you're given a new data set like this Customer Churn dataset that comes with `correlationfunnel`. 
+
+![](/assets/churn_data.jpg)
+
+We're trying to identify relationships between:
+
+* Customer Churn (Yes or No)
+* Important Customer Features (e.g. what product they are enrolled in, how much they have purchased over their lifetime, their tenure, gender, etc) 
+
+## Quickly go from raw data to insights!
+
+The beauty is how fast you can go from raw data to insights. First, the code. 
+
+I'm not gonna spend a lot of time on this other than just comments on the picture. I'll show you where to find the documentation which explains much more than I can in this post. 
+
+![](/assets/correlationfunnel_code.jpg)
+
+## Visualizing the Business Insights
+
+But the beauty is in the plot. Here's how quickly I can make generate business insights in the data. 
+
+![](/assets/correlationfunnel_plot.jpg)
+
+With one visualization, I can quickly diagnose potential causes of Customer Churn AND I can come up with potential solutions like:
+
+* Month-to-Month Contracts have high churn: **Offer upgrades to long-term contracts**
+* Customers that opt-out of Online Internet Security have high churn. **Inform customers without online security of the dangers of getting hacked and how our solutions provides a superior defense. Offer one-time upgrades.**
+* Customers with <6 month tenure have high churn. **Incentivize 6-month bill. _"Stay for 6-months and the 7th month is on us!" _**
