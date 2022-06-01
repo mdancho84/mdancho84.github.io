@@ -33,9 +33,11 @@ Here's a short list of many of my open source R packages, AND I want you to gues
 
 **I _love_ guessing games.** You get to see why I picked what I picked (and I get to introduce you to my R packages at the same time).
 
-As a bonus, every R package I cover here IS **super valuable**. But just not the one that IS both valuable AND few know if it.
+As a bonus, every R package I cover here **IS** **super valuable**. But just not the one that IS both valuable AND few know if it. 
 
-## It's _not_ tidyquant
+If you don't know if these R packages yet, then I highly suggest learning them. They are life-savers for tasks like financial analysis and time series analysis. 
+
+## 1. It's _not_ tidyquant
 
 Tidyquant is an incredibly useful R package for downloading and working with Financial Data (stocks, investments, and investment portfolios).
 
@@ -70,7 +72,7 @@ But, I'm NOT covering `tidyquant` today. It's just too popular. Check out the Ch
 
 Onto the next R package...
 
-## It's _not_ timetk
+## 2. It's _not_ timetk
 
 Timetk is a fantastic R package that helps bring time series analysis to the tidyverse. If you love `dplyr` and `ggplot2`, imagine being able to wrangle and visualize time series data the SAME way. That's what `timetk` does.
 
@@ -88,13 +90,15 @@ Check out the Time Series Analysis section on [Page 3 of my R Cheat Sheet](https
 
 ![](/assets/cheatsheet_timetk.jpg)
 
-# It's _not_ modeltime
+# 3. It's _not_ modeltime
 
 I have put 2+ years of blood, sweat, and tears into developing `modeltime`, an ecosystem of time series forecasting tools that leverages the amazing Tidymodels ecosystem. And, of course I'd love to talk about it. 
 
 ![](/assets/2021-04-08-modeltime-recursive/modeltime_workflow.jpg)
 
 <p class="date text-center">It's not modeltime</p>
+
+### Modeltime Forecasting Ecosystem
 
 In fact, you'll see in the GitHub Star table that I created several Modeltime Ecosystem Extensions including:
 
@@ -110,3 +114,7 @@ In fact, you'll see in the GitHub Star table that I created several Modeltime Ec
 But, it's not it. 
 
 ### Want to learn Time Series Forecasting?
+
+I can't do it in this post, so I'm going to do the next best thing! I'll point you to some free resources for time series forecasting inside my R Cheat Sheet. 
+
+Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet). Under Forecasting you'll see links to all of the modeltime ecosystem documentation (I've put 100s of hours into so it's understandable and full-featured).
