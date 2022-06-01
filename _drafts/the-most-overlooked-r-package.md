@@ -22,8 +22,9 @@ If you are looking to learn about **the most useful R package that can help you 
 
 1. If you want a job in data science, I'm going to show you **how _THIS_ R package can help you get through an interview with 5 lines of code (A SECRET HACK).**
 2. As a **BONUS I'm going to share 3 other R packages** that can help get you the skills to get a data science job in lucrative fields like finance and time series.
+3. **SURPRISE AT THE END.** Yes, for everyone who reads through the end I have a special surprise!!
 
-Plus, you and I are going to have **some _fun_ today too** (I'll tell you why in a second)!
+You and I are going to have **some _fun_ today too** (I'll tell you why in a second)!
 
 So buckle up and get ready for some fun along the way.
 
@@ -31,7 +32,7 @@ So buckle up and get ready for some fun along the way.
 
 I've been learning R for the better part of a decade and for 7 of those years I've been building R packages many of which are open source (free for everyone to use).
 
-Here's a short list of my open source R packages, AND I want you to guess which one I'm covering today. I've sorted by GitHub stars (We'll use this as a proxy for popularity).
+Here's a short list of my open source R packages, AND I want you to guess which one I'm covering today. I've sorted by GitHub stars (We'll use this as a rough measure of popularity).
 
 ![](/assets/r_package_stars.jpg)
 
@@ -75,11 +76,9 @@ Tidyquant is an incredibly useful R package for downloading and working with Fin
 
 But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance you've heard of it or possibly even used it. Definitely NOT overlooked.
 
-### Getting started with Financial Analysis in R for FREE
+### Wat to get started with Financial Analysis in R for FREE?
 
-**Want to get started with Financial Analysis in R for free?**
-
-Like I said, if you want a job in a lucrative field like finance, you should **first learn** `tidyquant` or some of the other Financial R packages.
+Like I said, if you want a job in a lucrative field like finance, you should **first learn** `tidyquant` or some of the other Financial R packages (_before_ you learn my secret interview HACK coming shortly).
 
 To make learning financial analysis in R easier and faster, I have a special R Cheat Sheet that links to all of the important documentation (Spoiler - It is FREE).
 
@@ -89,9 +88,9 @@ You can [download the R cheat sheet for FREE here](https://www.business-science.
 
 <p class="date text-center">Free R Cheat Sheet (<a href="https://www.business-science.io/r-cheatsheet">Download Here</a>)</p>
 
-### Learning Financial Analysis in R for FREE
+### How to Learn Financial Analysis in R for FREE
 
-To get started with Financial Analysis in R, head to **Page 3 of the cheat sheet**, and you can check out the Financial Analysis Section.
+To start learning  Financial Analysis in R, head to **Page 3 of the cheat sheet**, and you can check out the Financial Analysis Section.
 
 * You'll see Tidyquant and several other Financial R Packages.
 * The links will take you to the `tidyquant` & financial software documentation.
@@ -102,11 +101,11 @@ To get started with Financial Analysis in R, head to **Page 3 of the cheat sheet
 
 But, I'm NOT covering `tidyquant` today. It's just _too_ popular. Check out the Cheat Sheet for the tidyquant doc's and tutorials.
 
-Onto the next R package that IT's not...
+Onto the next Bonus R package that IT's not...
 
 ## 2. It's _not_ timetk
 
-Timetk is a fantastic R package (yes, I'm proud of my baby timetk) that helps bring time series analysis to the tidyverse.
+Timetk is a fantastic R package (yes, I'm proud of my baby `timetk`) that helps bring time series analysis to the tidyverse.
 
 If you love `dplyr` and `ggplot2`, imagine being able to wrangle and visualize time series data the SAME way. That's what `timetk` does.
 
@@ -116,9 +115,7 @@ If you love `dplyr` and `ggplot2`, imagine being able to wrangle and visualize t
 
 But timetk is again _too_ popular. Timetk has been downloaded 1,400,000 times and is a staple of time series analysis using R. Timetk is mainstream... definitely not overlooked.
 
-### Learning Time Series Analysis in R for FREE
-
-**Want to get started with Time Series Analysis in R for free?**
+### Want to Learn Time Series Analysis in R for FREE?
 
 Check out the Time Series Analysis section on [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet).
 
@@ -136,9 +133,9 @@ I have put 2+ years of blood, sweat, and tears into developing `modeltime`, an e
 
 <p class="date text-center">It's not modeltime</p>
 
-## Forecasting Jobs
+## How to Get a Time Series Forecasting Job
 
-And, of course I'd love to talk about `modeltime` because well, modeltime has singlehandedly gotten a bunch of my students data science jobs, senior data science jobs and promotions. 
+And, of course I'd love to talk about `modeltime` because well, modeltime has gotten a bunch of my students data science jobs, senior data science jobs, and promotions (20%+ raises). 
 
 ![](/assets/amit_pwc.jpg)
 
@@ -148,24 +145,11 @@ And, of course I'd love to talk about `modeltime` because well, modeltime has si
 
 <p class="date text-center">Matt got a Lead Data Science job</p>
 
-### Modeltime Forecasting Ecosystem
-
-In fact, you'll see in the _Table 1: Matt's R Packages_ table that I created several Modeltime Ecosystem Extensions including:
-
-* `modeltime.ensemble` for forecast ensembles
-* `modeltime.h2o` for forecasting with H2O AutoML
-* `modeltime.gluonts` for forecasting with Python GluonTS Deep Learning
-* `modeltime.resample` for backtesting forecasts
-
-![](/assets/2021-03-15-modeltime-h2o/modeltime_ecosystem.jpg)
-
-<p class="date text-center">Modeltime Ecosystem Forecasting Extensions</p>
-
-But, it's not it.
+But, it's not it. Again, way too popular. Not overlooked. 
 
 ### Want to learn Time Series Forecasting for FREE?
 
-**Ready to get started forecasting in R for FREE?** I can't do a full time series forecast analysis in this post, so I'm going to do the next best thing! I'll point you to some free resources for time series forecasting inside my R Cheat Sheet.
+I can't do a full time series forecast analysis in this post, so I'm going to do the next best thing! I'll point you to some free resources for time series forecasting inside my R Cheat Sheet.
 
 Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet). Under Forecasting you'll see links to all of the modeltime ecosystem documentation (I've put 100s of hours into so it's understandable and full-featured).
 
@@ -187,7 +171,7 @@ Alright, so what IS it?
 
 ![](/assets/now-i-need-an-answer-now.gif)
 
-# Here IT is... The overlooked R package (that can get you through a data science job interview)!!
+# Here IT is... The MOST overlooked R package (that can get you through a data science job interview)!!
 
 ![](/assets/most_overlooked_r_package.jpg)
 
@@ -227,7 +211,7 @@ It happens. But it didn't need to.
 
 I developed `correlationfunnel` to help people like Danny (and myself) find insights super fast!
 
-`correlationfunnel` quite simply **IS A SIMPLE HACK** to pull out business insights from data automatically.
+`correlationfunnel` **IS A SIMPLE HACK** to pull out business insights from data automatically.
 
 Here's how.
 
@@ -254,7 +238,7 @@ I'm not gonna spend a lot of time on this other than just comments on the pictur
 
 <p class="date text-center">Using Correlation Funnel (R Code)</p>
 
-## Visualizing the Business Insights
+## HACKING the Business Insights
 
 But the beauty is in the plot. Here's how quickly I can make generate business insights in the data. **Correlation Funnel is THE HACK!**
 
@@ -268,9 +252,9 @@ With one visualization, I can quickly diagnose potential causes of Customer Chur
 * Customers that opt-out of Online Internet Security have high churn. **Inform customers without online security of the dangers of getting hacked and how our solutions provides a superior defense. Offer one-time upgrades.**
 * Customers with <6 month tenure have high churn. **Incentivize 6-month bill. _"Stay for 6-months and the 7th month is on us!" _**
 
-## How to learn exploratory data analysis (EDA)?
+## How to learn exploratory data analysis (EDA) for FREE?
 
-You guessed it. I have a full section in my R Cheat Sheet.
+You guessed it. I have a full Exploratory (EDA) section in my R Cheat Sheet.
 
 Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet). You'll see `correlationfunnel` and a bunch of other go-to packages for hacking exploratory data analysis. 
 
