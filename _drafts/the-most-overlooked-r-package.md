@@ -7,17 +7,20 @@ tags:
 - R-Bloggers
 - Learn-R
 - R
-title: The Overlooked R Package (That Can Get You Through A Job Interview)
+title: The Most Overlooked R Package (That Can Get You Through A Data Science Job
+  Interview)
 date: 2022-06-02 06:00:00 -0400
-excerpt: 'This is the most useful R package that I''ve ever made that can help you
-  tremendously AND you probably don''t know it yet. '
+excerpt: If you are looking to learn about the most useful R package that can help
+  you get through a job interview AND you don't know yet, you've come to the right
+  place, my friend! And, if you want a job in data science, I'm going to show you
+  how THIS R package can help you get through an interview with 5 lines of code.
 image: "/assets/most_overlooked_r_package.jpg"
 image_preview: "/assets/most_overlooked_r_package.jpg"
 
 ---
-If you are looking to learn about **the most useful R package that can help you get through a job interview AND you don't know yet**, you've come to the right place, my friend!
+If you are looking to learn about **the most useful R package that can help you get through a data science job interview AND you don't know it yet**, you've come to the right place, my friend!
 
-And, if you want a job in data science, I'm going to show you **how _THIS_ R package can help you get through an interview with 5 lines of code.** 
+And, if you want a job in data science, I'm going to show you **how _THIS_ R package can help you get through an interview with 5 lines of code.**
 
 But, I'm going to have some fun today too (I'll tell you why in a second)! So buckle up and get ready for some fun along the way.
 
@@ -29,9 +32,9 @@ Here's a short list of my open source R packages, AND I want you to guess which 
 
 ![](/assets/r_package_stars.jpg)
 
-<p class="date text-center">My R Packages (Which one am I teaching you today?)</p>
+<p class="date text-center">Table 1: Matt's R Packages</p>
 
-I have a question... 
+I have a question...
 
 # Guess which R package I'm going to cover
 
@@ -39,9 +42,11 @@ I have a question...
 
 ![](/assets/most_overlooked_r_package-1.jpg)
 
-# Here's a hint
+# Here are 3 hints:
 
-**It can help you get _through_ a Job Interview (and it's not super popular)!**
+1. **It can help you get _through_ a Job Interview**
+2. **It's not super popular (meaning it's overlooked by many)**
+3. **It's listed in Table 1: Matt's R Packages**
 
 What do you think it is?
 
@@ -49,9 +54,9 @@ OK, need some help? Well...
 
 # Here's what _it's_ not
 
-If you don't know if these R packages yet, then **I highly suggest learning these first.** They will help you get the skills to get data science jobs and develop your skills in important domains like finance and time series.  
+If you don't know if these R packages yet, then **I highly suggest learning these first.** They will help you get the skills needed to get a data science job in lucrative fields like finance and time series.
 
-So let's first show you what it's not... 
+So let me first show you what it's not...
 
 ## 1. It's _not_ tidyquant
 
@@ -61,23 +66,27 @@ Tidyquant is an incredibly useful R package for downloading and working with Fin
 
 <p class="date text-center">It's not tidyquant</p>
 
-But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance you've heard of it or possibly even used it.
+But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance you've heard of it or possibly even used it. Definitely NOT overlooked.
 
-### Getting started with Financial Analysis in R
+### Getting started with Financial Analysis in R for FREE
 
-**Want to get started with Financial Analysis in R?** 
+**Want to get started with Financial Analysis in R for free?**
 
-Then I have a special R Cheat Sheet that links to all of the important documentation.  You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet). It consolidates 20,000 R packages into the 100 best. So when you want to work in domains like finance, it has all of the R packages you need to get started. 
+Like I said, if you want a job in finance, you should **first learn** `tidyquant` or some of the other Financial R packages. 
+
+To make learning financial analysis in R easier and faster, I have a special R Cheat Sheet that links to all of the important documentation (Yes - It is FREE).  
+
+You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet). It consolidates 20,000 R packages into the 100 best. So when you want to work in domains like finance, it has all of the R packages you need to get started.
 
 ![](/assets/free_cheatsheet.jpg)
 
 <p class="date text-center">Free R Cheat Sheet (<a href="https://www.business-science.io/r-cheatsheet">Download Here</a>)</p>
 
-### Learning Financial Analysis in R
+### Learning Financial Analysis in R for FREE
 
-To get started with Financial Analysis in R, head to **Page 3 of the cheat sheet**, and you can check out the Financial Analysis Section. 
+To get started with Financial Analysis in R, head to **Page 3 of the cheat sheet**, and you can check out the Financial Analysis Section.
 
-* You'll see Tidyquant and several other Financial R Packages. 
+* You'll see Tidyquant and several other Financial R Packages.
 * The links will take you to the `tidyquant` & financial software documentation.
 
 ![](/assets/cheatsheet_financial.jpg)
@@ -96,11 +105,11 @@ Timetk is a fantastic R package that helps bring time series analysis to the tid
 
 <p class="date text-center">It's not timetk</p>
 
-But timetk is again _too_ popular. Timetk has been downloaded 1,400,000 times and his a staple of time series analysis in the tidyverse. 
+But timetk is again _too_ popular. Timetk has been downloaded 1,400,000 times and is a staple of time series analysis using R.
 
-### Learning Time Series Analysis
+### Learning Time Series Analysis in R for FREE
 
-**Want to get started with Time Series Analysis?** (perfect if you have to solve time series projects for your company.) 
+**Want to get started with Time Series Analysis in R for free?** 
 
 Check out the Time Series Analysis section on [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet).
 
@@ -112,7 +121,7 @@ Alright, onto the next one...
 
 # 3. It's _not_ modeltime
 
-I have put 2+ years of blood, sweat, and tears into developing `modeltime`, an ecosystem of time series forecasting tools that leverages the amazing Tidymodels ecosystem. And, of course I'd love to talk about it. 
+I have put 2+ years of blood, sweat, and tears into developing `modeltime`, an ecosystem of time series forecasting tools that leverages the amazing Tidymodels ecosystem. And, of course I'd love to talk about it.
 
 ![](/assets/2021-04-08-modeltime-recursive/modeltime_workflow.jpg)
 
@@ -120,7 +129,7 @@ I have put 2+ years of blood, sweat, and tears into developing `modeltime`, an e
 
 ### Modeltime Forecasting Ecosystem
 
-In fact, you'll see in the GitHub Star table that I created several Modeltime Ecosystem Extensions including:
+In fact, you'll see in the _Table 1: Matt's R Packages_ table that I created several Modeltime Ecosystem Extensions including:
 
 * `modeltime.ensemble` for forecast ensembles
 * `modeltime.h2o` for forecasting with H2O AutoML
@@ -131,11 +140,11 @@ In fact, you'll see in the GitHub Star table that I created several Modeltime Ec
 
 <p class="date text-center">Modeltime Ecosystem Forecasting Extensions</p>
 
-But, it's not it. 
+But, it's not it.
 
-### Want to learn Time Series Forecasting?
+### Want to learn Time Series Forecasting for FREE?
 
-**Ready to get started forecasting in R?** I can't do a full time series forecast analysis in this post, so I'm going to do the next best thing! I'll point you to some free resources for time series forecasting inside my R Cheat Sheet. 
+**Ready to get started forecasting in R for FREE?** I can't do a full time series forecast analysis in this post, so I'm going to do the next best thing! I'll point you to some free resources for time series forecasting inside my R Cheat Sheet.
 
 Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet). Under Forecasting you'll see links to all of the modeltime ecosystem documentation (I've put 100s of hours into so it's understandable and full-featured).
 
@@ -147,21 +156,21 @@ Alright, so what IS it?
 
 # Well it's not...
 
-* `Sweep` - Sweep is great if you want to "tidy" the `forecast` R package, but Timetk and Modeltime are the new time series and forecasting tools that I use. 
-* `Portfoliodown` - A great package of course! But, it's for a specific type of people that need to make interview portfolios. Not general data science or data analysis.  
-* `Anomalize` - Another great choice, but actually `timetk` has most of the time series anomaly detection functionality ported over and anomalize depends on tibbletime, an older system for time series analysis that has been superceded. 
+* `Sweep` - Sweep is great if you want to "tidy" the `forecast` R package, but Timetk and Modeltime are the new time series and forecasting tools that I use.
+* `Portfoliodown` - A great package of course! But, it's for a specific type of people that need to make interview portfolios. Not general data science or data analysis.
+* `Anomalize` - Another great choice, but actually `timetk` has most of the time series anomaly detection functionality ported over and anomalize depends on tibbletime, an older system for time series analysis that has been superceded.
 
-So what could IT be? 
+**So what could IT be?**
 
 (I can hear it now, _"C'mon Matt, tell us already!!!"_)
 
-# Here IT is... The overlooked R package (that can get you through a job interview)!!
+# Here IT is... The overlooked R package (that can get you through a data science job interview)!!
 
 ![](/assets/most_overlooked_r_package.jpg)
 
 # It's `correlationfunnel`!!!
 
-It's correlation funnel! 
+It's correlation funnel!
 
 ![](/assets/correlationfunnel.jpg)
 
@@ -183,25 +192,25 @@ Well, this actually happened to my friend Danny Ma in one of his first data scie
 
 Danny was overthinking the problem in a time-constrained interview. And the result was ZERO insights (in 2-hours).
 
-Danny felt so embarrassed. BUT, I've been there too (and I'm sure a ton of other people have as well). 
+Danny felt so embarrassed. BUT, I've been there too (and I'm sure a ton of other people have as well).
 
-* Overthinking the problem. 
-* Using the wrong tools (Excel and VBA). 
+* Overthinking the problem.
+* Using the wrong tools (Excel and VBA).
 * Pressured for time
 
-It happens. But it didn't need to. 
+It happens. But it didn't need to.
 
 ## What if Danny had `correlationfunnel`?
 
 I developed `correlationfunnel` to help people like Danny (and myself) find insights super fast!
 
-It's called **automated exploratory data analysis**, and `correlationfunnel` makes it simple to pick out insights from data automatically. 
+It's called **automated exploratory data analysis**, and `correlationfunnel` makes it simple to pick out insights from data automatically.
 
-Here's how. 
+Here's how.
 
 ## How to automate exploratory data analysis
 
-So let's say you're given a new data set like this Customer Churn dataset that comes with `correlationfunnel`. 
+So let's say you're given a new data set like this Customer Churn dataset that comes with `correlationfunnel`.
 
 ![](/assets/churn_data.jpg)
 
@@ -210,13 +219,13 @@ So let's say you're given a new data set like this Customer Churn dataset that c
 We're trying to identify relationships between:
 
 * Customer Churn (Yes or No)
-* Important Customer Features (e.g. what product they are enrolled in, how much they have purchased over their lifetime, their tenure, gender, etc) 
+* Important Customer Features (e.g. what product they are enrolled in, how much they have purchased over their lifetime, their tenure, gender, etc)
 
 ## Quickly go from raw data to insights!
 
-The beauty is how fast you can go from raw data to insights. First, the code. 
+The beauty is how fast you can go from raw data to insights. First, the code.
 
-I'm not gonna spend a lot of time on this other than just comments on the picture. I'll show you where to find the documentation which explains much more than I can in this post. 
+I'm not gonna spend a lot of time on this other than just comments on the picture. I'll show you where to find the documentation which explains much more than I can in this post.
 
 ![](/assets/correlationfunnel_code.jpg)
 
@@ -224,7 +233,7 @@ I'm not gonna spend a lot of time on this other than just comments on the pictur
 
 ## Visualizing the Business Insights
 
-But the beauty is in the plot. Here's how quickly I can make generate business insights in the data. 
+But the beauty is in the plot. Here's how quickly I can make generate business insights in the data.
 
 ![](/assets/correlationfunnel_plot.jpg)
 
@@ -246,7 +255,7 @@ Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatshee
 
 # Recap
 
-We learned how to use the `correlationfunnel` library to automatically create an exploratory data analysis that is useful in job interviews and when you don't know much about your data. Great work! **But, there's a lot more to becoming a data scientist.**
+We learned how to use the `correlationfunnel` library to automatically create an exploratory data analysis that is **useful in job interviews**, when you are under time constraints or simply don't know much about your data. Great work! **But, there's a lot more to becoming a data scientist.**
 
 If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
