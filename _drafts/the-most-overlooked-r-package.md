@@ -14,8 +14,8 @@ excerpt: If you are looking to learn about the most useful R package that can he
   you get through a job interview AND you don't know yet, you've come to the right
   place, my friend! And, if you want a job in data science, I'm going to show you
   how THIS R package can help you get through an interview with 5 lines of code.
-image: "/assets/most_overlooked_r_package.jpg"
-image_preview: "/assets/most_overlooked_r_package.jpg"
+image: "/assets/most_overlooked_r_package-2.jpg"
+image_preview: "/assets/most_overlooked_r_package-2.jpg"
 
 ---
 If you are looking to learn about **the most useful R package that can help you get through a data science job interview AND you don't know it yet**, you've come to the right place, my friend! Here's what's in store for you today:
@@ -43,7 +43,7 @@ I have a question...
 
 **Simple Question:** Which R package do you think I'm about to cover?
 
-![](/assets/most_overlooked_r_package-1.jpg)
+![](/assets/most_overlooked_r_package-2.jpg)
 
 Let me help you...
 
@@ -98,7 +98,7 @@ To get started with Financial Analysis in R, head to **Page 3 of the cheat sheet
 
 ![](/assets/cheatsheet_financial.jpg)
 
-<p class="date text-center">Financial Analysis in R</p>
+<p class="date text-center">Getting Started with Financial Analysis in R</p>
 
 But, I'm NOT covering `tidyquant` today. It's just _too_ popular. Check out the Cheat Sheet for the tidyquant doc's and tutorials.
 
@@ -124,7 +124,7 @@ Check out the Time Series Analysis section on [Page 3 of my R Cheat Sheet](https
 
 ![](/assets/cheatsheet_timeseries-1.jpg)
 
-<p class="date text-center">Time Series Analysis in R</p>
+<p class="date text-center">Getting Started with Time Series Analysis in R</p>
 
 Alright, onto the next one...
 
@@ -171,7 +171,7 @@ Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatshee
 
 ![](/assets/cheatsheet_forecasting.jpg)
 
-<p class="date text-center">Forecasting in R</p>
+<p class="date text-center">Getting Started with Forecasting in R</p>
 
 Alright, so what IS it?
 
@@ -193,7 +193,7 @@ Alright, so what IS it?
 
 # It's `correlationfunnel`!!!
 
-It's correlation funnel!
+The secret of the PROS!
 
 ![](/assets/correlationfunnel.jpg)
 
