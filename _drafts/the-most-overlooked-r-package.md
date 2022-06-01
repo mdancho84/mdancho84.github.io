@@ -67,7 +67,7 @@ So let me first show you what it's not...
 
 ## 1. It's _not_ tidyquant
 
-Tidyquant is an incredibly useful R package for downloading and working with Financial Data (stocks, investments, and investment portfolios).
+Tidyquant is an incredibly useful R package for downloading and working with Financial Data (stocks, investments, and investment portfolios). You can use it to make data science interview portfolio projects AND you can even do your own stock investment portfolios with it (yes - these are 2 different meanings of the term "portfolio").
 
 ![](/assets/tidyquant.jpg)
 
@@ -79,11 +79,11 @@ But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance y
 
 **Want to get started with Financial Analysis in R for free?**
 
-Like I said, if you want a job in finance, you should **first learn** `tidyquant` or some of the other Financial R packages.
+Like I said, if you want a job in a lucrative field like finance, you should **first learn** `tidyquant` or some of the other Financial R packages.
 
-To make learning financial analysis in R easier and faster, I have a special R Cheat Sheet that links to all of the important documentation (Yes - It is FREE).
+To make learning financial analysis in R easier and faster, I have a special R Cheat Sheet that links to all of the important documentation (Spoiler - It is FREE).
 
-You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet). It consolidates 20,000 R packages into the 100 best. So when you want to work in domains like finance, it has all of the R packages you need to get started.
+You can [download the R cheat sheet for FREE here](https://www.business-science.io/r-cheatsheet). My R cheat sheet consolidates 20,000 R packages into the 100 best. So when you want to work in domains like finance, it has all of the R packages you need to get started.
 
 ![](/assets/free_cheatsheet.jpg)
 
@@ -100,13 +100,15 @@ To get started with Financial Analysis in R, head to **Page 3 of the cheat sheet
 
 <p class="date text-center">Financial Analysis in R</p>
 
-But, I'm NOT covering `tidyquant` today. It's just _too_ popular. Check out the Cheat Sheet for the tidyquant doc's and tutorials in the R cheat sheet.
+But, I'm NOT covering `tidyquant` today. It's just _too_ popular. Check out the Cheat Sheet for the tidyquant doc's and tutorials.
 
-Onto the next R package...
+Onto the next R package that IT's not...
 
 ## 2. It's _not_ timetk
 
-Timetk is a fantastic R package that helps bring time series analysis to the tidyverse. If you love `dplyr` and `ggplot2`, imagine being able to wrangle and visualize time series data the SAME way. That's what `timetk` does.
+Timetk is a fantastic R package (yes, I'm proud of my baby timetk) that helps bring time series analysis to the tidyverse. 
+
+If you love `dplyr` and `ggplot2`, imagine being able to wrangle and visualize time series data the SAME way. That's what `timetk` does.
 
 ![](/assets/timetk.jpg)
 
