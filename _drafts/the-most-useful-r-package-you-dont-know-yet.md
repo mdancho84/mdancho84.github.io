@@ -45,7 +45,7 @@ Tidyquant is an incredibly useful R package for downloading and working with Fin
 
 But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance you've heard of it or possibly even used it.
 
-#### Getting started with tidyquant (R Cheat Sheet)
+#### Getting started with Financial Analysis in R
 
 **Want to get started with `tidyquant`**? (perfect if you want to get a job in Financial Analysis using R.) 
 
@@ -57,9 +57,9 @@ Then I have a special R Cheat Sheet that links to all of the important documenta
 
 #### Financial Analysis (Page 3)
 
-To get started with Financial Analysis in R, head to Page 3 of the cheat sheet, and you can check out the Financial Analysis Section. 
+To get started with Financial Analysis in R, head to **Page 3 of the cheat sheet**, and you can check out the Financial Analysis Section. 
 
-* You'll see Tidyquant and several other R packages. 
+* You'll see Tidyquant and several other Financial R Packages. 
 * The links will take you to the `tidyquant` & financial software documentation.
 
 ![](/assets/cheatsheet_tidyquant.jpg)
