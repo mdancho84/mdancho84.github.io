@@ -33,7 +33,7 @@ Here's a short list of many of my open source R packages, AND I want you to gues
 
 **I _love_ guessing games.** You get to see why I picked what I picked (and I get to introduce you to my R packages at the same time).
 
-As a bonus, every R package I cover here IS **super valuable**. But just not the one that IS the both valuable AND few know if it.
+As a bonus, every R package I cover here IS **super valuable**. But just not the one that IS both valuable AND few know if it.
 
 ## It's _not_ tidyquant
 
@@ -45,9 +45,9 @@ Tidyquant is an incredibly useful R package for downloading and working with Fin
 
 But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance you've heard of it or possibly even used it.
 
-#### Getting started with Financial Analysis in R
+### Getting started with Financial Analysis in R
 
-**Want to get started with `tidyquant`**? (perfect if you want to get a job in Financial Analysis using R.) 
+**Want to get started with Financial Analysis in R?** 
 
 Then I have a special R Cheat Sheet that links to all of the important documentation.  You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet).
 
@@ -55,7 +55,7 @@ Then I have a special R Cheat Sheet that links to all of the important documenta
 
 <p class="date text-center">Free R Cheat Sheet (<a href="https://www.business-science.io/r-cheatsheet">Download Here</a>)</p>
 
-#### Financial Analysis (Page 3)
+### Learning Financial Analysis
 
 To get started with Financial Analysis in R, head to **Page 3 of the cheat sheet**, and you can check out the Financial Analysis Section. 
 
@@ -80,10 +80,33 @@ Timetk is a fantastic R package that helps bring time series analysis to the tid
 
 But timetk is just _too_ popular. Timetk has been downloaded 1,400,000 times. 
 
-#### Time Series Analysis (Page 3)
+### Learning Time Series Analysis
 
-**Want to get started with Timetk?** (perfect if you have to solve time series projects for your company.) 
+**Want to get started with Time Series Analysis?** (perfect if you have to solve time series projects for your company.) 
 
 Check out the Time Series Analysis section on [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet).
 
 ![](/assets/cheatsheet_timetk.jpg)
+
+# It's _not_ modeltime
+
+I have put 2+ years of blood, sweat, and tears into developing `modeltime`, an ecosystem of time series forecasting tools that leverages the amazing Tidymodels ecosystem. And, of course I'd love to talk about it. 
+
+![](/assets/2021-04-08-modeltime-recursive/modeltime_workflow.jpg)
+
+<p class="date text-center">It's not modeltime</p>
+
+In fact, you'll see in the GitHub Star table that I created several Modeltime Ecosystem Extensions including:
+
+* `modeltime.ensemble` for forecast ensembles
+* `modeltime.h2o` for forecasting with H2O AutoML
+* `modeltime.gluonts` for forecasting with Python GluonTS Deep Learning
+* `modeltime.resample` for backtesting forecasts
+
+![](/assets/2021-03-15-modeltime-h2o/modeltime_ecosystem.jpg)
+
+<p class="date text-center">Modeltime Ecosystem Forecasting Extensions</p>
+
+But, it's not it. 
+
+### Want to learn Time Series Forecasting?
