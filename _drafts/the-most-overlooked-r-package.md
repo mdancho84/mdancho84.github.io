@@ -23,7 +23,7 @@ If you are looking to learn about **the most useful R package that can help you 
 1. If you want a job in data science, I'm going to show you **how _THIS_ R package can help you get through an interview with 5 lines of code.**
 2. As a **BONUS I'm going to share 3 other R packages** that can help get you the skills to get a data science job in lucrative fields like finance and time series.
 
-Plus, you and I are going to have **some _fun_ today too** (I'll tell you why in a second)! 
+Plus, you and I are going to have **some _fun_ today too** (I'll tell you why in a second)!
 
 So buckle up and get ready for some fun along the way.
 
@@ -59,7 +59,7 @@ OK, need some more help? Well here's the bonus first...
 
 # Here's what _it's_ not (your 3 BONUS R Packages)
 
-If you don't know these R packages yet, then **I highly suggest learning these first (instead of the one that gets you through the job interview).** 
+If you don't know these R packages yet, then **I highly suggest learning these first (instead of the one that gets you through the job interview).**
 
 **These 3 BONUS R packages** will help you get the skills needed to get a data science job in lucrative fields like finance and time series.
 
@@ -106,7 +106,7 @@ Onto the next R package that IT's not...
 
 ## 2. It's _not_ timetk
 
-Timetk is a fantastic R package (yes, I'm proud of my baby timetk) that helps bring time series analysis to the tidyverse. 
+Timetk is a fantastic R package (yes, I'm proud of my baby timetk) that helps bring time series analysis to the tidyverse.
 
 If you love `dplyr` and `ggplot2`, imagine being able to wrangle and visualize time series data the SAME way. That's what `timetk` does.
 
@@ -114,7 +114,7 @@ If you love `dplyr` and `ggplot2`, imagine being able to wrangle and visualize t
 
 <p class="date text-center">It's not timetk</p>
 
-But timetk is again _too_ popular. Timetk has been downloaded 1,400,000 times and is a staple of time series analysis using R.
+But timetk is again _too_ popular. Timetk has been downloaded 1,400,000 times and is a staple of time series analysis using R. Timetk is mainstream... definitely not overlooked.
 
 ### Learning Time Series Analysis in R for FREE
 
@@ -130,11 +130,23 @@ Alright, onto the next one...
 
 # 3. It's _not_ modeltime
 
-I have put 2+ years of blood, sweat, and tears into developing `modeltime`, an ecosystem of time series forecasting tools that leverages the amazing Tidymodels ecosystem. And, of course I'd love to talk about it.
+I have put 2+ years of blood, sweat, and tears into developing `modeltime`, an ecosystem of time series forecasting tools that leverages the amazing Tidymodels ecosystem.
 
 ![](/assets/2021-04-08-modeltime-recursive/modeltime_workflow.jpg)
 
 <p class="date text-center">It's not modeltime</p>
+
+## Forecasting Jobs
+
+And, of course I'd love to talk about `modeltime` because well, modeltime has singlehandedly gotten a bunch of my students data science jobs, senior data science jobs and promotions. 
+
+![](/assets/amit_pwc.jpg)
+
+<p class="date text-center">Amit got a Data Science job</p>
+
+![](/assets/matt_job.jpeg)
+
+<p class="date text-center">Matt got a Lead Data Science job</p>
 
 ### Modeltime Forecasting Ecosystem
 
@@ -163,15 +175,17 @@ Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatshee
 
 Alright, so what IS it?
 
-# Well it's not...
+# Well it's also not...
 
 * `Sweep` - Sweep is great if you want to "tidy" the `forecast` R package, but Timetk and Modeltime are the new time series and forecasting tools that I use.
-* `Portfoliodown` - A great package of course! But, it's for a specific type of people that need to make interview portfolios. Not general data science or data analysis.
-* `Anomalize` - Another great choice, but actually `timetk` has most of the time series anomaly detection functionality ported over and anomalize depends on tibbletime, an older system for time series analysis that has been superceded.
+* `Portfoliodown` - A great package of course! But, it's for making professional data science interview portfolios. Not actually completing a data science interview.
+* `Anomalize` - Another great choice, but actually `timetk` has most of the time series anomaly detection functionality ported over and anomalize depends on tibbletime, an older system for time series analysis that has been superseded.
 
-**So what could IT be?**
+# So what could IT be?
 
 (I can hear it now, _"C'mon Matt, tell us already!!!"_)
+
+![](/assets/now-i-need-an-answer-now.gif)
 
 # Here IT is... The overlooked R package (that can get you through a data science job interview)!!
 
