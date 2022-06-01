@@ -33,7 +33,7 @@ Here's a short list of many of my open source R packages, AND I want you to gues
 
 **I _love_ guessing games.** You get to see why I picked what I picked (and I get to introduce you to my R packages at the same time).
 
-As a bonus, every R package I cover here IS super valuable. But just not the one that IS the most valuable AND least popular. Hehe.  
+As a bonus, every R package I cover here IS **super valuable**. But just not the one that IS the both valuable AND few know if it.
 
 ## It's _not_ tidyquant
 
@@ -45,13 +45,17 @@ Tidyquant is an incredibly useful R package for downloading and working with Fin
 
 But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance you've heard of it or possibly even used it.
 
-## Quick Aside (R Cheat Sheet)
+## Getting started (R Cheat Sheet)
 
-And, if you want to get started with `tidyquant` (perfect if you want to get a job in Financial Analysis using R), I have a special R Cheat Sheet that links to all of the important documentation.  You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet).
+**Want to get started with `tidyquant`**? (perfect if you want to get a job in Financial Analysis using R.) 
+
+Then I have a special R Cheat Sheet that links to all of the important documentation.  You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet).
 
 ![](/assets/free_cheatsheet.jpg)
 
 <p class="date text-center">Free R Cheat Sheet (<a href="https://www.business-science.io/r-cheatsheet">Download Here</a>)</p>
+
+#### Financial Analysis (Page 3)
 
 On page 3 you can check out the Financial Analysis Section. You'll see Tidyquant and several other R packages. The links will take you to the tidyquant documentation.
 
@@ -59,7 +63,7 @@ On page 3 you can check out the Financial Analysis Section. You'll see Tidyquant
 
 <p class="date text-center">Cheat Sheet (Page 3): Financial Analysis</p>
 
-But, I'm NOT covering `tidyquant` today. It's just too popular. Check out the Cheat Sheet for the tidyquant doc's and tutorials. 
+But, I'm NOT covering `tidyquant` today. It's just too popular. Check out the Cheat Sheet for the tidyquant doc's and tutorials.
 
 ## It's _not_ timetk
 
@@ -68,3 +72,11 @@ Timetk is a fantastic R package that helps bring time series analysis to the tid
 ![](/assets/timetk.jpg)
 
 <p class="date text-center">It's not timetk</p>
+
+**Want to get started with Timetk?** (perfect if you have to solve time series projects for your company.) 
+
+#### Time Series Analysis (Page 3)
+
+Then check out the Time Series Analysis section on [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet).
+
+![](/assets/cheatsheet_timetk.jpg)
