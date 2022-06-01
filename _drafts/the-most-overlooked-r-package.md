@@ -227,11 +227,11 @@ It happens. But it didn't need to.
 
 I developed `correlationfunnel` to help people like Danny (and myself) find insights super fast!
 
-It's called **automated exploratory data analysis**, and `correlationfunnel` makes it simple to pick out insights from data automatically.
+`correlationfunnel` quite simply **IS A SIMPLE HACK** to pull out business insights from data automatically.
 
 Here's how.
 
-## How to automate exploratory data analysis
+## How to HACK exploratory data analysis
 
 So let's say you're given a new data set like this Customer Churn dataset that comes with `correlationfunnel`.
 
@@ -246,7 +246,7 @@ We're trying to identify relationships between:
 
 ## Quickly go from raw data to insights!
 
-The beauty is how fast you can go from raw data to insights. First, the code.
+The beauty is how fast you can go from raw data to insights. First, here's the code.
 
 I'm not gonna spend a lot of time on this other than just comments on the picture. I'll show you where to find the documentation which explains much more than I can in this post.
 
@@ -256,11 +256,11 @@ I'm not gonna spend a lot of time on this other than just comments on the pictur
 
 ## Visualizing the Business Insights
 
-But the beauty is in the plot. Here's how quickly I can make generate business insights in the data.
+But the beauty is in the plot. Here's how quickly I can make generate business insights in the data. **Correlation Funnel is THE HACK!**
 
 ![](/assets/correlationfunnel_plot.jpg)
 
-<p class="date text-center">Business Insights (Correlation Funnel Plot)</p>
+<p class="date text-center">Hacking Business Insights (with the Correlation Funnel Plot)</p>
 
 With one visualization, I can quickly diagnose potential causes of Customer Churn AND I can come up with potential solutions like:
 
@@ -268,17 +268,17 @@ With one visualization, I can quickly diagnose potential causes of Customer Chur
 * Customers that opt-out of Online Internet Security have high churn. **Inform customers without online security of the dangers of getting hacked and how our solutions provides a superior defense. Offer one-time upgrades.**
 * Customers with <6 month tenure have high churn. **Incentivize 6-month bill. _"Stay for 6-months and the 7th month is on us!" _**
 
-## How to learn exploratory data analysis (EDA)
+## How to learn exploratory data analysis (EDA)?
 
 You guessed it. I have a full section in my R Cheat Sheet.
 
-Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet).
+Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet). You'll see `correlationfunnel` and a bunch of other go-to packages for hacking exploratory data analysis. 
 
 ![](/assets/cheatsheet_exploratory.jpg)
 
 # Recap
 
-We learned how to use the `correlationfunnel` library to automatically create an exploratory data analysis that is **useful in job interviews**, when you are under time constraints or simply don't know much about your data. Great work! **But, there's a lot more to becoming a data scientist.**
+We learned how to use the `correlationfunnel` library to hack exploratory data analysis, a secret technique that's **useful in job interviews**, when you are under time constraints or simply don't know much about your data. Great work! **But, there's a lot more to becoming a data scientist.**
 
 If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
