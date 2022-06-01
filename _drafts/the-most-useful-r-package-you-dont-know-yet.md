@@ -139,6 +139,10 @@ So what could IT be?
 
 (I can hear it now, _"C'mon Matt, tell us already!!!"_)
 
-# Here IT is!!
+# Here IT is... The most useful R package (you don't know yet)!!
+
+Here it is...
+
+![](/assets/best_r_package_ever.jpg)
 
 It's `correlationfunnel`!!!
