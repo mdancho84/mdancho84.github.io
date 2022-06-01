@@ -68,7 +68,7 @@ To get started with Financial Analysis in R, head to **Page 3 of the cheat sheet
 
 <p class="date text-center">Financial Analysis in R</p>
 
-But, I'm NOT covering `tidyquant` today. It's just too popular. Check out the Cheat Sheet for the tidyquant doc's and tutorials.
+But, I'm NOT covering `tidyquant` today. It's just _too_ popular. Check out the Cheat Sheet for the tidyquant doc's and tutorials in the R cheat sheet.
 
 Onto the next R package...
 
@@ -80,7 +80,7 @@ Timetk is a fantastic R package that helps bring time series analysis to the tid
 
 <p class="date text-center">It's not timetk</p>
 
-But timetk is just _too_ popular. Timetk has been downloaded 1,400,000 times. 
+But timetk is again _too_ popular. Timetk has been downloaded 1,400,000 times and his a staple of time series analysis in the tidyverse. 
 
 ### Learning Time Series Analysis
 
@@ -91,6 +91,8 @@ Check out the Time Series Analysis section on [Page 3 of my R Cheat Sheet](https
 ![](/assets/cheatsheet_timeseries-1.jpg)
 
 <p class="date text-center">Time Series Analysis in R</p>
+
+Alright, onto the next one...
 
 # 3. It's _not_ modeltime
 
@@ -117,10 +119,26 @@ But, it's not it.
 
 ### Want to learn Time Series Forecasting?
 
-I can't do it in this post, so I'm going to do the next best thing! I'll point you to some free resources for time series forecasting inside my R Cheat Sheet. 
+**Ready to get started forecasting in R?** I can't do a full time series forecast analysis in this post, so I'm going to do the next best thing! I'll point you to some free resources for time series forecasting inside my R Cheat Sheet. 
 
 Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet). Under Forecasting you'll see links to all of the modeltime ecosystem documentation (I've put 100s of hours into so it's understandable and full-featured).
 
 ![](/assets/cheatsheet_forecasting.jpg)
 
 <p class="date text-center">Forecasting in R</p>
+
+Alright, so what IS it?
+
+# Well it's not...
+
+* `Sweep` - Sweep is great if you want to "tidy" the `forecast` R package, but Timetk and Modeltime are the new time series and forecasting tools that I use. 
+* `Portfoliodown` - A great package of course! But, it's for a specific type of people that need to make interview portfolios. Not general data science or data analysis.  
+* `Anomalize` - Another great choice, but actually `timetk` has most of the time series anomaly detection functionality ported over and anomalize depends on tibbletime, an older system for time series analysis that has been superceded. 
+
+So what could IT be? 
+
+(I can hear it now, _"C'mon Matt, tell us already!!!"_)
+
+# Here IT is!!
+
+It's `correlationfunnel`!!!
