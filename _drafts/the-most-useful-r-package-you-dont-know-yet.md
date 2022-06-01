@@ -64,9 +64,9 @@ To get started with Financial Analysis in R, head to **Page 3 of the cheat sheet
 * You'll see Tidyquant and several other Financial R Packages. 
 * The links will take you to the `tidyquant` & financial software documentation.
 
-![](/assets/cheatsheet_tidyquant.jpg)
+![](/assets/cheatsheet_financial.jpg)
 
-<p class="date text-center">Cheat Sheet (Page 3): Financial Analysis</p>
+<p class="date text-center">Financial Analysis in R</p>
 
 But, I'm NOT covering `tidyquant` today. It's just too popular. Check out the Cheat Sheet for the tidyquant doc's and tutorials.
 
@@ -88,7 +88,9 @@ But timetk is just _too_ popular. Timetk has been downloaded 1,400,000 times.
 
 Check out the Time Series Analysis section on [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet).
 
-![](/assets/cheatsheet_timetk.jpg)
+![](/assets/cheatsheet_timeseries-1.jpg)
+
+<p class="date text-center">Time Series Analysis in R</p>
 
 # 3. It's _not_ modeltime
 
@@ -118,3 +120,7 @@ But, it's not it.
 I can't do it in this post, so I'm going to do the next best thing! I'll point you to some free resources for time series forecasting inside my R Cheat Sheet. 
 
 Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet). Under Forecasting you'll see links to all of the modeltime ecosystem documentation (I've put 100s of hours into so it's understandable and full-featured).
+
+![](/assets/cheatsheet_forecasting.jpg)
+
+<p class="date text-center">Forecasting in R</p>
