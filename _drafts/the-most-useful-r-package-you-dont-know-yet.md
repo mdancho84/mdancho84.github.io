@@ -167,6 +167,8 @@ Well, this actually happened to my friend Danny Ma in one of his first data scie
 
 ![](/assets/interview_story_danny.jpg)
 
+<p class="date text-center">The big interview mistake most data scientists make</p>
+
 ## What happened is super common (in fact I've done it too).
 
 Danny was overthinking the problem in a time-constrained interview. And the result was ZERO insights (in 2-hours).
@@ -193,6 +195,8 @@ So let's say you're given a new data set like this Customer Churn dataset that c
 
 ![](/assets/churn_data.jpg)
 
+<p class="date text-center">The interview dataset</p>
+
 We're trying to identify relationships between:
 
 * Customer Churn (Yes or No)
@@ -206,14 +210,26 @@ I'm not gonna spend a lot of time on this other than just comments on the pictur
 
 ![](/assets/correlationfunnel_code.jpg)
 
+<p class="date text-center">Using Correlation Funnel (R Code)</p>
+
 ## Visualizing the Business Insights
 
 But the beauty is in the plot. Here's how quickly I can make generate business insights in the data. 
 
 ![](/assets/correlationfunnel_plot.jpg)
 
+<p class="date text-center">Business Insights (Correlation Funnel Plot)</p>
+
 With one visualization, I can quickly diagnose potential causes of Customer Churn AND I can come up with potential solutions like:
 
 * Month-to-Month Contracts have high churn: **Offer upgrades to long-term contracts**
 * Customers that opt-out of Online Internet Security have high churn. **Inform customers without online security of the dangers of getting hacked and how our solutions provides a superior defense. Offer one-time upgrades.**
 * Customers with <6 month tenure have high churn. **Incentivize 6-month bill. _"Stay for 6-months and the 7th month is on us!" _**
+
+## How to learn exploratory data analysis (EDA)
+
+You guessed it. I have a full section in my R Cheat Sheet.
+
+Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet).
+
+![](/assets/cheatsheet_exploratory.jpg)
