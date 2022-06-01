@@ -141,11 +141,15 @@ So what could IT be?
 
 # Here IT is... The most useful R package (you don't know yet)!!
 
-Here it is...
-
 ![](/assets/best_r_package_ever.jpg)
 
-It's `correlationfunnel`!!!
+# It's `correlationfunnel`!!!
+
+It's correlation funnel! 
+
+![](/assets/correlationfunnel.jpg)
+
+<p class="date text-center">It's Correlation Funnel!</p>
 
 ## Why Correlation Funnel?
 
