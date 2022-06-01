@@ -7,7 +7,7 @@ tags:
 - R-Bloggers
 - Learn-R
 - R
-title: The Most Useful R Package I've Ever Made (That You Don't Know Yet)
+title: The Most Useful R Package (That You've Never Heard Of)
 date: 2022-06-02 06:00:00 -0400
 excerpt: 'This is the most useful R package that I''ve ever made that can help you
   tremendously AND you probably don''t know it yet. '
@@ -146,3 +146,13 @@ Here it is...
 ![](/assets/best_r_package_ever.jpg)
 
 It's `correlationfunnel`!!!
+
+## Why Correlation Funnel?
+
+Imagine a world where you're given a dataset that you've never seen before (such as a data science interview), and the interviewer says something like this:
+
+**_"You have 2 hours to give me some insights."_**
+
+Well, this actually happened to my friend Danny Ma.
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6937725065761337345" height="600" width="100%" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
