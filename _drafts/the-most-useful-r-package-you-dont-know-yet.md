@@ -37,7 +37,7 @@ As a bonus, every R package I cover here IS super valuable. But just not the one
 
 ## It's _not_ tidyquant
 
-[Tidyquant is an incredibly useful R package](https://business-science.github.io/tidyquant/) for downloading and working with Financial Data (stocks, investments, and investment portfolios).
+Tidyquant is an incredibly useful R package for downloading and working with Financial Data (stocks, investments, and investment portfolios).
 
 ![](/assets/tidyquant.jpg)
 
@@ -45,7 +45,9 @@ As a bonus, every R package I cover here IS super valuable. But just not the one
 
 But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance you've heard of it or possibly even used it.
 
-And, if you want to get started with it, I have a special R Cheat Sheet that links to all of the important documentation.  You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet).
+## Quick Aside (R Cheat Sheet)
+
+And, if you want to get started with `tidyquant` (perfect if you want to get a job in Financial Analysis using R), I have a special R Cheat Sheet that links to all of the important documentation.  You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet).
 
 ![](/assets/free_cheatsheet.jpg)
 
@@ -57,8 +59,12 @@ On page 3 you can check out the Financial Analysis Section. You'll see Tidyquant
 
 <p class="date text-center">Cheat Sheet (Page 3): Financial Analysis</p>
 
-But, I'm NOT covering `tidyquant` today. It's just too popular.
+But, I'm NOT covering `tidyquant` today. It's just too popular. Check out the Cheat Sheet for the tidyquant doc's and tutorials. 
 
 ## It's _not_ timetk
 
-[Timetk is a fantastic R package](https://business-science.github.io/timetk/) that helps bring time series analysis to the tidyverse. If you love dplyr and ggplot2, imagine being able to wrangle and visualize time series data the SAME way. That's what `timetk` does.
+Timetk is a fantastic R package that helps bring time series analysis to the tidyverse. If you love `dplyr` and `ggplot2`, imagine being able to wrangle and visualize time series data the SAME way. That's what `timetk` does.
+
+![](/assets/timetk.jpg)
+
+<p class="date text-center">It's not timetk</p>
