@@ -20,7 +20,7 @@ image_preview: "/assets/most_overlooked_r_package-2.jpg"
 ---
 If you are looking to learn about **the most useful R package that can help you get through a data science job interview AND you don't know it yet**, you've come to the right place, my friend! Here's what's in store for you today:
 
-1. If you want a job in data science, I'm going to show you **how _THIS_ R package can help you get through an interview with 5 lines of code.**
+1. If you want a job in data science, I'm going to show you **how _THIS_ R package can help you get through an interview with 5 lines of code (A SECRET HACK).**
 2. As a **BONUS I'm going to share 3 other R packages** that can help get you the skills to get a data science job in lucrative fields like finance and time series.
 
 Plus, you and I are going to have **some _fun_ today too** (I'll tell you why in a second)!
