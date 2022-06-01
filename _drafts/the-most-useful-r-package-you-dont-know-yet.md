@@ -7,15 +7,17 @@ tags:
 - R-Bloggers
 - Learn-R
 - R
-title: The Most Useful R Package (That You've Never Heard Of)
+title: The Overlooked R Package (To Help You Get Through A Job Interview)
 date: 2022-06-02 06:00:00 -0400
 excerpt: 'This is the most useful R package that I''ve ever made that can help you
   tremendously AND you probably don''t know it yet. '
-image: "/assets/best_r_package_ever.jpg"
-image_preview: "/assets/best_r_package_ever.jpg"
+image: "/assets/most_overlooked_r_package.jpg"
+image_preview: "/assets/most_overlooked_r_package.jpg"
 
 ---
-If you are looking to learn about **the most useful R package that can help you tremendously AND you don't know yet**, you've come to the right place, my friend!
+If you are looking to learn about **the most useful R package that can help you get through a job interview AND you don't know yet**, you've come to the right place, my friend!
+
+And, if you want a job in data science, I'm going to show you **how _THIS_ R package can help you get through an interview with 5 lines of code.** 
 
 But, I'm going to have some fun today too (I'll tell you why in a second)! So buckle up and get ready for some fun along the way.
 
@@ -29,17 +31,25 @@ Here's a short list of my open source R packages, AND I want you to guess which 
 
 <p class="date text-center">My R Packages (Which one am I teaching you today?)</p>
 
-# Guess which R package
+I have a question... 
+
+# Guess which R package I'm going to cover
 
 **Simple Question:** Which R package do you think I'm about to cover?
 
-![](/assets/best_r_package_ever.jpg)
+![](/assets/most_overlooked_r_package-1.jpg)
+
+# Here's a hint
+
+**It can help you get _through_ a Job Interview (and it's not super popular)!**
+
+What do you think it is?
+
+OK, need some help? Well...
 
 # Here's what _it's_ not
 
-Every R package I cover here **IS** **super valuable**. But just not the one that IS both valuable AND few know if it. 
-
-If you don't know if these R packages yet, then I highly suggest learning them first. They will help you get jobs and develop your skills in important domains like finance and time series.
+If you don't know if these R packages yet, then **I highly suggest learning these first.** They will help you get the skills to get data science jobs and develop your skills in important domains like finance and time series.  
 
 So let's first show you what it's not... 
 
@@ -145,9 +155,9 @@ So what could IT be?
 
 (I can hear it now, _"C'mon Matt, tell us already!!!"_)
 
-# Here IT is... The most useful R package (you don't know yet)!!
+# Here IT is... The overlooked R package (that can get you through a job interview)!!
 
-![](/assets/best_r_package_ever.jpg)
+![](/assets/most_overlooked_r_package.jpg)
 
 # It's `correlationfunnel`!!!
 
