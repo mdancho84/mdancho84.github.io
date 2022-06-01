@@ -18,13 +18,14 @@ image: "/assets/most_overlooked_r_package.jpg"
 image_preview: "/assets/most_overlooked_r_package.jpg"
 
 ---
-If you are looking to learn about **the most useful R package that can help you get through a data science job interview AND you don't know it yet**, you've come to the right place, my friend!
+If you are looking to learn about **the most useful R package that can help you get through a data science job interview AND you don't know it yet**, you've come to the right place, my friend! Here's what's in store for you today:
 
-And, if you want a job in data science, I'm going to show you **how _THIS_ R package can help you get through an interview with 5 lines of code.** 
+1. If you want a job in data science, I'm going to show you **how _THIS_ R package can help you get through an interview with 5 lines of code.**
+2. As a **BONUS I'm going to share 3 other R packages** that can help get you the skills to get a data science job in lucrative fields like finance and time series.
 
-Plus, as a **BONUS I'm going to share 3 other R packages** that can help get you the skills to get a data science job using R in finance and time series. 
+Plus, you and I are going to have **some _fun_ today too** (I'll tell you why in a second)! 
 
-But, I'm going to have **some _fun_ today too** (I'll tell you why in a second)! So buckle up and get ready for some fun along the way.
+So buckle up and get ready for some fun along the way.
 
 # What's _this_ fun that Matt speaks of?
 
@@ -54,11 +55,13 @@ Let me help you...
 
 What do you think it is?
 
-OK, need some help? Well...
+OK, need some more help? Well here's the bonus first...
 
-# Here's what _it's_ not
+# Here's what _it's_ not (your 3 BONUS R Packages)
 
-If you don't know if these R packages yet, then **I highly suggest learning these first.** They will help you get the skills needed to get a data science job in lucrative fields like finance and time series.
+If you don't know these R packages yet, then **I highly suggest learning these first (instead of the one that gets you through the job interview).** 
+
+**These 3 BONUS R packages** will help you get the skills needed to get a data science job in lucrative fields like finance and time series.
 
 So let me first show you what it's not...
 
@@ -76,9 +79,9 @@ But, with 750 GitHub stars and almost 800,000 downloads, there's a good chance y
 
 **Want to get started with Financial Analysis in R for free?**
 
-Like I said, if you want a job in finance, you should **first learn** `tidyquant` or some of the other Financial R packages. 
+Like I said, if you want a job in finance, you should **first learn** `tidyquant` or some of the other Financial R packages.
 
-To make learning financial analysis in R easier and faster, I have a special R Cheat Sheet that links to all of the important documentation (Yes - It is FREE).  
+To make learning financial analysis in R easier and faster, I have a special R Cheat Sheet that links to all of the important documentation (Yes - It is FREE).
 
 You can [download the R cheat sheet for free here](https://www.business-science.io/r-cheatsheet). It consolidates 20,000 R packages into the 100 best. So when you want to work in domains like finance, it has all of the R packages you need to get started.
 
@@ -113,7 +116,7 @@ But timetk is again _too_ popular. Timetk has been downloaded 1,400,000 times an
 
 ### Learning Time Series Analysis in R for FREE
 
-**Want to get started with Time Series Analysis in R for free?** 
+**Want to get started with Time Series Analysis in R for free?**
 
 Check out the Time Series Analysis section on [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet).
 
