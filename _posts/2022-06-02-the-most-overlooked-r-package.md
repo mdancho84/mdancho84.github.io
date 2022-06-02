@@ -269,7 +269,7 @@ If you'd like to become a data scientist (and have an awesome career, improve yo
 
 # What's the surprise?! 🥳
 
-**I'm super stoked to announce MY NEW COURSE that's coming soon.** It's crafted to get you a data scientist job in 30-days (from developing your skills in my R-Track program).
+**I'm super stoked to announce MY NEW COURSE that's coming soon.** It's crafted to get you a data scientist job in 30-days (once you've developed your skills through my R-Track program).
 
 ![](/assets/30_day_datascientist-1.jpg)
 
