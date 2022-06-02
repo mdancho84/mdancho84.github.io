@@ -135,7 +135,7 @@ I have put 2+ years of blood, sweat, and tears into developing `modeltime`, an e
 
 ## How to Get a Time Series Forecasting Job
 
-And, of course I'd love to talk about `modeltime` because well, modeltime has gotten a bunch of my students data science jobs, senior data science jobs, and promotions (20%+ raises). 
+And, of course I'd love to talk about `modeltime` because well, modeltime has gotten a bunch of my students data science jobs, senior data science jobs, and promotions (20%+ raises).
 
 ![](/assets/amit_pwc.jpg)
 
@@ -145,7 +145,7 @@ And, of course I'd love to talk about `modeltime` because well, modeltime has go
 
 <p class="date text-center">Matt got a Lead Data Science job</p>
 
-But, it's not it. Again, way too popular. Not overlooked. 
+But, it's not it. Again, way too popular. Not overlooked.
 
 ### Want to learn Time Series Forecasting for FREE?
 
@@ -256,7 +256,7 @@ With one visualization, I can quickly diagnose potential causes of Customer Chur
 
 You guessed it. I have a full Exploratory (EDA) section in my R Cheat Sheet.
 
-Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet). You'll see `correlationfunnel` and a bunch of other go-to packages for hacking exploratory data analysis. 
+Head to [Page 3 of my R Cheat Sheet](https://www.business-science.io/r-cheatsheet). You'll see `correlationfunnel` and a bunch of other go-to packages for hacking exploratory data analysis.
 
 ![](/assets/cheatsheet_exploratory.jpg)
 
@@ -268,8 +268,8 @@ If you'd like to become a data scientist (and have an awesome career, improve yo
 
 # What's the surprise?! 🥳
 
-I'm super stoked to announce MY NEW COURSE that's coming soon. 
-
-![](/assets/30_day_datascientist.jpg)
+I'm super stoked to announce MY NEW COURSE that's coming soon. It's crafted to get you a data scientist job in 30-days (from developing your skills in my R-Track program).
 
 <p style="font-size:36px;" class="text-center"><a href="https://learn.business-science.io/30day-data-scientist-course-waitlist">Join My 30-Day Data Scientist Course Waitlist</a></p>
+
+I'm teaching you the tools, tricks, and hacks to accelerate getting a job (into as little as 30-days). [Check out the 30-Day Data Scientist Page](https://learn.business-science.io/30day-data-scientist-course-waitlist) to get a sneak peek at what's inside!
