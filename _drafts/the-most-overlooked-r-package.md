@@ -272,6 +272,6 @@ If you'd like to become a data scientist (and have an awesome career, improve yo
 
 ![](/assets/30_day_datascientist-1.jpg)
 
-<p style="font-size:36px;" class="text-center"><a href="https://learn.business-science.io/30day-data-scientist-course-waitlist">Join My 30-Day Data Scientist Course Waitlist</a></p>
+<p style="font-size:36px;" class="text-center"><a href="https://learn.business-science.io/30day-data-scientist-course-waitlist-1393">Join My 30-Day Data Scientist Course Waitlist</a></p>
 
-I'm teaching you the tools, tricks, and hacks to accelerate getting a data science job (into as little as 30-days). [Check out the 30-Day Data Scientist Page](https://learn.business-science.io/30day-data-scientist-course-waitlist) to get a sneak peek at what's inside!
+I'm teaching you the tools, tricks, and hacks to accelerate getting a data science job (into as little as 30-days). [Check out the 30-Day Data Scientist Page](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393) to get a sneak peek at what's inside!
