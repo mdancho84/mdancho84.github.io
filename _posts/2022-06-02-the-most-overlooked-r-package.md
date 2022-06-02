@@ -190,7 +190,7 @@ Imagine a world where you're given a dataset that you've never seen before (such
 
 **_"You have 2 hours to give me some insights."_**
 
-Well, this actually happened to my friend Danny Ma in one of his first data science job interviews. Here's his interview story...
+Well, this actually happened to my friend Danny Ma in one of his first data science job interviews. [Here's his interview story...](https://www.linkedin.com/feed/update/urn:li:activity:6937725066470162432/)
 
 ![](/assets/interview_story_danny.jpg)
 
