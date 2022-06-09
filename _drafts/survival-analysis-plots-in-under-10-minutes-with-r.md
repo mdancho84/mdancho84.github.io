@@ -7,8 +7,8 @@ tags:
 - R-Bloggers
 - Learn-R
 - R
-title: Survival analysis plots (in under 10-minutes with R)
-date: 2022-06-09 13:00:00 -0400
+title: Survival analysis in R (in under 10-minutes)
+date: 2022-06-09 12:50:00 -0400
 excerpt: Learn how to make survival analysis plots in R in under 10-minutes. Plus
   get 3 bonuses to take your survival plots to the NEXT LEVEL. Let's go!
 image: "/assets/survival_plots-2.jpg"
@@ -130,3 +130,55 @@ And we can immediately see a positive effect of the before and after. You gain:
 3. Legend at bottom (**more obvious legend location** for people that view the plot first then want to understand what the colors mean second)
 
 ![](/assets/survival_07_tidyquant_before_after.jpg)
+
+## Bonus #2: Add the survival risk table
+
+The survival risk table is a great way to include specific values of how many survived. The default returns a risk table with counts. But you can also specify `risk.table = "percentage"` to include percentages if that works better for your persuasive argument. 
+
+![](/assets/survival_08_risk_table_code.jpg)
+
+Note that in order to make this look amazing, we will split, format with `tidyquant`, then recombine with `patchwork` to make a killer visualization that will earn your boss's respect.
+
+![](/assets/survival_09_risk_table_plot.jpg)
+
+Heck yeah!! Now we're talking. Alright, I have one more survival plot bonus hack for you. 
+
+## Bonus #3: Facetted survival plots
+
+**This is an amazing hack** to showcase differences in groups between survival. There's a new function called `ggsurvplot_facet()` that exposes facetting options to make subplots. Let's check it out. We'll showcase any differences between the customer's gender (male vs female)
+
+![](/assets/survival_10_survival_facet.jpg)
+
+And here's the visualization that is returned. 
+
+![](/assets/survival_11_survival_facet_plot.jpg)
+
+Now we can tell that both male and female seem to have the same rates. So we know that gender doesn't seem to have a big effect on churn rates.  
+
+# Recap
+
+We learned how to use the `survminer` library to not only create awesome survival analysis plots that show off business insights and are publication-ready. Great work! **But, there's a lot more to becoming a data scientist.**
+
+If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
+
+## Step 1: Watch my Free 40-Minute Webinar
+
+Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.**
+
+AND, I don't want it to take that long for you.
+
+So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) that provides a roadmap for what worked for me.
+
+Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
+
+## Step 2: Take action
+
+For my action-takers, if you are ready to take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you'd like someone to help you do this in UNDER  6-MONTHS or less....
+
+Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
+
+Get ready. The ride is wild. And the destination is AMAZING!
+
+![](/assets/rtrack_what_they_are_doing.jpeg)
+
+{% include top_rtips.html %}
