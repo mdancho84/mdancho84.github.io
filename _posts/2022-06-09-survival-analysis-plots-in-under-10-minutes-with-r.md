@@ -44,7 +44,7 @@ By the end of this tutorial, you'll make this survival analysis plot! AND, you'l
 
 # Thank You Developers.
 
-Before we move on, please recognize that `survminer` was developed by **Alboukadel KASSAMBARA** (follow Ryan on GitHub). Thank you for everything you do!
+Before we move on, please recognize that `survminer` was developed by [**Alboukadel KASSAMBARA**](https://github.com/kassambara) (follow on GitHub). Thank you for everything you do!
 
 Also, the full documentation for `survminer` can be [accessed here](https://rpkgs.datanovia.com/survminer/).
 
