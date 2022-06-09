@@ -15,16 +15,16 @@ image: "/assets/survival_plots-2.jpg"
 image_preview: "/assets/survival_plots-2.jpg"
 
 ---
-**Making survival analysis** can be a challenge even for experienced R users but the good news is I'll help you make beautiful, publication-quality survival plots **in under 10-minutes.** Here's what WE are going to do:
+**Making a survival analysis** can be a challenge even for experienced R users, but the good news is I'll help you make beautiful, publication-quality survival plots **in under 10-minutes.** Here's what WE are going to do:
 
-1. Make your first `survival` model and plot it with `survminer`
+1. Make your first `survival` model and plot your survival analysis with `survminer`
 2. And I'll give you **3 SPECIAL BONUSES!** (that will take your survival plots _to the next level_).
 
 You excited? I am! Let's go!!
 
-# R-Tips Weekly
+# R-Tips Newsletter
 
-This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Newsletter, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <p>Here are the links to get set up. 👇</p>
 
@@ -106,7 +106,7 @@ Don't just willy-nilly slap the survival plot in your business report.
 
 ### Avoid THIS big mistake
 
-Here's why **you MUST AVOID** using the default ggplot theme in your business reports:
+Here's why you **MUST AVOID** just slapping the last plot in your business reports:
 
 1. Remember, stakeholders are human and **they won't trust you** or your report if you don't dress it up!
 2. You are measured by your ability to **provide actionable insights**. SO you need to be able to explore more. The techniques I will show you next will help you do just that!
@@ -115,7 +115,7 @@ So let's earn the trust of your business leadership with these **3 MASSIVE BONUS
 
 ## Bonus #1: Use the Tidyquant Theme
 
-I'm the creator of `tidyquant`. So I may be biased for telling you to use it. But, I'm biased for a reason. It got me results (more money in my bank account).
+I'm the creator of `tidyquant`. So I may be biased for telling you to use it. But, I'm biased for a reason. It got me results (job promotions and recognition).
 
 **Tidyquant includes special "business-ready" themes** that I used in my reports (yes, the ones that went to my CEO of a $500,000,000 per year business).
 
@@ -125,7 +125,7 @@ And, these are the same reports that helped get me 3 promotions in 2-years (effe
 
 And we can immediately see a positive effect of the before and after. You gain:
 
-1. **Gridlines** to help estimate survival probabilities. 
+1. **Gridlines** to help estimate survival probabilities.
 2. Better **business-ready** color palettes
 3. Legend at bottom (**more obvious legend location** for people that view the plot first then want to understand what the colors mean second)
 
@@ -133,7 +133,7 @@ And we can immediately see a positive effect of the before and after. You gain:
 
 ## Bonus #2: Add the survival risk table
 
-The survival risk table is a great way to include specific values of how many survived. The default returns a risk table with counts. But you can also specify `risk.table = "percentage"` to include percentages if that works better for your persuasive argument. 
+The survival risk table is a great way to include specific values of how many survived. The default returns a risk table with counts. But you can also specify `risk.table = "percentage"` to include percentages if that works better for your persuasive argument.
 
 ![](/assets/survival_08_risk_table_code.jpg)
 
@@ -141,7 +141,7 @@ Note that in order to make this look amazing, we will split, format with `tidyqu
 
 ![](/assets/survival_09_risk_table_plot.jpg)
 
-Heck yeah!! Now we're talking. Alright, I have one more survival plot bonus hack for you. 
+Heck yeah!! Now we're talking. Alright, I have one more survival plot bonus hack for you.
 
 ## Bonus #3: Facetted survival plots
 
@@ -149,11 +149,11 @@ Heck yeah!! Now we're talking. Alright, I have one more survival plot bonus hack
 
 ![](/assets/survival_10_survival_facet.jpg)
 
-And here's the visualization that is returned. 
+And here's the visualization that is returned.
 
 ![](/assets/survival_11_survival_facet_plot.jpg)
 
-Now we can tell that both male and female seem to have the same rates. So we know that gender doesn't seem to have a big effect on churn rates.  
+Now we can tell that both male and female seem to have the same rates. So we know that gender doesn't seem to have a big effect on churn rates.
 
 # Recap
 
