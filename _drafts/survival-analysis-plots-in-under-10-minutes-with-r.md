@@ -34,4 +34,101 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 Learn how to use the `survminer` package in my 8-minute YouTube video tutorial.
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/1npsnq5reaA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/1npsnq5reaA" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# What you make in this R-Tip
+
+By the end of this tutorial, you'll make this survival analysis plot! AND, you'll see how to expose business insights from customers that a churn faster than others.
+
+![](/assets/survival_plots-2.jpg)
+
+# Thank You Developers.
+
+Before we move on, please recognize that `survminer` was developed by **Alboukadel KASSAMBARA** (follow Ryan on GitHub). Thank you for everything you do!
+
+Also, the full documentation for `survminer` can be [accessed here](https://rpkgs.datanovia.com/survminer/).
+
+# Survival Analysis Plot Tutorial
+
+**Buckle up.** You and I are about to go on an 8-minute mind-blowing journey to make boring survival plots look insane. Let's go. 
+
+## Step 1: Load the libraries and data
+
+First, run this code to:
+
+1. **Load Libraries:** Load `tidyverse` , `janitor`,  `tidyquant`, `patchwork`, `survival`, and `survminer`
+2. **Import Data:** We have a custom dataset that has churn data. [Sign up for R-Tips to get the dataset.](https://learn.business-science.io/r-tips-newsletter) 
+
+![](/assets/survival_01_libraries.jpg)
+
+Here's what the formatted customer churn data looks like. 
+
+![](/assets/survival_02_customer_churn_data.jpg)
+
+### Key concept about survival analysis!
+
+For survival analysis, we want to understand how long it takes for an event to occur. 
+
+* **How long:** Tenure. This is how many months a customer has been subscribed.
+* **Survival Event:** Churn = 1. This the event that connects the time to the death of a subscriber (they didn't really die, but just unsubscribed). 
+
+With this knowledge, we can make our first survival model and plot. 
+
+## Step 2: Make your 1st survival model and plot
+
+Alright, we're going to take care of 2 things in this step. They go hand-in-hand. 
+
+1. **Survival Model:** We'll use the `survfit()` and `Surv()` functions to specify a survival model. We select the `Surv(tenure, churn)` to model the time and event. Then we use `~ contract` to model as a function of contract type.
+2. **Survival Plot:** We use `ggsurvplot()` to create our first survival plot. 
+
+![](/assets/survival_03_model_and_plot.jpg)
+
+This makes the plot shown below. It's a very powerful plot for business insights!
+
+![](/assets/survival_04_survival_plot.jpg)
+
+### How to explain the survival plot (business insights)
+
+Newer data scientists can get tripped up interpreting and explaining the survival plot. So let me take a minute to explain in terms of the business insights. 
+
+![](/assets/survival_05_survival_plot_interpret.jpg)
+
+The goal is to understand what's happening. We can quickly see that:
+
+* **Month-to-Month Contracts are hurting the business.** After 40-months, only 50% have survived (meaning that 50% have churned).
+* **Conversely, long-term contracts are really beneficial to the business.** At 40-months, 90% of 1-year contracts have survived. These customers are more loyal! And 2-year customers are the most loyal!!
+
+# 3 MASSIVE BONUSES!!! To take your survival plots to the NEXT LEVEL.
+
+I'd be embarrassed for you if you just willy-nilly slap the survival plot in your business report. 
+
+![](/assets/meme_default_ggplot_theme.jpg)
+
+### Avoid this BIG mistake
+
+Here's why **you MUST AVOID** using the default ggplot theme in your business reports:
+
+1. Remember, stakeholders are human and **they won't trust you** or your report if you don't dress it up!
+2. You are measured by your ability to **provide actionable insights**. SO you need to be able to explore more. The techniques I will show you next will help you do just that!
+
+So let's earn the trust of your business leadership with these **3 MASSIVE BONUSES!!**
+
+## Bonus #1: Use the Tidyquant Theme
+
+I'm the creator of `tidyquant`. So I may be biased for telling you to use it. But, I'm biased for a reason. It got me results (more money in my bank account).
+
+Tidyquant includes special themes that I used in my business reports (yes, the ones that went to my CEO of a $500,000,000 per year business).
+
+And, these are the same reports that helped get me 3 promotions in 2-years (effectively doubling my salary).
+
+![](/assets/survival_06_tidyquant_code.jpg)
+
+And we can immediately see a positive effect of the before and after. This is the plot that I would include in my business report. 
+
+![](/assets/survival_07_tidyquant_before_after.jpg)
+
+### Key Benefits
+
+1. Gridlines for quickly estimating survival
+2. Improved color palette
+3. Legend at bottom
