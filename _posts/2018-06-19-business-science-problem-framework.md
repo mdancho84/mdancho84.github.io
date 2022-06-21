@@ -19,19 +19,21 @@ tags:
 image: "/assets/2018-06-19_BSPF/Business Science Problem Framework.png"
 
 ---
-**Data Scientists want to run successful projects. However, the sad fact is that most data science projects in organizations fail.** It's not because of lack of skill or knowledge. Data science projects need a clear and effective plan of attack to be successful. As data scientists, we study a wide array of tools: advanced algorithms, knowledge of statistics, and even programming skills.
+**Data Scientists want to solve business problems. However, the sad fact is that most data science projects in organizations fail.** It's not because of lack of skill or knowledge. Data science projects need a clear and effective plan of attack to be successful. As data scientists, we study a wide array of tools: advanced algorithms, knowledge of statistics, and even programming skills.
 
-If you're like us, you've had to learn how to successfully manage a project through trial and error. Fortunately, we've learned a lot over the past several years working with clients, and we've integrated the best resources into **one streamlined framework to make your life easier:** [**The Business Science Project Framework**](/bspf.html)**!** In this article, we'll cover the basics showing you **how the BSPF helps as a guide for successful data science projects following a Customer Churn Problem example**. [**Download the BPSF for FREE here**](/bspf.html).
+If you're like me, you've had to learn how to successfully manage a project through trial and error. Fortunately, I've learned a lot over the past several years working with clients, and I've integrated the best resources into **one streamlined framework to make your life easier:** [**The Business Science Problem Framework**](/bspf.html)**.** 
 
-## Learning Tragectory
+In this article, I'll cover the basics showing you **how the BSPF helps as a guide for business problem solving AND successfully completing 90% of data science projects (BONUS: Customer Churn Problem Case Study)**. [**Download the problem-solving framework for FREE here**](/bspf.html).
+
+## Learning Trajectory
 
 In this article, you'll learn:
 
-* [What it takes to successfully manage a data science project in a business context](#succeed)
+* [What it takes to solve 90% of data science problems](#succeed)
 * [Where to find the BSPF](#get-bspf)
-* [How the BSPF works - 2 Parts](#bspf-structure)
-* [How to use the BSPF - 7 Phases - Customer Churn Example](#bspf-customer-churn)
-* [BSPF - Proven Results](#proof)
+* [The 2 parts that make the BSPF work (for 90% of data science problems)](#bspf-structure)
+* [How to follow the 7 stages of a business problem (on a Customer Churn Case Study)](#bspf-customer-churn)
+* [Actual Results from using the BSPF](#proof)
 
 ## What It Takes To Succeed <a class="anchor" id="succeed"></a>
 
@@ -291,10 +293,10 @@ Last, build _recommendation algorithms_ that incorporate feedback from SME's alo
 ![Recommendation Algorithm](/assets/2018-06-19_BSPF/recommendation.png)
 <p class="text-center date">Sample Recommendation Algorithm, Taught in DS4B 201</p>
 
-Once a systematic decision making algorithm is developed it's time to deploy into the wild and measure results. Here's an example of a web application built with `Shiny` that is taught in our forthcoming course on building ML-powered web applications.
+Once a systematic decision making algorithm is developed, it's time to deploy into the wild and measure results. Here's an example of a web application built with `Shiny` that deploys our machine learning model in an application that organizations can use.
 
 ![HR 202 Shiny Application: Employee Prediction](/img/hr_301_app.png)
-<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies, Taught in DS4B 202</p>
+<p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies</p>
 
 ### Phase 6: Measure The Results
 
@@ -341,11 +343,11 @@ Clients love the BSPF because it put a clear path forward - they saw all of the 
 
 We love the BSPF because it systemized our problem-solving method, making results more repeatable. Win-Win!
 
-**We've recently began teaching the BSPF in our** [**Data Science For Business (DS4B 201-R) Course**](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/) **that is part of** [**Business Science University**](https://university.business-science.io)**.**
+**We've recently began teaching the BSPF in our** [**Data Science For Business Part 2 Course**](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/) **that is part of** [**Business Science University**](https://university.business-science.io)**.**
 
 To summarize the student's feedback in one word: **AMAZING!** The BSPF is one of the most loved aspects of the course because they _"finally get a framework that they can follow tying data science to the business"_.  Here's specifically what the two of the students have said:
 
-> _"Data Science For Business (DS4B 201-R) is the first course that gives me a CLEAR FRAMEWORK to apply data science to Business Intelligence!"_
+> _"Data Science For Business Part 2 is the first course that gives me a CLEAR FRAMEWORK to apply data science to Business Intelligence!"_
 >
 > Renaud Liber, Business/Data Analyst, Napoleon Games NV
 
@@ -357,17 +359,17 @@ Why do the students love it? One word...
 
 ## Results
 
-Before we dive into the BSPF Framework, let us first explain the **incredible results** that this methodology has generated. At the end of the day, results are what the organization cares about. Let's put the results first then.
+At the end of the day, results are what the organization cares about. So let's chat about a recent success story.
 
 A recent success story is that of [Rodrigo Prado](https://www.linkedin.com/in/rodrigo-prado-90b55522/). Rodrigo is a high-end data science consultant and graduate of the prestigious [University of Columbia Masters of Science in Applied Analytics](http://sps.columbia.edu/applied-analytics/master-of-science-in-applied-analytics). While the program was very good, Rodrigo left with a knowledge gap still present not fully enabling him to connect data science to the business.
 
 > _While the program was very good, Rodrigo left with a knowledge gap still present not fully enabling him to connect data science to the business._
 
-He read an article about the [Business Science Problem Framework](http://www.business-science.io/business/2018/06/19/business-science-problem-framework.html), and immediately signed up for our [Data Science For Business With R (DS4B 201-R) course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover).
+He read an article about the [Business Science Problem Framework](http://www.business-science.io/business/2018/06/19/business-science-problem-framework.html), and immediately signed up for our [Data Science For Business Part 2 Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover).
 
 Through his company, [Genesis Partners](https://www.linkedin.com/company/genesis-partnerscl/), Rodrigo has since implemented the BSPF on 3 projects. **According to Rodrigo, the BSPF has cut his time-to-deliver data science projects in half!**
 
-Let's think about this for a minute. Half. That's 50% of the time it used to take to complete a project. This means Rodrigo just doubled his effeciency. If he was generating 10X ROI as a consultant, **he's now generating 20X ROI** just by implementing our BSPF framework!
+Let's think about this for a minute. Half. That's 50% of the time it used to take to complete a project. This means Rodrigo just doubled his efficiency. If he was generating 10X ROI as a consultant, **he's now generating 20X ROI** just by implementing our BSPF framework!
 
 If interested, you can listen to his [2-minute testimonial](https://youtu.be/yw5CtGTzIw0).
 
