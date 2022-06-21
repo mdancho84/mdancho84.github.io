@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How To Solve Business Problems with Data Science (The Business Science Problem
-  Framework)
+title: How To Solve 90% of Business Problems with Data Science (The Business Science
+  Problem Framework)
 author: Matt Dancho
 date: 2018-06-19T22:45:01.000+00:00
 categories:
@@ -23,7 +23,7 @@ image: "/assets/2018-06-19_BSPF/Business Science Problem Framework.png"
 
 If you're like me, you've had to learn how to successfully manage a project through trial and error. Fortunately, I've learned a lot over the past several years working with clients, and I've integrated the best resources into **one streamlined framework to make your life easier:** [**The Business Science Problem Framework**](/bspf.html)**.** 
 
-In this article, I'll cover the basics showing you **how the BSPF helps as a guide for business problem solving AND successfully completing 90% of data science projects (BONUS: Customer Churn Problem Case Study)**. [**Download the problem-solving framework for FREE here**](/bspf.html).
+In this article, I'll cover the basics showing you **how the BSPF helps as a guide for business problem solving AND successfully completing 90% of data science projects (BONUS: Customer Churn Problem Case Study)**. [**Download the problem-solving framework for FREE here**](/bspf.html). 
 
 ## Learning Trajectory
 
