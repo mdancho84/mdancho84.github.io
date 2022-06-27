@@ -40,11 +40,11 @@ In this article, you'll learn:
 
 **I'd be lying to you if I said I was always good at data science.** This is a true story of a disaster with my first Fortune 500 client. And, how I overcame it (and created a profound data science framework that has allowed me and my students to solve 90% of data science projects successfully).
 
-It was February of 2017, and I had just founded Business Science (my company). At that point I was taking on consulting jobs in addition to working my 9-5. Business Science was a way to mitigate risk and liability. And, it was a lot of fun because I was actually making money doing what I enjoyed: data science and R programming. 
+It was February of 2017, and I had just founded Business Science (my company). At that point I was taking on consulting jobs in addition to working my 9-5. Business Science was a way to mitigate risk and liability. And, it was a lot of fun because I was actually making money doing what I enjoyed: data science and R programming.
 
 Business Science originally started out serving clients as a consulting firm. I'd help small financial companies create Shiny web applications using financial analysis and time series with my `tidyquant` R package that I was uniquely qualified to handle. But word started to spread (a good thing, right?)
 
-In September 2017, I received a big opportunity when a Fortune 500 company signed up with Business Science to do a quick-turn data science job. I'd just released an article on [HR Analytics and Machine Learning that went viral](https://www.business-science.io/business/2017/09/18/hr_employee_attrition.html). 
+In September 2017, I received a big opportunity when a Fortune 500 company signed up with Business Science to do a quick-turn data science job. I'd just released an article on [HR Analytics and Machine Learning that went viral](https://www.business-science.io/business/2017/09/18/hr_employee_attrition.html).
 
 I received a job in which the client provided a data-dump from a Workday Cloud HR Database. The client was to present to executive management the following week and wanted to show predictive insights from their data.
 
@@ -95,14 +95,17 @@ The **single most effective resource** in my arsenal is a special project framew
 
 <p class="text-center date"><a href="/bspf.html">Business Science Problem Framework (BSPF)</a></p>
 
+# Acing interviews and cutting project times in half
+
 The BSPF is great as a systematic plan of attack, but it's more than just me saying this. It's been validated based on client and, now, student feedback. Students have been using my BSPF framework to:
 
-* Get jobs and ace the data science technical interview
-* Cut their project completion times in half or more (see Rodrigo's testimonial)
+* [Ace the data science technical interview](https://www.business-science.io/business/2020/05/26/student-landed-vp-analytics-role.html) (see Jennifer's testimonial)
+* [Ace the onsite live interview](https://www.business-science.io/business/2019/11/27/how_i_got_my_data_science_job.html) (see Masatake's interview)
+* Cut their project completion times in half or more (see Rodrigo's interview below)
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/yw5CtGTzIw0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Now that you understand what the BSPF can do, let me show you how it works. 
+Now that you understand what the BSPF can do, let me show you how it works.
 
 # The Goal: Systematic Decision Making
 
