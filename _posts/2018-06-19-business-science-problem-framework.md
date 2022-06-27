@@ -32,7 +32,7 @@ In this article, you'll learn:
 * [My biggest failure (disaster with a Fortune 500 client)](#failure)
 * [What it takes to solve 90% of data science problems](#succeed)
 * [The 2 parts that make the BSPF work (for 90% of data science problems)](#bspf-structure)
-* **BONUS:** [How to follow the 7 stages of a business problem (on a Customer Churn Case Study)](#bspf-customer-churn)
+* **BONUS:** [How to use the 7-Step Framework on a Customer Churn Case Study](#bspf-customer-churn)
 
 # My Biggest Failure (disaster with a Fortune 500 client) <a class="anchor" id="failure"></a>
 
@@ -58,7 +58,7 @@ Signing up for this job was not smart but **an excellent learning experience** t
 
 I learned that if Business Science was going to be successful, we needed a plan.
 
-## The Business Science Problem Framework <small> **My 7-step framework that will solve 90% of data science projects successfully while cutting your project times in half** 
+## The Business Science Problem Framework <small> **My 7-step framework that will solve 90% of data science projects successfully while cutting your project times in half**
 
 ![](/assets/cheatsheets/bspf.png)
 
@@ -145,13 +145,13 @@ The BSPF combines three tools making it both high level and detailed while being
 * [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining): A high-level data mining project framework that generalizes well to any data science project, but lacks critical details for business problems.
 * [Principles by Ray Dalio](https://www.principles.com/): A great book that touches on so many learnings that Ray Dalio, Founder of Bridgewatter Capital, has learned through successes and failures. The learning and business analysis philosophy has been incorporated into the BSPF.
 
-# How The BSPF Works <a class="anchor" id="bspf-structure"></a>
+# How The BSPF Works (7 Steps) <a class="anchor" id="bspf-structure"></a>
 
 The BSPF is split into a top and bottom section. The top half contains details of what to investigate while the bottom half contains high level stages of the project. The two sections are _integrated_, meaning they work together to provide a complete program for managing a data science project in a business context. Finally, the BSPF is built on experience, which means it's validated.
 
 #### BSPF Top Half
 
-The BSPF has seven phases that are **detailed** with specific actions focused on understanding the problem and tying the results to Return On Investment (ROI), which is what the organization is keenly focused on:
+The BSPF has seven steps that are **detailed** with specific actions focused on understanding the problem and tying the results to Return On Investment (ROI), which is what the organization is keenly focused on:
 
 1. View The Business As A Machine
 2. Understand The Drivers
@@ -167,7 +167,7 @@ The BSPF has seven phases that are **detailed** with specific actions focused on
 
 #### BSPF Bottom Half
 
-The seven BSPF phases flow along the six phases of [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) that are **high-level** steps for any data science problem (beyond just business):
+The seven BSPF steps flow along the six phases of [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining) that are **high-level** stages for any data science problem (beyond just business):
 
 1. Business Understanding
 2. Data Understanding
@@ -190,21 +190,21 @@ Further, it's built on experience and best practice of business analysis. Many o
 
 <p class="text-center date">Principles by Ray Dalio</p>
 
-# How To Use The BSPF: A Customer Churn Example <a class="anchor" id="bspf-customer-churn"></a>
+# How To Use The 7 Step BSPF: A Customer Churn Example <a class="anchor" id="bspf-customer-churn"></a>
 
 Let's go through an example: **Customer Churn**!
 
 ### Problem: Customers Are Leaving
 
-[Customer churn](https://en.wikipedia.org/wiki/Customer_attrition) refers to the act of customers leaving. These could be subscribers to a software or service or physically customers that shop at a store but elect to go somewhere else. Customer churn is a big problem. Often it goes undiagnosed because, individually, customers can be small, but when aggregated the effect of churn can be LARGE. 
+[Customer churn](https://en.wikipedia.org/wiki/Customer_attrition) refers to the act of customers leaving. These could be subscribers to a software or service or physically customers that shop at a store but elect to go somewhere else. Customer churn is a big problem. Often it goes undiagnosed because, individually, customers can be small, but when aggregated the effect of churn can be LARGE.
 
-**A good rule of thumb is that we only want to focus onproblems that are $1,000,000 annually or more.** The higher the cost, the more important it is to solve it. And, the easier it will be to save the organization money (so they can get a return on investment from the project). 
+**A good rule of thumb is that we only want to focus onproblems that are $1,000,000 annually or more.** The higher the cost, the more important it is to solve it. And, the easier it will be to save the organization money (so they can get a return on investment from the project).
 
 <span data-sumome-listbuilder-embed-id="1e13d987ad901ab4571b6d92bb2ab8a2230c397b886c1fd49eba5392ed5c88cb"></span>
 
-### Phase 1: View The Business As A Machine
+### Step 1: View The Business As A Machine
 
-The first phase is viewing the business as a machine. This involves:
+The first step is viewing the business as a machine. This involves:
 
 1. Isolating business units
 2. Defining objectives
@@ -230,7 +230,7 @@ For the example customer churn problem, we make the following assessment:
 
 **A key in aspect in this stage is understanding the size of the problem. If we are slowly losing customers, how is this impacting revenue? Is the problem a $100 problem, a $100,000 problem, or a $1,000,000 problem? If it's less than $100K, it may not be worth your time. Further, if it's over $1M, executives need to know this. Get them involved quickly!**
 
-### Phase 2: Understand The Drivers
+### Step 2: Understand The Drivers
 
 Next, we begin the process of understanding the drivers. The key steps are:
 
@@ -238,7 +238,7 @@ Next, we begin the process of understanding the drivers. The key steps are:
 2. Synthesize outcomes
 3. Hypothesize drivers
 
-The key in this phase is starting with the _business objectives_: **Customer Satisfaction**. When customers are happy, they keep coming back. Loss of customers generally indicates low satisfaction. This could be related to availability of products, poor customer service, or competition offering lower prices and/or better service or quality.
+The key in this step is starting with the _business objectives_: **Customer Satisfaction**. When customers are happy, they keep coming back. Loss of customers generally indicates low satisfaction. This could be related to availability of products, poor customer service, or competition offering lower prices and/or better service or quality.
 
 We need to _synthesize outcomes_. In our hypothetical example, customers are leaving for a competitor. In speaking with Sales, several customers have stated "Competition has faster delivery". This is an indicator that lead time, or the ability to quickly service customers, is not competitive.
 
@@ -258,7 +258,7 @@ For the example customer churn problem, we make the following assessment:
 
 <span data-sumome-listbuilder-embed-id="1e13d987ad901ab4571b6d92bb2ab8a2230c397b886c1fd49eba5392ed5c88cb"></span>
 
-### Phase 3: Measure Drivers
+### Step 3: Measure Drivers
 
 Now we begin the process of measuring the drivers. The key steps are:
 
@@ -287,7 +287,7 @@ After the data is collected, we need to develop [key performance indicators](htt
 1. **Collecting data takes time, but don't let it stop you. It may require effort to set up processes to collect it, but developing strategic data sources becomes a _competitive advantage_ over time.**
 2. **Notice that KPIs requires knowledge of customers and industry for supplier, inventory, and turnover metrics. Realize that _a wealth of data is available outside of your organization_. Learn where this data resides, and it becomes a tremendous asset.**
 
-### Phase 4: Uncover Problems And Opportunities
+### Step 4: Uncover Problems And Opportunities
 
 It's time to uncover problems and opportunities. We need to:
 
@@ -314,9 +314,9 @@ It's a good time at this spot to read a quote from Thomas Edison:
 
 Remember to ask questions and constantly test your assumptions. Talk with SME's to make sure they agree with your findings so far.
 
-### Phase 5: Encode Decision Making Algorithms
+### Step 5: Encode Decision Making Algorithms
 
-The key steps in this phase are:
+The key parts in this step are:
 
 1. Develop algorithms to predict and explain the problem
 2. Optimize decisions to maximize profit
@@ -345,7 +345,7 @@ Once a systematic decision making algorithm is developed, it's time to deploy in
 ![HR 202 Shiny Application: Employee Prediction](/img/hr_301_app.png)
 <p class="text-center date">Shiny App That Predicts Attrition and Recommends Management Strategies</p>
 
-### Phase 6: Measure The Results
+### Step 6: Measure The Results
 
 Once a model has been developed, evaluated, and is pushed to production (i.e. deployed), it's time to measure the results. This requires you to:
 
@@ -366,15 +366,17 @@ For our Customer Satisfaction example, we can make charts like these that expose
 
 <p class="text-center date">Visualizing Results Over Time</p>
 
-### Phase 7: Report Financial Impact
+### Step 7: Report Financial Impact
 
-We're now in the last phase, report financial impact. If we've done good data science, implemented systematic decision making, and iterated through problems, correcting along the way, we should now see positive results. Here are the steps:
+We're now in the last step, report financial impact. If we've done good data science, implemented systematic decision making, and iterated through problems, correcting along the way, we should now see positive results. Here are the steps:
 
 1. Measure actual results
 2. Tie to financial benefits
 3. Report financial benefit to key stakeholders
 
-Once results are understood, we need to show the results as financial benefits. This not only justifies our existence, but shows the organization that it is improving. **The key here is that results must be conveyed in terms on financial impact.** It’s insufficient to say that we saved 75 employees or 75 customers. Rather, we need to say that the average cost of a lost employee or lost customer is $100,000 per year, so we just saved the organization $7.5M/year. Always report as a financial value.
+Once results are understood, we need to show the results as financial benefits. This not only justifies our existence, but shows the organization that it is improving. **The key here is that results must be conveyed in terms on financial impact.**
+
+It’s insufficient to say that we saved 75 employees or 75 customers. Rather, we need to say that the average cost of a lost employee or lost customer is $100,000 per year, so we just saved the organization $7.5M/year. Always report as a financial value.
 
 Here's an example of charts that now show the net profit and cumulative net profit over time. These are great charts to show executives, which conveys the success of the project and return on investment (ROI)!
 
@@ -418,7 +420,7 @@ If interested, you can listen to his [2-minute testimonial](https://youtu.be/yw5
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/yw5CtGTzIw0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Next Steps: Imagine what earning $125,000 in 6-months from now could do for you. 
+## Next Steps: Imagine what earning $125,000 in 6-months from now could do for you.
 
 How amazing would it be to know you have the financial freedom to do anything you want.
 
@@ -430,7 +432,7 @@ Have financial stability and less stress.
 
 And this is why an investment in yourself will unlock those dreams.
 
-Here's a quick story of Mohana, one of my students that earned a 94% raise in 8-months from working with me. 
+Here's a quick story of Mohana, one of my students that earned a 94% raise in 8-months from working with me.
 
 He's now a Lead Data Scientist at Money View, one of India's fastest growing start-ups.
 
