@@ -454,4 +454,4 @@ Here's how.
 
 ![](/assets/rtrack_what_they_are_doing.jpeg)
 
-<p class="text-center" style="font-size:36px;"><a href="[https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series "https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series")">Join the 5-Course R-Track Today</a></p>
+<p class="text-center" style="font-size:36px;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join the 5-Course R-Track Today</a></p>
