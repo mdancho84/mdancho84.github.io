@@ -21,9 +21,9 @@ image: "/assets/2018-06-19_BSPF/Business Science Problem Framework.png"
 ---
 **Data Scientists want to solve business problems. However, the sad fact is that most data science projects in organizations fail.** It's not because of lack of skill or knowledge. Data science projects need a clear and effective plan of attack to be successful. As data scientists, we study a wide array of tools: advanced algorithms, knowledge of statistics, and even programming skills.
 
-If you're like me, you've had to learn how to successfully manage a project through trial and error. Fortunately, I've learned a lot over the past several years working with clients, and I've integrated the best resources into a **7-step framework that will solve 90% of data science projects successfully:** [**The Business Science Problem Framework**](/bspf.html)**.**
+If you're like me, you've had to learn how to do data science projects through trial and error. Fortunately, I've learned a lot over the past several years working with clients, and I've integrated the best resources into a **7-step framework that will solve 90% of data science projects successfully while cutting your project times in half:** [**The Business Science Problem Framework**](/bspf.html)**.**
 
-In this article, I'll cover the basics showing you **how the BSPF helps as a guide for business problem solving AND successfully completing 90% of data science projects (BONUS: Customer Churn Problem Case Study)**. [**Download the problem-solving framework for FREE here**](/bspf.html).
+In this article, I'll cover the basics showing you how the BSPF helps as a guide for business problem solving AND successfully completing 90% of data science projects **(BONUS: Customer Churn Problem Case Study)**. [**Download the problem-solving framework for FREE here**](/bspf.html).
 
 ## Learning Trajectory
 
@@ -31,10 +31,8 @@ In this article, you'll learn:
 
 * [My biggest failure (disaster with a Fortune 500 client)](#failure)
 * [What it takes to solve 90% of data science problems](#succeed)
-* [Where to find the BSPF](#get-bspf)
 * [The 2 parts that make the BSPF work (for 90% of data science problems)](#bspf-structure)
-* [How to follow the 7 stages of a business problem (on a Customer Churn Case Study)](#bspf-customer-churn)
-* [Actual Results from using the BSPF](#proof)
+* **BONUS:** [How to follow the 7 stages of a business problem (on a Customer Churn Case Study)](#bspf-customer-churn)
 
 # My Biggest Failure (disaster with a Fortune 500 client) <a class="anchor" id="failure"></a>
 
@@ -60,7 +58,7 @@ Signing up for this job was not smart but **an excellent learning experience** t
 
 I learned that if Business Science was going to be successful, we needed a plan.
 
-## The Business Science Problem Framework
+## The Business Science Problem Framework <small> **My 7-step framework that will solve 90% of data science projects successfully while cutting your project times in half** 
 
 ![](/assets/cheatsheets/bspf.png)
 
@@ -146,10 +144,6 @@ The BSPF combines three tools making it both high level and detailed while being
 * [Business Science Experience](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/): Our own internal learnings that have been incorporated into a course available for students that want to learn [Data Science For Business (DS4B)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/). From how to setup a data science project to how to show financial impact and size the business problem in terms executives need to see.
 * [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining): A high-level data mining project framework that generalizes well to any data science project, but lacks critical details for business problems.
 * [Principles by Ray Dalio](https://www.principles.com/): A great book that touches on so many learnings that Ray Dalio, Founder of Bridgewatter Capital, has learned through successes and failures. The learning and business analysis philosophy has been incorporated into the BSPF.
-
-> _In my Data Science For Business Part 2 course (part of_ [_my 5-Course R-Track System_](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series)_), I show you how to implement the_ [_Business Science Problem Framework_](/bspf.html) _process, and you will leave with a template and the knowledge to make an impact on your organization by making the best use of your organization's data._
->
-> * Matt Dancho, Founder of Business Science
 
 # How The BSPF Works <a class="anchor" id="bspf-structure"></a>
 
