@@ -3,7 +3,7 @@ layout: post
 title: How To Solve 90% of Business Problems with Data Science (The Business Science
   Problem Framework)
 author: Matt Dancho
-date: 2018-06-19T22:45:01.000+00:00
+date: 2018-06-19 18:45:01 -0400
 categories:
 - Business
 tags:
@@ -324,8 +324,8 @@ The key steps in this phase are:
 
 First, _develop algorithms_ using advanced tools like H2O Automated Machine Learning and LIME for black-box model explanations.
 
-* H2O is a great option because of **Automated Machine Learning (AutoML)**, which we teach in [Data Science For Business (DS4B 201 / HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/). Automated machine learning is fast and develops highly accurate models, saving the data scientist time.
-* LIME is used to explain deep learning, random forest, and stacked ensembles, which are traditionally unexplainable. We also teach LIME as part of [Data Science For Business (DS4B 201 / HR 201)](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/).
+* **H2O** is a great option because of **Automated Machine Learning (AutoML)**, which I teach in Data Science For Business Part 2, part of [my 5-Course R-Track System](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series). Automated machine learning is fast and develops highly accurate models, saving the data scientist time.
+* **LIME** is used to explain deep learning, random forest, and stacked ensembles, which are traditionally unexplainable. We also teach LIME as part of Data Science For Business Part 2.
 
 ![Algorithm Development](/assets/2018-06-19_BSPF/prediction.png)
 <p class="text-center date">Sample H2O + LIME Algorithm, Taught in DS4B 201</p>
@@ -406,7 +406,7 @@ Why do the students love it? One word...
 
 At the end of the day, results are what the organization cares about. So let's chat about a recent success story.
 
-A recent success story is that of [Rodrigo Prado](https://www.linkedin.com/in/rodrigo-prado-90b55522/). Rodrigo is a high-end data science consultant and graduate of the prestigious [University of Columbia Masters of Science in Applied Analytics](http://sps.columbia.edu/applied-analytics/master-of-science-in-applied-analytics). While the program was very good, Rodrigo left with a knowledge gap still present not fully enabling him to connect data science to the business.
+A recent success story is that of [Rodrigo Prado](https://www.linkedin.com/in/rodrigo-prado-90b55522/). Rodrigo is a high-end data science consultant and graduate of the prestigious University of Columbia Masters of Science in Applied Analytics. While the program was very good, Rodrigo left with a knowledge gap still present not fully enabling him to connect data science to the business.
 
 He read an article about the Business Science Problem Framework, and immediately signed up for [my 5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
 
