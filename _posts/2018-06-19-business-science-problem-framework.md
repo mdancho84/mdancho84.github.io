@@ -388,15 +388,13 @@ Here's an example of charts that now show the net profit and cumulative net prof
 
 <p class="text-center date">Measuring Return On Investment (ROI)</p>
 
-## A Proven System <a class="anchor" id="proof"></a>
+# A Proven System <a class="anchor" id="proof"></a>
 
-At _Business Science_, we've been using the BSPF in the wild with clients for some time. We were repeating many of the same activities as we were diving into data science projects. We began keeping track of the steps we were following as we completed projects. Eventually, we formalized our process, calling it the _Business Science Problem Framework_.
+At _Business Science_, I've been using the BSPF in the wild with clients for some time. Clients love the BSPF because it put a clear path forward - they saw all of the steps required, where there input would be needed, and understood why the project would take several weeks to complete.
 
-Clients love the BSPF because it put a clear path forward - they saw all of the steps required, where there input would be needed, and understood why the project would take several weeks to complete.
+I love the BSPF because it systemized my problem-solving method, making results more repeatable. Win-Win!
 
-We love the BSPF because it systemized our problem-solving method, making results more repeatable. Win-Win!
-
-**We've recently began teaching the BSPF in our** [**Data Science For Business Part 2 Course**](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/) **that is part of** [**Business Science University**](https://university.business-science.io)**.**
+**We've recently began teaching the BSPF in our** **Data Science For Business Part 2 Course** **that is part of** [**my 5-Course R-Track Program**](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series)**.**
 
 To summarize the student's feedback in one word: **AMAZING!** The BSPF is one of the most loved aspects of the course because they _"finally get a framework that they can follow tying data science to the business"_.  Here's specifically what the two of the students have said:
 
@@ -416,11 +414,9 @@ At the end of the day, results are what the organization cares about. So let's c
 
 A recent success story is that of [Rodrigo Prado](https://www.linkedin.com/in/rodrigo-prado-90b55522/). Rodrigo is a high-end data science consultant and graduate of the prestigious [University of Columbia Masters of Science in Applied Analytics](http://sps.columbia.edu/applied-analytics/master-of-science-in-applied-analytics). While the program was very good, Rodrigo left with a knowledge gap still present not fully enabling him to connect data science to the business.
 
-> _While the program was very good, Rodrigo left with a knowledge gap still present not fully enabling him to connect data science to the business._
+He read an article about the Business Science Problem Framework, and immediately signed up for [my 5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series).
 
-He read an article about the [Business Science Problem Framework](http://www.business-science.io/business/2018/06/19/business-science-problem-framework.html), and immediately signed up for our [Data Science For Business Part 2 Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover).
-
-Through his company, [Genesis Partners](https://www.linkedin.com/company/genesis-partnerscl/), Rodrigo has since implemented the BSPF on 3 projects. **According to Rodrigo, the BSPF has cut his time-to-deliver data science projects in half!**
+Through his company, Genesis Partners, Rodrigo has since implemented the BSPF on 3 projects. **According to Rodrigo, the BSPF has cut his time-to-deliver data science projects in half!**
 
 Let's think about this for a minute. Half. That's 50% of the time it used to take to complete a project. This means Rodrigo just doubled his efficiency. If he was generating 10X ROI as a consultant, **he's now generating 20X ROI** just by implementing our BSPF framework!
 
@@ -428,46 +424,38 @@ If interested, you can listen to his [2-minute testimonial](https://youtu.be/yw5
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/yw5CtGTzIw0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<br>
-<hr>
+## Next Steps: Imagine what earning $125,000 in 6-months from now could do for you. 
 
-<h2 class="text-center">Experience The Data Science Course That Cut Rodrigo's Time-To-Deliver In Half</h2>
+How amazing would it be to know you have the financial freedom to do anything you want.
 
-<p class="text-center">
-If you're interested in learning how to apply critical thinking and BSPF while solving a real-world business problem following an end-to-end data science project, check out <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover"><strong>Data Science For Business With R (DS4B 201-R)</strong></a>. Over the course of 10 weeks you will solve an <strong>end-to-end Employee Churn data science project following our systematic Business Science Problem Framework</strong>.
-</p>
+You can take a vacation.
 
-<p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover">
-<img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
-</a>
-</p>
+Spend more time with family.
 
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover"><strong>Start Learning Today!</strong></a>
-</p>
+Have financial stability and less stress.
 
-<hr>
-<br>
+And this is why an investment in yourself will unlock those dreams.
 
-## Next Steps
+Here's a quick story of Mohana, one of my students that earned a 94% raise in 8-months from working with me. 
 
-If you've enjoyed learning about the [Business Science Problem Framework](/bspf.html) and are ready to take the next step with a real-world employee attrition problem, then take our [Data Science For Business Part 2 Course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/)! It has a student satisfaction rating of 9.1/10, and students are learning how to apply data science to business using R code, the _Business Science Problem Framework_, and more! Check out the trailer below.
+He's now a Lead Data Scientist at Money View, one of India's fastest growing start-ups.
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/lyWxrhaBJ38" frameborder="1" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+He says, _"I just want to thank you again. You are my career savior."_
 
-<br>
+![](/assets/mohana_career_savior-1.jpg)
 
-<p class="text-center">
-If you're interested in learning how to apply critical thinking and BSPF while solving a real-world business problem following an end-to-end data science project, check out <a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover"><strong>Data Science For Business With R (DS4B 201-R)</strong></a>. Over the course of 10 weeks you will solve an <strong>end-to-end Employee Churn data science project following our systematic Business Science Problem Framework</strong>.
-</p>
+I replied, _"Congratulations. You are seeing what happens when you invest in yourself."_
 
-<p style="text-align:center;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover">
-<img src="/img/ds4b_201_r_small.png" alt="Data Science For Business With R" style="width:75%;height:75%;">
-</a>
-</p>
+![](/assets/matt_response_mohana-1.jpg)
 
-<p class="text-center" style="font-size:30px;">
-<a href="https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover"><strong>Start Learning Today!</strong></a>
-</p>
+The same thing can happen to you.
+
+## If you are ready to learn. I'm ready to teach.
+
+If you are ready to learn. Then, I'm ready to teach.
+
+Here's how.
+
+![](/assets/rtrack_what_they_are_doing.jpeg)
+
+<p class="text-center" style="font-size:36px;"><a href="[https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series "https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series")">Join the 5-Course R-Track Today</a></p>
