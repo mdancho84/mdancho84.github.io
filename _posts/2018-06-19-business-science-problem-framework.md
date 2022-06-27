@@ -31,7 +31,7 @@ In this article, you'll learn:
 
 * [My biggest failure (disaster with a Fortune 500 client)](#failure)
 * [What it takes to solve 90% of data science problems](#succeed)
-* [The 2 parts that make the BSPF work (for 90% of data science problems)](#bspf-structure)
+* [How the BPSF Works (7-Steps)](#bspf-structure)
 * **BONUS:** [How to use the 7-Step Framework on a Customer Churn Case Study](#bspf-customer-churn)
 
 # My Biggest Failure (disaster with a Fortune 500 client) <a class="anchor" id="failure"></a>
