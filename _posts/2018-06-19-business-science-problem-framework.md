@@ -21,21 +21,62 @@ image: "/assets/2018-06-19_BSPF/Business Science Problem Framework.png"
 ---
 **Data Scientists want to solve business problems. However, the sad fact is that most data science projects in organizations fail.** It's not because of lack of skill or knowledge. Data science projects need a clear and effective plan of attack to be successful. As data scientists, we study a wide array of tools: advanced algorithms, knowledge of statistics, and even programming skills.
 
-If you're like me, you've had to learn how to successfully manage a project through trial and error. Fortunately, I've learned a lot over the past several years working with clients, and I've integrated the best resources into **one streamlined framework to make your life easier:** [**The Business Science Problem Framework**](/bspf.html)**.** 
+If you're like me, you've had to learn how to successfully manage a project through trial and error. Fortunately, I've learned a lot over the past several years working with clients, and I've integrated the best resources into a **7-step framework that will solve 90% of data science projects successfully:** [**The Business Science Problem Framework**](/bspf.html)**.**
 
-In this article, I'll cover the basics showing you **how the BSPF helps as a guide for business problem solving AND successfully completing 90% of data science projects (BONUS: Customer Churn Problem Case Study)**. [**Download the problem-solving framework for FREE here**](/bspf.html). 
+In this article, I'll cover the basics showing you **how the BSPF helps as a guide for business problem solving AND successfully completing 90% of data science projects (BONUS: Customer Churn Problem Case Study)**. [**Download the problem-solving framework for FREE here**](/bspf.html).
 
 ## Learning Trajectory
 
 In this article, you'll learn:
 
+* [My biggest failure (disaster with a Fortune 500 client)](#failure)
 * [What it takes to solve 90% of data science problems](#succeed)
 * [Where to find the BSPF](#get-bspf)
 * [The 2 parts that make the BSPF work (for 90% of data science problems)](#bspf-structure)
 * [How to follow the 7 stages of a business problem (on a Customer Churn Case Study)](#bspf-customer-churn)
 * [Actual Results from using the BSPF](#proof)
 
-## What It Takes To Succeed <a class="anchor" id="succeed"></a>
+# My Biggest Failure (disaster with a Fortune 500 client) <a class="anchor" id="failure"></a>
+
+**I'd be lying to you if I said I was always good at data science.** This is a true story of a disaster with my first Fortune 500 client. And, how I overcame it (and created a profound data science framework that has allowed me and my students to solve 90% of data science projects successfully).
+
+It was February of 2017, and I had just founded Business Science (my company). At that point I was taking on consulting jobs in addition to working my 9-5. Business Science was a way to mitigate risk and liability. And, it was a lot of fun because I was actually making money doing what I enjoyed: data science and R programming. 
+
+Business Science originally started out serving clients as a consulting firm. I'd help small financial companies create Shiny web applications using financial analysis and time series with my `tidyquant` R package that I was uniquely qualified to handle. But word started to spread (a good thing, right?)
+
+In September 2017, I received a big opportunity when a Fortune 500 company signed up with Business Science to do a quick-turn data science job. I'd just released an article on [HR Analytics and Machine Learning that went viral](https://www.business-science.io/business/2017/09/18/hr_employee_attrition.html). 
+
+I received a job in which the client provided a data-dump from a Workday Cloud HR Database. The client was to present to executive management the following week and wanted to show predictive insights from their data.
+
+## The job with my first Fortune 500 client did not go well
+
+I received the data on Friday, and was to present findings on Monday so the executives could add the results into a CEO presentation on Wednesday. I contracted an HR Specialist out of Houston. He and I worked non-stop from Friday through to Monday analyzing their data, extracting insights, and creating a detailed report that documented our entire analysis. We actually created a pretty cool algorithm that detected 13 or so employees that were not currently being targeted for the “executive track”, but should have been based on their data.
+
+But, this report and algorithm was not what was wanted. Our contacts were expecting something different than what we interpreted from the conversations (still I do not know what they wanted). What we delivered was overly technical, not in a format they could easily add into their presentation, and - bottom line - not what they wanted.
+
+Ugh! I felt horrible.
+
+Signing up for this job was not smart but **an excellent learning experience** that paved the way for data science education.
+
+I learned that if Business Science was going to be successful, we needed a plan.
+
+## The Business Science Problem Framework
+
+![](/assets/cheatsheets/bspf.png)
+
+The [Business Science Problem Framework](https://www.business-science.io/bspf.html) (or BSPF for short) was a systematic process that I developed to help manage the data science project. The BSPF was successful for a few key reasons:
+
+* It provided a **clear plan** that I could discuss with executives and align their interests with a return-on-investment (ROI) oriented framework.
+* It exposed the **key steps** in a data science project in a way that exec’s understood
+* It showed that **it takes several weeks if not months** to do a data science project right
+* It helped bring **client questions up front** in early discussion, which we were able to answer and build into the project scope
+* It gave the clients a **sense of confidence** that we knew what we were doing (and we did!) We began using the BSPF framework on every job. We saw client satisfaction skyrocket.
+
+After implementing it in my next job, it went better. But I continued to improve it over time.  And before you know it, I was able to help Fortune 500 companies like S&P Global complete their data science project and training initiatives by implementing the BSPF concepts.
+
+![](/assets/sp_global.jpg)
+
+# What It Takes To Succeed <a class="anchor" id="succeed"></a>
 
 **A successful data science project doesn't happen by accident**. It takes:
 
@@ -44,7 +85,7 @@ In this article, you'll learn:
 * **Planning** to align everyone involved with the project scope and plan
 * A checklist of **proven actions** that must be considered
 
-The **single most effective resource** in our arsenal is a special project framework that we've designed, pooling from our consulting experience and combining with proven project management resources and philosophies. It's called the [**Business Science Project Framework (BSPF)**](/bspf.html).
+The **single most effective resource** in my arsenal is a special project framework that I've designed, pooling from my consulting experience and combining with proven project management resources and philosophies. It's called the [**Business Science Project Framework (BSPF)**](/bspf.html).
 
 <p style="text-align:center;">
 <a href="/bspf.html">
@@ -54,9 +95,16 @@ The **single most effective resource** in our arsenal is a special project frame
 
 <p class="text-center date"><a href="/bspf.html">Business Science Problem Framework (BSPF)</a></p>
 
-We think the BSPF is great as a systematic plan of attack, but it's more than just us. It's been validated based on client and, now, student feedback.
+The BSPF is great as a systematic plan of attack, but it's more than just me saying this. It's been validated based on client and, now, student feedback. Students have been using my BSPF framework to:
 
-## The Goal: Systematic Decision Making
+* Get jobs and ace the data science technical interview
+* Cut their project completion times in half or more (see Rodrigo's testimonial)
+
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/yw5CtGTzIw0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+Now that you understand what the BSPF can do, let me show you how it works. 
+
+# The Goal: Systematic Decision Making
 
 The goal is simple: to implement data science in a way that enables decision making to follow a **systematic process**. We do this through the following equation relating measurement and analysis to improvement within a business context:
 
@@ -68,7 +116,7 @@ The combination of measurement and analysis are critical for businesses that wan
 
 The reality is that this equation is over simplified. Before we can implement Systematic Decision Making, we need to **understand the business**. And, before we can understand the business, we need to **identify the business problem**. Thinking about this further, achieving Systematic Decision Making follows a path that can be visualized as a pyramid built on identifying drivers and understanding the business.
 
-<img src="/assets/2018-06-19_BSPF/systematic_decision_making_pyramid.png" alt="Systematic Decision Making Pyramid" style="width:50%;">
+<img src="/assets/2018-06-19_BSPF/systematic_decision_making_pyramid.png" alt="Systematic Decision Making Pyramid" style="width:100%;">
 
 <p class="text-center date">Systematic Decision Making Pyramid</p>
 
