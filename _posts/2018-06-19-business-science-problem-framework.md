@@ -125,7 +125,7 @@ The reality is that this equation is over simplified. Before we can implement Sy
 
 This process of identifying problems, then understanding the business, and then converting the learning into systematic decision making is what the BSPF helps us do!
 
-## Get The BSPF <a class="anchor" id="get-bspf"></a>
+# Get The BSPF <a class="anchor" id="get-bspf"></a>
 
 The BSPF allows us to go from identifying business problems to making systematic decisions. [You can download the BSPF for FREE here](/bspf.html) (under the "Resources" tab on the Business Science website).
 
@@ -139,7 +139,7 @@ The BSPF allows us to go from identifying business problems to making systematic
 
 <span data-sumome-listbuilder-embed-id="1e13d987ad901ab4571b6d92bb2ab8a2230c397b886c1fd49eba5392ed5c88cb"></span>
 
-## Combining Decision Making And Project Management Tools
+# Combining Decision Making And Project Management Tools
 
 The BSPF combines three tools making it both high level and detailed while being built on experience:
 
@@ -147,11 +147,11 @@ The BSPF combines three tools making it both high level and detailed while being
 * [CRISP-DM](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining): A high-level data mining project framework that generalizes well to any data science project, but lacks critical details for business problems.
 * [Principles by Ray Dalio](https://www.principles.com/): A great book that touches on so many learnings that Ray Dalio, Founder of Bridgewatter Capital, has learned through successes and failures. The learning and business analysis philosophy has been incorporated into the BSPF.
 
-> In our [Data Science For Business (DS4B 201 / HR 201) course](https://university.business-science.io/p/hr201-using-machine-learning-h2o-lime-to-predict-employee-turnover/), we show you how to implement the [Business Science Problem Framework](/bspf.html) process, and you will leave with a template and the knowledge to make an impact on your organization by making the best use of your organization's data.
+> _In my Data Science For Business Part 2 course (part of_ [_my 5-Course R-Track System_](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series)_), I show you how to implement the_ [_Business Science Problem Framework_](/bspf.html) _process, and you will leave with a template and the knowledge to make an impact on your organization by making the best use of your organization's data._
 >
-> * Matt Dancho, Founder of Business Science // Instructor Of DS4B 201
+> * Matt Dancho, Founder of Business Science
 
-## How The BSPF Works <a class="anchor" id="bspf-structure"></a>
+# How The BSPF Works <a class="anchor" id="bspf-structure"></a>
 
 The BSPF is split into a top and bottom section. The top half contains details of what to investigate while the bottom half contains high level stages of the project. The two sections are _integrated_, meaning they work together to provide a complete program for managing a data science project in a business context. Finally, the BSPF is built on experience, which means it's validated.
 
@@ -196,13 +196,15 @@ Further, it's built on experience and best practice of business analysis. Many o
 
 <p class="text-center date">Principles by Ray Dalio</p>
 
-## How To Use The BSPF: A Customer Churn Example <a class="anchor" id="bspf-customer-churn"></a>
+# How To Use The BSPF: A Customer Churn Example <a class="anchor" id="bspf-customer-churn"></a>
 
 Let's go through an example: **Customer Churn**!
 
 ### Problem: Customers Are Leaving
 
-[Customer churn](https://en.wikipedia.org/wiki/Customer_attrition) refers to the act of customers leaving. These could be subscribers to a software or service or physically customers that shop at a store but elect to go somewhere else. Customer churn is a big problem! Often it goes undiagnosed because, individually, customers can be small, but when aggregated the effect of churn can be LARGE!
+[Customer churn](https://en.wikipedia.org/wiki/Customer_attrition) refers to the act of customers leaving. These could be subscribers to a software or service or physically customers that shop at a store but elect to go somewhere else. Customer churn is a big problem. Often it goes undiagnosed because, individually, customers can be small, but when aggregated the effect of churn can be LARGE. 
+
+**A good rule of thumb is that we only want to focus onproblems that are $1,000,000 annually or more.** The higher the cost, the more important it is to solve it. And, the easier it will be to save the organization money (so they can get a return on investment from the project). 
 
 <span data-sumome-listbuilder-embed-id="1e13d987ad901ab4571b6d92bb2ab8a2230c397b886c1fd49eba5392ed5c88cb"></span>
 
