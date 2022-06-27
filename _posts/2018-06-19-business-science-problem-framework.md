@@ -3,7 +3,7 @@ layout: post
 title: How To Solve 90% of Business Problems with Data Science (The Business Science
   Problem Framework)
 author: Matt Dancho
-date: 2018-06-19 18:45:01 -0400
+date: 2018-06-19T18:45:01.000-04:00
 categories:
 - Business
 tags:
@@ -125,7 +125,7 @@ This process of identifying problems, then understanding the business, and then 
 
 # Get The BSPF <a class="anchor" id="get-bspf"></a>
 
-The BSPF allows us to go from identifying business problems to making systematic decisions. [You can download the BSPF for FREE here](/bspf.html) (under the "Resources" tab on the Business Science website).
+The BSPF allows us to go from identifying business problems to making systematic decisions. [You can download the BSPF for FREE here](/bspf.html).
 
 <p style="text-align:center;">
 <a href="/bspf.html">
