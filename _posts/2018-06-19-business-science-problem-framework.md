@@ -56,21 +56,25 @@ Ugh! I felt horrible.
 
 Signing up for this job was not smart but **an excellent learning experience** that paved the way for data science education.
 
-I learned that if Business Science was going to be successful, we needed a plan.
+I learned that if Business Science was going to be successful, we needed to do better.
+
+I took the next 2-weeks off from any consulting engagements. I poured over the every step of what happened. And then it hit me. 
+
+I had no plan. I needed a framework that would be the guiding light for what a successful project needed.  
 
 ## The Business Science Problem Framework <small> **My 7-step framework that will solve 90% of data science projects successfully while cutting your project times in half**
 
 ![](/assets/cheatsheets/bspf.png)
 
-The [Business Science Problem Framework](https://www.business-science.io/bspf.html) (or BSPF for short) was a systematic process that I developed to help manage the data science project. The BSPF was successful for a few key reasons:
+The [Business Science Problem Framework](https://www.business-science.io/bspf.html) (or BSPF for short) was a systematic process that I developed to help manage the data science project. The BSPF:
 
-* It provided a **clear plan** that I could discuss with executives and align their interests with a return-on-investment (ROI) oriented framework.
-* It exposed the **key steps** in a data science project in a way that exec’s understood
-* It showed that **it takes several weeks if not months** to do a data science project right
-* It helped bring **client questions up front** in early discussion, which we were able to answer and build into the project scope
-* It gave the clients a **sense of confidence** that we knew what we were doing (and we did!) We began using the BSPF framework on every job. We saw client satisfaction skyrocket.
+* Provided a **clear plan** that I could discuss with executives and align their interests with a return-on-investment (ROI) oriented framework.
+* Exposed the **key steps** in a data science project in a way that exec’s understood
+* Showed that **it takes several weeks if not months** to do a data science project right
+* Helped bring **client questions up front** in early discussion, which we were able to answer and build into the project scope
+* Gave the clients a **sense of confidence** that we knew what we were doing (and we did!) We began using the BSPF framework on every job. We saw client satisfaction skyrocket.
 
-After implementing it in my next job, it went better. But I continued to improve it over time.  And before you know it, I was able to help Fortune 500 companies like S&P Global complete their data science project and training initiatives by implementing the BSPF concepts.
+After implementing the BSPF in my next job, the project went better. But I continued to improve it over time.  And before you know it, I was able to help Fortune 500 companies like S&P Global complete their data science project and training initiatives by implementing the BSPF concepts.
 
 ![](/assets/sp_global.jpg)
 
