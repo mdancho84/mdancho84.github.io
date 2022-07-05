@@ -147,13 +147,9 @@ We can test the fitted model by making some predictions. Run this code.
 
 ![](/assets/modeldown_08a_predict.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
 Here's the result. A bunch of Yes/No's. **This is what we call "Class Predictions".** The algorithm is actually assigning "class" or category to the churn prediction.
 
 ![](/assets/modeldown_08a_predict_result.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 **Problem: the Explainable AI algorithm can't use Class Predictions.** It needs "Class Probabilities", or actual numeric values from 0 to 1 that indicate the algorithms estimate of being a Yes.
 
@@ -161,15 +157,11 @@ Run this code to get class probabilities.
 
 ![](/assets/modeldown_08b_predict_proba.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
 **Solution: the Explainable AI algorithm can use the Class Probabilities.** We now have values from 0-1 for Churn=Yes.
 
 Here's the result. Instead of Yes/Nos we get the algorithm's probability of churn being a yes or a no.
 
 ![](/assets/modeldown_08b_predict_proba_result.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 ## Step 3: Apply the trelliscopejs magic!
 
