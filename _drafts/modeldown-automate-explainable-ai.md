@@ -8,7 +8,7 @@ tags:
 - Learn-R
 - R
 title: 'modelDown: Automate Explainable AI (Machine Learning) in R'
-date: 2022-03-30T10:00:00.000-04:00
+date: 2022-07-06 06:00:00 -0400
 excerpt: 'Machine learning is great... until you have to explain it. Stakeholders
   are normally non-technical, C-suites that ultimately want to know what the model
   does for the business. And how it helps increase revenue or decrease costs. A new
@@ -22,7 +22,7 @@ image_preview: "/assets/modeldown_report_1.jpg"
 In this R-tip, I'm going to show you how to unlock MASSIVE BUSINESS VALUE with `modelDown` in **under 5-minutes:**
 
 1. Learn how to **make machine learning models** with `tidymodels`
-2. **Unlock the cheat-code** to making ANY machine learning model explainable 
+2. **Unlock the cheat-code** to making ANY machine learning model explainable
 3. **BONUS:** Learn how to read the Automated Explainable AI Report that you create **(so you can explain the ML model to ANYONE!)**
 
 # R-Tips Weekly
@@ -35,13 +35,13 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 # Video Tutorial
 
-I have a companion video tutorial that shows even more secrets (plus mistakes to avoid). 
+I have a companion video tutorial that shows even more secrets (plus mistakes to avoid).
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/pZ3vqzaE7lk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # What you make in this R-Tip
 
-By the end of this tutorial, you'll make a full explainable AI report that helps you explain business insights to executives, managers, non-technical business people, and even your parents (_"Hey Dad, this is why customers are churning!"_). OK, maybe not your parents, but definitely C-suite executives. 
+By the end of this tutorial, you'll make a full explainable AI report that helps you explain business insights to executives, managers, non-technical business people, and even your parents (_"Hey Dad, this is why customers are churning!"_). OK, maybe not your parents, but definitely C-suite executives.
 
 ![](/assets/modeldown_report_2.jpg)
 
@@ -55,33 +55,33 @@ Also, the full documentation for `modelDown` can be [accessed here](https://mode
 
 # `modelDown` Tutorial
 
-Let's dive into using `modelDown` so we can **automate explainable AI**. 
+Let's dive into using `modelDown` so we can **automate explainable AI**.
 
-**Important:** All of the data and code shown can be accessed through our Business Science [**R-Tips Project**](https://learn.business-science.io/r-tips-newsletter). 
+**Important:** All of the data and code shown can be accessed through our Business Science [**R-Tips Project**](https://learn.business-science.io/r-tips-newsletter).
 
-**Warning:** This is an advanced tutorial that will depend on knowledge of `tidymodels`. And, it may be uncomfortable if you are a _complete beginner_. BUT, I'll explain how you can learn R, tidymodels, and data science for business from scratch at the end of this tutorial. 
+**Warning:** This is an advanced tutorial that will depend on knowledge of `tidymodels`. And, it may be uncomfortable if you are a _complete beginner_. BUT, I'll explain how you can learn R, tidymodels, and data science for business from scratch at the end of this tutorial.
 
 Plus I have a **surprise** at the end (for everyone)!
 
 ## Step 1: Load the Libraries and Data
 
-### First, run this code to **load the R libraries:** 
+### First, run this code to **load the R libraries:**
 
-Load `tidyverse` , `janitor`,  `tidymodels`, `DALEX` and `modelDown`. I'll explain the importance of each of these R packages as we use them. 
+Load `tidyverse` , `janitor`,  `tidymodels`, `DALEX` and `modelDown`. I'll explain the importance of each of these R packages as we use them.
 
 ![](/assets/modeldown_01_libraries.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-### Next, run this code to **pull in the data**. 
+### Next, run this code to **pull in the data**.
 
-We'll read in the Customer Churn data set that was used in the previous R-Tip on Survival Analysis. 
+We'll read in the Customer Churn data set that was used in the previous R-Tip on Survival Analysis.
 
 ![](/assets/modeldown_02_data.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the Data.</a> </p>
 
-**Our data looks like this.** 
+**Our data looks like this.**
 
 ![](/assets/modeldown_03_churn_data.jpg)
 
@@ -89,19 +89,53 @@ We'll read in the Customer Churn data set that was used in the previous R-Tip on
 
 [We want to understand how customer churn (Yes/No) depends on other factors](https://learn.business-science.io/r-tips-newsletter) like how long they have been a customer and what type of subscription plan they have (monthly, one-year, two-year).
 
-## Step 2: Make a ggplot
+## Step 2: Make a tidymodel
 
-Next, let's make a basic ggplot of fuel economy vs engine displacement.
+Next, it's time to make a `tidymodel`. This can be a bit challenging for beginners (and even experienced R users, so at the end of this tutorial I'll give you some more help). But just go with it until then...
 
-![](/assets/02_trelliscope_ggplot.jpg)
+### Step 2A, Recipes: Feature Engineering and Preprocessing
+
+We'll start by getting our data into a format that the models can handle. Run this code to remove unnecessary columns "customer_id" and to one-hot encode any categorical predictors (e.g. "contract" and "gender").
+
+![](/assets/modeldown_04_recipe.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-This produces the following plot of `hwy` vs `displ`.
+The preprocessing recipe is just **a template (often called a pipeline)** that takes incoming data and processes it into the "right" format for our models to learn from it. 
 
-![](/assets/02_trelliscope_ggplot_2.jpg)
+**Here's the preprocessing effect.** 
 
-<p class='text-center date'>Our basic ggplot</p>
+Before preprocessing we have predictors like "contract" containing factors (categories) and unnecessary columns like "customer_id" that won't help us predict. 
+
+![](/assets/modeldown_05a_after.jpg)
+
+<p class='text-center date'>Before Preprocessing</p>
+
+And after preprocessing, our data changes into a format where predictors have been one-hot encoded and unnecessary columns have been removed. This format is much better for machine learning algorithms. 
+
+![](/assets/modeldown_05b_after.jpg)
+
+<p class='text-center date'>After Preprocessing</p>
+
+### Step 2B, Machine Learning with Tidymodels
+
+Next, let's create a Random Forest model (Machine Learning). Random Forest models are usually accurate but suffer from being **"Black Box"**, a term that simply means not easy to explain.  
+
+Run this code. 
+
+![](/assets/modeldown_06_random_forest.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+We now have a **model specification**. A common beginner mistake is thinking a model specification is a trained model. The model specification is NOT a trained model. Rather, it's a template to create a model. 
+
+We'll train the model next. 
+
+### Step 3B, Train the Model
+
+We have the two ingredients to train a model: A preprocessing recipe specification and a model specification. Next, we combine them and train them on the unprocessed dataset. 
+
+**Important:** I'm skipping some key steps like cross-validation for the sake of simplifying this tutorial. But, if you need to learn these key steps, then I will give you some free advice at the end of this tutorial. 
 
 ## Step 3: Apply the trelliscopejs magic!
 
