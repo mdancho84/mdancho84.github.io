@@ -101,17 +101,17 @@ We'll start by getting our data into a format that the models can handle. Run th
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-The preprocessing recipe is just **a template (often called a pipeline)** that takes incoming data and processes it into the "right" format for our models to learn from it. 
+The preprocessing recipe is just **a template (often called a pipeline)** that takes incoming data and processes it into the "right" format for our models to learn from it.
 
-### Here's the preprocessing effect. 
+### Here's the preprocessing effect.
 
-**Before preprocessing** we have predictors like "contract" containing factors (categories) and unnecessary columns like "customer_id" that won't help us predict. 
+**Before preprocessing** we have predictors like "contract" containing factors (categories) and unnecessary columns like "customer_id" that won't help us predict.
 
 ![](/assets/modeldown_05a_after.jpg)
 
 <p class='text-center date'>Before Preprocessing</p>
 
-**And after preprocessing**, our data changes into a format where predictors have been one-hot encoded and unnecessary columns have been removed. This format is much better for machine learning algorithms. 
+**And after preprocessing**, our data changes into a format where predictors have been one-hot encoded and unnecessary columns have been removed. This format is much better for machine learning algorithms.
 
 ![](/assets/modeldown_05b_after.jpg)
 
@@ -119,25 +119,57 @@ The preprocessing recipe is just **a template (often called a pipeline)** that t
 
 ### Step 2B, Machine Learning with Tidymodels
 
-Next, let's create a Random Forest model (Machine Learning). Random Forest models are usually accurate but suffer from being **"Black Box"**, a term that simply means not easy to explain.  
+Next, let's create a Random Forest model (Machine Learning). Random Forest models are usually accurate but suffer from being **"Black Box"**, a term that simply means not easy to explain.
 
-Run this code. 
+Run this code.
 
 ![](/assets/modeldown_06_random_forest.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-We now have a **model specification**. A common beginner mistake is thinking a model specification is a trained model. The model specification is NOT a trained model. Rather, it's a template to create a model. 
+We now have a **model specification**. A common beginner mistake is thinking a model specification is a trained model. The model specification is NOT a trained model. Rather, it's a template to create a model.
 
-We'll train the model next. 
+We'll train the model next.
 
 ### Step 2B, Train the Model
 
-We have the two ingredients to train a model: A preprocessing recipe specification and a model specification. Next, we combine them and train them on the unprocessed dataset. 
+We have the two ingredients to train a model: A preprocessing recipe specification and a model specification. Next, we combine them and train them on the unprocessed dataset.
 
-**Important:** I'm skipping some key steps like cross-validation for the sake of simplifying this tutorial. But, if you need to learn these key steps, then I will give you some free advice at the end of this tutorial. 
+**Important:** I'm skipping some key steps like cross-validation for the sake of simplifying this tutorial. But, if you need to learn these key steps, then I will give you some free advice at the end of this tutorial.
 
-Run this code to train the model. 
+Run this code to train the model.
+
+![](/assets/modeldown_07_workflow.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+We can test the fitted model by making some predictions. Run this code. 
+
+![](/assets/modeldown_08a_predict.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+Here's the result. A bunch of Yes/No's. **This is what we call "Class Predictions".** The algorithm is actually assigning "class" or category to the churn prediction. 
+
+![](/assets/modeldown_08a_predict_result.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+**Problem: the Explainable AI algorithm can't use Class Predictions.** It needs "Class Probabilities", or actual numeric values from 0 to 1 that indicate the algorithms estimate of being a Yes.
+
+Run this code to get class probabilities. 
+
+![](/assets/modeldown_08b_predict_proba.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+**Solution: the Explainable AI algorithm can use the Class Probabilities.** We now have values from 0-1 for Churn=Yes.
+
+Here's the result. Instead of Yes/Nos we get the algorithm's probability of churn being a yes or a no.  
+
+![](/assets/modeldown_08b_predict_proba_result.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 ## Step 3: Apply the trelliscopejs magic!
 
