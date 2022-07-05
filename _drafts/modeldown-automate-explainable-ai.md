@@ -91,9 +91,9 @@ We want to understand how customer churn data (Yes/No) depends on other factors 
 
 ## 💡 Step 2: Make a tidymodel
 
-Next, it's time to make a `tidymodel`. This can be a bit challenging for beginners (and even experienced R users, so at the end of this tutorial I'll give you some more help). 
+Next, it's time to make a `tidymodel`. This can be a bit challenging for beginners (and even experienced R users, so at the end of this tutorial I'll give you some more help).
 
-**If you are less experienced**, I recommend to just go with it (but then check out the guidance at the end of the training). I'll explain a lot about tidymodels through the process too. 
+**If you are less experienced**, I recommend to just go with it (but then check out the guidance at the end of the training). I'll explain a lot about tidymodels through the process too.
 
 ### Recipes: Feature Engineering and Preprocessing
 
@@ -135,7 +135,7 @@ We'll train the model next.
 
 ### Train the Model
 
-**We have the two ingredients to train a model:** A preprocessing recipe specification and a model specification. Next, we combine them and train them on the unprocessed dataset. 
+**We have the two ingredients to train a model:** A preprocessing recipe specification and a model specification. Next, we combine them and train them on the unprocessed dataset.
 
 **Key Concept: The Tidymodels Workflow.** Combining the model, recipe, and training is called creating a "tidymodels workflow". The tidymodels workflow is the object that can then be saved, loaded, and used to make predictions.
 
@@ -167,31 +167,39 @@ Here's the result. Instead of Yes/Nos we get the algorithm's probability of chur
 
 ![](/assets/modeldown_08b_predict_proba_result.jpg)
 
-OK, now that we have a way to get class probabilities, now we can make our "Black-Box" model explainable. Let's see how. 
+OK, now that we have a way to get class probabilities, now we can make our "Black-Box" model explainable. Let's see how.
 
 ## 💡 Step 3: Apply Explainable AI
 
-With a model in hand that predicts, we are now ready to explain the model. There's a trick you need to learn. 
+With a model in hand that predicts, we are now ready to explain the model. There's a trick you need to learn.
 
 ### The cheat-code for explainable AI
 
-Here's a quick hack to make your models explainable. We will use the `DALEX` package, but we need to **make a custom prediction function**, first. 
+Here's a quick hack to make your models explainable. We will use the `DALEX` package, but we need to **make a custom prediction function**, first.
 
-**A "custom prediction function"** is just a simple function that takes a model and data and retrieves the class probability predictions in the format that the DALEX package needs. 
+**A "custom prediction function"** is just a simple function that takes a model and data and retrieves the class probability predictions in the format that the DALEX package needs.
 
-Run this code to make a custom explainer function. 
+Run this code to make a custom explainer function.
 
 ![](/assets/modeldown_09_custom_explainer-1.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-**We can test our custom prediction function** using our trained `tidymodels` workflow. By running on the head (first 6 rows of our dataset), I can truncate to the first 6 predictions. Looks like it's working. 
+**We can test our custom prediction function** using our trained `tidymodels` workflow. By running on the head (first 6 rows of our dataset), I can truncate to the first 6 predictions. Looks like it's working.
 
 ![](/assets/modeldown_10_test_custom_explainer-1.jpg)
 
-### Explain ANY black-box model
+### Explain ANY black-box model with `DALEX`
 
-With the cheat code in hand (aka our custom explainer function), I can now use our custom explainer function to make 
+With the cheat code in hand (aka our custom prediction function), I can put all of the pieces together to make an explainer with an amazing R package called `DALEX`.
+
+**What is a DALEX explainer?** Think of it like the precursor to understanding your Black-Box model.  A "DALEX Explainer" is just an object that connects the model, data, prediction function, to a series of algorithms designed to interpret the model and develop explanations. 
+
+Run this code to make a DALEX Explainer. 
+
+![](/assets/modeldown_11_dalex_explainer.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 # BONUS: Understand the Explainable AI Visualizations!
 
