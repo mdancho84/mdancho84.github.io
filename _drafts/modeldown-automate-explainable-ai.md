@@ -175,17 +175,23 @@ With a model in hand that predicts, we are now ready to explain the model. There
 
 ### The cheat-code for explainable AI
 
-Here's a quick hack to make your models explainable. We will use the `DALEX` package, but we need to **make a custom explainer function**, first. 
+Here's a quick hack to make your models explainable. We will use the `DALEX` package, but we need to **make a custom prediction function**, first. 
 
-**A "custom explainer function"** is just a simple function that takes a model and data and retrieves the class probability predictions in the format that the DALEX package needs. 
+**A "custom prediction function"** is just a simple function that takes a model and data and retrieves the class probability predictions in the format that the DALEX package needs. 
 
 Run this code to make a custom explainer function. 
 
-![](/assets/modeldown_09_custom_explainer.jpg)
+![](/assets/modeldown_09_custom_explainer-1.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-We can test our custom explainer using our trained `tidymodels` workflow
+**We can test our custom prediction function** using our trained `tidymodels` workflow. By running on the head (first 6 rows of our dataset), I can truncate to the first 6 predictions. Looks like it's working. 
+
+![](/assets/modeldown_10_test_custom_explainer-1.jpg)
+
+### Explain ANY black-box model
+
+With the cheat code in hand (aka our custom explainer function), I can now use our custom explainer function to make 
 
 # BONUS: Understand the Explainable AI Visualizations!
 
