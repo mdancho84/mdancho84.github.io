@@ -225,7 +225,7 @@ Once you create a `DALEX` explainer, the beauty is that the ecosystem of [DrWhy 
 
 Run this code to create the automated `modelDown` website. 
 
-![](/assets/modeldown_13_modeldown_2.jpg)
+![](/assets/modeldown_13_modeldown.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
@@ -235,11 +235,57 @@ This creates a folder containing a deployable website with the automated explain
 
 <p class='text-center date'> The modelDown Explainable AI Website </p>
 
-# BONUS: Understand the Explainable AI Visualizations!
+# 💡 BONUS: Understand the Explainable AI Visualizations!
 
-# Recap
+**Here's the next problem you're going to face.** The Model Down website is great! BUT, you need to know how to interpret the findings (AND uncover business insights).
 
-We learned how to use the `trelliscopejs` library to not only create 100's of static ggplots _but_ create 100's of interactive plotly plots. Great work! **But, there's a lot more to becoming a data scientist.**
+I want to help. Here's how to interpret and find business insights. 
+
+### Step 1: The Variable (Feature) Importance Plot
+
+**First, head to the "Variable Importance" Tab.** You will find a plot called "Feature Importance". This is how we know which features to invest time into. 
+
+**Important: I ALWAYS use the Feature Importance Plot first.** This tells me which features I need to focus my time and attention on. 
+
+![](/assets/modeldown_14_var_imp_plot.jpg)
+
+<p class='text-center date'> Variable (Feature Importance) </p>
+
+**The feature importance plot** is quite simply a visualization that identifies the top features in your modelDown report. I can see that "contract" and "tenure" are my top 2 features. 
+
+### Step 2: The Variable Response Plots
+
+Now that we know WHICH features are important, I head over to the "Variable Response" tab. This is where I gain my Business Insights. 
+
+**Warning:** If you skip Step 1, you'll waste time investigating bad features. So make sure you do Step 1 first. 
+
+#### Business Insight #1: Contract Type
+
+From Step 1, I saw that "contract" was the most important. On the Variable Response Tab, I select "contract", which leads me to my first Business Insight. 
+
+![](/assets/modeldown_15_feature_contract.jpg)
+
+ <p class='text-center date'> Inspecting the Top Feature (Most Important) </p>
+
+I can quickly see that Month-to-Month contracts have increased churn probability according to my Random Forest Model. 
+
+**Business Insight #1:** To reduce churn, we could try giving customers incentivized offers to upgrade to longer-term contracts like one-year or two-year. 
+
+#### Business Insight #2: Tenure 
+
+In Step 1 above, I also saw that "tenure" was an important feature. On the Variable Response Tab, I select "tenure", and this leads me to my second Business Insight. 
+
+![](/assets/modeldown_16_feature_tenure.jpg)
+
+ <p class='text-center date'> Inspecting the 2nd Most Important Feature </p>
+
+I can see that when tenure is low (less than 6-months), that customers have a much higher churn probability according to my Random Forest Model. 
+
+**Business Insight #2:** To reduce churn, we could try rewarding customer loyalty to stay beyond 6-months (Example promotion: "_Try for 6-months and the 7th is on us!"_). 
+
+# 💡 Conclusions
+
+You learned how to use the `modelDown` library to not only automate an Explainable AI website report but you also learned how to use it to create 2 business insights. Great work! **But, there's a lot more to becoming a data scientist.**
 
 If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
@@ -255,9 +301,13 @@ Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed 
 
 ## Step 2: Take action
 
-For my action-takers, if you are ready to take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you'd like someone to help you do this in UNDER  6-MONTHS or less....
+For my action-takers, if you are ready to become a Business Scientist, then here's how. 
 
-Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
+If you need take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), AND you'd like someone to help you do this in UNDER  6-MONTHS or less....
+
+**Then I can help with that too.** 
+
+There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a **special price (because you are special!)** and taking that action will kickstart your journey with me in your corner.
 
 Get ready. The ride is wild. And the destination is AMAZING!
 
