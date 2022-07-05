@@ -93,7 +93,7 @@ We'll read in the Customer Churn data set that was used in the previous R-Tip on
 
 Next, it's time to make a `tidymodel`. This can be a bit challenging for beginners (and even experienced R users, so at the end of this tutorial I'll give you some more help). But just go with it until then...
 
-### Step 2A, Recipes: Feature Engineering and Preprocessing
+### Recipes: Feature Engineering and Preprocessing
 
 We'll start by getting our data into a format that the models can handle. Run this code to remove unnecessary columns "customer_id" and to one-hot encode any categorical predictors (e.g. "contract" and "gender").
 
@@ -117,7 +117,7 @@ The preprocessing recipe is just **a template (often called a pipeline)** that t
 
 <p class='text-center date'>After Preprocessing</p>
 
-### Step 2B, Machine Learning with Tidymodels
+### Machine Learning with Tidymodels
 
 Next, let's create a Random Forest model (Machine Learning). Random Forest models are usually accurate but suffer from being **"Black Box"**, a term that simply means not easy to explain.
 
@@ -131,7 +131,7 @@ We now have a **model specification**. A common beginner mistake is thinking a m
 
 We'll train the model next.
 
-### Step 2C, Train the Model
+### Train the Model
 
 We have the two ingredients to train a model: A preprocessing recipe specification and a model specification. Next, we combine them and train them on the unprocessed dataset.
 
@@ -163,36 +163,11 @@ Here's the result. Instead of Yes/Nos we get the algorithm's probability of chur
 
 ![](/assets/modeldown_08b_predict_proba_result.jpg)
 
-## Step 3: Apply the trelliscopejs magic!
+OK, now that we have a way to get class probabilities, now we can make our "Black-Box" model explainable. Let's see how. 
 
-Listen, I'm telling you this next part is straight-up magic!
+## Step 3: Apply Explainable AI
 
-Seriously, I now use this simple trick to analyze 100+ ggplots at once.
-
-* Use the `facet_trelliscope()` function
-* This replaces a `facet_wrap()` or `facetgrid()`
-* And makes 100's of ggplots (as many as your heart desires)
-* In this case, we facet by `manufacturer` and end up with 15 plots to analyze.
-
-![](/assets/03_trelliscopejs_facets.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-The result is the trelliscope plot with 15 ggplots by manufacturer.
-
-![](/assets/03_trelliscopejs_facets_2.jpg)
-
-<p class='text-center date'>We've transformed our ggplot into a faceted trelliscope with 15 plots by manufacturer</p>
-
-## Step 4: Customize the Trelliscopejs
-
-This is really cool!! You can add additional labels like max/min displacement by plot.
-
-![](/assets/04_trelliscope_labels-1.jpg)
-
-<p class='text-center date'>Customize the trelliscope with labels & filters</p>
-
-# BONUS: Make your trelliscope interactive!!!
+# BONUS: Understand the Explainable AI Visualizations!
 
 If you thought you were done...
 
