@@ -155,7 +155,11 @@ Here's the result. A bunch of Yes/No's. **This is what we call "Class Prediction
 
 ![](/assets/modeldown_08a_predict_result.jpg)
 
+### Avoid THIS big mistake (the class probability trick)
+
 **Problem: the Explainable AI algorithm can't use Class Predictions.** It needs "Class Probabilities", or actual numeric values from 0 to 1 that indicate the algorithms estimate of being a Yes.
+
+**THIS was a big mistake that cost me about an hour of headache** when making this tutorial for you. So hopefully showing you the **"Class Probability Trick"** helps save you some time. 
 
 Run this code to get class probabilities.
 
@@ -200,6 +204,17 @@ Run this code to make a DALEX Explainer.
 ![](/assets/modeldown_11_dalex_explainer.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+### Don't forget to check your explainer
+
+**Here's how to check your explainer was set up correctly.** This is a good way to check that you're explainer is set up correctly. Look at the DALEX explainer output. 
+
+
+![](/assets/modeldown_12_dalex_explainer_output.jpg)
+
+We can see from the output that the explainer has been initialized and that several calculations have completed including making predicted values and residuals. 
+
+**Important: If the explainer is not set up correctly, you'll get warnings in this stage.** When creating this tutorial (before fixing my prediction function), I had a bunch of warnings indicating my residuals weren't calculated. I just had to go back and change my custom prediction function to set up class probabilities (shown in Step 2 above).
 
 # BONUS: Understand the Explainable AI Visualizations!
 
