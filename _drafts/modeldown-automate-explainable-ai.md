@@ -103,15 +103,15 @@ We'll start by getting our data into a format that the models can handle. Run th
 
 The preprocessing recipe is just **a template (often called a pipeline)** that takes incoming data and processes it into the "right" format for our models to learn from it. 
 
-**Here's the preprocessing effect.** 
+### Here's the preprocessing effect. 
 
-Before preprocessing we have predictors like "contract" containing factors (categories) and unnecessary columns like "customer_id" that won't help us predict. 
+**Before preprocessing** we have predictors like "contract" containing factors (categories) and unnecessary columns like "customer_id" that won't help us predict. 
 
 ![](/assets/modeldown_05a_after.jpg)
 
 <p class='text-center date'>Before Preprocessing</p>
 
-And after preprocessing, our data changes into a format where predictors have been one-hot encoded and unnecessary columns have been removed. This format is much better for machine learning algorithms. 
+**And after preprocessing**, our data changes into a format where predictors have been one-hot encoded and unnecessary columns have been removed. This format is much better for machine learning algorithms. 
 
 ![](/assets/modeldown_05b_after.jpg)
 
@@ -131,11 +131,13 @@ We now have a **model specification**. A common beginner mistake is thinking a m
 
 We'll train the model next. 
 
-### Step 3B, Train the Model
+### Step 2B, Train the Model
 
 We have the two ingredients to train a model: A preprocessing recipe specification and a model specification. Next, we combine them and train them on the unprocessed dataset. 
 
 **Important:** I'm skipping some key steps like cross-validation for the sake of simplifying this tutorial. But, if you need to learn these key steps, then I will give you some free advice at the end of this tutorial. 
+
+Run this code to train the model. 
 
 ## Step 3: Apply the trelliscopejs magic!
 
