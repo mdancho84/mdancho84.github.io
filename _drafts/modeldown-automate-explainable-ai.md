@@ -107,7 +107,7 @@ The preprocessing recipe is just **a template (often called a pipeline)** that t
 
 **Before preprocessing** we have predictors like "contract" containing factors (categories) and unnecessary columns like "customer_id" that won't help us predict.
 
-![](/assets/modeldown_05a_after.jpg)
+![](/assets/modeldown_05a_before.jpg)
 
 <p class='text-center date'>Before Preprocessing</p>
 
@@ -123,7 +123,7 @@ Next, let's create a Random Forest model (Machine Learning). Random Forest model
 
 Run this code.
 
-![](/assets/modeldown_06_random_forest.jpg)
+![](/assets/modeldown_06_random_forest-1.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
@@ -143,13 +143,13 @@ Run this code to train the model.
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-We can test the fitted model by making some predictions. Run this code. 
+We can test the fitted model by making some predictions. Run this code.
 
 ![](/assets/modeldown_08a_predict.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-Here's the result. A bunch of Yes/No's. **This is what we call "Class Predictions".** The algorithm is actually assigning "class" or category to the churn prediction. 
+Here's the result. A bunch of Yes/No's. **This is what we call "Class Predictions".** The algorithm is actually assigning "class" or category to the churn prediction.
 
 ![](/assets/modeldown_08a_predict_result.jpg)
 
@@ -157,7 +157,7 @@ Here's the result. A bunch of Yes/No's. **This is what we call "Class Prediction
 
 **Problem: the Explainable AI algorithm can't use Class Predictions.** It needs "Class Probabilities", or actual numeric values from 0 to 1 that indicate the algorithms estimate of being a Yes.
 
-Run this code to get class probabilities. 
+Run this code to get class probabilities.
 
 ![](/assets/modeldown_08b_predict_proba.jpg)
 
@@ -165,7 +165,7 @@ Run this code to get class probabilities.
 
 **Solution: the Explainable AI algorithm can use the Class Probabilities.** We now have values from 0-1 for Churn=Yes.
 
-Here's the result. Instead of Yes/Nos we get the algorithm's probability of churn being a yes or a no.  
+Here's the result. Instead of Yes/Nos we get the algorithm's probability of churn being a yes or a no.
 
 ![](/assets/modeldown_08b_predict_proba_result.jpg)
 
