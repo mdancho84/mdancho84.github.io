@@ -7,22 +7,23 @@ tags:
 - R-Bloggers
 - Learn-R
 - R
-title: 'modelDown: Automate Explainable Machine Learning Reports'
+title: 'modelDown: Automate Explainable AI (Machine Learning) in R'
 date: 2022-03-30T10:00:00.000-04:00
-excerpt: Big data? Lot's of time series? Traditionally you'd use ggplot facets. But
-  that only works for a few datasets. Enter trelliscopejs. It's a game changer!
-image: "/assets/trelliscopejs_thumb.jpg"
-image_preview: "/assets/trelliscopejs_thumb.jpg"
+excerpt: 'Machine learning is great... until you have to explain it. Stakeholders
+  are normally non-technical, C-suites that ultimately want to know what the model
+  does for the business. And how it helps increase revenue or decrease costs. A new
+  R package, modelDown can help. '
+image: "/assets/modeldown_report_1.jpg"
+image_preview: "/assets/modeldown_report_1.jpg"
 
 ---
-**Visualizing big data is next to impossible.** As soon as I have 12 plots, that's where my ability to use native ggplot suffers. That is until I found `trelliscopejs`. 
+**Machine learning is great... until you have to explain it.** Stakeholders are normally non-technical, C-suites that ultimately want to know what the model does for the business. And how it helps increase revenue or decrease costs. A new R package, `modelDown` can help.
 
-`trelliscopejs` is like `ggplot2` faceting on steroids. This may seem crazy, but the benefit is that when you have 20, 30, or even 100+ plots you need to analyze, `trelliscopejs` is the solution! 
+In this R-tip, I'm going to show you how to unlock MASSIVE BUSINESS VALUE with `modelDown` in **under 5-minutes:**
 
-And, I'm going to get you up and running with `trelliscopejs` in **under 5-minutes:**
-
-1. I'll teach you how to make 20+ ggplot facets using trelliscopejs
-2. **BONUS: I'll not only show you how to make static ggplots, _but_ I'll even show you how to use the plotly integration for interactivity**
+1. Learn how to **make machine learning models** with `tidymodels`
+2. **Unlock the cheat-code** to making ANY machine learning model explainable 
+3. **BONUS:** Learn how to read the Automated Explainable AI Report that you create **(so you can explain the ML model to ANYONE!)**
 
 # R-Tips Weekly
 
@@ -34,27 +35,31 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 # Video Tutorial
 
-Learn how to use the `trelliscopejs` package in my 5-minute YouTube video tutorial.
+I have a companion video tutorial that shows even more secrets (plus mistakes to avoid). 
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/x6GL9Y3t2Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/pZ3vqzaE7lk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # What you make in this R-Tip
 
-By the end of this tutorial, you'll make the **20+ ggplots** for exposing insights in your big data.
+By the end of this tutorial, you'll make a full explainable AI report that helps you explain business insights to executives, managers, non-technical business people, and even your parents (_"Hey Dad, this is why customers are churning!"_). OK, maybe not your parents, but definitely C-suite executives. 
 
-![](/assets/trelliscopejs_thumb.jpg)
+![](/assets/modeldown_report_2.jpg)
 
-<p class="text-center date">Analyzing 20+ ggplots (made with <code>trelliscopejs</code>)</p>
+<p class="text-center date">Uncover business insights by automating explainable AI</p>
 
 # Thank You Developers.
 
-Before we move on, please recognize that `trelliscopejs` was developed by [Ryan Hafen](https://twitter.com/hafenstats) (follow Ryan on Twitter). Thank you for everything you do!
+Before we move on, please recognize that `modelDown` was developed by Przemyslaw Biecek, Magda Tatarynowicz, Kamil Romaszko, and Mateusz Urbanski. Thank you for everything you do!
 
-Also, the full documentation for trelliscopejs can be [accessed here](https://hafen.github.io/trelliscopejs/). 
+Also, the full documentation for `modelDown` can be [accessed here](https://modeloriented.github.io/modelDown/).
 
-# `trelliscopejs` Tutorial
+# `modelDown` Tutorial
 
-Let's dive into using `trelliscopejs` so we can **analyze 100+ ggplots**. 
+Let's dive into using `modelDown` so we can **automate explainable AI**. All of the code shown can be accessed through our [**R-Tips Project**](https://learn.business-science.io/r-tips-newsletter). 
+
+**Warning:** This is an advanced tutorial that will depend on knowledge of `tidymodels`. And, it may be uncomfortable if you are a complete beginner. BUT, I'll explain how you can learn R, tidymodels, and data science from scratch at the end of this tutorial. 
+
+Plus I have a **surprise** at the end!
 
 ## Step 1: Load the Libraries and Data
 
@@ -67,7 +72,7 @@ First, run this code to:
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-Our data looks like this. We want to understand how Highway Fuel Economy (`hwy`) varies with `displ` (engine size) but we want to see if there is any differences between `manufacturers`. 
+Our data looks like this. We want to understand how Highway Fuel Economy (`hwy`) varies with `displ` (engine size) but we want to see if there is any differences between `manufacturers`.
 
 ![](/assets/01_trelliscope_data.jpg)
 
@@ -83,7 +88,7 @@ Next, let's make a basic ggplot of fuel economy vs engine displacement.
 
 This produces the following plot of `hwy` vs `displ`.
 
-![](/assets/02_trelliscope_ggplot_2.jpg) 
+![](/assets/02_trelliscope_ggplot_2.jpg)
 
 <p class='text-center date'>Our basic ggplot</p>
 
@@ -91,7 +96,7 @@ This produces the following plot of `hwy` vs `displ`.
 
 Listen, I'm telling you this next part is straight-up magic!
 
-Seriously, I now use this simple trick to analyze 100+ ggplots at once. 
+Seriously, I now use this simple trick to analyze 100+ ggplots at once.
 
 * Use the `facet_trelliscope()` function
 * This replaces a `facet_wrap()` or `facetgrid()`
@@ -104,13 +109,13 @@ Seriously, I now use this simple trick to analyze 100+ ggplots at once.
 
 The result is the trelliscope plot with 15 ggplots by manufacturer.
 
-![](/assets/03_trelliscopejs_facets_2.jpg) 
+![](/assets/03_trelliscopejs_facets_2.jpg)
 
 <p class='text-center date'>We've transformed our ggplot into a faceted trelliscope with 15 plots by manufacturer</p>
 
 ## Step 4: Customize the Trelliscopejs
 
-This is really cool!! You can add additional labels like max/min displacement by plot. 
+This is really cool!! You can add additional labels like max/min displacement by plot.
 
 ![](/assets/04_trelliscope_labels-1.jpg)
 
@@ -124,7 +129,7 @@ We're just gettin' started!
 
 THIS is the magic of trelliscope!!
 
-* Add interactivity with the Plotly integration inside of `facet_trelliscope()`. 
+* Add interactivity with the Plotly integration inside of `facet_trelliscope()`.
 * Simply add `as_plotly = TRUE`
 
 ![](/assets/05_trelliscope_bonus_code.jpg)
@@ -133,7 +138,7 @@ THIS is the magic of trelliscope!!
 
 Check out the interactivity from plotly!!
 
-![](/assets/05_trelliscope_bonus.gif) 
+![](/assets/05_trelliscope_bonus.gif)
 
 <p class='text-center date'>Interactivity with the plotly-trelliscopejs integration</p>
 
