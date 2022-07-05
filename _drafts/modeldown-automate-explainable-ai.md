@@ -63,7 +63,7 @@ Let's dive into using `modelDown` so we can **automate explainable AI**.
 
 Plus I have a **surprise** at the end (for everyone)!
 
-## Step 1: Load the Libraries and Data
+## 💡 Step 1: Load the Libraries and Data
 
 ### First, run this code to **load the R libraries:**
 
@@ -81,17 +81,19 @@ We'll read in the Customer Churn data set that was used in the previous R-Tip on
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the Data.</a> </p>
 
-**Our data looks like this.**
+[**Our data**](https://learn.business-science.io/r-tips-newsletter) looks like this.
 
 ![](/assets/modeldown_03_churn_data.jpg)
 
 <p class='text-center date'>The customer churn dataset</p>
 
-[We want to understand how customer churn data (Yes/No) depends on other factors](https://learn.business-science.io/r-tips-newsletter) like how long they have been a customer and what type of subscription plan they have (monthly, one-year, two-year).
+We want to understand how customer churn data (Yes/No) depends on other factors like how long they have been a customer and what type of subscription plan they have (monthly, one-year, two-year).
 
-## Step 2: Make a tidymodel
+## 💡 Step 2: Make a tidymodel
 
-Next, it's time to make a `tidymodel`. This can be a bit challenging for beginners (and even experienced R users, so at the end of this tutorial I'll give you some more help). But just go with it until then...
+Next, it's time to make a `tidymodel`. This can be a bit challenging for beginners (and even experienced R users, so at the end of this tutorial I'll give you some more help). 
+
+**If you are less experienced**, I recommend to just go with it (but then check out the guidance at the end of the training). I'll explain a lot about tidymodels through the process too. 
 
 ### Recipes: Feature Engineering and Preprocessing
 
@@ -133,7 +135,9 @@ We'll train the model next.
 
 ### Train the Model
 
-We have the two ingredients to train a model: A preprocessing recipe specification and a model specification. Next, we combine them and train them on the unprocessed dataset.
+**We have the two ingredients to train a model:** A preprocessing recipe specification and a model specification. Next, we combine them and train them on the unprocessed dataset. 
+
+**Key Concept: The Tidymodels Workflow.** Combining the model, recipe, and training is called creating a "tidymodels workflow". The tidymodels workflow is the object that can then be saved, loaded, and used to make predictions.
 
 **Important:** I'm skipping some key steps like cross-validation for the sake of simplifying this tutorial. But, if you need to learn these key steps, then I will give you some free advice at the end of this tutorial.
 
@@ -165,7 +169,23 @@ Here's the result. Instead of Yes/Nos we get the algorithm's probability of chur
 
 OK, now that we have a way to get class probabilities, now we can make our "Black-Box" model explainable. Let's see how. 
 
-## Step 3: Apply Explainable AI
+## 💡 Step 3: Apply Explainable AI
+
+With a model in hand that predicts, we are now ready to explain the model. There's a trick you need to learn. 
+
+### The cheat-code for explainable AI
+
+Here's a quick hack to make your models explainable. We will use the `DALEX` package, but we need to **make a custom explainer function**, first. 
+
+**A "custom explainer function"** is just a simple function that takes a model and data and retrieves the class probability predictions in the format that the DALEX package needs. 
+
+Run this code to make a custom explainer function. 
+
+![](/assets/modeldown_09_custom_explainer.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+We can test our custom explainer using our trained `tidymodels` workflow
 
 # BONUS: Understand the Explainable AI Visualizations!
 
