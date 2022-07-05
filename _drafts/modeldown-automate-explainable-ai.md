@@ -17,9 +17,9 @@ image: "/assets/modeldown_report_1.jpg"
 image_preview: "/assets/modeldown_report_1.jpg"
 
 ---
-**Machine learning is great... until you have to explain it.** Stakeholders are normally non-technical, C-suites that ultimately want to know what the model does for the business. And how it helps increase revenue or decrease costs. A new R package, `modelDown` can help.
+**Machine learning is great... until you have to explain it.** Stakeholders are normally non-technical, C-suites that ultimately want to know what the model does for the business. And how it helps increase revenue or decrease costs. A new R package, `modelDown` can help. And, I want to teach you how to extract that precious business value that company's crave.
 
-In this R-tip, I'm going to show you how to unlock MASSIVE BUSINESS VALUE with `modelDown` in **under 5-minutes:**
+In this R-tip, I'm going to show you how to unlock _massive business value_ with `modelDown` in **under 5-minutes:**
 
 1. Learn how to **make machine learning models** with `tidymodels`
 2. **Unlock the cheat-code** to making ANY machine learning model explainable
@@ -31,7 +31,7 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 <p>Here are the links to get set up. 👇</p>
 
-<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/x6GL9Y3t2Uo">YouTube Tutorial</a></li> </ul>
+<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/pZ3vqzaE7lk">YouTube Tutorial</a></li> </ul>
 
 # Video Tutorial
 
@@ -87,7 +87,7 @@ We'll read in the Customer Churn data set that was used in the previous R-Tip on
 
 <p class='text-center date'>The customer churn dataset</p>
 
-[We want to understand how customer churn (Yes/No) depends on other factors](https://learn.business-science.io/r-tips-newsletter) like how long they have been a customer and what type of subscription plan they have (monthly, one-year, two-year).
+[We want to understand how customer churn data (Yes/No) depends on other factors](https://learn.business-science.io/r-tips-newsletter) like how long they have been a customer and what type of subscription plan they have (monthly, one-year, two-year).
 
 ## Step 2: Make a tidymodel
 
