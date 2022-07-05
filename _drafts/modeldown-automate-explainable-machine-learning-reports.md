@@ -55,28 +55,39 @@ Also, the full documentation for `modelDown` can be [accessed here](https://mode
 
 # `modelDown` Tutorial
 
-Let's dive into using `modelDown` so we can **automate explainable AI**. All of the code shown can be accessed through our [**R-Tips Project**](https://learn.business-science.io/r-tips-newsletter). 
+Let's dive into using `modelDown` so we can **automate explainable AI**. 
 
-**Warning:** This is an advanced tutorial that will depend on knowledge of `tidymodels`. And, it may be uncomfortable if you are a complete beginner. BUT, I'll explain how you can learn R, tidymodels, and data science from scratch at the end of this tutorial. 
+**Important:** All of the data and code shown can be accessed through our Business Science [**R-Tips Project**](https://learn.business-science.io/r-tips-newsletter). 
 
-Plus I have a **surprise** at the end!
+**Warning:** This is an advanced tutorial that will depend on knowledge of `tidymodels`. And, it may be uncomfortable if you are a _complete beginner_. BUT, I'll explain how you can learn R, tidymodels, and data science for business from scratch at the end of this tutorial. 
+
+Plus I have a **surprise** at the end (for everyone)!
 
 ## Step 1: Load the Libraries and Data
 
-First, run this code to:
+### First, run this code to **load the R libraries:** 
 
-1. **Load Libraries:** Load `tidyverse` , `plotly`, and `trelliscopejs`.
-2. **Import Data:** We're using the `mpg` dataset that comes with `ggplot2`.
+Load `tidyverse` , `janitor`,  `tidymodels`, `DALEX` and `modelDown`. I'll explain the importance of each of these R packages as we use them. 
 
-![](/assets/00_trelliscope_libraries.jpg)
+![](/assets/modeldown_01_libraries.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-Our data looks like this. We want to understand how Highway Fuel Economy (`hwy`) varies with `displ` (engine size) but we want to see if there is any differences between `manufacturers`.
+### Next, run this code to **pull in the data**. 
 
-![](/assets/01_trelliscope_data.jpg)
+We'll read in the Customer Churn data set that was used in the previous R-Tip on Survival Analysis. 
 
-<p class='text-center date'>The mpg dataset</p>
+![](/assets/modeldown_02_data.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the Data.</a> </p>
+
+**Our data looks like this.** 
+
+![](/assets/modeldown_03_churn_data.jpg)
+
+<p class='text-center date'>The customer churn dataset</p>
+
+[We want to understand how customer churn (Yes/No) depends on other factors](https://learn.business-science.io/r-tips-newsletter) like how long they have been a customer and what type of subscription plan they have (monthly, one-year, two-year).
 
 ## Step 2: Make a ggplot
 
