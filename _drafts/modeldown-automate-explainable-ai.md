@@ -159,7 +159,7 @@ Here's the result. A bunch of Yes/No's. **This is what we call "Class Prediction
 
 **Problem: the Explainable AI algorithm can't use Class Predictions.** It needs "Class Probabilities", or actual numeric values from 0 to 1 that indicate the algorithms estimate of being a Yes.
 
-**THIS was a big mistake that cost me about an hour of headache** when making this tutorial for you. So hopefully showing you the **"Class Probability Trick"** helps save you some time. 
+**THIS was a big mistake that cost me about an hour of headache** when making this tutorial for you. So hopefully showing you the **"Class Probability Trick"** helps save you some time.
 
 Run this code to get class probabilities.
 
@@ -197,45 +197,43 @@ Run this code to make a custom explainer function.
 
 With the cheat code in hand (aka our custom prediction function), I can put all of the pieces together to make an explainer with an amazing R package called `DALEX`.
 
-**What is a DALEX explainer?** Think of it like the precursor to understanding your Black-Box model.  A "DALEX Explainer" is just an object that connects the model, data, prediction function, to a series of algorithms designed to interpret the model and develop explanations. 
+**What is a DALEX explainer?** Think of it like the precursor to understanding your Black-Box model.  A "DALEX Explainer" is just an object that connects the model, data, prediction function, to a series of algorithms designed to interpret the model and develop explanations.
 
-Run this code to make a DALEX Explainer. 
+Run this code to make a DALEX Explainer.
 
 ![](/assets/modeldown_11_dalex_explainer.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-### Don't forget to check your explainer
+### BIG Mistake: Don't forget to check your explainer
 
-**Here's how to check your explainer was set up correctly.** This is a good way to check that you're explainer is set up correctly. Look at the DALEX explainer output. 
-
+**Here's how to check your explainer was set up correctly.** Look at the DALEX explainer output.
 
 ![](/assets/modeldown_12_dalex_explainer_output.jpg)
 
-We can see from the output that the explainer has been initialized and that several calculations have completed including making predicted values and residuals. 
+I can see from the output that the explainer has been "initialized" and that several calculations have completed including making predicted values and residuals.
 
-**Important: If the explainer is not set up correctly, you'll get warnings in this stage.** When creating this tutorial (before fixing my prediction function), I had a bunch of warnings indicating my residuals weren't calculated. I just had to go back and change my custom prediction function to set up class probabilities (shown in Step 2 above).
+**Important: If the explainer is not set up correctly, you'll get _warnings_ in this stage.** When creating this tutorial (before fixing my prediction function), I had a bunch of warnings indicating my residuals weren't calculated. I just had to go back and change my custom prediction function to set up class probabilities (shown in Step 2 above).
 
-# BONUS: Understand the Explainable AI Visualizations!
+### Create the Automated `modelDown` Website
 
-If you thought you were done...
+Once you create a `DALEX` explainer, the beauty is that the ecosystem of [DrWhy Explainable AI packages can all use DALEX explainers](https://modeloriented.github.io/DrWhy/). Here's a snapshot of the DrWhy DALEXverse. 
 
-We're just gettin' started!
+![](/assets/dalexverse.png)
 
-THIS is the magic of trelliscope!!
+<p class='text-center date'> The DALEXverse </p>
 
-* Add interactivity with the Plotly integration inside of `facet_trelliscope()`.
-* Simply add `as_plotly = TRUE`
+Run this code to create the automated `modelDown` website. 
 
-![](/assets/05_trelliscope_bonus_code.jpg)
+![](/assets/modeldown_13_modeldown_2.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-Check out the interactivity from plotly!!
+This creates a folder containing a deployable website with the automated explainable model report. 
 
-![](/assets/05_trelliscope_bonus.gif)
+![](/assets/modeldown_report_1.jpg)
 
-<p class='text-center date'>Interactivity with the plotly-trelliscopejs integration</p>
+# BONUS: Understand the Explainable AI Visualizations!
 
 # Recap
 
