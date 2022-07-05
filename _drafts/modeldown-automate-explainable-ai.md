@@ -131,7 +131,7 @@ We now have a **model specification**. A common beginner mistake is thinking a m
 
 We'll train the model next.
 
-### Step 2B, Train the Model
+### Step 2C, Train the Model
 
 We have the two ingredients to train a model: A preprocessing recipe specification and a model specification. Next, we combine them and train them on the unprocessed dataset.
 
@@ -155,7 +155,7 @@ Here's the result. A bunch of Yes/No's. **This is what we call "Class Prediction
 
 Run this code to get class probabilities.
 
-![](/assets/modeldown_08b_predict_proba.jpg)
+![](/assets/modeldown_08b_predict_proba_2.jpg)
 
 **Solution: the Explainable AI algorithm can use the Class Probabilities.** We now have values from 0-1 for Churn=Yes.
 
