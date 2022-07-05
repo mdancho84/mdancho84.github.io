@@ -233,6 +233,8 @@ This creates a folder containing a deployable website with the automated explain
 
 ![](/assets/modeldown_report_1.jpg)
 
+<p class='text-center date'> The modelDown Explainable AI Website </p>
+
 # BONUS: Understand the Explainable AI Visualizations!
 
 # Recap
