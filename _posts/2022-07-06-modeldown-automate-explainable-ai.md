@@ -285,9 +285,9 @@ I can see that when tenure is low (less than 6-months), that customers have a mu
 
 # 💡 Conclusions
 
-You learned how to use the `modelDown` library to not only automate an Explainable AI website report but you also learned how to use it to create 2 business insights. Great work! **But, there's a lot more to becoming a data scientist.**
+You learned how to use the `modelDown` library to not only automate an Explainable AI website report but you also learned how to use it to create 2 business insights. Great work! **But, there's a lot more to becoming a Business Scientist.**
 
-If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
+If you'd like to become a Business Scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
 ## Step 1: Watch my Free 40-Minute Webinar
 
@@ -306,6 +306,8 @@ For my action-takers, if you are ready to become a Business Scientist, then read
 If you need take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), AND you'd like someone to help you do this in UNDER  6-MONTHS or less....
 
 **Then I can help with that too.**
+
+## Surprise! 
 
 There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a **special price (because you are special!)** and taking that action will kickstart your journey with me in your corner.
 
