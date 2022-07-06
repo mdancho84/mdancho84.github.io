@@ -17,7 +17,7 @@ image: "/assets/modeldown_report_1.jpg"
 image_preview: "/assets/modeldown_report_1.jpg"
 
 ---
-**Machine learning is great... until you have to explain it.** Stakeholders are normally non-technical, C-suites that ultimately want to know what the model does for the business. And how it helps increase revenue or decrease costs. A new R package, `modelDown` can help. And, I want to teach you how to extract that precious business value that company's crave.
+**Machine learning is great... until you have to explain it.** Stakeholders are normally non-technical, C-suites that ultimately want to know what the model does for the business. And how it helps increase revenue or decrease costs. A new R package, `modelDown` can help. And, I want to teach you how to extract that precious business value that companies crave.
 
 In this R-tip, I'm going to show you how to unlock _massive business value_ with `modelDown` in **under 5-minutes:**
 
