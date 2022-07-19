@@ -20,7 +20,7 @@ Data Science is the perfect field for those who are naturally curious and aspire
 
 <img src="/assets/2020-05-26-student-landed-vp-analytics-role/jennifer-avatar.jpg" class="img-responsive img-circle pull-left" style="margin-right:10px; max-width: 180px;" />
 
-_"Thanks to Matt and what I've learned so far, I was able do do an in-depth analysis of Consumer Financial Protection Bureau (CFPB) data, following his Business Science Problem Framework and complete the project using RMarkdown. The polished, finished product impressed the hiring manager so much, he was willing to fast-track an offer."_
+_"Thanks to Matt and what I've learned so far, I was able to do an in-depth analysis of Consumer Financial Protection Bureau (CFPB) data, following his Business Science Problem Framework and complete the project using RMarkdown. The polished, finished product impressed the hiring manager so much, he was willing to fast-track an offer."_
 
 -Jennifer Cooper, VP Strategic Analytics
 
