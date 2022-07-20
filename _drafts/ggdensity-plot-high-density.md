@@ -9,10 +9,9 @@ tags:
 - R
 title: 'ggdensity: A new R package for plotting high-density regions'
 date: 2022-07-21 06:00:00 -0400
-excerpt: 'Machine learning is great... until you have to explain it. Stakeholders
-  are normally non-technical, C-suites that ultimately want to know what the model
-  does for the business. And how it helps increase revenue or decrease costs. A new
-  R package, modelDown can help. '
+excerpt: 'As data scientists, it can be downright impossible to drill into messy data.
+  Fortunately, there''s a new R package that helps us focus on a "high-density region".
+  It''s called ggdensity. '
 image: "/assets/ggdensity_thumb_2.jpg"
 image_preview: "/assets/ggdensity_thumb_2.jpg"
 
