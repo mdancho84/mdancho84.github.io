@@ -25,9 +25,8 @@ image_preview: "/assets/ggdensity_thumb_2.jpg"
 
 In this R-tip, I'm going to show you how to hone in on high-density regions **under 5-minutes:**
 
-1. Learn how to **make machine learning models** with `tidymodels`
-2. **Unlock the cheat-code** to making ANY machine learning model explainable
-3. **BONUS:** Learn how to read the Automated Explainable AI Report that you create **(so you can explain the ML model to ANYONE!)**
+1. Learn how to **make high-density scatter plots** with `ggdensity`
+2. **BONUS:** Make faceted density plots to drill into over-plotted data
 
 # R-Tips Weekly
 
@@ -35,31 +34,31 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 <p>Here are the links to get set up. 👇</p>
 
-<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/pZ3vqzaE7lk">YouTube Tutorial</a></li> </ul>
+<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/jniFFhY41Mk">YouTube Tutorial</a></li> </ul>
 
 # Video Tutorial
 
 I have a companion video tutorial that shows even more secrets (plus mistakes to avoid).
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/pZ3vqzaE7lk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/jniFFhY41Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # What you make in this R-Tip
 
-By the end of this tutorial, you'll make a full explainable AI report that helps you explain business insights to executives, managers, non-technical business people, and even your parents (_"Hey Dad, this is why customers are churning!"_). OK, maybe not your parents, but definitely C-suite executives.
+By the end of this tutorial, you'll use of high density regions to make insights from groups within your data. For example, here we can see where each  Class of Vehicle compares in terms of displacement and highway fuel economy. 
 
-![](/assets/modeldown_report_2.jpg)
+![](/assets/ggdensity_facet_hdr.jpg)
 
-<p class="text-center date">Uncover business insights by automating explainable AI</p>
+<p class="text-center date">Uncover insights with ggdensity</p>
 
 # Thank You Developers.
 
-Before we move on, please recognize that `modelDown` was developed by Przemyslaw Biecek, Magda Tatarynowicz, Kamil Romaszko, and Mateusz Urbanski. Thank you for everything you do!
+Before we move on, please recognize that `ggdensity` was developed by [James Otto](https://github.com/jamesotto852), Doctoral Candidate at the Department of Statistical Science, Baylor University. Thank you for everything you do!
 
-Also, the full documentation for `modelDown` can be [accessed here](https://modeloriented.github.io/modelDown/).
+Also, the full documentation for `ggdensity` can be [accessed here](https://jamesotto852.github.io/ggdensity/).
 
-# `modelDown` Tutorial
+# `ggdensity` Tutorial
 
-Let's dive into using `modelDown` so we can **automate explainable AI**.
+Let's dive into using `ggdensity` so we can **automate explainable AI**.
 
 **Important:** All of the data and code shown can be accessed through our Business Science [**R-Tips Project**](https://learn.business-science.io/r-tips-newsletter).
 
