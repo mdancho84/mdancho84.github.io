@@ -17,20 +17,20 @@ image: "/assets/ggdensity_thumb_2.jpg"
 image_preview: "/assets/ggdensity_thumb_2.jpg"
 
 ---
-**As data scientists, it can be downright impossible to drill into messy data.** Fortunately, there's a new R package that helps us focus on a _"high-density region"_, which is simply an area defined by a percentage of the data points. It's called `ggdensity`.
+**As data scientists, it can be downright impossible to drill into messy data.** Fortunately, there's a new R package that helps us focus on a _"high-density region"_, which is simply an area in a scatter plot defined by a high percentage of the data points. It's called `ggdensity`. 
 
 ![](/assets/ggdensity_thumb_3.jpg)
 
-<p class="text-center date">High Density Region</p>
+<p class="text-center date">High Density Regions on a Scatter Plot</p>
 
 In this R-tip, I'm going to show you how to hone in on high-density regions **under 5-minutes:**
 
 1. Learn how to **make high-density scatter plots** with `ggdensity`
-2. **BONUS:** Make faceted density plots to drill into over-plotted data
+2. **BONUS:** Make faceted density plots to drill into over-plotted high-density region data
 
 # R-Tips Weekly
 
-This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks. Pretty cool, right?
 
 <p>Here are the links to get set up. 👇</p>
 
@@ -40,11 +40,17 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 I have a companion video tutorial that shows even more secrets (plus mistakes to avoid).
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/jniFFhY41Mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/jniFFhY41Mk" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # What you make in this R-Tip
 
-By the end of this tutorial, you'll use of high density regions to make insights from groups within your data. For example, here we can see where each  Class of Vehicle compares in terms of displacement and highway fuel economy. 
+By the end of this tutorial, you'll use of high density regions to make insights from groups within your data. For example, here we can see where each  Class of Vehicle compares in terms of engine displacement (displ) and highway fuel economy (hwy), answering questions like:
+
+* Is vehicle class a good way to describe vehicle clusters?
+* Which vehicle classes have the greatest variation in highway fuel economy versus displacement?
+* Which vehicle classes have the highest / lowest highway fuel economy?
+
+Do you see how powerful `ggdensity` is?
 
 ![](/assets/ggdensity_facet_hdr.jpg)
 
@@ -52,17 +58,31 @@ By the end of this tutorial, you'll use of high density regions to make insights
 
 # Thank You Developers.
 
-Before we move on, please recognize that `ggdensity` was developed by [James Otto](https://github.com/jamesotto852), Doctoral Candidate at the Department of Statistical Science, Baylor University. Thank you for everything you do!
+Before we move on, please recognize that `ggdensity` was developed by [James Otto](https://github.com/jamesotto852), Doctoral Candidate at the Department of Statistical Science, Baylor University. Thank you for everything you do! Also, the full documentation for `ggdensity` can be [accessed here](https://jamesotto852.github.io/ggdensity/).
 
-Also, the full documentation for `ggdensity` can be [accessed here](https://jamesotto852.github.io/ggdensity/).
+## Before we get started, get the R Cheat Sheet
+
+`ggdensity` is great for extending ggplot2 with advanced features. But, you'll need to learn `ggplot2` to take full advantage. For these topics, I'll use the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) to refer to `ggplot2` code in my workflow.
+
+### Quick Example:
+
+[Download the Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html). Then **Click the "CS" hyperlink** to "ggplot2".
+
+<a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-08-12-ggalt-dumbbell-plots/ultimate_r_cheatsheet_ggplot2.jpg" style='max-width:80%;display:block;margin:auto;'>
+
+<br>
+
+Now you're ready to quickly reference the `ggplot2` cheat sheet. This shows you the core plotting functions available in the ggplot library.
+
+![ggplot2 cheat sheet](/assets/2021-08-12-ggalt-dumbbell-plots/ggplot2_cheatsheet.jpg)
+
+Onto the tutorial.
 
 # `ggdensity` Tutorial
 
-Let's dive into using `ggdensity` so we can **automate explainable AI**.
+Let's dive into using `ggdensity` so we can **show you how to make high-density regions on your scatter plots**.
 
 **Important:** All of the data and code shown can be accessed through our Business Science [**R-Tips Project**](https://learn.business-science.io/r-tips-newsletter).
-
-**Warning:** This is an advanced tutorial that will depend on knowledge of `tidymodels`. And, it may be uncomfortable if you are a _complete beginner_. BUT, I'll explain how you can learn R, tidymodels, and data science for business from scratch at the end of this tutorial.
 
 Plus I have a **surprise** at the end (for everyone)!
 
@@ -70,221 +90,45 @@ Plus I have a **surprise** at the end (for everyone)!
 
 ### First, run this code to **load the R libraries:**
 
-Load `tidyverse` , `janitor`,  `tidymodels`, `DALEX` and `modelDown`. I'll explain the importance of each of these R packages as we use them.
+Load `tidyverse` , `tidyquant`, and `ggdensity`.
 
-![](/assets/modeldown_01_libraries.jpg)
+![](/assets/ggdensity_01_libraries_2.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 ### Next, run this code to **pull in the data**.
 
-We'll read in the Customer Churn data set that was used in the previous R-Tip on Survival Analysis.
+We'll read in the `mpg` data set that was comes with ggplot2.
 
-![](/assets/modeldown_02_data.jpg)
+![](/assets/ggdensity_02_data.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the Data.</a> </p>
 
-[**Our data**](https://learn.business-science.io/r-tips-newsletter) looks like this.
+We want to understand how highway fuel economy relates to engine size (displacement) and to see if there are clusters by vehicle class.
 
-![](/assets/modeldown_03_churn_data.jpg)
+## 💡 Step 2: Make a basic ggplot
 
-<p class='text-center date'>The customer churn dataset</p>
+Next, make a basic `ggplot` using the following code. This creates a scatter plot with the colors that change by vehicle class. I won't go into all of the mechanics, but you can [download my R cheat sheet](https://www.business-science.io/r-cheatsheet.html) to learn more about ggplot and the grammar of graphics. 
 
-We want to understand how customer churn data (Yes/No) depends on other factors like how long they have been a customer and what type of subscription plan they have (monthly, one-year, two-year).
-
-## 💡 Step 2: Make a tidymodel
-
-Next, it's time to make a `tidymodel`. This can be a bit challenging for beginners (and even experienced R users, so at the end of this tutorial I'll give you some more help).
-
-**If you are less experienced**, I recommend to just go with it (but then check out the guidance at the end of the training). I'll explain a lot about tidymodels through the process too.
-
-### Recipes: Feature Engineering and Preprocessing
-
-We'll start by getting our data into a format that the models can handle. Run this code to remove unnecessary columns "customer_id" and to one-hot encode any categorical predictors (e.g. "contract" and "gender").
-
-![](/assets/modeldown_04_recipe.jpg)
+![](/assets/ggdensity_03_ggplot_basic.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-The preprocessing recipe is just **a template (often called a pipeline)** that takes incoming data and processes it into the "right" format for our models to learn from it.
+Here's what the plot looks like. Do you see how it's really tough to pull out the clusters in there? Each of the points overlap which makes understanding the group structure in the data very tough. 
 
-### Here's the preprocessing effect.
+![](/assets/ggdensity_03_ggplot_basic_scatter.jpg)
 
-**Before preprocessing** we have predictors like "contract" containing factors (categories) and unnecessary columns like "customer_id" that won't help us predict.
+## Step 3: Add High Density Regions 
 
-![](/assets/modeldown_05a_before.jpg)
+Ok, now that we have a basic plot, we can make a quick alteration by adding high density regions that capture 90% and 50% of the data. 
 
-<p class='text-center date'>Before Preprocessing</p>
-
-**And after preprocessing**, our data changes into a format where predictors have been one-hot encoded and unnecessary columns have been removed. This format is much better for machine learning algorithms.
-
-![](/assets/modeldown_05b_after.jpg)
-
-<p class='text-center date'>After Preprocessing</p>
-
-### Machine Learning with Tidymodels
-
-Next, let's create a Random Forest model (Machine Learning). Random Forest models are usually accurate but suffer from being **"Black Box"**, a term that simply means not easy to explain.
-
-Run this code.
-
-![](/assets/modeldown_06_random_forest-1.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-We now have a **model specification**. A common beginner mistake is thinking a model specification is a trained model. The model specification is NOT a trained model. Rather, it's a template to create a model.
-
-We'll train the model next.
-
-### Train the Model
-
-**We have the two ingredients to train a model:** A preprocessing recipe specification and a model specification. Next, we combine them and train them on the unprocessed dataset.
-
-**Key Concept: The Tidymodels Workflow.** Combining the model, recipe, and training is called creating a "tidymodels workflow". The tidymodels workflow is the object that can then be saved, loaded, and used to make predictions.
-
-**Important:** I'm skipping some key steps like cross-validation for the sake of simplifying this tutorial. But, if you need to learn these key steps, then I will give you some free advice at the end of this tutorial.
-
-Run this code to train the model.
-
-![](/assets/modeldown_07_workflow.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-We can test the fitted model by making some predictions. Run this code.
-
-![](/assets/modeldown_08a_predict.jpg)
-
-Here's the result. A bunch of Yes/No's. **This is what we call "Class Predictions".** The algorithm is actually assigning "class" or category to the churn prediction.
-
-![](/assets/modeldown_08a_predict_result.jpg)
-
-### Avoid THIS big mistake (the class probability trick)
-
-**Problem: the Explainable AI algorithm can't use Class Predictions.** It needs "Class Probabilities", or actual numeric values from 0 to 1 that indicate the algorithms estimate of being a Yes.
-
-**THIS was a big mistake that cost me about an hour of headache** when making this tutorial for you. So hopefully showing you the **"Class Probability Trick"** helps save you some time.
-
-Run this code to get class probabilities.
-
-![](/assets/modeldown_08b_predict_proba_2.jpg)
-
-**Solution: the Explainable AI algorithm can use the Class Probabilities.** We now have values from 0-1 for Churn=Yes.
-
-Here's the result. Instead of Yes/Nos we get the algorithm's probability of churn being a yes or a no.
-
-![](/assets/modeldown_08b_predict_proba_result.jpg)
-
-OK, now that we have a way to get class probabilities, now we can make our "Black-Box" model explainable. Let's see how.
-
-## 💡 Step 3: Apply Explainable AI
-
-With a model in hand that predicts, we are now ready to explain the model. There's a trick you need to learn.
-
-### The cheat-code for explainable AI
-
-Here's a quick hack to make your models explainable. We will use the `DALEX` package, but we need to **make a custom prediction function**, first.
-
-**A "custom prediction function"** is just a simple function that takes a model and data and retrieves the class probability predictions in the format that the DALEX package needs.
-
-Run this code to make a custom explainer function.
-
-![](/assets/modeldown_09_custom_explainer-1.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-**We can test our custom prediction function** using our trained `tidymodels` workflow. By running on the head (first 6 rows of our dataset), I can truncate to the first 6 predictions. Looks like it's working.
-
-![](/assets/modeldown_10_test_custom_explainer-1.jpg)
-
-### Explain ANY black-box model with `DALEX`
-
-With the cheat code in hand (aka our custom prediction function), I can put all of the pieces together to make an explainer with an amazing R package called `DALEX`.
-
-**What is a DALEX explainer?** Think of it like the precursor to understanding your Black-Box model.  A "DALEX Explainer" is just an object that connects the model, data, prediction function, to a series of algorithms designed to interpret the model and develop explanations.
-
-Run this code to make a DALEX Explainer.
-
-![](/assets/modeldown_11_dalex_explainer.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-### BIG Mistake: Don't forget to check your explainer
-
-**Here's how to check your explainer was set up correctly.** Look at the DALEX explainer output.
-
-![](/assets/modeldown_12_dalex_explainer_output.jpg)
-
-I can see from the output that the explainer has been "initialized" and that several calculations have completed including making predicted values and residuals.
-
-**Important: If the explainer is not set up correctly, you'll get _warnings_ in this stage.** When creating this tutorial (before fixing my prediction function), I had a bunch of warnings indicating my residuals weren't calculated. I just had to go back and change my custom prediction function to set up class probabilities (shown in Step 2 above).
-
-### Create the Automated `modelDown` Website
-
-Once you create a `DALEX` explainer, the beauty is that the ecosystem of [DrWhy Explainable AI packages can all use DALEX explainers](https://modeloriented.github.io/DrWhy/). Here's a snapshot of the DrWhy DALEXverse.
-
-![](/assets/dalexverse.png)
-
-<p class='text-center date'> The DALEXverse </p>
-
-Run this code to create the automated `modelDown` website.
-
-![](/assets/modeldown_13_modeldown.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-This creates a folder containing a deployable website with the automated explainable model report.
-
-![](/assets/modeldown_report_1.jpg)
-
-<p class='text-center date'> The modelDown Explainable AI Website </p>
+![](/assets/ggdensity_04_ggplot_hdr.jpg)
 
 # 💡 BONUS: Understand the Explainable AI Visualizations!
 
 **Here's the next problem you're going to face.** The Model Down website is great! BUT, you need to know how to interpret the findings (AND uncover business insights).
 
 I want to help. Here's how to interpret and find business insights.
-
-### Step 1: The Variable (Feature) Importance Plot
-
-**First, head to the "Variable Importance" Tab.** You will find a plot called "Feature Importance". This is how we know which features to invest time into.
-
-**Important: I ALWAYS use the Feature Importance Plot first.** This tells me which features I need to focus my time and attention on.
-
-![](/assets/modeldown_14_var_imp_plot.jpg)
-
-<p class='text-center date'> Variable (Feature Importance) </p>
-
-**The feature importance plot** is quite simply a visualization that identifies the top features in your modelDown report. I can see that "contract" and "tenure" are my top 2 features.
-
-### Step 2: The Variable Response Plots
-
-Now that we know WHICH features are important, I head over to the "Variable Response" tab. This is where I gain my Business Insights.
-
-**Warning:** If you skip Step 1, you'll waste time investigating bad features. So make sure you do Step 1 first.
-
-#### Business Insight #1: Contract Type
-
-From Step 1, I saw that "contract" was the most important. On the Variable Response Tab, I select "contract", which leads me to my first Business Insight.
-
-![](/assets/modeldown_15_feature_contract.jpg)
-
-<p class='text-center date'> Inspecting the Top Feature (Most Important) </p>
-
-I can quickly see that Month-to-Month contracts have increased churn probability according to my Random Forest Model.
-
-**Business Insight #1:** To reduce churn, we could try giving customers incentivized offers to upgrade to longer-term contracts like one-year or two-year.
-
-#### Business Insight #2: Tenure
-
-In Step 1 above, I also saw that "tenure" was an important feature. On the Variable Response Tab, I select "tenure", and this leads me to my second Business Insight.
-
-![](/assets/modeldown_16_feature_tenure.jpg)
-
-<p class='text-center date'> Inspecting the 2nd Most Important Feature </p>
-
-I can see that when tenure is low (less than 6-months), that customers have a much higher churn probability according to my Random Forest Model.
-
-**Business Insight #2:** To reduce churn, we could try rewarding customer loyalty to stay beyond 6-months (Example promotion: "_Try for 6-months and the 7th is on us!"_).
 
 # 💡 Conclusions
 
