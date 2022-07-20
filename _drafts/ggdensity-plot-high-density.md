@@ -114,25 +114,41 @@ Next, make a basic `ggplot` using the following code. This creates a scatter plo
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-Here's what the plot looks like. Do you see how it's really tough to pull out the clusters in there? Each of the points overlap which makes understanding the group structure in the data very tough. 
+Here's what the plot looks like. **Do you see how it's really tough to pull out the clusters in there?** Each of the points overlap which makes understanding the group structure in the data very tough. 
 
 ![](/assets/ggdensity_03_ggplot_basic_scatter.jpg)
 
 ## Step 3: Add High Density Regions 
 
-Ok, now that we have a basic plot, we can make a quick alteration by adding high density regions that capture 90% and 50% of the data. 
+Ok, now that we have a basic scatter plot, we can make a quick alteration by adding high density regions that capture 90% and 50% of the data. We use `geom_hdr(probs = c(0.9, 0.5, alpha = 0.35)` to accomplish the next plot. 
 
 ![](/assets/ggdensity_04_ggplot_hdr.jpg)
 
-# 💡 BONUS: Understand the Explainable AI Visualizations!
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-**Here's the next problem you're going to face.** The Model Down website is great! BUT, you need to know how to interpret the findings (AND uncover business insights).
+Let's see what we have here. 
 
-I want to help. Here's how to interpret and find business insights.
+![](/assets/ggdensity_04_ggplot_hdr_2_scatter.jpg)
+
+We can now see where the clusters have the highest density. But there's still a problem called **"overplotting"**, which is when too many graphics get plot on top of each other. 
+
+# 💡 BONUS: Overplotting solved!
+
+**Here's the problem we're facing: overplotting.** We simply have too many groups that are too close together. Let's see how to fix this. 
+
+The fix is pretty simple. Just use facetting from ggplot2. 
+
+![](/assets/ggdensity_05_ggplot_facet.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+And, voila! We can easily inspect the clusters by vehicle class. 
+
+![](/assets/ggdensity_05_ggplot_facet_plot.jpg)
 
 # 💡 Conclusions
 
-You learned how to use the `modelDown` library to not only automate an Explainable AI website report but you also learned how to use it to create 2 business insights. Great work! **But, there's a lot more to becoming a Business Scientist.**
+You learned how to use the `ggdensity` library to create high-density regions that help us understand the clusters within our data. Great work! **But, there's a lot more to becoming a Business Scientist.**
 
 If you'd like to become a Business Scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
