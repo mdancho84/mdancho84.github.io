@@ -17,9 +17,13 @@ image: "/assets/modeldown_report_1.jpg"
 image_preview: "/assets/modeldown_report_1.jpg"
 
 ---
-**Machine learning is great... until you have to explain it.** Stakeholders are normally non-technical, C-suites that ultimately want to know what the model does for the business. And how it helps increase revenue or decrease costs. A new R package, `modelDown` can help. And, I want to teach you how to extract that precious business value that companies crave.
+**As data scientists, it can be downright impossible to drill into messy data.** Fortunately, there's a new R package that helps us focus on a _"high-density region"_, which is simply an area defined by a percentage of the data points. It's called `ggdensity`.
 
-In this R-tip, I'm going to show you how to unlock _massive business value_ with `modelDown` in **under 5-minutes:**
+![](https://jamesotto852.github.io/ggdensity/reference/figures/README-ex_penguins-1.png)
+
+<p class="text-center date">High Density Region</p>
+
+In this R-tip, I'm going to show you how to hone in on high-density regions **under 5-minutes:**
 
 1. Learn how to **make machine learning models** with `tidymodels`
 2. **Unlock the cheat-code** to making ANY machine learning model explainable
@@ -307,7 +311,7 @@ If you need take your skills to the next level and DON'T want to wait 5-years to
 
 **Then I can help with that too.**
 
-## Surprise! 
+## Surprise!
 
 There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a **special price (because you are special!)** and taking that action will kickstart your journey with me in your corner.
 
