@@ -16,7 +16,7 @@ image: "/assets/ggdensity_thumb_2.jpg"
 image_preview: "/assets/ggdensity_thumb_2.jpg"
 
 ---
-**As data scientists, it can be downright impossible to drill into messy data.** Fortunately, there's a new R package that helps us focus on a _"high-density region"_, which is simply an area in a scatter plot defined by a high percentage of the data points. It's called `ggdensity`. 
+**As data scientists, it can be downright impossible to drill into messy data.** Fortunately, there's a new R package that helps us focus on a _"high-density region"_, which is simply an area in a scatter plot defined by a high percentage of the data points. It's called `ggdensity`.
 
 ![](/assets/ggdensity_thumb_3.jpg)
 
@@ -51,7 +51,7 @@ By the end of this tutorial, you'll use of high density regions to make insights
 
 Do you see how powerful `ggdensity` is?
 
-![](/assets/ggdensity_facet_hdr.jpg)
+![](/assets/ggdensity_facet_hdr_2.jpg)
 
 <p class="text-center date">Uncover insights with ggdensity</p>
 
@@ -107,41 +107,41 @@ We want to understand how highway fuel economy relates to engine size (displacem
 
 ## 💡 Step 2: Make a basic ggplot
 
-Next, make a basic `ggplot` using the following code. This creates a scatter plot with the colors that change by vehicle class. I won't go into all of the mechanics, but you can [download my R cheat sheet](https://www.business-science.io/r-cheatsheet.html) to learn more about ggplot and the grammar of graphics. 
+Next, make a basic `ggplot` using the following code. This creates a scatter plot with the colors that change by vehicle class. I won't go into all of the mechanics, but you can [download my R cheat sheet](https://www.business-science.io/r-cheatsheet.html) to learn more about ggplot and the grammar of graphics.
 
 ![](/assets/ggdensity_03_ggplot_basic.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-Here's what the plot looks like. **Do you see how it's really tough to pull out the clusters in there?** Each of the points overlap which makes understanding the group structure in the data very tough. 
+Here's what the plot looks like. **Do you see how it's really tough to pull out the clusters in there?** Each of the points overlap which makes understanding the group structure in the data very tough.
 
 ![](/assets/ggdensity_03_ggplot_basic_scatter.jpg)
 
-## Step 3: Add High Density Regions 
+## Step 3: Add High Density Regions
 
-Ok, now that we have a basic scatter plot, we can make a quick alteration by adding high density regions that capture 90% and 50% of the data. We use `geom_hdr(probs = c(0.9, 0.5, alpha = 0.35)` to accomplish the next plot. 
+Ok, now that we have a basic scatter plot, we can make a quick alteration by adding high density regions that capture 90% and 50% of the data. We use `geom_hdr(probs = c(0.9, 0.5, alpha = 0.35)` to accomplish the next plot.
 
 ![](/assets/ggdensity_04_ggplot_hdr.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-Let's see what we have here. 
+Let's see what we have here.
 
 ![](/assets/ggdensity_04_ggplot_hdr_2_scatter.jpg)
 
-We can now see where the clusters have the highest density. But there's still a problem called **"overplotting"**, which is when too many graphics get plot on top of each other. 
+We can now see where the clusters have the highest density. But there's still a problem called **"overplotting"**, which is when too many graphics get plot on top of each other.
 
 # 💡 BONUS: Overplotting solved!
 
-**Here's the problem we're facing: overplotting.** We simply have too many groups that are too close together. Let's see how to fix this. 
+**Here's the problem we're facing: overplotting.** We simply have too many groups that are too close together. Let's see how to fix this.
 
-The fix is pretty simple. Just use facetting from ggplot2. 
+The fix is pretty simple. Just use facetting from ggplot2.
 
 ![](/assets/ggdensity_05_ggplot_facet.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-And, voila! We can easily inspect the clusters by vehicle class. 
+And, voila! We can easily inspect the clusters by vehicle class.
 
 ![](/assets/ggdensity_05_ggplot_facet_plot.jpg)
 
