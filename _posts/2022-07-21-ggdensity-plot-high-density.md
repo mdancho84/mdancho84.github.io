@@ -8,7 +8,7 @@ tags:
 - Learn-R
 - R
 title: 'ggdensity: A new R package for plotting high-density regions'
-date: 2022-07-21 06:00:00 -0400
+date: 2022-07-21T06:00:00.000-04:00
 excerpt: 'As data scientists, it can be downright impossible to drill into messy data.
   Fortunately, there''s a new R package that helps us focus on a "high-density region".
   It''s called ggdensity. '
@@ -176,5 +176,7 @@ There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-s
 Get ready. The ride is wild. And the destination is AMAZING!
 
 ![](/assets/rtrack_what_they_are_doing.jpeg)
+
+<p style="font-size: 36px;text-align-center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar (become a 6-figure data scientist)</a></p>
 
 {% include top_rtips.html %}
