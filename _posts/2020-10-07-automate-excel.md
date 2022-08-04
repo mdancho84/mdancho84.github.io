@@ -16,7 +16,7 @@ image: "/assets/excel_in_r.jpg"
 image_preview: "/assets/excel_in_r.jpg"
 
 ---
-Excel is the lingua franca of business. So no matter how much we would prefer to provide shiny apps or rmarkdown reports, automating Excel can be a much more relatable format for your end-user (the business person that needs your insights or the executive you aim to impress). Let me show you how to **automate Excel with R in under 5-minutes**, using `openxlsx` and `tidyquant`. 
+Your company lives off them... Excel files.  Why not automate them & save some time? Here's an Excel File you're going to make in this tutorial from R. Let me show you how to **automate Excel with R in under 5-minutes**, using `openxlsx` and `tidyquant`. 
 
 ![Excel Spreadsheet](/assets/2020-10-07-automate-excel/spreadsheet.jpg)
 
