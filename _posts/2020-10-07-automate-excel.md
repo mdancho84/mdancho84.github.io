@@ -16,7 +16,7 @@ image: "/assets/excel_in_r.jpg"
 image_preview: "/assets/excel_in_r.jpg"
 
 ---
-Your company lives off them... Excel files.  Why not automate them & save some time? Here's an Excel File you're going to make in this tutorial from R. Let me show you how to **automate Excel with R in under 5-minutes**, using `openxlsx` and `tidyquant`. 
+Your company lives off them... Excel files.  Why not automate them & save some time? Here's an Excel File you're going to make in this tutorial from R. Let me show you how to **automate Excel with R in under 5-minutes**, using `openxlsx` and `tidyquant`.
 
 ![Excel Spreadsheet](/assets/2020-10-07-automate-excel/spreadsheet.jpg)
 
@@ -87,12 +87,6 @@ Now for the magic - Let's add the Pivot Table & Stock Plot to Excel! 🔥
 
 You've just **automated creation of an Excel Workbook with R**.
 
-It's magic! 💥 💥 💥
-
-![Excel Workbook](/assets/2020-10-07-automate-excel/magic.gif)
-
-<br>
-
 # 💡 Conclusions
 
 You learned how to use the `openxlsx` library to create automated reports using R and Excel together. Great work! **But, there's a lot more to becoming a Business Scientist.**
@@ -119,10 +113,12 @@ If you need take your skills to the next level and DON'T want to wait 5-years to
 
 ## Surprise!
 
-There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a **special price (because you are special!)** and taking that action will kickstart your journey with me in your corner.
+There's a link in the [**FREE 40-minute webinar**](https://learn.business-science.io/free-rtrack-masterclass-signup) for a **special price (because you are special!)** and taking that action will kickstart your journey with me in your corner.
 
 Get ready. The ride is wild. And the destination is AMAZING!
 
 ![](/assets/rtrack_what_they_are_doing.jpeg)
+
+<p style="font-size: 36px;text-align-center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar (become a 6-figure data scientist)</a></p>
 
 {% include top_rtips.html %}
