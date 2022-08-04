@@ -166,7 +166,7 @@ I'll have detailed training coming soon on how to launch a data science career i
 If you are interested in learning more, then please [__watch my Free Webinar: 10 Secrets to becoming a Data Scientist with R.__](https://learn.business-science.io/free-rtrack-masterclass-signup)
 
 <p class="text-center">
-  <a class="btn btn-xxl-wide-green" href="https://mailchi.mp/business-science/rtrack-master-class-signup-3">
+  <a class="btn btn-xxl-wide-green" href="https://learn.business-science.io/free-rtrack-masterclass-signup">
   Watch Free Career Training
   </a>
 </p>

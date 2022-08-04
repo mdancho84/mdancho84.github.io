@@ -157,7 +157,7 @@ Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS t
 
 AND, I don't want it to take that long for you.
 
-So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) that provides a roadmap for what worked for me.
+So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://learn.business-science.io/free-rtrack-masterclass-signup) that provides a roadmap for what worked for me.
 
 Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
 
@@ -171,12 +171,12 @@ If you need take your skills to the next level and DON'T want to wait 5-years to
 
 ## Surprise!
 
-There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a **special price (because you are special!)** and taking that action will kickstart your journey with me in your corner.
+There's a link in the [**FREE 40-minute webinar**](https://learn.business-science.io/free-rtrack-masterclass-signup) for a **special price (because you are special!)** and taking that action will kickstart your journey with me in your corner.
 
 Get ready. The ride is wild. And the destination is AMAZING!
 
 ![](/assets/rtrack_what_they_are_doing.jpeg)
 
-<p style="font-size: 36px;text-align-center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar (become a 6-figure data scientist)</a></p>
+<p style="font-size: 36px;text-align: center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar (become a 6-figure data scientist)</a></p>
 
 {% include top_rtips.html %}
