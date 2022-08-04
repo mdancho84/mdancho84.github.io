@@ -38,13 +38,13 @@ I have a companion video tutorial that shows even more cool automation stuff (pl
 
 # Automate Excel with R Tutorial
 
-Using R to automate Excel is an awesome skill for automating your work (and life). Your company lives off Excel files.  Why not automate them & save some time?
-
 Here's an Excel File you're going to make in this tutorial from R. 👇
 
 ![Excel Spreadsheet](/assets/2020-10-07-automate-excel/spreadsheet.jpg)
 
 <br>
+
+## Step 1: Collect, Prepare Data & Plots
 
 First, collect your data using `tidyquant`, an awesome package for importing & working with **Financial Data**.
 
@@ -54,17 +54,21 @@ First, collect your data using `tidyquant`, an awesome package for importing & w
 
 <br>
 
+### Pivot Table Data
+
 The previous code makes this **Pivot Table** (stock returns by year and symbol).
 
 ![Import Data](/assets/2020-10-07-automate-excel/pivot-table.jpg)
 
-<br>
+### Time Series Stock Performance Plots
 
-...And this stock chart over time.
+Here's the stock performance plot from the previous code. 
 
 ![Plot Data](/assets/2020-10-07-automate-excel/plot.jpg)
 
 <br>
+
+## Step 2: Automate R to Excel 
 
 Now for the magic - Let's add the Pivot Table & Stock Plot to Excel! 🔥
 
@@ -79,13 +83,11 @@ Now for the magic - Let's add the Pivot Table & Stock Plot to Excel! 🔥
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-<br>
-
-![Excel Workbook](/assets/2020-10-07-automate-excel/workbook-display.jpg)
-
-<br>
+### Excel Output (.xlsx)
 
 You've just **automated creation of an Excel Workbook with R**.
+
+![Excel Workbook](/assets/2020-10-07-automate-excel/workbook-display.jpg)
 
 # 💡 Conclusions
 
@@ -119,8 +121,6 @@ Get ready. The ride is wild. And the destination is AMAZING!
 
 ![](/assets/rtrack_what_they_are_doing.jpeg)
 
-
-<p style="font-size: 36px;text-align-center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar (become a 6-figure data scientist)</a></p>
+<p style="font-size: 36px;text-align: center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar (become a 6-figure data scientist)</a></p>
 
 {% include top_rtips.html %}
-
