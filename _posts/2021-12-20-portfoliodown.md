@@ -12,10 +12,10 @@ image_preview: /assets/2021-12-20-portfoliodown/introducing_portfoliodown.jpg
 
 I'm super excited to introduce `portfoliodown`, a new R package that makes it __painless for data scientists__ to create a polished professional website so they can host their project portfolios, get great job interviews, and launch their data science careers. I'll show of a short demo in this article. 
 
-For those that want to learn more about __launching your career in data science with `R`__, I have a [__FREE 40-minute webinar__](https://mailchi.mp/business-science/rtrack-master-class-signup-3) on what skills are needed (these are the 10 skills that helped me launch my career in data science).
+For those that want to learn more about __launching your career in data science with `R`__, I have a [__FREE 40-minute webinar__](https://learn.business-science.io/free-rtrack-masterclass-signup) on what skills are needed (these are the 10 skills that helped me launch my career in data science).
 
 <p class="text-center">
-  <a class="btn btn-xxl-wide-green" href="https://mailchi.mp/business-science/rtrack-master-class-signup-3">
+  <a class="btn btn-xxl-wide-green" href="https://learn.business-science.io/free-rtrack-masterclass-signup">
   Watch Free Career Training
   </a>
 </p>
@@ -163,7 +163,7 @@ I'll have detailed training coming soon on how to launch a data science career i
 
 - __The Career Module__ will cover what to do to land data science interviews, gain recommendations from me, and get promotion after promotion on the job to accelerate your career. 
 
-If you are interested in learning more, then please [__watch my Free Webinar: 10 Secrets to becoming a Data Scientist with R.__](https://mailchi.mp/business-science/rtrack-master-class-signup-3)
+If you are interested in learning more, then please [__watch my Free Webinar: 10 Secrets to becoming a Data Scientist with R.__](https://learn.business-science.io/free-rtrack-masterclass-signup)
 
 <p class="text-center">
   <a class="btn btn-xxl-wide-green" href="https://mailchi.mp/business-science/rtrack-master-class-signup-3">

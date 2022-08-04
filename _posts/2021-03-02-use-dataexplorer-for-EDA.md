@@ -213,7 +213,7 @@ Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS t
 
 AND, I don't want it to take that long for you.
 
-So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) that provides a roadmap for what worked for me.
+So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://learn.business-science.io/free-rtrack-masterclass-signup) that provides a roadmap for what worked for me.
 
 Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
 
@@ -221,7 +221,7 @@ Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed 
 
 For my action-takers, if you are ready to take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you'd like someone to help you do this in UNDER  6-MONTHS or less....
 
-Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://mailchi.mp/business-science/rtrack-master-class-signup-3) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
+Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://learn.business-science.io/free-rtrack-masterclass-signup) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
 
 Get ready. The ride is wild. And the destination is AMAZING!
 
