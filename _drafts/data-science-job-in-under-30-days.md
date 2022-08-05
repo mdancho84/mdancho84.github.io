@@ -62,9 +62,9 @@ Not exactly. You see I needed to experience what tactics would work. And the bes
 
 Over the past 6-months I created an underground group of students that I met with every  2-weeks.
 
-They purchased a secret program that gave them access to my normal 5-Course R-Track Program where they learned all of the skills that they need to become a data scientist.
+They purchased a secret program that gave them access to my normal [5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series) where they learned all of the skills that they need to become a data scientist.
 
-And then I added one additional course, called 30-Day Data Scientist, that taught them how to market themselves (with tricks, hacks, and tactics) to get a data science job as fast as possible.
+And then I added one additional course, called **30-Day Data Scientist**, that taught them how to market themselves (with tricks, hacks, and tactics) to get a data science job as fast as possible.
 
 ### And what's crazy is it worked.
 
@@ -120,12 +120,16 @@ He's been part of over 100 data science hires in his 10-years and has reviewed 1
 
 ### But something wasn't adding up. 
 
-Now 1000s of resumes may sound like a lot, but it's actually not that many. In fact he's only reviewing 10-50 per data science position. 
+Now 1000s of resumes may sound like a lot, but it's actually not that many. At least not over a 10-year period. In fact, he's only reviewing 10-50 per data science position. 
 
 Why is that?
 
 It's because they get help from an automated system called the ATS. 
 
-### The ATS (A Program That Auto-Scraps Your Resumes)
+### They Use A Program That Auto-Scraps Your Resumes
 
-The ATS is a 
+Big companies like S&P Global, Apple, Google, Walmart, United Health, and basically all of the Fortune 500 companies get so many resumes that it's impossible to review all of them. 
+
+So they get help from the "ATS".
+
+ATS stands for "Applicant Tracking System", and it's an automated program that compares your resume to the job description. 
