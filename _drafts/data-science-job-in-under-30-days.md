@@ -20,7 +20,7 @@ During that round of interviews, one of my students, Justin, said, _"Everything 
 
 I set this aside chalking it up as just another course idea to add to the list. Plus everyone had been asking me to make Python courses, so I was hell-bent on creating them (even though I not so secretly dislike python... R rules).
 
-But then 2-weeks later, at a birthday party for my niece, I was chatting with a family friend that was a Chiropractor. He had recently decided to open up his own practice and was having trouble.
+But then 2-weeks later, at a birthday party for my niece, I was chatting with a family friend that was a Chiropractor. He had recently decided to open up his own practice and was having trouble getting clients. And costs were stacking up.
 
 Me being an entrepreneur, I wanted to help. I asked what his main gripe was.
 
@@ -50,7 +50,7 @@ And, I'm finally ready to document what I learned.
 
 # The 5 things I learned from spending 1-year studying the data science hiring process
 
-Before I jump into it, you need to understand why it took me a year to learn the hiring process. 
+Before I jump into it, you need to understand why it took me a year to learn the hiring process.
 
 Couldn't I just buy a book on how to get a job and apply it to the data science hiring process?
 
