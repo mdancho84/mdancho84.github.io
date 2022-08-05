@@ -96,7 +96,7 @@ The problem is that each step is a landmine that when stepped on will cost you e
 
 ### That's a $75,000 cost
 
-9-months may not sound like a lot, but in business return, 9 months equals 75% of a year's salary, which is about a $75,000 cost even for an entry-level data science position.
+9-months may not sound like a lot, but if we were a business, no income for 9 months equals 75% of a year's salary, which is about **a $75,000 cost** even for an entry-level data science position.
 
 To make matters worse, you have rent, bills to pay, food and gas, plus inflation is driving everything up. 
 
