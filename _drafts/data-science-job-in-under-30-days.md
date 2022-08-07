@@ -191,23 +191,23 @@ I'm going to share how the app works (live demo) on [my course launch + career t
 
 # 3. Don't skip referrals
 
-99% of job applicants don't come referred. They apply online and hope their resume get's picked for an interview. It might surprise you, but...
+99% of job applicants **apply online** and hope their resume get's picked for an interview. It might surprise you, but...
 
 ### You have less than a 1% chance of getting an interview this way
 
-A better way is to come in referred. A referral is when a contact that already works at the company gives your resume and a testimonial to the hiring manager.
+A better way is to **come in referred.** A referral is when a contact that already works at the company gives your resume and a testimonial to the hiring manager.
 
 Most companies have a referral program where the referrer gets compensated $5,000 or more.
 
-And if you come in referred...
+And...
 
-### There is a 99% chance you get an interview
+### There is a 99% chance you get an interview if you come in referred
 
 So you'd better come in referred if you can. 
 
 And why not? Referrers are incentivized to help you. But, there's a big problem.
 
-They aren't going to refer you if they don't know you
+They aren't going to refer you if they don't know you.
 
 So how do you get them to know you and refer you?
 
@@ -218,4 +218,10 @@ Locate your target which is the data scientist on the team that can help refer y
 1. **One way is direct messaging on LinkedIn.** You can reach out to them. Direct message them. 
 2. **Another way is indirectly.** You can find a contact of a contact that you know, try to get them to persuade them via testimonial. 
 
-Now, if you really want a referral, I will give even more guidance on my upcoming [LIVE course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393) 
+Now, if you really want a referral, I will give advanced guidance on my upcoming [LIVE course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393) 
+
+# 4. Don't skip the company research
+
+# 5. Don't walk in empty handed (use a pitch deck!)
+
+The big mistake 
