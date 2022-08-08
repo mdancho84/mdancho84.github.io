@@ -10,8 +10,8 @@ tags:
 title: The 5 Biggest Mistakes You're Making When Trying To Get A Data Science Job
 date: 2022-08-09 06:00:00 -0400
 excerpt: ''
-image: "/assets/hiring_process_2.png"
-image_preview: "/assets/hiring_process_2.png"
+image: "/assets/landmines.jpg"
+image_preview: "/assets/landmines.jpg"
 
 ---
 In November of 2021,  my marketing team and I had just completed a round of interviews meeting with different students. I do this every so often just to keep a pulse on my students and figure out what they needed to really become successful.
@@ -64,7 +64,7 @@ Over the past 6-months I created an underground group of students that I met wit
 
 They purchased a secret program that gave them access to my normal [5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series) where they learned all of the skills that they need to become a data scientist.
 
-And then I added one additional course, called **30-Day Data Scientist**, that taught them how to market themselves (with tricks, hacks, and tactics) to get a data science job as fast as possible.
+And then I added one additional course, called **30-Day Data Scientist (not yet released)**, that taught them how to market themselves (with tricks, hacks, and tactics) to get a data science job as fast as possible.
 
 ![](/assets/30_day_bundle-1.png)
 
@@ -76,7 +76,7 @@ Now keep in mind that everything I'm about to share with you was tested in an ex
 
 The students began getting data science jobs. **Real 6-figure salary data science jobs.**
 
-Now, the experiment isn't over, but I have early results that I'm excited to share. More on this shortly.
+Now, the experiment isn't over, but I have early results that I'm excited to share. [More on this shortly.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393)
 
 But first let's talk about...
 
@@ -316,6 +316,8 @@ Here's what she used:
 
 There you have it, the 5 biggest mistakes that you are making when trying to get a data science job. I hope this helps you.
 
-And if you'd like even more information on how to get a data science job in under 30-Days, \[then I have a solution\](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393).
+### Surprise! I'd like to help you.
+
+If you use R and you'd like even more help on how to get a data science job in under 30-Days, \[then I have a solution\](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393).
 
 <p class = "text-center" style="font-size:30px;"><a href="https://learn.business-science.io/30day-data-scientist-course-waitlist-1393">Join the Course Waitlist Here</a></p>
