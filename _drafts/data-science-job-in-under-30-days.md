@@ -14,7 +14,7 @@ image: "/assets/hiring_process_2.png"
 image_preview: "/assets/hiring_process_2.png"
 
 ---
-In November of 2021, I was meeting with my marketing team who had just completed a round of interviews meeting with different students. I do this every so often just to keep a pulse on my students, to understand them, and figure out what they needed to really become successful.
+In November of 2021,  my marketing team and I had just completed a round of interviews meeting with different students. I do this every so often just to keep a pulse on my students and figure out what they needed to really become successful.
 
 During that round of interviews, one of my students, Justin, said, _"Everything we learn in your courses is great. BUT, we never learn how to actually get the data science job."_
 
@@ -22,25 +22,25 @@ During that round of interviews, one of my students, Justin, said, _"Everything 
 
 Plus everyone had been asking me to make Python courses, so I was hell-bent on creating them (even though I not so secretly dislike python... R rules).
 
-But then 2-weeks later, at a birthday party for my niece, I was chatting with a family friend that was a Chiropractor. He had recently decided to open up his own practice and was having trouble getting clients. And costs were stacking up.
+But then 2-weeks later, at a birthday party for my niece, I was chatting with a family friend that is a Chiropractor. He had recently decided to open up his own practice and was having trouble getting clients. And costs for his business were stacking up.
 
-Me being an entrepreneur, I wanted to help. I asked what his main gripe was.
+Me being an entrepreneur, I wanted to help. I asked what his main problem was.
 
-He said, _"You know I went to school to become a Chiropractor. The teach you all of the skills needed to adjust someone and help them get better. But never once did they teach me how to actually open up a practice and market myself."_
+He said, _"You know I went to school to become a Chiropractor. School teaches you all of the skills needed to adjust someone's spine and help them get better. But never once did they teach me how to actually open up a chiropractor practice and market my business."_
 
 ### **I knew exactly how he felt.**
 
 I remembered becoming a data scientist consultant and having to figure out "the hard way" about how to land clients.
 
-And, then when I created my e-learning business after getting an MBA that no one ever taught me in the program how to market my business services, so I spent years figuring that out too.
+And, then after getting an MBA and eventually starting my e-learning business, that no one in my MBA ever taught me how to market my business services, so I spent years figuring that out too.
 
 And, so I gave him some strategies that I was using and now he's starting to get paying clients through the door. Sweet!
 
 # So what does this have to do with the data science hiring process?
 
-Well, that night I thought about Justin, the student that just a couple weeks before said, _"we never learn how to actually get the data science job."_
+Well, that night I thought about Justin, the student that just a couple weeks before said, _"we never learn how to actually get the data science job \[in your or anyone else's data science program\]."_
 
-And that's when I knew I had to create it.
+### And that's when I knew I had to create it.
 
 My marketing team and I agreed that we would create a "quick course" on how to get a job. Maybe spend a couple of weeks on it. You know, because getting a job is pretty straight-forward, right?
 
@@ -94,7 +94,7 @@ You might see graphics like this one that I'm about to show you. It's what I tea
 
 <p class="text-center date">The Data Science Hiring Process</p>
 
-The problem is that **each step is a landmine** that when stepped on will cost you extra weeks or months. 
+The problem is that **each step is a landmine** that when stepped on will cost you extra weeks or months.
 
 Those missteps add up, which is why many data scientists report that **it takes 9-months or longer to get a job** (after they complete their education and are fully qualified).
 
@@ -203,7 +203,7 @@ And...
 
 ### There is a 99% chance you get an interview if you come in referred
 
-So you'd better come in referred if you can. 
+So you'd better come in referred if you can.
 
 And why not? Referrers are incentivized to help you. But, there's a big problem.
 
@@ -215,13 +215,13 @@ So how do you get them to know you and refer you?
 
 Locate your target which is the data scientist on the team that can help refer you for the position. Then do one of 3 things:
 
-1. **One way is direct messaging on LinkedIn.** You can reach out to them. Direct message them. 
-2. **Another way is indirectly.** You can find a contact of a contact that you know, try to get them to persuade them via testimonial. 
+1. **One way is direct messaging on LinkedIn.** You can reach out to them. Direct message them.
+2. **Another way is indirectly.** You can find a contact of a contact that you know, try to get them to persuade them via testimonial.
 
-Now, if you really want a referral, I will give advanced guidance on my upcoming [LIVE course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393) 
+Now, if you really want a referral, I will give advanced guidance on my upcoming [LIVE course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393)
 
 # 4. Don't skip the company research
 
 # 5. Don't walk in empty handed (use a pitch deck!)
 
-The big mistake 
+The big mistake
