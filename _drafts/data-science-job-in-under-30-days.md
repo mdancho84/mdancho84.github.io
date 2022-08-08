@@ -7,7 +7,7 @@ tags:
 - R-Bloggers
 - Learn-R
 - R
-title: 5 mistakes to avoid in the data science hiring process
+title: The 5 Biggest Mistakes You're Making When Trying To Get A Data Science Job
 date: 2022-08-08 06:00:00 -0400
 excerpt: ''
 image: "/assets/hiring_process_2.png"
@@ -42,7 +42,7 @@ Well, that night I thought about Justin, the student that just a couple weeks be
 
 ### And that's when I knew I had to create it.
 
-My marketing team and I agreed that we would create a "quick course" on how to get a job. Maybe spend a couple of weeks on it. 
+My marketing team and I agreed that we would create a "quick course" on how to get a job. Maybe spend a couple of weeks on it.
 
 Because getting a data science job is pretty straight-forward, right?
 
@@ -68,33 +68,35 @@ They purchased a secret program that gave them access to my normal [5-Course R-T
 
 And then I added one additional course, called **30-Day Data Scientist**, that taught them how to market themselves (with tricks, hacks, and tactics) to get a data science job as fast as possible.
 
-![](/assets/30_day_bundle.png)
+![](/assets/30_day_bundle-1.png)
 
 <p class="text-center date">My experimental course</p>
 
-### And what's crazy is it worked.
+Now keep in mind that everything I'm about to share with you was tested in an experimental study. But...
 
-The students began getting data science jobs. Real 6-figure salary data science jobs.
+### What's crazy is it worked.
 
-Now, the experiment isn't over, but I have early results that I'm excited to share. More on this later.
+The students began getting data science jobs. **Real 6-figure salary data science jobs.**
+
+Now, the experiment isn't over, but I have early results that I'm excited to share. More on this shortly.
 
 But first let's talk about...
 
-### The 5 mistakes to avoid in the data science hiring process
+# The 5 mistakes to avoid in the data science hiring process
 
-Here's what we'll cover in this article. And I have a special surprise at the end.
+Avoid these 5 critical mistakes to help **speed up** the data science hiring process for you.
 
-1. Don't step on hiring-process landmines
-2. Don't apply in quantity (apply for quality)
-3. Don't skip referrals
-4. a
-5. a
+1. **You are stepping on hiring-process landmines**
+2. **You are applying in quantity (apply for quality)**
+3. **You are skipping referrals**
+4. **Don't forget to come with THIS secret weapon (it will set you apart)**
+5. **You talked too much about data science**
 
 BONUS: Special surprise for R-users that would like help getting a data science job.
 
-# 1. Don't step on hiring-process landmines
+# 1. You are stepping on hiring-process landmines
 
-You might see graphics like this one that I'm about to show you. It's what I teach in my upcoming course. And it's very accurate. But there's a problem.
+This is what the data science hiring process looks like according to a Senior Group Manager of Data Science at S&P Global (Fortune 500 Company, Finance Industry). But there's a big problem.
 
 ![](/assets/hiring_process_2.png)
 
@@ -102,17 +104,21 @@ You might see graphics like this one that I'm about to show you. It's what I tea
 
 The problem is that **each step is a landmine** that when stepped on will cost you extra weeks or months.
 
-Those missteps add up, which is why many data scientists report that **it takes 9-months or longer to get a job** (after they complete their education and are fully qualified).
+Those missteps add up, which is why some data scientists report that [**it takes 2-years or longer to get a job**](https://towardsdatascience.com/what-took-me-so-long-to-land-a-data-scientist-job-c2dee99b98ca) (after they complete their education and are fully qualified).
 
-### That's a $75,000 cost to you
+### That's a $200,000 cost to you.
 
-9-months may not sound like a lot, but if we were a business, no income for 9 months equals 75% of a year's salary, which is about **a $75,000 cost** even for an entry-level data science position.
+No income for 2-years equals 2X of a year's salary, which is about **a $200,000 cost** even for an entry-level data science position.
 
 To make matters worse, you have rent, bills to pay, food and gas, plus inflation is driving everything up.
 
-So time is of the essence. And speed is important. And you need to avoid missteps in the process if you want to get a data science job quickly.
+**So time is of the essence.** Speed is important. And you need to avoid missteps in the process if you want to get a data science job quickly.
 
-# 2. Don't apply in quantity (apply for quality)
+### So what missteps are you making that's costing you time & money?
+
+The next 4 mistakes are the most common missteps in the data science hiring process. 
+
+# 2. You're applying in quantity (apply for quality)
 
 Most people think in terms of quantity. But it's the opposite when you apply to jobs.
 
@@ -126,21 +132,23 @@ But there's a big problem with this "shotgun" approach.
 
 In January, I met with a friend of mine who is the hiring manager for data science teams at S&P Global (a big Fortune 500 company in the finance sector).
 
-He's been part of over 100 data science hires in his 10-years and has reviewed 1000s of resumes. And he told me that each data science position gets over 1000 applications.
+He's been part of over 100 data science hires in his 10-years and has reviewed 1000's of resumes. And he told me that each data science position at S&P Global gets over 1000 applications.
 
 ### But something wasn't adding up.
 
-Now 1000s of resumes may sound like a lot, but it's actually not that many. At least not over a 10-year period. In fact, he's only reviewing 10-50 per data science position.
+Now 1000's of resumes may sound like a lot, but it's actually not that many. At least not over a 10-year period. In fact, he's only reviewing 10-50 per data science position.
 
 Why is that?
 
 It's because they get help from an automated system called the ATS.
 
-### They Use A Program That Auto-Scraps Your Resumes
+### 90% of Fortune 500 Companies Use A Program That Auto-Scraps Your Resumes
 
-Big companies like S&P Global, Apple, Google, Walmart, United Health, and basically all of the Fortune 500 companies get so many resumes that it's impossible to review all of them.
+[According to this article](https://medium.com/swlh/90-of-fortune-500-companies-use-an-applicant-tracking-system-whats-it-5a6b6d25e5e7), 90% of Fortune 500 Companies are using an Applicant Tracking System or ATS. 
 
-So they get help from the "ATS".
+This means that companies like S&P Global, Apple, Google, Walmart, United Health, and basically all of **the Fortune 500 companies get so many resumes** that it's impossible to review all of them.
+
+So they get help from the "ATS" Program. 
 
 ATS stands for "Applicant Tracking System", and it's an automated program that compares your resume to the job description.
 
@@ -170,16 +178,20 @@ A tool like this allows you to see the **most important keywords** to help impro
 
 ### Does it work?
 
-Absolutely. It works so well that one of my students participating in my underground cohort of data science ninjas got selected for a **Staff Data Science Position ($175,000 base salary).**
+Absolutely. It works so well that one of my students participating in my underground cohort of future data scientists got her resume selected for a **Staff Data Science Position ($175,000 base salary).**
 
 The problem was that she thought she was applying to an entry-level position ($100,000 base salary).
 
-She made it 90% of the way through the interview.
+### She made it 90% of the way through the interview for a position she was unqualified for. 
 
-1. Her resume got selected
-2. She passed the 1st round with HR
-3. She passed the take-home test
-4. She made it 80% through the live interview, and then she realized the position was advanced to she gracefully bowed out.
+Here's why this is so amazing:
+
+1. **Her resume got selected**
+2. **She passed the 1st round with HR**
+3. **She passed the take-home test**
+4. **She was invited to a live interview for a Staff Data Scientist Position ($175,000 position)**
+5. **She met with the Principal Data Scientist ($200,000 position)**
+6. **She made it 90% through the 2nd interview with the Principal Data Scientist, and then she gracefully bowed out when she realized that the position was too advanced.**
 
 The Principal Data Scientist that was conducting the interview said, _"I don't think you're qualified for the Staff Data Scientist Position. We're going to have to bump you down to Senior Data Scientist."_
 
@@ -187,15 +199,21 @@ By this point our cohort was in disbelief as she was telling us this story.
 
 ![](/assets/almost_becoming_a_staff_data_scientist.jpg)
 
-<p class="text-center date">We couldn't believe what we were hearing</p>
+<p class="text-center date">We couldn't believe what we were hearing. She literally made it 95% through the interview.</p>
 
-So yes, the tools I'm talking about work. Make sure to use them for good.
+So yes, the tools I'm talking about work. 
 
 ### How do you get your hands on the Resume Analyzer App?
 
 I'm going to share how the app works (live demo) on [my course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393) Attend to learn more (plus get a bunch of goodies including 5 free videos).
 
-# 3. Don't skip referrals
+![](/assets/resume_analyzer.jpg)
+
+<p class="text-center date"><a href="https://learn.business-science.io/30day-data-scientist-course-waitlist-1393">Get your hands on the resume analyzer shiny app.</a></p>
+
+### The next most common mistake is...
+
+# 3. You are skipping referrals
 
 99% of job applicants **apply online** and hope their resume get's picked for an interview. It might surprise you, but...
 
@@ -224,10 +242,30 @@ Locate your target which is the data scientist on the team that can help refer y
 1. **One way is direct messaging on LinkedIn.** You can reach out to them. Direct message them.
 2. **Another way is indirectly.** You can find a contact of a contact that you know, try to get them to persuade them via testimonial.
 
-Now, if you really want a referral, I will give advanced guidance on my upcoming [LIVE course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393)
+## How to come in referred. 
 
-# 4. Don't skip the company research
+Now, if you really want a referral, I will give advanced guidance on my upcoming [LIVE course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393) 
 
-# 5. Don't walk in empty handed (use a pitch deck!)
+And, I'll show you how you can gain my testimonial and I'll actually go to bat for you like I've done for one of my students here. 
+
+![](/assets/student_referral_annonymized.jpg)
+
+<p class="text-center date">I'm going to bat for one of my students</p>
+
+### Once you're referred, you're in right?
+
+Well sort of. You have a 99% chance of getting an interview. 
+
+But you still have to pass the interview, which is why I'm going to share the next 2 missteps that you are more than likely going to make. 
+
+# 4. You didn't come in with a pitch
+
+When I began consulting, I quickly realized that I needed to do 2 things in order to virtually lock in a client. 
+
+First, I needed to come prepared. I did research on the company. I asked questions to my contacts and anyone they could point me to. And I knew their problems better than the company did. 
+
+Second, I made a simple slide deck that pitched myself as the solution to their problems. 
+
+# 5. You talked too much about data science
 
 The big mistake
