@@ -304,4 +304,6 @@ There you have it, the 5 biggest mistakes that you are making when trying to get
 
 If you use R and you'd like even more help on how to get a data science job in under 30-Days, [then I have a solution](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393).
 
+![](/assets/30_day_bundle-1.png)
+
 <p class = "text-center" style="font-size:30px;"><a href="https://learn.business-science.io/30day-data-scientist-course-waitlist-1393">Join the Course Waitlist Here</a></p>
