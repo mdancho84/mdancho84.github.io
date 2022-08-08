@@ -20,7 +20,7 @@ During that round of interviews, one of my students, Justin, said, _"Everything 
 
 ### **I knew exactly how he felt.**
 
-I remembered becoming a data scientist consultant and having to figure out "the hard way" about how to land clients.
+I remembered becoming a data scientist consultant and having to figure out how to land clients. And getting frustrated when they wouldn't see my value. 
 
 And, then after getting an MBA and eventually starting my e-learning business. I felt unprepared because no one in my MBA taught me how to market my business services. So I spent years figuring that out too.
 
@@ -54,7 +54,7 @@ Over the past 6-months I created an underground group of students that I met wit
 
 They purchased a secret program that gave them access to my normal [5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series) where they learned all of the skills that they need to become a data scientist.
 
-And then I added one additional course, called **30-Day Data Scientist (not yet released)**, that taught them how to market themselves (with tricks, hacks, and tactics) to get a data science job as fast as possible.
+And then I added one additional course, called [**30-Day Data Scientist (not yet released)**](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393), that taught them how to market themselves (with tricks, hacks, and tactics) to get a data science job as fast as possible.
 
 ![](/assets/30_day_bundle-1.png)
 
@@ -72,13 +72,7 @@ But first let's talk about...
 
 # The 5 mistakes to avoid in the data science hiring process
 
-Avoid these 5 critical mistakes to help **speed up** the data science hiring process for you.
-
-1. **You are stepping on hiring-process landmines**
-2. **You are applying in quantity (apply for quality)**
-3. **You are skipping referrals**
-4. **Don't forget to come with THIS secret weapon (it will set you apart)**
-5. **You talked too much about data science**
+These 5 critical mistakes are holding you back. 
 
 **BONUS:** [Special surprise](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393) for R-users that would like help getting a data science job.
 
@@ -276,7 +270,7 @@ There's an art to creating the perfect pitch, and what I want to do is give you 
 
 One of my students landed a Senior Data Scientist position at a global airline company in under 4-months.
 
-The pitch deck was essential to passing her take-home project. The interviewers asked her if she previously worked in the airline industry. She did not. The pitch deck, her research, and how she conveyed herself as the solution to their problems was the key.
+**The pitch deck was essential to passing her take-home project.** The interviewers asked her if she previously worked in the airline industry. She did not. The pitch deck, her research, and how she conveyed herself as the solution to their problems was the key.
 
 OK, so onto the fifth and final mistake you are most likely making.
 
@@ -308,6 +302,6 @@ There you have it, the 5 biggest mistakes that you are making when trying to get
 
 ### Surprise! I'd like to help you.
 
-If you use R and you'd like even more help on how to get a data science job in under 30-Days, \[then I have a solution\](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393).
+If you use R and you'd like even more help on how to get a data science job in under 30-Days, [then I have a solution](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393).
 
 <p class = "text-center" style="font-size:30px;"><a href="https://learn.business-science.io/30day-data-scientist-course-waitlist-1393">Join the Course Waitlist Here</a></p>
