@@ -8,7 +8,7 @@ tags:
 - Learn-R
 - R
 title: The 5 Biggest Mistakes You're Making When Trying To Get A Data Science Job
-date: 2022-08-08 06:00:00 -0400
+date: 2022-08-09 06:00:00 -0400
 excerpt: ''
 image: "/assets/hiring_process_2.png"
 image_preview: "/assets/hiring_process_2.png"
@@ -92,7 +92,7 @@ Avoid these 5 critical mistakes to help **speed up** the data science hiring pro
 4. **Don't forget to come with THIS secret weapon (it will set you apart)**
 5. **You talked too much about data science**
 
-BONUS: Special surprise for R-users that would like help getting a data science job.
+**BONUS:** [Special surprise](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393) for R-users that would like help getting a data science job.
 
 # 1. You are stepping on hiring-process landmines
 
@@ -237,8 +237,8 @@ They aren't going to refer you if they don't know you. So how do you get them to
 
 Locate your target which is the data scientist on the team that can help refer you for the position. Then do one of 3 things:
 
-1. **One way is direct messaging on LinkedIn.** You can reach out to them. Direct message them. Build a relationship over time. 
-2. **Another way is indirectly.** You can find a contact of a contact that you know, try to get them to persuade them via testimonial. This can be much faster. But you have to depend on your connections and hope that the target contact is persuaded to refer you. 
+1. **One way is direct messaging on LinkedIn.** You can reach out to them. Direct message them. Build a relationship over time.
+2. **Another way is indirectly.** You can find a contact of a contact that you know, try to get them to persuade them via testimonial. This can be much faster. But you have to depend on your connections and hope that the target contact is persuaded to refer you.
 
 ## How to come in referred?
 
@@ -266,47 +266,47 @@ Second, I made a simple slide deck that pitched myself as the solution to their 
 
 ### What does consulting have to do with getting a data science job?
 
-Every data science consulting gig I got started with an interview. I had to pull them in, show them my value, and convey that I was the solution to their problem. 
+Every data science consulting gig I got started with an interview. I had to pull them in, show them my value, and convey that I was the solution to their problem.
 
-If I did the interview well, then I got the job. Over time I learned that there are tricks that work better.  
+If I did the interview well, then I got the job. Over time I learned that there are tricks that work better.
 
 ### The trick to winning interviews.
 
-I'm going to let you in on a little secret that helped me win interview, after interview and knock down clients left and right. 
+I'm going to let you in on a little secret that helped me win interview, after interview and knock down clients left and right.
 
-**It's the pitch deck.** 
+**It's the pitch deck.**
 
 ![](/assets/pitch_deck_template.jpg)
 
 <p class="text-center date">The Pitch Deck</p>
 
-A pitch deck is a short slide deck that conveys the business problem, the solution, and why they should hire you to solve the problem. 
+A pitch deck is a short slide deck that conveys the business problem, the solution, and why they should hire you to solve the problem.
 
-There's an art to creating the perfect pitch, and what I want to do is give you some shortcuts. So what I'm going to do is expand on the pitch deck on [my course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393)  I'll cover how to gather information for the pitch deck and how to present it during the interview so it **distinguishes you from your competition.** Trust me, no one is doing this. 
+There's an art to creating the perfect pitch, and what I want to do is give you some shortcuts. So what I'm going to do is expand on the pitch deck on [my course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393)  I'll cover how to gather information for the pitch deck and how to present it during the interview so it **distinguishes you from your competition.** Trust me, no one is doing this.
 
 ### Does the pitch deck work?
 
-One of my students landed a Senior Data Scientist position at a global airline company in under 4-months. 
+One of my students landed a Senior Data Scientist position at a global airline company in under 4-months.
 
-The pitch deck was essential to passing her take-home project. The interviewers asked her if she previously worked in the airline industry. She did not. The pitch deck, her research, and how she conveyed herself as the solution to their problems was the key. 
+The pitch deck was essential to passing her take-home project. The interviewers asked her if she previously worked in the airline industry. She did not. The pitch deck, her research, and how she conveyed herself as the solution to their problems was the key.
 
-OK, so onto the fifth and final mistake you are most likely making. 
+OK, so onto the fifth and final mistake you are most likely making.
 
 # 5. You talked too much about data science
 
-You're probably thinking, I'm going to go in there and wow them with data science. While data science is very important, it's not actually what businesses want. 
+You're probably thinking, I'm going to go in there and wow them with data science. While data science is very important, it's not actually what businesses want.
 
 What they really want is to understand how you are going to help them **unlock Business Value.**
 
-### How to demonstrate business value?  
+### How to demonstrate business value?
 
-One of my students recently passed her second round of interviews with the Director of Analytics at a company she is interviewing with. 
+One of my students recently passed her second round of interviews with the Director of Analytics at a company she is interviewing with.
 
 ![](/assets/testimonial_bspf.jpg)
 
 ### What was the secret?
 
-Using a [Business Framework](https://www.business-science.io/bspf.html) that shows off your ability to think about the business problem, bring in the right people, focus on costs and KPIs (key performance indicators), and measure results. 
+Using a [Business Framework](https://www.business-science.io/bspf.html) that shows off your ability to think about the business problem, bring in the right people, focus on costs and KPIs (key performance indicators), and measure results.
 
 Here's what she used:
 
@@ -316,8 +316,8 @@ Here's what she used:
 
 # Conclusions
 
-There you have it, the 5 biggest mistakes that you are making when trying to get a data science job. I hope this helps you. 
+There you have it, the 5 biggest mistakes that you are making when trying to get a data science job. I hope this helps you.
 
-And if you'd like even more information on how to get a data science job in under 30-Days, [then I have a solution](So what I'm going to do is expand on the pitch deck on my course launch + career training event. ). 
+And if you'd like even more information on how to get a data science job in under 30-Days, \[then I have a solution\](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393).
 
 <p class = "text-center" style="font-size:30px;"><a href="https://learn.business-science.io/30day-data-scientist-course-waitlist-1393">Join the Course Waitlist Here</a></p>
