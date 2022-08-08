@@ -20,8 +20,6 @@ During that round of interviews, one of my students, Justin, said, _"Everything 
 
 ### **I set this aside chalking it up as just another course idea to add to the list.**
 
-Plus everyone had been asking me to make Python courses, so I was hell-bent on creating them (even though I not so secretly dislike python... R rules).
-
 But then 2-weeks later, at a birthday party for my niece, I was chatting with a family friend that is a Chiropractor. He had recently decided to open up his own practice and was having trouble getting clients. And costs for his business were stacking up.
 
 Me being an entrepreneur, I wanted to help. I asked what his main problem was.
@@ -32,7 +30,7 @@ He said, _"You know I went to school to become a Chiropractor. School teaches yo
 
 I remembered becoming a data scientist consultant and having to figure out "the hard way" about how to land clients.
 
-And, then after getting an MBA and eventually starting my e-learning business, that no one in my MBA ever taught me how to market my business services, so I spent years figuring that out too.
+And, then after getting an MBA and eventually starting my e-learning business. I felt unprepared because no one in my MBA taught me how to market my business services. So I spent years figuring that out too.
 
 And, so I gave him some strategies that I was using and now he's starting to get paying clients through the door. Sweet!
 
