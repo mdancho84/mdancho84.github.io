@@ -16,15 +16,7 @@ image_preview: "/assets/landmines.jpg"
 ---
 In November of 2021,  my marketing team and I had just completed a round of interviews meeting with different students. I do this every so often just to keep a pulse on my students and figure out what they needed to really become successful.
 
-During that round of interviews, one of my students, Justin, said, _"Everything we learn in your courses is great. BUT, we never learn how to actually get the data science job."_
-
-### **I set this aside chalking it up as just another course idea to add to the list.**
-
-But then 2-weeks later, at a birthday party for my niece, I was chatting with a family friend that is a Chiropractor. He had recently decided to open up his own practice and was having trouble getting clients. And costs for his business were stacking up.
-
-Me being an entrepreneur, I wanted to help. I asked what his main problem was.
-
-He said, _"You know I went to school to become a Chiropractor. School teaches you all of the skills needed to adjust someone's spine and help them get better. But never once did they teach me how to actually open up a chiropractor practice and market my business."_
+During that round of interviews, one of my students, Justin, said, _"Everything we learn in your program is great. BUT, we never learn how to actually get the data science job."_
 
 ### **I knew exactly how he felt.**
 
@@ -32,11 +24,9 @@ I remembered becoming a data scientist consultant and having to figure out "the 
 
 And, then after getting an MBA and eventually starting my e-learning business. I felt unprepared because no one in my MBA taught me how to market my business services. So I spent years figuring that out too.
 
-And, so I gave him some strategies that I was using and now he's starting to get paying clients through the door. Sweet!
+### So what does this have to do with the data science hiring process?
 
-# So what does this have to do with the data science hiring process?
-
-Well, that night I thought about Justin, the student that just a couple weeks before said, _"we never learn how to actually get the data science job \[in your or anyone else's data science program\]."_
+Well, that night I couldn't stop thinking about what Justin said... _"We never learn how to actually get the data science job \[in your or anyone else's data science program\]."_
 
 ### And that's when I knew I had to create it.
 
