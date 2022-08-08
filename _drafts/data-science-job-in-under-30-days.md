@@ -42,7 +42,9 @@ Well, that night I thought about Justin, the student that just a couple weeks be
 
 ### And that's when I knew I had to create it.
 
-My marketing team and I agreed that we would create a "quick course" on how to get a job. Maybe spend a couple of weeks on it. You know, because getting a job is pretty straight-forward, right?
+My marketing team and I agreed that we would create a "quick course" on how to get a job. Maybe spend a couple of weeks on it. 
+
+Because getting a data science job is pretty straight-forward, right?
 
 ### **Wrong!**
 
@@ -65,6 +67,10 @@ Over the past 6-months I created an underground group of students that I met wit
 They purchased a secret program that gave them access to my normal [5-Course R-Track Program](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series) where they learned all of the skills that they need to become a data scientist.
 
 And then I added one additional course, called **30-Day Data Scientist**, that taught them how to market themselves (with tricks, hacks, and tactics) to get a data science job as fast as possible.
+
+![](/assets/30_day_bundle.png)
+
+<p class="text-center date">My experimental course</p>
 
 ### And what's crazy is it worked.
 
