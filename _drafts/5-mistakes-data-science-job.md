@@ -116,7 +116,7 @@ To make matters worse, you have rent, bills to pay, food and gas, plus inflation
 
 ### So what missteps are you making that's costing you time & money?
 
-The next 4 mistakes are the most common missteps in the data science hiring process. 
+The next 4 mistakes are the most common missteps in the data science hiring process.
 
 # 2. You're applying in quantity (apply for quality)
 
@@ -144,11 +144,11 @@ It's because they get help from an automated system called the ATS.
 
 ### 90% of Fortune 500 Companies Use A Program That Auto-Scraps Your Resumes
 
-[According to this article](https://medium.com/swlh/90-of-fortune-500-companies-use-an-applicant-tracking-system-whats-it-5a6b6d25e5e7), 90% of Fortune 500 Companies are using an Applicant Tracking System or ATS. 
+[According to this article](https://medium.com/swlh/90-of-fortune-500-companies-use-an-applicant-tracking-system-whats-it-5a6b6d25e5e7), 90% of Fortune 500 Companies are using an Applicant Tracking System or ATS.
 
 This means that companies like S&P Global, Apple, Google, Walmart, United Health, and basically all of **the Fortune 500 companies get so many resumes** that it's impossible to review all of them.
 
-So they get help from the "ATS" Program. 
+So they get help from the "ATS" Program.
 
 ATS stands for "Applicant Tracking System", and it's an automated program that compares your resume to the job description.
 
@@ -182,7 +182,7 @@ Absolutely. It works so well that one of my students participating in my undergr
 
 The problem was that she thought she was applying to an entry-level position ($100,000 base salary).
 
-### She made it 90% of the way through the interview for a position she was unqualified for. 
+### She made it 90% of the way through the interview for a position she was unqualified for.
 
 Here's why this is so amazing:
 
@@ -201,7 +201,7 @@ By this point our cohort was in disbelief as she was telling us this story.
 
 <p class="text-center date">We couldn't believe what we were hearing. She literally made it 95% through the interview.</p>
 
-So yes, the tools I'm talking about work. 
+So yes, the tools I'm talking about work.
 
 ### How do you get your hands on the Resume Analyzer App?
 
@@ -217,7 +217,7 @@ I'm going to share how the app works (live demo) on [my course launch + career t
 
 99% of job applicants **apply online** and hope their resume get's picked for an interview. It might surprise you, but...
 
-### You have less than a 1% chance of getting an interview this way
+### You have less than a 1% chance of getting an interview this way.
 
 A better way is to **come in referred.** A referral is when a contact that already works at the company gives your resume and a testimonial to the hiring manager.
 
@@ -225,28 +225,26 @@ Most companies have a referral program where the referrer gets compensated $5,00
 
 And...
 
-### There is a 99% chance you get an interview if you come in referred
+### There is a 99% chance you get an interview if you come in referred.
 
 So you'd better come in referred if you can.
 
 And why not? Referrers are incentivized to help you. But, there's a big problem.
 
-They aren't going to refer you if they don't know you.
-
-So how do you get them to know you and refer you?
+They aren't going to refer you if they don't know you. So how do you get them to know you and refer you?
 
 ### There are 2 ways to get referred
 
 Locate your target which is the data scientist on the team that can help refer you for the position. Then do one of 3 things:
 
-1. **One way is direct messaging on LinkedIn.** You can reach out to them. Direct message them.
-2. **Another way is indirectly.** You can find a contact of a contact that you know, try to get them to persuade them via testimonial.
+1. **One way is direct messaging on LinkedIn.** You can reach out to them. Direct message them. Build a relationship over time. 
+2. **Another way is indirectly.** You can find a contact of a contact that you know, try to get them to persuade them via testimonial. This can be much faster. But you have to depend on your connections and hope that the target contact is persuaded to refer you. 
 
-## How to come in referred. 
+## How to come in referred?
 
-Now, if you really want a referral, I will give advanced guidance on my upcoming [LIVE course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393) 
+Now, if you really want a referral, I will give advanced guidance on my upcoming [LIVE course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393)
 
-And, I'll show you how you can gain my testimonial and I'll actually go to bat for you like I've done for one of my students here. 
+And, I'll show you how you can gain my testimonial and I'll actually go to bat for you like I've done for one of my students here.
 
 ![](/assets/student_referral_annonymized.jpg)
 
@@ -254,18 +252,72 @@ And, I'll show you how you can gain my testimonial and I'll actually go to bat f
 
 ### Once you're referred, you're in right?
 
-Well sort of. You have a 99% chance of getting an interview. 
+Well sort of. You have a 99% chance of getting an interview.
 
-But you still have to pass the interview, which is why I'm going to share the next 2 missteps that you are more than likely going to make. 
+**But you still have to pass the interview**, which is why I'm going to share the next 2 missteps that you are more than likely going to make.
 
-# 4. You didn't come in with a pitch
+# 4. You didn't come in with a good pitch
 
-When I began consulting, I quickly realized that I needed to do 2 things in order to virtually lock in a client. 
+When I began consulting, I quickly realized that I needed to do 2 things in order to virtually lock in a client.
 
-First, I needed to come prepared. I did research on the company. I asked questions to my contacts and anyone they could point me to. And I knew their problems better than the company did. 
+First, I needed to come prepared. I did research on the company. I asked questions to my contacts and anyone they could point me to. And I knew their problems better than the company did.
 
-Second, I made a simple slide deck that pitched myself as the solution to their problems. 
+Second, I made a simple slide deck that pitched myself as the solution to their problems.
+
+### What does consulting have to do with getting a data science job?
+
+Every data science consulting gig I got started with an interview. I had to pull them in, show them my value, and convey that I was the solution to their problem. 
+
+If I did the interview well, then I got the job. Over time I learned that there are tricks that work better.  
+
+### The trick to winning interviews.
+
+I'm going to let you in on a little secret that helped me win interview, after interview and knock down clients left and right. 
+
+**It's the pitch deck.** 
+
+![](/assets/pitch_deck_template.jpg)
+
+<p class="text-center date">The Pitch Deck</p>
+
+A pitch deck is a short slide deck that conveys the business problem, the solution, and why they should hire you to solve the problem. 
+
+There's an art to creating the perfect pitch, and what I want to do is give you some shortcuts. So what I'm going to do is expand on the pitch deck on [my course launch + career training event.](https://learn.business-science.io/30day-data-scientist-course-waitlist-1393)  I'll cover how to gather information for the pitch deck and how to present it during the interview so it **distinguishes you from your competition.** Trust me, no one is doing this. 
+
+### Does the pitch deck work?
+
+One of my students landed a Senior Data Scientist position at a global airline company in under 4-months. 
+
+The pitch deck was essential to passing her take-home project. The interviewers asked her if she previously worked in the airline industry. She did not. The pitch deck, her research, and how she conveyed herself as the solution to their problems was the key. 
+
+OK, so onto the fifth and final mistake you are most likely making. 
 
 # 5. You talked too much about data science
 
-The big mistake
+You're probably thinking, I'm going to go in there and wow them with data science. While data science is very important, it's not actually what businesses want. 
+
+What they really want is to understand how you are going to help them **unlock Business Value.**
+
+### How to demonstrate business value?  
+
+One of my students recently passed her second round of interviews with the Director of Analytics at a company she is interviewing with. 
+
+![](/assets/testimonial_bspf.jpg)
+
+### What was the secret?
+
+Using a [Business Framework](https://www.business-science.io/bspf.html) that shows off your ability to think about the business problem, bring in the right people, focus on costs and KPIs (key performance indicators), and measure results. 
+
+Here's what she used:
+
+![](/assets/cheatsheets/bspf.png)
+
+<p class="text-center date">The Business Problem Solving Framework</p>
+
+# Conclusions
+
+There you have it, the 5 biggest mistakes that you are making when trying to get a data science job. I hope this helps you. 
+
+And if you'd like even more information on how to get a data science job in under 30-Days, [then I have a solution](So what I'm going to do is expand on the pitch deck on my course launch + career training event. ). 
+
+<p class = "text-center" style="font-size:30px;"><a href="https://learn.business-science.io/30day-data-scientist-course-waitlist-1393">Join the Course Waitlist Here</a></p>
