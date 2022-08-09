@@ -8,7 +8,7 @@ tags:
 - Learn-R
 - R
 title: The 5 Biggest Mistakes You're Making When Trying To Get A Data Science Job
-date: 2022-08-09 06:00:00 -0400
+date: 2022-08-17 06:00:00 -0400
 excerpt: ''
 image: "/assets/landmines.jpg"
 image_preview: "/assets/landmines.jpg"
