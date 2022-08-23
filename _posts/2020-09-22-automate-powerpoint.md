@@ -1,47 +1,53 @@
 ---
 layout: post
-title: "How to Automate PowerPoint Slidedecks with R"
-date:   2020-09-22 06:00:00
-excerpt: "Here's a common situation, you have to make a Monday Morning Slide Deck. It's the same deck each week, just date ranges for your data change. Here's how to automate this process with R!"
-author: "Matt Dancho"
-categories: [Code-Tools]
-tags: [R-Bloggers, Learn-R, R, R-Tips]
-image: /assets/2020-09-22-automate-powerpoint/automate-powerpoint-cover.jpeg
-image_preview: /assets/2020-09-22-automate-powerpoint/automate-powerpoint-preview.jpeg
+title: How to Automate PowerPoint Slidedecks with R
+date: 2020-09-22T06:00:00.000+00:00
+excerpt: Here's a common situation, you have to make a Monday Morning Slide Deck.
+  It's the same deck each week, just date ranges for your data change. Here's how
+  to automate this process with R!
+author: Matt Dancho
+categories:
+- Code-Tools
+tags:
+- R-Bloggers
+- Learn-R
+- R
+- R-Tips
+image: "/assets/rtip_powerpoint_r.jpg"
+image_preview: "/assets/rtip_powerpoint_r.jpg"
+
 ---
+Your boss lives on PowerPoint decks. Do you need to create a Slide Deck every week? Let's learn how to **automate PowerPoint** with R, using `officer` and `tidyverse`.
 
+# R-Tips Weekly
 
-This article is part of a R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
+This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks. Pretty cool, right?
 
+<p>Here are the links to get set up. 👇</p>
 
-Your boss lives on PowerPoint decks. Do you need to create a Slide Deck every week? 
+<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/JJ5Ltw4PDn4">YouTube Tutorial</a></li> </ul>
 
-Let's learn how to automate PowerPoint with R, using `officer` and `tidyverse`. 
+# Video Tutorial
 
-- [Get the Code](https://learn.business-science.io/r-tips-newsletter)
-- [YouTube Tutorial](https://youtu.be/JJ5Ltw4PDn4)
+I have a companion video tutorial that shows even more secrets (plus mistakes to avoid).
 
-<figure class="text-center">
-  <a href="https://youtu.be/JJ5Ltw4PDn4"><img src="/assets/2020-09-22-automate-powerpoint/video_thumb.jpg" border="0" /></a>
-  <figcaption>(Click image to play video)</figcaption>
-</figure>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/JJ5Ltw4PDn4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<br>
+# Automate PowerPoint with R
 
 Here's a common situation, you have to make a **Monday Morning Slide Deck**. It's the same deck each week, just date ranges for your data change. Here's how to automate this process with R!
 
-First, here's what you need to make - **A weekly Stock Report**. 
-
+First, here's what you need to make - **A weekly Stock Report**.
 
 ![Weekly Stock Report](/assets/2020-09-22-automate-powerpoint/weekly-stock-report.jpg)
 
 <br>
 
-Thinking like a programmer, you can **collect your stock data using date ranges**. 
+Thinking like a programmer, you can **collect your stock data using date ranges**.
 
 ![Stock Data Using Date Ranges](/assets/2020-09-22-automate-powerpoint/stock-data-using-date-ranges.jpg)
 
-With a little bit of data wrangling with the `tidyverse`, you've got your table extracted & formatted! 
+With a little bit of data wrangling with the `tidyverse`, you've got your table extracted & formatted!
 
 ![Tidyverse Wrangling](/assets/2020-09-22-automate-powerpoint/tidyverse-wrangling-1.jpg)
 
@@ -49,7 +55,7 @@ With a little bit of data wrangling with the `tidyverse`, you've got your table 
 
 <br>
 
-Then you use `timetk` to make a sweet plot. 
+Then you use `timetk` to make a sweet plot.
 
 ![Timetk package](/assets/2020-09-22-automate-powerpoint/timetk-1.jpg)
 
@@ -59,29 +65,48 @@ Then you use `timetk` to make a sweet plot.
 
 <br>
 
-Then you use `officer` to add the table and plot to powerpoint. 
+Then you use `officer` to add the table and plot to powerpoint.
 
 ![Officer R package](/assets/2020-09-22-automate-powerpoint/officer-powerpoint.jpg)
 
-
-
 You've just **automated your Monday Morning PowerPoint in R**. BOOM! 💥💥💥
 
-![Boom](/assets/2020-09-22-automate-powerpoint/boom.gif)
-
-
-<br>
-
-### SETUP R-TIPS WEEKLY PROJECT
-
-1. [Get the Code](https://learn.business-science.io/r-tips-newsletter)
-
-2. Check out the [R-Tips Setup Video](https://youtu.be/F7aYV0RPyD0).
-
-Once you take these actions, you'll be set up to receive R-Tips with Code every week. =)
+![Weekly Stock Report](/assets/2020-09-22-automate-powerpoint/weekly-stock-report.jpg)
 
 <br>
 
-{% include cta_rtrack.html %}
+### 💡 Conclusions
+
+You learned how to automate PowerPoint with R. Great work! **But, there's a lot more to becoming a Business Scientist (my term for an incredibly valuable data scientist that has business skills).**
+
+If you'd like to become a Business Scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
+
+## Step 1: Watch my Free 40-Minute Webinar
+
+Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.**
+
+AND, I don't want it to take that long for you.
+
+So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://learn.business-science.io/free-rtrack-masterclass-signup) that provides a roadmap for what worked for me.
+
+Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
+
+## Step 2: Take action
+
+For my action-takers, if you are ready to become a Business Scientist, then read on.
+
+If you need take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), AND you'd like someone to help you do this in UNDER  6-MONTHS or less....
+
+**Then I can help with that too.**
+
+## Surprise!
+
+There's a link in the [**FREE 40-minute webinar**](https://learn.business-science.io/free-rtrack-masterclass-signup) to that will give you everything you need to become a data scientist with me in your corner.
+
+Get ready. The ride is wild. And the destination is AMAZING!
+
+![](/assets/rtrack_what_they_are_doing.jpeg)
+
+<p style="font-size: 36px;text-align: center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar <br>(become a 6-figure data scientist)</a></p>
 
 {% include top_rtips.html %}
