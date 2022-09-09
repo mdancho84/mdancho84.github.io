@@ -1,15 +1,18 @@
 ---
 layout: post
-title: "ggside: Plot Linear Regression using Marginal Distributions (ggplot2 extension)"
-date:   2021-05-18 06:30:00
-excerpt: "Marginal distributions can now be made in R using ggside, a new ggplot2 extension."
-author: "Matt Dancho"
-categories: [Code-Tools]
-tags: [R-Bloggers, Learn-R]
+title: 'ggside: Make joint side-plots in R with ggplot2'
+date: 2021-05-18T06:30:00.000+00:00
+excerpt: Marginal distributions can now be made in R using ggside, a new ggplot2 extension.
+author: Matt Dancho
+categories:
+- Code-Tools
+tags:
+- R-Bloggers
+- Learn-R
 image: "/assets/2021-05-18-marginal_distributions/cover_image.JPG"
 image_preview: "/assets/2021-05-18-marginal_distributions/cover_image.JPG"
----
 
+---
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.
 
 <br/>
