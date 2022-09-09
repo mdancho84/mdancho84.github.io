@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ggside: A new R package for plotting joint side-plots'
+title: 'ggside: A new R package for plotting distributions in side-plots'
 date: 2021-05-18T06:30:00.000+00:00
 excerpt: Marginal distributions can now be made in R using ggside, a new ggplot2 extension.
 author: Matt Dancho
@@ -30,9 +30,9 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 I have a companion video tutorial that shows even more secrets (plus mistakes to avoid).  And, I'm finding that a lot of my students prefer the dialogue that goes along with coding. So check out this video to see me running the code in this tutorial. 👇
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/uojdfPZZBUE" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class = "shadow" width="100%" height="450" src="https://www.youtube.com/embed/uojdfPZZBUE" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p class="text-center date">Watch the 5-minute tutorial on YouTube</p>
+<p class="text-center date">Watch my 5-minute tutorial on YouTube</p>
 
 # What are Marginal Distributions?
 
