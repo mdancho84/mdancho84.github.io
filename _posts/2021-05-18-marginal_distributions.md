@@ -148,15 +148,9 @@ The second plot you'll make...
 
 <img src="/assets/2021-05-18-marginal_distributions/fuel_engine_2.jpg" style='max-width:100%;'>
 
-<h1>Amazing. ggside just works.</h1>
-
-<p><strong>Congrats. You just quickly made two report-quality plots with ggplot2 and ggside. Excellent work.</strong> </p>
-
-<img src="/assets/2021-05-18-marginal_distributions/meme.gif" style='max-width:100%;'>
-
 # 💡 Conclusions
 
-You learned how to use `ggside`. Great work! But, there's **a lot more** to becoming a Business Scientist (my term for an incredibly valuable data scientist that has _business problem-solving skills_).
+You learned how to use `ggside`. Great work! **But, there's a lot more to becoming a Business Scientist (my term for an incredibly valuable data scientist that has _business problem-solving skills_).**
 
 If you'd like to become a **Business Scientist**... 
 
@@ -171,6 +165,8 @@ Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS t
 AND, I don't want it to take that long for you.
 
 So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://learn.business-science.io/free-rtrack-masterclass-signup) that provides a roadmap for what worked for me.
+
+![](/assets/free_rtrack_masterclass.jpg)
 
 Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
 
