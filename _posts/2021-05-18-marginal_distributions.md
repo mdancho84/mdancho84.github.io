@@ -9,8 +9,8 @@ categories:
 tags:
 - R-Bloggers
 - Learn-R
-image: "/assets/r_tip_ggside_thumb.jpg"
-image_preview: "/assets/r_tip_ggside_thumb.jpg"
+image: "/assets/ggside_img.jpg"
+image_preview: "/assets/ggside_img.jpg"
 
 ---
 I fell in love with a new ggplot2 extension. It made my life much simpler to help me uncover relationships in my complex business data. `ggside` is a new R package uses "marginal distribution plots", which are the density side-plot panels to the top and right of scatter (made popular by the Python Seaborn package). Let's get you up and running with `ggside` in under 5-minutes with this quick R-Tip.
@@ -160,7 +160,7 @@ With an awesome 6-figure data science career, improved quality of life, a fulfil
 
 Here are your next 2 steps...
 
-## Step 1: Watch My Free 40-Minute Webinar
+# Step 1: Watch My Free 40-Minute Webinar
 
 Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.**
 
@@ -174,7 +174,7 @@ So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://learn.
 
 Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
 
-## Step 2: Take Action
+# Step 2: Take Control Of Your Career
 
 For my action-takers, if you are ready to become a Business Scientist, then read on.
 
