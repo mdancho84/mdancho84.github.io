@@ -58,15 +58,15 @@ One of two plots we're making today.</figcaption>
 
 <p>Here are <strong>two examples</strong> of what you will do in this tutorial! 👇</p>
 
-<h3>Plot 1:</h3>
+<h3>Plot 1: Linear Regression with Marginal Distribution (Density) Side-Plots (Top and Left)</h3>
 
-<p>Linear Regression with Marginal Distribution (Density) Side-Plots (Top and Left)</p>
+The first plot you'll make...
 
 <img src="/assets/2021-05-18-marginal_distributions/fuel_vehicle.jpg" style='max-width:100%;'>
 
-<h3>Plot 2:</h3>
+<h3>Plot 2: Facet-Plot with Marginal Box Plots (Top)</h3>
 
-<p>Facet-Plot with Marginal Box Plots (Top)</p>
+The second plot you'll make...
 
 <img src="/assets/2021-05-18-marginal_distributions/fuel_engine.jpg" style='max-width:100%;'>
 
@@ -84,7 +84,7 @@ One of two plots we're making today.</figcaption>
 
 <a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-05-18-marginal_distributions/cheat_sheet.jpg" style='max-width:100%;'></a>
 
-## Start By Loading The Libraries & Data
+# Start By Loading The Libraries & Data
 
 <p>The libraries we'll need today are patchwork, ggridges, ggrepel, maps, tidyverse, and lubridate. All packages are available on CRAN and can be installed with <code>install.packages()</code>. Note - I'm using the development version of <code>ggside</code>, which is what I recommend in the <a href="https://youtu.be/uojdfPZZBUE">YouTube Video </a>. </p>
 
@@ -94,7 +94,7 @@ One of two plots we're making today.</figcaption>
 
 <img src="/assets/2021-05-18-marginal_distributions/mpg.jpg" style='max-width:100%;'>
 
-## Plot 1: Linear Regression with Marginal Distribution Plot
+# Plot 1: Linear Regression with Marginal Distribution Plot
 
 <p>We'll start by replicating what you can do in <strong>Python's Seaborn jointdist() Plot</strong>. We'll accomplish this with <code>ggside::geom_xsidedensity()</code> </p>
 
@@ -133,7 +133,7 @@ One of two plots we're making today.</figcaption>
 
 <img src="/assets/2021-05-18-marginal_distributions/fuel_vehicle_2.jpg" style='max-width:100%;'>
 
-## Plot 2. Faceted Side-Panels
+# Plot 2. Faceted Side-Panels
 
 <p>Next, let's try out some advanced functionality. I want to see how ggside handles faceted plots, which are subplots that vary based on a categorical feature. We'll use the "cyl" column to facet, which is for engine size (number of cylinders). </p>
 
