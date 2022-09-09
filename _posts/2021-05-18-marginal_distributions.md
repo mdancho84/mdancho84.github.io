@@ -13,7 +13,7 @@ image: "/assets/r_tip_ggside_thumb.jpg"
 image_preview: "/assets/r_tip_ggside_thumb.jpg"
 
 ---
-I fell in love with a new ggplot2 extension. It made my life much simpler to help me uncover relationships in my complex business data. `ggside` is a new R package uses "marginal distribution plots", which are the density side-plot panels to the top and right of scatter (made popular by the Python Seaborn package). Let's get you up and running with `ggside` in under 5-minutes with this quick R-Tip.  
+I fell in love with a new ggplot2 extension. It made my life much simpler to help me uncover relationships in my complex business data. `ggside` is a new R package uses "marginal distribution plots", which are the density side-plot panels to the top and right of scatter (made popular by the Python Seaborn package). Let's get you up and running with `ggside` in under 5-minutes with this quick R-Tip.
 
 # R-Tips Weekly Newsletter
 
@@ -90,6 +90,8 @@ The second plot you'll make...
 
 <img src="/assets/2021-05-18-marginal_distributions/libraries.jpg" style='max-width:100%;'>
 
+<p class="date text-center"> <a href="https://learn.business-science.io/r-tips-newsletter"> Get the Code </a></p>
+
 <p>The dataset is the mpg data that comes with ggplot2.</p>
 
 <img src="/assets/2021-05-18-marginal_distributions/mpg.jpg" style='max-width:100%;'>
@@ -152,7 +154,7 @@ The second plot you'll make...
 
 You learned how to use `ggside`. Great work! **But, there's a lot more to becoming a Business Scientist (my term for an incredibly valuable data scientist that has _business problem-solving skills_).**
 
-If you'd like to become a **Business Scientist**... 
+If you'd like to become a **Business Scientist**...
 
 With an awesome 6-figure data science career, improved quality of life, a fulfilling job that helps your business, and all the fun that comes along with a career that gives you the freedom to be creative and a problem solver in industry, **then I would love to help you.**
 
@@ -180,14 +182,14 @@ If you need take your skills to the next level and DON'T want to wait 5-years to
 
 ## **Then I can help with that too.**
 
-I have a program that has helped over 3,000 students become data scientists in business with the R programming language. [Don't believe me? Read these testimonials.](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series) 
+I have a program that has helped over 3,000 students become data scientists in business with the R programming language. [Don't believe me? Read these testimonials.](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series)
 
 My students have gotten:
 
 * 6-Figure Data Science Jobs ($100,000+)
 * Senior VP of Analytics ($200,000+)
 * Lead Data Scientist Jobs ($175,000+)
-* Raises and Career Promotions of 25% to 50% 
+* Raises and Career Promotions of 25% to 50%
 
 All by learning data science for business with R. Get ready. The ride is wild. And the destination is AMAZING!
 
