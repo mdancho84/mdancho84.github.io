@@ -156,7 +156,7 @@ If you'd like to become a **Business Scientist**...
 
 With an awesome 6-figure data science career, improved quality of life, a fulfilling job that helps your business, and all the fun that comes along with a career that gives you the freedom to be creative and a problem solver in industry, **then I would love to help you.**
 
-Here's your next steps...
+Here are your next 2 steps...
 
 ## Step 1: Watch My Free 40-Minute Webinar
 
@@ -168,6 +168,8 @@ So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://learn.
 
 ![](/assets/free_rtrack_masterclass.jpg)
 
+<p style="font-size: 36px;text-align: center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar <br>(The Roadmap to a 6-Figure Data Scientist Career)</a></p>
+
 Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
 
 ## Step 2: Take Action
@@ -178,10 +180,17 @@ If you need take your skills to the next level and DON'T want to wait 5-years to
 
 ## **Then I can help with that too.**
 
-There's a link in the [**FREE 40-minute webinar**](https://learn.business-science.io/free-rtrack-masterclass-signup) to that will give you everything you need to become a data scientist with me in your corner.
+I have a program that has helped over 3,000 students become data scientists in business with the R programming language. [Don't believe me? Read these testimonials.](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series) 
 
-Get ready. The ride is wild. And the destination is AMAZING!
+My students have gotten:
+
+* 6-Figure Data Science Jobs ($100,000+)
+* Senior VP of Analytics ($200,000+)
+* Lead Data Scientist Jobs ($175,000+)
+* Raises and Career Promotions of 25% to 50% 
+
+All by learning data science for business with R. Get ready. The ride is wild. And the destination is AMAZING!
 
 ![](/assets/rtrack_what_they_are_doing.jpeg)
 
-<p style="font-size: 36px;text-align: center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar <br>(become a 6-figure data scientist)</a></p>
+<p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(become a 6-figure data scientist)</a></p>
