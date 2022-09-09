@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'ggside: Make joint side-plots in R with ggplot2'
+title: 'ggside: A new R package for plotting joint side-plots'
 date: 2021-05-18T06:30:00.000+00:00
 excerpt: Marginal distributions can now be made in R using ggside, a new ggplot2 extension.
 author: Matt Dancho
