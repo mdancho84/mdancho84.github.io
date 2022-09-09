@@ -195,4 +195,4 @@ All by learning data science for business with R. Get ready. The ride is wild. A
 
 ![](/assets/rtrack_what_they_are_doing.jpeg)
 
-<p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(become a 6-figure data scientist)</a></p>
+<p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(Become A 6-Figure Data Scientist)</a></p>
