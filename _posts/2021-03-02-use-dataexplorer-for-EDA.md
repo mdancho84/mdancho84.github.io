@@ -16,9 +16,7 @@ image: "/assets/dataexplorer_plot_logo.jpg"
 image_preview: "/assets/dataexplorer_plot_logo.jpg"
 
 ---
-Did you know that **80% of data science** is spent _cleaning & preparing_ data for analysis? Yep, that's right! _NOT_ modeling (the fun stuff). This process is called Exploratory Data Analysis (EDA).
-
-R has an excellent Exploratory Data Analysis solution: It's called `DataExplorer​`. And I'm going to get you up and running with `DataExplorer` in under 5-minutes. Here's what you learn in this R-Tip:
+Did you know that **80% of data science** is spent _cleaning & preparing_ data for analysis? Yep, that's right! _NOT_ modeling (the fun stuff). This process is called Exploratory Data Analysis (EDA). R has an excellent Exploratory Data Analysis solution that is almost guaranteed to speed up your exploratory analysis 10X: It's called `DataExplorer​`. And I'm going to get you up and running with `DataExplorer` in under 5-minutes. Here's what you learn in this R-Tip:
 
 1. **How to make an Automatic EDA Report in seconds with `DataExplorer`**
 2. **BONUS: How to use the 7 most important EDA Plots to get exploratory insights.**
