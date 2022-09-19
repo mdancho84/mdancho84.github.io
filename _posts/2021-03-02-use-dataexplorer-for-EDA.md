@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exploratory Data Analysis in R with DataExplorer
+title: 'DataExplorer: Exploratory Data Analysis in R'
 date: 2021-03-02T02:00:00.000-05:00
 excerpt: Did you know most Data Scientists spend 80% of their time just trying to
   understand and prepare data for analysis? R has an Insane Exploratory Data Analysis
@@ -12,8 +12,8 @@ tags:
 - R-Bloggers
 - Learn-R
 - DataExplorer
-image: "/assets/dataexplorer_thumbnail_2.jpg"
-image_preview: "/assets/dataexplorer_thumbnail_2.jpg"
+image: "/assets/dataexplorer_plot_logo.jpg"
+image_preview: "/assets/dataexplorer_plot_logo.jpg"
 
 ---
 Did you know that **80% of data science** is spent _cleaning & preparing_ data for analysis? Yep, that's right! _NOT_ modeling (the fun stuff). This process is called Exploratory Data Analysis (EDA). 
