@@ -12,13 +12,13 @@ tags:
 - R-Bloggers
 - Learn-R
 - DataExplorer
-image: "/assets/dataexplorer_thumb.jpg"
-image_preview: "/assets/dataexplorer_thumb.jpg"
+image: "/assets/dataexplorer_thumbnail_2.jpg"
+image_preview: "/assets/dataexplorer_thumbnail_2.jpg"
 
 ---
 **Data Scientists spend 80% of their time** just trying to understand and prepare data for analysis! This process is called Exploratory Data Analysis (EDA). R has an excellent EDA​ productivity-enhancer: It's called `DataExplorer​`. And I'm going to get you up and running with `DataExplorer` in under 5-minutes (here's what you learn):
 
-1. How to make an Automatic EDA Report in seconds with DataExplorer.
+1. How to make an Automatic EDA Report in seconds with `DataExplorer`
 2. **BONUS: How to use the 7 most important EDA Plots to get exploratory insights.**
 
 # R-Tips Weekly
