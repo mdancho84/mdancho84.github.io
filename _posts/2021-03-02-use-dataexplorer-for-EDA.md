@@ -16,9 +16,11 @@ image: "/assets/dataexplorer_thumbnail_2.jpg"
 image_preview: "/assets/dataexplorer_thumbnail_2.jpg"
 
 ---
-**Data Scientists spend 80% of their time** just trying to understand and prepare data for analysis! This process is called Exploratory Data Analysis (EDA). R has an excellent EDA​ productivity-enhancer: It's called `DataExplorer​`. And I'm going to get you up and running with `DataExplorer` in under 5-minutes (here's what you learn):
+Did you know that **80% of data science** is spent _cleaning & preparing_ data for analysis? Yep, that's right! _NOT_ modeling (the fun stuff). This process is called Exploratory Data Analysis (EDA). 
 
-1. How to make an Automatic EDA Report in seconds with `DataExplorer`
+R has an excellent Exploratory Data Analysis solution: It's called `DataExplorer​`. And I'm going to get you up and running with `DataExplorer` in under 5-minutes. Here's what you learn in this R-Tip:
+
+1. **How to make an Automatic EDA Report in seconds with `DataExplorer`**
 2. **BONUS: How to use the 7 most important EDA Plots to get exploratory insights.**
 
 # R-Tips Weekly
@@ -99,9 +101,7 @@ The report is great, but the next thing you're probably wondering is how the hec
 
 # BONUS: How to use the 7 Most Important DataExplorer Plots
 
-As an extra special bonus, I figured I'd teach you not only how to make the report BUT how to use the report too. I know, I'm too kind.
-
-Here's how to get the most out of your automatic EDA report. If you'd like the code to produce the individual plots, simply sign up for our [free R-tips codebase](https://learn.business-science.io/r-tips-newsletter).
+As an extra special bonus, I figured I'd teach you not only how to make the report BUT how to use the report too. Here's how to get the most out of your automatic EDA report. If you'd like to **get the code to produce the individual plots**, just [sign up for my FREE R-tips codebase](https://learn.business-science.io/r-tips-newsletter). You'll get all the code sent to your email plus more R-Tips every week. 
 
 ## 1. Basic Statistics
 
