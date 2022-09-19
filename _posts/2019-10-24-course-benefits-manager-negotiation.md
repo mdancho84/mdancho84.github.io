@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To Sell Your Manager On A Data Science Course Purchase
+title: How To Get My Company To Pay For My Data Science Courses
 date: 2020-09-07T08:00:00.000+00:00
 excerpt: ''
 author: Matt Dancho
