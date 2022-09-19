@@ -151,7 +151,7 @@ You learned how to use the `ggdensity` library to create high-density regions th
 
 If you'd like to become a Business Scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
-## Step 1: Watch my Free 40-Minute Webinar
+## Step 1: Watch My Free 40-Minute Webinar
 
 Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.**
 
@@ -159,24 +159,31 @@ AND, I don't want it to take that long for you.
 
 So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://learn.business-science.io/free-rtrack-masterclass-signup) that provides a roadmap for what worked for me.
 
+![](/assets/free_rtrack_masterclass.jpg)
+
+<p style="font-size: 36px;text-align: center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar <br>(The Roadmap to a 6-Figure Data Scientist Career)</a></p>
+
 Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
 
-## Step 2: Take action
+# Step 2: Take Control Of Your Career
 
 For my action-takers, if you are ready to become a Business Scientist, then read on.
 
-If you need take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), AND you'd like someone to help you do this in UNDER  6-MONTHS or less....
+If you need take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), AND you'd like someone to help guide you how to do this in UNDER  6-MONTHS or less....
 
-**Then I can help with that too.**
+## **Then I can help with that too.**
 
-## Surprise!
+I have a program that has helped over 3,000 students become data scientists in business with the R programming language. [Don't believe me? Read these testimonials.](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series)
 
-There's a link in the [**FREE 40-minute webinar**](https://learn.business-science.io/free-rtrack-masterclass-signup) for a **special price (because you are special!)** and taking that action will kickstart your journey with me in your corner.
+My students have gotten:
 
-Get ready. The ride is wild. And the destination is AMAZING!
+* 6-Figure Data Science Jobs ($100,000+)
+* Senior VP of Analytics ($200,000+)
+* Lead Data Scientist Jobs ($175,000+)
+* Raises and Career Promotions of 25% to 50%
 
-![](/assets/rtrack_what_they_are_doing.jpeg)
+All by learning data science for business with R. Get ready. The ride is wild. And the destination is AMAZING!
 
-<p style="font-size: 36px;text-align: center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar (become a 6-figure data scientist)</a></p>
+![](/assets/rtrack_what_theyre_doing_3.jpg)
 
-{% include top_rtips.html %}
+<p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(Become A 6-Figure Data Scientist)</a></p>
