@@ -70,6 +70,10 @@ The second plot you'll make...
 
 <img src="/assets/2021-05-18-marginal_distributions/fuel_engine.jpg" style='max-width:100%;'>
 
+# Thank You Developers
+
+I want to thank [jtlandis](https://github.com/jtlandis) for his amazing software contribution. JT is a data scientist at the University of North Carolina at Chapel Hill and and R Developer who created `ggside`. Thank you for all you do!
+
 # Before we get started, get the Cheat Sheet
 
 <p><code>ggside</code> is great for making marginal distribution side plots. But, you'll still need to learn how to visualize data with ggplot2. For those topics, I'll use the <a href="https://www.business-science.io/r-cheatsheet.html"> Ultimate R Cheat Sheet</a> to refer to <code>ggplot2</code> code in my workflow.</p>
