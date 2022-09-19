@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automatic Exploratory Data Analysis in R with DataExplorer
-date: 2021-03-02 02:00:00 -0500
+date: 2021-03-02T02:00:00.000-05:00
 excerpt: Did you know most Data Scientists spend 80% of their time just trying to
   understand and prepare data for analysis? R has an Insane Exploratory Data Analysis
   productivity-enhancer. It's called DataExplorer.
@@ -12,11 +12,11 @@ tags:
 - R-Bloggers
 - Learn-R
 - DataExplorer
-image: "/assets/000-dataexplorer-thumb2.jpg"
-image_preview: "/assets/000-dataexplorer-thumb2.jpg"
+image: "/assets/dataexplorer_thumb.jpg"
+image_preview: "/assets/dataexplorer_thumb.jpg"
 
 ---
-**Data Scientists spend 80% of their time** just trying to understand and prepare data for analysis! This process is called Exploratory Data Analysis (EDA). R has an Insane EDA​ productivity-enhancer. It's called `DataExplorer​`. And I'm going to get you up and running with `DataExplorer` in **under 5-minutes:**
+**Data Scientists spend 80% of their time** just trying to understand and prepare data for analysis! This process is called Exploratory Data Analysis (EDA). R has an excellent EDA​ productivity-enhancer: It's called `DataExplorer​`. And I'm going to get you up and running with `DataExplorer` in under 5-minutes (here's what you learn):
 
 1. How to make an Automatic EDA Report in seconds with DataExplorer.
 2. **BONUS: How to use the 7 most important EDA Plots to get exploratory insights.**
@@ -29,11 +29,11 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 <ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/ssVEoj54rx4">YouTube Tutorial</a></li> </ul>
 
-# Video Tutorial
+# This Tutorial Is Available In Video
 
-Learn how to use the `trelliscopejs` package in my 5-minute YouTube video tutorial.
+I have a companion video tutorial that shows even more secrets (plus mistakes to avoid).  And, I'm finding that a lot of my students prefer the dialogue that goes along with coding. So check out this video to see me running the code in this tutorial. 👇
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/ssVEoj54rx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/ssVEoj54rx4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # What you make in this R-Tip
 
@@ -201,13 +201,13 @@ With the box plot, we can:
 * See how each numeric feature (age, tv hours, year) has a relationship with rincome
 * $250,000 (high income earners) tend to be in their early 40's while low income earners are in their late 20's
 
-# Recap
+# Conclusion
 
-We learned how to use the `DataExplorer` library to automatically create an exploratory data analysis report. Great work! **But, there's a lot more to becoming a data scientist.**
+You learned how to use the `DataExplorer` library to automatically create an exploratory data analysis report. Great work! **But, there's a lot more to becoming a data scientist.**
 
 If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
-## Step 1: Watch my Free 40-Minute Webinar
+## Step 1: Watch My Free 40-Minute Webinar
 
 Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.**
 
@@ -215,16 +215,31 @@ AND, I don't want it to take that long for you.
 
 So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://learn.business-science.io/free-rtrack-masterclass-signup) that provides a roadmap for what worked for me.
 
+![](/assets/free_rtrack_masterclass.jpg)
+
+<p style="font-size: 36px;text-align: center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar <br>(The Roadmap to a 6-Figure Data Scientist Career)</a></p>
+
 Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
 
-## Step 2: Take action
+# Step 2: Take Control Of Your Career
 
-For my action-takers, if you are ready to take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you'd like someone to help you do this in UNDER  6-MONTHS or less....
+For my action-takers, if you are ready to become a Business Scientist, then read on.
 
-Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://learn.business-science.io/free-rtrack-masterclass-signup) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
+If you need take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), AND you'd like someone to help guide you how to do this in UNDER  6-MONTHS or less....
 
-Get ready. The ride is wild. And the destination is AMAZING!
+## **Then I can help with that too.**
+
+I have a program that has helped over 3,000 students become data scientists in business with the R programming language. [Don't believe me? Read these testimonials.](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series)
+
+My students have gotten:
+
+* 6-Figure Data Science Jobs ($100,000+)
+* Senior VP of Analytics ($200,000+)
+* Lead Data Scientist Jobs ($175,000+)
+* Raises and Career Promotions of 25% to 50%
+
+All by learning data science for business with R. Get ready. The ride is wild. And the destination is AMAZING!
 
 ![](/assets/rtrack_what_they_are_doing.jpeg)
 
-{% include top_rtips.html %}
+<p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(Become A 6-Figure Data Scientist)</a></p>
