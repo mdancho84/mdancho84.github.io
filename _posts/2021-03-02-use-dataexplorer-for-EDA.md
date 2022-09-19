@@ -16,7 +16,7 @@ image: "/assets/dataexplorer_plot_logo.jpg"
 image_preview: "/assets/dataexplorer_plot_logo.jpg"
 
 ---
-Did you know that **80% of data science** is spent _cleaning & preparing_ data for analysis? Yep, that's right! _NOT_ modeling (the fun stuff). This process is called Exploratory Data Analysis (EDA). 
+Did you know that **80% of data science** is spent _cleaning & preparing_ data for analysis? Yep, that's right! _NOT_ modeling (the fun stuff). This process is called Exploratory Data Analysis (EDA).
 
 R has an excellent Exploratory Data Analysis solution: It's called `DataExplorer​`. And I'm going to get you up and running with `DataExplorer` in under 5-minutes. Here's what you learn in this R-Tip:
 
@@ -39,7 +39,7 @@ I have a companion video tutorial that shows even more secrets (plus mistakes to
 
 # What Is Exploratory Data Analysis?
 
-**Exploratory Data Analysis (EDA)** is how data scientists and data analysts find meaningful information in the form of relationships in the data. EDA is absolutely critical as a first step before machine learning and to **explain business insights** to non-technical stakeholders like executives and business leadership. 
+**Exploratory Data Analysis (EDA)** is how data scientists and data analysts find meaningful information in the form of relationships in the data. EDA is absolutely critical as a first step before machine learning and to **explain business insights** to non-technical stakeholders like executives and business leadership.
 
 ![](/assets/dataexplorer_plot_logo.jpg)
 
@@ -95,13 +95,13 @@ This produces an automatic EDA report that covers all of the important aspects t
 
 ![](/assets/data_explorer_gif.gif)
 
-The report is great, but the next thing you're probably wondering is how the heck am I going to use this report. 
+The report is great, but the next thing you're probably wondering is how the heck am I going to use this report.
 
 **That's why I want to show you...**
 
 # BONUS: How to use the 7 Most Important DataExplorer Plots
 
-As an extra special bonus, I figured I'd teach you not only how to make the report BUT how to use the report too. Here's how to get the most out of your automatic EDA report. If you'd like to **get the code to produce the individual plots**, just [sign up for my FREE R-tips codebase](https://learn.business-science.io/r-tips-newsletter). You'll get all the code sent to your email plus more R-Tips every week. 
+As an extra special bonus, I figured I'd teach you not only how to make the report BUT how to use the report too. Here's how to get the most out of your automatic EDA report. If you'd like to **get the code to produce the individual plots**, just [sign up for my FREE R-tips codebase](https://learn.business-science.io/r-tips-newsletter). You'll get all the code sent to your email plus more R-Tips every week.
 
 ## 1. Basic Statistics
 
@@ -252,6 +252,6 @@ My students have gotten:
 
 All by learning data science for business with R. Get ready. The ride is wild. And the destination is AMAZING!
 
-![](/assets/rtrack_what_they_are_doing.jpeg)
+![](/assets/rtrack_what_theyre_doing_2.jpg)
 
 <p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(Become A 6-Figure Data Scientist)</a></p>

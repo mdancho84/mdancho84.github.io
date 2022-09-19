@@ -197,6 +197,6 @@ My students have gotten:
 
 All by learning data science for business with R. Get ready. The ride is wild. And the destination is AMAZING!
 
-![](/assets/rtrack_what_they_are_doing.jpeg)
+![](/assets/rtrack_what_theyre_doing_3.jpg)
 
 <p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(Become A 6-Figure Data Scientist)</a></p>
