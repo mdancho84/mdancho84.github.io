@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Automatic Exploratory Data Analysis in R with DataExplorer
+title: Exploratory Data Analysis in R with DataExplorer
 date: 2021-03-02T02:00:00.000-05:00
 excerpt: Did you know most Data Scientists spend 80% of their time just trying to
   understand and prepare data for analysis? R has an Insane Exploratory Data Analysis
@@ -35,19 +35,27 @@ I have a companion video tutorial that shows even more secrets (plus mistakes to
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/ssVEoj54rx4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# What you make in this R-Tip
+# What Is Exploratory Data Analysis?
 
-By the end of this R-Tip, you'll make this exploratory data analysis report. Perfect for impressing your boss and coworkers! (Nice EDA skills)
+**Exploratory Data Analysis (EDA)** is how data scientists and data analysts find meaningful information in the form of relationships in the data. EDA is absolutely critical as a first step before machine learning and to **explain business insights** to non-technical stakeholders like executives and business leadership. 
+
+![](/assets/dataexplorer_plot_logo.jpg)
+
+<p class='text-center date'>Make exploratory data analysis visuals with DataExplorer</p>
+
+# What Do I Make In This R-Tip?
+
+By the end of this R-Tip, you'll make this **exploratory data analysis report with 7 exploratory plots.** Perfect for impressing your boss and coworkers! (Nice EDA skills)
 
 ![](/assets/data_explorer_gif.gif)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <strong><a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Don't forget to get the code.</a> </strong></p>
 
-# Thank you developers.
+# Thank You Developers.
 
 Before we dive into `DataExplorer`, I want to take a moment to thank the developer, [Boxuan Cui](https://www.linkedin.com/in/boxuancui/). He's currently working as a Senior Data Science Manager at Tripadvisor. In his spare time, Boxuan has built and maintains one of the most useful R packages on the planet: `DataExplorer`. Thank you!
 
-# Automatic Exploratory Data Analysis with `DataExplorer`
+# Exploratory Data Analysis with `DataExplorer`
 
 One of the coolest features of DataExplorer is the ability to **create an EDA Report in 1 line of code**. This automates:
 
@@ -73,7 +81,7 @@ We'll use the `gss_cat` dataset, which has income levels for people by various f
 
 With data in hand, we are ready to create the automatic EDA report. Let's go!
 
-## Step 2: Create the Automatic EDA Report
+## Step 2: Create the EDA Report
 
 Next, use `create_report()` to make our EDA report. Be sure to specify the output file, output directory, target variable (y), and give it a report title.
 
@@ -84,6 +92,10 @@ Next, use `create_report()` to make our EDA report. Be sure to specify the outpu
 This produces an automatic EDA report that covers all of the important aspects that we need to analyze in our data! It's that simple folks.
 
 ![](/assets/data_explorer_gif.gif)
+
+The report is great, but the next thing you're probably wondering is how the heck am I going to use this report. 
+
+**That's why I want to show you...**
 
 # BONUS: How to use the 7 Most Important DataExplorer Plots
 
