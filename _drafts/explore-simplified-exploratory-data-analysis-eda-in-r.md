@@ -4,14 +4,14 @@ title: 'explore: simplified exploratory data analysis (EDA) in R'
 date: 2022-09-23 06:00:00 -0400
 excerpt: Did you know most Data Scientists spend 80% of their time just trying to
   understand and prepare data for analysis? R has an Insane Exploratory Data Analysis
-  productivity-enhancer. It's called DataExplorer.
+  productivity-enhancer. It's called Explore.
 author: Matt Dancho
 categories:
 - Code-Tools
 tags:
 - R-Bloggers
 - Learn-R
-- DataExplorer
+- explore
 image: "/assets/explore_thumbnail_2.jpg"
 image_preview: "/assets/explore_thumbnail_2.jpg"
 
@@ -94,7 +94,7 @@ This produces an automatic Shiny EDA App that covers all of the important aspect
 
 ![](/assets/explore_shiny_app.jpg)
 
-The report is great, but the next thing you're probably wondering is how the heck am I going to use this report.
+The shiny app is great, but the next thing you're probably wondering is how the heck am I going to use this report.
 
 **That's why I want to show you...**
 
