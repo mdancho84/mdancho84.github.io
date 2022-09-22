@@ -12,13 +12,17 @@ tags:
 - R-Bloggers
 - Learn-R
 - DataExplorer
-image: "/assets/dataexplorer_plot_logo.jpg"
-image_preview: "/assets/dataexplorer_plot_logo.jpg"
+image: "/assets/explore_thumbnail_2.jpg"
+image_preview: "/assets/explore_thumbnail_2.jpg"
 
 ---
-Did you know that **80% of data science** is spent _cleaning & preparing_ data for analysis? Yep, that's right! _NOT_ modeling (the fun stuff). This process is called Exploratory Data Analysis (EDA). R has an excellent Exploratory Data Analysis solution that is almost guaranteed to speed up your exploratory analysis 10X: It's called `DataExplorer​`. And I'm going to get you up and running with `DataExplorer` in under 5-minutes. Here's what you learn in this R-Tip:
+In 2015, exploratory data analysis (also known as figuring out why my data is so messed up) would take me any where from 8 hours to 1 week. Yeah, it wasn't the highlight of my time because I wanted to get to modeling (now called machine learning) as fast as possible.  Why? Because that's where I could get the insights that drove my business. 
 
-1. **How to make an Automatic EDA Report in seconds with `DataExplorer`**
+So fast-forward to today. I'm happy to say I've stumbled across a NEW R package that **takes 8+ hours of work and compresses it into about 5-minutes.** A mere 7 hour and 55 minute improvement. 
+
+**What R package is it?** It's called `explore`. And I want to share it with you so you can do EDA in under 5-minutes. Here's what you learn in this R-Tip:
+
+1. **How to make an EDA Shiny App in seconds with `explore`**
 2. **BONUS: How to use the 7 most important EDA Plots to get exploratory insights.**
 
 # R-Tips Weekly
@@ -27,13 +31,13 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 <p>Here are the links to get set up. 👇</p>
 
-<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/ssVEoj54rx4">YouTube Tutorial</a></li> </ul>
+<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/j1pkPsjYw5s">YouTube Tutorial</a></li> </ul>
 
 # This Tutorial Is Available In Video
 
 I have a companion video tutorial that shows even more secrets (plus mistakes to avoid).  And, I'm finding that a lot of my students prefer the dialogue that goes along with coding. So check out this video to see me running the code in this tutorial. 👇
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/ssVEoj54rx4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/j1pkPsjYw5s" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # What Is Exploratory Data Analysis?
 
