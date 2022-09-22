@@ -61,13 +61,10 @@ Before we dive into `explore`, I want to take a moment to thank the data scienti
 
 # Exploratory Data Analysis with `explore`
 
-One of the coolest features of DataExplorer is the ability to **create an EDA Report in 1 line of code**. This automates:
+One of the coolest features of `explore` is the ability to **create an Shiny Exploratory App in 1 line of code**. This automates:
 
-* **Basic Statistics**
-* **Data Structure**
-* **Missing Data Profiling**
-* **Continuous and Categorical Distribution Profiling (Histograms, Bar Charts)**
-* **Relationships (Correlation)**
+* **Variable and Interaction Analysis**
+* **Explanations (with Decision Tree Plot)**
 
 Ultimately, this saves the analyst/data scientist SO MUCH TIME.
 
@@ -75,7 +72,7 @@ Ultimately, this saves the analyst/data scientist SO MUCH TIME.
 
 To get set up, all we need to do is load the following libraries and data.
 
-![](/assets/00-dataexplorer-libraries.jpg)
+![](/assets/explore_01_libraries.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
@@ -101,7 +98,7 @@ The report is great, but the next thing you're probably wondering is how the hec
 
 **That's why I want to show you...**
 
-# BONUS: How to use the 7 Most Important DataExplorer Plots
+# BONUS: How to use the 7 Most Important Explore Plots
 
 As an extra special bonus, I figured I'd teach you not only how to make the report BUT how to use the report too. Here's how to get the most out of your automatic EDA report. If you'd like to **get the code to produce the individual plots**, just [sign up for my FREE R-tips codebase](https://learn.business-science.io/r-tips-newsletter). You'll get all the code sent to your email plus more R-Tips every week.
 
@@ -217,7 +214,7 @@ With the box plot, we can:
 
 # Conclusion
 
-You learned how to use the `DataExplorer` library to automatically create an exploratory data analysis report. Great work! **But, there's a lot more to becoming a data scientist.**
+You learned how to use the `explore` library to automatically create an exploratory data analysis report. Great work! **But, there's a lot more to becoming a data scientist.**
 
 If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
@@ -258,4 +255,4 @@ All by learning data science for business with R. Get ready. The ride is wild. A
 
 <p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(Become A 6-Figure Data Scientist)</a></p>
 
-**P.S. 40% of my students are getting their work to pay for education.** [**Find out how they get their company to reimburse them for my courses. **](https://www.business-science.io/business/2020/09/07/course-benefits-manager-negotiation.html)
+**P.S. Many of my students are getting their work to pay for education and skill advancement because it benefits your company.** [**Find out how they get their company to reimburse them for my courses. **](https://www.business-science.io/business/2020/09/07/course-benefits-manager-negotiation.html)
