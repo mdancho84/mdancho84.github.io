@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'explore: simplified exploratory data analysis (EDA) in R'
-date: 2021-03-02T02:00:00.000-05:00
+date: 2022-09-23 06:43:01 -0400
 excerpt: Did you know most Data Scientists spend 80% of their time just trying to
   understand and prepare data for analysis? R has an Insane Exploratory Data Analysis
   productivity-enhancer. It's called DataExplorer.
@@ -16,9 +16,9 @@ image: "/assets/explore_thumbnail_2.jpg"
 image_preview: "/assets/explore_thumbnail_2.jpg"
 
 ---
-In 2015, exploratory data analysis (also known as figuring out why my data is so messed up) would take me any where from 8 hours to 1 week. Yeah, it wasn't the highlight of my time because I wanted to get to modeling (now called machine learning) as fast as possible.  Why? Because that's where I could get the insights that drove my business. 
+In 2015, exploratory data analysis (also known as figuring out why my data is so messed up) would take me any where from 8 hours to 1 week. I wanted to get to modeling (now called machine learning) as fast as possible because that's where I could get the insights that drove my business. **But EDA was holding me back.**
 
-So fast-forward to today. I'm happy to say I've stumbled across a NEW R package that **takes 8+ hours of work and compresses it into about 5-minutes.** A mere 7 hour and 55 minute improvement. 
+So fast-forward to today. I'm happy to say I've stumbled across a NEW R package that **takes 8+ hours of work and compresses it into about 5-minutes.** A mere 7 hour and 55 minute improvement.
 
 **What R package is it?** It's called `explore`. And I want to share it with you so you can do EDA in under 5-minutes. Here's what you learn in this R-Tip:
 
@@ -43,9 +43,9 @@ I have a companion video tutorial that shows even more secrets (plus mistakes to
 
 **Exploratory Data Analysis (EDA)** is how data scientists and data analysts find meaningful information in the form of relationships in the data. EDA is absolutely critical as a first step before machine learning and to **explain business insights** to non-technical stakeholders like executives and business leadership.
 
-![](/assets/dataexplorer_plot_logo.jpg)
+![](/assets/explore_thumbnail_2.jpg)
 
-<p class='text-center date'>Make exploratory data analysis visuals with DataExplorer</p>
+<p class='text-center date'>Make exploratory data analysis visuals with <code>explore</code></p>
 
 # What Do I Make In This R-Tip?
 
