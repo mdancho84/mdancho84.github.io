@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'explore: simplified exploratory data analysis (EDA) in R'
-date: 2022-09-23 06:43:01 -0400
+date: 2022-09-23 06:00:00 -0400
 excerpt: Did you know most Data Scientists spend 80% of their time just trying to
   understand and prepare data for analysis? R has an Insane Exploratory Data Analysis
   productivity-enhancer. It's called DataExplorer.
@@ -18,7 +18,7 @@ image_preview: "/assets/explore_thumbnail_2.jpg"
 ---
 In 2015, exploratory data analysis (also known as figuring out why my data is so messed up) would take me any where from 8 hours to 1 week. I wanted to get to modeling (now called machine learning) as fast as possible because that's where I could get the insights that drove my business. **But EDA was holding me back.**
 
-So fast-forward to today. I'm happy to say I've stumbled across a NEW R package that **takes 8+ hours of work and compresses it into about 5-minutes.** A mere 7 hour and 55 minute improvement.
+So fast-forward to today. I'm happy to say that I've stumbled across a NEW R package that **takes 8+ hours of work and compresses it into about 5-minutes.** A mere 7 hour and 55 minute improvement.
 
 **What R package is it?** It's called `explore`. And I want to share it with you so you can do EDA in under 5-minutes. Here's what you learn in this R-Tip:
 
@@ -51,15 +51,15 @@ I have a companion video tutorial that shows even more secrets (plus mistakes to
 
 By the end of this R-Tip, you'll make this **exploratory data analysis report with 7 exploratory plots.** Perfect for impressing your boss and coworkers! (Nice EDA skills)
 
-![](/assets/data_explorer_gif.gif)
+![](/assets/explore_shiny_app.jpg)
 
 <p class='text-center date'> <strong><a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Don't forget to get the code.</a> </strong></p>
 
 # Thank You Developers.
 
-Before we dive into `DataExplorer`, I want to take a moment to thank the developer, [Boxuan Cui](https://www.linkedin.com/in/boxuancui/). He's currently working as a Senior Data Science Manager at Tripadvisor. In his spare time, Boxuan has built and maintains one of the most useful R packages on the planet: `DataExplorer`. Thank you!
+Before we dive into `explore`, I want to take a moment to thank the data scientist and developer of explore, [Roland Krasser](https://github.com/rolkra).  Thank you for making this great R package!
 
-# Exploratory Data Analysis with `DataExplorer`
+# Exploratory Data Analysis with `explore`
 
 One of the coolest features of DataExplorer is the ability to **create an EDA Report in 1 line of code**. This automates:
 
