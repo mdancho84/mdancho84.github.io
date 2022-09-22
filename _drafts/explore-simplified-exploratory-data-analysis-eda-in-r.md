@@ -76,23 +76,23 @@ To get set up, all we need to do is load the following libraries and data.
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-We'll use the `gss_cat` dataset, which has income levels for people by various factors including marital status, age, race, religion, ....
+We'll use the `mpg` dataset, which has data on 234 vehicle models. 
 
-![](/assets/00-dataexplorer-data.jpg)
+![](/assets/explore_02_mpg.jpg)
 
-With data in hand, we are ready to create the automatic EDA report. Let's go!
+With data in hand, we are ready to create the automatic EDA report. Let's explore!
 
-## Step 2: Create the EDA Report
+## Step 2: Shiny EDA App
 
-Next, use `create_report()` to make our EDA report. Be sure to specify the output file, output directory, target variable (y), and give it a report title.
+Next, use `explore()` to make our EDA shiny app. 
 
-![](/assets/01-eda-report-code.jpg)
+![](/assets/explore_03_shiny_app.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-This produces an automatic EDA report that covers all of the important aspects that we need to analyze in our data! It's that simple folks.
+This produces an automatic Shiny EDA App that covers all of the important aspects that we need to analyze in our data! It's that simple folks.
 
-![](/assets/data_explorer_gif.gif)
+![](/assets/explore_shiny_app.jpg)
 
 The report is great, but the next thing you're probably wondering is how the heck am I going to use this report.
 
