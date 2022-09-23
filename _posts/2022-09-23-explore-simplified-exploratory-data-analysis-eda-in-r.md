@@ -114,7 +114,7 @@ And you get the same guidance which is important when you want to work in these 
 
 # What is Bivariate Analysis?
 
-**A key reason I like `explore` is the concept of bivariate analysis.** Or the ability to quickly compare two variables - an Predictor and a Response.
+**A key reason I like `explore` is the concept of bivariate analysis.** Or the ability to quickly compare two variables - Typically a Predictor and a Response.
 
 ![](/assets/explore_bivariate.jpg)
 
@@ -128,22 +128,22 @@ In most business cases, **the response is our target.** It's the thing we are af
 
 ## How can we speed up bi-variate analysis?
 
-Bivariate analysis is time consuming. It's probably 30% of data exploration. Speeding it up will follow my process:
+Bivariate analysis is time consuming. It's probably 30% of data exploration. To speed it up, simply follow my process:
 
-* **Step 1: Use DataExplorer** to get a sense of our data. ([DataExplorer is covered here](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html))
+* **Step 1: Use DataExplorer** to get a sense of the data. ([DataExplorer is covered here](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html))
 * **Step 2: Use correlationfunnel** to find the most important features vs a target ([Correlation funnel is covered here](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html))
-* **Step 3: Use explore** to explore the relationships (Discussed today)
+* **Step 3: Use explore** to explore the relationships between important features and the target that `correlationfunnel` identified in Step 2 (Discussed today)
 
-OK, so now that we have a process, let's focus on the `explore` package from Step 3. And check out the other tutorials for Steps 1 and 2 in my process. 
+OK, so now that we have a process, let's focus on the `explore` package from Step 3. Be sure to check out the other tutorials for Steps 1 and 2 in my process (as I won't be covering those here). 
 
 # Tutorial: Exploratory Data Analysis with `explore`
 
-One of the coolest features of `explore` is the ability to **create an Shiny Exploratory App in 1 line of code**. This automates:
+One of the coolest features of `explore` is the ability to **create an Shiny Exploratory App in 1 line of code**. This automates: 
 
-* **Variable and Interaction Analysis**
+* **Variable and Interaction Analysis (Bivariate Analysis)**
 * **Explanations (with Decision Tree Plot)**
 
-Ultimately, this saves the analyst/data scientist SO MUCH TIME. I'm constantly doing bi-variate analysis.
+Ultimately, this saves the analyst/data scientist SO MUCH TIME. I'm constantly doing bi-variate analysis. So that's what I'm focusing on here. In the [YouTube Video](https://youtu.be/j1pkPsjYw5s) I show off the decision tree explanations and some other cool functionality in `explore`, so check the video out if you want to discover more.  
 
 ## Step 1: Load the libraries and data
 
