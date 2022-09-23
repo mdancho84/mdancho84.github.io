@@ -209,6 +209,12 @@ As an extra special bonus, I figured I'd teach you not only how to make the Shin
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
+**The 3rd plot we get is a scatter plot,** which is when we compare two numeric variables and determine the trend between the two variables. This plot helps us see an immediate trend between highway fuel economy and engine size (displacement).
+
+**Business Insights:**
+
+* As engine size (displacement) goes up, highway fuel economy goes down. This is an inverse relationship. 
+
 # Conclusion
 
 You learned how to use the `explore` library to automatically create an exploratory data analysis shiny app AND perform bivariate analysis the fast way. Great work! **But, there's a lot more to becoming a data scientist.**
