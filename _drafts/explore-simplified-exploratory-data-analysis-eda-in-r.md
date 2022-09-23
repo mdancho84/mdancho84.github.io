@@ -61,35 +61,41 @@ Before we dive into `explore`, I want to take a moment to thank the data scienti
 
 # What's the Difference Between `Explore` and `DataExplorer`?
 
-It can be confusing on which EDA R packages to use. So I'll fill you in on what I actually use in my process and where I see `explore` fitting. 
+It can be confusing on which EDA R packages to use. So I'll fill you in on what I actually use in my process. And I'll share where I see `explore` fitting into my process in bivariate analysis.
 
 ## 1. DataExplorer
 
-If you follow my R-Tips, you might have seen me talk about `DataExplorer`, one of my favorite all-time packages for Exploratory Data Analysis. [I show off DataExplorer here.](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html) 
+If you follow my R-Tips, you might have seen me talk about `DataExplorer`, one of my favorite all-time packages for Exploratory Data Analysis. [I expose you to DataExplorer here.](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html)
 
-Full disclosure, I still use DataExplorer in many of my EDA scripts. **The automated data exploration report is just so comprehensive.** 
+Full disclosure, I still use DataExplorer in many of my EDA scripts. **The automated data exploration report is just so comprehensive.**
 
 ![](/assets/data_explorer_gif.gif)
 
 ## 2. Explore
 
-But I'm also loving the `explore` package's **interactive approach to bivariate analysis** with a Shiny App. This allows me to compare multiple features quickly without spending a lot of time. 
+But I'm also loving the `explore` package's **interactive approach to bivariate analysis** with a Shiny App. This allows me to compare multiple features quickly without spending a lot of time.
 
 ![](/assets/explore_shiny_app.jpg)
 
 ## 3. correlationfunnel
 
-And, I'm now using one other R package for EDA. It's my own `correlationfunnel` R package. **The correlationfunnel package tells me which features to look at.** [**I introduce my correlationfunnel here.**](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html) 
+And, I'm using one other R package for EDA. It's my own `correlationfunnel` R package. **The correlationfunnel package tells me which features to look at so I don't waste time on bad comparisons.** [**I introduce my correlationfunnel here.**](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html)
 
 ![](/assets/2019-08-07-correlationfunnel/plot_correlationfunnel.png)
 
+Now that you have my EDA process, I want to give you...
+
 # My Cheat Sheet For My Top 100 R Packages
 
-The next thing you might need is to have access to all of the R packages that I use regularly. Even I forget which R packages to use from time to time. And this cheat sheet saves me so much time. Seriously. [This cheat sheet is my bible.](https://www.business-science.io/r-cheatsheet.html) 
+The next thing you're going to need is to have access to all of the R packages that I use regularly in my data analysis projects.
+
+Why?
+
+**Even I forget which R packages to use from time to time.** And this cheat sheet saves me so much time. Instead of googling to filter through 20,000 R packages to find a needle in a haystack. I keep my cheat sheet handy so I know which to use and when to use them. Seriously. [This cheat sheet is my bible.](https://www.business-science.io/r-cheatsheet.html)
 
 ![](/assets/free_cheatsheet.jpg)
 
-Once you download it, head over to page 3 and you'll see several R packages I use frequently just for Exploratory Data Analysis. 
+Once you download it, head over to page 3 and you'll see several R packages I use frequently just for Exploratory Data Analysis.
 
 ![](/assets/cheatsheet_exploratory.jpg)
 
@@ -102,7 +108,7 @@ And you get the same guidance which is important when you want to work in these 
 * Text Analysis and NLP
 * Shiny Web App Development
 
-[So steal my cheat sheet.](https://www.business-science.io/r-cheatsheet.html) It will save you a ton of time. 
+[So steal my cheat sheet.](https://www.business-science.io/r-cheatsheet.html) It will save you a ton of time.
 
 # What is Bivariate Analysis?
 
@@ -110,21 +116,23 @@ And you get the same guidance which is important when you want to work in these 
 
 ![](/assets/explore_bivariate.jpg)
 
-## Predictor vs Response
+## The Predictor 
 
-The predictor is the thing that we believe affects the response or outcome. In this case I believe the Class of the vehicle (whether its a Chevy S10 Pickup vs Audi A4 Compact) will have an effect on the fuel economy (how many miles per gallon. 
+**The predictor** is the thing that we believe affects the response or outcome. In this case I believe the Class of the vehicle (whether its a Chevy S10 Pickup vs Audi A4 Compact) will have an effect on the fuel economy (how many miles per gallon).
 
-## Response Is Our Target
+## The Response (Our Target)
 
-In most business cases, the response is our target. The thing we are after. In this scenario, I want to know what is going to happen to Fuel Economy (Highway MPG) when I change things like class of the vehicle (compact vs pickup), size of the engine (displacement), and so on.
+In most business cases, **the response is our target.** It's the thing we are after. In this scenario, I want to know what is going to happen to Fuel Economy (Highway MPG) when I change things like class of the vehicle (compact vs pickup), size of the engine (displacement), and so on.
 
 ## How can we speed up bi-variate analysis?
 
-Bivariate analysis is time consuming. It's probably 30% of data exploration when you are a business analyst or data scientist. The other 70% is data cleaning (which I will point you to tools like `janitor` and `dplyr` [in my R cheat sheet](https://www.business-science.io/r-cheatsheet.html)).
+Bivariate analysis is time consuming. It's probably 30% of data exploration. Speeding it up will follow my process:
 
-![](/assets/cheatsheet_data_cleaning.jpg)
+* **Step 1: Use DataExplorer** to get a sense of our data. ([DataExplorer is covered here](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html))
+* **Step 2: Use correlationfunnel** to find the most important features vs a target ([Correlation funnel is covered here](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html))
+* **Step 3: Use explore** to explore the relationships (Discussed today)
 
-<p class='text-center date'> <a href='https://www.business-science.io/r-cheatsheet.html' target ='_blank'>Swipe My Ultimate R Cheat Sheet</a> </p>
+OK, so now that we have a process, let's focus on the `explore` package from Step 3. And check out the other tutorials for Steps 1 and 2 in my process. 
 
 # Tutorial: Exploratory Data Analysis with `explore`
 
@@ -133,7 +141,7 @@ One of the coolest features of `explore` is the ability to **create an Shiny Exp
 * **Variable and Interaction Analysis**
 * **Explanations (with Decision Tree Plot)**
 
-Ultimately, this saves the analyst/data scientist SO MUCH TIME. I'm constantly doing bi-variate analysis. 
+Ultimately, this saves the analyst/data scientist SO MUCH TIME. I'm constantly doing bi-variate analysis.
 
 ## Step 1: Load the libraries and data
 
@@ -175,7 +183,7 @@ As an extra special bonus, I figured I'd teach you not only how to make the Shin
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-**The first plot we get is a box plot,** which is when we compare a numeric target and a categorical predictor. The box plot helps us see which categories pull fuel economy up and down. 
+**The first plot we get is a box plot,** which is when we compare a numeric target and a categorical predictor. The box plot helps us see which categories pull fuel economy up and down.
 
 **Business Insights:**
 
@@ -188,101 +196,22 @@ As an extra special bonus, I figured I'd teach you not only how to make the Shin
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-**The 2nd plot we get is a frequency plot,** which is when we compare two categories and determine the overlap in terms of the frequency of observations that fall into combinations of categories. This plot won't help us with figuring out effect on fuel economy (highway mpg), but can be important in data discover. 
+**The 2nd plot we get is a frequency plot,** which is when we compare two categories and determine the overlap in terms of the frequency of observations that fall into combinations of categories. This plot won't help us with figuring out effect on fuel economy (highway mpg), but can be important in data discover.
 
 **Business Insights:**
 
 * Chevrolet dominates the 2seater category, and Dodge dominates the minivan category
 * The most competitive categories are Midsize and SUV
 
-## 3. Missing Data Profile
+## 3. Scatter Plot (Numeric vs Numeric)
 
-![](/assets/04-dataexplorer-missing-data.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-The missing data profile report helps us understand which columns have missing data.
-
-* We can start to think about **missing data treatment** - imputation strategies or if we will need to remove columns
-* We can see if columns have **hardly any or no missing data** - which will be easier to use
-* We can see if columns have **a lot of missing data** - which may need to be removed or heavily treated
-
-## 4. Univariate Distributions
-
-We have a bunch of options here, which can be used to dive into the columns. I'll focus on the 2 most important:
-
-* **Continuous Features: Histogram**
-* **Categorical Features: Bar Plot**
-
-### 4A. Continuous Features (Histogram)
-
-We can check out the distribution within the numeric data to quickly see what we are dealing with.
-
-![](/assets/04-dataexplorer-continuous-features.jpg)
+![](/assets/explore_scatterplot.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-We can get a sense of the **distribution** of the numeric data.
-
-* **Skewed data:** TV Hours is very skewed with a few outliers (e.g. watching 24-hours of TV per day)
-* **Non-normal data:** Age tends to be more 25-50 year old respondents than over 50
-* **Data Range:** We can see the survey results go from year 200 to 2014. It looks like every 2-years.
-
-### 4.B Categorical Features (Bar Plots)
-
-![](/assets/04-dataexplorer-categorical-features.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-The categorical feature distributions are frequency counts by category shown as a box plot. This helps us:
-
-* **Understand categorical distribution:** Categories tend to have some levels that are highly present and others that are much more rare.
-* **Start thinking about categorical treatment:** We may need to lump some categories together before modeling.
-
-## 5. Correlation Analysis
-
-![](/assets/05-dataexplorer-correlation.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-* Correlation helps us tell whether **we should move onto modeling**.
-* **Warning! The correlation can be a bit misleading.** Many correlations of numeric variables are non-linear. For example, middle-aged people may be more likely to watch less TV. But young and older people may be more likely to watch more TV. The correlation could be low because of the nonlinear relationship.
-
-## 6. Principal Components
-
-Plotting principal components can help you determine if the data can be compressed. I'll explain what I mean by this.
-
-![](/assets/06-dataexplorer-pca.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-Data that is very wide (many columns) can be computationally expensive to model.
-
-* By applying PCA (Principal Component Analysis), we can **determine if compressing** using an algorithm like PCA or UMAP is appropriate.
-* Here I can see about 37% of the **variance explained** is contained in the first 20 principal components.
-
-## 7. Bivariate Distributions
-
-Now we are going to focus on how each feature varies with the target (rincome - how much each person/household makes in annual income).
-
-* **Box Plot:** For analyzing numeric vs categorical
-* **Scatter Plot:** For analyzing numeric vs numeric (not shown)
-
-### Box Plot: Numeric vs Categorical
-
-![](/assets/07-dataexplorer-boxplot.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-With the box plot, we can:
-
-* Begin to **visualize relationships**.
-* See how each numeric feature (age, tv hours, year) has a relationship with rincome
-* $250,000 (high income earners) tend to be in their early 40's while low income earners are in their late 20's
 
 # Conclusion
 
-You learned how to use the `explore` library to automatically create an exploratory data analysis report. Great work! **But, there's a lot more to becoming a data scientist.**
+You learned how to use the `explore` library to automatically create an exploratory data analysis shiny app AND perform bivariate analysis the fast way. Great work! **But, there's a lot more to becoming a data scientist.**
 
 If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
@@ -323,4 +252,4 @@ All by learning data science for business with R. Get ready. The ride is wild. A
 
 <p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(Become A 6-Figure Data Scientist)</a></p>
 
-**P.S. Many of my students are getting their work to pay for education and skill advancement because it benefits your company.** [**Find out how they get their company to reimburse them for my courses. **](https://www.business-science.io/business/2020/09/07/course-benefits-manager-negotiation.html)
+**P.S. Many of my students are getting their work to pay for education and skill advancement because it benefits your company.** [**Find out how to get your company to reimburse you for my courses. **](https://www.business-science.io/business/2020/09/07/course-benefits-manager-negotiation.html)
