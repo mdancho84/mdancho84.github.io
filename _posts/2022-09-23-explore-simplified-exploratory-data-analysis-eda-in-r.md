@@ -143,7 +143,11 @@ One of the coolest features of `explore` is the ability to **create an Shiny Exp
 * **Variable and Interaction Analysis (Bivariate Analysis)**
 * **Explanations (with Decision Tree Plot)**
 
-Ultimately, this saves the analyst/data scientist SO MUCH TIME. I'm constantly doing bi-variate analysis. So that's what I'm focusing on here. In the [YouTube Video](https://youtu.be/j1pkPsjYw5s) I show off the decision tree explanations and some other cool functionality in `explore`, so check the video out if you want to discover more.  
+Ultimately, this saves the analyst/data scientist SO MUCH TIME. 
+
+## Focus for this tutorial
+
+**I'm constantly doing bi-variate analysis.** So that's what I'm focusing on here. In the [YouTube Video](https://youtu.be/j1pkPsjYw5s) I show off the decision tree explanations and some other cool functionality like how to get bivariate plots and make reports with `explore`, so check the video out if you want to discover more.  
 
 ## Step 1: Load the libraries and data
 
