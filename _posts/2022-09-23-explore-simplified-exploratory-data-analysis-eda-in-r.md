@@ -67,21 +67,21 @@ Before we dive into `explore`, I want to take a moment to thank the data scienti
 
 ## 1. DataExplorer
 
-If you follow my R-Tips, you might have seen me talk about `DataExplorer`, one of my favorite all-time packages for Exploratory Data Analysis. [I expose you to DataExplorer here.](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html)
+If you follow my R-Tips or are a student in my R-Track courses, you might have seen me use `DataExplorer`, one of my favorite all-time packages for Exploratory Data Analysis. Don't worry, if you haven't you can get up to speed quickly ([You can snag my DataExplorer process here.](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html))
 
-Full disclosure, I still use DataExplorer in many of my EDA scripts. **The automated data exploration report is just so comprehensive.**
+Full disclosure, I still use DataExplorer in all of my EDA scripts. **The automated data exploration report is just so comprehensive.**
 
 ![](/assets/data_explorer_gif.gif)
 
 ## 2. correlationfunnel
 
-Next, I use one other R package for EDA. It's my own `correlationfunnel` R package. **The correlationfunnel package tells me which features to look at so I don't waste time on bad comparisons.** [**I introduce my correlationfunnel here.**](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html)
+Next, I use one another R package for EDA. It's my own `correlationfunnel` R package. **The correlationfunnel package tells me which features to look at so I don't waste time on bad comparisons.** [**I introduce my correlationfunnel here.**](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html)
 
 ![](/assets/2019-08-07-correlationfunnel/plot_correlationfunnel.png)
 
 ## 3. Explore
 
-I'm also loving the `explore` package's **interactive approach to bivariate analysis** with a Shiny App. This allows me to compare multiple features quickly without spending a lot of time. 
+As of this tutorial, I'm loving the `explore` package's **interactive approach to bivariate analysis** with a Shiny App. This allows me to compare multiple features quickly without spending a lot of time. 
 
 ![](/assets/explore_shiny_app.jpg)
 
@@ -97,7 +97,7 @@ Why?
 
 ![](/assets/free_cheatsheet.jpg)
 
-Once you download it, head over to page 3 and you'll see several R packages I use frequently just for Exploratory Data Analysis.
+Once you [download it](https://www.business-science.io/r-cheatsheet.html), head over to page 3 and you'll see several R packages I use frequently just for Exploratory Data Analysis.
 
 ![](/assets/cheatsheet_exploratory.jpg)
 
