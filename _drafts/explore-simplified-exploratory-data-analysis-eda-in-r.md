@@ -59,14 +59,81 @@ By the end of this R-Tip, you'll make this **exploratory data analysis report wi
 
 Before we dive into `explore`, I want to take a moment to thank the data scientist and developer of explore, [Roland Krasser](https://github.com/rolkra).  Thank you for making this great R package!
 
-# Exploratory Data Analysis with `explore`
+# What's the Difference Between `Explore` and `DataExplorer`?
+
+It can be confusing on which EDA R packages to use. So I'll fill you in on what I actually use in my process and where I see `explore` fitting. 
+
+## 1. DataExplorer
+
+If you follow my R-Tips, you might have seen me talk about `DataExplorer`, one of my favorite all-time packages for Exploratory Data Analysis. [I show off DataExplorer here.](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html) 
+
+Full disclosure, I still use DataExplorer in many of my EDA scripts. **The automated data exploration report is just so comprehensive.** 
+
+![](/assets/data_explorer_gif.gif)
+
+## 2. Explore
+
+But I'm also loving the `explore` package's **interactive approach to bivariate analysis** with a Shiny App. This allows me to compare multiple features quickly without spending a lot of time. 
+
+![](/assets/explore_shiny_app.jpg)
+
+## 3. correlationfunnel
+
+And, I'm now using one other R package for EDA. It's my own `correlationfunnel` R package. **The correlationfunnel package tells me which features to look at.** [**I introduce my correlationfunnel here.**](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html) 
+
+![](/assets/2019-08-07-correlationfunnel/plot_correlationfunnel.png)
+
+# My Cheat Sheet For My Top 100 R Packages
+
+The next thing you might need is to have access to all of the R packages that I use regularly. Even I forget which R packages to use from time to time. And this cheat sheet saves me so much time. Seriously. [This cheat sheet is my bible.](https://www.business-science.io/r-cheatsheet.html) 
+
+![](/assets/free_cheatsheet.jpg)
+
+Once you download it, head over to page 3 and you'll see several R packages I use frequently just for Exploratory Data Analysis. 
+
+![](/assets/cheatsheet_exploratory.jpg)
+
+And you get the same guidance which is important when you want to work in these fields:
+
+* Machine Learning
+* Time Series
+* Financial Analysis
+* Geospatial Analysis
+* Text Analysis and NLP
+* Shiny Web App Development
+
+[So steal my cheat sheet.](https://www.business-science.io/r-cheatsheet.html) It will save you a ton of time. 
+
+# What is Bivariate Analysis?
+
+**A key reason I like `explore` is the concept of bivariate analysis.** Or the ability to quickly compare two variables - an Predictor and a Response.
+
+![](/assets/explore_bivariate.jpg)
+
+## Predictor vs Response
+
+The predictor is the thing that we believe affects the response or outcome. In this case I believe the Class of the vehicle (whether its a Chevy S10 Pickup vs Audi A4 Compact) will have an effect on the fuel economy (how many miles per gallon. 
+
+## Response Is Our Target
+
+In most business cases, the response is our target. The thing we are after. In this scenario, I want to know what is going to happen to Fuel Economy (Highway MPG) when I change things like class of the vehicle (compact vs pickup), size of the engine (displacement), and so on.
+
+## How can we speed up bi-variate analysis?
+
+Bivariate analysis is time consuming. It's probably 30% of data exploration when you are a business analyst or data scientist. The other 70% is data cleaning (which I will point you to tools like `janitor` and `dplyr` [in my R cheat sheet](https://www.business-science.io/r-cheatsheet.html)).
+
+![](/assets/cheatsheet_data_cleaning.jpg)
+
+<p class='text-center date'> <a href='https://www.business-science.io/r-cheatsheet.html' target ='_blank'>Swipe My Ultimate R Cheat Sheet</a> </p>
+
+# Tutorial: Exploratory Data Analysis with `explore`
 
 One of the coolest features of `explore` is the ability to **create an Shiny Exploratory App in 1 line of code**. This automates:
 
 * **Variable and Interaction Analysis**
 * **Explanations (with Decision Tree Plot)**
 
-Ultimately, this saves the analyst/data scientist SO MUCH TIME.
+Ultimately, this saves the analyst/data scientist SO MUCH TIME. I'm constantly doing bi-variate analysis. 
 
 ## Step 1: Load the libraries and data
 
@@ -76,7 +143,7 @@ To get set up, all we need to do is load the following libraries and data.
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-We'll use the `mpg` dataset, which has data on 234 vehicle models. 
+We'll use the `mpg` dataset, which has data on 234 vehicle models.
 
 ![](/assets/explore_02_mpg.jpg)
 
@@ -84,7 +151,7 @@ With data in hand, we are ready to create the automatic EDA report. Let's explor
 
 ## Step 2: Shiny EDA App
 
-Next, use `explore()` to make our EDA shiny app. 
+Next, use `explore()` to make our EDA shiny app.
 
 ![](/assets/explore_03_shiny_app.jpg)
 
@@ -98,34 +165,35 @@ The shiny app is great, but the next thing you're probably wondering is how the 
 
 **That's why I want to show you...**
 
-# BONUS: How to use the 7 Most Important Explore Plots
+# BONUS: How To Do Bivariate Analysis with the Shiny EDA App
 
-As an extra special bonus, I figured I'd teach you not only how to make the report BUT how to use the report too. Here's how to get the most out of your automatic EDA report. If you'd like to **get the code to produce the individual plots**, just [sign up for my FREE R-tips codebase](https://learn.business-science.io/r-tips-newsletter). You'll get all the code sent to your email plus more R-Tips every week.
+As an extra special bonus, I figured I'd teach you not only how to make the Shiny EDA App BUT how to use the app too. Here's how to get the most out of your automatic EDA analysis tool. If you'd like to **get the code to produce the individual plots**, just [sign up for my FREE R-tips codebase](https://learn.business-science.io/r-tips-newsletter). You'll get all the code sent to your email plus more R-Tips every week.
 
-## 1. Basic Statistics
+## 1. Box Plot (Numeric Target + Categorical Predictor)
 
-![](/assets/02-dataexplorer-basic-stats-2.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-The basic statistics is where we first start understanding our data. We can see information about our columns including:
-
-* **Discrete columns:** Columns with categorical data
-* **Continuous columns:** Columns with numeric data
-* **All missing columns:** Columns that have 100% missing data
-* **Complete rows:** Percentage of rows that are complete (no missing data)
-* **Missing observations:** Of all of the data, this is the percentage of missing
-
-## 2. Data Structure
-
-![](/assets/03-dataexplorer-data-structure-1.jpg)
+![](/assets/explore_boxplot.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-Next, we can examine each of the columns specifically learning about what data types are contained inside each of the columns.
+**The first plot we get is a box plot,** which is when we compare a numeric target and a categorical predictor. The box plot helps us see which categories pull fuel economy up and down. 
 
-* This is really important when we need to **know a bit more detail** about our data.
-* We can **begin to hypothesize** what we should do to get it into the correct structure for analysis.
+**Business Insights:**
+
+* Pickups and SUVs tend to pull highway fuel economy down
+* Compact and midsize have the highest fuel economy
+
+## 2. Frequency Plot (Categorical vs Categorical)
+
+![](/assets/explore_frequency_plot.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+**The 2nd plot we get is a frequency plot,** which is when we compare two categories and determine the overlap in terms of the frequency of observations that fall into combinations of categories. This plot won't help us with figuring out effect on fuel economy (highway mpg), but can be important in data discover. 
+
+**Business Insights:**
+
+* Chevrolet dominates the 2seater category, and Dodge dominates the minivan category
+* The most competitive categories are Midsize and SUV
 
 ## 3. Missing Data Profile
 
