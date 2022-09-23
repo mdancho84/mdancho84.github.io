@@ -16,16 +16,17 @@ image: "/assets/explore_thumbnail_2.jpg"
 image_preview: "/assets/explore_thumbnail_2.jpg"
 
 ---
-When I began applying data science to the company I worked for in 2015, exploratory data analysis (the critical process for performing initial investigations to find important relationships in my data, cleaning my data, spotting anomalies, and checking my assumptions through data visualization) would take me any where from 1 day to 1 week. 
+When I began applying data science to the company I worked for in 2015, exploratory data analysis (the critical process for performing initial investigations to find important relationships in my data, cleaning my data, spotting anomalies, and checking my assumptions through data visualization) would take me any where from 1 day to 1 week.
 
 It was an important step. But, I wanted to get to modeling (and machine learning) as efficiently as possible because that's where I could get the deep insights that drove my business. In my mind, EDA was a time consuming process with few tools to help other than basic plotting utilities and a lot of grit. **And EDA took a lot of code.**
 
-So fast-forward to today. I'm happy to say that I've stumbled across a new R package that transforms what used to take me 1 day of work into minutes of enjoyable introductory insight-gathering. 
+So fast-forward to today. I'm happy to say that I've stumbled across a new R package that transforms what used to take me 1 day of work into minutes of enjoyable introductory insight-gathering.
 
 **What R package is it?** It's called `explore`. And I want to share it with you so you can do EDA in under 10-minutes. Here's what you learn in this R-Tip:
 
-1. How to make a Shiny Exploratory Data Analysis (EDA) App in seconds with `explore`
-2. **BONUS: How to use the Shiny EDA App to analyze the 3 most important plots.**
+1. **My 3-Step Process For Exploratory Data Analysis** 
+2. How to make a Shiny Exploratory Data Analysis (EDA) App in seconds with `explore`
+3. **BONUS: How to use the Shiny EDA App to analyze the 3 most important plots.**
 
 # R-Tips Weekly
 
@@ -61,7 +62,7 @@ By the end of this R-Tip, you'll make this **exploratory data analysis report wi
 
 Before we dive into `explore`, I want to take a moment to thank the data scientist and developer of explore, [Roland Krasser](https://github.com/rolkra).  Thank you for making this great R package!
 
-# The 3 EDA Packages I Use 
+# My 3-Step EDA Process
 
 **It can be confusing on which EDA R packages to use.** So I'll fill you in on what I actually use in my process. And I'll share where I see `explore` fitting into my process specifically for bivariate analysis. But I also use 2 other R packages for EDA, namely `DataExplorer` and `correlationfunnel`.
 
@@ -81,7 +82,7 @@ Next, I use one another R package for EDA. It's my own `correlationfunnel` R pac
 
 ## 3. Explore
 
-As of this tutorial, I'm loving the `explore` package's **interactive approach to bivariate analysis** with a Shiny App. This allows me to compare multiple features quickly without spending a lot of time. 
+As of this tutorial, I'm loving the `explore` package's **interactive approach to bivariate analysis** with a Shiny App. This allows me to compare multiple features quickly without spending a lot of time.
 
 ![](/assets/explore_shiny_app.jpg)
 
@@ -118,7 +119,7 @@ And you get the same guidance which is important when you want to work in these 
 
 ![](/assets/explore_bivariate.jpg)
 
-## The Predictor 
+## The Predictor
 
 **The predictor** is the thing that we believe affects the response or outcome. In this case I believe the Class of the vehicle (whether its a Chevy S10 Pickup vs Audi A4 Compact) will have an effect on the fuel economy (how many miles per gallon).
 
@@ -134,20 +135,20 @@ Bivariate analysis is time consuming. It's probably 30% of data exploration. To 
 * **Step 2: Use correlationfunnel** to find the most important features vs a target ([Correlation funnel is covered here](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html))
 * **Step 3: Use explore** to explore the relationships between important features and the target that `correlationfunnel` identified in Step 2 (Discussed today)
 
-OK, so now that we have a process, let's focus on the `explore` package from Step 3. Be sure to check out the other tutorials for Steps 1 and 2 in my process (as I won't be covering those here). 
+OK, so now that we have a process, let's focus on the `explore` package from Step 3. Be sure to check out the other tutorials for Steps 1 and 2 in my process (as I won't be covering those here).
 
 # Tutorial: Exploratory Data Analysis with `explore`
 
-One of the coolest features of `explore` is the ability to **create an Shiny Exploratory App in 1 line of code**. This automates: 
+One of the coolest features of `explore` is the ability to **create an Shiny Exploratory App in 1 line of code**. This automates:
 
 * **Variable and Interaction Analysis (Bivariate Analysis)**
 * **Explanations (with Decision Tree Plot)**
 
-Ultimately, this saves the analyst/data scientist SO MUCH TIME. 
+Ultimately, this saves the analyst/data scientist SO MUCH TIME.
 
 ## Focus for this tutorial
 
-**I'm constantly doing bi-variate analysis.** So that's what I'm focusing on here. In the [YouTube Video](https://youtu.be/j1pkPsjYw5s) I show off the decision tree explanations and some other cool functionality like how to get bivariate plots and make reports with `explore`, so check the video out if you want to discover more.  
+**I'm constantly doing bi-variate analysis.** So that's what I'm focusing on here. In the [YouTube Video](https://youtu.be/j1pkPsjYw5s) I show off the decision tree explanations and some other cool functionality like how to get bivariate plots and make reports with `explore`, so check the video out if you want to discover more.
 
 ## Step 1: Load the libraries and data
 
@@ -219,7 +220,7 @@ As an extra special bonus, I figured I'd teach you not only how to make the Shin
 
 **Business Insights:**
 
-* As engine size (displacement) goes up, highway fuel economy goes down. This is an inverse relationship. 
+* As engine size (displacement) goes up, highway fuel economy goes down. This is an inverse relationship.
 
 # Conclusion
 
