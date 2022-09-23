@@ -24,8 +24,8 @@ So fast-forward to today. I'm happy to say that I've stumbled across a new R pac
 
 **What R package is it?** It's called `explore`. And I want to share it with you so you can do EDA in under 10-minutes. Here's what you learn in this R-Tip:
 
-1. How to make an EDA Shiny App in seconds with `explore`
-2. **BONUS: How to use the 7 most important EDA Plots to get exploratory insights.**
+1. How to make a Shiny Exploratory Data Analysis (EDA) App in seconds with `explore`
+2. **BONUS: How to use the Shiny EDA App to analyze the 3 most important plots.**
 
 # R-Tips Weekly
 
@@ -61,9 +61,9 @@ By the end of this R-Tip, you'll make this **exploratory data analysis report wi
 
 Before we dive into `explore`, I want to take a moment to thank the data scientist and developer of explore, [Roland Krasser](https://github.com/rolkra).  Thank you for making this great R package!
 
-# What's the Difference Between `explore`, `DataExplorer`, and `correlationfunnel`? 
+# The 3 EDA Packages I Use 
 
-**It can be confusing on which EDA R packages to use.** So I'll fill you in on what I actually use in my process. And I'll share where I see `explore` fitting into my process in bivariate analysis. But I also use 2 other R packges for EDA, namely `DataExplorer` and `correlationfunnel`
+**It can be confusing on which EDA R packages to use.** So I'll fill you in on what I actually use in my process. And I'll share where I see `explore` fitting into my process specifically for bivariate analysis. But I also use 2 other R packages for EDA, namely `DataExplorer` and `correlationfunnel`.
 
 ## 1. DataExplorer
 
@@ -73,17 +73,17 @@ Full disclosure, I still use DataExplorer in many of my EDA scripts. **The autom
 
 ![](/assets/data_explorer_gif.gif)
 
-## 2. Explore
+## 2. correlationfunnel
 
-But I'm also loving the `explore` package's **interactive approach to bivariate analysis** with a Shiny App. This allows me to compare multiple features quickly without spending a lot of time.
-
-![](/assets/explore_shiny_app.jpg)
-
-## 3. correlationfunnel
-
-And, I'm using one other R package for EDA. It's my own `correlationfunnel` R package. **The correlationfunnel package tells me which features to look at so I don't waste time on bad comparisons.** [**I introduce my correlationfunnel here.**](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html)
+Next, I use one other R package for EDA. It's my own `correlationfunnel` R package. **The correlationfunnel package tells me which features to look at so I don't waste time on bad comparisons.** [**I introduce my correlationfunnel here.**](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html)
 
 ![](/assets/2019-08-07-correlationfunnel/plot_correlationfunnel.png)
+
+## 3. Explore
+
+I'm also loving the `explore` package's **interactive approach to bivariate analysis** with a Shiny App. This allows me to compare multiple features quickly without spending a lot of time. 
+
+![](/assets/explore_shiny_app.jpg)
 
 Now that you have my EDA process, I want to give you...
 
