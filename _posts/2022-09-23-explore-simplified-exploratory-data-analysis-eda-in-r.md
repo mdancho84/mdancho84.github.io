@@ -16,9 +16,11 @@ image: "/assets/explore_thumbnail_2.jpg"
 image_preview: "/assets/explore_thumbnail_2.jpg"
 
 ---
-In 2015, exploratory data analysis (also known as figuring out why my data is so messed up) would take me any where from 8 hours to 1 week. I wanted to get to modeling (now called machine learning) as fast as possible because that's where I could get the insights that drove my business. **But EDA was holding me back.**
+When I began applying data science to my business in 2015, exploratory data analysis (the critical process for performing initial investigations to find important relationships in my data, cleaning my data, spotting anomalies, and checking my assumptions through data visualization) would take me any where from 8 hours to 1 week. 
 
-So fast-forward to today. I'm happy to say that I've stumbled across a NEW R package that **takes 8+ hours of work and compresses it into about 5-minutes.** A mere 7 hour and 55 minute improvement.
+It was an important step. But, I wanted to get to modeling (and machine learning) as efficiently as possible because that's where I could get the deep insights that drove my business. **In my mind, EDA was a time consuming process with few tools to help other than basic plotting utilities and a lot of grit. And EDA took a lot of code.**
+
+So fast-forward to today. I'm happy to say that I've stumbled across a new R package that transforms what used to take me 8+ hours of work **into 5-minutes of enjoyable insight-gathering.** 
 
 **What R package is it?** It's called `explore`. And I want to share it with you so you can do EDA in under 5-minutes. Here's what you learn in this R-Tip:
 
@@ -59,9 +61,9 @@ By the end of this R-Tip, you'll make this **exploratory data analysis report wi
 
 Before we dive into `explore`, I want to take a moment to thank the data scientist and developer of explore, [Roland Krasser](https://github.com/rolkra).  Thank you for making this great R package!
 
-# What's the Difference Between `Explore` and `DataExplorer`?
+# What's the Difference Between `explore`, `DataExplorer`, and `correlationfunnel`? 
 
-It can be confusing on which EDA R packages to use. So I'll fill you in on what I actually use in my process. And I'll share where I see `explore` fitting into my process in bivariate analysis.
+**It can be confusing on which EDA R packages to use.** So I'll fill you in on what I actually use in my process. And I'll share where I see `explore` fitting into my process in bivariate analysis. But I also use 2 other R packges for EDA, namely `DataExplorer` and `correlationfunnel`
 
 ## 1. DataExplorer
 
