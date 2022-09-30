@@ -40,6 +40,18 @@ I have a companion video tutorial that shows even more secrets (plus mistakes to
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/j1pkPsjYw5s" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+# What Do I Make In This R-Tip?
+
+By the end of this R-Tip, you'll make this **radar plot comparing multiple products.** Perfect for impressing your boss and coworkers! (Nice EDA skills)
+
+![](/assets/ggradar_thumbnail_2.jpg)
+
+<p class='text-center date'> <strong><a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Don't forget to get the code.</a> </strong></p>
+
+# Thank You Developers.
+
+Before we dive into `ggradar`, I want to take a moment to thank the data scientist and developer of ggradar, [Ricardo Bion](https://github.com/ricardo-bion).  Thank you for making this great R package!
+
 # What Is A Radar Plot (and how is it useful for business)?
 
 **A Radar Plot** is a way to visually compare multiple things like customer segments. 
@@ -48,7 +60,7 @@ One of the things I used to do when analyzing customers was to compare them by d
 
 **Why do I bring up RFM Analysis?** Well, it's the perfect thing for a radar chart. 
 
-Here's an example of how a business can use a radar plot for RFM Analysis. This hypothetical company sells weightloss supplements. What can you see from the radar plot?
+Here's an example of how a business can use a radar plot for RFM Analysis. This hypothetical company **sells weight loss supplements**. What can you see from the radar plot?
 
 ![](/assets/weighloss_supplement_radar.jpg)
 
@@ -57,18 +69,6 @@ Here's an example of how a business can use a radar plot for RFM Analysis. This 
 We can visually see that Young Bodybuilders are our target market. They are making lots of purchases and possibly taking the supplements to cut weight before a competition. 
 
 We can also see that middle-aged athletes seem to be a newer market or possibly had more recent sales demand due to promotions. However they seem to spend less monetary and frequency than the other customers (the average)
-
-# What Do I Make In This R-Tip?
-
-By the end of this R-Tip, you'll make this **exploratory data analysis report with 7 exploratory plots.** Perfect for impressing your boss and coworkers! (Nice EDA skills)
-
-![](/assets/explore_shiny_app.jpg)
-
-<p class='text-center date'> <strong><a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Don't forget to get the code.</a> </strong></p>
-
-# Thank You Developers.
-
-Before we dive into `explore`, I want to take a moment to thank the data scientist and developer of explore, [Roland Krasser](https://github.com/rolkra).  Thank you for making this great R package!
 
 # My 3-Step EDA Process
 
