@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'ggradar: radar plots with ggplot in R'
-date: 2022-09-23 06:00:00 -0400
+date: 2022-10-03 06:00:00 -0400
 excerpt: Did you know most Data Scientists spend 80% of their time just trying to
   understand and prepare data for analysis? R has an Insane Exploratory Data Analysis
   productivity-enhancer. It's called Explore.
@@ -68,33 +68,11 @@ Here's an example of how a business can use a radar plot for RFM Analysis. This 
 
 We can visually see that Young Bodybuilders are our target market. They are making lots of purchases and possibly taking the supplements to cut weight before a competition. 
 
-We can also see that middle-aged athletes seem to be a newer market or possibly had more recent sales demand due to promotions. However they seem to spend less monetary and frequency than the other customers (the average)
+We can also see that middle-aged athletes seem to be a newer market or possibly had more recent sales demand due to promotions. However they seem to spend less money and less frequency than the other customers (the average).
 
-# My 3-Step EDA Process
+Ok, now that we know what a radar plot is, now we need to get you set up with `ggplot2` guidance.
 
-**It can be confusing on which EDA R packages to use.** So I'll fill you in on what I actually use in my process. And I'll share where I see `explore` fitting into my process specifically for bivariate analysis. But I also use 2 other R packages for EDA, namely `DataExplorer` and `correlationfunnel`.
-
-## 1. DataExplorer
-
-If you follow my R-Tips or are a student in my R-Track courses, you might have seen me use `DataExplorer`, one of my favorite all-time packages for Exploratory Data Analysis. Don't worry, if you haven't you can get up to speed quickly ([You can snag my DataExplorer process here.](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html))
-
-Full disclosure, I still use DataExplorer in all of my EDA scripts. **The automated data exploration report is just so comprehensive.**
-
-![](/assets/data_explorer_gif.gif)
-
-## 2. correlationfunnel
-
-Next, I use one another R package for EDA. It's my own `correlationfunnel` R package. **The correlationfunnel package tells me which features to look at so I don't waste time on bad comparisons.** [**I introduce my correlationfunnel here.**](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html)
-
-![](/assets/2019-08-07-correlationfunnel/plot_correlationfunnel.png)
-
-## 3. Explore
-
-As of this tutorial, I'm loving the `explore` package's **interactive approach to bivariate analysis** with a Shiny App. This allows me to compare multiple features quickly without spending a lot of time.
-
-![](/assets/explore_shiny_app.jpg)
-
-Now that you have my EDA process, I want to give you...
+For that you're going to need...
 
 # My Cheat Sheet For My Top 100 R Packages
 
@@ -106,11 +84,11 @@ Why?
 
 ![](/assets/free_cheatsheet.jpg)
 
-Once you [download it](https://www.business-science.io/r-cheatsheet.html), head over to page 3 and you'll see several R packages I use frequently just for Exploratory Data Analysis.
+Once you [download it](https://www.business-science.io/r-cheatsheet.html), head to page 1 and you'll see the `ggplot2` package I use for Data Visualization.
 
-![](/assets/cheatsheet_exploratory.jpg)
+![](/assets/2021-08-12-ggalt-dumbbell-plots/ultimate_r_cheatsheet_ggplot2.jpg)
 
-And you get the same guidance which is important when you want to work in these fields:
+Beyond ggplot2, you'll be able to learn even more R packages. You get 100 R packages broken down by category, which is important when you want to work in these fields:
 
 * Machine Learning
 * Time Series
@@ -121,31 +99,7 @@ And you get the same guidance which is important when you want to work in these 
 
 [So steal my cheat sheet.](https://www.business-science.io/r-cheatsheet.html) It will save you a ton of time.
 
-# What is Bivariate Analysis?
-
-**A key reason I like `explore` is the concept of bivariate analysis.** Or the ability to quickly compare two variables - Typically a Predictor and a Response.
-
-![](/assets/explore_bivariate.jpg)
-
-## The Predictor
-
-**The predictor** is the thing that we believe affects the response or outcome. In this case I believe the Class of the vehicle (whether its a Chevy S10 Pickup vs Audi A4 Compact) will have an effect on the fuel economy (how many miles per gallon).
-
-## The Response (Our Target)
-
-In most business cases, **the response is our target.** It's the thing we are after. In this scenario, I want to know what is going to happen to Fuel Economy (Highway MPG) when I change things like class of the vehicle (compact vs pickup), size of the engine (displacement), and so on.
-
-## How can we speed up bi-variate analysis?
-
-Bivariate analysis is time consuming. It's probably 30% of data exploration. To speed it up, simply follow my process:
-
-* **Step 1: Use DataExplorer** to get a sense of the data. ([DataExplorer is covered here](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html))
-* **Step 2: Use correlationfunnel** to find the most important features vs a target ([Correlation funnel is covered here](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html))
-* **Step 3: Use explore** to explore the relationships between important features and the target that `correlationfunnel` identified in Step 2 (Discussed today)
-
-OK, so now that we have a process, let's focus on the `explore` package from Step 3. Be sure to check out the other tutorials for Steps 1 and 2 in my process (as I won't be covering those here).
-
-# Tutorial: Exploratory Data Analysis with `explore`
+# Tutorial: Radar Plots with `ggradar`
 
 One of the coolest features of `explore` is the ability to **create an Shiny Exploratory App in 1 line of code**. This automates:
 
