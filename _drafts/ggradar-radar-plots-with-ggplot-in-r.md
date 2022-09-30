@@ -32,13 +32,13 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 <p>Here are the links to get set up. 👇</p>
 
-<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/j1pkPsjYw5s">YouTube Tutorial</a></li> </ul>
+<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/-xgxA8I9PJY">YouTube Tutorial</a></li> </ul>
 
 # This Tutorial Is Available In Video
 
 I have a companion video tutorial that shows even more secrets (plus mistakes to avoid).  And, I'm finding that a lot of my students prefer the dialogue that goes along with coding. So check out this video to see me running the code in this tutorial. 👇
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/j1pkPsjYw5s" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/-xgxA8I9PJY" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # What Do I Make In This R-Tip?
 
@@ -70,7 +70,7 @@ We can visually see that Young Bodybuilders are our target market. They are maki
 
 We can also see that middle-aged athletes seem to be a newer market or possibly had more recent sales demand due to promotions. However they seem to spend less money and less frequency than the other customers (the average).
 
-Ok, now that we know what a radar plot is, now we need to get you set up with `ggplot2` guidance.
+Ok, now that we know what a radar plot is and why it's useful for business analysis, now we need to get you set up with `ggplot2` guidance.
 
 For that you're going to need...
 
@@ -110,7 +110,7 @@ Ultimately, this saves the analyst/data scientist SO MUCH TIME.
 
 ## Focus for this tutorial
 
-**I'm constantly doing bi-variate analysis.** So that's what I'm focusing on here. In the [YouTube Video](https://youtu.be/j1pkPsjYw5s) I show off the decision tree explanations and some other cool functionality like how to get bivariate plots and make reports with `explore`, so check the video out if you want to discover more.
+**I'm constantly doing bi-variate analysis.** So that's what I'm focusing on here. In the [YouTube Video](https://youtu.be/-xgxA8I9PJY) I show off the decision tree explanations and some other cool functionality like how to get bivariate plots and make reports with `explore`, so check the video out if you want to discover more.
 
 ## Step 1: Load the libraries and data
 
