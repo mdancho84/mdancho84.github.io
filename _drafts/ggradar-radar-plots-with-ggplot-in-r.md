@@ -12,8 +12,8 @@ tags:
 - R-Bloggers
 - Learn-R
 - explore
-image: "/assets/explore_thumbnail_2.jpg"
-image_preview: "/assets/explore_thumbnail_2.jpg"
+image: "/assets/ggradar_thumbnail_2.jpg"
+image_preview: "/assets/ggradar_thumbnail_2.jpg"
 
 ---
 When I began applying data science to the company I worked for in 2015, exploratory data analysis (the critical process for performing initial investigations to find important relationships in my data, cleaning my data, spotting anomalies, and checking my assumptions through data visualization) would take me any where from 1 day to 1 week.
@@ -22,9 +22,11 @@ It was an important step. But, I wanted to get to modeling (and machine learning
 
 So fast-forward to today. I'm happy to say that I've stumbled across a new R package that transforms what used to take me 1 day of work into minutes of enjoyable introductory insight-gathering.
 
+![](/assets/ggradar_thumbnail_2.jpg)
+
 **What R package is it?** It's called `explore`. And I want to share it with you so you can do EDA in under 10-minutes. Here's what you learn in this R-Tip:
 
-1. **My 3-Step Process For Exploratory Data Analysis** 
+1. **My 3-Step Process For Exploratory Data Analysis**
 2. How to make a Shiny Exploratory Data Analysis (EDA) App in seconds with `explore`
 3. **BONUS: How to use the Shiny EDA App to analyze the 3 most important plots.**
 
