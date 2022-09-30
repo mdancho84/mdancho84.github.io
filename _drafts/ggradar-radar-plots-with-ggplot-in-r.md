@@ -16,19 +16,15 @@ image: "/assets/ggradar_thumbnail_2.jpg"
 image_preview: "/assets/ggradar_thumbnail_2.jpg"
 
 ---
-When I began applying data science to the company I worked for in 2015, exploratory data analysis (the critical process for performing initial investigations to find important relationships in my data, cleaning my data, spotting anomalies, and checking my assumptions through data visualization) would take me any where from 1 day to 1 week.
+Let's face it. These days, everything is built off of comparisons. In business, we compare customers, products, service providers, hotel chains, doctors offices, revenue by verticals... 
 
-It was an important step. But, I wanted to get to modeling (and machine learning) as efficiently as possible because that's where I could get the deep insights that drove my business. In my mind, EDA was a time consuming process with few tools to help other than basic plotting utilities and a lot of grit. **And EDA took a lot of code.**
+You name it, we want to compare it.  Thankfully an R package exists to help us compare using a visualization called a **Radar Plot.**  
 
-So fast-forward to today. I'm happy to say that I've stumbled across a new R package that transforms what used to take me 1 day of work into minutes of enjoyable introductory insight-gathering.
+**What R package is it?** It's called `ggradar`. And I want to share it with you so you can do business comparisons (like customers with RFM Analysis) in under 10-minutes. Here's what you learn in this R-Tip:
 
-![](/assets/ggradar_thumbnail_2.jpg)
-
-**What R package is it?** It's called `explore`. And I want to share it with you so you can do EDA in under 10-minutes. Here's what you learn in this R-Tip:
-
-1. **My 3-Step Process For Exploratory Data Analysis**
-2. How to make a Shiny Exploratory Data Analysis (EDA) App in seconds with `explore`
-3. **BONUS: How to use the Shiny EDA App to analyze the 3 most important plots.**
+1. **How to use Radar Plots in Business**
+2. How to make Radar plots with `ggradar`
+3. **BONUS: How to sort the radar plots using similarity (important for identifying similar customers and products)** 
 
 # R-Tips Weekly
 
@@ -44,13 +40,23 @@ I have a companion video tutorial that shows even more secrets (plus mistakes to
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/j1pkPsjYw5s" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# What Is Exploratory Data Analysis?
+# What Is A Radar Plot (and how is it useful for business)?
 
-**Exploratory Data Analysis (EDA)** is how data scientists and data analysts find meaningful information in the form of relationships in the data. EDA is absolutely critical as a first step before machine learning and to **explain business insights** to non-technical stakeholders like executives and business leadership.
+**A Radar Plot** is a way to visually compare multiple things like customer segments. 
 
-![](/assets/explore_thumbnail_2.jpg)
+One of the things I used to do when analyzing customers was to compare them by different measures (like frequency of purchases, monetary value purchased in past year, time since last purchase). Nowadays it's called **RFM Analysis** (or Recency-Frequency-Monetary Analysis). 
 
-<p class='text-center date'>Make exploratory data analysis visuals with <code>explore</code></p>
+**Why do I bring up RFM Analysis?** Well, it's the perfect thing for a radar chart. 
+
+Here's an example of how a business can use a radar plot for RFM Analysis. This hypothetical company sells weightloss supplements. What can you see from the radar plot?
+
+![](/assets/weighloss_supplement_radar.jpg)
+
+<p class="date text-center">Example of a radar plot for a company that sells weightloss products</p>
+
+We can visually see that Young Bodybuilders are our target market. They are making lots of purchases and possibly taking the supplements to cut weight before a competition. 
+
+We can also see that middle-aged athletes seem to be a newer market or possibly had more recent sales demand due to promotions. However they seem to spend less monetary and frequency than the other customers (the average)
 
 # What Do I Make In This R-Tip?
 
