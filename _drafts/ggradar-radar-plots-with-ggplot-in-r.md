@@ -16,9 +16,9 @@ image: "/assets/ggradar_thumbnail_2.jpg"
 image_preview: "/assets/ggradar_thumbnail_2.jpg"
 
 ---
-Let's face it. These days, everything is built off of comparisons. In business, we compare customers, products, service providers, hotel chains, doctors offices, revenue by verticals...
+Let's face it. These days, everything is built off of comparisons. In business, we compare customers, products, service providers, hotel chains, doctors offices, revenue by verticals... And we do this to find insights within groups of our data. 
 
-**Every dataset has groups. And group-wise comparisons can be tricky.**  Thankfully an R package exists to help us compare within groups using a visualization called a **Radar Plot.**
+**Groups are important (think customer segments). But group-wise comparisons can be tricky.**  Thankfully an R package exists to help us compare within groups using a visualization called a Radar Plot.
 
 **What R package is it?** It's called `ggradar`. And I want to share it with you so you can do business comparisons (like customers with RFM Analysis) in under 10-minutes. Here's what you learn in this R-Tip:
 
@@ -115,9 +115,9 @@ I want to show off how quickly you can make radar plots in this tutorial with th
 
 ## Step 1: Load the libraries and data
 
-To get set up, all we need to do is load the following libraries and data.
+To get set up, all we need to do is load the following libraries and data. 
 
-![](/assets/explore_01_libraries.jpg)
+![](/assets/ggradar_libraries_data.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
