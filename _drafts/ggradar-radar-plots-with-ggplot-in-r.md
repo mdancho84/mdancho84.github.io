@@ -196,14 +196,20 @@ The faceted radar plot is a bit more code because of the formatting. Again, I re
 
 ![](/assets/ggradar_faceted_plot_unordered.jpg)
 
-## BONUS: Ordered By Similarity
+## BONUS: Ordering The Faceted Radar Plot By Similarity
 
-As a YouTube Bonus, I show you how to order the faceted radar plot. Here are the links to reproduce:
+As a YouTube Bonus, I show you how to order the faceted radar plot by the similarity of groups. Ordering by similarity makes it much easier to compare groups in the data. Here are the links to reproduce:
 
 * [Get the R code here](https://learn.business-science.io/r-tips-newsletter) (see R Tip 55)
 * [Watch the YouTube Video Here](https://youtu.be/-xgxA8I9PJY). 
 
 ![](/assets/ggradar_faceted_plot_ordered.jpg)
+
+I can now see that:
+
+* Compact, Subcompact, and Midsize are similar
+* Pickup and SUV are similar
+* 2 Seater is Different, and so is Minivan
 
 # Conclusion
 
