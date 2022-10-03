@@ -1,28 +1,28 @@
 ---
 layout: post
 title: 'ggradar: radar plots with ggplot in R'
-date: 2022-10-03 06:00:00 -0400
-excerpt: Did you know most Data Scientists spend 80% of their time just trying to
-  understand and prepare data for analysis? R has an Insane Exploratory Data Analysis
-  productivity-enhancer. It's called Explore.
+date: 2022-10-04 06:00:00 -0400
+excerpt: 'Need to quickly compare multiple groups in your data? Radar plots are the
+  perfect way to analyze groups across many numeric metrics. '
 author: Matt Dancho
 categories:
 - Code-Tools
 tags:
 - R-Bloggers
 - Learn-R
-- explore
+- ggradar
+- ggplot2
 image: "/assets/ggradar_thumbnail_2.jpg"
 image_preview: "/assets/ggradar_thumbnail_2.jpg"
 
 ---
 Let's face it. These days, everything is built off of comparisons. In business, we compare customers, products, service providers, hotel chains, doctors offices, revenue by verticals...
 
-You name it, we want to compare it.  Thankfully an R package exists to help us compare using a visualization called a **Radar Plot.**
+**Every dataset has groups. And group-wise comparisons can be tricky.**  Thankfully an R package exists to help us compare within groups using a visualization called a **Radar Plot.**
 
 **What R package is it?** It's called `ggradar`. And I want to share it with you so you can do business comparisons (like customers with RFM Analysis) in under 10-minutes. Here's what you learn in this R-Tip:
 
-1. **How to use Radar Plots in Business**
+1. **How to use Radar Plots in Business (Customer Segments, Avatars, & RFM Analysis)**
 2. How to make Radar plots with `ggradar`
 3. **BONUS: How to sort the radar plots using similarity (important for identifying similar customers and products)**
 
@@ -52,17 +52,21 @@ By the end of this R-Tip, you'll make this **radar plot comparing multiple produ
 
 Before we dive into `ggradar`, I want to take a moment to thank the data scientist and developer of ggradar, [Ricardo Bion](https://github.com/ricardo-bion).  Thank you for making this great R package!
 
-# What Is A Radar Plot (and how is it useful for business)?
+# Business Use Case For Radar Plots (RFM & Customer Segments)?
 
-**A Radar Plot** is a way to visually compare multiple things like customer segments.
+**A Radar Plot** is a way to visually compare multiple things like customer segments (or customer avatars).
 
-One of the things I used to do when analyzing customers was to compare them by different measures (like frequency of purchases, monetary value purchased in past year, time since last purchase). Nowadays it's called **RFM Analysis** (or Recency-Frequency-Monetary Analysis).
+**Business Use Case: RFM Analysis, Customer Segments & Customer Avatars.** One of the things I do when analyzing customers is to compare them by different measures (like frequency of purchases, monetary value purchased in past year, time since last purchase).
 
-**Why do I bring up RFM Analysis?** Well, it's the perfect thing for a radar chart.
+* It's called **RFM Analysis** (or Recency-Frequency-Monetary Analysis), when we group customers by spending habits such as how many days since last transaction, how many times they have transacted, and the total amount the customer has spent.
+* A big mistake many business analysts make is not including customer features like Age and for a weight-loss company how much the customer weighs. This helps us further create **Customer Segments**.
+* If done properly, we can develop **Customer Avatars**, that describe the unique groups within our data.
+
+**Why do I bring up RFM Analysis, Customer Segments, and Customer Avatars?** Well, it's the perfect thing for a radar chart.
 
 Here's an example of how a business can use a radar plot for RFM Analysis. This hypothetical company **sells weight loss supplements**. What can you see from the radar plot?
 
-![](/assets/weighloss_supplement_radar.jpg)
+![](/assets/weighloss_supplement_radar-1.jpg)
 
 <p class="date text-center">Example of a radar plot for a company that sells weightloss products</p>
 
