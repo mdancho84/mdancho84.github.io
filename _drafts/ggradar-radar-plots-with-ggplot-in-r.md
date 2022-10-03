@@ -16,7 +16,7 @@ image: "/assets/ggradar_thumbnail_2.jpg"
 image_preview: "/assets/ggradar_thumbnail_2.jpg"
 
 ---
-Let's face it. These days, everything is built off of comparisons. In business, we compare customers, products, service providers, hotel chains, doctors offices, revenue by verticals... And we do this to find insights within groups of our data. 
+Let's face it. These days, everything is built off of comparisons. In business, we compare customers, products, service providers, hotel chains, doctors offices, revenue by verticals... And we do this to find insights within groups of our data.
 
 **Groups are important (think customer segments). But group-wise comparisons can be tricky.**  Thankfully an R package exists to help us compare within groups using a visualization called a Radar Plot.
 
@@ -105,7 +105,7 @@ Beyond ggplot2, you'll be able to learn even more R packages. You get 100 R pack
 
 # Tutorial: Radar Plots with `ggradar`
 
-I want to show off how quickly you can make radar plots in this tutorial with the `ggradar` package, which extends `ggplot2` for radar plots. I've seen tutorials in Python where it takes 10-20X the amount of code with matplotlib. So `ggradar` is a massive productivity enhancer. 
+I want to show off how quickly you can make radar plots in this tutorial with the `ggradar` package, which extends `ggplot2` for radar plots. I've seen tutorials in Python where it takes 50 to 100 lines of code with matplotlib. So `ggradar` is a massive productivity enhancer. **We'll make some awesome radar plots in 10 lines of code.**
 
 ![](/assets/ggradar_vehicle_plot.jpg)
 
@@ -115,7 +115,7 @@ I want to show off how quickly you can make radar plots in this tutorial with th
 
 ## Step 1: Load the libraries and data
 
-To get set up, all we need to do is load the following libraries and data. 
+To get set up, all we need to do is load the following libraries and data.
 
 ![](/assets/ggradar_libraries_data.jpg)
 
@@ -127,63 +127,68 @@ We'll use the `mpg` dataset, which has data on 234 vehicle models.
 
 With data in hand, we are ready to create the automatic EDA report. Let's explore!
 
-## Step 2: Shiny EDA App
+## Step 2: Data Wrangling
 
-Next, use `explore()` to make our EDA shiny app.
+We're going to do **within-group analysis**. So we just need to summarize by group.
 
-![](/assets/explore_03_shiny_app.jpg)
+* Vehicle Class is the **group** in our data set
+* The **summary metric** is going to be the median displacement, highway fuel economy, city fuel economy, and number of cylinders
+* We'll need to **rescale** each of the numeric variable to be between 0 and 1 (so they appear correctly on the radar chart)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-This produces an automatic Shiny EDA App that covers all of the important aspects that we need to analyze in our data! It's that simple folks.
-
-![](/assets/explore_shiny_app.jpg)
-
-The shiny app is great, but the next thing you're probably wondering is how the heck am I going to use this report.
-
-**That's why I want to show you...**
-
-# BONUS: How To Do Bivariate Analysis with the Shiny EDA App
-
-As an extra special bonus, I figured I'd teach you not only how to make the Shiny EDA App BUT how to use the app too. Here's how to get the most out of your automatic EDA analysis tool. If you'd like to **get the code to produce the individual plots**, just [sign up for my FREE R-tips codebase](https://learn.business-science.io/r-tips-newsletter). You'll get all the code sent to your email plus more R-Tips every week.
-
-## 1. Box Plot (Numeric Target + Categorical Predictor)
-
-![](/assets/explore_boxplot.jpg)
+![](/assets/ggradar_data_wrangling.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-**The first plot we get is a box plot,** which is when we compare a numeric target and a categorical predictor. The box plot helps us see which categories pull fuel economy up and down.
+This produces the within-group data that has been rescaled and is ready for `ggradar`
 
-**Business Insights:**
+![](/assets/ggradar_formatted_data.jpg)
 
-* Pickups and SUVs tend to pull highway fuel economy down
-* Compact and midsize have the highest fuel economy
+## Step 3. Make a Radar Plot
 
-## 2. Frequency Plot (Categorical vs Categorical)
+Radar plots make within-group analysis a visual experience.
 
-![](/assets/explore_frequency_plot.jpg)
+* A simple radar plot is only 1 line of code.
+* And a custom faceted radar plot isn't bad either once you know `ggplot2`
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+  **Pro-Tip:** [Use my R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) for customized plotting.
 
-**The 2nd plot we get is a frequency plot,** which is when we compare two categories and determine the overlap in terms of the frequency of observations that fall into combinations of categories. This plot won't help us with figuring out effect on fuel economy (highway mpg), but can be important in data discover.
+### Simple Radar Plot
 
-**Business Insights:**
+Making a radar plot is as simple as 1 line of code.
 
-* Chevrolet dominates the 2seater category, and Dodge dominates the minivan category
-* The most competitive categories are Midsize and SUV
-
-## 3. Scatter Plot (Numeric vs Numeric)
-
-![](/assets/explore_scatterplot.jpg)
+![](/assets/ggradar_simple.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-**The 3rd plot we get is a scatter plot,** which is when we compare two numeric variables and determine the trend between the two variables. This plot helps us see an immediate trend between highway fuel economy and engine size (displacement).
+Here's the default data visualization. It's not going to win any data-viz awards, but we're on the right track.
 
-**Business Insights:**
+![](/assets/ggradar_basic.jpg)
 
-* As engine size (displacement) goes up, highway fuel economy goes down. This is an inverse relationship.
+## Customizing the Simple Radar Plot
+
+With just a few tweaks, I can upgrade my within-group analysis and begin to get some business insights.
+
+![](/assets/ggradar_basic_custom.jpg)
+
+...which produces this data visualization.
+
+![](/assets/ggradar_basic_custom_plot.jpg)
+
+Great, now I can see that there are **key business insights** based on their similarities:
+
+* SUV and Pickup are similar
+* Compact, Subcompact, and Midsize are similar
+* 2-Seater and Minivans are outliers
+
+Next, I want to break these out so I can really expose their trends.
+
+## Faceted Radar
+
+The faceted radar plot is a bit more code because of the formatting. Again, I recommend using the [ggplot2 links in my R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html)... These are a savior for remembering the ggplot theme options.
+
+...which produces this data visualization
+
+## Ordered By Similarity
 
 # Conclusion
 
