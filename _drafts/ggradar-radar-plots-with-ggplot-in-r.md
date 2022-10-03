@@ -105,16 +105,13 @@ Beyond ggplot2, you'll be able to learn even more R packages. You get 100 R pack
 
 # Tutorial: Radar Plots with `ggradar`
 
-One of the coolest features of `explore` is the ability to **create an Shiny Exploratory App in 1 line of code**. This automates:
+I want to show off how quickly you can make radar plots in this tutorial with the `ggradar` package, which extends `ggplot2` for radar plots. I've seen tutorials in Python where it takes 10-20X the amount of code with matplotlib. So `ggradar` is a massive productivity enhancer. 
 
-* **Variable and Interaction Analysis (Bivariate Analysis)**
-* **Explanations (with Decision Tree Plot)**
+![](/assets/ggradar_vehicle_plot.jpg)
 
-Ultimately, this saves the analyst/data scientist SO MUCH TIME.
+<p class="date text-center">Making radar plots for within-group analysis (e.g. comparing customer segments)</p>
 
-## Focus for this tutorial
-
-**I'm constantly doing bi-variate analysis.** So that's what I'm focusing on here. In the [YouTube Video](https://youtu.be/-xgxA8I9PJY) I show off the decision tree explanations and some other cool functionality like how to get bivariate plots and make reports with `explore`, so check the video out if you want to discover more.
+**I'm constantly doing within-group analysis.** So that's what I'm focusing on here. In the [YouTube Video](https://youtu.be/-xgxA8I9PJY) I show off the correlation and similarity which can help you find similar groups within your data.
 
 ## Step 1: Load the libraries and data
 
