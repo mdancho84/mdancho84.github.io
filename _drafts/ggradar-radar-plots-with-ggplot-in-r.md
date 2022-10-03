@@ -66,13 +66,13 @@ Before we dive into `ggradar`, I want to take a moment to thank the data scienti
 
 Here's an example of how a business can use a radar plot for RFM Analysis. This hypothetical company **sells weight loss supplements**. What can you see from the radar plot?
 
-![](/assets/weighloss_supplement_radar-1.jpg)
+![](/assets/weighloss_supplement_radar-2.jpg)
 
-<p class="date text-center">Example of a radar plot for a company that sells weightloss products</p>
+<p class="date text-center">Example of a radar plot for a company that sells weight-loss products (Useful for customer avatars, segments, & RFM Analysis)</p>
 
-We can visually see that Young Bodybuilders are our target market. They are making lots of purchases and possibly taking the supplements to cut weight before a competition.
+We can visually see that "Young Bodybuilders" are our target market. They are making lots of purchases and possibly taking the supplements to cut weight before a competition.
 
-We can also see that middle-aged athletes seem to be a newer market or possibly had more recent sales demand due to promotions. However they seem to spend less money and less frequency than the other customers (the average).
+We can also see that "Middle-Aged Athletes" seem to be a newer market or possibly had more recent sales demand due to promotions. However they seem to spend less money and less frequency than the other customers (the average).
 
 Ok, now that we know what a radar plot is and why it's useful for business analysis, now we need to get you set up with `ggplot2` guidance.
 
@@ -185,6 +185,8 @@ Next, I want to break these out so I can really expose their trends.
 ## Faceted Radar
 
 The faceted radar plot is a bit more code because of the formatting. Again, I recommend using the [ggplot2 links in my R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html)... These are a savior for remembering the ggplot theme options.
+
+![](/assets/ggradar_faceted-1.jpg)
 
 ...which produces this data visualization
 
