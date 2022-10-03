@@ -68,7 +68,7 @@ Here's an example of how a business can use a radar plot for RFM Analysis. This 
 
 ![](/assets/weighloss_supplement_radar-2.jpg)
 
-<p class="date text-center">Example of a radar plot for a company that sells weight-loss products (Useful for customer avatars, segments, & RFM Analysis)</p>
+<p class="date text-center">Example of a radar plot for a company that sells weight-loss products <br>(Useful for customer avatars, segments, & RFM Analysis)</p>
 
 We can visually see that "Young Bodybuilders" are our target market. They are making lots of purchases and possibly taking the supplements to cut weight before a competition.
 
