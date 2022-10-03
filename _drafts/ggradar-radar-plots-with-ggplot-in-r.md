@@ -68,7 +68,7 @@ Here's an example of how a business can use a radar plot for RFM Analysis. This 
 
 ![](/assets/weighloss_supplement_radar-2.jpg)
 
-<p class="date text-center">Example of a radar plot for a company that sells weight-loss products <br>(Useful for customer avatars, segments, & RFM Analysis)</p>
+<p class="date text-center">Example of a radar plot for a company that sells weight-loss products <br>(Useful for customer avatars, customer segments, & RFM Analysis)</p>
 
 We can visually see that "Young Bodybuilders" are our target market. They are making lots of purchases and possibly taking the supplements to cut weight before a competition.
 
@@ -105,9 +105,9 @@ Beyond ggplot2, you'll be able to learn even more R packages. You get 100 R pack
 
 # Tutorial: Radar Plots with `ggradar`
 
-I want to show off how quickly you can make radar plots in this tutorial with the `ggradar` package, which extends `ggplot2` for radar plots. I've seen tutorials in Python where it takes 50 to 100 lines of code with matplotlib. So `ggradar` is a massive productivity enhancer. **We'll make some awesome radar plots in 10 lines of code.**
+I want to show off how quickly you can make radar plots in this tutorial with the `ggradar` package, which extends `ggplot2` for radar plots. I've seen tutorials in Python where it takes 50 to 100 lines of code with matplotlib. So `ggradar` is a massive productivity enhancer. **We'll make some awesome radar plots in 1 line of code.**
 
-![](/assets/ggradar_vehicle_plot.jpg)
+![](/assets/ggradar_basic_custom_plot.jpg)
 
 <p class="date text-center">Making radar plots for within-group analysis (e.g. comparing customer segments)</p>
 
