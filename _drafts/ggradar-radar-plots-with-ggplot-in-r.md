@@ -170,6 +170,8 @@ With just a few tweaks, I can upgrade my within-group analysis and begin to get 
 
 ![](/assets/ggradar_basic_custom.jpg)
 
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
 ...which produces this data visualization.
 
 ![](/assets/ggradar_basic_custom_plot.jpg)
@@ -188,13 +190,24 @@ The faceted radar plot is a bit more code because of the formatting. Again, I re
 
 ![](/assets/ggradar_faceted-1.jpg)
 
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
 ...which produces this data visualization
 
-## Ordered By Similarity
+![](/assets/ggradar_faceted_plot_unordered.jpg)
+
+## BONUS: Ordered By Similarity
+
+As a YouTube Bonus, I show you how to order the faceted radar plot. Here are the links to reproduce:
+
+* [Get the R code here](https://learn.business-science.io/r-tips-newsletter) (see R Tip 55)
+* [Watch the YouTube Video Here](https://youtu.be/-xgxA8I9PJY). 
+
+![](/assets/ggradar_faceted_plot_ordered.jpg)
 
 # Conclusion
 
-You learned how to use the `explore` library to automatically create an exploratory data analysis shiny app AND perform bivariate analysis the fast way. Great work! **But, there's a lot more to becoming a data scientist.**
+You learned how to use the `ggradar` library to make radar plots. Great work! **But, there's a lot more to becoming a data scientist.**
 
 If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
