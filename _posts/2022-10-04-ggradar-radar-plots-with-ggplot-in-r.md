@@ -16,9 +16,9 @@ image: "/assets/ggradar_thumbnail_2.jpg"
 image_preview: "/assets/ggradar_thumbnail_2.jpg"
 
 ---
-Let's face it. These days, everything is built off of comparisons. In business, we compare customers, products, service providers, hotel chains, doctors offices, revenue by verticals... And we do this to find insights within groups of our data.
+Businesses have tons of data. But 90% have no clue how to use it. Here's what they are overlooking...
 
-**Groups are important (think customer segments). But group-wise comparisons can be tricky.**  Thankfully an R package exists to help us compare within groups using a visualization called a Radar Plot.
+**Within-Group Analysis.** Groups are important (think customer segments). But group-wise comparisons can be tricky.  Thankfully an R package exists to help us compare within groups using a visualization called a Radar Plot.
 
 **What R package is it?** It's called `ggradar`. And I want to share it with you so you can do business comparisons (like customers with RFM Analysis) in under 10-minutes. Here's what you learn in this R-Tip:
 
