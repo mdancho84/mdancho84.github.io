@@ -107,7 +107,7 @@ Beyond ggplot2, you'll be able to learn even more R packages. You get 100 R pack
 
 I want to show off how quickly you can make radar plots in this tutorial with the `ggradar` package, which extends `ggplot2` for radar plots. I've seen tutorials in Python where it takes 50 to 100 lines of code with matplotlib. So `ggradar` is a massive productivity enhancer. **We'll make some awesome radar plots in 1 line of code.**
 
-![](/assets/ggradar_basic_custom_plot.jpg)
+![](/assets/ggradar_basic_custom_plot_4.jpg)
 
 <p class="date text-center">Making radar plots for within-group analysis (e.g. comparing customer segments)</p>
 
@@ -168,13 +168,13 @@ Here's the default data visualization. It's not going to win any data-viz awards
 
 With just a few tweaks, I can upgrade my within-group analysis and begin to get some business insights.
 
-![](/assets/ggradar_basic_custom.jpg)
+![](/assets/ggradar_basic_custom_code_4.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 ...which produces this data visualization.
 
-![](/assets/ggradar_basic_custom_plot.jpg)
+![](/assets/ggradar_basic_custom_plot_4.jpg)
 
 Great, now I can see that there are **key business insights** based on their similarities:
 
@@ -201,7 +201,7 @@ The faceted radar plot is a bit more code because of the formatting. Again, I re
 As a YouTube Bonus, I show you how to order the faceted radar plot by the similarity of groups. Ordering by similarity makes it much easier to compare groups in the data. Here are the links to reproduce:
 
 * [Get the R code here](https://learn.business-science.io/r-tips-newsletter) (see R Tip 55)
-* [Watch the YouTube Video Here](https://youtu.be/-xgxA8I9PJY). 
+* [Watch the YouTube Video Here](https://youtu.be/-xgxA8I9PJY).
 
 ![](/assets/ggradar_faceted_plot_ordered.jpg)
 
