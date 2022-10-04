@@ -52,21 +52,23 @@ By the end of this R-Tip, you'll make this **radar plot comparing multiple produ
 
 Before we dive into `ggradar`, I want to take a moment to thank the data scientist and developer of ggradar, [Ricardo Bion](https://github.com/ricardo-bion).  Thank you for making this great R package!
 
-# Business Use Case For Radar Plots (RFM & Customer Segments)?
+# Why Use Radar Plots For Business?
 
 In business, we need a way to visually compare multiple things like customer segments (or customer avatars). Here's why...
 
-## **Business Use Case: RFM Analysis, Customer Segments & Customer Avatars.** 
+## RFM Analysis, Customer Segments & Customer Avatars. 
 
-One of the things I do when analyzing customers is to compare them by different measures (like frequency of purchases, monetary value purchased in past year, time since last purchase).
+One of the things I do when analyzing customers is to compare them by different measures like frequency of purchases, monetary value purchased in past year, time since last purchase.
 
-* It's called [**RFM Analysis**](https://www.investopedia.com/terms/r/rfm-recency-frequency-monetary-value.asp) (or Recency-Frequency-Monetary Analysis), when we group customers by spending habits such as how many days since last transaction, how many times they have transacted, and the total amount the customer has spent.
-* **A big mistake** many business analysts make is not including customer features like Age and for a weight-loss company how much the customer weighs. This helps us further create **Customer Segments**.
-* If done properly, we can develop **Customer Avatars**, that describe the unique groups within our data.
+* It's called **RFM Analysis** (or [Recency-Frequency-Monetary Analysis](https://www.investopedia.com/terms/r/rfm-recency-frequency-monetary-value.asp)), when we group customers by spending habits such as how many days since last transaction, how many times they have transacted, and the total amount the customer has spent.
+* **A big mistake** many business analysts (and data scientists) make is not including customer features like Age and for a weight-loss company how much the customer weighs. This helps us further create **Customer Segments**.
+* If done properly, we can develop **Customer Avatars**, that describe the unique groups within our data (i.e. the unique customer segments). Then we can develop marketing that speaks to those Customer Avatars. And by targeting them, we can increase sales.
 
-## **Why do I bring up RFM Analysis, Customer Segments, and Customer Avatars?** 
+## Why do I bring up RFM Analysis, Customer Segments, and Customer Avatars? 
 
 Well, it's the perfect thing for a **radar chart.**
+
+### Example. Weight-Loss Supplement Company
 
 Here's an example of how a business can use a radar plot for RFM Analysis. This hypothetical company **sells weight loss supplements**. What can you see from the radar plot?
 
@@ -78,11 +80,13 @@ We can visually see that "Young Bodybuilders" are our target market. They are ma
 
 We can also see that "Middle-Aged Athletes" seem to be a newer market or possibly had more recent sales demand due to promotions. However they seem to spend less money and less frequency than the other customers (the average).
 
-## Radar plots can help within-group analysis
+### Radar plots can help us visualize within-group analysis
 
-Ok, now that we know what a radar plot is and why it's useful for business analysis, now we need to get you set up with `ggplot2` guidance.
+The brilliant thing is that radar plots are a powerful way to visualize our customer groups. And they work really well for this task. 
 
-For that you're going to need...
+Ok, now that we know what a radar plot is and why it's useful for business analysis, now we need to help you understand how to visualize data. To help, I want to get you set up with data visualization guidance (using the premier data visualization library in R).
+
+To help you learn data visualization faster, you're going to need...
 
 # My Cheat Sheet For My Top 100 R Packages
 
