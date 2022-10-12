@@ -56,7 +56,7 @@ Before we dive into `ggradar`, I want to take a moment to thank the data scienti
 
 In business, we need a way to visually compare multiple things like customer segments (or customer avatars). Here's why...
 
-## RFM Analysis, Customer Segments & Customer Avatars. 
+## RFM Analysis, Customer Segments & Customer Avatars.
 
 One of the things I do when analyzing customers is to compare them by different measures like frequency of purchases, monetary value purchased in past year, time since last purchase.
 
@@ -64,7 +64,7 @@ One of the things I do when analyzing customers is to compare them by different 
 * **A big mistake** many business analysts (and data scientists) make is not including customer features like Age and for a weight-loss company how much the customer weighs. This helps us further create **Customer Segments**.
 * If done properly, we can develop **Customer Avatars**, that describe the unique groups within our data (i.e. the unique customer segments). Then we can develop marketing that speaks to those Customer Avatars. And by targeting them, we can increase sales.
 
-## Why do I bring up RFM Analysis, Customer Segments, and Customer Avatars? 
+## Why do I bring up RFM Analysis, Customer Segments, and Customer Avatars?
 
 Well, it's the perfect thing for a **radar chart.**
 
@@ -82,7 +82,7 @@ We can also see that "Middle-Aged Athletes" seem to be a newer market or possibl
 
 ### Radar plots can help us visualize within-group analysis
 
-The brilliant thing is that radar plots are a powerful way to visualize our customer groups. And they work really well for this task. 
+The brilliant thing is that radar plots are a powerful way to visualize our customer groups. And they work really well for this task.
 
 Ok, now that we know what a radar plot is and why it's useful for business analysis, now we need to help you understand how to visualize data. To help, I want to get you set up with data visualization guidance (using the premier data visualization library in R).
 
@@ -227,41 +227,31 @@ You learned how to use the `ggradar` library to make radar plots. Great work! **
 
 If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
-## Step 1: Watch My Free 40-Minute Webinar
+## My Struggles with Learning Data Science
 
-Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.**
+It took me a long time to learn how to apply data science to business. And I made a lot of mistakes as I fumbled through learning R.
 
-AND, I don't want it to take that long for you.
+I specifically had a tough time navigating the ever-increasing landscape of tools and packages, trying to pick between R and Python, and getting lost along the way.
 
-So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://learn.business-science.io/free-rtrack-masterclass-signup) that provides a roadmap for what worked for me.
+**If you feel like this, you're not alone.**
 
-![](/assets/free_rtrack_masterclass.jpg)
+In fact, that's the driving reason that I created Business Science and Business Science University ([You can read about my personal journey here](https://www.business-science.io/business/2019/07/22/how-i-started-my-data-science-business.html)).
 
-<p style="font-size: 36px;text-align: center;"><a href="https://learn.business-science.io/free-rtrack-masterclass-signup">Join My FREE 40-Minute R Webinar <br>(The Roadmap to a 6-Figure Data Scientist Career)</a></p>
+What I found out is that:
 
-Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
+1. **Data Science does not have to be difficult, it just has to be taught from a business perspective**
+2. **Anyone can learn data science fast provided they are motivated.**
 
-# Step 2: Take Control Of Your Career
+# How I can help
 
-For my action-takers, if you are ready to become a Business Scientist, then read on.
+If you are interested in learning R and the ecosystem of tools at a deeper level, then I have a streamlined program that will **get you past your struggles** and improve your career in the process.
 
-If you need take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), AND you'd like someone to help guide you how to do this in UNDER  6-MONTHS or less....
+It's my [5-Course R-Track System](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series/). It's an integrated system containing 5 courses that work together on a learning path. Through 8 projects, you learn everything you need to help your organization: from data science foundations, to advanced machine learning, to web applications and deployment.
 
-## **Then I can help with that too.**
+The result is that **you break through previous struggles**, learning from my experience & our community of 2653 data scientists that are ready to help you succeed.
 
-I have a program that has helped over 3,000 students become data scientists in business with the R programming language. [Don't believe me? Read these testimonials.](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series)
-
-My students have gotten:
-
-* 6-Figure Data Science Jobs ($100,000+)
-* Senior VP of Analytics ($200,000+)
-* Lead Data Scientist Jobs ($175,000+)
-* Raises and Career Promotions of 25% to 50%
-
-All by learning data science for business with R. Get ready. The ride is wild. And the destination is AMAZING!
+Ready to take the next step? Then [let's get started.](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series/)
 
 ![](/assets/rtrack_what_theyre_doing_2.jpg)
 
 <p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(Become A 6-Figure Data Scientist)</a></p>
-
-**P.S. Many of my students are getting their work to pay for education and skill advancement because it benefits your company.** [**Find out how to get your company to reimburse you for my courses. **](https://www.business-science.io/business/2020/09/07/course-benefits-manager-negotiation.html)
