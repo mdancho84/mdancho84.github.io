@@ -136,28 +136,37 @@ Quick Assessment:
 * **Quantile-Quantile Plot**: We can see that several points towards the end of the quantile plot do fall along the straight-line. This indicates that the model is not predicting well for these points. Further inspection is required.
 * **Normal Density Plot**: We can see there is a slight increase in density around 15, which looks to shift the distribution to the left of zero. This means that the high-error predictions should be investigated further to see why the model is far off on this subset of the data.
 
-# Recap
+# Conclusions
 
-We learned how to use the `check_model()` function from the `performance` package, which makes it easy to quickly analyze regression models for model performance. **But, there's a lot more to becoming a data scientist.**
+You learned how to use the `check_model()` function from the `performance` package, which makes it easy to quickly analyze regression models for model performance. **But, there's a lot more to becoming a data scientist.**
 
 If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
-## Step 1: Watch my Free 40-Minute Webinar
+## My Struggles with Learning Data Science
 
-Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.**
+It took me a long time to learn how to apply data science to business. And I made a lot of mistakes as I fumbled through learning R.
 
-AND, I don't want it to take that long for you.
+I specifically had a tough time navigating the ever-increasing landscape of tools and packages, trying to pick between R and Python, and getting lost along the way.
 
-So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://learn.business-science.io/free-rtrack-masterclass-signup) that provides a roadmap for what worked for me.
+**If you feel like this, you're not alone.**
 
-Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.
+In fact, that's the driving reason that I created Business Science and Business Science University ([You can read about my personal journey here](https://www.business-science.io/business/2019/07/22/how-i-started-my-data-science-business.html)).
 
-## Step 2: Take action
+What I found out is that:
 
-For my action-takers, if you are ready to take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you'd like someone to help you do this in UNDER  6-MONTHS or less....
+1. **Data Science does not have to be difficult, it just has to be taught from a business perspective**
+2. **Anyone can learn data science fast provided they are motivated.**
 
-Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://learn.business-science.io/free-rtrack-masterclass-signup) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
+# How I can help
 
-Get ready. The ride is wild. And the destination is AMAZING!
+If you are interested in learning R and the ecosystem of tools at a deeper level, then I have a streamlined program that will **get you past your struggles** and improve your career in the process.
 
-{% include top_rtips.html %}
+It's my [5-Course R-Track System](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series/). It's an integrated system containing 5 courses that work together on a learning path. Through 8 projects, you learn everything you need to help your organization: from data science foundations, to advanced machine learning, to web applications and deployment.
+
+The result is that **you break through previous struggles**, learning from my experience & our community of 2653 data scientists that are ready to help you succeed.
+
+Ready to take the next step? Then [let's get started.](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series/)
+
+![](/assets/rtrack_what_theyre_doing_2.jpg)
+
+<p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(Become A 6-Figure Data Scientist)</a></p>
