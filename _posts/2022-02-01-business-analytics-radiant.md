@@ -9,7 +9,7 @@ tags:
 - Learn-R
 - R
 title: A new R package for Business Analytics... radiant
-date: 2022-02-01 11:00:00 -0500
+date: 2022-02-01T11:00:00.000-05:00
 excerpt: 'I''m super impressed by the radiant R package. With no prior exposure to
   radiant, I was able to complete a short business analytics report in under 10-minutes. '
 image: "/assets/048-radiant.jpg"
@@ -35,7 +35,7 @@ See how in 10-minutes I made a quick business analytics report with `radiant`.
 
 ## What you make in this R-Tip
 
-By the end of this tutorial, you'll use Radiant to create a reproducible Business Analytics Report and save it as HTML. 
+By the end of this tutorial, you'll use Radiant to create a reproducible Business Analytics Report and save it as HTML.
 
 ![](/assets/sample_report_radiant.jpg)
 
@@ -47,7 +47,7 @@ Before we go any further, I want to say thanks to the open source developers of 
 
 ## Radiant Setup
 
-Follow these instructions to set up the `radiant` package and tutorial. 
+Follow these instructions to set up the `radiant` package and tutorial.
 
 * Install Radiant
 * Load the libraries and data
@@ -57,7 +57,7 @@ Follow these instructions to set up the `radiant` package and tutorial.
 
 ## Radiant's Shiny UI
 
-This opens up the **Radiant Shiny User Interface**, a Shiny App that runs locally in a new Google Chrome Window. 
+This opens up the **Radiant Shiny User Interface**, a Shiny App that runs locally in a new Google Chrome Window.
 
 ![](/assets/radiant_shiny_app.jpg)
 
@@ -65,13 +65,13 @@ This opens up the **Radiant Shiny User Interface**, a Shiny App that runs locall
 
 Next, lets **load our data.** I added data into the Rstudio Global Environment previously when I ran `data(walmart_sales`_`_`_`weekly)`.
 
-One of the options is to load data from the Global Environment, so let's do this. 
+One of the options is to load data from the Global Environment, so let's do this.
 
 ![](/assets/radiant_load_data.jpg)
 
 ## Step 2 - Visualize
 
-We can make a quick plot to investigate the sales data over time by Sales ID (store - department identifier). This **highlights the differing sales trends** by Store-Department. 
+We can make a quick plot to investigate the sales data over time by Sales ID (store - department identifier). This **highlights the differing sales trends** by Store-Department.
 
 1. Head over the **Visualize Section** within the Data Tab
 2. **Select Line Plot**, and Y-Axis will be Weekly Sales, X-Axis is Date, and Facet Row is ID
@@ -81,12 +81,12 @@ We can make a quick plot to investigate the sales data over time by Sales ID (st
 
 ## Step 3 - Starting the Report
 
-At this point we can begin **building our report.** 
+At this point we can begin **building our report.**
 
 1. On the Visualize Section, scroll down and **click the little report icon**
 2. This send you to the Report Tab where you can **Knit report**
 
-Bada-Bing... Bada Boom! We have the beginnings of a Business Analytics Report. 
+Bada-Bing... Bada Boom! We have the beginnings of a Business Analytics Report.
 
 ![](/assets/radiant_report_1.jpg)
 
@@ -94,36 +94,36 @@ Bada-Bing... Bada Boom! We have the beginnings of a Business Analytics Report.
 
 The next step in our workflow is to **model the weekly sales data.** My goal is to create a Pricing Model that looks for dependencies between the weekly sales volume by department and factors like markups, fuel price, temperature (weather), etc. We can easily do this in `radiant`.
 
-Head over to the Model Tab and **select Linear Regression (OLS)**. 
+Head over to the Model Tab and **select Linear Regression (OLS)**.
 
 1. First select Weekly Sales as the **response variable** and select the **explanatory variables** shown.
 2. Then click **Estimate Model** to make a linear regression model
-3. Review the OLS Linear regression **summary results. This is our very basic pricing model.** 
+3. Review the OLS Linear regression **summary results. This is our very basic pricing model.**
 
 ![](/assets/radiant_price_model.jpg)
 
 ## Bonus - Residual & Coefficient Plots
 
-As a bonus for making it this far, I'm showing you how you can quickly make some **awesome visuals** for your Business Analytics Report. 
+As a bonus for making it this far, I'm showing you how you can quickly make some **awesome visuals** for your Business Analytics Report.
 
 ### Residuals Plot
 
-This plot helps us see **how well the model is performing**. It's worth mentioning that we are seeing a lot of clusters, which means a non-linear model may be a better model. 
+This plot helps us see **how well the model is performing**. It's worth mentioning that we are seeing a lot of clusters, which means a non-linear model may be a better model.
 
 ![](/assets/radiant_model_residual_plot.jpg)
 
 ### Coefficient Plot
 
-This plot helps us see the effect of a 1-unit change to the modeled price. It appears that the model is very sensitive to Fuel Price. Keep in mind that the units are important for comparison. 
+This plot helps us see the effect of a 1-unit change to the modeled price. It appears that the model is very sensitive to Fuel Price. Keep in mind that the units are important for comparison.
 
-* A change in $1 of fuel price is a lot. 
-* A change in 1-degree Fahrenheit for Temperature is not that much. 
+* A change in $1 of fuel price is a lot.
+* A change in 1-degree Fahrenheit for Temperature is not that much.
 
 ![](/assets/radiant_model_coefficient_plot.jpg)
 
 ## Step 5 - Finish the Report
 
-Once we are happy, we can finish our report. Just **hit the "Report Button"** to send the results from the Modeling Tab to the Report Tab. 
+Once we are happy, we can finish our report. Just **hit the "Report Button"** to send the results from the Modeling Tab to the Report Tab.
 
 On the reporting tab:
 
@@ -135,30 +135,37 @@ On the reporting tab:
 
 The report is saved as an HTML document (assuming you switched from Notebook to HTML like I did in the video.)
 
-## Recap
+## Conclusions
 
-You just created a report using `radiant`. But there's a lot more to data science. 
+You just created a report using `radiant`. But there's a lot more to data science.
 
-If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that. 
+If you'd like to become a data scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
-## Step 1: Watch my Free 40-Minute Webinar
+## My Struggles with Learning Data Science
 
-Learning data science on your own is hard. I know because **IT TOOK ME 5-YEARS to feel confident.** 
+It took me a long time to learn how to apply data science to business. And I made a lot of mistakes as I fumbled through learning R.
 
-AND, I don't want it to take that long for you. 
+I specifically had a tough time navigating the ever-increasing landscape of tools and packages, trying to pick between R and Python, and getting lost along the way.
 
-So, I put together a [**FREE 40-minute webinar (a masterclass)**](https://learn.business-science.io/free-rtrack-masterclass-signup) that provides a roadmap for what worked for me. 
+**If you feel like this, you're not alone.**
 
-Literally 5-years of learning, consolidated into 40-minutes. It's jammed packed with value. I wish I saw this when I was starting... It would have made a huge difference.  
+In fact, that's the driving reason that I created Business Science and Business Science University ([You can read about my personal journey here](https://www.business-science.io/business/2019/07/22/how-i-started-my-data-science-business.html)).
 
-## Step 2: Take action
+What I found out is that:
 
-For my action-takers, if you are ready to take your skills to the next level and DON'T want to wait 5-years to learn data science for business, AND you want a career you love that earns you $100,000+ salary (plus bonuses), and you'd like someone to help you do this in UNDER  6-MONTHS or less....
+1. **Data Science does not have to be difficult, it just has to be taught from a business perspective**
+2. **Anyone can learn data science fast provided they are motivated.**
 
-Then I can help with that too. There's a link in the [**FREE 40-minute webinar**](https://learn.business-science.io/free-rtrack-masterclass-signup) for a special price (because you are special!) and taking that action will kickstart your journey with me in your corner.
+# How I can help
 
-Get ready. The ride is while. And the destination is AMAZING! 
+If you are interested in learning R and the ecosystem of tools at a deeper level, then I have a streamlined program that will **get you past your struggles** and improve your career in the process.
 
-{% include top_rtips.html %}
+It's my [5-Course R-Track System](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series/). It's an integrated system containing 5 courses that work together on a learning path. Through 8 projects, you learn everything you need to help your organization: from data science foundations, to advanced machine learning, to web applications and deployment.
 
-  
+The result is that **you break through previous struggles**, learning from my experience & our community of 2653 data scientists that are ready to help you succeed.
+
+Ready to take the next step? Then [let's get started.](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series/)
+
+![](/assets/rtrack_what_theyre_doing_2.jpg)
+
+<p style="font-size: 36px;text-align: center;"><a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">Join My 5-Course R-Track Program<br>(Become A 6-Figure Data Scientist)</a></p>
