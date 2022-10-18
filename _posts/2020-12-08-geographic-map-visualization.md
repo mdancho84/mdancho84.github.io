@@ -1,7 +1,6 @@
 ---
 layout: post
-title: 'How To Make Geographic Map Visualizations (10 Must-Know Tidyverse Functions
-  #6)'
+title: How To Make Geographic Map Visualizations In R
 date: 2020-12-08T06:00:00.000+00:00
 excerpt: If you are explaining data related to geography or just want to visualize
   by latitude / longitude location, you need to know ggplot2 and the tidyverse for
@@ -16,8 +15,8 @@ tags:
 - R-Tips
 - Tidyverse
 - Geo Mapping
-image: "/assets/2020-12-08-geographic-map-visualization/geo_maps_cover.jpg"
-image_preview: "/assets/2020-12-08-geographic-map-visualization/geo_maps_preview.jpg"
+image: "/assets/ggplot_map_thumb_2.jpg"
+image_preview: "/assets/ggplot_map_thumb_2.jpg"
 
 ---
 This article is part of a R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
@@ -32,6 +31,7 @@ This tutorial will show you how to make a publication-quality visualization! Her
 * [YouTube Tutorial](https://youtu.be/D5OBWBM5kwk)
 
 <br>
+
 
 # Video Tutorial
 
