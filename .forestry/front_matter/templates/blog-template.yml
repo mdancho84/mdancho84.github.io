@@ -1,0 +1,31 @@
+---
+label: Blog Template
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: excerpt
+  label: excerpt
+- type: text
+  name: author
+  label: author
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: tags
+  label: tags
+- type: file
+  name: image
+  label: image
+- type: file
+  name: image_preview
+  label: image_preview
