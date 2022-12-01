@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How To Replicate Excel's Secondary Y-Axis Plot In R
+title: Dual-axis plots in R (a secret ggplot2 hack)
 date: 2020-10-07T06:00:00.000+00:00
 excerpt: Your company lives off them... Excel files.  Why not automate them & save
   some time? Here's an Excel File you're going to make in this tutorial from R.
