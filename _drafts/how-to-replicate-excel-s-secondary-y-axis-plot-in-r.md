@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dual-axis plots in R (a secret ggplot2 hack)
-date: 2020-10-07T06:00:00.000+00:00
+date: 2022-12-02 06:00:00 -0500
 excerpt: Your company lives off them... Excel files.  Why not automate them & save
   some time? Here's an Excel File you're going to make in this tutorial from R.
 author: Matt Dancho
@@ -12,13 +12,13 @@ tags:
 - Learn-R
 - R
 - R-Tips
-image: "/assets/excel_in_r.jpg"
-image_preview: "/assets/excel_in_r.jpg"
+image: "/assets/dual_axis_plotting.jpg"
+image_preview: "/assets/dual_axis_plotting.jpg"
 
 ---
 Your company lives off them... Excel files.  Why not automate them & save some time? Here's an Excel File you're going to make in this tutorial from R. Let me show you how to **automate Excel with R in under 5-minutes**, using `openxlsx` and `tidyquant`.
 
-![Excel Spreadsheet](/assets/2020-10-07-automate-excel/spreadsheet.jpg)
+![](/assets/dual_axis_plotting_2.jpg)
 
 <p class="text-center date">Automating Excel from R</p>
 
