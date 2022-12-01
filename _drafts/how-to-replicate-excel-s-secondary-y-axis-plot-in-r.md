@@ -12,8 +12,8 @@ tags:
 - Learn-R
 - R
 - R-Tips
-image: "/assets/dual_axis_plotting.jpg"
-image_preview: "/assets/dual_axis_plotting.jpg"
+image: "/assets/dual_axis_r.jpg"
+image_preview: "/assets/dual_axis_r.jpg"
 
 ---
 I can't tell you how painful it is to be better at something in Excel than in R. And one of the gripes I still have (10 years after making the switch from Excel to R) is that it's still tough to make dual-axis plots in R. 
@@ -23,7 +23,7 @@ Guess what, today is the day. I'm going to show you how to make more professiona
 * How to make a dual-axis plot in R (my secret dual-plotting hack)
 * **Bonus: My 3 pro tips to plot customizations (that will make your boss squeal with excitement)**
 
-![](/assets/dual_axis_plotting_2.jpg)
+![](/assets/dual_axis_r.jpg)
 
 <p class="text-center date">Dual Axis Plots</p>
 
@@ -41,11 +41,11 @@ I have a companion video tutorial that shows even more cool automation stuff (pl
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/AQ1h_EAUgZM" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Automate Excel with R Tutorial
+# Make a dual-axis plot 
 
 Here's an Excel File you're going to make in this tutorial from R. 👇
 
-![Excel Spreadsheet](/assets/2020-10-07-automate-excel/spreadsheet.jpg)
+![](/assets/dual_axis_plotting_2.jpg)
 
 <br>
 
