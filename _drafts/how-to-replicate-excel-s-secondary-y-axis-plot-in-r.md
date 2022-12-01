@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Dual-axis plots in R (a secret ggplot2 hack)
-date: 2022-12-02 06:00:00 -0500
+date: 2022-12-01 11:00:00 -0500
 excerpt: Your company lives off them... Excel files.  Why not automate them & save
   some time? Here's an Excel File you're going to make in this tutorial from R.
 author: Matt Dancho
@@ -21,7 +21,7 @@ I can't tell you how painful it is to be better at something in Excel than in R.
 Guess what, today is the day. I'm going to show you how to make more professional dual-axis plots in R than what I could do in Excel in my prime. Here's what you're learning today:
 
 * How to make a dual-axis plot in R (my secret dual-plotting hack)
-* **Bonus: My 3 pro tips to plot customizations (that will make your boss squeal with excitement)**
+* **Bonus: My 3 steps to dual-axis plot customizations (that will make your boss squeal with excitement)**
 
 ![](/assets/dual_axis_r.jpg)
 
@@ -126,11 +126,53 @@ Next, apply the `transformer_dual_y_axis()` function to the data. Set the primar
 
 ![](/assets/dualaxis_transformer_applied.jpg)
 
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
 # 3-steps to dual-axis plots
+
+Ok, now we are ready to rock and roll. Let's make the dual axis plot.
+
+## Step 1: Set up the primary y-axis
+
+Run this code to set up the primary y-axis. This creates the first plot (`g1`).
+
+![](/assets/dualaxis_g1.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+This returns a salmon-colored plot with the proportions. (Don't worry, we'll fix the color in a minute)
+
+![](/assets/dualaxis_g1_plot.jpg)
+
+## Step 2: Apply the transformer
+
+Next, I'm creating a 2nd plot (`g2`) that extends the first plot (`g1`). 
+
+![](/assets/dualaxis_transformer_ggplot_code.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+We now have the dual y-axis set up. It still looks too salmon-ey. But we're onto something. 
+
+![](/assets/dualaxis_g2_plot.jpg)
+
+Now, let's make it look like a professional plot. 
+
+## Step 3: Pro-customizations (that'll make your boss squeal)
+
+Next, run this code to upgrade the appearance of the `g2` plot (returning `g3`, the plot you'll want to show your boss).
+
+![](/assets/dualaxis_g3_code.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+![](/assets/dualaxis_g3_plot.jpg)
+
+ 
 
 # 💡 Conclusions
 
-You learned how to use the `openxlsx` library to create automated reports using R and Excel together. Great work! **But, there's a lot more to becoming a Business Scientist.**
+You learned how to create a dual-axis plot that is about 100X better than anything I can create in Excel. Great work! **But, there's a lot more to becoming a Business Scientist (a highly saught-after data scientist that knows the secrets to generating business value).**
 
 If you'd like to become a Business Scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
