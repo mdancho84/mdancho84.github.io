@@ -21,11 +21,11 @@ I can't tell you how painful it is to be better at something in Excel than in R.
 Guess what, today is the day. I'm going to show you how to make more professional dual-axis plots in R than what I could do in Excel in my prime. Here's what you're learning today:
 
 * How to make a dual-axis plot in R (my secret dual-plotting hack)
-* **Bonus: My 3 pro-tips to plot customizations (that will make your boss squeal with excitement)**
+* **Bonus: My 3 pro tips to plot customizations (that will make your boss squeal with excitement)**
 
 ![](/assets/dual_axis_plotting_2.jpg)
 
-<p class="text-center date">Automating Excel from R</p>
+<p class="text-center date">Dual Axis Plots</p>
 
 # R-Tips Weekly
 
@@ -33,13 +33,13 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 <p>Here are the links to get set up. 👇</p>
 
-<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/EMSkZOF-ZG8">YouTube Tutorial</a></li> </ul>
+<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/AQ1h_EAUgZM">YouTube Tutorial</a></li> </ul>
 
 # Video Tutorial
 
-I have a companion video tutorial that shows even more cool automation stuff (plus mistakes to avoid).
+I have a companion video tutorial that shows even more cool automation stuff (plus mistakes to avoid). You can check it out here.
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/EMSkZOF-ZG8" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/AQ1h_EAUgZM" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Automate Excel with R Tutorial
 
