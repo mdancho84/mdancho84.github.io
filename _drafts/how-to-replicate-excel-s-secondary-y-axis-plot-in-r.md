@@ -60,70 +60,47 @@ You might not know when to use a dual-axis plot. I used these all the time for p
 
 You'll need to learn `ggplot2` to take full advantage of this tutorial. For these topics, I'll use the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) to refer to `ggplot2` code in my workflow.
 
-### Quick Example:
-
-[Download the Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html). Then **Click the "CS" hyperlink** to "ggplot2".
+### Step 1: [Download the Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html). 
 
 <a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-07-27-ggforce-hull-plots/ultimate_r_cheatsheet_ggplot2.jpg" style='max-width:80%;display:block;margin:auto;'>
 
 <br>
 
-Now you're ready to quickly reference the `ggplot2` cheat sheet. This shows you the core plotting functions available in the ggplot library.
+### Step 2: Click the "CS" hyperlink to "ggplot2". 
 
 ![ggplot2 cheat sheet](/assets/2021-07-27-ggforce-hull-plots/ggplot2_cheatsheet.jpg)
 
-Onto the tutorial.
+Now you're ready to quickly reference the `ggplot2` cheat sheet. This shows you the core plotting functions available in the ggplot library.
 
-## 
+Onto the tutorial.
 
 # How to make a dual-axis plot in R? (full tutorial)
 
-Here's how to do it.
+Here's how to make your first dual-axis plot in R.
 
-## Step 1: Collect, Prepare Data & Plots
+## Step 1: Get the data in the right format
 
-First, collect your data using `tidyquant`, an awesome package for importing & working with **Financial Data**.
+First, load libraries `tidyverse` and `tidyquant`. Then get the `mpg` data set. 
 
-![Import Data](/assets/2020-10-07-automate-excel/import-data.jpg)
+![](/assets/dualaxis_libraries_code.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 <br>
 
-### Pivot Table Data
+### Data Transformation
 
-The previous code makes this **Pivot Table** (stock returns by year and symbol).
+I want to compare the median highway fuel economy and the proportion of vehicles in this list. To do so I need to take my raw data, which is 234 vehicles, and apply the median, count, and get a proportion of counts to show the vehicle representation. 
 
-![Import Data](/assets/2020-10-07-automate-excel/pivot-table.jpg)
+![](/assets/dualaxis_data.jpg)
 
-### Time Series Stock Performance Plots
+Here's the code to do this transformation. 
 
-Here's the stock performance plot from the previous code.
-
-![Plot Data](/assets/2020-10-07-automate-excel/plot.jpg)
-
-<br>
-
-## Step 2: Automate R to Excel
-
-Now for the magic - Let's add the Pivot Table & Stock Plot to Excel! 🔥
-
-1. Initialize a workbook
-2. Create a worksheet
-3. Add the stock plot
-4. Add the Pivot Table
-5. Save the workbook
-6. Open the workbook (programmatically)
-
-![Create Excel Workbook with R](/assets/2020-10-07-automate-excel/create-workbook.jpg)
+![](/assets/dualaxis_data_wrangle.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-### Excel Output (.xlsx)
-
-You've just **automated creation of an Excel Workbook with R**.
-
-![Excel Workbook](/assets/2020-10-07-automate-excel/workbook-display.jpg)
+<br>
 
 # 💡 Conclusions
 
