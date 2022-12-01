@@ -43,9 +43,16 @@ I have a companion video tutorial that shows even more cool automation stuff (pl
 
 # Make a dual-axis plot
 
-Here's an Excel File you're going to make in this tutorial from R. 👇
+Here's the dual-axis plot you're going to make in this tutorial from R. 👇
 
 ![](/assets/dual_axis_raw.jpg)
+
+# When do you need a dual-axis plot?
+
+You might not know when to use a dual-axis plot. I used these all the time for presentations to leadership. Here's when I use dual-axis plots most commonly:
+
+* When I want to **compare two variables** (Like Sales measured in dollars $ and Profit Margin measured in percentage %)
+* The two variables are on **different scales** (commonly one might be a percentage and the other is a dollar value or quantity in units)
 
 <br>
 
