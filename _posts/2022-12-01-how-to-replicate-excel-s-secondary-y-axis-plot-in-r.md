@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Dual-axis plots in R (a secret ggplot2 hack)
+title: How to make a plot with two different y-axis in R with ggplot2? (a secret ggplot2
+  hack)
 date: 2022-12-01 11:00:00 -0500
 excerpt: Your company lives off them... Excel files.  Why not automate them & save
   some time? Here's an Excel File you're going to make in this tutorial from R.
