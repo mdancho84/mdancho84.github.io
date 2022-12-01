@@ -56,6 +56,30 @@ You might not know when to use a dual-axis plot. I used these all the time for p
 
 <br>
 
+## Before we get started, get the R Cheat Sheet
+
+You'll need to learn `ggplot2` to take full advantage of this tutorial. For these topics, I'll use the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) to refer to `ggplot2` code in my workflow.
+
+### Quick Example:
+
+[Download the Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html). Then **Click the "CS" hyperlink** to "ggplot2".
+
+<a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-07-27-ggforce-hull-plots/ultimate_r_cheatsheet_ggplot2.jpg" style='max-width:80%;display:block;margin:auto;'>
+
+<br>
+
+Now you're ready to quickly reference the `ggplot2` cheat sheet. This shows you the core plotting functions available in the ggplot library.
+
+![ggplot2 cheat sheet](/assets/2021-07-27-ggforce-hull-plots/ggplot2_cheatsheet.jpg)
+
+Onto the tutorial.
+
+## 
+
+# How to make a dual-axis plot in R? (full tutorial)
+
+Here's how to do it.
+
 ## Step 1: Collect, Prepare Data & Plots
 
 First, collect your data using `tidyquant`, an awesome package for importing & working with **Financial Data**.
