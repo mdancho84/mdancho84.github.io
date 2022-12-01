@@ -78,7 +78,7 @@ Onto the tutorial.
 
 Here's how to make your first dual-axis plot in R.
 
-## Step 1: Get the data in the right format
+## Get the data in the right format
 
 First, load libraries `tidyverse` and `tidyquant`. Then get the `mpg` data set. 
 
@@ -100,7 +100,29 @@ Here's the code to do this transformation.
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-<br>
+Now that the data has been transformed, let's see how to make this plot in 3 steps. 
+
+# Problem: Different scales
+
+I have a problem. If I try to plot the two variables (prop and hwy_median) on a ggplot, then my plot looks like crap.
+
+![](/assets/dualaxis_plot_crap.jpg)
+
+This happens because the two variables are on different scales. 
+
+![](/assets/dualaxis_problem.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+# Solution: Transformer function to rescale the 2nd axis
+
+The solution is just to copy my transformer code and we can use this to make a secondary axis that is re-scaled to the first axis. 
+
+![](/assets/dualaxis_transformer.jpg)
+
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+# 3-steps to dual-axis plots
 
 # 💡 Conclusions
 
