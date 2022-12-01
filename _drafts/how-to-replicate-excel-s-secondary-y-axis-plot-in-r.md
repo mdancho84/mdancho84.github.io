@@ -60,13 +60,13 @@ You might not know when to use a dual-axis plot. I used these all the time for p
 
 You'll need to learn `ggplot2` to take full advantage of this tutorial. For these topics, I'll use the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) to refer to `ggplot2` code in my workflow.
 
-### Step 1: [Download the Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html). 
+### Step 1: [Download the Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html).
 
 <a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-07-27-ggforce-hull-plots/ultimate_r_cheatsheet_ggplot2.jpg" style='max-width:80%;display:block;margin:auto;'>
 
 <br>
 
-### Step 2: Click the "CS" hyperlink to "ggplot2". 
+### Step 2: Click the "CS" hyperlink to "ggplot2".
 
 ![ggplot2 cheat sheet](/assets/2021-07-27-ggforce-hull-plots/ggplot2_cheatsheet.jpg)
 
@@ -80,7 +80,7 @@ Here's how to make your first dual-axis plot in R.
 
 ## Get the data in the right format
 
-First, load libraries `tidyverse` and `tidyquant`. Then get the `mpg` data set. 
+First, load libraries `tidyverse` and `tidyquant`. Then get the `mpg` data set.
 
 ![](/assets/dualaxis_libraries_code.jpg)
 
@@ -90,17 +90,17 @@ First, load libraries `tidyverse` and `tidyquant`. Then get the `mpg` data set.
 
 ### Data Transformation
 
-I want to compare the median highway fuel economy and the proportion of vehicles in this list. To do so I need to take my raw data, which is 234 vehicles, and apply the median, count, and get a proportion of counts to show the vehicle representation. 
+I want to compare the median highway fuel economy and the proportion of vehicles in this list. To do so I need to take my raw data, which is 234 vehicles, and apply the median, count, and get a proportion of counts to show the vehicle representation.
 
 ![](/assets/dualaxis_data.jpg)
 
-Here's the code to do this transformation. 
+Here's the code to do this transformation.
 
 ![](/assets/dualaxis_data_wrangle.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-Now that the data has been transformed, let's see how to make this plot in 3 steps. 
+Now that the data has been transformed, let's see how to make this plot in 3 steps.
 
 # Problem: Different scales
 
@@ -108,7 +108,7 @@ I have a problem. If I try to plot the two variables (prop and hwy_median) on a 
 
 ![](/assets/dualaxis_plot_crap.jpg)
 
-This happens because the two variables are on different scales. 
+This happens because the two variables are on different scales.
 
 ![](/assets/dualaxis_problem.jpg)
 
@@ -116,11 +116,15 @@ This happens because the two variables are on different scales.
 
 # Solution: Transformer function to rescale the 2nd axis
 
-The solution is just to copy my transformer code and we can use this to make a secondary axis that is re-scaled to the first axis. 
+The solution is just to copy my transformer code and we can use this to make a secondary axis that is re-scaled to the first axis.
 
 ![](/assets/dualaxis_transformer.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+Next, apply the `transformer_dual_y_axis()` function to the data. Set the primary column as prop and the secondary column as hwy_median. The `include_y_zero = TRUE` makes sure both y-axis include zero.
+
+![](/assets/dualaxis_transformer_applied.jpg)
 
 # 3-steps to dual-axis plots
 
