@@ -16,7 +16,12 @@ image: "/assets/dual_axis_plotting.jpg"
 image_preview: "/assets/dual_axis_plotting.jpg"
 
 ---
-Your company lives off them... Excel files.  Why not automate them & save some time? Here's an Excel File you're going to make in this tutorial from R. Let me show you how to **automate Excel with R in under 5-minutes**, using `openxlsx` and `tidyquant`.
+I can't tell you how painful it is to be better at something in Excel than in R. And one of the gripes I still have (10 years after making the switch from Excel to R) is that it's still tough to make dual-axis plots in R. 
+
+Guess what, today is the day. I'm going to show you how to make more professional dual-axis plots in R than what I could do in Excel in my prime. Here's what you're learning today:
+
+* How to make a dual-axis plot in R (my secret dual-plotting hack)
+* **Bonus: My 3 pro-tips to plot customizations (that will make your boss squeal with excitement)**
 
 ![](/assets/dual_axis_plotting_2.jpg)
 
