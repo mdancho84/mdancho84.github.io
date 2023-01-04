@@ -1,8 +1,7 @@
 ---
 layout: post
-title: How to make a plot with two different y-axis in R with ggplot2? (a secret ggplot2
-  hack)-(copy)
-date: 2022-12-01 11:00:00 -0500
+title: Exploratory Data X-Ray Analysis (EDXA)
+date: 2023-01-05 07:00:00 -0500
 excerpt: Your company lives off them... Excel files.  Why not automate them & save
   some time? Here's an Excel File you're going to make in this tutorial from R.
 author: Matt Dancho
@@ -14,17 +13,25 @@ tags:
 - R
 - R-Tips
 image: "/assets/dual_axis_r.jpg"
-image_preview: "/assets/dual_axis_r.jpg"
+image_preview: "/assets/dataxray_thumb_2.jpg"
 
 ---
-I can't tell you how painful it is to be better at something in Excel than in R. And one of the gripes I still have (10 years after making the switch from Excel to R) is that it's still tough to make dual-axis plots in R.
+Do you know how long EDA (exploratory data analysis) used to take me? Not hours, not days... A full week! Listen, you don't know how good you have it. With this new R package I'm about to show you, you'll cut your EDA time into minutes. Here's how. 
 
-Guess what, today is the day. I'm going to show you how to make more professional dual-axis plots in R than what I could do in Excel in my prime. Here's what you're learning today:
+# From EDA to Exploratory DataXray Analysis (EDXA)
 
-* How to make a dual-axis plot in R (my secret dual-plotting hack)
-* **Bonus: My 3 steps to dual-axis plot customizations (that will make your boss squeal with excitement)**
+I'm so excited right now. One of my favorite R packages is the `skimr` library for **quick exploratory statistical summaries** (the first thing I run when I get a new dataset). Well, I just stumbled upon the interactive version of skimr. And it's insane!
 
-![](/assets/dual_axis_r.jpg)
+I'm referring to `dataxray`, a new R package that provides quick statistical summaries in an interactive table inside of the Rstudio Viewer Pane. 
+
+### Table of Contents
+
+Today I'm going to show you how to use `dataxray`. Here's what you're learning today:
+
+* How to use `dataxray` to effortlessly produce and evaluate statistical summaries on your new datasets
+* **Bonus: The _next step_ in my EDA process (that uncovers hidden insights that I use to give quick-wins to business leadership)** 
+
+![](/assets/dataxray_thumb_2.jpg)
 
 <p class="text-center date">Dual Axis Plots</p>
 
@@ -147,17 +154,17 @@ This returns a salmon-colored plot with the proportions. (Don't worry, we'll fix
 
 ## Step 2: Apply the transformer
 
-Next, I'm creating a 2nd plot (`g2`) that extends the first plot (`g1`). 
+Next, I'm creating a 2nd plot (`g2`) that extends the first plot (`g1`).
 
 ![](/assets/dualaxis_transformer_ggplot_code.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-We now have the dual y-axis set up. It still looks too salmon-ey. But we're onto something. 
+We now have the dual y-axis set up. It still looks too salmon-ey. But we're onto something.
 
 ![](/assets/dualaxis_g2_plot.jpg)
 
-Now, let's make it look like a professional plot. 
+Now, let's make it look like a professional plot.
 
 ## Step 3: Pro-customizations (that'll make your boss squeal)
 
@@ -168,8 +175,6 @@ Next, run this code to upgrade the appearance of the `g2` plot (returning `g3`, 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
 ![](/assets/dualaxis_g3_plot.jpg)
-
- 
 
 # 💡 Conclusions
 
