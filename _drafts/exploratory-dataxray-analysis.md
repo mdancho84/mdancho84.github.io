@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Exploratory Data X-Ray Analysis (EDXA)
+title: Cut your EDA time into 5 minutes with Exploratory DataXray Analysis (EDXA)
 date: 2023-01-05 07:00:00 -0500
-excerpt: Your company lives off them... Excel files.  Why not automate them & save
-  some time? Here's an Excel File you're going to make in this tutorial from R.
+excerpt: Do you know how long EDA (exploratory data analysis) used to take me? Not
+  hours, not days... A full week! Today I'm going to show you how to use dataxray.
+  With this new R package I'm about to show you, you'll cut your EDA time into 5 minutes.
 author: Matt Dancho
 categories:
 - Code-Tools
@@ -12,13 +13,13 @@ tags:
 - Learn-R
 - R
 - R-Tips
-image: "/assets/dual_axis_r.jpg"
+image: "/assets/dataxray_thumb_2.jpg"
 image_preview: "/assets/dataxray_thumb_2.jpg"
 
 ---
-Do you know how long EDA (exploratory data analysis) used to take me? Not hours, not days... A full week! Listen, you don't know how good you have it. With this new R package I'm about to show you, you'll cut your EDA time into minutes. Here's how.
+Do you know how long EDA (exploratory data analysis) used to take me? Not hours, not days... A full week! Listen, you don't know how good you have it. With this new R package I'm about to show you (plus one BONUS hack), you'll cut your EDA time into 5 minutes. Here's how.
 
-# From EDA to Exploratory DataXray Analysis (EDXA)
+# Cut your EDA time into 5 minutes with Exploratory DataXray Analysis (EDXA)
 
 I'm so excited right now. If you follow me, you probably know one of my favorite R packages is the `skimr` library for [**quick exploratory statistical summaries**](https://www.business-science.io/code-tools/2021/03/09/data-quality-with-skimr.html) (the first thing I run when I get a new dataset). Well, I just stumbled upon _the interactive version_ of skimr. And it's insane!
 
@@ -29,7 +30,7 @@ I'm referring to `dataxray`, a new R package that provides quick statistical sum
 Today I'm going to show you how to use `dataxray`. Here's what you're learning today:
 
 * How to use `dataxray` to effortlessly produce and evaluate statistical summaries on your new datasets
-* **Bonus: The _next step_ in my EDA process (that uncovers hidden insights that I use to give quick-wins to business leadership)**
+* **Bonus: The _next step_ in my EDA process (that uncovers hidden insights that I use to give quick wins to business leadership)**
 
 ![](/assets/dataxray_thumb_2.jpg)
 
