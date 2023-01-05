@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cut your EDA time into 5 minutes with Exploratory DataXray Analysis (EDXA)
-date: 2023-01-05 07:00:00 -0500
+date: 2023-01-05 10:00:00 -0500
 excerpt: Do you know how long EDA (exploratory data analysis) used to take me? Not
   hours, not days... A full week! Today I'm going to show you how to use dataxray.
   With this new R package I'm about to show you, you'll cut your EDA time into 5 minutes.
@@ -67,7 +67,7 @@ Before we do our deep-dive into `dataxray`, I want to take a brief moment to tha
 **It can be confusing to know which EDA R packages to use.** To help, I've recently covered [my top R packages for exploratory data analysis here](https://www.business-science.io/code-tools/2022/09/23/explore-simplified-exploratory-data-analysis-eda-in-r.html). In short, here's my process:
 
 1. **DataExplorer (and Skimr):** For collecting a report on the dataset that I'm unfamiliar with. I focus on which feature I'm interested in (called a "target") and the surrounding data to identify any data issues. [I cover my DataExplorer process here](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html). And, [I show off how I use skimr here](https://www.business-science.io/code-tools/2021/03/09/data-quality-with-skimr.html).
-2. **Correlation Funnel:** I then use this to get a quick understanding (yes - I am the creator of this package, but make no mistake it's probably the most powerful package for getting quick insights in your arsenal). [I cover how I use Correlation Funnel here.](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html)
+2. **Correlation Funnel:** I then use this to get a quick understanding (full disclosure - I am the creator of this package, but make no mistake it's probably the most powerful package for getting quick insights in your arsenal). [I cover how I use Correlation Funnel here.](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html)
 3. **Explore:** If I want to further understand complex relationships, I'll use the explore package's shiny app to expose bivariate relationships and drill in. I explain [how to use explore here](https://www.business-science.io/code-tools/2022/09/23/explore-simplified-exploratory-data-analysis-eda-in-r.html).
 
 # With all these great EDA packages, why use `dataxray`?
@@ -149,6 +149,8 @@ Now you can explore each feature (column in your data) to see:
 
 The next step in my 3-step process is to immediately move to business insights. I can't tell you how important it is to get a quick win for your stakeholders. Whether it's your boss, a business executive in the C-suite, or your client if you are a consultant. You need to get insights fast. 
 
+![](/assets/correlationfunnel_plot-2.jpg)
+
 So here's how I do it. 
 
 ## Step 1: Run correlation funnel
@@ -173,7 +175,7 @@ Here's how.
 
 The resulting visualization looks like this. And you can quickly expose the insights in your data. 
 
-![](/assets/correlationfunnel_plot-1.jpg)
+![](/assets/correlationfunnel_plot-2.jpg)
 
 I can easily see that:
 
