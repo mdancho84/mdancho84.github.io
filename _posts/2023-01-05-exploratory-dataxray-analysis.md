@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cut your EDA time into 5 minutes with Exploratory DataXray Analysis (EDXA)
+title: Exploratory DataXray Analysis (EDXA)
 date: 2023-01-05 10:00:00 -0500
 excerpt: Do you know how long EDA (exploratory data analysis) used to take me? Not
   hours, not days... A full week! Today I'm going to show you how to use dataxray.
