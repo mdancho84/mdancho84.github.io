@@ -34,7 +34,7 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 <ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/SsmtCNZVLv0">YouTube Tutorial</a></li> </ul>
 
-# Video Tutorial
+# This Tutorial is Available in Video
 
 I have a companion video tutorial that shows even more secrets (plus mistakes to avoid). And, I’m finding that a lot of my students prefer the dialogue that goes along with coding. So check out this video to see me running the code in this tutorial. 👇
 
@@ -50,9 +50,7 @@ I have a companion video tutorial that shows even more secrets (plus mistakes to
 
 I'm so excited right now. If you follow me, you probably know one of my favorite R packages is the `skimr` library for [**quick exploratory statistical summaries**](https://www.business-science.io/code-tools/2021/03/09/data-quality-with-skimr.html) (the first thing I run when I get a new dataset). Well, I just stumbled upon _the interactive version_ of skimr. And it's insane!
 
-I'm referring to `dataxray`, a new R package that provides quick statistical summaries in an interactive table inside of the Rstudio Viewer Pane.
-
-Here's the interactive `dataxray` table you're going to make in this tutorial from R. 👇
+I'm referring to `dataxray`, a new R package that provides quick statistical summaries in an interactive table inside of the Rstudio Viewer Pane. Here's the interactive `dataxray` table you're going to make in this tutorial from R. 👇
 
 ![](/assets/dataxray_table.jpg)
 
