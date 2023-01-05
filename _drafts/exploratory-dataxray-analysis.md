@@ -56,6 +56,12 @@ I'm referring to `dataxray`, a new R package that provides quick statistical sum
 
 <p class="text-center date">Dataxray Interactive Exploratory Summaries</p>
 
+# Thank You to the Developer.
+
+Before we do our deep-dive into `dataxray`, I want to take a brief moment to thank the developer, [Agustin Calatroni](https://www.linkedin.com/in/agustin-calatroni-41280b132/), Senior Director of Biostatistics at Rho, Inc. Please connect and follow Augustin. [His work is on GitHub here](https://github.com/agstn/dataxray). 
+
+![](/assets/dataxray_developer.jpg)
+
 # My 3-Step Exploratory Data Analysis Process
 
 **It can be confusing to know which EDA R packages to use.** To help, I've recently covered [my top R packages for exploratory data analysis here](https://www.business-science.io/code-tools/2022/09/23/explore-simplified-exploratory-data-analysis-eda-in-r.html). In short, here's my process:
