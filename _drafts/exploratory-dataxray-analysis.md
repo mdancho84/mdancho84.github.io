@@ -19,12 +19,6 @@ image_preview: "/assets/dataxray_thumb_2.jpg"
 ---
 Do you know how long EDA (exploratory data analysis) used to take me? Not hours, not days... A full week! Listen, you don't know how good you have it. With this new R package I'm about to show you (plus one BONUS hack), you'll cut your EDA time into 5 minutes. Here's how.
 
-# Cut your EDA time into 5 minutes with Exploratory DataXray Analysis (EDXA)
-
-I'm so excited right now. If you follow me, you probably know one of my favorite R packages is the `skimr` library for [**quick exploratory statistical summaries**](https://www.business-science.io/code-tools/2021/03/09/data-quality-with-skimr.html) (the first thing I run when I get a new dataset). Well, I just stumbled upon _the interactive version_ of skimr. And it's insane!
-
-I'm referring to `dataxray`, a new R package that provides quick statistical summaries in an interactive table inside of the Rstudio Viewer Pane.
-
 ### Table of Contents
 
 Today I'm going to show you how to use `dataxray`. Here's what you're learning today:
@@ -33,8 +27,6 @@ Today I'm going to show you how to use `dataxray`. Here's what you're learning t
 * **Bonus: The _next step_ in my EDA process (that uncovers hidden insights that I use to give quick wins to business leadership)**
 
 ![](/assets/dataxray_thumb_2.jpg)
-
-<p class="text-center date">Dual Axis Plots</p>
 
 # R-Tips Weekly
 
@@ -49,6 +41,16 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 I have a companion video tutorial that shows even more exploratory data analysis tricks (plus mistakes to avoid). You can check it out here.
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/SsmtCNZVLv0" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Cut your EDA time into 5 minutes with Exploratory DataXray Analysis (EDXA)
+
+I'm so excited right now. If you follow me, you probably know one of my favorite R packages is the `skimr` library for [**quick exploratory statistical summaries**](https://www.business-science.io/code-tools/2021/03/09/data-quality-with-skimr.html) (the first thing I run when I get a new dataset). Well, I just stumbled upon _the interactive version_ of skimr. And it's insane!
+
+I'm referring to `dataxray`, a new R package that provides quick statistical summaries in an interactive table inside of the Rstudio Viewer Pane.
+
+![](/assets/dataxray_table.jpg)
+
+<p class="text-center date">Dataxray Interactive Exploratory Summaries</p>
 
 # What is an Interactive DataXray Table?
 
