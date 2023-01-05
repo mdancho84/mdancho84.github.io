@@ -48,51 +48,52 @@ I'm so excited right now. If you follow me, you probably know one of my favorite
 
 I'm referring to `dataxray`, a new R package that provides quick statistical summaries in an interactive table inside of the Rstudio Viewer Pane.
 
+Here's the interactive `dataxray` table you're going to make in this tutorial from R. 👇
+
 ![](/assets/dataxray_table.jpg)
 
 <p class="text-center date">Dataxray Interactive Exploratory Summaries</p>
 
-# What is an Interactive DataXray Table?
-
-Here's the interactive `dataxray` table you're going to make in this tutorial from R. 👇
-
-![](/assets/dataxray.gif)
-
 # My 3-Step Exploratory Data Analysis Process
 
-**It can be confusing on which EDA R packages to use.** To help, I've recently covered [my top R packages for exploratory data analysis here](https://www.business-science.io/code-tools/2022/09/23/explore-simplified-exploratory-data-analysis-eda-in-r.html). In short, here's my process:
+**It can be confusing to know which EDA R packages to use.** To help, I've recently covered [my top R packages for exploratory data analysis here](https://www.business-science.io/code-tools/2022/09/23/explore-simplified-exploratory-data-analysis-eda-in-r.html). In short, here's my process:
 
-1. **DataExplorer (and Skimr):** For collecting a report on the dataset that I'm unfamiliar with. I focus on which feature I'm interested in (called a "target") and the surrounding data to identify any data issues. [I cover my DataExplorer process here](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html). And, [I show off how I use skimr here](https://www.business-science.io/code-tools/2021/03/09/data-quality-with-skimr.html). 
-2. **Correlation Funnel:** I then use this to get a quick understanding (yes - I am the creator of this package, but make no mistake it's probably the most powerful package for getting quick insights in your arsenal). [I cover how I use Correlation Funnel here.](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html) 
-3. **Explore:** If I want to further understand complex relationships, I'll use the explore package's shiny app to expose bivariate relationships and drill in. I explain [how to use explore here](https://www.business-science.io/code-tools/2022/09/23/explore-simplified-exploratory-data-analysis-eda-in-r.html). 
+1. **DataExplorer (and Skimr):** For collecting a report on the dataset that I'm unfamiliar with. I focus on which feature I'm interested in (called a "target") and the surrounding data to identify any data issues. [I cover my DataExplorer process here](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html). And, [I show off how I use skimr here](https://www.business-science.io/code-tools/2021/03/09/data-quality-with-skimr.html).
+2. **Correlation Funnel:** I then use this to get a quick understanding (yes - I am the creator of this package, but make no mistake it's probably the most powerful package for getting quick insights in your arsenal). [I cover how I use Correlation Funnel here.](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html)
+3. **Explore:** If I want to further understand complex relationships, I'll use the explore package's shiny app to expose bivariate relationships and drill in. I explain [how to use explore here](https://www.business-science.io/code-tools/2022/09/23/explore-simplified-exploratory-data-analysis-eda-in-r.html).
 
 # With all these great EDA packages, why use dataxray?
 
-What I like about `dataxray` is it's emphasis on an **interactive exploration** of the exploratory summaries. 
+What I like about `dataxray` is it's emphasis on an **interactive exploration** of the exploratory summaries.
 
-## skimr summaries
-
-This can be very important
+![](/assets/dataxray-1.gif)
 
 <br>
 
-## Before we get started, get the R Cheat Sheet
+## My Cheat Sheet For My Top 100 R Packages
 
-You'll need to learn `ggplot2` to take full advantage of this tutorial. For these topics, I'll use the [Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html) to refer to `ggplot2` code in my workflow.
+The next thing you’re going to need is to have access to all of the R packages that I use regularly in my data analysis projects.
 
-### Step 1: [Download the Ultimate R Cheat Sheet](https://www.business-science.io/r-cheatsheet.html).
+Why?
 
-<a href="https://www.business-science.io/r-cheatsheet.html"> <img src="/assets/2021-07-27-ggforce-hull-plots/ultimate_r_cheatsheet_ggplot2.jpg" style='max-width:80%;display:block;margin:auto;'>
+**Even I forget which R packages to use from time to time.** And this cheat sheet saves me so much time. Instead of googling to filter through 20,000 R packages to find a needle in a haystack. I keep my cheat sheet handy so I know which to use and when to use them. Seriously. [This cheat sheet is my bible.](https://www.business-science.io/r-cheatsheet.html)
 
-<br>
+![](https://www.business-science.io/assets/free_cheatsheet.jpg)
 
-### Step 2: Click the "CS" hyperlink to "ggplot2".
+Once you [download it](https://www.business-science.io/r-cheatsheet.html), head over to page 3 and you’ll see several R packages I use frequently just for Exploratory Data Analysis.
 
-![ggplot2 cheat sheet](/assets/2021-07-27-ggforce-hull-plots/ggplot2_cheatsheet.jpg)
+![](https://www.business-science.io/assets/cheatsheet_exploratory.jpg)
 
-Now you're ready to quickly reference the `ggplot2` cheat sheet. This shows you the core plotting functions available in the ggplot library.
+And you get the same guidance which is important when you want to work in these fields:
 
-Onto the tutorial.
+* Machine Learning
+* Time Series
+* Financial Analysis
+* Geospatial Analysis
+* Text Analysis and NLP
+* Shiny Web App Development
+
+[So steal my cheat sheet.](https://www.business-science.io/r-cheatsheet.html) It will save you a ton of time.
 
 # How to make a dual-axis plot in R? (full tutorial)
 
