@@ -23,10 +23,8 @@ Do you know how long EDA (exploratory data analysis) used to take me? Not hours,
 
 Today I'm going to show you how to use `dataxray`. Here's what you're learning today:
 
-* How to use `dataxray` to effortlessly produce and evaluate statistical summaries on your new datasets
+* Tutorial: How to use `dataxray` to effortlessly produce and evaluate statistical summaries on your new datasets
 * **Bonus: The _next step_ in my EDA process (that uncovers hidden insights that I use to give quick wins to business leadership)**
-
-![](/assets/dataxray_thumb_2.jpg)
 
 # R-Tips Weekly
 
@@ -38,11 +36,17 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 # Video Tutorial
 
-I have a companion video tutorial that shows even more exploratory data analysis tricks (plus mistakes to avoid). You can check it out here.
+I have a companion video tutorial that shows even more secrets (plus mistakes to avoid). And, I’m finding that a lot of my students prefer the dialogue that goes along with coding. So check out this video to see me running the code in this tutorial. 👇
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/SsmtCNZVLv0" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Cut your EDA time into 5 minutes with Exploratory DataXray Analysis (EDXA)
+# What Is Exploratory Data Analysis?
+
+**Exploratory Data Analysis (EDA)** is how data scientists and data analysts find meaningful information in the form of relationships in the data. EDA is absolutely critical as a first step before machine learning and to **explain business insights** to non-technical stakeholders like executives and business leadership.
+
+![](/assets/dataxray_thumb_2.jpg)
+
+# What do I make in this R-Tip?
 
 I'm so excited right now. If you follow me, you probably know one of my favorite R packages is the `skimr` library for [**quick exploratory statistical summaries**](https://www.business-science.io/code-tools/2021/03/09/data-quality-with-skimr.html) (the first thing I run when I get a new dataset). Well, I just stumbled upon _the interactive version_ of skimr. And it's insane!
 
@@ -62,9 +66,9 @@ Here's the interactive `dataxray` table you're going to make in this tutorial fr
 2. **Correlation Funnel:** I then use this to get a quick understanding (yes - I am the creator of this package, but make no mistake it's probably the most powerful package for getting quick insights in your arsenal). [I cover how I use Correlation Funnel here.](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html)
 3. **Explore:** If I want to further understand complex relationships, I'll use the explore package's shiny app to expose bivariate relationships and drill in. I explain [how to use explore here](https://www.business-science.io/code-tools/2022/09/23/explore-simplified-exploratory-data-analysis-eda-in-r.html).
 
-# With all these great EDA packages, why use dataxray?
+# With all these great EDA packages, why use `dataxray`?
 
-What I like about `dataxray` is it's emphasis on an **interactive exploration** of the exploratory summaries.
+What I like about `dataxray` is its emphasis on an **interactive exploration** of the exploratory summaries.
 
 ![](/assets/dataxray-1.gif)
 
