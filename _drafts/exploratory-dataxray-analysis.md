@@ -42,26 +42,35 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 
 <p>Here are the links to get set up. 👇</p>
 
-<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/AQ1h_EAUgZM">YouTube Tutorial</a></li> </ul>
+<ul> <li><a href="https://learn.business-science.io/r-tips-newsletter">Get the Code</a></li> <li><a href="https://youtu.be/SsmtCNZVLv0">YouTube Tutorial</a></li> </ul>
 
 # Video Tutorial
 
-I have a companion video tutorial that shows even more cool automation stuff (plus mistakes to avoid). You can check it out here.
+I have a companion video tutorial that shows even more exploratory data analysis tricks (plus mistakes to avoid). You can check it out here.
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/AQ1h_EAUgZM" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/SsmtCNZVLv0" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Make a dual-axis plot
+# What is an Interactive DataXray Table?
 
-Here's the dual-axis plot you're going to make in this tutorial from R. 👇
+Here's the interactive `dataxray` table you're going to make in this tutorial from R. 👇
 
-![](/assets/dual_axis_raw.jpg)
+![](/assets/dataxray.gif)
 
-# When do you need a dual-axis plot?
+# My 3-Step Exploratory Data Analysis Process
 
-You might not know when to use a dual-axis plot. I used these all the time for presentations to leadership. Here's when I use dual-axis plots most commonly:
+**It can be confusing on which EDA R packages to use.** To help, I've recently covered [my top R packages for exploratory data analysis here](https://www.business-science.io/code-tools/2022/09/23/explore-simplified-exploratory-data-analysis-eda-in-r.html). In short, here's my process:
 
-* When I want to **compare two variables** (Like Sales measured in dollars $ and Profit Margin measured in percentage %)
-* The two variables are on **different scales** (commonly one might be a percentage and the other is a dollar value or quantity in units)
+1. **DataExplorer (and Skimr):** For collecting a report on the dataset that I'm unfamiliar with. I focus on which feature I'm interested in (called a "target") and the surrounding data to identify any data issues. [I cover my DataExplorer process here](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html). And, [I show off how I use skimr here](https://www.business-science.io/code-tools/2021/03/09/data-quality-with-skimr.html). 
+2. **Correlation Funnel:** I then use this to get a quick understanding (yes - I am the creator of this package, but make no mistake it's probably the most powerful package for getting quick insights in your arsenal). [I cover how I use Correlation Funnel here.](https://www.business-science.io/code-tools/2019/08/07/correlationfunnel.html) 
+3. **Explore:** If I want to further understand complex relationships, I'll use the explore package's shiny app to expose bivariate relationships and drill in. I explain [how to use explore here](https://www.business-science.io/code-tools/2022/09/23/explore-simplified-exploratory-data-analysis-eda-in-r.html). 
+
+# With all these great EDA packages, why use dataxray?
+
+What I like about `dataxray` is it's emphasis on an **interactive exploration** of the exploratory summaries. 
+
+## skimr summaries
+
+This can be very important
 
 <br>
 
