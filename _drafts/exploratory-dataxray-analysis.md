@@ -68,13 +68,11 @@ What I like about `dataxray` is it's emphasis on an **interactive exploration** 
 
 ![](/assets/dataxray-1.gif)
 
-<br>
+Keep in mind, this tutorial is going to be gold. But what if you could gain access to the Fort Knox of R packages?
+
+I'm going to give you a free gift right now...
 
 ## My Cheat Sheet For My Top 100 R Packages
-
-The next thing you’re going to need is to have access to all of the R packages that I use regularly in my data analysis projects.
-
-Why?
 
 **Even I forget which R packages to use from time to time.** And this cheat sheet saves me so much time. Instead of googling to filter through 20,000 R packages to find a needle in a haystack. I keep my cheat sheet handy so I know which to use and when to use them. Seriously. [This cheat sheet is my bible.](https://www.business-science.io/r-cheatsheet.html)
 
@@ -95,17 +93,21 @@ And you get the same guidance which is important when you want to work in these 
 
 [So steal my cheat sheet.](https://www.business-science.io/r-cheatsheet.html) It will save you a ton of time.
 
-# How to make a dual-axis plot in R? (full tutorial)
+# Tutorial: Interactive exploratory summaries with `dataxray`
 
-Here's how to make your first dual-axis plot in R.
+Here's how to use `dataxray` to start your exploratory data analysis on the right foot. 
 
-## Get the data in the right format
+## Step 1: Load the libraries and data
 
-First, load libraries `tidyverse` and `tidyquant`. Then get the `mpg` data set.
+First, load libraries `tidyverse` , `dataxray`, and (optionally) `correlationfunnel` for the bonus code. 
 
-![](/assets/dualaxis_libraries_code.jpg)
+![](/assets/dataxray_01_libraries.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+
+We’ll use the `mpg` dataset, which has data on 234 vehicle models.
+
+![](/assets/explore_02_mpg.jpg)
 
 <br>
 
