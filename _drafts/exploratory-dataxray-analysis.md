@@ -72,13 +72,13 @@ Before we do our deep-dive into `dataxray`, I want to take a brief moment to tha
 
 # With all these great EDA packages, why use `dataxray`?
 
-What I like about `dataxray` is its emphasis on an **interactive exploration** of the exploratory summaries.
+What I like about `dataxray` is its emphasis on an **interactive exploration** of the exploratory summaries. This goes beyond what `skimr` offers (the gold standard) by adding an interactive exploration element to feature summaries. So if you like interactivity, then try `dataxray`. 
 
 ![](/assets/dataxray-1.gif)
 
-I'm going to give you a free gift right now top help with (and after you are done with) this tutorial...
+I'm going to give you a free gift right now to help with (and after you are done with) this tutorial...
 
-## Gift: Free Cheat Sheet for my Top 100 R Packages (EDA included)
+# Free Gift: Cheat Sheet for my Top 100 R Packages (EDA included)
 
 **Even I forget which R packages to use from time to time.** And this cheat sheet saves me so much time. Instead of googling to filter through 20,000 R packages to find a needle in a haystack. I keep my cheat sheet handy so I know which to use and when to use them. Seriously. [This cheat sheet is my bible.](https://www.business-science.io/r-cheatsheet.html)
 
@@ -117,89 +117,74 @@ We’ll use the `mpg` dataset, which has data on 234 vehicle models.
 
 <br>
 
-### Data Transformation
+## Step 2: Make the Dataxray Table
 
-I want to compare the median highway fuel economy and the proportion of vehicles in this list. To do so I need to take my raw data, which is 234 vehicles, and apply the median, count, and get a proportion of counts to show the vehicle representation.
+Next, just use two functions: 
 
-![](/assets/dualaxis_data.jpg)
+1. `make_xray()` to convert the raw data to preformatted data for the reactable interactive table
+2. `view_xray()` to display the interactive exploratory table using the underlying reactable library. 
 
-Here's the code to do this transformation.
-
-![](/assets/dualaxis_data_wrangle.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-Now that the data has been transformed, let's see how to make this plot in 3 steps.
-
-# Problem: Different scales
-
-I have a problem. If I try to plot the two variables (prop and hwy_median) on a ggplot, then my plot looks like crap.
-
-![](/assets/dualaxis_plot_crap.jpg)
-
-This happens because the two variables are on different scales.
-
-![](/assets/dualaxis_problem.jpg)
+![](/assets/dataxray_code.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-# Solution: Transformer function to rescale the 2nd axis
+The result is an amazing reactable table that allows us to drill into each feature. 
 
-The solution is just to copy my transformer code and we can use this to make a secondary axis that is re-scaled to the first axis.
+![](/assets/dataxray_table.jpg)
 
-![](/assets/dualaxis_transformer.jpg)
+## Exploratory Data Analysis Dataxray
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+![](/assets/dataxray_insights.jpg)
 
-Next, apply the `transformer_dual_y_axis()` function to the data. Set the primary column as prop and the secondary column as hwy_median. The `include_y_zero = TRUE` makes sure both y-axis include zero.
+Now you can explore each feature (column in your data) to see:
 
-![](/assets/dualaxis_transformer_applied.jpg)
+1. **Count and Percent Missing - How many `NA` values**
+2. Number of Distinct - How many unique observations
+3. **Categorical Data - Bar charts for frequency by category**
+4. Numeric Data - Distribution with histogram and quantiles
+5. **Expandable Groups - I love this feature. You can expand the groups to find out more information about the features.** 
+6. Search Features - Use regex to search the name. Great if you have a lot of features (columns).
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+# Bonus: Correlation Funnel
 
-# 3-steps to dual-axis plots
+The next step in my 3-step process is to immediately move to business insights. I can't tell you how important it is to get a quick win for your stakeholders. Whether it's your boss, a business executive in the C-suite, or your client if you are a consultant. You need to get insights fast. 
 
-Ok, now we are ready to rock and roll. Let's make the dual axis plot.
+So here's how I do it. 
 
-## Step 1: Set up the primary y-axis
+## Step 1: Run correlation funnel
 
-Run this code to set up the primary y-axis. This creates the first plot (`g1`).
+Here's the code (make sure you have `correlationfunnel` loaded). 
 
-![](/assets/dualaxis_g1.jpg)
-
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
-
-This returns a salmon-colored plot with the proportions. (Don't worry, we'll fix the color in a minute)
-
-![](/assets/dualaxis_g1_plot.jpg)
-
-## Step 2: Apply the transformer
-
-Next, I'm creating a 2nd plot (`g2`) that extends the first plot (`g1`).
-
-![](/assets/dualaxis_transformer_ggplot_code.jpg)
+![](/assets/correlationfunnel_code-1.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
 
-We now have the dual y-axis set up. It still looks too salmon-ey. But we're onto something.
+### The only trick is to pick which target to hone in on. 
 
-![](/assets/dualaxis_g2_plot.jpg)
+Here's how. 
 
-Now, let's make it look like a professional plot.
+* **The `binarize()` function bins the data, which converts everything to 1 and 0.** 
+* The `glimpse()` function is used to see all of the column names, which have been expanded from the binning operation.
+* **The `correlate()` function creates the raw insights. The only trick is to pick which target.** 
+* _How to pick a target?_ For numeric features like `hwy`, it gets binned. So I'm going to hone in on the bin `hwy__27_Inf`, which is basically like saying, "I want to know which features in my data are related to greater fuel economy (fuel efficiency)
+* **Then run `plot_correlation_funnel`_`()` a_ to expose the key relationships in a visualization.**
 
-## Step 3: Pro-customizations (that'll make your boss squeal)
+## Step 2: Review the Correlation Funnel Plot
 
-Next, run this code to upgrade the appearance of the `g2` plot (returning `g3`, the plot you'll want to show your boss).
+The resulting visualization looks like this. And you can quickly expose the insights in your data. 
 
-![](/assets/dualaxis_g3_code.jpg)
+![](/assets/correlationfunnel_plot-1.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+I can easily see that:
 
-![](/assets/dualaxis_g3_plot.jpg)
+* **Positive Correlation to Highway Fuel Economy:** If the vehicle has high city fuel economy, low engine displacement (smaller engine size), 4 cylinders, front-wheel drive, is a Volkswagen or Honda, is a Civic or Corolla Model, and is a Compact, Subcompact, or Midsize. 
+* **Negative Correlation to Highway Fuel Economy:** When engine size is 4.6Liter or lager, 8 cylinder, 4-wheel drive, Dodge or Ford Manufacturers, and SUV and Pickup class
+
+Not bad for 5 minutes of effort. 
 
 # 💡 Conclusions
 
-You learned how to create a dual-axis plot that is about 100X better than anything I can create in Excel. Great work! **But, there's a lot more to becoming a Business Scientist (a highly saught-after data scientist that knows the secrets to generating business value).**
+You learned how to use the `dataxray` library to create an interactive exploratory summary report AND perform exploratory analysis the fast way with `correlationfunnel`. Great work! **But, there’s a lot more to becoming a data scientist.**
 
 If you'd like to become a Business Scientist (and have an awesome career, improve your quality of life, enjoy your job, and all the fun that comes along), then I can help with that.
 
