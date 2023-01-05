@@ -76,11 +76,9 @@ What I like about `dataxray` is its emphasis on an **interactive exploration** o
 
 ![](/assets/dataxray-1.gif)
 
-Keep in mind, this tutorial is going to be gold. But what if you could gain access to the Fort Knox of R packages?
+I'm going to give you a free gift right now top help with (and after you are done with) this tutorial...
 
-I'm going to give you a free gift right now...
-
-## My Cheat Sheet For My Top 100 R Packages
+## Gift: Free Cheat Sheet for my Top 100 R Packages (EDA included)
 
 **Even I forget which R packages to use from time to time.** And this cheat sheet saves me so much time. Instead of googling to filter through 20,000 R packages to find a needle in a haystack. I keep my cheat sheet handy so I know which to use and when to use them. Seriously. [This cheat sheet is my bible.](https://www.business-science.io/r-cheatsheet.html)
 
