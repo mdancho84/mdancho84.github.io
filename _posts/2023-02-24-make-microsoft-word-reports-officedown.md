@@ -44,7 +44,7 @@ I have a companion video tutorial that gives you the bonus Rmarkdown MS Word Tem
 
 # Why Making Microsoft Word Reports from R is a Must
 
-Listen, There's one way to __immediately turn off an executive...__
+Listen, there's one way to __immediately turn off an executive...__
 
 And that's by giving them a Jupter Notebook (I mean look at this mess). 
 
@@ -66,7 +66,7 @@ You just spent days on a report. And guess what, it's not getting read.
 
 # Thank You to the Developer (and Community).
 
-Before we do our deep-dive into `officedown`, I want to take a brief moment to thank the developer, [David Gohel](https://www.linkedin.com/in/davidgohel/). David runs a consulting company [Ardata](https://www.ardata.fr/). Please connect and follow Augustin. [His work is on GitHub here](https://github.com/davidgohel). 
+Before we do our deep-dive into `officedown`, I want to take a brief moment to thank the developer, [David Gohel](https://www.linkedin.com/in/davidgohel/). David runs a consulting company [Ardata](https://www.ardata.fr/). Please connect and follow David. [His work is on GitHub here](https://github.com/davidgohel). 
 
 Also I'd like to thank [Adrian Olszewski, Principal Biostatistician at 2KMM](https://www.linkedin.com/in/adrianolszewski/) for sharing the Office-verse R ecosystem with me. Without community and sharing knowledge, this R-tip wouldn't be possible. 
 
