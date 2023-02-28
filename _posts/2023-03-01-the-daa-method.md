@@ -307,12 +307,17 @@ These datasets gave me:
 
 #### Step 1B. Process Steps (What you *think* you have to do)
 
-Next, I planned out the process. **Here are the exact steps I took**... **[SUBSCRIBE TO CONTINUE](https://university.business-science.io/p/the-business-scientist-newsletter)**
+Next, I planned out the process. **Here are the exact steps I took**... **[SUBSCRIBE TO CONTINUE READING](https://university.business-science.io/p/the-business-scientist-newsletter)**
+
+------
+<h4 class="text-center">
+Want to find out what I did next to solve this business problem with data science?
+</h4>
 
 <h3 class="text-center">
 <a href="https://university.business-science.io/p/the-business-scientist-newsletter">
-Subscribe to "The Business Scientist Newsletter" to get the FULL article here.</a> 
+Subscribe to "The Business Scientist Newsletter" to get the FULL article here (It's FREE).</a> 
 </h3>
-<h4 class="text-center">
+<p class="text-center">
 (and discover how to run circles around other data scientists, ethically steal promotions, raises and job titles from your more experienced coworkers, and make millions for your company in the process.)
-</h4>
+</p>
