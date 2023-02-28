@@ -96,7 +96,7 @@ I’m talking about years of getting reports stuffed in drawers. And, struggling
 But, the key change was building my first business automation. (If you haven’t guessed it yet, the 2nd “A” in D.A.A. is for Automation. 
 
 
-Automation was the key to getting their buy-in.
+Automation was the key to gaining their buy-in.
 
 
 It’s because the business automation turned into... 
@@ -136,7 +136,7 @@ Now, fast forward to 2021. I duplicated my *multi-million-dollar* success- This 
 Here’s How I Applied D.A.A. To Build A $3,000,000 Revenue Stream (For My OWN Online Business)
 </h3>
 
-I want you to know that D.A.A. is not just a one-trick poney. D.A.A. is a time-proven, successful method for me. 
+I want you to know that D.A.A. is not just a one-trick poney. D.A.A. is a time-tested, successful strategy for me. 
 
 
 In fact, I used it most recently in 2021 to help me grow revenue from email subscribers. 
