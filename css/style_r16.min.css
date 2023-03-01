@@ -1,11 +1,19 @@
-body{padding-top:60px;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+body{
+  font-family: "Roboto", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  padding-top:60px;
+}
 @media (max-width:1228px){body{padding-top:0px;}
 }
 .wrapper{padding-top:60px;}
 @media (max-width:1228px){.wrapper{padding-top:0px;}
 }
 .navbar-nav{margin:0;padding:7.5px 15px;}
-.navbar-nav li{font-size:16px;}
+.navbar-nav li{font-size:16px;font-weight:600;font-family:'Montserrat',Arial, Helvetica, sans-serif}
 @media (min-width:1228px){ul.nav li.dropdown:hover > ul.dropdown-menu{display:block;}
 }
 @media (max-width:1228px){.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-nav>.open>a:focus{background-color:#2c3e50;color:#ffffff}
@@ -16,7 +24,12 @@ h3{font-size:28px !important;margin-top:40px !important;padding-bottom:20px;}
 h4{font-size:22px !important;margin-top:20px !important;padding-bottom:10px;}
 h5{font-size:18px !important;margin-top:10px !important;padding-bottom:10px;}
 h6{font-size:14px !important;margin-top:10px !important;padding-bottom:5px;}
-p{}
+p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  padding-bottom:10px;
+}
 .tab-pane{height:400px;overflow-y:scroll;width:100%;}
 .tab-pane-sm{height:300px;overflow-y:scroll;width:100%;}
 #homepage-entry > p{font-size:12px;width:90%;}
@@ -64,7 +77,7 @@ aside .intro-text .skills{font-size:1.25em;font-weight:300;}
 aside .intro-text .name{font-size:4.75em;}
 aside .intro-text .skills{font-size:1.75em;}
 }
-li{font-size:20px;}
+li{font-size:20px;font-weight: 300;}
 .ul-small{padding-left:20px;}
 .ul-small > li{font-size:15px;}
 .ul-small > li > a{font-size:17px;font-weight:bold;}
@@ -114,8 +127,13 @@ li{font-size:20px;}
 .large-img-rounded {border-radius:50%;margin:auto;}
 .testimonial-list .row {padding-bottom:45px;}
 .testimonial-list .testimonial img {width: 100px;height: 100px;}
-#cover .subtitle {font-weight:300;font-size:1.7em;letter-spacing:2px;}
-#cover .benefits {font-weight:400;font-size:1.1em;letter-spacing:2px;text-transform:uppercase;}
+#cover .subtitle {font-weight:300;font-size:1.3em;letter-spacing:2px;}
+#cover .benefits {
+  /* font-weight:400; */
+  font-size:0.8em;
+  letter-spacing:2px;
+  text-transform:uppercase;
+}
 
 /* Highlight Style */
 .hljs-comment {color: #999999 !important;}
