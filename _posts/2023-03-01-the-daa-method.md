@@ -12,11 +12,11 @@ image: "/assets/daa_framework_thumb.jpg"
 image_preview: "/assets/daa_framework_thumb.jpg"
 ---
 
-[TBS Newsletter #001: The D.A.A. Method](https://university.business-science.io/courses/the-business-scientist-newsletter/lectures/45353307)
+[TBS Newsletter #001: The D.A.A. Method](https://learn.business-science.io/the-business-scientist)
 
-<h3 class="text-center">
-If I wanted to make more money as a data scientist, you know who I would NOT ignore- The C-suite.
-</h3>
+<h2 class="text-center">
+If I wanted to make more money as a data scientist, you know who I would NOT ignore- The C-Suite.
+</h2>
 
 The C-suite is YOUR ticket to getting promotions, raises, and new positions. 
 
@@ -27,9 +27,9 @@ But, most data scientists (including me) struggle with enlisting their help, gai
 The good news is I solved that problem 10 years ago with what I’m going to teach you today. 
 
 
-<h3 class="text-center">
+<h2 class="text-center">
 The Story Behind D.A.A.
-</h3>
+</h2>
 
 A long time ago in a galaxy far, far away, (back when I dreamed of having a “great corporate job”) I was working at a company called **Bonney Forge**. 
 
@@ -58,9 +58,9 @@ Week after week, month after month, I did this little dance. I found ways to sav
 
 I’m working 50-60 hours a week creating reports, doing analysis…
 
-<h3 class="text-center">
+<h2 class="text-center">
 … All for my boss to do nothing with it.
-</h3>
+</h2>
 
 So I got smart. I created a solution called: **D.A.A.**
 
@@ -72,9 +72,9 @@ The best part? Anyone can use this to become a rockstar data scientist.
 
 Before we dive into the solution, the "fatal mistake" I made month in and month out was that…
 
-<h3 class="text-center">
+<h2 class="text-center">
 Companies DON’T Want Reports; They WANT Results
-</h3>
+</h2>
 
 So every time I went into my boss’s office. She was expecting an update on how I saved the company money.
 
@@ -102,9 +102,9 @@ Automation was the key to gaining their buy-in.
 It’s because the business automation turned into... 
 
 
-<h3 class="text-center">
+<h2 class="text-center">
 A $15,000,000 Business Improvement.
-</h3>
+</h2>
 
 Imagine that you are overseeing a team of 5 people. And your small group brings in on average $3,000,000 per year of revenue.
 
@@ -132,9 +132,9 @@ And more importantly, they started listening to me.
 
 Now, fast forward to 2021. I duplicated my *multi-million-dollar* success- This time with my own business.
 
-<h3 class="text-center">
+<h2 class="text-center">
 Here’s How I Applied D.A.A. To Build A $3,000,000 Revenue Stream (For My OWN Online Business)
-</h3>
+</h2>
 
 I want you to know that D.A.A. is not just a one-trick poney. D.A.A. is a time-tested, successful strategy for me. 
 
@@ -143,9 +143,9 @@ In fact, I used it most recently in 2021 to help me grow revenue from email subs
 
 Here’s how. 
 
-<h3 class="text-center">
+<h2 class="text-center">
 How Online Businesses “Work”
-</h3>
+</h2>
 
 
 First, there are only 3 ways a business drives revenue:  
@@ -163,9 +163,9 @@ First, there are only 3 ways a business drives revenue:
 
 **Repeat customers** means you have someone on subscription. (Think of Netflix or Hulu.)
 
-<h3 class="text-center">
+<h2 class="text-center">
 To help, <em>most</em> businesses have some form of a “list”.
-</h3>
+</h2>
 
 
 That’s a list of people who have either:
@@ -189,9 +189,9 @@ For my company Business Science, I have a list of ~100,000 people. You would thi
 
 Because…
 
-<h3 class="text-center">
+<h2 class="text-center">
 Different People Are Interested In Different Things
-</h3>
+</h2>
 
 
 If someone is brand new to data science, they’re going to buy beginner courses.
@@ -212,9 +212,9 @@ Because of these problems, you have to segment your company’s list based on cu
 What’s great about customer segmentation and databases is we can use data science.
 
 
-<h3 class="text-center">
+<h2 class="text-center">
 So in early 2021, I made a Customer Segmentation model to determine which customers I should send sales emails to.
-</h3>
+</h2>
 
 At first, I sent sales emails to everyone and I noticed people were unsubscribing in droves. (Not good.)
 
@@ -230,9 +230,9 @@ Which means I was doing the OPPOSITE of acquiring new customers, I was driving t
 
 Well, I solved this business problem using the D.A.A. Method.
 
-<h3 class="text-center">
+<h2 class="text-center">
 TIME FOR DATA SCIENCE
-</h3>
+</h2>
 
 There’s a dead-simple formula that I’ve used to make my company $3,000,000+ in revenue through business process automation.
 
@@ -261,9 +261,9 @@ Fig.2: Lead Scoring App
 
 You can check out a demo version of the [Lead Scoring App here](https://business-science.shinyapps.io/active_leadscore) (the product of the D.A.A. applied to my Customer Segmentation problem).
 
-<h3 class="text-center">
+<h2 class="text-center">
 HOW DID <em>THIS</em> HAPPEN?
-</h3>
+</h2>
 
 I saw my unsubscribe rates for new subscribers were very high when exposed to a “sales email”.
 
@@ -307,17 +307,165 @@ These datasets gave me:
 
 #### Step 1B. Process Steps (What you *think* you have to do)
 
-Next, I planned out the process. **Here are the exact steps I took**... **[SUBSCRIBE TO CONTINUE READING](https://university.business-science.io/p/the-business-scientist-newsletter)**
+Next, I planned out the process. The minimal processing steps I planned for were to:
+
+1. **Combine the data** so I could see which students were buying and what actions they had taken (email open rates, webinar attendance, where they were located geographically, how long they had been with me, etc)
+
+2. **Prepare the features** (See if I could make highly predictive features that were indicators of a sale based on user behavior)
+
+3. **Get the Purchase Probability** (by running a Machine Learning Model)
+
+4. **Make Hot/Cold Segments** (for email targeting)
+
+#### Step 1C. Outputs (What you need to improve the process)
+
+I needed the list of people who were ready to buy right now: 
+
+The ideal outputs would be a simple CSV file that could be uploaded to the MailChimp Email Database for segmentation.
+
+1. **Segments:** All I needed were Hot/Cold segments that I could target for Sales Emails / Nurture Emails, respectively.
+
+2. **Uploading the results into the Email Database:** I could then send different emails to the Hot and Cold Segments. Hot would get sales emails. Cold would get nurture emails.
+
+### Step 2: Make an ANALYSIS
+
+Next, I made an analysis. This is where I verified that I could make something that works. 
+
+Here’s a snapshot of part of the actual solution. 
+
+![Fig. 4 Lead Scoring Analysis](/assets/lead_scoring_code.jpg)
+
+<p class="text-center date">
+Fig. 4: Lead Scoring Analysis (analysis.R file)
+</p>
+
+I took what I knew from defining the business process and I began mocking up an analysis:
+
+* I used `R` for my analysis
+
+* I used `tidymodels`, R’s best machine learning framework, to make a single model that I could run quickly inside an application.
+
+* I used the `tidyverse` for most of the data combining and data processing.
+
+* I used `recipes` and `textrecipes` which helped me incorporate customer actions in a way that the machine learning algorithms could understand.
+
+* And I output the **Lead Score** as a probability of “readiness to buy”.
+
+### Step 3: AUTOMATE using an application
+
+This part is really powerful. I used a tool called shiny to make a web application that did all of the processing, but more importantly... 
+
+The app was so easy to use… 
+
+In fact so easy, I trained my staff (aka Haley, my wife) to run the segmentation.
+
+<h2 class="text-center">
+This saved me tons of time (and made the process repeatable).
+</h2>
+
+The shiny app had 3 tabs that walked Haley through the 3 steps in the process.
+
+![The Shiny App that helped create a $3,000,000+ revenue stream](/assets/active_lead_score_app.jpg)
+
+<p class="text-center date">
+Fig. 5: The Shiny App that helped create a $3,000,000+ revenue stream
+</p>
+
+Here’s the fun part. Let me break down the 3 tabs that do the email segmentation’s “heavy lifting.” 
+
+
+(And you’ll see how it was so easy my wife, Haley, could crush segmentations each month with it.)
+
+### Tab 1. The “Import Data” Tab
+
+Tab 1 imported the data from the 2 CSV files (email subscribers and transaction history). 
+
+
+All Haley had to do was get the data and feed into the app. 
+
+
+She’d grab the data first thing in the morning of a sale. Then upload them into the shiny app. 
+
+
+The app took care of preparing the raw data for the machine learning model.
+
+![Fig. 6: Import Data Email and Transaction Data](/assets/tab1_import.jpg)
+
+<p class="text-center date">
+Fig. 6: Import Data Email and Transaction Data
+</p>
+
+### Tab 2. “Run the Scoring Model” Tab
+
+Tab 2 ran the lead scoring model. 
+
+![Fig. 7: Run the Lead Scoring Model](/assets/tab2_scoring_model.jpg)
+
+<p class="text-center date">
+Fig. 7: Run the Lead Scoring Model
+</p>
+
+The app defaults were pretty good. This meant Haley could quickly run the default model and get an 80% to 90% AUC… Without spending hours tweaking knobs or getting frustrated because there were “too many buttons”. 
+
+
+I set the app up so that anything below a 0.80 AUC would trigger a <span style="color:red;"><strong>RED FLAG</strong></span>. (Red meant bad.) If anything was RED, she would get me to figure out what happened. 
+
+
+But, 99% of the time she got a good model. And with a good model in hand, Haley could move on to the next step.
+
+### Tab 3. “Download the Customer Segmentation” Tab
+
+Tab 3 produced the lead score. 
+
+![Fig. 8: Download the Customer Segmentation](/assets/tab3_customer_segmentation.jpg)
+
+<p class="text-center date">
+Fig. 8: Download the Customer Segmentation
+</p>
+
+It had a couple of knobs and diagnostics to “optimize” the Customer Segmentation. My goal was to get 98% of the “expected” sales.  
+
+
+To hit the goal, Haley would drag the slider to pick the right threshold for “Hot” and “Cold”. She could see the Customer Segmentation update, and she’d stop when “Proportion of Total Purchases” hit 98%. 
+
+
+Once finished, Haley clicked the download button. She would take the CSV with the segmentations, and update the Email Database. The emails would be set to go out to the 2 groups. 
+
+
+We just repeated this process once a month, and... 
+
+<h2 class="text-center">The Payoff</h2>
+
+
+I implemented this system in 2021. I spent about 30 days building and refining the analysis and making the proof-of-concept shiny web application. 
+
+
+I then put it into production (i.e. published it internally and trained Haley how to use it) and we began using it every month.
+
+
+The unsubscription rate was cut in half, and the total sales stayed at about 98% (a slight drop due to missing some buyers in the nurture group).
+
+
+But this was more than made up by the growing email list. 
+
+
+In a given weekend now with a good offer, we are pulling in $125,000+ with a targeted sale on my R-Track Program. **A healthy 4X growth over 2 years.**
+
+If you do something similar for YOUR employer, you’ll make them more money than they know what to do with. 
+
+
+And if you want to learn how to put things into production, (and make you and your company fistfuls of cash) you should [check out my 5-Course R Track](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series). 
+
 
 ------
-<h4 class="text-center">
-Want to find out what I did next to solve this business problem with data science?
-</h4>
-
 <h3 class="text-center">
-<a href="https://university.business-science.io/p/the-business-scientist-newsletter">
-Subscribe to "The Business Scientist Newsletter" to get the FULL article here (It's FREE).</a> 
+Want to find out what I did next to solve this business problem with data science?
 </h3>
+
+<h2 class="text-center">
+<a href="https://learn.business-science.io/the-business-scientist">
+Subscribe to "The Business Scientist Newsletter" to get access to the FULL article here inside our TBS Vault (It's FREE).</a> 
+</h2>
 <p class="text-center">
 (and discover how to run circles around other data scientists, ethically steal promotions, raises and job titles from your more experienced coworkers, and make millions for your company in the process.)
 </p>
