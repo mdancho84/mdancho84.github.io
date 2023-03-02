@@ -12,9 +12,9 @@ image: "/assets/daa_framework_thumb.jpg"
 image_preview: "/assets/daa_framework_thumb.jpg"
 ---
 
-[TBS Newsletter #001: The D.A.A. Method](https://learn.business-science.io/the-business-scientist)
+__TBS Newsletter #001: The D.A.A. Method__ ([Get The Full Article For Free Here](https://learn.business-science.io/the-business-scientist))
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 If I wanted to make more money as a data scientist, you know who I would NOT ignore- The C-Suite.
 </h2>
 
@@ -27,7 +27,7 @@ But, most data scientists (including me) struggle with enlisting their help, gai
 The good news is I solved that problem 10 years ago with what I’m going to teach you today. 
 
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 The Story Behind D.A.A.
 </h2>
 
@@ -58,7 +58,7 @@ Week after week, month after month, I did this little dance. I found ways to sav
 
 I’m working 50-60 hours a week creating reports, doing analysis…
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 … All for my boss to do nothing with it.
 </h2>
 
@@ -72,7 +72,7 @@ The best part? Anyone can use this to become a rockstar data scientist.
 
 Before we dive into the solution, the "fatal mistake" I made month in and month out was that…
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 Companies DON’T Want Reports; They WANT Results
 </h2>
 
@@ -85,7 +85,7 @@ Except, what I was actually giving her was: **More work.**
 And, that’s why nothing ever got done. So to change that, I needed to change my approach. 
 
 
-And it started by taking matters into my own hands.
+**And it started by taking matters into my own hands.**
 
 Before stumbling onto the DAA method, I went through a lot of pain. 
 
@@ -102,7 +102,7 @@ Automation was the key to gaining their buy-in.
 It’s because the business automation turned into... 
 
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 A $15,000,000 Business Improvement.
 </h2>
 
@@ -132,7 +132,7 @@ And more importantly, they started listening to me.
 
 Now, fast forward to 2021. I duplicated my *multi-million-dollar* success- This time with my own business.
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 Here’s How I Applied D.A.A. To Build A $3,000,000 Revenue Stream (For My OWN Online Business)
 </h2>
 
@@ -143,7 +143,7 @@ In fact, I used it most recently in 2021 to help me grow revenue from email subs
 
 Here’s how. 
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 How Online Businesses “Work”
 </h2>
 
@@ -163,7 +163,7 @@ First, there are only 3 ways a business drives revenue:
 
 **Repeat customers** means you have someone on subscription. (Think of Netflix or Hulu.)
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 To help, <em>most</em> businesses have some form of a “list”.
 </h2>
 
@@ -189,7 +189,7 @@ For my company Business Science, I have a list of ~100,000 people. You would thi
 
 Because…
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 Different People Are Interested In Different Things
 </h2>
 
@@ -212,7 +212,7 @@ Because of these problems, you have to segment your company’s list based on cu
 What’s great about customer segmentation and databases is we can use data science.
 
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 So in early 2021, I made a Customer Segmentation model to determine which customers I should send sales emails to.
 </h2>
 
@@ -230,11 +230,11 @@ Which means I was doing the OPPOSITE of acquiring new customers, I was driving t
 
 Well, I solved this business problem using the D.A.A. Method.
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 TIME FOR DATA SCIENCE
 </h2>
 
-There’s a dead-simple formula that I’ve used to make my company $3,000,000+ in revenue through business process automation.
+These are the exact steps that I used to make my company $3,000,000+ in revenue with my D.A.A. Method.
 
 ![D.A.A. Method](/assets/daa_method.jpg)
 
@@ -242,11 +242,11 @@ There’s a dead-simple formula that I’ve used to make my company $3,000,000+ 
 Fig.1: D.A.A. Method
 </p>
 
-**It’s called the D.A.A. Method**, and it stands for:
+**The D.A.A. Method, and it stands for:**
 
-* Define
-* Analyze
-* Automate
+* **Define**
+* **Analyze**
+* **Automate**
 
 
 Here’s exactly how I used it to automate a business process that made $3,000,000+ in revenue for my business, Business Science.
@@ -261,7 +261,7 @@ Fig.2: Lead Scoring App
 
 You can check out a demo version of the [Lead Scoring App here](https://business-science.shinyapps.io/active_leadscore) (the product of the D.A.A. applied to my Customer Segmentation problem).
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 HOW DID <em>THIS</em> HAPPEN?
 </h2>
 
@@ -307,14 +307,14 @@ These datasets gave me:
 
 #### Step 1B. Process Steps (What you *think* you have to do)
 
-Next, I planned out the process. Here are the exact steps I took... [JOIN TO FINISH THIS ARTICLE (IT'S FREE)...](https://university.business-science.io/courses/the-business-scientist-newsletter/lectures/45353307)
+Next, I planned out the process. Here are the exact steps I took... [JOIN THE BUSINESS SCIENTIST TO FINISH THIS ARTICLE (IT'S FREE)...](https://university.business-science.io/courses/the-business-scientist-newsletter/lectures/45353307)
 
 ------
 <h3 class="text-center">
 Want to find out what I did next to solve this business problem with data science?
 </h3>
 
-<h2 class="text-center">
+<h2 class="text-center" style="padding-bottom:36px;">
 <a href="https://learn.business-science.io/the-business-scientist">
 Subscribe to "The Business Scientist Newsletter" to get access to the FULL article here inside our TBS Vault (It's FREE).</a> 
 </h2>
