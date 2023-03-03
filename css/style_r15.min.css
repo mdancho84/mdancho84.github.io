@@ -510,6 +510,16 @@ li{font-size:20px;font-weight: 300;}
   color: white;
 }
 
+.btn-lg-green-align {
+  text-align: left;
+}
+
+@media(max-width:1466px) {
+  .btn-lg-green-align {
+    text-align: center;
+  }
+}
+
 .btn-xxl-green {
   padding: 18px 27px;
   line-height: 1.3333333;
@@ -673,7 +683,7 @@ li{font-size:20px;font-weight: 300;}
 
 @media (max-width: 1524px) {
   .nav-brand-name{
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 }
 
