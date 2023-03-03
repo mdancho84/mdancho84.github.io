@@ -132,7 +132,7 @@ li{font-size:20px;font-weight: 300;}
 #cover .subtitle {font-weight:300;font-size:1.3em;letter-spacing:2px;}
 #cover .benefits {
   /* font-weight:400; */
-  font-size:0.8em;
+  font-size:0.6em;
   letter-spacing:2px;
   text-transform:uppercase;
 }
@@ -184,9 +184,29 @@ li{font-size:20px;font-weight: 300;}
 }
 .testimonial-cover h1 {
   font-size: 55px !important;
-  font-weight: 300 !important;
+  /* font-weight: 300 !important; */
   line-height: 88px;
 }
+
+@media (max-width: 991px) {
+  .testimonial-cover h1 {
+    font-size: 36px !important;
+    text-align: center;
+    line-height: 46px;
+  }
+  .testimonial-cover h2 {
+    font-size: 42px !important;
+    text-align: center;
+    margin-top: 20px !important;
+  }
+  .item-text {
+    font-size: 16px;
+  }
+  .subtitle {
+    font-size: 1em;
+  }
+}
+
 
 .arena-cover {
   min-height:500px;
