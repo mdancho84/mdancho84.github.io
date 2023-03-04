@@ -704,4 +704,7 @@ li{font-size:20px;font-weight: 300;}
   }
 }
 
-
+.emoji-lg {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  font-size:46px;
+}
