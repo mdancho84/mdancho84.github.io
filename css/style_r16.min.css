@@ -190,9 +190,9 @@ li{font-size:20px;font-weight: 300;}
 
 @media (max-width: 991px) {
   .testimonial-cover h1 {
-    font-size: 36px !important;
+    font-size: 26px !important;
     text-align: center;
-    line-height: 46px;
+    line-height: 26px;
   }
   .testimonial-cover h2 {
     font-size: 42px !important;
@@ -495,7 +495,7 @@ li{font-size:20px;font-weight: 300;}
     line-height: 1.3333333;
     margin-top: 25px;
     margin-bottom: 50px;
-    font-size: 15px;
+    font-size: 22px;
     border-radius: 100px;
     color: white;
     background-color: #13d3ad;
@@ -688,7 +688,7 @@ li{font-size:20px;font-weight: 300;}
 
 @media (max-width: 1524px) {
   .nav-brand-name{
-    font-size: 14px !important;
+    font-size: 11px !important;
   }
 }
 
@@ -707,4 +707,19 @@ li{font-size:20px;font-weight: 300;}
 .emoji-lg {
   -webkit-filter: drop-shadow(5px 5px 5px #222);
   font-size:46px;
+}
+
+@media (max-width:991px) {
+  .home-header-h1 {
+    font-size:36px !important;
+  }
+  .home-header-h2 {
+    font-size:28px !important;
+  }
+  .home-header-h3 {
+    font-size:24px !important;
+  }
+  .home-p-lg {
+    font-size:28px !important;
+  }
 }
