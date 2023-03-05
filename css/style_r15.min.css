@@ -688,6 +688,12 @@ li{font-size:20px;font-weight: 300;}
 
 @media (max-width: 1524px) {
   .nav-brand-name{
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 475px) {
+  .nav-brand-name{
     font-size: 11px !important;
   }
 }
