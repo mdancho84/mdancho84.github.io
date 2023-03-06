@@ -12,10 +12,10 @@ image: "/assets/daa_method.jpg"
 image_preview: "/assets/daa_method.jpg"
 ---
 
-**This newsletter is a free to join.** Gain a business + data science education once per month straight to your inbox:
+**The Business Scientist Newsletter (TBS) is free to join.** 90% of data scientists struggle with business. Gain a business education FOR data scientists once per month *straight* to your inbox:
 
-- [TBS Newsletter #001: The D.A.A. Method (>> Join Here <<)](https://learn.business-science.io/the-business-scientist)
-- [Access the TBS Newsletter Vault for FREE Here](https://university.business-science.io/p/the-business-scientist-newsletter)
+- [**Join the TBS Newsletter** (>> Join Here <<)](https://learn.business-science.io/the-business-scientist)
+- [**Access the TBS Newsletter Vault** (>> Get all previous editions for FREE Here <<)](https://university.business-science.io/p/the-business-scientist-newsletter)
 
 ---
 
@@ -461,16 +461,39 @@ If you do something similar for YOUR employer, you’ll make them more money tha
 
 And if you want to learn how to put things into production, (and make you and your company fistfuls of cash) you should [check out my 5-Course R Track](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series). 
 
+That’s it for today. See you again on the 1st of next month.
+
+*The Greatest Data Science For Business Instructor in the World,*
+
+*Matt Dancho*
+
+P.S. Next month I’m going to show you the most powerful framework I and my other students use to get jobs like it’s nothing. 
+
+It’s called: **The BSPF. And it does this:**
+
+![Will BSPF Testimonial](/assets/daa_will_bspf.jpg)
+
+-----
+
+# Want to make 6-figures as a data scientist?
+
+This is how I can help:
+
+1. **Learn what's ahead of you.** Read my 155-page E-Book, [***"Everything You Should Already Know About Data Science"***](https://learn.business-science.io/if-i-had-to-learn-data-science-all-over-again). I wrote this to uncover the mystery behind data science (and help people understand what businesses really want.)
+
+2. **Become a Business Data Scientist with my 5-Course R-Track.** This program gets insane results like $100,000+ data science careers, +50% pay raises, Senior VP promotions, Lead Data Scientist (and more.) Don't believe me? [**Check out my testimonials here.**](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series) Want a taste of my program? [Try my Jumpstart 2.0](https://university.business-science.io/p/jumpstart-with-v2) - It's the first week of my training program. 
 
 ------
+
 <h3 class="text-center">
-Want to find out what I did next to solve this business problem with data science?
+Want to find out what I did to solve more business problems with data science?
 </h3>
 
 <h2 class="text-center">
 <a href="https://learn.business-science.io/the-business-scientist">
-Subscribe to "The Business Scientist Newsletter" to get access to the FULL article here inside our TBS Vault (It's FREE).</a> 
+Subscribe to "The Business Scientist Newsletter" to get access to the FULL list of articles inside our TBS Vault (It's FREE).</a> 
 </h2>
 <p class="text-center">
 (and discover how to run circles around other data scientists, ethically steal promotions, raises and job titles from your more experienced coworkers, and make millions for your company in the process.)
 </p>
+
