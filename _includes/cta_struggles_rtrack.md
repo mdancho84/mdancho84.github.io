@@ -1,4 +1,4 @@
-# Are You Stuggling to Get a Data Science Job?
+# Do You Need Help Becoming A Business Data Scientist Right Now?
 
 YOU know the feeling. Being unhappy with your current job.
 
@@ -12,7 +12,7 @@ The good news is...
 
 # I Can Help You Speed It Up.
 
-I've helped 5,704+ students learn data science for business from an elite business consultant's perspective.
+I've helped 5,897+ students learn data science for business from an elite business consultant's perspective.
 
 I've worked with Fortune 500 companies like S&P Global, Apple, MRM McCann, and more.
 
