@@ -129,7 +129,7 @@ To get set up, all we need to do is load the following libraries and data.
 
 ![](/assets/ggradar_libraries_data.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 We'll use the `mpg` dataset, which has data on 234 vehicle models.
 
@@ -147,7 +147,7 @@ We're going to do **within-group analysis**. So we just need to summarize by gro
 
 ![](/assets/ggradar_data_wrangling.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 This produces the within-group data that has been rescaled and is ready for `ggradar`
 
@@ -168,7 +168,7 @@ Making a radar plot is as simple as 1 line of code.
 
 ![](/assets/ggradar_simple.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Here's the default data visualization. It's not going to win any data-viz awards, but we're on the right track.
 
@@ -180,7 +180,7 @@ With just a few tweaks, I can upgrade my within-group analysis and begin to get 
 
 ![](/assets/ggradar_basic_custom_code_4.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ...which produces this data visualization.
 
@@ -200,7 +200,7 @@ The faceted radar plot is a bit more code because of the formatting. Again, I re
 
 ![](/assets/ggradar_faceted-1.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ...which produces this data visualization
 

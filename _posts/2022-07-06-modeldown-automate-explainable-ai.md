@@ -71,7 +71,7 @@ Load `tidyverse` , `janitor`,  `tidymodels`, `DALEX` and `modelDown`. I'll expla
 
 ![](/assets/modeldown_01_libraries.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ### Next, run this code to **pull in the data**.
 
@@ -101,7 +101,7 @@ We'll start by getting our data into a format that the models can handle. Run th
 
 ![](/assets/modeldown_04_recipe.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 The preprocessing recipe is just **a template (often called a pipeline)** that takes incoming data and processes it into the "right" format for our models to learn from it.
 
@@ -127,7 +127,7 @@ Run this code.
 
 ![](/assets/modeldown_06_random_forest-1.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 We now have a **model specification**. A common beginner mistake is thinking a model specification is a trained model. The model specification is NOT a trained model. Rather, it's a template to create a model.
 
@@ -145,7 +145,7 @@ Run this code to train the model.
 
 ![](/assets/modeldown_07_workflow.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 We can test the fitted model by making some predictions. Run this code.
 
@@ -187,7 +187,7 @@ Run this code to make a custom explainer function.
 
 ![](/assets/modeldown_09_custom_explainer-1.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 **We can test our custom prediction function** using our trained `tidymodels` workflow. By running on the head (first 6 rows of our dataset), I can truncate to the first 6 predictions. Looks like it's working.
 
@@ -203,7 +203,7 @@ Run this code to make a DALEX Explainer.
 
 ![](/assets/modeldown_11_dalex_explainer.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ### BIG Mistake: Don't forget to check your explainer
 
@@ -227,7 +227,7 @@ Run this code to create the automated `modelDown` website.
 
 ![](/assets/modeldown_13_modeldown.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 This creates a folder containing a deployable website with the automated explainable model report.
 

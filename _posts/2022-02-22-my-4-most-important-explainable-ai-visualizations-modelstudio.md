@@ -67,7 +67,7 @@ First, run this code to:
 
 ![](/assets/modelstudio_01_libraries_data.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Our data looks like this. We want to understand how Highway Fuel Economy (miles per gallon, `hwy`) can be estimated based on the remaining 9 columns `manufacturer:class`.
 
@@ -84,7 +84,7 @@ The best way to understand what affects `hwy` is to build a predictive model (an
 
 ![](/assets/modelstudio_03_xgboost.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ## Step 3: Make an Explainer
 
@@ -101,7 +101,7 @@ OK, here's the code to create the explainer.
 
 ![](/assets/modelstudio_04_dalex.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ## Step 4: Run `modelStudio`
 

@@ -120,7 +120,7 @@ First, load the following libraries and data.
 
 ![Heat Map Libraries](/assets/heatmap_libraries.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 The dataset looks like this:
 
@@ -134,7 +134,7 @@ Next, we need to get the data into the right format for a comparison. To do this
 
 ![Heat Map Data Wrangle](/assets/heatmap_3_prop_by_category.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Here's what the data now looks like. We now have a proportion of sales that each bikeshop is spending in each category. And it's sorted by the top category (this is )
 
@@ -146,7 +146,7 @@ The last step is to take the formatted data from Step 2 and visualize it with `g
 
 ![Heat Map ggplot2 code](/assets/heatmap_4_ggplot2_code.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ...And here's the final visualization.
 

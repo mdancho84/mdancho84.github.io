@@ -85,7 +85,7 @@ First, load libraries `tidyverse` and `tidyquant`. Then get the `mpg` data set.
 
 ![](/assets/dualaxis_libraries_code.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 <br>
 
@@ -99,7 +99,7 @@ Here's the code to do this transformation.
 
 ![](/assets/dualaxis_data_wrangle.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Now that the data has been transformed, let's see how to make this plot in 3 steps.
 
@@ -113,7 +113,7 @@ This happens because the two variables are on different scales.
 
 ![](/assets/dualaxis_problem.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 # Solution: Transformer function to rescale the 2nd axis
 
@@ -121,13 +121,13 @@ The solution is just to copy my transformer code and we can use this to make a s
 
 ![](/assets/dualaxis_transformer.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Next, apply the `transformer_dual_y_axis()` function to the data. Set the primary column as prop and the secondary column as hwy_median. The `include_y_zero = TRUE` makes sure both y-axis include zero.
 
 ![](/assets/dualaxis_transformer_applied.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 # 3-steps to dual-axis plots
 
@@ -139,7 +139,7 @@ Run this code to set up the primary y-axis. This creates the first plot (`g1`).
 
 ![](/assets/dualaxis_g1.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 This returns a salmon-colored plot with the proportions. (Don't worry, we'll fix the color in a minute)
 
@@ -151,7 +151,7 @@ Next, I'm creating a 2nd plot (`g2`) that extends the first plot (`g1`).
 
 ![](/assets/dualaxis_transformer_ggplot_code.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 We now have the dual y-axis set up. It still looks too salmon-ey. But we're onto something. 
 
@@ -165,7 +165,7 @@ Next, run this code to upgrade the appearance of the `g2` plot (returning `g3`, 
 
 ![](/assets/dualaxis_g3_code.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ![](/assets/dualaxis_g3_plot.jpg)
 

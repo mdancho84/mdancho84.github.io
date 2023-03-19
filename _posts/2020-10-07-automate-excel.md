@@ -50,7 +50,7 @@ First, collect your data using `tidyquant`, an awesome package for importing & w
 
 ![Import Data](/assets/2020-10-07-automate-excel/import-data.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 <br>
 
@@ -81,7 +81,7 @@ Now for the magic - Let's add the Pivot Table & Stock Plot to Excel! 🔥
 
 ![Create Excel Workbook with R](/assets/2020-10-07-automate-excel/create-workbook.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ### Excel Output (.xlsx)
 

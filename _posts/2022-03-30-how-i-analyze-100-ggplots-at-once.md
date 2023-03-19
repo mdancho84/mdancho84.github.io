@@ -65,7 +65,7 @@ First, run this code to:
 
 ![](/assets/00_trelliscope_libraries.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Our data looks like this. We want to understand how Highway Fuel Economy (`hwy`) varies with `displ` (engine size) but we want to see if there is any differences between `manufacturers`.
 
@@ -79,7 +79,7 @@ Next, let's make a basic ggplot of fuel economy vs engine displacement.
 
 ![](/assets/02_trelliscope_ggplot.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 This produces the following plot of `hwy` vs `displ`.
 
@@ -100,7 +100,7 @@ Seriously, I now use this simple trick to analyze 100+ ggplots at once.
 
 ![](/assets/03_trelliscopejs_facets.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 The result is the trelliscope plot with 15 ggplots by manufacturer.
 
@@ -129,7 +129,7 @@ THIS is the magic of trelliscope!!
 
 ![](/assets/05_trelliscope_bonus_code.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Check out the interactivity from plotly!!
 

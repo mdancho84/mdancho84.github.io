@@ -114,7 +114,7 @@ Enable officedown as the Rmarkdown Output.
 ![Enable Officedown](/assets/officedown_02_add_officedown.jpg)
 
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ## Step 3: Setup the document's global `knitr` options
 
@@ -122,7 +122,7 @@ Use these `knitr` options to let `officedown` format the table and figure captio
 
 ![Global Knitr Options Officedown](/assets/officedown_03_global_knitr_opts.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ## Step 4: Add Table of Contents
 
@@ -130,7 +130,7 @@ The `block_toc()` function allows the Word Table of Contents to be generated.
 
 ![Table of Contents Officedown](/assets/officedown_04_toc.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Here's what the Table of Contents looks like. 
 
@@ -146,7 +146,7 @@ This is where you start building the core of your report. Officedown integrates:
 
 ![Add Figures Officedown](/assets/officedown_05_figures.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Here's what it looks like in the report:
 
@@ -158,7 +158,7 @@ The last step is adding tables in your document.
 
 ![Tables Word Doc Officedown](/assets/officedown_06_tables.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 And here's what it looks like in the Word Report. 
 
@@ -170,7 +170,7 @@ The last step is to click the "knit" button.
 
 ![Knit Word Doc Officedown](/assets/officedown_08_officedown_knit.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Viola! You get a professional report:
 

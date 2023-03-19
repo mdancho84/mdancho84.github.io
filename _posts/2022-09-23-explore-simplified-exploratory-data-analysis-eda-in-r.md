@@ -156,7 +156,7 @@ To get set up, all we need to do is load the following libraries and data.
 
 ![](/assets/explore_01_libraries.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 We'll use the `mpg` dataset, which has data on 234 vehicle models.
 
@@ -170,7 +170,7 @@ Next, use `explore()` to make our EDA shiny app.
 
 ![](/assets/explore_03_shiny_app.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 This produces an automatic Shiny EDA App that covers all of the important aspects that we need to analyze in our data! It's that simple folks.
 
@@ -188,7 +188,7 @@ As an extra special bonus, I figured I'd teach you not only how to make the Shin
 
 ![](/assets/explore_boxplot.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 **The first plot we get is a box plot,** which is when we compare a numeric target and a categorical predictor. The box plot helps us see which categories pull fuel economy up and down.
 
@@ -201,7 +201,7 @@ As an extra special bonus, I figured I'd teach you not only how to make the Shin
 
 ![](/assets/explore_frequency_plot.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 **The 2nd plot we get is a frequency plot,** which is when we compare two categories and determine the overlap in terms of the frequency of observations that fall into combinations of categories. This plot won't help us with figuring out effect on fuel economy (highway mpg), but can be important in data discover.
 
@@ -214,7 +214,7 @@ As an extra special bonus, I figured I'd teach you not only how to make the Shin
 
 ![](/assets/explore_scatterplot.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 **The 3rd plot we get is a scatter plot,** which is when we compare two numeric variables and determine the trend between the two variables. This plot helps us see an immediate trend between highway fuel economy and engine size (displacement).
 

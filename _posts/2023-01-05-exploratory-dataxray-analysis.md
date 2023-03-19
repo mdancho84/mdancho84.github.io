@@ -109,7 +109,7 @@ First, load libraries `tidyverse` , `dataxray`, and (optionally) `correlationfun
 
 ![](/assets/dataxray_01_libraries.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 We’ll use the `mpg` dataset, which has data on 234 vehicle models.
 
@@ -126,7 +126,7 @@ Next, just use two functions:
 
 ![](/assets/dataxray_code.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 The result is an amazing reactable table that allows us to drill into each feature. 
 
@@ -159,7 +159,7 @@ Here's the code (make sure you have `correlationfunnel` loaded).
 
 ![](/assets/correlationfunnel_code-1.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ### The only trick is to pick which target to hone in on. 
 

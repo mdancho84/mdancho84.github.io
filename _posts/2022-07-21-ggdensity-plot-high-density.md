@@ -93,7 +93,7 @@ Load `tidyverse` , `tidyquant`, and `ggdensity`.
 
 ![](/assets/ggdensity_01_libraries_2.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 ### Next, run this code to **pull in the data**.
 
@@ -111,7 +111,7 @@ Next, make a basic `ggplot` using the following code. This creates a scatter plo
 
 ![](/assets/ggdensity_03_ggplot_basic.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Here's what the plot looks like. **Do you see how it's really tough to pull out the clusters in there?** Each of the points overlap which makes understanding the group structure in the data very tough.
 
@@ -123,7 +123,7 @@ Ok, now that we have a basic scatter plot, we can make a quick alteration by add
 
 ![](/assets/ggdensity_04_ggplot_hdr.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Let's see what we have here.
 
@@ -139,7 +139,7 @@ The fix is pretty simple. Just use facetting from ggplot2.
 
 ![](/assets/ggdensity_05_ggplot_facet.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 And, voila! We can easily inspect the clusters by vehicle class.
 

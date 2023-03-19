@@ -73,7 +73,7 @@ To get set up, all we need to do is load the following libraries and data.
 
 ![](/assets/00-dataexplorer-libraries.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 We'll use the `gss_cat` dataset, which has income levels for people by various factors including marital status, age, race, religion, ....
 
@@ -87,7 +87,7 @@ Next, use `create_report()` to make our EDA report. Be sure to specify the outpu
 
 ![](/assets/01-eda-report-code.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 This produces an automatic EDA report that covers all of the important aspects that we need to analyze in our data! It's that simple folks.
 
@@ -105,7 +105,7 @@ As an extra special bonus, I figured I'd teach you not only how to make the repo
 
 ![](/assets/02-dataexplorer-basic-stats-2.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 The basic statistics is where we first start understanding our data. We can see information about our columns including:
 
@@ -119,7 +119,7 @@ The basic statistics is where we first start understanding our data. We can see 
 
 ![](/assets/03-dataexplorer-data-structure-1.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Next, we can examine each of the columns specifically learning about what data types are contained inside each of the columns.
 
@@ -130,7 +130,7 @@ Next, we can examine each of the columns specifically learning about what data t
 
 ![](/assets/04-dataexplorer-missing-data.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 The missing data profile report helps us understand which columns have missing data.
 
@@ -151,7 +151,7 @@ We can check out the distribution within the numeric data to quickly see what we
 
 ![](/assets/04-dataexplorer-continuous-features.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 We can get a sense of the **distribution** of the numeric data.
 
@@ -163,7 +163,7 @@ We can get a sense of the **distribution** of the numeric data.
 
 ![](/assets/04-dataexplorer-categorical-features.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 The categorical feature distributions are frequency counts by category shown as a box plot. This helps us:
 
@@ -174,7 +174,7 @@ The categorical feature distributions are frequency counts by category shown as 
 
 ![](/assets/05-dataexplorer-correlation.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 * Correlation helps us tell whether **we should move onto modeling**.
 * **Warning! The correlation can be a bit misleading.** Many correlations of numeric variables are non-linear. For example, middle-aged people may be more likely to watch less TV. But young and older people may be more likely to watch more TV. The correlation could be low because of the nonlinear relationship.
@@ -185,7 +185,7 @@ Plotting principal components can help you determine if the data can be compress
 
 ![](/assets/06-dataexplorer-pca.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 Data that is very wide (many columns) can be computationally expensive to model.
 
@@ -203,7 +203,7 @@ Now we are going to focus on how each feature varies with the target (rincome - 
 
 ![](/assets/07-dataexplorer-boxplot.jpg)
 
-<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'>Get the code.</a> </p>
+<p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
 With the box plot, we can:
 
