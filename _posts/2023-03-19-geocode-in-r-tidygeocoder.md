@@ -153,6 +153,10 @@ Here's what happens...
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Get the code.</strong></a> </p>
 
+A quick point on the API being used. The default is `method = "osm"`, which connects to the FREE Open Street Maps Nomenatim API. This is great, but may be too slow for your needs. [Other free and paid API's exist. (and yes google's maps API is an option).](https://jessecambon.github.io/tidygeocoder/reference/geo.html) 
+
+![Tidygeocoder method argument](/assets/tidygeocoder_method_arg.jpg)
+
 ## Step 4: Reverse Geocode to go from Lat/Long to Physical Address
 
 Sometimes you have a latitude and longitude and want a physical address. For example, if your salesperson needs to know what addresses to visit **(you wouldn't send them a Lat/Long... or else they'd think your nuts!)**
