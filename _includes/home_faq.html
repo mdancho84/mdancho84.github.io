@@ -12,18 +12,87 @@
 <!-- Instructor Support -->
 <div class="container">
   <div class="row">
-      <div class="col-md-8 col-sm-12 col-md-offset-2 text-center">
-          <h3>😁 Instructor and Community Support</h3>
-          <p class="text-center">You have access to our instructors and your peers through our Private Slack Channel.</p>
-          
-          
+    <div class="col-md-8 col-sm-12 col-md-offset-2 text-center">
+        <h3>Here are a few of the most common questions we get.</h3>
+        <!-- <button id="collapse-init" class="btn btn-primary">
+            Show All
+        </button> -->
+    </div>
+  </div>
 
-
-          <br />
-          <br><br>
-      </div>
+  <div class="row" style="margin-top:20px;">
+    
+    <div class="panel-group" id="accordion">
+        
+        {% for faq in site.data.faq %}
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title"
+                        data-toggle="collapse" 
+                        data-target="#collapse{{ faq.id }}">
+                        Q{{ faq.id }}: {{ faq.question }}
+                    </h4>
+                </div>
+                <div id="collapse{{ faq.id }}" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        {{ faq.answer }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        
+        <!-- First Panel -->
+        <!-- <div class="panel panel-default">
+            <div class="panel-heading">
+                 <h4 class="panel-title"
+                     data-toggle="collapse" 
+                     data-target="#collapseOne">
+                     Collapsible Group Item #1
+                 </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, 
+                    enim eiusmod high life accusamus terry richardson ad squid.
+                </div>
+            </div>
+        </div> -->
+        
+        <!-- Second Panel -->
+        <!-- <div class="panel panel-default">
+            <div class="panel-heading">
+                 <h4 class="panel-title" 
+                     data-toggle="collapse" 
+                     data-target="#collapseTwo">
+                     Collapsible Group Item #2
+                 </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, 
+                    enim eiusmod high life accusamus terry richardson ad squid.
+                </div>
+            </div>
+        </div> -->
+        
+        <!-- Third Panel -->
+        <!-- <div class="panel panel-default">
+            <div class="panel-heading">
+                 <h4 class="panel-title"
+                     data-toggle="collapse"
+                     data-target="#collapseThree">
+                     Collapsible Group Item #3
+                 </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    Anim pariatur cliche reprehenderit, 
+                    enim eiusmod high life accusamus terry richardson ad squid.
+                </div>
+            </div>
+        </div> -->
+    </div>
   </div>
 
 </div>
 
-<br />
