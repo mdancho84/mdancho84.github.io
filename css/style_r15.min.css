@@ -363,9 +363,34 @@ li{font-size:20px;font-weight: 300;}
   line-height: 88px;
   margin-bottom:40px;
 }
-
 @media (max-width: 479px) {
   .work-happy-cover h1 {
+    font-size: 30px !important;
+    font-weight: 300 !important;
+    line-height: 44px;
+    margin-bottom:40px;
+  }
+}
+
+.work-happy-cover-2 {
+  /* min-height:500px; */
+  width: 100%;
+  background-image: url('/assets/testimonials/work-happy-2.jpg');
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.work-happy-cover-2 h1 {
+  font-size: 55px !important;
+  font-weight: 300 !important;
+  line-height: 88px;
+  margin-bottom:40px;
+}
+@media (max-width: 479px) {
+  .work-happy-cover-2 h1 {
     font-size: 30px !important;
     font-weight: 300 !important;
     line-height: 44px;
