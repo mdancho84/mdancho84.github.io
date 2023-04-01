@@ -32,7 +32,7 @@ Today I'm going to show you how to build a `shiny` with ChatGPT Here's what you'
 
 ---
 
-# ChatGPT for Data Scientists Workshop
+# Special Announcement: ChatGPT for Data Scientists Workshop
 
 ![ChatGPT for Data Scientists](/assets/rtip_060_chatgpt.jpg)
 
@@ -42,7 +42,7 @@ Today I'm going to show you how to build a `shiny` with ChatGPT Here's what you'
 
 **How It Will Help You:** Whether you are new to data science or are an expert, ChatGPT is changing the game. There's a ton of hype. But how can ChatGPT actually help you become a better data scientist and help you stand out in your career? I'll show you inside [my free chatgpt for data scientists workshop](https://bit.ly/chatgpt4ds1). 
 
-**Price?** Free to join.
+**Price:** Does **Free** sound good?
 
 **How To Join:** [**Register Here**](https://bit.ly/chatgpt4ds1).
 
@@ -88,10 +88,12 @@ Well let's start calming those nerves... Good ole' Matt Dancho is here to the re
 
 Today, I'm going to introduce you to `chatgpt` by making a `shiny` app. 
 
+Before we dive in...
+
 
 # Free Gift: Cheat Sheet for my Top 100 R Packages (Special Advanced Analysis Topics Included)
 
-Before we dive in...
+
 
 **You're going to point chatgpt in the right direction.** And this little cheat sheet gives you the specific packages that you can ask ChatGPT to use.  
 
@@ -187,7 +189,7 @@ Want all the code I just showed you? [Steal my app library.](https://learn.busin
 
 The code for the 4 apps are inside of R-Tip `060_chatgpt_shiny`.
 
-![Shiny ChatGPT 6](/assets/rtip_060_chatgpt_06_app_library.jpg)
+![Shiny ChatGPT 6](/assets/rtip_060_chatgpt_06_app_library_2.jpg)
 
 <p class='text-center date'> <a href='https://learn.business-science.io/r-tips-newsletter' target ='_blank'><strong>Steal my shiny apps from this tutorial.</strong></a> </p>
 
