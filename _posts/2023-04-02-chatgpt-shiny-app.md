@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ChatGPT: Made this Shiny App in 10 Minutes"
-date: 2024-04-02 11:00:00 -0500
+date: 2023-04-02 11:00:00 -0500
 excerpt: Want to learn how to build a shiny app in under 10 minutes. You can with chatgpt! 
 author: Matt Dancho
 categories:
