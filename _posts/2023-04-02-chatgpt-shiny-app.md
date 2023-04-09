@@ -38,13 +38,13 @@ Today I'm going to show you how to build a `shiny` with ChatGPT Here's what you'
 
 **What:** ChatGPT for Data Scientists
 
-**When:** Wednesday April 5th, 2pm EST
+**When:** Wednesday April 26th, 2pm EST
 
-**How It Will Help You:** Whether you are new to data science or are an expert, ChatGPT is changing the game. There's a ton of hype. But how can ChatGPT actually help you become a better data scientist and help you stand out in your career? I'll show you inside [my free chatgpt for data scientists workshop](https://bit.ly/chatgpt4ds1). 
+**How It Will Help You:** Whether you are new to data science or are an expert, ChatGPT is changing the game. There's a ton of hype. But how can ChatGPT actually help you become a better data scientist and help you stand out in your career? I'll show you inside [my free chatgpt for data scientists workshop](https://us02web.zoom.us/webinar/register/4616794157234/WN_B9G3oHUcQs-G4olKmGCjIQ). 
 
 **Price:** Does **Free** sound good?
 
-**How To Join:** [**Register Here**](https://bit.ly/chatgpt4ds1).
+**How To Join:** [**Register Here**](https://us02web.zoom.us/webinar/register/4616794157234/WN_B9G3oHUcQs-G4olKmGCjIQ).
 
 
 
