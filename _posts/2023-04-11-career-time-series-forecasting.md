@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Complete Story Of How I Went From A Mechanical Engineer To The Director Of Sales Engineering Using Time Series Forecasting"
+title: "How I Went From A Mechanical Engineer To The Director Of Sales Engineering Using Time Series Forecasting"
 date: 2023-04-11 11:00:00 -0500
 excerpt: "Plus How My Students Are Using These Lessons To Get Promoted Themselves."
 author: Matt Dancho
