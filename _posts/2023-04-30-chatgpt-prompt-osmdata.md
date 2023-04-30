@@ -17,11 +17,11 @@ image: "/assets/061_osmdata_thumb_2.jpg"
 image_preview: "/assets/061_osmdata_thumb_2.jpg"
 
 ---
-Writing code is a **slow process** especially when you are first learning data science. What if you could speed it up? You can and this is how. In this post, I'm going to share a real case study I had recently where I made the working R code for my analysis in **under 30 seconds with ChatGPT**. 
+Writing code is a **slow process** especially when you are first learning data science. *What if you could speed it up?* You can and this is how. In this free R-tip, I share a real case study where I made the working R code for my data analysis in **under 30 seconds with ChatGPT**. 
 
 ### Table of Contents
 
-Today I'm going to share you how to automate `R` coding with `ChatGPT`. Here's what you're learning today:
+Today I share how to automate `R` coding with `ChatGPT`. Here's what you're learning today:
 
 * *ChatGPT Prompts:* The mistake you'll make and how to get ChatGPT to write your code correctly.
 * *2-Minute Case Study:* How I connecte to an API, Downloaded Data, and Visualized on a Map with `ChatGPT`. 
@@ -41,7 +41,7 @@ Today I'm going to share you how to automate `R` coding with `ChatGPT`. Here's w
 
 **How It Will Help You:** Whether you are new to data science or are an expert, ChatGPT is changing the game. There's a ton of hype. But how can ChatGPT actually help you become a better data scientist and help you stand out in your career? I'll show you inside [my free chatgpt for data scientists workshop](https://us02web.zoom.us/webinar/register/4016828627927/WN_hhbgsplKR_u4u7ZiJQvVSA). 
 
-**Why Part 2?** In part 1, I focused on the mistakes I was making using chatgpt (super useful). In part 2, I want to share how I'm fixing the mistakes (even more useful).
+**Why Part 2?** In part 1, I focused on the mistakes I was making using chatgpt (super useful). In part 2, I want to share how I'm fixing the mistakes (**even more useful**).
 
 **Price:** Does **Free** sound good?
 
@@ -137,7 +137,7 @@ Then I have a free bonus:
 
 # FREE BONUS: Attend My Free Workshop, ChatGPT for Data Scientists Part 2
 
-Inside the workshop I'm going to show you how I built this Shiny App with `ChatGPT` (extends this analysis to an insane production app):
+[Inside the workshop](https://us02web.zoom.us/webinar/register/4016828627927/WN_hhbgsplKR_u4u7ZiJQvVSA) I'll share how I built this Shiny App with `ChatGPT` (extends this data analysis to an *insane* production app):
 
 ![ChatGPT Shiny App](/assets/chatgpt_pharmacy_finder.jpg)
 
@@ -147,7 +147,7 @@ Inside the workshop I'm going to show you how I built this Shiny App with `ChatG
 
 **How It Will Help You:** Whether you are new to data science or are an expert, ChatGPT is changing the game. There's a ton of hype. But how can ChatGPT actually help you become a better data scientist and help you stand out in your career? I'll show you inside [my free chatgpt for data scientists workshop](https://us02web.zoom.us/webinar/register/4016828627927/WN_hhbgsplKR_u4u7ZiJQvVSA). 
 
-**Why Part 2?** In part 1, I focused on the mistakes I was making using chatgpt (super useful). In part 2, I want to share how I'm fixing the mistakes (even more useful).
+**Why Part 2?** In part 1, I focused on the mistakes I was making using chatgpt (super useful). In part 2, I want to share how I'm fixing the mistakes (**even more useful**).
 
 **Price:** Does **Free** sound good?
 
