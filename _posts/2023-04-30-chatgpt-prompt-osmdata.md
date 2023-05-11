@@ -31,21 +31,7 @@ Today I share how to automate `R` coding with `ChatGPT`. Here's what you're lear
 
 ---
 
-# Special Announcement: ChatGPT for Data Scientists Part 2 Workshop
-
-![ChatGPT for Data Scientists](/assets/rtip_060_chatgpt.jpg)
-
-**What:** ChatGPT for Data Scientists Part 2
-
-**When:** Wednesday May 3rd, 2pm EST
-
-**How It Will Help You:** Whether you are new to data science or are an expert, ChatGPT is changing the game. There's a ton of hype. But how can ChatGPT actually help you become a better data scientist and help you stand out in your career? I'll show you inside [my free chatgpt for data scientists workshop](https://us02web.zoom.us/webinar/register/4016828627927/WN_hhbgsplKR_u4u7ZiJQvVSA). 
-
-**Why Part 2?** In part 1, I focused on the mistakes I was making using chatgpt (super useful). In part 2, I want to share how I'm fixing the mistakes (**even more useful**).
-
-**Price:** Does **Free** sound good?
-
-**How To Join:** [**Register Here**](https://us02web.zoom.us/webinar/register/4016828627927/WN_hhbgsplKR_u4u7ZiJQvVSA).
+{% include webinar_chatgpt.md %}
 
 ---
 
@@ -135,24 +121,8 @@ Question: Are you struggling with any of these tasks?
 
 Then I have a free bonus:
 
-# FREE BONUS: Attend My Free Workshop, ChatGPT for Data Scientists Part 2
 
-[Inside the workshop](https://us02web.zoom.us/webinar/register/4016828627927/WN_hhbgsplKR_u4u7ZiJQvVSA) I'll share how I built this Shiny App with `ChatGPT` (extends this data analysis to an *insane* production app):
-
-![ChatGPT Shiny App](/assets/chatgpt_pharmacy_finder.jpg)
-
-**What:** ChatGPT for Data Scientists Part 2
-
-**When:** Wednesday May 3rd, 2pm EST
-
-**How It Will Help You:** Whether you are new to data science or are an expert, ChatGPT is changing the game. There's a ton of hype. But how can ChatGPT actually help you become a better data scientist and help you stand out in your career? I'll show you inside [my free chatgpt for data scientists workshop](https://us02web.zoom.us/webinar/register/4016828627927/WN_hhbgsplKR_u4u7ZiJQvVSA). 
-
-**Why Part 2?** In part 1, I focused on the mistakes I was making using chatgpt (super useful). In part 2, I want to share how I'm fixing the mistakes (**even more useful**).
-
-**Price:** Does **Free** sound good?
-
-**How To Join:** [**Register Here**](https://us02web.zoom.us/webinar/register/4016828627927/WN_hhbgsplKR_u4u7ZiJQvVSA).
-
+{% include webinar_chatgpt.md %}
 
 See you there!
 
