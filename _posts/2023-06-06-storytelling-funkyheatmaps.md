@@ -77,7 +77,7 @@ If I can't tell in 2 seconds what this table is telling me. Then it's not persua
 
 And that's a BIG problem. Here's why:
 
-## Fact: Confused decision-makers don't make decisions
+## Confused decision-makers don't make decisions
 
 Ever been in a room full of executives and they are confused about something you've just presented. 
 
@@ -85,7 +85,7 @@ And every "complicated explaination" you give them further digs you into a hole 
 
 Well, that's because they are confused. And the fact is, confused decision makers **DON'T MAKE DECISIONS.** 
 
-Instead, they complain, some yell, and they think tell you to "redo your analysis". 
+Instead, they complain, some yell, and they tell you to "redo your analysis". 
 
 ## Instead, we need to make the answer obvious
 
