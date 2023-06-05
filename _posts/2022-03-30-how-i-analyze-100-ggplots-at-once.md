@@ -24,6 +24,13 @@ And, I'm going to get you up and running with `trelliscopejs` in **under 5-minut
 1. I'll teach you how to make 20+ ggplot facets using trelliscopejs
 2. **BONUS: I'll not only show you how to make static ggplots, _but_ I'll even show you how to use the plotly integration for interactivity**
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 # R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.

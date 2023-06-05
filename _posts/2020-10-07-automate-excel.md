@@ -22,6 +22,13 @@ Your company lives off them... Excel files.  Why not automate them & save some t
 
 <p class="text-center date">Automating Excel from R</p>
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 # R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks. Pretty cool, right?

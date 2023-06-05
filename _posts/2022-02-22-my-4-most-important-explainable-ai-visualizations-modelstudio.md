@@ -28,6 +28,13 @@ In the **next 10-minutes**, we'll learn how to make my **4 most important Explai
 * 4: Partial Dependence
 * **BONUS: I'll _not only_ show you how to make the plots in under 10-minutes, but I'll explain exactly** **how to discover insights from each plot!**
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 ## R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.

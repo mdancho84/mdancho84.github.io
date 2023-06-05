@@ -20,6 +20,13 @@ image_preview: "/assets/2021-07-27-ggforce-hull-plots/043_ggforce_hull_plots.jpg
 ---
 The `ggforce` package is a `ggplot2` extension that adds many exploratory data analysis features. In this tutorial, we'll learn how to make **hull plots for visualizing clusters** or groups within our data.
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 ## R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.

@@ -28,6 +28,13 @@ So fast-forward to today. I'm happy to say that I've stumbled across a new R pac
 2. How to make a Shiny Exploratory Data Analysis (EDA) App in seconds with `explore`
 3. **BONUS: How to use the Shiny EDA App to analyze the 3 most important plots.**
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 # R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.

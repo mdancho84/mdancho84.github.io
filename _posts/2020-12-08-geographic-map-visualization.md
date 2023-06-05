@@ -33,6 +33,13 @@ This tutorial will show you how to make a publication-quality visualization! Her
 <br>
 
 
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
+
 # Video Tutorial
 
 Learn how to make geospatial maps using the `ggplot2`  package in my 10-minute YouTube video tutorial.

@@ -25,6 +25,13 @@ In this R-tip, I'm going to show you how to unlock _massive business value_ with
 2. **Unlock the cheat-code** to making ANY machine learning model explainable
 3. **BONUS:** Learn how to read the Automated Explainable AI Report that you create **(so you can explain the ML model to ANYONE!)**
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 # R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.

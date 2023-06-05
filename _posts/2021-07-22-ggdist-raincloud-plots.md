@@ -26,6 +26,13 @@ I discovered the `ggdist` package that made visualizing distributions a breeze. 
 1. Discover how `ggdist` can be used to make a **raincloud plot.**
 2. **BONUS: Get 5 plotting tips that even beginners can implement to make professional raincloud plots**
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 # R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.

@@ -15,6 +15,13 @@ image_preview: "/assets/ggside_img.jpg"
 ---
 I fell in love with a new ggplot2 extension. It made my life much simpler to help me uncover relationships in my complex business data. `ggside` is a new R package uses "marginal distribution plots", which are the density side-plot panels to the top and right of scatter (made popular by the Python Seaborn package). Let's get you up and running with `ggside` in under 5-minutes with this quick R-Tip.
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 # R-Tips Weekly Newsletter
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks one R-tip at a time.

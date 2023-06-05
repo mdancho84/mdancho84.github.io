@@ -18,6 +18,13 @@ image_preview: "/assets/048-radiant.jpg"
 ---
 I'm super impressed by the `radiant` R package. With no prior experience with radiant, I was able to complete a short business analytics report **in under 10-minutes.**
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 ## R-Tips Weekly
 
 This article is part of R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.

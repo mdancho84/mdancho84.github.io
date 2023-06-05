@@ -12,6 +12,13 @@ image_preview: "/assets/2021-08-24-lollipop/lollipop_plot.jpg"
 
 __A Lollipop Plot__ shows the relationship between categories using a dot and a line that connects to a baseline (similar to a Bar Plot). In this short tutorial, we use `ggalt` to create a Lollipop Plot with the `geom_lollipop()` function.  
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 ## R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.

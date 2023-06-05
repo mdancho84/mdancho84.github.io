@@ -15,6 +15,13 @@ image_preview: /assets/2020-10-21-automate-pdf-with-r/automate-pdf-preview.png
 This article is part of a R-Tips Weekly, a [weekly video tutorial](https://learn.business-science.io/r-tips-newsletter) that shows you step-by-step how to do common R coding tasks.
 
 
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
+
 Let's learn how to **automate PDFs with R**. 
 
 - [Get the Code](https://learn.business-science.io/r-tips-newsletter)

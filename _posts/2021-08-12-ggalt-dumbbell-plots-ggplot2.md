@@ -12,6 +12,13 @@ image_preview: "/assets/2021-08-12-ggalt-dumbbell-plots/000-ggalt-dumbbell-thumb
 
 `ggalt` is a `ggplot2` extension that adds many new ggplot geometries. In this tutorial, we'll learn how to make __dumbbell plots for visualizing change__ within our data using `geom_dumbbell()`. 
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 ## R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks.

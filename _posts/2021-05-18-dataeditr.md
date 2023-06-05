@@ -22,6 +22,12 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
 </ul>
 
 
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 # DataEditR Video Tutorial<br><small>For those that prefer Full YouTube Video Tutorials.</small>
 
 Learn how to use `DataEditR` in our free YouTube video. 

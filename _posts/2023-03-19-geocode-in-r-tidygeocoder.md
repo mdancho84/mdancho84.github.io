@@ -30,6 +30,13 @@ Today I'm going to show you how to do Geocoding in R for FREE using `tidygeocode
 
 ![Microsoft Word Report Made with R](/assets/tidygeocoder_thumb_3.jpg)
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 # R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks. Pretty cool, right?

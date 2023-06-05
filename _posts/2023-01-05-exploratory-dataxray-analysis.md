@@ -26,6 +26,13 @@ Today I'm going to show you how to use `dataxray`. Here's what you're learning t
 * Tutorial: How to use `dataxray` to effortlessly produce and evaluate statistical summaries on your new datasets
 * **Bonus: The _next step_ in my EDA process (that uncovers hidden insights that I use to give quick wins to business leadership)**
 
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 # R-Tips Weekly
 
 This article is part of R-Tips Weekly, a <a href="https://learn.business-science.io/r-tips-newsletter">weekly video tutorial</a> that shows you step-by-step how to do common R coding tasks. Pretty cool, right?
