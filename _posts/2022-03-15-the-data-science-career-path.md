@@ -54,6 +54,12 @@ This post includes [career research from Glassdoor](https://www.glassdoor.com/ab
 * Case Study 1: How to 2X your salary in 1-year ($75,000 -> $150,000)
 * Case Study 2: How to make a splash (How one data scientist saved his company $5,000,000 each year)
 
+---
+
+{% include webinar_chatgpt.md %}
+
+---
+
 # 1. What data science roles exist? (and which to steer clear of)
 
 ![](/assets/data_science_job_roles.jpg)
