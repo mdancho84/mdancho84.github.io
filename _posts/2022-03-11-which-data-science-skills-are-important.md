@@ -42,7 +42,7 @@ The rest of this post will show you how David did it. This post includes researc
 
 {% include webinar_chatgpt.md %}
 
----
+--- 
 
 # 1. The skills that separated David from everyone else
 
