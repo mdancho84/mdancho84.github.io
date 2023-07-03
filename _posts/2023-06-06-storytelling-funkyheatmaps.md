@@ -189,19 +189,5 @@ Then you're in luck:
 
 I have a special bonus for you: [**You can steal my custom heat map code (It's OK)**](https://learn.business-science.io/r-tips-newsletter). The code is in the **062_funkyheatmaps folder**. 
 
-# Question: Are you struggling with any of these tasks?
 
-* **Writing R code**
-* Doing business analysis
-* **Building solutions that company's want**
-* Making a project portfolio for yourself
-* **Making solutions for your company**
-
-Then I have a Free Workshop that you can attend LIVE with me (and ask me questions):
-
-
-{% include webinar_chatgpt.md %}
-
-See you there!
-
--Matt Dancho
+{% include cta_struggles_rtrack.md %}
