@@ -111,19 +111,5 @@ But, here's the problem...
 
 The answer depends on how well you know the R ecosystem and can specify exactly what you want. 
 
-Question: Are you struggling with any of these tasks?
 
-* **Writing R code**
-* Doing business analysis
-* **Building solutions that company's want**
-* Making a project portfolio for yourself
-* **Making solutions for your company**
-
-Then I have a free bonus:
-
-
-{% include webinar_chatgpt.md %}
-
-See you there!
-
--Matt Dancho
+{% include cta_struggles_rtrack.md %}

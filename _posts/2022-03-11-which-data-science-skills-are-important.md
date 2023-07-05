@@ -38,6 +38,12 @@ The rest of this post will show you how David did it. This post includes researc
 * How to learn the skills
 * Why this approach to learning skills works
 
+---
+
+{% include webinar_chatgpt.md %}
+
+--- 
+
 # 1. The skills that separated David from everyone else
 
 If you want to become a data scientist, you'll need to learn how to generate value for your organizations. I've written about [how data scientists create value for organizations here](https://www.business-science.io/business/2019/05/23/how-to-become-a-fiancial-data-scientist.html). But, in general, you complete a process (called the data science process), which involves learning these data science skills.

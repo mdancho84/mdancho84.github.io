@@ -1,10 +1,10 @@
-# Do You Need Help Becoming A Business Data Scientist Right Now?
+# Do You Need To Become A Data Scientist Right Now?
 
 YOU know the feeling. Being unhappy with your current job.
 
 Promotions aren't happening. You're stuck. Hopeless. Confused...
 
-And you're praying that the next data science interview will go better than the last 12...
+And you're praying that the next job interview will go better than the last 12...
 
 ... But you know it won't. Not unless you take control of your career.
 
@@ -12,7 +12,7 @@ The good news is...
 
 # I Can Help You Speed It Up.
 
-I've helped 5,897+ students learn data science for business from an elite business consultant's perspective.
+I've helped 6,107+ students learn data science for business from an elite business consultant's perspective.
 
 I've worked with Fortune 500 companies like S&P Global, Apple, MRM McCann, and more.
 
@@ -32,7 +32,7 @@ Data Scientist Job at CitiBank ($100K + Bonus)<br><div style="height:10px;"></di
 </h4>
 
 
-# Whenever you are ready, here's how I can help you:
+# Whenever you are ready, here's the system they are taking:
 
 [Here's the system](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series) that has gotten aspiring data scientists, career transitioners, and life long learners data science jobs and promotions...
 
