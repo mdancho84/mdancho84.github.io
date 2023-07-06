@@ -1,8 +1,6 @@
 
 # SPECIAL ANNOUNCEMENT: How To Become A <u>6-Figure Business Scientist</u> (Even In A Recession) on July 6th
 
-[Inside the workshop](https://learn.business-science.io/registration-2-page?el=website) I'll share how to become exactly what companies need right now (and earn 17% more than a data scientist):
-
 ![Business Scientist](/assets/business-science-cube-2.jpg)
 
 **What:** How To Become A 6-Figure Business Scientist (Even In A Recession)

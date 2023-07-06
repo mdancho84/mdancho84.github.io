@@ -1,8 +1,8 @@
-# Do You Need To Become A Data Scientist Right Now?
+# Struggling to become a data scientist?
 
-YOU know the feeling. Being unhappy with your current job.
+You know the feeling. Being unhappy with your current job.
 
-Promotions aren't happening. You're stuck. Hopeless. Confused...
+Promotions aren't happening. You're stuck. Feeling Hopeless. Confused...
 
 And you're praying that the next job interview will go better than the last 12...
 

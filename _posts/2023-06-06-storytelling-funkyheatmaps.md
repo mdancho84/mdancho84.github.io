@@ -20,7 +20,7 @@ Your success as a Data Scientist *isn't* because of your coding skills. *Your su
 
 ### Table of Contents
 
-Today you're going to become better a storytelling. Here's what you're learning today:
+Today you're going to become better at storytelling. Here's what you're learning today:
 
 * What storytelling is (and why it's absolutely essential to your data science career)
 * How to use a sneaky-good R package to make funky-looking heat maps (that *insantly* improve your storytelling) 
@@ -71,7 +71,7 @@ Here's a case in point of something I would have done early on. And I caught a "
 
 The table above contains a list of Sector ETFs that people like you and me can invest in. But there's a problem...
 
-## The problem is that Fidelity's table is confusing
+## The problem is that the financial table is confusing
 
 If I can't tell in 2 seconds what this table is telling me. Then it's not persuasive. It's just confusing. 
 
