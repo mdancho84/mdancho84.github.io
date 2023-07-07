@@ -1,11 +1,11 @@
 
-# SPECIAL ANNOUNCEMENT: How To Become A <u>6-Figure Business Scientist</u> (Even In A Recession) on July 6th
+# SPECIAL ANNOUNCEMENT: How To Become A <u>6-Figure Business Scientist</u> (Even In A Recession) on July 19th
 
 ![Business Scientist](/assets/business-science-cube-2.jpg)
 
 **What:** How To Become A 6-Figure Business Scientist (Even In A Recession)
 
-**When:** Wednesday July 6th, 2pm EST
+**When:** Wednesday July 19th, 2pm EST
 
 **How It Will Help You:** Data science in 2023 has changed. *The 10+ person data science team is out.* And the one-person Business Scientist is in. I'll show you how to become a 1-person data science team inside [my LIVE 6-figure business scientist masterclass](https://learn.business-science.io/registration-2-page?el=website). 
 
