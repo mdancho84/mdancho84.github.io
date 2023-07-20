@@ -22,7 +22,7 @@
 
 **What:** ChatGPT for Data Scientists
 
-**When:** Wednesday June 26th, 2pm EST
+**When:** Wednesday July 26th, 2pm EST
 
 **How It Will Help You:** Whether you are new to data science or are an expert, ChatGPT is changing the game. There's a ton of hype. But how can ChatGPT actually help you become a better data scientist and help you stand out in your career? I'll show you inside [my free chatgpt for data scientists workshop](https://us02web.zoom.us/webinar/register/1716838099992/WN_q8tTz3FkRcWBdsEHeLlKrQ). 
 
