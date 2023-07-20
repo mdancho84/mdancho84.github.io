@@ -24,7 +24,7 @@ Writing code is a **slow process** especially when you are first learning data s
 Today I share how to automate `R` coding with `ChatGPT`. Here's what you're learning today:
 
 * *ChatGPT Prompts:* The mistake you'll make and how to get ChatGPT to write your code correctly.
-* *2-Minute Case Study:* How I connecte to an API, Downloaded Data, and Visualized on a Map with `ChatGPT`. 
+* *2-Minute Case Study:* How I connect to an API, Downloaded Data, and Visualized on a Map with `ChatGPT`. 
 * **Bonus: Sneak Peek At My NEW Shiny App that extends this ChatGPT tutorial**
 
 ![ChatGPT Made This Shiny App](/assets/061_osmdata_thumb_2.jpg)
