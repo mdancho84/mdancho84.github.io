@@ -193,6 +193,6 @@ If you learn one thing from this tutorial, it better be that ChatGPT isn't the f
 
 Don't know? Allow me to answer: If you can't do data science, time series, OR code... Well, then you *aren't* going to get very far. 
 
-**Would you like help?** Here's how I can help you become a data scientist and land a 6-figure job you love. 
+**Would you like help?** Here's how I can help you become a data scientist and land a 6-figure job you love and learn how to use ChatGPT better (**all for free**). 
 
-{% include cta_struggles_rtrack.md %}
+{% include webinar_chatgpt.md %}
