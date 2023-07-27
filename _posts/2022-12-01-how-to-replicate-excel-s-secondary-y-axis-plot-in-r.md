@@ -17,7 +17,7 @@ image: "/assets/dual_axis_r.jpg"
 image_preview: "/assets/dual_axis_r.jpg"
 
 ---
-I can't tell you how painful it is to be better at something in Excel than in R. And one of the gripes I still have (10 years after making the switch from Excel to R) is that it's still tough to make dual-axis plots in R.
+**I can't tell you how painful it is to be better at something in Excel than in R.** And one of the gripes I still have (10 years after making the switch from Excel to R) is that it's still tough to make dual-axis plots in R.
 
 Guess what, today is the day. I'm going to show you how to make more professional dual-axis plots in R than what I could do in Excel in my prime. Here's what you're learning today:
 
@@ -27,6 +27,12 @@ Guess what, today is the day. I'm going to show you how to make more professiona
 ![](/assets/dual_axis_r.jpg)
 
 <p class="text-center date">Dual Axis Plots</p>
+
+---
+
+{% include webinar_chatgpt.md %}
+
+---
 
 # R-Tips Weekly
 
@@ -42,11 +48,11 @@ I have a companion video tutorial that shows even more cool automation stuff (pl
 
 <iframe width="100%" height="450" src="https://www.youtube.com/embed/AQ1h_EAUgZM" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Make a dual-axis plot
+# Real Life Example: Fidelity's Inflation Trends Chart
 
-Here's the dual-axis plot you're going to make in this tutorial from R. 👇
+This example is one that Fidelity Investments has been promoting on LinkedIn. It's a classic example of what business and financial people love! The dual axis plot. **Learn how to make them, and increase your business value. It's as simple as that.** 
 
-![](/assets/dual_axis_raw.jpg)
+![Fidelity Investments Dual Axis Plot](/assets/dual_axis_plot_fidelity.jpg)
 
 # When do you need a dual-axis plot?
 
@@ -54,6 +60,12 @@ You might not know when to use a dual-axis plot. I used these all the time for p
 
 * When I want to **compare two variables** (Like Sales measured in dollars $ and Profit Margin measured in percentage %)
 * The two variables are on **different scales** (commonly one might be a percentage and the other is a dollar value or quantity in units)
+
+# How to Make a dual-axis plot in R
+
+Here's the dual-axis plot you're going to make in this tutorial from R. 👇
+
+![Dual Axis Plot in R](/assets/dual_axis_raw.jpg)
 
 <br>
 
