@@ -17,7 +17,7 @@ image: "/assets/065_tables_in_r_thumb_2.jpg"
 image_preview: "/assets/065_tables_in_r_thumb_2.jpg"
 
 ---
-Did you know that you can make RIDICULOUS tables in R (from Excel)? You can. And in this free R-tip, I share a real case study where I made the working `R` code for my financial cash flow statement table. I converted it from Excel Spreadsheet into a format pubilication-ready table for an Accounting Report containing financial statements.  
+Did you know that you can make RIDICULOUS tables in R (from Excel)? You can. And in this free R-tip, I share a real case study where I made the working `R` code for my financial cash flow statement table. I converted it from Excel Spreadsheet into a pubilication-ready table for an Accounting Report containing financial statements.  
 
 ### Table of Contents
 
@@ -29,7 +29,7 @@ Here's what you're learning today:
 
 ![Cash Flow Statement in R](/assets/065_cash_flow_statement_table_in_R.jpg)
 
-<p class="text-center date">Bonus: Get the Code for this financial statement table</p>
+<p class="text-center date">Bonus: Get the Code for this financial statement table (details below)</p>
 
 ---
 
@@ -61,15 +61,15 @@ I have a companion video tutorial that walks you through how to use `gt` and `gt
 
 Listen, if you are still doing analysis, modeling and reporting in Excel, then did you know:
 
-1. 90% of Excel spreadsheets contain errors
+1. **90% of Excel spreadsheets contain errors**
 2. R can be used to automate the reporting process saving you tons of time every month
-3. Your boss won't care how you do it, as long as it's done right the first time 
+3. **Your boss won't care how you do it, as long as it's done right the first time **
 
 So if you're sending your boss an analysis that's Excel...
 
 ![Cash Flow Statement in Excel](/assets/065_cash_flow_statement_table_in_Excel.jpg)
 
-...And, if one small error throws off your analysis by $20,000,000,000 (yes, that's $20 Billion with a "B"), then your boss isn't going to be too happy when their shareholders dump billions in stock (because something was mis-reported).
+...And, if **one small error** throws off your analysis by *$20,000,000,000* (yes, that's $20 Billion with a "B"), then your boss isn't going to be too happy when their shareholders dump billions in stock (because something was mis-reported).
 
 # ✅ R can make awesome tables
 
@@ -136,7 +136,7 @@ The Excel file is located in `065_gt_financial_tables\data\` folder.
 
 ## Step 3: Load the Excel File into R
 
-Next, load the excel file 
+Next, load the excel file.
 
 ![Load the Excel File](/assets/065_02_load_excel.jpg)
 
@@ -150,9 +150,7 @@ This reads in the Cash Flow Statement data from the Excel spreadsheet into R.
 
 ## Step 4: Data Manipulation
 
-We need to get the raw cash flow data into the right format for the Cash Flow Table. 
-
-Run this code to get the data prepared:
+We need to get the raw cash flow data into the right format for the Cash Flow Table. Run this code to get the data prepared:
 
 ![Data Preparation Code](/assets/065_04_data_preparation.jpg)
 
