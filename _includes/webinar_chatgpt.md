@@ -1,20 +1,20 @@
 
-<!--
-# SPECIAL ANNOUNCEMENT: How To Become A <u>6-Figure Business Scientist</u> (Even In A Recession) on August 2nd
+
+# SPECIAL ANNOUNCEMENT: How To Become A <u>6-Figure Business Scientist</u> (Even In A Recession) on August 30th
 
 ![Business Scientist](/assets/business-science-cube-2.jpg)
 
 **What:** How To Become A 6-Figure Business Scientist (Even In A Recession)
 
-**When:** Wednesday August 2nd, 2pm EST
+**When:** Wednesday August 30th, 2pm EST
 
 **How It Will Help You:** Data science in 2023 has changed. *The 10+ person data science team is out.* And the one-person Business Scientist is in. I'll show you how to become a 1-person data science team inside [my LIVE 6-figure business scientist masterclass](https://learn.business-science.io/registration-2-page?el=website). 
 
 **Price:** Does **Free** sound good?
 
 **How To Join:** [**👉 Register Here**](https://learn.business-science.io/registration-2-page?el=website)
--->
 
+<!--
 # SPECIAL ANNOUNCEMENT: ChatGPT for Data Scientists Workshop on August 16th
 
 [Inside the workshop](https://learn.business-science.io/registration-chatgpt-2?el=website) I'll share how I built a Machine Learning Powered Production Shiny App with `ChatGPT` (extends this data analysis to an *insane* production app):
@@ -30,3 +30,4 @@
 **Price:** Does **Free** sound good?
 
 **How To Join:** [**👉 Register Here**](https://learn.business-science.io/registration-chatgpt-2?el=website)
+-->
