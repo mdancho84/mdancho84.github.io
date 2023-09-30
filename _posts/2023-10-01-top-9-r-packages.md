@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Top 9 R packages (that every Data Scientist must know)"
-date: 2023-10-01 06:00:00 -0500
+date: 2023-09-30 12:00:00 -0500
 excerpt: "In this article, I share 9 R packages that have helped me the most. Let's go!" 
 author: Matt Dancho
 categories:
