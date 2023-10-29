@@ -40,7 +40,7 @@ Data Scientist Job at CitiBank ($100K + Bonus)<br><div style="height:10px;"></di
 
 <p style="font-size: 36px;text-align: center;">
 <a href="https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series">
-<strong>Join My 5-Course R-Track Program</strong><br><small style="font-size:24px;">(And Become The Data Scientist You Were Meant To Be...)</small>
+<strong>Join My 5-Course R-Track Program Now!</strong><br><small style="font-size:24px;">(And Become The Data Scientist You Were Meant To Be...)</small>
 </a>
 </p>
 
