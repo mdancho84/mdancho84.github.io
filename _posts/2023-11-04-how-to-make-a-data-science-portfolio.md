@@ -175,10 +175,10 @@ Alright, so you know have a good idea of what a professional data science portfo
 
 ## Before you start:
 
-- Make sure to have a professional photo ready. You'll need this for the about me section.
-- Make sure to collect images and dialog for each section. This will help you get your portfolio up and running quickly.
-- Make sure to have a LinkedIn profile and Resume ready. You'll need these for the experience and education sections.
-- Make sure to have a list of data science projects ready. You'll need these for the portfolio projects section.
+- **Make sure to have a professional photo ready.** You'll need this for the about me section.
+- **Make sure to collect images and dialog for each section.** This will help you get your portfolio up and running quickly.
+- **Make sure to have a LinkedIn profile and Resume ready.** You'll need these for the experience and education sections.
+- **Make sure to have a list of data science projects ready.** You'll need these for the portfolio projects section.
 
 **Don't have data science projects yet? No problem.** I recommend taking my [5-Course R-Track Data Science System](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series?el=website) to get up to speed quickly and build your portfolio projects with R Shiny.
 
