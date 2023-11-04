@@ -18,7 +18,7 @@ image_preview: "/assets/072_data_science_portfolio_thumb.jpg"
 ---
 Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter). In today's R-Tip, I'm sharing **my 7-Step Process** for how I made my professional data science portfolio in **under 15 minutes**. 
 
-*Full disclosure:* I created a new R package called `portfoliodown` to streamline the process (and I must say it solves a major painpoint). Let's go! 
+*Full disclosure:* I created a new R package called [`portfoliodown`](https://business-science.github.io/portfoliodown/) to streamline the data science portfolio building process (and I must say it solves a major painpoint). The goal of portfoliodown is to make it *painless* for data scientists to create a polished professional website so they can host their project portfolios (and get great job interviews). If that interests you, let's go! 
 
 ### Table of Contents
 
