@@ -63,6 +63,10 @@ I have a companion video tutorial that walks you through how to use `ChatGPT` + 
 
 # The Problem: Why You Need a Portfolio?
 
+![Data Science Portfolio](/assets/072_01_example_portfolio.gif)
+
+<p class="date text-center">My Portfolio</p>
+
 Whether you're a data scientist, data analyst, or data engineer, you need a portfolio. And you need it now. This is why.
 
 **The core idea is that companies aren't willing to take a risk on a new hire without demonstrating your value. They want to know that you can do the job. And if you don't have a portfolio or professional website, it's costing you the most important aspect in demonstrating your value. Your work.**
@@ -81,9 +85,9 @@ This is exactly what you can do with a data science portfolio! Here's how.
 
 [Here's my portfolio.](https://mattdancho.netlify.app/) I made it in under 15 minutes using `portfoliodown`. **But first, let me explain why I made it and what it does for you.**
 
-![Data Science Portfolio](/assets/072_01_example_portfolio.gif)
+![Data Science Portfolio](/assets/072_02_home_page.jpg)
 
-<p class="date text-center">My Portfolio</p>
+<p class="date text-center">My Data Science Portfolio Website</p>
 
 ## Why I Made My Portfolio (and Why You Need One)
 
