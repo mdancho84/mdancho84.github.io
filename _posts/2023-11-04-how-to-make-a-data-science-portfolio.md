@@ -89,19 +89,19 @@ This is exactly what you can do with a data science portfolio! Here's how.
 
 <p class="date text-center">My Data Science Portfolio Website</p>
 
-## Why I Made My Portfolio (and Why You Need One)
+## Why I Made My Portfoliodown
 
-I made my portfolio because I was getting a lot of requests from people asking me to help them showcase their data science projects. I was getting requests from:
+I made my `portfoliodown` because I was getting a lot of requests from people asking me to help them showcase their data science projects. I was getting requests from:
 
 * **My Data Science Students:** That wanted to share their work
 * **My Consulting Students:** that wanted to share their consulting projects
 * **Fortune 500 Companies:** That wanted to see what my students could do and assess if they were the right fit for their team
 
-I needed a way to help my students and clients showcase their work. I needed a way to help them get hired. I needed a way to help them get promoted. I needed a way to help them get more clients. I needed a way to help them get more business.
+I needed a way to help my students showcase their work. I needed a way to help them get interviews. I needed a way to help them get hired. I needed a way to help them get promoted. I needed a way to help them get more clients. I needed a way to help them get more freelance business. And I just wanted to see them succeed. 
 
-So I created `portfoliodown` to help them. And I'm sharing it with you today. When you use `portfoliodown`, it sets you up with a polished portfolio that you can use to showcase your work. It's a great way to get hired, get promoted, and get more business.
+**So I created `portfoliodown` to help them.** And I'm sharing it with you today. When you use `portfoliodown`, it sets you up with a polished professional data science portfolio that you can use to showcase your work. It's a great way to get interviews, get hired, get promoted, and get more business.
 
-Here's the structure of a `portfoliodown` portfolio.  
+Here's the structure of a `portfoliodown` data science portfolio.  
 
 ## `portfoliodown` Portfolio Structure
 
