@@ -16,7 +16,9 @@ image: "/assets/072_data_science_portfolio_thumb.jpg"
 image_preview: "/assets/072_data_science_portfolio_thumb.jpg"
 
 ---
-Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter). In today's R-Tip, I'm sharing how I made my professional data science portfolio in under 15 minutes. Full disclosure: I created a new R package called `portfoliodown` to streamline the process (and I must say it solves a major painpoint). Let's go! 
+Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter). In today's R-Tip, I'm sharing **my 7-Step Process** for how I made my professional data science portfolio in **under 15 minutes**. 
+
+*Full disclosure:* I created a new R package called `portfoliodown` to streamline the process (and I must say it solves a major painpoint). Let's go! 
 
 ### Table of Contents
 
@@ -24,7 +26,7 @@ Here's what you're learning today:
 
 * *The Problem:* Why you need a portfolio. What it's costing you without one.
 * *The Structure of a `portfoliodown` Portfolio:* The essential components of a portfolio that drives demand for you and showcases your unique value proposition.
-* *How to use `portfoliodown` to make a professional portfolio:* I'm sharing my process for how I made my portfolio in under 15 minutes (and how you can too).
+* *7-Step Process to make a professional portfolio:* I'm sharing my process for how I made my portfolio in under 15 minutes (and how you can too).
 * ***Full Code Demo:* EXACTLY HOW TO BUILD YOUR NEW DATA SCIENCE PORTFOLIO WEBSITE (IN UNDER 15 MINUTES).** 
 
 ![Data Science Portfolio](/assets/072_data_science_portfolio_thumb.jpg)
@@ -167,7 +169,7 @@ This is my contact me section. It's a list of how to get in touch with me. It ha
 
 ![Data Science Contact Me](/assets/072_08_contact_me.jpg)
 
-# How to use my `portfoliodown` R Package to make a Data Science Portfolio in under 15 minutes
+# 7-Step Process: Howto make a Data Science Portfolio in under 15 minutes (with `portfoliodown`)
 
 Alright, so you know have a good idea of what a professional data science portfolio looks like. Now, let's get you set up with your own portfolio.
 
@@ -250,7 +252,21 @@ You might need to stop the server and restart the site to get the images to refr
 
 <p class="text-center date"><a href="https://learn.business-science.io/r-tips-newsletter?el=website" target="_blank">Get the Example Site and Code Here</a></p>
 
-## Step 6: Publish to Netlify
+## Step 6: Edit Your Portfolio Projects
+
+To add portfolio projects, edit the `data\homepage.yml` file's `work` section. This is where you'll add your portfolio projects.
+
+![Edit Portfolio Projects](/assets/072_18_edit_portfolio_projects.jpg)
+
+<p class="text-center date"><a href="https://learn.business-science.io/r-tips-newsletter?el=website" target="_blank">Get the Example Site and Code Here</a></p>
+
+This will allow you to update your portfolio projects. Here's what mine look like:
+
+![Edit Portfolio Projects](/assets/072_19_edit_portfolio_projects.jpg)
+
+**Don't have data science projects yet?** No problem. I recommend taking my [5-Course R-Track Data Science System](https://university.business-science.io/p/5-course-bundle-machine-learning-web-apps-time-series?el=website) to get up to speed quickly and build your portfolio projects with R Shiny.
+
+## Step 7: Publish to Netlify
 
 Deployment is recommended in two steps:
 
@@ -258,7 +274,7 @@ Deployment is recommended in two steps:
 
 2. **Connect Netlify to GitHub & Publish:** [Netlify has options for free hosting of websites.](https://www.netlify.com/) Simply create an account. Then connect Netlify to GitHub. Select the GitHub repo containing your website. Then deploy.
 
-# Conclusions:
+# Conclusion:
 
 Creating a data science portfolio is a great way to market yourself as a data scientist. It's a great way to get hired, get promoted, and get more business. **But you'll also want to make sure you are ready to win the interview, get the job or client, and excel on the job as a data scientist. Question: Do you:**
 
