@@ -420,7 +420,120 @@ Now click on “TERMINAL”. Congratulations, you have accessed your VM through 
 
 ## Step 4: How to install Mage.ai on the virtual machine to handle the automation
 
+To install mage on GCP, I largely followed [this tutorial](https://www.youtube.com/watch?v=C0fNc8ZOpSI&t=696s&ab_channel=DataSlinger), but I will also explain every step here. 
 
+Ther are mainly 3 sub-steps:
+
+1. Create the folder for Mage
+2. Install `Docker`
+3. Install `Mage`
+4. Access `Mage` through the External IP from GCP
+
+### Step 4.1: Create the folder for Mage
+
+First of all, let’s create a directory in our VM for mage:
+
+```bash
+mkdir mage-demo
+```
+
+Now, if you type the following code, you should be able to see the newly created folder:
+
+```bash
+ls
+```
+
+Then, let’s access the folder:
+
+```bash
+cd mage-demo
+```
+
+### Step 4.2: Install `Docker`
+
+Now, to install mage, we need to first install `Docker`.
+
+Docker is a platform for developing, shipping, and running applications. It uses containerization technology to package an application and its dependencies together into a single unit called a “container”.
+
+In the `mage-demo` folder, let’s download a GitHub repo that contains the installation for Docker:
+
+```bash
+git clone https://github.com/MichaelShoemaker/DockerComposeInstall.git
+```
+
+Let’s access the folder that contains the Docker installation:
+
+```bash
+cd DockerComposeInstall
+```
+
+Let’s modify the file to make it executable:
+
+``` bash
+chmod +x InstallDocker
+```
+
+Then, let’s run it:
+
+```bash
+./InstallDocker
+```
+
+Type this to verify that Docker has been installed correctly:
+
+```bash
+docker run hello-world
+```
+
+This should show the following message:
+
+![Docker Hello World](/assets/r_mage_gcp_hello-docker.jpg)
+
+### Step 4.3: Install `Mage`
+
+Now, let’s go back to the initial directory:
+
+```bash
+cd mage-demo
+```
+
+Now, we can finally install mage with this command:
+
+```bash
+docker run -it -p 6789:6789 -v $(pwd):/home/src --restart always mageai/mageai /app/run_app.sh mage start mage-ai-test
+```
+
+With the command `--restart always`, we’re asking the VM to always restart mage whenever the VM is shut down and later restarted.
+
+At the end, `mage-ai-test` represents the name of our project.
+
+### Step 4.4: Access `Mage` through the External IP from GCP
+
+Now, to access mage through our External IP from GCP, we need to hop back on GCP first, as we need to create a **firewall rule**.
+
+This is necessary to control and regulate incoming and outgoing traffic to and from your VM on Google Cloud Platform. When you want to access mage through your External IP from GCP, a firewall rule is needed to explicitly allow the traffic to reach your VM.
+
+Browse to Firewall in the Google Cloud Platform.
+
+Click on “CREATE FIREWALL RULE”:
+
+![Create Firewall Rule](/assets/r_mage_gcp_create-firewall-rule.jpg)
+
+Select the following options and click on “CREATE”:
+
+![Firewall Rule Options](/assets/r_mage_gcp_firewall-options.jpg)
+
+Basically, with this firewall rule in place, it means we can access mage via the external IP address by using port number 6789.
+
+Now, if you type **your VM external IP** followed by `:6789` in your web browser you should be able to access mage.
+
+For example, this is the URL I would use with my configuration: `http://34.65.231.180:6789`.
+
+![Mage IP Test](/assets/r_mage_gcp_mage-test.jpg)
+
+As you can see, `mage-ai-test` was the name of our project in a previous command.
+
+Congrats, now you can create data pipelines that will run in the cloud!
 
 ## Step 5: How to retrieve data from the GA4 API in a production environment
 
