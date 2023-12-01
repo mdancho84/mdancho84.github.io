@@ -1241,9 +1241,236 @@ We’re now done with this Data Loader block. Next, let’s move on to **transfo
 
 
 
-## Step 7: How to export data to Google BigQuery in a production environment
+## Step 7: How to join and export data to Google BigQuery in a production environment
+
+This step has 2 sub-steps:
+
+1. Join the data from GA4 and Google Ads with a Transformer block
+2. Export the data to Google BigQuery with a Data Exporter block
+
+### Step 7.1: Join the data from GA4 and Google Ads with a Transformer block
+
+In Mage, add a new **Transformer** block and select **R** as the programming language.
+
+Give the block a name like `join_ga4_google_ads` and click on “Save and add block”.
+
+In the Tree, we can now see that the Transformer block named `join_ga4_google_ads` only receives data from the Data Loader block `google_ads`. We need to also link the Data Loader `ga4` with the Transformer.
+
+To do this, you simply need to drag and drop the arrow from the `ga4` block to the `join_ga4_google_ads` Transformer.
+
+![Join Data](/assets/r_mage_gcp_join-ga4-transformer.jpg)
+
+The first thing that we’ll do in the Transformer block is to add the final variables from the previous Data loader blocks to the `transform()` function.
+
+![Add Variables](/assets/r_mage_gcp_transform-data-loader-functions.jpg)
+
+Next, we can add the following packages on top of the `transform()` function:
+
+``` {r}
+library("pacman")
+p_load(tibble, dplyr, purrr, stringr, lubridate)
+```
+
+The first piece of code that we’re adding is this:
+
+``` {r}
+# Build a row with the exact time
+check_time = tibble(
+    Date = Sys.time(),
+    Impressions = 0,
+    Sessions = 0,
+    Clicks = 0,
+    Cost = 0,
+    Goals = 0
+)
+```
+
+I am creating this tibble called `check_time` only so that later in BigQuery we can verify whether our schedule from Mage is working correctly.
+
+Then, we can finally join the Google Ads data with the GA4 data, and also return the `merged_data` variable for the next block:
+
+``` {r}
+# Merge Google Ads with GA4 Data
+merged_data = google_ads_account_data %>%
+  
+  left_join(sessions_goals_ga4, by = c("date" = "date")) %>%
+  
+  # reorder and capitalise columns
+  select(date, impressions, sessions, clicks, cost, goals) %>% 
+  set_names(names(.) %>% str_to_title()) %>%
+  
+  # add check_time variable to verify schedule
+  mutate(Date = Date %>% as_datetime()) %>%
+  bind_rows(check_time) %>%
+
+  # replace NAs with 0
+  replace(is.na(.), 0) %>%
+  
+  arrange(desc(Date))
+
+# Return merged_data variable for next block
+merged_data
+```
+
+If everything worked properly, you should get something similar to this:
+
+![Merged Data](/assets/r_mage_gcp_joined-data-after-transformation.jpg)
+
+I am aware that we’re joining Google Ads data with GA4 data from all sources, and we should actually only join GA4 data coming from Google Ads. However, the goal of this guide is simply to show how to perform data engineering tasks with digital data.
+
+### Step 7.2: Export the data to Google BigQuery with a Data Exporter block
+
+Now that we joined data successfully from Google Ads and GA4, we’re ready to export the data to BigQuery.
+
+Browse to the [BigQuery console](https://console.cloud.google.com/bigquery/) in your Google Cloud Platform project.
+
+BigQuery has the following data hierarchy: **project -> dataset -> table.**
+
+We already have a project, so now we need to create a dataset where our tables will reside. Click on the three dots on the right of your project, and then on “Create data set”:
+
+![Create Dataset](/assets/r_mage_gcp_create-bq-dataset.jpg)
+
+Give a name to your data set, select a region, and click on “CREATE DATA SET”:
+
+![Dataset Name](/assets/r_mage_gcp_configure-bq-dataset.jpg)
+
+Back in Mage, add a **Data Explorer** block and choose **R** as the programming language again.
+
+Name the block `biq_query_export` and click on “Save and add block”.
+
+This is what your data tree should look like.
+
+![Data Tree](/assets/r_mage_gcp_mage-data-tree.jpg)
+
+Go the the `big_query_export` block, and add `merged_data` as the argument of the function `export_data()`. Also, let’s load the `bigrquery` package.
+
+``` {r}
+library("pacman")
+p_load(bigrquery)
+
+export_data <- function(merged_data) {
+    # Specify your data exporting logic here
+    # Return value: exported dataframe
+    
+}
+```
+
+To authenticate with BigQuery, we can actually use the service account key that we previously created for GA4.
+
+The only thing that changes is the function `bq_auth()` instead of `ga_auth()`.
+
+This is great news as it means we don’t have to go through yet another cumbersome authentication process:
+
+``` {r}
+# Authenticate
+bq_auth(path = "mage-ai-test-405614-2e1e1c865c18.json")
+```
+
+In fact, you can use the same service account key to authenticate with multiple Google services such as Google Drive or Google Sheets.
+
+There are different R packages for these services, such as `googledrive` and `googlesheets4`.
+
+Granted, you need to authorize the respective APIs in the Google Cloud Platform as shown previously, but this is a great time saver!
+
+The next thing to do is to create a table reference for BigQuery.
+
+As you may remember, we previously created only a data set, so we now need to create a placeholder for our table.
+
+To do so, we need to define our project name, data set, and table. The project name and data set are already defined and we can retrieve these from BigQuery. The table name is up to you.
+
+``` {r}
+# Define Big Query Project data
+project = "mage-ai-test-405614"
+data_set = "mage_demo"
+table = "merged_data"
+
+# Define table
+table = bq_table(project = project, dataset = data_set, table = table)
+```
+
+To find the right project and data set name, go to BigQuery and click on the data set you created.
+
+To the right, you should see the **Data set ID**, which comprises `project_name.data_set_name`. You can separate and copy those values to insert them into the code above.
+
+![Data Set ID](/assets/r_mage_gcp_dataset-info.jpg)
+
+In the following code, if the table exists, we delete and recreate it before uploading data.
+
+I’m doing this every 5 minutes for demonstration, but in real production, I’d likely run it less frequently, adding only the new data instead of recreating the whole table.
+
+``` {r}
+if(bq_table_exists(table)){
+  # if table already exists, delete it
+  bq_table_delete(table)
+	
+	# recreate table so that we can fill it out
+  bq_table_create(table, merged_data)
+	
+	# fill out table
+  bq_table_upload(table, merged_data)
+}else{
+  bq_table_create(table, merged_data)
+  bq_table_upload(table, merged_data)
+}
+```
+
+Here is the final code:
+
+``` {r}
+library("pacman")
+p_load(bigrquery)
+
+export_data <- function(merged_data) {
+    # Specify your data exporting logic here
+    # Return value: exported dataframe
+
+    # Authenticate
+    bq_auth(path = "mage-ai-test-405614-2e1e1c865c18.json")
+
+    # Define Big Query Project data
+    project = "mage-ai-test-405614"
+    data_set = "mage_demo"
+    table = "merged_data"
+
+    # Create table reference
+    table = bq_table(project = project, dataset = data_set, table = table)
+
+    if(bq_table_exists(table)){
+      # if table already exists, delete it
+      bq_table_delete(table)
+	
+	  # recreate table so that we can fill it out
+      bq_table_create(table, merged_data)
+	
+	  # fill out table
+      bq_table_upload(table, merged_data)
+    }else{
+      bq_table_create(table, merged_data)
+      bq_table_upload(table, merged_data)
+    }
+}
+```
+
+If you run the code, you should have a new table called `merged_data` in BigQuery. If you click PREVIEW, you should be able to see data within.
+
+![BigQuery Table](/assets/r_mage_gcp_bigquery-preview.jpg)
+
+Our pipeline is complete, as you can see all the blocks have a green tick:
+
+![Pipeline Complete](/assets/r_mage_gcp_mage-pipeline-complete.jpg)
+
 
 ## Step 8: How to schedule a data pipeline that automatically updates every 5 minutes
+
+There are 2 sub-steps:
+
+1. Test the entire pipeline (verify it runs)
+2. Create a schedule
+
+### Step 8.1: Test the entire pipeline (verify it runs)
+
+### Step 8.2: Create a schedule
+
 
 # Conclusion:
 
