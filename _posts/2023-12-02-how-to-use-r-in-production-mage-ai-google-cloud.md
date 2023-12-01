@@ -55,21 +55,21 @@ Here's the 8-step framework that Arben will walk you through today:
 
 <p class="date text-center">The 8 steps you follow</p>
 
-### The 8 Things You'll learn
+### The 8 Things You'll learn in this tutorial:
 
-**1. How to create a Google Cloud project.**
+1. **How to create a Google Cloud project.**
 
 2. How to set up a virtual machine.
 
-**3. How to access your virtual machine remotely.**
+3. **How to access your virtual machine remotely.**
 
 4. How to install Mage.ai on the virtual machine to handle the automation.
 
-**5. How to retrieve data from the GA4 API in a production environment.**
+5. **How to retrieve data from the GA4 API in a production environment.**
 
 6. How to retrieve data from the Google Ads API in a production environment.
 
-**7. How to export data to Google BigQuery in a production environment.**
+7. **How to export data to Google BigQuery in a production environment.**
 
 8. How to schedule a data pipeline that automatically updates every 5 minutes.
 
@@ -135,6 +135,8 @@ To build this pipeline, we'll use:
 
 ![Rstudio](/assets/069_r_logo_board.png)
 
+If you are new to R:
+
 - Install R here: [https://www.r-project.org/](https://www.r-project.org/)
 - Access to 20,000+ of open source R packages here: [https://cran.r-project.org/](https://cran.r-project.org/)
 
@@ -153,7 +155,9 @@ I love R and I am so thankful that [Tommy Dang](https://www.linkedin.com/in/dang
 ![Mage AI](/assets/r_mage_gcp_mage_ai.jpg)
 
 <p class="text-center date">Mage AI</p>
-   
+
+If you are new to Mage:
+
 - Mage.ai is a tool that helps you automate the ETL process. It's a great tool for data scientists who want to automate their data engineering pipelines.
 - Mage.ai: [https://mage.ai/](https://mage.ai/)
 
@@ -179,6 +183,8 @@ A virtual machine (VM) on GCP is like a computer in the cloud. It’s not a phys
 
 <p class="text-center date">Google Cloud Platform (GCP)</p>
 
+If you are new to Google Cloud Platform (GCP):
+
 - Google Cloud Platform (GCP) is a cloud computing platform that allows you to store data and make it accessible to data visualization tools.
 - You'll need to create a Google Cloud account to use GCP.
 - Google Cloud Platform: [https://cloud.google.com/](https://cloud.google.com/)
@@ -199,7 +205,10 @@ To access the virtual machine from our computer, we’ll use Visual Studio Code,
 
 <p class="text-center date">VSCode IDE</p>
 
-- VSCode IDE: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+If you are new to VSCode IDE:
+
+- VSCode IDE is a free code editor that supports many programming languages including R, Python, C++ and has extensions for tools like Remote SSH (covered in this tutorial).
+- Install the VSCode IDE here: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 
 # The Solution: Arben's 8-Step Framework for Data Engineering in R with Mage and GCP (in under 45 minutes)
@@ -214,6 +223,7 @@ Now for my **8-step framework** for building a data engineering pipeline in R wi
 - These are the steps I follow when I'm building a data engineering pipeline for a client. 
 - Once you are familiar with my framework, you can build your own data engineering pipelines **in under 45 minutes.**
 
+**Heads up, this is a comprehensive tutorial.** This is because I wanted to build the training I wish I had when I solved this problem for the first time. I hope you enjoy it!
 
 ## Step 1: How to create a Google Cloud project
 
