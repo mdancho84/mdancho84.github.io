@@ -259,7 +259,7 @@ When you connect to a server or service, you use your private key to prove you a
 
 To create your keys, hop to the terminal in your local machine and type the following code:
 
-```bash
+``` {bash}
 ssh-keygen -t rsa -f ~/.ssh/mage-ai-test -C arbenkqiku
 ```
 
@@ -271,7 +271,7 @@ Once you enter the code mentioned above, you’ll be prompted to insert your com
 
 Now, go to the directory where your SSH keys can be found. `cd` stands for “change directory”:
 
-```bash
+``` {bash}
 cd ~/.ssh
 ```
 
@@ -279,7 +279,7 @@ This is where your public private and public SSH keys are located.
 
 Now, type the following code to display the content of your public SSH key in the terminal.
 
-```bash
+``` {bash}
 cat mage-ai-test.pub
 ```
 
@@ -338,19 +338,19 @@ Step 3 has 2 sub-steps:
 
 Go back to the terminal in your local machine and go to the directory where the SSH keys are located:
 
-```bash
+``` {bash}
 cd ~/.ssh
 ```
 
 Next, type this command:
 
-``` bash
+``` {bash}
 ssh -i mage-ai-test arbenkqiku@34.65.231.180
 ```
 
 I’ll break it down to you so you know what to replace:
 
-```bash
+``` {bash}
 ssh -i name_of_private_key user_name@gcp_vm_instance_external_ip
 ```
 
@@ -376,7 +376,7 @@ In Visual Studio Code, go the the search bar and type >, and then select the fol
 
 In the configuration file that will open, you need to enter your details. Essentially, we’re providing the details to connect to our VM.
 
-```bash
+``` {bash}
 Host mage-demo-test # Give a name to your host
   HostName 34.65.231.180 # Replace with the External IP address in GCP
   User arbenkqiku # Replace this with your user name
@@ -385,7 +385,7 @@ Host mage-demo-test # Give a name to your host
 
 Now, we still have to go back to the terminal one last time and type this:
 
-```bash
+``` {bash}
 eval $(ssh-agent)
 ssh-add /Users/arbenkqiku/.ssh/mage-ai-test # Path to private SSH key
 ```
@@ -433,19 +433,19 @@ Ther are mainly 3 sub-steps:
 
 First of all, let’s create a directory in our VM for mage:
 
-```bash
+``` {bash}
 mkdir mage-demo
 ```
 
 Now, if you type the following code, you should be able to see the newly created folder:
 
-```bash
+``` {bash}
 ls
 ```
 
 Then, let’s access the folder:
 
-```bash
+``` {bash}
 cd mage-demo
 ```
 
@@ -457,31 +457,31 @@ Docker is a platform for developing, shipping, and running applications. It uses
 
 In the `mage-demo` folder, let’s download a GitHub repo that contains the installation for Docker:
 
-```bash
+``` {bash}
 git clone https://github.com/MichaelShoemaker/DockerComposeInstall.git
 ```
 
 Let’s access the folder that contains the Docker installation:
 
-```bash
+``` {bash}
 cd DockerComposeInstall
 ```
 
 Let’s modify the file to make it executable:
 
-``` bash
+``` {bash}
 chmod +x InstallDocker
 ```
 
 Then, let’s run it:
 
-```bash
+``` {bash}
 ./InstallDocker
 ```
 
 Type this to verify that Docker has been installed correctly:
 
-```bash
+``` {bash}
 docker run hello-world
 ```
 
@@ -493,13 +493,13 @@ This should show the following message:
 
 Now, let’s go back to the initial directory:
 
-```bash
+``` {bash}
 cd mage-demo
 ```
 
 Now, we can finally install mage with this command:
 
-```bash
+``` {bash}
 docker run -it -p 6789:6789 -v $(pwd):/home/src --restart always mageai/mageai /app/run_app.sh mage start mage-ai-test
 ```
 
@@ -548,7 +548,9 @@ We have the following sub-steps:
 5. How to run GA Authentication in a production environment
 6. Create a Google Analytics token
 7. Test `R` Code on Your Local Machine
-8. Add `R` Code to Mage
+8. Create the full `R` Script 
+9. Make JSON service account key accessible to Mage
+10. Add the `R` Script to Mage
 
 ### Step 5.1: Create a new pipeline
 
@@ -578,13 +580,13 @@ Name the block `ga4`, then click Save and add block. You should now see the bloc
 
 To install and load packages, mage uses the pacman package. Once you load `pacman`, you can install packages by using:
 
-``` r
+``` {r}
 pacman::p_load(package1, package2, package3)
 ```
 
 ​The first time you run the `p_load()` function, it will install a package, and then it will simply load it. For this block, we’ll install three packages:
 
-``` r
+``` {r}
 library("pacman")
 pacman::p_load(dplyr, purrr, googleAnalyticsR)
 
@@ -687,7 +689,7 @@ Now, before adding code to Mage, I like to test it on my local machine to make s
 
 So, on your local machine, open a new R script and try the following code:
 
-``` r
+``` {r}
 # Packages ----
 library(purrr)
 library(dplyr)
@@ -705,7 +707,7 @@ ga_auth(json_file = "/Users/arbenkqiku/Desktop/mage-ai/mage-ai-test-405614-2e1e1
 
 That means that your pipeline can now communicate with the GA4 Reporting API without any extra authentication flows.
 
-### Step 5.8: Add R Code to Mage
+### Step 5.8: Create the R Script
 
 Now, what I want to retrieve from GA4 are the sessions where a lead generation conversion event happened.
 
@@ -720,6 +722,209 @@ property_id = "1234567"
 # Create filter
 goals_filter = ga_data_filter("eventName" == "form_submit_lead" | "eventName" == "whatsapp_click" | "eventName" == "phone_click")
 ```
+
+In the next piece of code, we have the actual query to GA4:
+
+``` {r}
+# Get conversions from GA4
+goals_data = ga_data(propertyId = property_id,         
+                     date_range = c("2023-10-01", "2023-11-08"),        
+                     dimensions = c("date"),        
+                     metrics = c("sessions"),        
+                     dim_filter = goals_filter) %>%     
+
+# rename sessions to goals
+set_names(c("date", "goals"))
+```
+
+Basically, we’re getting the sessions from 1st October 2023 until 8th November 2023, segmented by date, and only when one of the events mentioned earlier occurred. 
+
+This is what the final table looks like in my case:
+
+![GA4 Data](/assets/r_mage_gcp_ga-table-results.jpg)
+
+It is not always easy to know what certain fields are called in the GA4 API. You can go to [this website](https://ga-dev-tools.google/ga4/dimensions-metrics-explorer/) and look for a specific field. For example, if we look for “channel”, you can see all the different fields that contain “channel” and what they are called in the GA4 API.
+
+![GA4 API Fields](/assets/r_mage_gcp_ga-explorer-dims.jpg)
+
+Now, in addition to retrieving the sessions where a conversion event occurred, I also want to retrieve the sessions segmented by day, so I’ll use this query:
+
+``` {r}
+# Get sessions from GA4
+sessions_data = ga_data(
+    propertyId = property_id,                      
+    date_range = c("2023-10-01", "2023-11-08"),        
+    dimensions = c("date"),                     
+    metrics = c("sessions")
+)
+```
+
+This returns a table of sessions segmented by date.
+
+Now, to join the sessions with the conversions:
+
+``` {r}
+# Merge GA4 goals and sessions
+sessions_goals_ga4 = sessions_data %>%   
+	# join sessions with goals  
+    full_join(goals_data) %>%   
+	# replace all NAs with 0  
+    replace(is.na(.), 0)
+```
+
+This is the final result:
+
+![GA4 Goals and Sessions](/assets/r_mage_gcp_sessions-by-goals.jpg)
+
+**Here is the complete code.** At the end of the script, I added the `sessions_goals_ga4` dataframe. This is because in Mage, we’re using this code within a Data Loader block. We need to return a dataframe for the next block, otherwise the next block doesn’t have any data to play with.
+
+``` {r}
+# Packages ----
+library(purrr)
+library(dplyr)
+library(googleAnalyticsR)
+
+# Authenticate ----  
+	# path to your JSON service account that we save earlier
+ga_auth(json_file = "/Users/arbenkqiku/Desktop/mage-ai/mage-ai-test-405614-2e1e1c865c18.json")  
+
+# GA4 property ID
+property_id = "1234567"
+
+# Create filter
+goals_filter = ga_data_filter("eventName" == "form_submit_lead" | "eventName" == "whatsapp_click" | "eventName" == "phone_click")
+
+# Get conversions from GA4
+goals_data = ga_data(propertyId = property_id,         
+                     date_range = c("2023-10-01", "2023-11-08"),        
+                     dimensions = c("date"),        
+                     metrics = c("sessions"),        
+                     dim_filter = goals_filter) %>%     
+
+	# rename sessions to goals
+set_names(c("date", "goals"))
+
+# Get sessions from GA4
+sessions_data = ga_data(propertyId = property_id,                      
+                        date_range = c("2023-10-01", "2023-11-08"),        
+                        dimensions = c("date"),                     
+                        metrics = c("sessions"))
+
+# Merge GA4 goals and sessions
+sessions_goals_ga4 = sessions_data %>%   
+	# join sessions with goals  
+full_join(goals_data) %>%   
+	# replace all NAs with 0  
+replace(is.na(.), 0)
+
+# Final data frame for next block in mage.ai
+sessions_goals_ga4
+```
+
+### Step 5.9: Make JSON service account key accessible to Mage
+
+Now, before we copy this code to Mage, we need to make our JSON service account key accessible to Mage, as for now it is only available on our local machine.
+
+Remember, Mage is installed on our virtual machine. We need to paste the JSON service account key there.
+
+Open Visual Studio Code and click on “Open”.
+
+![Open VSCode](/assets/r_mage_gcp_visual-studio-code-open.jpg)
+
+Go to the path where your JSON service account key is located in your local machine. You should be able to see your service account key in the left panel.
+
+![Copy JSON Path](/assets/r_mage_gcp_vs-code-json-path.jpg)
+
+Right-click and copy it.
+
+Next, go to the search bar, type > and connect to your virtual machine.
+
+![Connect to VM](/assets/r_mage_gcp_connect-to-vm.jpg)
+
+
+Once you are in the VM, click on “Open…” and access the folder where Mage is installed. Click on “OK”.
+
+![Open Mage Folder](/assets/r_mage_gcp_open-file-folder.jpg)
+
+On the left side you should now see the files contained in that folder.
+
+Right-click in that area and choose **Paste** to paste your service account JSON file into the project.
+
+You should see your service account file now successfully added to the files in your VM.
+
+![Paste JSON](/assets/r_mage_gcp_service-account-in-vm.jpg)
+
+In Mage, you can use the function `list.files()` to see that the service account key is available.
+
+![List Files](/assets/r_mage_gcp_service-account-key-available.jpg)
+
+### Step 5.10: Add the R Script to Mage
+
+Now, take the code that we previously played with in RStudio and paste it into Mage. You need to make some adjustments, though.
+
+The main change is that the bulk of the code is now within the `load_data()` function. The only code that’s run outside that function are the library loads.
+
+Another thing that changes is the path to the service account key. This now needs to reference the path to the file in your VM. As it should be in the root of your project, you just need to add the filename.
+
+``` {r}
+library("pacman")
+pacman::p_load(dplyr, purrr, googleAnalyticsR)
+
+load_data <- function() {
+    # Specify your data loading logic here
+    # Return value: loaded dataframe
+
+    # Retrieve data ----
+    # path to your JSON service account
+    ga_auth(json_file = "mage-ai-test-405614-2e1e1c865c18.json")
+
+    # GA4 property ID
+    property_id = "1234567"
+
+    # Create filter
+    goals_filter = ga_data_filter("eventName" == "form_submit_lead" | "eventName" == "whatsapp_click" | "eventName" == "phone_click")
+
+    # Get conversions from GA4
+    goals_data = ga_data(propertyId = property_id, 
+                         date_range = c("2023-10-01", "2023-11-08"),
+                         dimensions = c("date"),
+                         metrics = c("sessions"),
+                         dim_filter = goals_filter,
+    ) %>% 
+    
+    set_names(c("date", "goals"))
+
+    # Get sessions from GA4
+    sessions_data = ga_data(propertyId = property_id, 
+                            date_range = c("2023-10-01", "2023-11-08"),
+                            dimensions = c("date"),
+                            metrics = c("sessions"))
+
+    # Merge GA4 goals and sessions
+    sessions_goals_ga4 = sessions_data %>% 
+    # join sessions with goals
+    full_join(goals_data) %>% 
+    # replace all NAs with 0
+    replace(is.na(.), 0)
+
+    # Final data frame
+    sessions_goals_ga4
+}
+```
+
+If everything worked properly, Mage will provide a preview of the data retrieved:
+
+![Preview Data](/assets/r_mage_gcp_image-preview.jpg)
+
+As you can see, our Data loader block has a green tick next to it, which means that it was able to run successfully.
+
+![Data Loader Success](/assets/r_mage_gcp_data-loader-worked.jpg)
+
+Later, we can use this data that we retrieved from GA4 for whatever purpose we want. However, before playing around with it, let’s download some data from Google Ads!
+
+
+
+
 
 ## Step 6: How to retrieve data from the Google Ads API in a production environment
 
