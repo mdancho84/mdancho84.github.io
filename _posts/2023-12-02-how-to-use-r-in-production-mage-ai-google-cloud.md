@@ -34,7 +34,7 @@ Here's what you're learning today:
 
 * ***The Problem:*** We'll cover a case study from a recent problem Arben had in Multi-Touch Campaign Attribution. 
   
-* ***The Solution: Arben's 8-Step Process:*** Arben's sharing his exact process for how he sets up production R data engineering pipelines on GCP with R and Mage.ai (perfect if it's your first time).
+* ***The Solution: Arben's 8-Step Framework:*** Arben's sharing his exact process for how he sets up production R data engineering pipelines on GCP with R and Mage.ai (perfect if it's your first time).
 
 * ***Full Code Demo:* EXACTLY HOW TO BUILD YOUR FIRST DATA SCIENCE PIPELINE (IN UNDER 30 MINUTES).** 
 
@@ -46,6 +46,14 @@ Below you can see an architectural overview of what we’ll build today.
 
 <p class="date text-center">What You Make Today!</p>
 
+
+### The 8-Step Framework to Accomplish This:
+
+Here's the 8-step framework that Arben will walk you through today:
+
+![8-Step Framework](/assets/r_mage_gcp_8_step_framework.jpg)
+
+<p class="date text-center">The 8 steps you follow</p>
 
 ---
 
@@ -125,6 +133,8 @@ Packages we'll use today:
 I love R and I am so thankful that [Tommy Dang](https://www.linkedin.com/in/dangtommy/) and his team included it in Mage.
 
 ![Mage AI](/assets/r_mage_gcp_mage_ai.jpg)
+
+<p class="text-center date">Mage AI</p>
    
 - Mage.ai is a tool that helps you automate the ETL process. It's a great tool for data scientists who want to automate their data engineering pipelines.
 - Mage.ai: [https://mage.ai/](https://mage.ai/)
@@ -149,9 +159,19 @@ A virtual machine (VM) on GCP is like a computer in the cloud. It’s not a phys
 
 ![Google Cloud Platform](/assets/r_mage_gcp_google_cloud_platform.jpg)
 
+<p class="text-center date">Google Cloud Platform (GCP)</p>
+
 - Google Cloud Platform (GCP) is a cloud computing platform that allows you to store data and make it accessible to data visualization tools.
 - You'll need to create a Google Cloud account to use GCP.
 - Google Cloud Platform: [https://cloud.google.com/](https://cloud.google.com/)
+
+To use GCP, you need a payment method. But worry not, as of today, If you have never used GCP, **you get a credit of $300**. So, go to the Google Cloud Console and create an account: [https://console.cloud.google.com/welcome](https://console.cloud.google.com/welcome).
+
+![$300 Credits](/assets/r_mage_gcp_google-cloud-credits.jpg)
+
+Once you have used your free credits, you need to add a credit card to your account, by going under “BILLING”:
+
+![Billing](/assets/r_mage_gcp_billing.jpg)
 
 ### 4. VSCode IDE: To access the virtual machine remotely
 
@@ -159,30 +179,248 @@ To access the virtual machine from our computer, we’ll use Visual Studio Code,
 
 ![VSCode](/assets/r_mage_gcp_vscode_ide.jpg)
 
+<p class="text-center date">VSCode IDE</p>
 
-# The Solution: Arben's 8-Step Process
+- VSCode IDE: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-Now for my 8-step process for building a data engineering pipeline in R with Mage.ai and GCP. These are the steps I follow when I'm building a data engineering pipeline for a client.
 
-1. **How to create a Google Cloud project.**
-2. How to set up a virtual machine.
-3. **How to access your virtual machine remotely.**
-4. How to install Mage.ai on the virtual machine to handle the automation.
-5. **How to retrieve data from the GA4 API in a production environment.**
-6. How to retrieve data from the Google Ads API in a production environment.
-7. **How to export data to Google BigQuery in a production environment.**
-8. How to schedule a data pipeline that automatically updates every 5 minutes.
+# The Solution: Arben's 8-Step Framework for Data Engineering in R with Mage and GCP (in under 30 minutes)
+
+
+![8-Step Framework](/assets/r_mage_gcp_8_step_framework.jpg)
+
+<p class="date text-center">The 8 steps you follow</p>
+
+Now for my **8-step framework** for building a data engineering pipeline in R with Mage.ai and GCP. 
+
+- These are the steps I follow when I'm building a data engineering pipeline for a client. 
+- Once you are familiar with my framework, you can build your own data engineering pipelines **in under 30 minutes.**
 
 
 ## Step 1: How to create a Google Cloud project
 
+In order to use GCP, we need a project. Later, everything that we’ll do will be within this project. 
 
+So, go back to https://console.cloud.google.com/welcome and create a new project by first clicking on the project selector in the top left.
+
+![Project Selector](/assets/r_mage_gcp_project-selector.jpg)
+
+Then click on “NEW PROJECT”:
+
+![New Project](/assets/r_mage_gcp_new-project.jpg)
+
+Next, name your project. I called my project `mage-ai-test`.
+
+![Project Name](/assets/r_mage_gcp_new-cloud-project.jpg)
+
+Finally, click on “CREATE”. Then simply wait until your project is created. Once you have selected your project, type “vm instances” in the search bar, and select “VM instances”.
+
+![VM Instances](/assets/r_mage_gcp_vm-instances.jpg)
+
+This will lead to the following screen:
+
+![Compute Engine](/assets/r_gcp_mage_compute-engine-api.jpg)
 
 ## Step 2: How to set up a virtual machine
 
+There are 4 sub-steps:
+
+1. Activate the Compute Engine API's features
+2. Set up SSH keys
+3. Create a virtual machine
+4. Connect to the virtual machine via SSH
+
+### Step 2.1: Activate the Compute Engine API's features
+
+On GCP, to use specific features, you must activate the corresponding APIs: 
+
+- For example, we’ll enable the Google Analytics API later to get data from GA4. 
+- To make a virtual machine, we need to enable the Compute Engine API. 
+- Afterward, you’ll see this screen, but we won’t create a VM instance just yet…
+
+![VM Instance](/assets/r_mage_gcp_create-vm-instance.jpg)
+
+### Step 2.2: Set up SSH keys
+
+Next, we need to create SSH keys that will allow us to access our virtual machine from our computer.
+
+SSH keys are like special keys that help your computer talk securely to another computer, such as a virtual machine.
+
+It’s a way for your computer to prove it’s really you when connecting to the virtual machine. It’s like having a secret handshake between your computer and the virtual machine, making sure they can trust each other without needing to type in a password every time.
+
+#### Create SSH and Public Keys
+
+We need to create two SSH keys, a private and a public key. Think of SSH keys like a pair of magic keys for your online accounts. You have one key that you keep secret (the private key) and another key that you share with others (the public key).
+
+1. **Private Key (Secret Key):** This is like the key to your front door that only you have. You keep it safe on your computer, and it’s a secret. It’s used to unlock and access your accounts securely.
+2. **Public Key (Shared Key):** This is like a lock that matches your private key.
+
+When you connect to a server or service, you use your private key to prove you are who you say you are. The server then checks this with your public key to make sure it’s really you. This way, even if someone gets your public key, they can’t do anything without the private key, which stays safe on your computer. It’s a bit like having a special lock and key where only your key can open it.
+
+To create your keys, hop to the terminal in your local machine and type the following code:
+
+```bash
+ssh-keygen -t rsa -f ~/.ssh/mage-ai-test -C arbenkqiku
+```
+
+The end of the code should be your username, in my case `arbenkqiku`. If you don’t know your user name, type `whoami` in the terminal and press enter. This will output your username.
+
+Once you enter the code mentioned above, you’ll be prompted to insert your computer’s password, if you have any. Once you add your password, your SSH keys will be created.
+
+![SSH Keys](/assets/r_mage_gcp_create-ssh-key.jpg)
+
+Now, go to the directory where your SSH keys can be found. `cd` stands for “change directory”:
+
+```bash
+cd ~/.ssh
+```
+
+This is where your public private and public SSH keys are located.
+
+Now, type the following code to display the content of your public SSH key in the terminal.
+
+```bash
+cat mage-ai-test.pub
+```
+
+This will show the content of your public SSH key that we will later paste into our VM.
+
+![Public SSH Key](/assets/r_mage_gcp_public-key.jpg)
+
+### Step 2.3: Create a virtual machine
+
+Now, let’s go back to Google Cloud Platform and click on “CREATE INSTANCE” in the VM instances overview.
+
+![Create Instance](/assets/r_mage_gcp_create-new-vm-instance.jpg)
+
+Give a name to the VM instance and select the region closest to you:
+
+![VM Instance Name](/assets/r_mage_gcp_name-and-region-of-vm-instance.jpg)
+
+Go to the “Boot disk” section and click on “CHANGE”:
+
+![Boot Disk](/assets/r_mage_gcp_change-boot-disk.jpg)
+
+Select the following options:
+
+![Boot Disk Options](/assets/r_gcp_mage_advanced-boot-disk-options.jpg)
+
+Under Firewall, select the following options:
+
+![Firewall Options](/assets/r_gcp_mage_firewall-options.jpg)
+
+This is important, as otherwise we won’t be able to access Mage by using the IP address of our VM, you’ll understand later what I mean by this.
+
+Under Advanced Options > Security, click on “ADD ITEM”. Here is where we’ll add our **public SSH key**.
+
+![Add SSH Key](/assets/r_gcp_mage_add-public-key-to-vm.jpg)
+
+Copy the entire SSH public key and paste it.
+
+![Paste SSH Key](/assets/r_gcp_mage_paste-ssh-key.jpg)
+
+Finally, click on “CREATE”. It may take some time to create the VM.
+
+Once done, your new VM will appear here. Also, you’ll see that your VM will have an “External IP”.
+
+![External IP](/assets/r_gcp_mage_vm-external-ip.jpg)
+
+You can use this “External IP” and your SSH private key to connect to this VM. Let’s do this!
+
 ## Step 3: How to access your virtual machine remotely
 
+Step 3 has 2 sub-steps:
+
+1. How to connect to your VM via SSH
+2. How to connect via VSCode IDE (using Remote - SSH extension)
+
+### Step 3.1: How to connect to your VM via SSH
+
+Go back to the terminal in your local machine and go to the directory where the SSH keys are located:
+
+```bash
+cd ~/.ssh
+```
+
+Next, type this command:
+
+``` bash
+ssh -i mage-ai-test arbenkqiku@34.65.231.180
+```
+
+I’ll break it down to you so you know what to replace:
+
+```bash
+ssh -i name_of_private_key user_name@gcp_vm_instance_external_ip
+```
+
+You’ll likely will be prompted to enter your password again, and also to add the “External IP” as a host. Just follow the instructions and you should be able to connect to your VM.
+
+As you can see from the image below, we connected to the VM named `mage-demo-test`. And if you recall, in “Boot disk” options, we selected Ubuntu as our operating system.
+
+![SSH Connection](/assets/r_mage_gcp_ubuntu-vm-remote.jpg)
+
+### Step 3.2: How to connect via VSCode IDE (using Remote - SSH extension)
+
+We could do this whole process through the terminal, but it is much more user-friendly to do it through Visual Studio Code. 
+
+Visual Studio Code is a very powerful code editor. Go to this link: [https://code.visualstudio.com/download](https://code.visualstudio.com/download), and download Visual Studio Code.
+
+Once you have installed it, go to “Extensions” and install “Remote - SSH”.
+
+![Remote SSH](/assets/r_mage_gcp_remote-ssh-code-extension.jpg)
+
+In Visual Studio Code, go the the search bar and type >, and then select the following option:
+
+![Remote SSH Config](/assets/r_mage_gcp_open-ssh-config.jpg)
+
+In the configuration file that will open, you need to enter your details. Essentially, we’re providing the details to connect to our VM.
+
+```bash
+Host mage-demo-test # Give a name to your host
+  HostName 34.65.231.180 # Replace with the External IP address in GCP
+  User arbenkqiku # Replace this with your user name
+  IdentityFile /Users/arbenkqiku/.ssh/mage-ai-test # Path to private SSH key
+```
+
+Now, we still have to go back to the terminal one last time and type this:
+
+```bash
+eval $(ssh-agent)
+ssh-add /Users/arbenkqiku/.ssh/mage-ai-test # Path to private SSH key
+```
+
+Then, type your password when prompted. This basically means that you can use your password when you try to access the VM through Visual Studio Code.
+
+![SSH Agent](/assets/r_mage_gcp_ssh-add-command.jpg)
+
+Now, go back to the search bar of Visual Studio Code, type > and select the following option:
+
+![Remote SSH Connect](/assets/r_mage_gcp_code-connect-to-ssh-host.jpg)
+
+It should suggest the host that you just created, click on that host:
+
+![Choose Host](/assets/r_gcp_mage_choose-ssh-host.jpg)
+
+Then, you’ll be prompted to enter your password. Once you enter your password, you’ll be connected to your VM.
+
+![Password](/assets/r_mage_gcp_ssh-passphrase.jpg)
+
+Now, click on the “Remote Explorer” icon, and it should show that you connected to your VM:
+
+![Remote Explorer](/assets/r_mage_gcp_remote-explorer-vm.jpg)
+
+On the top right, click this icon to display the terminal below:
+
+![Terminal Below](/assets/r_mage_gcp_display-terminal-icon.jpg)
+
+Now click on “TERMINAL”. Congratulations, you have accessed your VM through Visual Studio Code!
+
+![Terminal](/assets/r_mage_gcp_access-terminal-success.jpg)
+
 ## Step 4: How to install Mage.ai on the virtual machine to handle the automation
+
+
 
 ## Step 5: How to retrieve data from the GA4 API in a production environment
 
