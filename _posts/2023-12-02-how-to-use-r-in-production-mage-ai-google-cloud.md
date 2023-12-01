@@ -537,6 +537,190 @@ Congrats, now you can create data pipelines that will run in the cloud!
 
 ## Step 5: How to retrieve data from the GA4 API in a production environment
 
+**Now, we can finally create the pipeline.** We'll first focus on retrieving data from the Google Analytics 4 (GA4) API. We will accomplish this inside of `Mage`. 
+
+We have the following sub-steps:
+
+1. Create a new pipeline
+2. Select a Mage block tyoe (Data Loader)
+3. Use R packages and code to retrieve data from the GA4 API 
+4. GA4 API: How to get an access token
+5. How to run GA Authentication in a production environment
+6. Create a Google Analytics token
+7. Test `R` Code on Your Local Machine
+8. Add `R` Code to Mage
+
+### Step 5.1: Create a new pipeline
+
+To start, click on **New pipeline > Standard (batch)**:
+
+![New Pipeline](/assets/r_mage_gcp_new-batch-pipeline.jpg)
+
+On the left side, you can see all your files inside of `Mage``, even the pipeline that we have just created.
+
+![Mage Files](/assets/r_mage_gcp_files-in-pipeline.jpg)
+
+In the middle, you can see the blocks that you can use to build your pipelines. In this guide, we’ll use **Data loader**, **Transformer**, and **Data exporter** blocks:
+
+![Mage Blocks](/assets/r_mage_gcp_mage-blocks.jpg)
+
+### Step 5.2: Select a Mage block type (Data Loader)
+
+**The Data loader block:** As mentioned previously, you can use Python, SQL, and R in each block. In our case, we’ll use `R`. So, click on Data Loader and select R:
+
+![Data Loader](/assets/r_mage_gcp_use-r.jpg)
+
+Name the block `ga4`, then click Save and add block. You should now see the block on the right, together with a sample R code.
+
+![Data Loader R](/assets/r_mage_gcp_sample-r-code.jpg)
+
+### Step 5.3: Use R packages and code to retrieve data from the GA4 API
+
+To install and load packages, mage uses the pacman package. Once you load `pacman`, you can install packages by using:
+
+``` r
+pacman::p_load(package1, package2, package3)
+```
+
+​The first time you run the `p_load()` function, it will install a package, and then it will simply load it. For this block, we’ll install three packages:
+
+``` r
+library("pacman")
+pacman::p_load(dplyr, purrr, googleAnalyticsR)
+
+load_data <- function() {
+
+}
+```
+
+### Step 5.4: How to get an access token
+
+In order to access GA4 data by using the `googleAnalyticsR` package, developed by Mark Edmondson, you need an access token.
+
+An access token is like your digital ID card; it confirms your identity and verifies that you truly have permission to access the GA4 properties you’re attempting to retrieve data from.
+
+To get an access token, you can run the following function in the RStudio console in your local machine: `ga_auth()`.
+
+Once you run this function, you’ll be redirected to a browser window where you’ll select your account:
+
+![GA Auth](/assets/r_mage_gcp_select-google-account.jpg)
+
+With this, you are basically giving permission to the googleAnalyticsR package to access your GA4 properties.
+
+**However, the problem is that we’ll run our data pipeline in a production environment where you cannot interact with the browser.**
+
+So, we need to find another way to solve this problem.
+
+In fact, if I try to run the function `ga_auth()` on Mage, **it throws an error**:
+
+![GA Auth Error](/assets/r_mage_gcp_ga-auth-error.jpg)
+
+So, we need to generate a Google Analytics token that we can use in a production environment.
+
+### Step 5.5: How to run GA Authentication in a production environment (without a browser)
+
+#### Enable Google Analytics Reporting API
+
+First, let’s go back to GCP and browse to Enabled APIs & services.
+
+Click on “ENABLE APIS AND SERVICES”.
+
+![Enable APIs](/assets/r_mage_gcp_enable-apis-services.jpg)
+
+Search for `Google Analytics`, click the **Google Analytics Reporting API** result, and then choose **ENABLE**.
+
+![Enable GA API](/assets/r_mage_gcp_enable-ga-api.jpg)
+
+This means that our project is now eligible to use the Google Analytics Reporting API.
+
+#### Repeat steps to Enable Google Analytics Data API
+
+Next, repeat these API-enabling steps for the **Google Analytics Data API.**
+
+Once done, we have the APIs enabled but we still haven’t created the required token.
+
+### Step 5.6: How to create a Google Analytics token
+
+Browse to [Credentials](https://console.cloud.google.com/apis/credentials) in the Google Cloud console.
+
+Hover over “CREATE CREDENTIALS” and click on Service account.
+
+![Service Account](/assets/r_mage_gcp_create-service-account.jpg)
+
+Give the service account a name and then click CREATE AND CONTINUE.
+
+![Service Account Name](/assets/r_mage_gcp_create-and-continue-service-account.jpg)
+
+Give the service account the Editor role and then click on Continue.
+
+![Set Editor Role](/assets/r_mage_gcp_set-editor-role.jpg)
+
+Finally, click on **DONE**.
+
+Now that the service account has been created, go back to the Credentials view and you’ll see the account that you just created. Click on it.
+
+![Service Account Credentials](/assets/r_mage_gcp_click-service-account-edit.jpg)
+
+Then, click the **KEYS** tab and choose to **Create new key**.
+
+![Create New Key](/assets/r_mage_gcp_create-new-key.jpg)
+
+Select **JSON** as the key type and click **Create**.
+
+This should download your key as a JSON file.
+
+**Important: Store it in a safe place.** Basically, the service account is like an account that has permission to act on your behalf. When you want your application or service to communicate with the GA4 API, it needs to prove its identity. Instead of using a user’s personal Google account, which may not be appropriate for server-to-server communication, you can use a service account.
+
+Now, as if it were a real user, we need to go to the GA4 property and add our service account email. So, go back to [Credentials](https://console.cloud.google.com/apis/credentials) and copy your service account’s **email address**:
+
+![Service Account Email](/assets/r_mage_gcp_copy-service-account-email.jpg)
+
+Next, open Google Analytics 4, go to your property, and click on **Property access management** in Admin:
+
+![Property Access Management](/assets/r_mage_gcp_property-access-management.jpg)
+
+Add your service account email address to the list of users, give it Viewer permissions, and click on Add to add the service account as a user to the GA4 property.
+
+### Step 5.7: Test R Code on Your Local Machine
+
+Now, before adding code to Mage, I like to test it on my local machine to make sure that everything works properly.
+
+So, on your local machine, open a new R script and try the following code:
+
+``` r
+# Packages ----
+library(purrr)
+library(dplyr)
+library(googleAnalyticsR)
+
+# Authenticate ----  
+
+# path to your JSON service account that we saved earlier
+ga_auth(json_file = "/Users/arbenkqiku/Desktop/mage-ai/mage-ai-test-405614-2e1e1c865c18.json")  
+```
+
+​If everything works correctly, you should see the following message:
+
+![GA Auth Success](/assets/r_mage_gcp_ga-auth-test-worked.jpg)
+
+That means that your pipeline can now communicate with the GA4 Reporting API without any extra authentication flows.
+
+### Step 5.8: Add R Code to Mage
+
+Now, what I want to retrieve from GA4 are the sessions where a lead generation conversion event happened.
+
+In the case of this client of mine, either someone submitted a form, clicked on the WhatsApp icon to talk to them privately, or clicked on the phone icon to call them.
+
+So, in the the next piece of code I want to create a filter with all the event names I am interested in, namely the event names equal to `form_submit_lead` or `whatsapp_click` or `phone_click`.
+
+``` {r}
+# GA4 property ID
+property_id = "1234567"
+
+# Create filter
+goals_filter = ga_data_filter("eventName" == "form_submit_lead" | "eventName" == "whatsapp_click" | "eventName" == "phone_click")
+```
+
 ## Step 6: How to retrieve data from the Google Ads API in a production environment
 
 ## Step 7: How to export data to Google BigQuery in a production environment
