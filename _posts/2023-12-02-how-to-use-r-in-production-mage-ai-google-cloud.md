@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Data Engineering in R: How to Build Your First Data Pipeline with R, Mage, and Google Cloud Platform (in under 30 Minutes)"
+title: "Data Engineering in R: How to Build Your First Data Pipeline with R, Mage, and Google Cloud Platform (in under 45 Minutes)"
 date: 2023-12-02 11:00:00 -0500
 excerpt: "Hey guys, welcome back to my R-tips newsletter. In today's lesson, we're sharing how to use R in production, with Mage.ai and Google Cloud. Let's go!" 
 author: Arben Kqiku (Intro by Matt Dancho)
@@ -18,13 +18,13 @@ image: "/assets/r_mage_gcp_thumb.jpg"
 image_preview: "/assets/r_mage_gcp_thumb.jpg"
 
 ---
-Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter). In today's R-Tip, [Arben Kqiku](https://www.linkedin.com/in/arben-kqiku-301457117/) is sharing his **exact 8-step framework** for taking R into production for Digital Analytics projects. You'll learn how to use R, Mage.ai, and Google Cloud Platform (GCP) to build your first data engineering pipeline **in under 30 minutes.**  
+Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter). In today's R-Tip, [Arben Kqiku](https://www.linkedin.com/in/arben-kqiku-301457117/) is sharing his **exact 8-step framework** for taking R into production for Digital Analytics projects. You'll learn how to use R, Mage.ai, and Google Cloud Platform (GCP) to build your first data engineering pipeline **in under 45 minutes.**  
 
 ### About the Author
 
 [Arben](https://www.linkedin.com/in/arben-kqiku-301457117/) is a digital analytics and Google Cloud Platform (GCP) expert. He's also a Business Science University student. In this post, Arben shares how to use R in production, with Mage.ai and Google Cloud. 
 
-This article was originally published on [Simo Ahava's Google Analytics website](https://www.simoahava.com/analytics/join-ga4-google-ads-data-in-google-bigquery/). We've republished it here with permission.
+This article was originally published on [Simo Ahava's website](https://www.simoahava.com/analytics/join-ga4-google-ads-data-in-google-bigquery/), which is focused on aspiring Digital Analytics Professionals. We've republished it here with permission to help spread the word of R in production with new tools including Mage.ai and Google Cloud Platform.
 
 Let's dive in!
 
@@ -36,7 +36,7 @@ Here's what you're learning today:
   
 * ***The Solution: Arben's 8-Step Framework:*** Arben's sharing his exact process for how he sets up production R data engineering pipelines on GCP with R and Mage.ai (perfect if it's your first time).
 
-* ***Full Code Demo:* EXACTLY HOW TO BUILD YOUR FIRST DATA SCIENCE PIPELINE (IN UNDER 30 MINUTES).** 
+* ***Full Code Demo:* EXACTLY HOW TO BUILD YOUR FIRST DATA SCIENCE PIPELINE (IN UNDER 45 minutes).** 
 
 ### What You Make Today:
 
@@ -54,6 +54,24 @@ Here's the 8-step framework that Arben will walk you through today:
 ![8-Step Framework](/assets/r_mage_gcp_8_step_framework.jpg)
 
 <p class="date text-center">The 8 steps you follow</p>
+
+### The 8 Things You'll learn
+
+**1. How to create a Google Cloud project.**
+
+2. How to set up a virtual machine.
+
+**3. How to access your virtual machine remotely.**
+
+4. How to install Mage.ai on the virtual machine to handle the automation.
+
+**5. How to retrieve data from the GA4 API in a production environment.**
+
+6. How to retrieve data from the Google Ads API in a production environment.
+
+**7. How to export data to Google BigQuery in a production environment.**
+
+8. How to schedule a data pipeline that automatically updates every 5 minutes.
 
 ---
 
@@ -184,7 +202,7 @@ To access the virtual machine from our computer, we’ll use Visual Studio Code,
 - VSCode IDE: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 
-# The Solution: Arben's 8-Step Framework for Data Engineering in R with Mage and GCP (in under 30 minutes)
+# The Solution: Arben's 8-Step Framework for Data Engineering in R with Mage and GCP (in under 45 minutes)
 
 
 ![8-Step Framework](/assets/r_mage_gcp_8_step_framework.jpg)
@@ -194,7 +212,7 @@ To access the virtual machine from our computer, we’ll use Visual Studio Code,
 Now for my **8-step framework** for building a data engineering pipeline in R with Mage.ai and GCP. 
 
 - These are the steps I follow when I'm building a data engineering pipeline for a client. 
-- Once you are familiar with my framework, you can build your own data engineering pipelines **in under 30 minutes.**
+- Once you are familiar with my framework, you can build your own data engineering pipelines **in under 45 minutes.**
 
 
 ## Step 1: How to create a Google Cloud project
@@ -1469,19 +1487,76 @@ There are 2 sub-steps:
 
 ### Step 8.1: Test the entire pipeline (verify it runs)
 
+Only because each block ran successfully, there is no guarantee that the entire pipeline will run smoothly. So, we have to run the entire pipeline before creating a schedule.
+
+In Mage, click on “Triggers”:
+
+![Triggers](/assets/r_mage_gcp_mage-triggers.jpg)
+
+At the top, click on **Run @once**.
+
+This will produce a trigger, and you’ll see that its status will change to `running`:
+
+![Trigger Running](/assets/r_mage_gcp_trigger-running.jpg)
+
+When done, it should say `completed` and switch to inactive state.
+
+If we now refresh the BigQuery table, we can see that it has an updated date/time for the rows. This means that our pipeline ran successfully!
+
+![BigQuery Table](/assets/r_mage_gcp_date-time-bigquery-updated.jpg)
+
 ### Step 8.2: Create a schedule
 
+Now that we know that our pipeline works properly, let’s create a trigger that runs every 5 minutes.
+
+In Mage’s Triggers view, click on **New trigger.**
+
+Select **Schedule** as the trigger type.
+
+![Schedule Trigger](/assets/r_mage_gcp_mage-new-schedule-trigger.jpg)
+
+Given that the trigger will run every 5 minutes, let’s name it `every_5_minutes`.
+
+Select custom as frequency and give the following cron expression: `*/5 * * * *`.
+
+![Cron Expression](/assets/r_mage_gcp_every-five-minutes.jpg)
+
+A ***cron*** expression is like a schedule for your computer tasks.
+
+It’s a simple set of instructions that tells your system when to run a specific job.
+
+The expression consists of five parts, representing minutes, hours, days, months, and days of the week. For example, `*/15 * * * *` means “every 15 minutes, every hour, every day, every month, every day of the week”.
+
+When ready with the trigger, click on **Save changes**.
+
+![Save Changes](/assets/r_mage_gcp_save-schedule-trigger.jpg)
+
+Now you have created your trigger, but as you can see its status is inactive. To start it, click on **Start trigger**.
+
+![Start Trigger](/assets/r_mage_gcp_start-schedule-trigger.jpg)
+
+The status switches to `active`. If you browse back to the Triggers view, it will show you when it’s set to trigger next.
+
+![Next Trigger](/assets/r_mage_gcp_trigger-next-run-date.jpg)
+
+Be mindful of the fact that the time zone in Mage is in UTC.
+
+Once the timer is set to go off, its status should change to `running`.
+
+After it’s run, you can now refresh the BigQuery table and see that the data has now been updated again.
+
+![BigQuery Table](/assets/r_mage_gcp_bigquery-schedule-updated.jpg)
+
+Congratulations! Our journey is complete. I hope you had fun and learned something useful.
+
+If you have any comments, please post them below. If you want to connect with me, Arben, [here is my LinkedIn](https://www.linkedin.com/in/arben-kqiku-301457117/)!
 
 # Conclusion:
 
-Creating a data science portfolio is a great way to market yourself as a data scientist. It's a great way to get hired, get promoted, and get more business. **But you'll also want to make sure you are ready to win the interview, get the job or client, and excel on the job as a data scientist. Question: Do you:**
+Using R in production is possible with tools like Mage and Google Cloud Platform. If you are an aspiring Digital Analytics professional, you now have a clear pathway forward for using R, Mage, and Google Cloud Platform to build your own data pipelines.
 
-1. Need data science skills: Data Visualization, Time Series, Machine Learning, Production, Web Apps, and Cloud?
-2. Data science projects to fill your portfolio?
-3. Know how to communicate your results to non-technical audiences?
-4. Know how to build production web applications?
-5. Know how to work with a team?
+However, if you are a Digital Analytics professional, you may be wondering how to get started with R. You may be wondering how to learn R, how to learn R for Digital Analytics, and how to learn R for Digital Analytics in a way that is practical and useful.
 
-**If you need to learn these skills, then I can help. Read on.**
+**If you need to learn R for data analytics and data science, then I can help. Read on.**
 
 {% include cta_struggles_rtrack.md %}
