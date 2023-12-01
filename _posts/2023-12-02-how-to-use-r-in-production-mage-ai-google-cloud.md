@@ -922,11 +922,324 @@ As you can see, our Data loader block has a green tick next to it, which means t
 
 Later, we can use this data that we retrieved from GA4 for whatever purpose we want. However, before playing around with it, let’s download some data from Google Ads!
 
-
-
-
-
 ## Step 6: How to retrieve data from the Google Ads API in a production environment
+
+To retrieve data from the Google Ads API, we’ll use the R package `rgoogleads`, developed by Alexey Seleznev. Unfortunately, with this package it is not possible to use a service account key. 
+
+Instead, we’ll have to generate an access token by using the `gargle` package. The goal of `gargle`, as explained on their website, is to “take some of the agonizing pain out of working with Google APIs”.
+
+This step has 4 sub-steps:
+
+1. Get an access token
+2. Test the access token locally
+3. Retrieve Google Ads API data into our production environment
+
+### Step 6.1: How to get an access token
+
+First of all, you need to browse to the [Google Ads API](https://console.cloud.google.com/marketplace/product/google/googleads.googleapis.com) in Google Cloud Platform and click to Enable it.
+
+So, when we attempt to fetch our Google Ads data, Google asks for our permission to let this app access our ads data. If we say yes, Google gives us an access token. This token then lets our computer talk to the Google Ads API without having to interact each time.
+
+Before doing anything, GCP will ask you to set up a “consent screen”. This screen is like a friendly message to users, letting them know that our app wants to look at their Google Ads data.
+
+It’s a way to make sure users are aware and agree to let our app access their information. To get started, browse to the [OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent) section of your GCP project.
+
+Here, click on “CONFIGURE CONSENT SCREEN”.
+
+![Configure Consent Screen](/assets/r_mage_gcp_configure-consent-screen.jpg)
+
+Select **External** as the User Type and then click “CREATE”.
+
+Give your app a name and add your email address.
+
+![App Name](/assets/r_mage_gcp_name-and-email-consent.jpg)
+
+Add your email to the **Developer email address**, too, and then click “SAVE AND CONTINUE”.
+
+In the next screen, click on “ADD OR REMOVE SCOPES”. Scopes govern what your app is allowed to do with the APIs.
+
+Search for google ads and select the **Google Ads API**. Click UPDATE when done.
+
+![Google Ads API](/assets/r_mage_gcp_add-google-ads-scope.jpg)
+
+Then, click “SAVE AND CONTINUE” to proceed to the “Test users” step.
+
+Here, click “ADD USERS”. Add your email address and click “ADD”.
+
+![Test Users](/assets/r_mage_gcp_add-test-user.jpg)
+
+Make sure to include your email because our app is currently in the “Testing” phase. During this phase, only the emails that are added can be used by the app. So, adding your email is crucial to get your Google Ads data.
+
+Click on “SAVE AND CONTINUE” to proceed to the Summary step, and then “BACK TO DASHBOARD” when done with configuring the consent screen.
+
+Now that the consent screen has been configured, you can browse to [Credentials](https://console.cloud.google.com/apis/credentials) again.
+
+Here, click on “CREATE CREDENTIALS” and this time choose OAuth client ID.
+
+![OAuth Client ID](/assets/r_mage_gcp_oauth-client-id.jpg)
+
+Under **Application type**, select **Desktop app**, give a name to your OAuth client ID, and click on “CREATE”:
+
+![OAuth Client ID Name](/assets/r_mage_gcp_create-oauth-id.jpg)
+
+Download your client ID as a JSON file and click on OK.
+
+![Download JSON](/assets/r_mage_gcp_download-oauth-json.jpg)
+
+Save it in a secure location. 
+
+### Step 6.2: How to test the access token locally
+
+Now, let’s go back to `RStudio` or `VSCode` on our local machine. Open a new script and load these packages:
+
+``` {r}
+# Packages
+library(gargle)
+library(rgoogleads)
+```
+
+Then, we’ll import the OAuth Client ID credentials that we just created by using the function `gargle_oauth_client_from_json()`. The name of your client can be whatever you prefer:
+
+``` {r}
+# Create gargle client
+my_client = gargle_oauth_client_from_json(
+    path = "/Users/arbenkqiku/Desktop/mage-ai/mage-demo-client-id.json",
+    name = "Google Ads App"
+)
+```
+
+Then, we can add the following scope and email to our token request:
+
+``` {r}
+scopes = "https://www.googleapis.com/auth/adwords"
+email = "arben.kqiku@gmail.com"
+```
+
+​Finally, we can go through the process of acquiring a token by running this function:
+    
+``` {r}
+# Create a token by using Gargle
+my_token = gargle2.0_token(
+    email = email,  
+    package = "rgoogleads",  
+    scope = scopes,  
+    client = my_client
+)
+```
+
+This will open a browser window.
+
+Do you recognize the name of the App? That’s the name of our application! We’re now going through the process of authorizing our app to access our Google Ads data. Now, select your email.
+
+![Select Email](/assets/r_mage_gcp_authorize-app.jpg)
+
+Google will tell you that this app isn’t verified, as its status is still “testing”.
+
+However, it is our own app, so we can safely click on “Continue”.
+
+Authorize the app to “See, edit, create and delete your Google Ads accounts and data…” and click on “Continue”.
+
+![Authorize App](/assets/r_mage_gcp_authorize-google-ads-access.jpg)
+
+If everything worked correctly, you should see a message saying, "Authentication complete. Please close this page and return to R."
+
+Now, if we review the content of the variable `my_token`, which contains our access token, we can review the information again, for example the email associated with the token, the scopes, and so forth.
+
+![Token Info](/assets/r_mage_gcp_review-token.jpg)
+
+We can now test if the token works properly by running the `gads_auth()` function. Nothing should really happen here, as with the token we can authenticate non-interactively.
+
+``` {r}
+# Authenticate by using the previously created token
+gads_auth(token = my_token)
+```
+
+Let’s run a simple function of the `rgoogleads` package to see if we can access our data:
+
+``` {r}
+# get list of accessible accounts
+gads_get_accessible_customers()
+```
+
+Yes, I am able to retrieve the accounts that I have access to!
+
+![Accessible Accounts](/assets/r_mage_gcp_ads-accounts-listed.jpg)
+
+However, we are not ready for production yet. In fact, if we type this code:
+
+``` {r}
+# where is the cache of the token located
+my_token$cache_path
+```
+
+We’ll get the result that the token is cached in a local directory, such as `~/Library/Caches/gargle`.
+
+This means that when we try to load `my_token` in production, it will look for the local path instead of a path on the VM.
+
+So, we need to change the cache path to our Mage directory on the VM. This is how you’d do it:
+
+``` {r}
+# change path of cache to mage main directory
+my_token$cache_path = "/home/src"
+
+# save token again with changed directory
+saveRDS(my_token, file = "google_ads_token_mage_demo.RDS")
+```
+
+Here is the full code to generate, test, and save the token:
+
+``` {r}
+# Packages
+library(gargle)
+library(rgoogleads)
+
+# Create gargle client
+my_client = gargle_oauth_client_from_json(path = "/Users/arbenkqiku/Desktop/mage-ai/mage-demo-client-id.json",
+                                          name = "Google Ads App")
+
+# Define scope and email
+scopes = "https://www.googleapis.com/auth/adwords"
+email = "arben.kqiku@gmail.com"
+
+# Create a token by using Gargle
+my_token = gargle2.0_token(email = email,  
+                           package = "rgoogleads",  
+                           scope = scopes,  
+                           client = my_client)
+
+# Authenticate by using the previously created token
+gads_auth(token = my_token)
+
+# Test token by getting the list of accessible accounts
+gads_get_accessible_customers()
+
+# Change path of cache to mage main directory, so you can use the token in production
+my_token$cache_path = "/home/src"
+
+# Save token with changed directory
+saveRDS(my_token, file = "google_ads_token_mage_demo.RDS")
+```
+
+### Step 6.3: How to retrieve data from the Google Ads API in a production environment
+
+Now that we have generated the access token, you can copy-paste the JSON file from your local machine to the VM directory by using Visual Studio Code. Follow the exact steps you took to copy-paste the service account JSON file before.
+
+Next, we can go back to Mage, add a Data loader block, and select R as the programming language.
+
+![Data Loader](/assets/r_mage_gcp_new-data-loader-with-r.jpg)
+
+Name the block `google_ads` and click on “Save and add block”.
+
+In the block code, we need to first load the necessary packages.
+
+``` {r}
+library("pacman")
+p_load(rgoogleads)
+p_load(dplyr)
+p_load(purrr)
+
+load_data <- function() {
+
+}
+```
+
+Then, we need to load our access token, authenticate with it, and set the Google Ads account ID we want to get the data from.
+
+``` {r}
+# load Google Ads access token
+my_token = readRDS(file = "google_ads_token_mage_demo.RDS")
+    
+# Authenticate with the token
+gads_auth(token = my_token)
+
+# Set the Google Ads account id you want to get data from
+gads_set_customer_id('123-123-1234')
+```
+
+Here is the query that we’re using to retrieve our data. We’ll retrieve impressions, clicks, and cost segmented by date, from “2023-10-19” until “2023-11-01”.
+
+``` {r}
+# run query
+google_ads_account_data = gads_get_report(
+  resource    = "customer",
+  fields      = c("segments.date",
+                  "metrics.impressions",
+                  "metrics.clicks",
+                  "metrics.cost_micros"),
+  date_from   = "2023-10-19",
+  date_to     = "2023-11-01"
+)
+```
+
+The first argument you need to define is the resource you are getting the data from, in our case `customer`.
+
+You can find [here](https://developers.google.com/google-ads/api/fields/v13/overview#list-of-all-resources) the list of all available resources.
+
+For example, if you would like to retrieve data at the ad group level, you should define the resource as `ad_group`.
+
+To build our query, we can use the [Google Ads query builder](https://developers.google.com/google-ads/api/fields/v13/customer_query_builder), which can be used for any resource, in our case `customer`.
+
+![Google Ads Query Builder](/assets/r_mage_gcp_build-customer-query.jpg)
+
+Below you can select attributes, segments, or metrics:
+
+![Google Ads Query Builder](/assets/r_mage_gcp_select-attributes-segments-metrics.jpg)
+
+When you select fields, it will start populating the query in the user interface of the builder.
+
+This is very useful to know what the metrics and dimensions are called in the Google Ads API.
+
+Here is the final part of our Data loader block, which should always be a variable containing data, as we have to pass something to the next block.
+
+``` {r}
+# return data
+google_ads_account_data
+```
+
+Here is the complete code block we’re working with:
+
+``` {r}
+library("pacman")
+p_load(rgoogleads)
+p_load(dplyr)
+p_load(purrr)
+
+load_data <- function() {
+    # Specify your data loading logic here
+    # Return value: loaded dataframe
+    
+    # load Google Ads access token
+    my_token = readRDS(file = "google_ads_token_mage_demo.RDS")
+    
+    # Authenticate with the token
+    gads_auth(token = my_token)
+    
+    # Set the Google Ads account id you want to get data from
+    gads_set_customer_id('123-123-1234')
+
+    # run query
+    google_ads_account_data = gads_get_report(
+      resource    = "customer",
+      fields      = c("segments.date",
+                      "metrics.impressions",
+                      "metrics.clicks",
+                      "metrics.cost_micros"),
+      date_from   = "2023-10-19",
+      date_to     = "2023-11-01"
+    )
+
+# return data for next block
+google_ads_account_data
+}
+```
+
+If you run this code, you should be able to see clicks, cost, and impressions segmented by date.
+
+![Google Ads Data](/assets/r_mage_gcp_ads-data-table.jpg)
+
+We’re now done with this Data Loader block. Next, let’s move on to **transformers**.
+
+
 
 ## Step 7: How to export data to Google BigQuery in a production environment
 
