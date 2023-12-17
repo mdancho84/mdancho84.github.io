@@ -16,7 +16,7 @@ image: "/assets/073_statistical_test_selection.jpg"
 image_preview: "/assets/073_statistical_test_selection.jpg"
 
 ---
-Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter). In today's R-Tip, I'm sharing how to do A/B Testing in R using the `infer` package. Let's go!
+Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter). In today's R-Tip, I'm sharing how to do A/B Testing in R. Let's go!
 
 ### Table of Contents
 
