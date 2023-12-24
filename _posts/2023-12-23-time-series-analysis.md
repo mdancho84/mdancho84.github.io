@@ -48,6 +48,21 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
     <!-- <li><a href="https://youtu.be/fkwKQi7skAw">YouTube Tutorial</a></li>-->
 </ul>
 
+# My dirty little secret... How I 2x-ed my salary in 3 years using Time Series Analysis
+
+It was 2015. I was working for a manufacturer that supplied products for Oil and Gas. The company was struggling. The price of oil had dropped from $100 to $30 leading to the worst performance in over 2 decades.
+
+
+![Oil Price and Product Sales](/assets/075_price_of_oil.jpg)
+
+I was working on a project to forecast product sales when I stumbled upon something. I found that the sales for certain products were highly correlated with the 3-month lag of the price of oil.
+
+With this information, I was able to forecast sales for the next 3 months with 95% accuracy. This was a game-changer for the company. We were able to forecast sales and adjust production to meet demand.
+
+**Impact on my career:** This led to 3 promotions in 3 years. I went from a Manager of Sales to the Director of Sales and Engineering leading 60+ person sales team when I left in 2018. But I had a secret...
+
+**My dirty little secret:** Behind the scenes I was using R and time series analysis to get ahead in my career. Specifically, I used autocorrelation and partial autocorrelation to find the signal. The same techniques that you're learning today.
+
 
 # What is Time Series Analysis?
 
