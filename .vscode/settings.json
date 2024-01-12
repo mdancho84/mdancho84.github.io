@@ -1,3 +1,4 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "julia.environmentPath": "/Users/mdancho/Google Drive/GitHub/mdancho84.github.io"
 }
