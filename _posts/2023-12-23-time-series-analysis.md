@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to Time Series Analysis (with applications in R)"
+title: "The Top 5 Time Series Concepts (that helped me the most in my career)"
 date: 2023-12-23 9:20:00 -0500
 excerpt: "Hey guys, welcome back to my R-tips newsletter. In today's lesson, I'm sharing how to do Time Series Analysis in R. Let's go!" 
 author: Matt Dancho
