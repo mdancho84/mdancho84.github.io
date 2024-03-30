@@ -15,7 +15,7 @@
 **How To Join:** [**👉 Register Here**](https://learn.business-science.io/registration-2-page?el=website)
 -->
 
-# SPECIAL ANNOUNCEMENT: ChatGPT for Data Scientists Workshop on March 27th
+# SPECIAL ANNOUNCEMENT: ChatGPT for Data Scientists Workshop on April 24th
 
 [Inside the workshop](https://learn.business-science.io/registration-chatgpt-2?el=website) I'll share how I built a Machine Learning Powered Production Shiny App with `ChatGPT` (extends this data analysis to an *insane* production app):
 
@@ -23,7 +23,7 @@
 
 **What:** ChatGPT for Data Scientists
 
-**When:** Wednesday March 27th, 2pm EST
+**When:** Wednesday April 24th, 2pm EST
 
 **How It Will Help You:** Whether you are new to data science or are an expert, ChatGPT is changing the game. There's a ton of hype. But how can ChatGPT actually help you become a better data scientist and help you stand out in your career? I'll show you inside [my free chatgpt for data scientists workshop](https://learn.business-science.io/registration-chatgpt-2?el=website). 
 
