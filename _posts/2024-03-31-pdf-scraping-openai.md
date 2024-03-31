@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "How to Scrape PDF Text and Summarize It with OpenAI (in R)"
+title: "How to Scrape PDF Text and Summarize It with OpenAI LLMs (in R)"
 date: 2024-03-31 10:00:00 -0500
-excerpt: "Hey guys, welcome back to my R-tips newsletter. In today's lesson, I'm sharing how to scrape a PDF financial statement. Then I'll show you how to summarize it with OpenAI in R. Let's go!" 
+excerpt: "Hey guys, welcome back to my R-tips newsletter. In today's lesson, I'm sharing how to scrape a PDF financial statement. Then I'll show you how to summarize it with OpenAI LLMs in R. Let's go!" 
 author: Matt Dancho
 categories:
 - Code-Tools
@@ -12,20 +12,20 @@ tags:
 - R
 - R-Tips
 - OpenAI
-image: "/assets/078_pdf_scraping_openai_thumb.jpg"
-image_preview: "/assets/078_pdf_scraping_openai_thumb.jpg"
+image: "/assets/078_pdf_scraping_openai_thumb_1.jpg"
+image_preview: "/assets/078_pdf_scraping_openai_thumb_1.jpg"
 
 ---
-Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter). Businesses are sitting on a mountain of unstructured data. The biggest culprit is PDF Documents. Today, I'm going to share how to PDF Scrape text and use OpenAI's API to summarize it in R. 
+Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter). Businesses are sitting on a mountain of unstructured data. The biggest culprit is PDF Documents. Today, I'm going to share how to PDF Scrape text and use OpenAI's Large Language Models (LLMs) to summarize it in R. 
 
 ### Table of Contents
 
 Here's what you're learning today:
 
 * **How to scrape PDF Documents** I'll explain how to scrape the text from your business's PDF Documents using `pdftools`.
-* **How I summarize PDF's using the OpenAI API in R**. This will blow your mind.
+* **How I summarize PDF's using the OpenAI LLMs in R**. This will blow your mind.
 
-![XGBoost R Code](/assets/078_pdf_scraping_openai_thumb.jpg)
+![XGBoost R Code](/assets/078_pdf_scraping_openai_thumb_1.jpg)
 
 <p class="text-center date"><a href="https://learn.business-science.io/r-tips-newsletter?el=website" target="_blank">Get the Code (In the R-Tip 078 Folder)</a></p>
 
@@ -69,7 +69,7 @@ One easy way is in R!
 This is a simple 2 step process we'll cover today:
 
 1. **Extract PDF Text:** We'll use `pdftools` to extract text
-2. **Summarize Text with OpenAI:** We'll use `httr` to connect to OpenAI's API and summarize our PDF document
+2. **Summarize Text with OpenAI's LLMs:** We'll use `httr` to connect to OpenAI's API and summarize our PDF document
 
 ## Business Objective:
 
@@ -111,7 +111,7 @@ With our project set up and libraries loaded, next I'm extracting the PDF text. 
 
 This returns a list of text for 147 pages in Meta's 10K Financial Statement. You can see the text on each page by cycling through `text[1]`, `text[2]` and so on. 
 
-## Step 2: Summarize the PDF Document with OpenAI
+## Step 2: Summarize the PDF Document with OpenAI LLMs
 
 **A common task:** I want to know what risks Meta has identified in their 10K Financial Statement. This is required by the SEC. But, I don't want to have to dig through the document. 
 
