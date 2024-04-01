@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Scrape PDF Text and Summarize It with OpenAI LLMs (in R)"
+title: "How to Scrape PDF Documents and Search PDFs with OpenAI LLMs (in R)"
 date: 2024-03-31 10:00:00 -0500
 excerpt: "Hey guys, welcome back to my R-tips newsletter. In today's lesson, I'm sharing how to scrape a PDF financial statement. Then I'll show you how to summarize it with OpenAI LLMs in R. Let's go!" 
 author: Matt Dancho
