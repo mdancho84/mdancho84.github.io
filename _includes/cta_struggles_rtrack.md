@@ -1,16 +1,4 @@
-# Struggling to become a data scientist?
-
-You know the feeling. Being unhappy with your current job.
-
-Promotions aren't happening. You're stuck. Feeling Hopeless. Confused...
-
-And you're praying that the next job interview will go better than the last 12...
-
-... But you know it won't. Not unless you take control of your career.
-
-The good news is...
-
-# I Can Help You Speed It Up.
+# Need to advance your business data science skills?
 
 I've helped 6,107+ students learn data science for business from an elite business consultant's perspective.
 
