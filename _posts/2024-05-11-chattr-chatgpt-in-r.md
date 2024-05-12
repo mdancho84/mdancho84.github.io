@@ -17,14 +17,14 @@ image: "/assets/080_chatgpt_in_r.jpg"
 image_preview: "/assets/080_chatgpt_in_r.jpg"
 
 ---
-Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter?el=website). ChatGPT is a massive productivity enhancer. But it's felt like VSCode, which integrates AI via GitHub Copilot, is moving faster than the RStudio IDE when it comes to integrating AI. Fortunately, I stumbled upon a new R package that integrates ChatGPT in R. It's called `chattr`, and I'm sharing how to get started in under 5 minutes. Let's go!
+Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter?el=website). ChatGPT is a massive productivity enhancer. Lately it's felt like VSCode, which integrates AI via GitHub Copilot, is moving faster than the RStudio IDE when it comes to integrating AI. Fortunately, I stumbled upon a new R package that **integrates ChatGPT in R via RStudio IDE**. It's called `chattr`, and I'm sharing how to get started in under 5 minutes. Let's go!
 
 ### Table of Contents
 
 Here's what you're learning today:
 
-* **What is chattr?** You'll discover what is
-* **Benefits of using Chattr** How chattr provides additional context to OpenAI ChatGPT and GitHub Copilot LLMs
+* **What is chattr?** You'll discover what `chattr` is and how it brings LLMs to RStudio
+* **Benefits of using Chattr** How `chattr` provides additional context to OpenAI ChatGPT and GitHub Copilot LLMs from inside RStudio
 * **How to get ChatGPT inside of RStudio** You'll install `chattr` and set up ChatGPT inside of Rstudio
 * **Make a quick Shiny App with chattr** I'll explain how to make your first shiny app to explore your dataset.
 
@@ -60,7 +60,7 @@ Chattr provides integration to many common models including OpenAI's GPT models,
 
 Once set up, you can use an LLM widget inside of RStudio IDE:
 
-# Benefits of using Chattr
+# Benefits of using Chattr: Knowledge of Your RStudio Environment
 
 `chattr` enriches your request with additional instructions, name and structure of data frames currently in your environment, the path for the data files in your working directory. If supported by the model, chattr will include the current chat history.
 
