@@ -17,6 +17,7 @@ image: "/assets/080_chatgpt_in_r.jpg"
 image_preview: "/assets/080_chatgpt_in_r.jpg"
 
 ---
+
 Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.io/r-tips-newsletter?el=website). ChatGPT is a massive productivity enhancer. Lately it's felt like VSCode, which integrates AI via GitHub Copilot, is moving faster than the RStudio IDE when it comes to integrating AI. Fortunately, I stumbled upon a new R package that **integrates ChatGPT in R via RStudio IDE**. It's called `chattr`, and I'm sharing how to get started in under 5 minutes. Let's go!
 
 ### Table of Contents
