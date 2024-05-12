@@ -13,8 +13,8 @@ tags:
 - R-Tips
 - chattr
 - chatgpt
-image: "/assets/080_chatgpt_in_r.jpg"
-image_preview: "/assets/080_chatgpt_in_r.jpg"
+image: "/assets/080_chatgpt_in_r_2.jpg"
+image_preview: "/assets/080_chatgpt_in_r_2.jpg"
 
 ---
 
@@ -29,7 +29,7 @@ Here's what you're learning today:
 * **How to get ChatGPT inside of RStudio** You'll install `chattr` and set up ChatGPT inside of Rstudio
 * **Make a quick Shiny App with chattr** I'll explain how to make your first shiny app to explore your dataset.
 
-![Chattr](/assets/080_chattr_code.jpg)
+![Chattr](/assets/080_chatgpt_in_r_2.jpg)
 
 <p class="text-center date"><a href="https://learn.business-science.io/r-tips-newsletter?el=website" target="_blank">Get the Code (In the R-Tip 080 Folder)</a></p>
 
