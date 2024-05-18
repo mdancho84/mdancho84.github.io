@@ -2,7 +2,7 @@
 layout: post
 title: "How to Get ChatGPT in R with chattr"
 date: 2024-05-11 18:00:00 -0500
-excerpt: "Hey guys, welcome back to my R-tips newsletter. In today's lesson, I'm sharing how to get ChatGPT in R with `chattr`. Let's go!" 
+excerpt: "Hey guys, welcome back to my R-tips newsletter. In today's lesson, I'm sharing how to get ChatGPT in R with chattr. Let's go!" 
 author: Matt Dancho
 categories:
 - Code-Tools
