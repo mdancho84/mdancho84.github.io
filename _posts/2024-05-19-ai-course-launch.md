@@ -125,5 +125,7 @@ Your Friendly Neighborhood Data Scientist,
 
 -- Matt Dancho
 
+![Generative AI for Data Scientists](/assets/ai_course_launch_agents.jpg)
+
 <p style="font-size:30px;text-align:center; margin-left:auto;margin-right:auto;"><a href="https://learn.business-science.io/python-generative-ai-apps?el=website">Join the AI Course Waitlist + Live Event Registration</a>
 </p>
