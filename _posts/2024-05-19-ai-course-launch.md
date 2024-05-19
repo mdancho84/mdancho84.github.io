@@ -22,13 +22,15 @@ Hey guys, I have a special announcement. I'm gearing up for the [launch of my ne
 
 # Table of Contents
 
-* **Course Launch Event** Our insane launch event where we share tons of research and open up the course
+* **Course Launch Event:** Our insane launch event where we share tons of research and open up the course
 
 * **4-Minute Video: Building an AI Business Intelligence Copilot:** Get a sneak peek at one of the course projects
 
 * **Why learn Generative AI if you're a Data Professional?** This is what I've discovered about AI.
 
-* **Next Steps** How to attend the live event for free.
+* **Bonus:** How to get my Python AI Cheat Sheet for free.
+
+* **Next Steps:** How to attend the live event for free.
 
 
 # Special Announcement: Generative AI Course Launch on May 30th
@@ -105,6 +107,12 @@ This course is like no other where I will teach you how to complete 4 AI project
 ![Supervisor Bot](/assets/ai_course_project_3_hierarchical_bot.jpg)
 
 Exactly what companies have told me they need.
+
+# Bonus: Python AI Cheat Sheet
+
+To combat the "AI Ecosystem is Growing Fast" Problem, I spent a full day upgrading my Ultimate Python Cheat Sheet. It has a new 3rd page "Generative AI and LLMs". Those who [attend the course launch event](https://learn.business-science.io/python-generative-ai-apps?el=website) will get it for free!
+
+![New Python AI Cheat Sheet](/assets/ai_course_cheatsheet.jpeg)
 
 # Next Step: Join me on May 30th
 
