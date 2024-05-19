@@ -20,6 +20,16 @@ image_preview: "/assets/ai_course_launch_agents.jpg"
 
 Hey guys, I have a special announcement. I'm gearing up for the [launch of my new course: Generative AI for Data Scientists](https://learn.business-science.io/python-generative-ai-apps?el=website)! In just **11 days**, my new course will be live. Here's everything you need to know.
 
+# Table of Contents
+
+* **Course Launch Event** Our insane launch event where we share tons of research and open up the course
+
+* **4-Minute Video: Building an AI Business Intelligence Copilot:** Get a sneak peek at one of the course projects
+
+* **Why learn Generative AI if you're a Data Professional?** This is what I've discovered about AI.
+
+* **Next Steps** How to attend the live event for free.
+
 
 # Special Announcement: Generative AI Course Launch on May 30th
 
@@ -28,24 +38,13 @@ Hey guys, I have a special announcement. I'm gearing up for the [launch of my ne
 ![Generative AI for Data Scientists](/assets/ai_course_launch_agents.jpg)
 
 
-**What:** Generative AI for Data Scientists
+**What:** Generative AI for Data Scientists Course Launch Event
 
 **When:** Thursday May 30th, 2pm EST
 
 **How It Will Help You:** Whether you are new to data science or are an expert, AI is changing the game. There's a ton of hype. But how can AI actually help you become a better data scientist and help you avoid layoffs and stand out in your career? I'll show you inside [my live course launch event](https://learn.business-science.io/python-generative-ai-apps?el=website). 
 
-**Price:** Does **Free** sound good?
-
-**How To Join:** [**👉 Register Here**](https://learn.business-science.io/python-generative-ai-apps?el=website)
-
-
-# Table of Contents
-
-* **4-Minute Video: Building an AI Business Intelligence Copilot:** Get a sneak peek at one of the course projects
-
-* **Why learn Generative AI if you're a Data Professional?** This is what I've discovered about AI.
-
-* **Next Steps** How to attend the live event for free.
+**How To Join The Launch Event:** [**👉 Register Here**](https://learn.business-science.io/python-generative-ai-apps?el=website)
 
 
 # 4-Minute Video: Building an AI Business Intelligence Copilot 👇
@@ -127,5 +126,5 @@ Your Friendly Neighborhood Data Scientist,
 
 ![Generative AI for Data Scientists](/assets/ai_course_launch_agents.jpg)
 
-<p style="font-size:30px;text-align:center; margin-left:auto;margin-right:auto;"><a href="https://learn.business-science.io/python-generative-ai-apps?el=website">Join the AI Course Waitlist + Live Event Registration</a>
+<p style="font-size:30px;text-align:center; margin-left:auto;margin-right:auto;"><a href="https://learn.business-science.io/python-generative-ai-apps?el=website"><strong>Join the AI Course Waitlist + Live Event Registration</strong></a>
 </p>
