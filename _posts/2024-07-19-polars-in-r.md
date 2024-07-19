@@ -89,6 +89,8 @@ For background, as of a year ago I began work on `pytimetk`, which replicates ma
 
 We've published [our performance results here.](https://business-science.github.io/pytimetk/performance/01_speed_comparisons.html)
 
+![Polars Beats Pandas](/assets/082_polars_beats_pandas.jpg)
+
 1. **Rolling Operations:** Polars can be 10X to 3500X faster than Pandas
 
 2. **Expanding Operations:** 3X to 500X Faster
