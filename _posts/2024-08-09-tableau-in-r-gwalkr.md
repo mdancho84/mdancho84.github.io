@@ -12,8 +12,8 @@ tags:
 - R
 - R-Tips
 - GWalkR
-image: "/assets/083_tableau_in_r_gwalkr.jpg"
-image_preview: "/assets/083_tableau_in_r_gwalkr.jpg"
+image: "/assets/GWalkR.jpg"
+image_preview: "/assets/GWalkR.jpg"
 
 ---
 
@@ -27,7 +27,7 @@ Here's what you're learning today:
 * **How I Replaced Tableau with GWalkR (A $0 Alternative):** How I use GWalkR to replace Tableau
 * **How to use GWalkR inside of R to Make 4 Common Plots:** I have prepared a full R code tutorial ([get the code and data here](https://learn.business-science.io/r-tips-newsletter?el=website)).
 
-![Tableau in R: GWalkR](/assets/083_tableau_in_r_gwalkr.jpg)
+![Tableau in R: GWalkR](/assets/GWalkR.jpg)
 
 <p class="text-center date"><a href="https://learn.business-science.io/r-tips-newsletter?el=website" target="_blank">Get the Code (In the R-Tip 083 Folder)</a></p>
 
