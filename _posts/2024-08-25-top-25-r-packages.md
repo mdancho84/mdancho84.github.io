@@ -27,7 +27,7 @@ Here's what you're learning today:
 
 ![Top 25 R Packages](/assets/top_25_r_packages.jpg)
 
-<p class="text-center date"><a href="https://learn.business-science.io/r-tips-newsletter?el=website" target="_blank">Get the Code (In the R-Tip 083 Folder)</a></p>
+<p class="text-center date"><a href="https://learn.business-science.io/r-tips-newsletter?el=website" target="_blank">Join the R-Tips Newsletter for a Deep Dive into the Top 25 R Packages in 2024 and 2025</a></p>
 
 ---
 
