@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "A Gentle Introduction to K-Means Clustering in R (Feat. Tidyclust)"
+title: "K-Means Clustering in R the Tidy Way (Feat. Tidyclust)"
 date: 2023-07-06 09:00:00 -0500
-excerpt: "Need to cluster your customers? I've been playing around with a new R package that makes it super simple. It's called Tidyclust." 
+excerpt: "Need to cluster faster? I've been playing around with a new R package that makes it super simple. It's called Tidyclust." 
 author: Matt Dancho
 categories:
 - Code-Tools
