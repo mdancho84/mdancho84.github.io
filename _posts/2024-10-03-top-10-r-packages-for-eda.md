@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Top 10 R Packages for Exploratory Data Analysis (EDA) (Bookmark this!)"
-date: 2024-11-38 09:00:00 -0500
+date: 2024-11-03 11:33:00 -0500
 excerpt: "Enhance your data analysis workflow with these top 10 R packages for exploratory data analysis (EDA). Discover how to gain deeper insights into your data using tools like skimr, psych, corrplot, and more."
 author: Matt Dancho
 categories:
