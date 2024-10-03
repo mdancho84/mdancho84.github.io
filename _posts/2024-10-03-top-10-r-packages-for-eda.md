@@ -22,20 +22,22 @@ Hey guys, welcome back to my [R-tips newsletter](https://learn.business-science.
 
 Here's what you're learning today:
 
-- Importance of Exploratory Data Analysis
+- **Importance of Exploratory Data Analysis**
 
-- Top 10 R Packages for EDA:
-    - skimr
-    - psych
-    - corrplot
-    - PerformanceAnalytics
-    - GGally
-    - DataExplorer
-    - summarytools
-    - SmartEDA
-    - janitor
-    - inspectdf
+- **Top 10 R Packages for EDA:**
+    - `skimr`
+    - `psych`
+    - `corrplot`
+    - `PerformanceAnalytics`
+    - `GGally`
+    - `DataExplorer`
+    - `summarytools`
+    - `SmartEDA`
+    - `janitor`
+    - `inspectdf`
   
+- **BONUS: 5 More Underrated EDA Libraries in R**
+
 - **Get the Code**: **[Join the R-Tips Newsletter](https://learn.business-science.io/r-tips-newsletter?el=website)** to get the code and stay updated.
 
 ![Analyze Your Data Faster with gt_summarytools()](/assets/086_top_10_r_packages_eda.jpg)
@@ -188,7 +190,7 @@ The `psych` package offers functions for psychological, psychometric, and person
 
 
 
-# Five (5) Underrated EDA Libraries in R:
+# Bonus: Five (5) Underrated EDA Libraries in R:
 
 I had to call it quits at 10. But here are 4 more up and coming EDA libraries that are underrated:
 
