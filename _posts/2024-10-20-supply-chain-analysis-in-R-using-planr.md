@@ -50,6 +50,10 @@ This article is part of R-Tips Weekly, a <a href="https://learn.business-science
     <li><a href="https://learn.business-science.io/r-tips-newsletter?el=website" target="_blank">Sign up for our R-Tips Newsletter and get the code.</a></li> 
 </ul>
 
+![Get the code](/assets/087_get_the_code.jpg)
+
+<p class="text-center date"><a href="https://learn.business-science.io/r-tips-newsletter?el=website" target="_blank">Get the Code (In the R-Tip 087 Folder)</a></p>
+
 
 # How to Project Inventories with the `planr` Package
 
