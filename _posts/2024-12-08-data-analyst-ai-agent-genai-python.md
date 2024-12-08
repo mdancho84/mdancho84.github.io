@@ -25,6 +25,7 @@ Hey guys, this is the first article in my [NEW GenAI / ML Tips Newsletter](https
 Here’s what you’ll learn in this article:
 
 - Why Generative AI is Transforming Data Science
+- What is a Pandas Data Frame Agent?
 - Create a Pandas DataFrame Agent
     - Setting Up the Environment
     - Loading and Exploring the Dataset
@@ -77,11 +78,31 @@ Generative AI, powered by models like OpenAI's GPT series, is reshaping the data
 
 Creating a **Pandas dataframe agent** combines the power of AI with data science, enabling you to unlock new possibilities in data exploration and interpretation from Natural Language.
 
+# What is a Pandas Data Frame Agent?
+
+A **Pandas Data Frame Agent** automates common Pandas operations from Natural Language inputs.
+
+It can be used to perform:
+
+- GroupBy + Aggregate
+- Math calculations (that normal LLMs struggle with)
+- Filters
+- Pivots
+- Window calculations
+- Resampling (Time Series)
+- Binning
+- Log Transformations
+- Summary Statistics (Mean, Median, IQR, Min/Max, Count (frequency), etc)
+
+All from Natural Language prompts.
+
 # Make A Pandas Data Frame Agent
 
 Let's walk through the steps to create a Pandas data frame agent that can answer questions about a dataset using Python, OpenAI's API, Pandas, and LangChain. 
 
 **Quick Reminder:** You can get all of the code and datasets shown in a Python Script and Jupyter Notebook when you [join my GenAI/ML Tips Newsletter](https://learn.business-science.io/free-ai-tips?el=website). 
+
+**Code Location:** `/001_pandas_dataframe_agent` 
 
 ## Step 1: Setting Up the Python Environment
 
