@@ -775,9 +775,21 @@ li{font-size:20px;font-weight: 300;}
 }
 
 @media (max-width: 475px) {
-  .nav-brand-name{
-    font-size: 11px !important;
+.nav-brand-name{
+  font-size: 11px !important;
   }
+}
+
+.dropdown-menu.multi-column {
+  padding-bottom: 0 !important;
+}
+
+.dropdown-menu.multi-column .dropdown-menu {
+  padding-bottom: 0 !important;
+}
+
+.dropdown-menu.multi-column .dropdown-menu li:last-child p {
+  margin-bottom: 0;
 }
 
 @media (max-width:991px) {
