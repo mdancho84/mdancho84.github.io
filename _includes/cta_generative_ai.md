@@ -31,8 +31,8 @@ This is a **Live 8-Week Generative AI Bootcamp** for Data Scientists that covers
 - **Week 8:** AI App Deployment With AWS Cloud
 
 <p style="font-size: 36px;text-align: center;">
-<a href="https://learn.business-science.io/generative-ai-bootcamp-enroll">
-<strong>Enroll In The Next Cohort Here</strong><br><small style="font-size:24px;">(And Become A Generative AI Data Scientist in 2025)</small>
+<a href="https://learn.business-science.io/generative-ai-bootcamp-enroll?coupon_code=500OFFAIBOOTCAMP">
+<strong>Enroll In The Next Cohort Here</strong><br><small style="font-size:24px;">(And Become A Generative AI Data Scientist in 2026)</small>
 </a>
 </p>
 
